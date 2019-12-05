@@ -492,7 +492,6 @@ textarea:focus {
   }
   .simulation .play {
     margin-top: 4rem;
-    margin-left: 6rem;
   }
   .howITworks-png3 {
     margin-top: 6rem;
@@ -541,8 +540,8 @@ textarea:focus {
   }
   .simulation .play img {
     margin-top: 3rem;
-    margin-left: -4rem;
-    width: 140%;
+    margin-left: 0rem;
+    width: 100%;
   }
   .compatibility-png {
     margin: 0 -3rem 2rem -3rem;
@@ -591,5 +590,9 @@ textarea:focus {
   }
   .yes button {
     padding: 1rem;
+  }
+  .act img {
+    width: 99%;
+    margin-left: -1rem;
   }
 }
