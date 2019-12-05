@@ -427,6 +427,8 @@ textarea:focus {
   color: #21a3af;
   -webkit-transform: translateY(-85%);
           transform: translateY(-85%);
+  width: 30px;
+  height: 30px;
 }
 .modal .for-cross {
   text-align: right;
