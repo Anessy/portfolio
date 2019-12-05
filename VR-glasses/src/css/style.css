@@ -68,8 +68,8 @@ textarea:focus {
   color: #ffffff;
 }
 .main .picture {
-  width: 90%;
-  margin: 2rem;
+  width: 100%;
+  margin-bottom: 2rem;
 }
 .main .glaces {
   display: block;
@@ -409,14 +409,25 @@ textarea:focus {
   padding: 1rem 2rem 1rem 2rem;
   margin-top: 1rem;
 }
+.modal .formFORmodal h4 {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.modal .formFORmodal .button {
+  padding: 1.5rem 5.8rem;
+}
 .modal .cross {
   border: 3px solid #21a3af;
-  border-radius: 50%;
+  border-radius: 50px;
   background-color: black;
   color: #21a3af;
-  position: relative;
-  top: -3rem;
-  right: -17rem;
+  -webkit-transform: translateY(-85%);
+          transform: translateY(-85%);
+}
+.modal .for-cross {
+  text-align: right;
+  -webkit-transform: translateX(20%);
+          transform: translateX(20%);
 }
 .modal .yes {
   background-color: black;

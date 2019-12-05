@@ -94,8 +94,8 @@ button, input, a, textarea {
 		color: @light;
 	}
 	.picture {
-		width: 90%;
-		margin: 2rem;
+		width: 100%;
+		margin-bottom: 2rem;
 	}
 	.glaces {
 		display: block;
@@ -461,15 +461,24 @@ button, input, a, textarea {
 			padding: 1rem 2rem 1rem 2rem;
 			margin-top: 1rem;
 		}
+		h4 {
+			transform: translateY(-50%);
+		}
+		.button {
+			padding: 1.5rem 5.8rem;
+		}
 	}
 	.cross {
 		border: 3px solid #21a3af;
-		border-radius: 50%;
+		border-radius: 50px;
 		background-color: black;
 		color: #21a3af;
-		position: relative;
-		top: -3rem;
-		right: -17rem;
+		transform:translateY(-85%);
+
+	}
+	.for-cross {
+		text-align: right;
+		transform: translateX(20%);
 	}
 	.yes {
 		background-color: black; 
