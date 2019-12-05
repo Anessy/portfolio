@@ -22,7 +22,7 @@ a:active {
 /* стили */
 .panel {
   margin-bottom: -0.1rem;
-  background: #000000 url(../img/bg-header.jpeg) center repeat;
+  background: #000000 url(./img/bg-header.jpeg) center repeat;
   background-size: 70%;
   color: white;
 }
@@ -59,14 +59,14 @@ a:active {
   color: white;
 }
 .first {
-  background: #ffffff url(../img/bg-1.jpg) center no-repeat;
+  background: #ffffff url(./img/bg-1.jpg) center no-repeat;
   background-size: cover;
   padding: 6.5rem 0 6.5rem 0;
 }
 .my-name {
   background-color: white;
   padding: 5rem;
-  margin: 5rem;
+  margin: 5rem 0;
 }
 .my-name h1 {
   font-family: 'Lobster', cursive;
@@ -84,7 +84,7 @@ a:active {
   max-width: 100%;
 }
 .aboute {
-  background: #ffffff url(../img/bg-2.jpg) center no-repeat;
+  background: #ffffff url(./img/bg-2.jpg) center no-repeat;
   background-size: cover;
   font-size: 2.2rem;
   padding: 3rem;
@@ -94,7 +94,7 @@ a:active {
   padding: 0 5rem 5rem 5rem;
 }
 .work-text {
-  background: #ffffff url(../img/bg-3.jpg) center repeat;
+  background: #ffffff url(./img/bg-3.jpg) center repeat;
   background-size: 35%;
   font-size: 2rem;
   color: black;
@@ -108,7 +108,7 @@ a:active {
   background-color: black;
 }
 .skills {
-  background: #ffffff url(../img/bg-4.jpg) right no-repeat;
+  background: #ffffff url(./img/bg-4.jpg) right no-repeat;
   background-size: 55%;
   padding: 0 5rem 5rem 5rem;
   margin: 5rem 0 5rem 0;
@@ -120,7 +120,7 @@ a:active {
   font-size: 2rem;
   list-style: none;
   /* Убираем исходные маркеры */
-  background: url(../img/yes.svg) 0 0 no-repeat;
+  background: url(./img/yes.svg) 0 0 no-repeat;
   /* Параметры фона */
   background-size: 2%;
   padding-left: 3rem;
