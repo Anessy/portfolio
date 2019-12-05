@@ -68,8 +68,8 @@ textarea:focus {
   color: #ffffff;
 }
 .main .picture {
-  width: 100%;
-  margin: 0 5rem 2rem -6rem;
+  width: 90%;
+  margin: 2rem;
 }
 .main .glaces {
   display: block;
@@ -491,9 +491,6 @@ textarea:focus {
   .header {
     text-align: center;
   }
-  .main .picture {
-    width: 70%;
-  }
   .main .glasses {
     width: 90%;
   }
@@ -508,7 +505,7 @@ textarea:focus {
     padding-left: 3.5rem;
   }
   .useful-shark img {
-    width: 140%;
+    width: 90%;
   }
   .order form p {
     margin-top: 1rem;
