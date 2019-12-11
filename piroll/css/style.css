@@ -1,0 +1,436 @@
+* {
+  font-size: 10px;
+}
+.button button {
+  background-color: #4ad2cd;
+  color: white;
+  border: none;
+  width: 100%;
+  font-size: 1.4rem;
+  padding: 1.7rem;
+}
+.button button:active,
+.button button:focus {
+  outline: none;
+}
+.button button:active {
+  background-color: #0da9a4;
+}
+.main {
+  background: url(../img/bg-banner.jpg) center no-repeat;
+  background-size: cover;
+  padding-bottom: 20rem;
+}
+.main .header {
+  margin-top: 2.5rem;
+}
+.main .header a {
+  margin: 1rem;
+  font-size: 1.3rem;
+  color: black;
+  font-weight: 600;
+}
+.main .header a:hover {
+  color: #4ad2cd;
+  text-decoration: none;
+  font-weight: 600;
+}
+.main .header img {
+  width: 100%;
+}
+.main .banner {
+  margin: 2rem 0;
+  padding: 2rem 0;
+}
+.main .banner p {
+  font-size: 1.4rem;
+  color: #a5a4a4;
+  margin: 2.2rem 0;
+}
+.about {
+  text-align: center;
+  padding: 6rem;
+}
+.about p {
+  color: #a5a4a4;
+  font-size: 1.4rem;
+  margin: 2.2rem 0;
+}
+.skillsBG {
+  background: url(../img/bg-skills.jpg) center no-repeat;
+  background-size: cover;
+}
+.skills {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.05)));
+  background: linear-gradient(rgba(0, 0, 0, 0.05));
+  padding: 10rem;
+  border: 1px dotted #a5a4a4;
+}
+.skills p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+.skills .parrent {
+  width: 100%;
+  height: 2px;
+  background: #dad9d9;
+  margin: 5px;
+}
+.skills .child {
+  height: 100%;
+  background: #4ad2cd;
+  border-bottom-right-radius: 10px;
+}
+.skills .design {
+  width: 75%;
+}
+.skills .development {
+  width: 90%;
+}
+.skills .marketing {
+  width: 65%;
+}
+.numbers {
+  padding: 10rem 0;
+  background-color: #4ad2cd;
+  color: white;
+}
+.numbers p {
+  display: inline-block;
+  font-size: 1.3rem;
+  padding: 0rem 1rem;
+  margin: 0;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+.numbers .case {
+  margin: 2rem 0;
+}
+/* -------------------------------- 
+
+Modal Window
+
+-------------------------------- */
+.cd-modal {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  visibility: hidden;
+  -webkit-transition: visibility 0s 0.6s;
+  transition: visibility 0s 0.6s;
+}
+.cd-modal svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.cd-modal svg > path {
+  fill: #4ad2cd;
+}
+.cd-modal .modal-close {
+  /* 'X' icon */
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  right: 5%;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.07) url(../img/cd-icon-close.svg) no-repeat center center;
+  /* image replacement */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  /* Force hardware acceleration*/
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 0.3s 0s, visibility 0s 0.3s, opacity 0.3s 0s;
+  -webkit-transition: visibility 0s 0.3s, opacity 0.3s 0s, -webkit-transform 0.3s 0s;
+  transition: visibility 0s 0.3s, opacity 0.3s 0s, -webkit-transform 0.3s 0s;
+  transition: transform 0.3s 0s, visibility 0s 0.3s, opacity 0.3s 0s;
+  transition: transform 0.3s 0s, visibility 0s 0.3s, opacity 0.3s 0s, -webkit-transform 0.3s 0s;
+}
+.no-touch .cd-modal .modal-close:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.cd-modal.modal-is-visible {
+  visibility: visible;
+  -webkit-transition: visibility 0s 0s;
+  transition: visibility 0s 0s;
+}
+.cd-modal.modal-is-visible .modal-close {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: -webkit-transform 0.3s 0s, visibility 0s 0s, opacity 0.3s 0s;
+  -webkit-transition: visibility 0s 0s, opacity 0.3s 0s, -webkit-transform 0.3s 0s;
+  transition: visibility 0s 0s, opacity 0.3s 0s, -webkit-transform 0.3s 0s;
+  transition: transform 0.3s 0s, visibility 0s 0s, opacity 0.3s 0s;
+  transition: transform 0.3s 0s, visibility 0s 0s, opacity 0.3s 0s, -webkit-transform 0.3s 0s;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.cd-modal-content {
+  position: relative;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 3em 5% 4em;
+  opacity: 0;
+  -webkit-transform: translateY(50px);
+  transform: translateY(50px);
+  -webkit-transition: opacity 0.3s 0s, -webkit-transform 0.3s 0s;
+  transition: opacity 0.3s 0s, -webkit-transform 0.3s 0s;
+  transition: opacity 0.3s 0s, transform 0.3s 0s;
+  transition: opacity 0.3s 0s, transform 0.3s 0s, -webkit-transform 0.3s 0s;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.cd-modal-content p {
+  color: #f2f2f2;
+  line-height: 1.6;
+  margin: 2em 0;
+}
+.modal-is-visible .cd-modal-content {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-overflow-scrolling: touch;
+  -webkit-transition: opacity 0.3s 0.3s, -webkit-transform 0.3s 0.3s;
+  transition: opacity 0.3s 0.3s, -webkit-transform 0.3s 0.3s;
+  transition: opacity 0.3s 0.3s, transform 0.3s 0.3s;
+  transition: opacity 0.3s 0.3s, transform 0.3s 0.3s, -webkit-transform 0.3s 0.3s;
+}
+@media only screen and (min-width: 768px) {
+  .cd-modal-content {
+    padding: 3em 10% 4em;
+  }
+  .cd-modal-content p {
+    font-size: 2.4rem;
+  }
+}
+/*---------------------------*/
+.load-more {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 2.5rem 0;
+}
+.load-more a {
+  color: #a5a4a4;
+}
+.load-more a:hover,
+.load-more a:focus,
+.load-more a:visited {
+  text-decoration: none;
+}
+.load-more a:hover,
+.load-more a:focus {
+  color: #a19f9f;
+}
+.work-picture {
+  display: inline-block;
+  width: 19.5%;
+}
+.work img {
+  width: 100%;
+}
+.MyModal {
+  width: 100%;
+  height: 100%;
+  background-color: #4ad2cd;
+}
+.process {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  padding-bottom: 40%;
+  background-color: #f5f5f5;
+}
+.process h1 {
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+.process p {
+  margin-bottom: 3rem;
+  font-size: 1.4rem;
+  color: #a5a4a4;
+}
+.process-child {
+  position: absolute;
+  width: 60%;
+  height: 75%;
+  top: 30%;
+  left: 20%;
+  padding-bottom: 12rem;
+}
+.process-child iframe {
+  height: 100%;
+  width: 100%;
+  border: 1px dotted #4ad2cd;
+}
+.services {
+  text-align: center;
+  color: #a5a4a4;
+}
+.services .window {
+  width: 90%;
+}
+.services img {
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+}
+.services .mainTEXT {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.services .secondTEXT {
+  font-size: 1.1rem;
+}
+.testimonials {
+  background-color: #4ad2cd;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  padding-bottom: 50%;
+}
+.FORfotorama {
+  position: absolute;
+  width: 60%;
+  height: 75%;
+  top: 10%;
+  left: 20%;
+}
+.FORfotorama .fotorama {
+  text-align: center;
+  padding-bottom: 2rem;
+  background: #4ad2cd url(../img/testimonials/0.jpg) center no-repeat;
+  color: white;
+}
+.FORfotorama .fotorama p {
+  font-size: 2.1rem;
+}
+.FORfotorama .fotorama .fotoramaTEXT {
+  padding-top: 25%;
+}
+.FORfotorama .fotorama h1 {
+  font-family: 'Pattaya', sans-serif;
+  text-align: center;
+  letter-spacing: 5px;
+}
+.clients {
+  margin: 4rem 0;
+}
+.clients h4 {
+  margin: 4rem 0;
+  color: #4ad2cd;
+  text-align: left;
+}
+.clients .clientsPICTURE {
+  text-align: center;
+  width: 19%;
+  display: inline-block;
+}
+.need {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 5rem 0;
+}
+.need .needREXT {
+  text-align: center;
+}
+.need .needREXT p {
+  font-size: 1.2rem;
+  margin: 2rem 0;
+}
+/* стили формы */
+form .row {
+  display: block;
+  padding: 7px 8px;
+  margin-bottom: 7px;
+}
+form .req {
+  color: #ca5354;
+}
+form .note {
+  font-size: 1.2em;
+  line-height: 1.33em;
+  font-weight: normal;
+  padding: 2px 7px;
+  margin-bottom: 10px;
+}
+form input:focus,
+form textarea:focus {
+  outline: none;
+}
+/* placeholder styles: http://stackoverflow.com/a/2610741/477958 */
+::-webkit-input-placeholder {
+  color: #aaafbd;
+  font-style: italic;
+}
+/* WebKit */
+:-moz-placeholder {
+  color: #aaafbd;
+  font-style: italic;
+}
+/* Mozilla Firefox 4 to 18 */
+::-moz-placeholder {
+  color: #aaafbd;
+  font-style: italic;
+}
+/* Mozilla Firefox 19+ */
+:-ms-input-placeholder {
+  color: #aaafbd;
+  font-style: italic;
+}
+/* Internet Explorer 10+ */
+form .txt {
+  display: inline-block;
+  padding: 8px 9px;
+  padding-right: 30px;
+  width: 100%;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1.35em;
+  font-weight: normal;
+  color: #898989;
+  border: none;
+}
+textarea {
+  display: inline-block;
+  margin-bottom: 3rem;
+  width: 100%;
+  height: 15rem;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1.35em;
+  font-weight: normal;
+  color: #898989;
+  border: none;
+}
+/* стили формы конец */
+.contacts {
+  padding: 4rem 0;
+  background-color: black;
+  color: white;
+}
+.contacts p {
+  font-size: 1.4rem;
+}
+.contacts .maps iframe {
+  width: 100%;
+  height: 30rem;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.contacts .vhod {
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 100%;
+}
