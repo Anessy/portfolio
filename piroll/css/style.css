@@ -17,7 +17,7 @@
   background-color: #0da9a4;
 }
 .main {
-  background: url(../img/bg-banner.jpg) center no-repeat;
+  background: url(../img/first-bg.jpg) center no-repeat;
   background-size: cover;
   padding-bottom: 20rem;
 }
@@ -44,7 +44,7 @@
 }
 .main .banner p {
   font-size: 1.4rem;
-  color: #a5a4a4;
+  color: black;
   margin: 2.2rem 0;
 }
 .about {
@@ -57,7 +57,7 @@
   margin: 2.2rem 0;
 }
 .skillsBG {
-  background: url(../img/bg-skills.jpg) center no-repeat;
+  background: url(../img/second-bg.jpg) center no-repeat;
   background-size: cover;
 }
 .skills {
