@@ -471,3 +471,13 @@ textarea {
 .formModal-min {
   background-color: rgba(0, 0, 0, 0.4);
 }
+/* ================================== */
+/* на всех экранах меньше 1200px */
+@media (max-width: 767px) {
+  .process-child {
+    top: 19rem;
+  }
+  .FORfotorama {
+    top: 10rem;
+  }
+}
