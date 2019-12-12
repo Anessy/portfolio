@@ -297,6 +297,11 @@ Modal Window
 .services {
   text-align: center;
   color: #a5a4a4;
+  padding: 5rem;
+}
+.services h2 {
+  display: inline-block;
+  border-bottom: 2px solid #4ad2cd;
 }
 .services .window {
   width: 90%;
@@ -318,6 +323,10 @@ Modal Window
   position: relative;
   width: 100%;
   padding-bottom: 50%;
+}
+.testimonials h2 {
+  color: white;
+  padding-top: 3.5rem;
 }
 .FORfotorama {
   margin-top: -4rem;
@@ -351,14 +360,15 @@ Modal Window
   margin: 4rem 0;
 }
 .clients h4 {
-  margin: 4rem 0;
+  margin: 2rem 0;
   color: #4ad2cd;
-  text-align: left;
+  text-align: center;
 }
 .clients .clientsPICTURE {
   text-align: center;
-  width: 19%;
+  width: 100%;
   display: inline-block;
+  margin-top: 3rem;
 }
 .need {
   text-align: center;
@@ -454,4 +464,10 @@ textarea {
   border: 2px solid white;
   border-radius: 10px;
   width: 100%;
+}
+.formModal {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.formModal-min {
+  background-color: rgba(0, 0, 0, 0.4);
 }
