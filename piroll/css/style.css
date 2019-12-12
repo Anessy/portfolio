@@ -16,6 +16,11 @@
 .button button:active {
   background-color: #0da9a4;
 }
+.logo {
+  font-family: 'Satisfy', cursive;
+  color: white;
+  font-size: 4rem;
+}
 .main {
   background: url(../img/first-bg.jpg) center no-repeat;
   background-size: cover;
