@@ -317,17 +317,21 @@ Modal Window
   padding-bottom: 50%;
 }
 .FORfotorama {
+  margin-top: -4rem;
   position: absolute;
   width: 60%;
   height: 75%;
-  top: 10%;
+  top: 0%;
   left: 20%;
 }
 .FORfotorama .fotorama {
   text-align: center;
   padding-bottom: 2rem;
-  background: #4ad2cd url(../img/testimonials/0.jpg) center no-repeat;
+  /*background: @btn-color url(../img/testimonials/0.jpg) center no-repeat;*/
   color: white;
+}
+.FORfotorama .fotorama img {
+  width: 100%;
 }
 .FORfotorama .fotorama p {
   font-size: 2.1rem;
