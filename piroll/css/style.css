@@ -39,12 +39,21 @@
   width: 100%;
 }
 .main .banner {
-  margin: 2rem 0;
-  padding: 2rem 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 2rem 0rem;
+  padding: 2rem 3rem;
+  color: white;
+}
+.main .banner h1 {
+  display: inline-block;
+  font-family: 'Satisfy', cursive;
+}
+.main .banner h2 {
+  display: inline-block;
 }
 .main .banner p {
-  font-size: 1.4rem;
-  color: black;
+  font-size: 1.8rem;
+  color: #ecebeb;
   margin: 2.2rem 0;
 }
 .about {
