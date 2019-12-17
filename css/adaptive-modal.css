@@ -105,15 +105,15 @@
 }
 
 .am-expanded.am-modal {
-  width: 800px;
+  width: 80%;
   top: 50px;
-  margin-bottom: 50px;
-  left: 50%;
-  margin-left: -400px;
+  left: 10%;
+  margin-left: 0%;
+  
 }
 
 .am-expanded.am-back {
-  width: 800px;
+  width: 100%;
 }
 
 .am-sample {
