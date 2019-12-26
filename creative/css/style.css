@@ -249,10 +249,10 @@ button:focus {
 }
 .hear input {
   width: 100%;
-  padding: 0.5rem;
+  padding: 1rem;
   border: 1px solid white;
   background-color: inherit;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 .hear textarea {
   width: 100%;
