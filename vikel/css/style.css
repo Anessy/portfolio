@@ -874,7 +874,7 @@ footer a {
     height: 179vw;
   }
   .slider .SlideNumber {
-    padding-top: 1rem;
+    padding-top: 0rem;
     margin-left: -0.5rem;
   }
   .slider .buttonSlider {
@@ -888,6 +888,9 @@ footer a {
     background: rgba(255, 255, 255, 0.2);
     border: 1px solid #FFFFFF;
     padding: 0.5rem 1rem;
+  }
+  footer {
+    padding: 1rem 0 1rem 3rem;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -1160,7 +1163,7 @@ footer a {
     height: 75vw;
   }
   .slider .SlideNumber {
-    padding-top: 1rem;
+    padding-top: 0rem;
     margin-left: -0.8rem;
   }
   .slider .buttonSlider {
@@ -1180,6 +1183,9 @@ footer a {
   }
   .slider button:active {
     background: rgba(255, 255, 255, 0.1);
+  }
+  footer {
+    padding: 1rem 0 1rem 2rem;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -1456,8 +1462,8 @@ footer a {
     height: 70vw;
   }
   .slider .SlideNumber {
-    padding-top: 1rem;
-    margin-left: -0.5rem;
+    padding-top: 0rem;
+    margin-left: -0.2rem;
   }
   .slider .buttonSlider {
     margin-bottom: 3rem;
@@ -1470,6 +1476,9 @@ footer a {
     background: rgba(255, 255, 255, 0.2);
     border: 1px solid #FFFFFF;
     padding: 0.5rem 1rem;
+  }
+  footer {
+    padding: 1rem 0 1rem 2rem;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -1625,7 +1634,7 @@ footer a {
     height: 49vw;
   }
   .slider .SlideNumber {
-    padding-top: 1rem;
+    padding-top: 0rem;
     margin-left: -1rem;
   }
   .slider .buttonSlider {
@@ -1639,6 +1648,9 @@ footer a {
     background: rgba(255, 255, 255, 0.2);
     border: 1px solid #FFFFFF;
     padding: 0.5rem 1rem;
+  }
+  footer {
+    padding: 1rem 0 1rem 5rem;
   }
 }
 @media (min-width: 1500px) {
