@@ -423,12 +423,15 @@ p {
 }
 .slider .slider-bg-1 {
   background: url(../img/slider/1.png) center no-repeat;
+  background-size: cover;
 }
 .slider .slider-bg-2 {
   background: url(../img/slider/2.png) center no-repeat;
+  background-size: cover;
 }
 .slider .slider-bg-3 {
   background: url(../img/slider/3.png) center no-repeat;
+  background-size: cover;
 }
 .slider .SlideNumber {
   padding-top: 0rem;
@@ -1653,21 +1656,616 @@ footer a {
     padding: 1rem 0 1rem 5rem;
   }
 }
-@media (min-width: 1500px) {
+@media (min-width: 1408px) and (max-width: 1479.98px) {
+  .play {
+    -webkit-transform: translate3d(0, -23rem, 0);
+            transform: translate3d(0, -23rem, 0);
+  }
+  .photo2 {
+    padding: 6rem 0 27.6rem 0;
+    background: linear-gradient(62.43deg, #cea995 13.77%, #e7baa3 51.33%, #f0cdb7 91.19%);
+    margin-top: 4rem;
+  }
+  .photo2 img,
+  .photo2 h1 {
+    width: 100%;
+  }
+  .photo2 h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: #FFFFFF;
+  }
+  .photo2-first {
+    position: absolute;
+  }
+  .photo2-second {
+    position: absolute;
+    -webkit-transform: translate3d(24rem, 20rem, 0);
+            transform: translate3d(24rem, 20rem, 0);
+  }
+  .photo2-bg {
+    position: absolute;
+    -webkit-transform: translate3d(53.5rem, 18rem, 0);
+            transform: translate3d(53.5rem, 18rem, 0);
+  }
+  .photo2-fourth {
+    position: absolute;
+    -webkit-transform: translate3d(30rem, 5rem, 0);
+            transform: translate3d(30rem, 5rem, 0);
+  }
+  .photo2 .text,
+  .photo2 .circle {
+    position: absolute;
+    -webkit-transform: translate3d(-17rem, 0, 0);
+            transform: translate3d(-17rem, 0, 0);
+  }
+  .photo2 .text h1 {
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+  }
+  .photo2 .circle {
+    margin-left: -4rem;
+    padding: 0 1rem;
+    border: 1px solid #C6E4AC;
+    border-radius: 50%;
+    background-color: #C6E4AC;
+  }
+  .eightthQuestion {
+    margin-top: 12rem;
+  }
+  .ritual {
+    position: relative;
+    margin-top: 6rem;
+    padding: 6rem 0 6rem 3%;
+    background: linear-gradient(121.08deg, #cea995 11.81%, #d7ab94 53.11%, #f0cdb7 96.16%);
+  }
+  .ritual-text {
+    margin-right: 1rem;
+  }
+  .ritual-text h1 {
+    font-size: 34px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+  }
+  .ritual-text p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin: 2rem 0;
+  }
+  .ritual-text .for-button button {
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    width: 140px;
+    height: 50px;
+    margin-top: 4rem;
+  }
+  .ritual-text .for-button button p {
+    margin: -0.1rem 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .ritual-text .for-button button:focus {
+    outline: none !important;
+  }
+  .ritual-text .for-button button:active {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .ritual-text .for-button button:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .ritual-primer {
+    width: 85%;
+    padding: 4rem 0.5rem 4rem 0.5rem;
+    text-align: center;
+    background-color: white;
+    border: 1px solid white;
+    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+  }
+  .ritual-primer img {
+    margin-bottom: 2rem;
+  }
+  .ritual-primer:hover {
+    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+    cursor: pointer;
+  }
+  .ritual-tonal {
+    width: 85%;
+    padding: 3rem 0.5rem 2.5rem 0.5rem;
+    text-align: center;
+    background-color: white;
+    border: 1px solid white;
+    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+  }
+  .ritual-tonal img {
+    margin-bottom: 2rem;
+  }
+  .ritual-tonal:hover {
+    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+    cursor: pointer;
+  }
+  .ritual-bg {
+    position: absolute;
+    -webkit-transform: translate3D(40rem, 6rem, 0);
+            transform: translate3D(40rem, 6rem, 0);
+  }
+}
+@media (min-width: 1480px) and (max-width: 1535.98px) {
+  .play {
+    -webkit-transform: translate3d(0, -23rem, 0);
+            transform: translate3d(0, -23rem, 0);
+  }
+  .photo2 {
+    padding: 6rem 0 27.6rem 0;
+    background: linear-gradient(62.43deg, #cea995 13.77%, #e7baa3 51.33%, #f0cdb7 91.19%);
+    margin-top: 4rem;
+  }
+  .photo2 img,
+  .photo2 h1 {
+    width: 100%;
+  }
+  .photo2 h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: #FFFFFF;
+  }
+  .photo2-first {
+    position: absolute;
+  }
+  .photo2-second {
+    position: absolute;
+    -webkit-transform: translate3d(24rem, 21rem, 0);
+            transform: translate3d(24rem, 21rem, 0);
+  }
+  .photo2-bg {
+    position: absolute;
+    -webkit-transform: translate3d(55rem, 19rem, 0);
+            transform: translate3d(55rem, 19rem, 0);
+  }
+  .photo2-fourth {
+    position: absolute;
+    -webkit-transform: translate3d(30rem, 5rem, 0);
+            transform: translate3d(30rem, 5rem, 0);
+  }
+  .photo2 .text,
+  .photo2 .circle {
+    position: absolute;
+    -webkit-transform: translate3d(-17rem, 0, 0);
+            transform: translate3d(-17rem, 0, 0);
+  }
+  .photo2 .text h1 {
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+  }
+  .photo2 .circle {
+    margin-left: -4rem;
+    padding: 0 1rem;
+    border: 1px solid #C6E4AC;
+    border-radius: 50%;
+    background-color: #C6E4AC;
+  }
+  .eightthQuestion {
+    margin-top: 12rem;
+  }
+  .ritual {
+    position: relative;
+    margin-top: 6rem;
+    padding: 6rem 0 6rem 3%;
+    background: linear-gradient(121.08deg, #cea995 11.81%, #d7ab94 53.11%, #f0cdb7 96.16%);
+  }
+  .ritual-text h1 {
+    font-size: 34px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+  }
+  .ritual-text p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin: 2rem 0;
+  }
+  .ritual-text .for-button button {
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    width: 140px;
+    height: 50px;
+    margin-top: 4rem;
+  }
+  .ritual-text .for-button button p {
+    margin: -0.1rem 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .ritual-text .for-button button:focus {
+    outline: none !important;
+  }
+  .ritual-text .for-button button:active {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .ritual-text .for-button button:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .ritual-primer {
+    width: 85%;
+    padding: 4rem 0.5rem 2.7rem 0.5rem;
+    text-align: center;
+    background-color: white;
+    border: 1px solid white;
+    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+  }
+  .ritual-primer img {
+    margin-bottom: 2rem;
+  }
+  .ritual-primer:hover {
+    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+    cursor: pointer;
+  }
+  .ritual-tonal {
+    width: 85%;
+    padding: 3rem 0.5rem 2.5rem 0.5rem;
+    text-align: center;
+    background-color: white;
+    border: 1px solid white;
+    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+  }
+  .ritual-tonal img {
+    margin-bottom: 2rem;
+  }
+  .ritual-tonal:hover {
+    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+    cursor: pointer;
+  }
+  .ritual-bg {
+    position: absolute;
+    -webkit-transform: translate3D(45rem, 6rem, 0);
+            transform: translate3D(45rem, 6rem, 0);
+  }
+}
+@media (min-width: 1536px) and (max-width: 1599.98px) {
+  .play {
+    -webkit-transform: translate3d(0, -23rem, 0);
+            transform: translate3d(0, -23rem, 0);
+  }
+  .photo2 {
+    padding: 6rem 0 27.6rem 0;
+    background: linear-gradient(62.43deg, #cea995 13.77%, #e7baa3 51.33%, #f0cdb7 91.19%);
+    margin-top: 4rem;
+  }
+  .photo2 img,
+  .photo2 h1 {
+    width: 100%;
+  }
+  .photo2 h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: #FFFFFF;
+  }
+  .photo2-first {
+    position: absolute;
+  }
+  .photo2-second {
+    position: absolute;
+    -webkit-transform: translate3d(24rem, 21rem, 0);
+            transform: translate3d(24rem, 21rem, 0);
+  }
+  .photo2-bg {
+    position: absolute;
+    -webkit-transform: translate3d(55rem, 19rem, 0);
+            transform: translate3d(55rem, 19rem, 0);
+  }
+  .photo2-fourth {
+    position: absolute;
+    -webkit-transform: translate3d(30rem, 5rem, 0);
+            transform: translate3d(30rem, 5rem, 0);
+  }
+  .photo2 .text,
+  .photo2 .circle {
+    position: absolute;
+    -webkit-transform: translate3d(-17rem, 0, 0);
+            transform: translate3d(-17rem, 0, 0);
+  }
+  .photo2 .text h1 {
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+  }
+  .photo2 .circle {
+    margin-left: -4rem;
+    padding: 0 1rem;
+    border: 1px solid #C6E4AC;
+    border-radius: 50%;
+    background-color: #C6E4AC;
+  }
+  .eightthQuestion {
+    margin-top: 12rem;
+  }
+  .ritual-bg {
+    position: absolute;
+    -webkit-transform: translate3D(50rem, 6rem, 0);
+            transform: translate3D(50rem, 6rem, 0);
+  }
+}
+@media (min-width: 1600px) and (max-width: 1679.98px) {
   .play {
     -webkit-transform: translate3d(0, -25rem, 0);
             transform: translate3d(0, -25rem, 0);
   }
-}
-@media (min-width: 1800px) {
-  .play {
-    -webkit-transform: translate3d(0, -28rem, 0);
-            transform: translate3d(0, -28rem, 0);
+  .photo2 {
+    padding: 6rem 0 27.6rem 0;
+    background: linear-gradient(62.43deg, #cea995 13.77%, #e7baa3 51.33%, #f0cdb7 91.19%);
+    margin-top: 4rem;
+  }
+  .photo2 img,
+  .photo2 h1 {
+    width: 100%;
+  }
+  .photo2 h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: #FFFFFF;
+  }
+  .photo2-first {
+    position: absolute;
+  }
+  .photo2-second {
+    position: absolute;
+    -webkit-transform: translate3d(26rem, 21rem, 0);
+            transform: translate3d(26rem, 21rem, 0);
+  }
+  .photo2-bg {
+    position: absolute;
+    -webkit-transform: translate3d(58rem, 19rem, 0);
+            transform: translate3d(58rem, 19rem, 0);
+  }
+  .photo2-fourth {
+    position: absolute;
+    -webkit-transform: translate3d(32rem, 5rem, 0);
+            transform: translate3d(32rem, 5rem, 0);
+  }
+  .photo2 .text,
+  .photo2 .circle {
+    position: absolute;
+    -webkit-transform: translate3d(-18rem, 0, 0);
+            transform: translate3d(-18rem, 0, 0);
+  }
+  .photo2 .text h1 {
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+  }
+  .photo2 .circle {
+    margin-left: -4rem;
+    padding: 0 1rem;
+    border: 1px solid #C6E4AC;
+    border-radius: 50%;
+    background-color: #C6E4AC;
+  }
+  .eightthQuestion {
+    margin-top: 12rem;
+  }
+  .ritual-bg {
+    position: absolute;
+    -webkit-transform: translate3D(57rem, 6rem, 0);
+            transform: translate3D(57rem, 6rem, 0);
   }
 }
-@media (min-width: 2300px) {
+@media (min-width: 1680px) and (max-width: 1919.98px) {
   .play {
-    -webkit-transform: translate3d(0, -36rem, 0);
-            transform: translate3d(0, -36rem, 0);
+    -webkit-transform: translate3d(0, -25rem, 0);
+            transform: translate3d(0, -25rem, 0);
+  }
+  .photo2 {
+    padding: 6rem 0 27.6rem 0;
+    background: linear-gradient(62.43deg, #cea995 13.77%, #e7baa3 51.33%, #f0cdb7 91.19%);
+    margin-top: 4rem;
+  }
+  .photo2 img,
+  .photo2 h1 {
+    width: 100%;
+  }
+  .photo2 h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: #FFFFFF;
+  }
+  .photo2-first {
+    position: absolute;
+  }
+  .photo2-second {
+    position: absolute;
+    -webkit-transform: translate3d(28rem, 21rem, 0);
+            transform: translate3d(28rem, 21rem, 0);
+  }
+  .photo2-bg {
+    position: absolute;
+    -webkit-transform: translate3d(62rem, 19rem, 0);
+            transform: translate3d(62rem, 19rem, 0);
+  }
+  .photo2-fourth {
+    position: absolute;
+    -webkit-transform: translate3d(34rem, 5rem, 0);
+            transform: translate3d(34rem, 5rem, 0);
+  }
+  .photo2 .text,
+  .photo2 .circle {
+    position: absolute;
+    -webkit-transform: translate3d(-18rem, 0, 0);
+            transform: translate3d(-18rem, 0, 0);
+  }
+  .photo2 .text h1 {
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+  }
+  .photo2 .circle {
+    margin-left: -4rem;
+    padding: 0 1rem;
+    border: 1px solid #C6E4AC;
+    border-radius: 50%;
+    background-color: #C6E4AC;
+  }
+  .eightthQuestion {
+    margin-top: 14rem;
+  }
+  .ritual-bg {
+    position: absolute;
+    -webkit-transform: translate3D(55rem, 6rem, 0);
+            transform: translate3D(55rem, 6rem, 0);
+  }
+}
+@media (min-width: 1920px) and (max-width: 2047.98px) {
+  .play {
+    -webkit-transform: translate3d(0, -29rem, 0);
+            transform: translate3d(0, -29rem, 0);
+  }
+  .photo2 {
+    padding: 6rem 0 27.6rem 0;
+    background: linear-gradient(62.43deg, #cea995 13.77%, #e7baa3 51.33%, #f0cdb7 91.19%);
+    margin-top: 4rem;
+  }
+  .photo2 img,
+  .photo2 h1 {
+    width: 100%;
+  }
+  .photo2 h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: #FFFFFF;
+  }
+  .photo2-first {
+    position: absolute;
+  }
+  .photo2-second {
+    position: absolute;
+    -webkit-transform: translate3d(32rem, 21rem, 0);
+            transform: translate3d(32rem, 21rem, 0);
+  }
+  .photo2-bg {
+    position: absolute;
+    -webkit-transform: translate3d(69.5rem, 19rem, 0);
+            transform: translate3d(69.5rem, 19rem, 0);
+  }
+  .photo2-fourth {
+    position: absolute;
+    -webkit-transform: translate3d(38rem, 5rem, 0);
+            transform: translate3d(38rem, 5rem, 0);
+  }
+  .photo2 .text,
+  .photo2 .circle {
+    position: absolute;
+    -webkit-transform: translate3d(-23rem, 0, 0);
+            transform: translate3d(-23rem, 0, 0);
+  }
+  .photo2 .text h1 {
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+  }
+  .photo2 .circle {
+    margin-left: -4rem;
+    padding: 0 1rem;
+    border: 1px solid #C6E4AC;
+    border-radius: 50%;
+    background-color: #C6E4AC;
+  }
+  .eightthQuestion {
+    margin-top: 16rem;
+  }
+  .ritual-bg {
+    position: absolute;
+    -webkit-transform: translate3D(70rem, 6rem, 0);
+            transform: translate3D(70rem, 6rem, 0);
+  }
+}
+@media (min-width: 2048px) {
+  .play {
+    -webkit-transform: translate3d(0, -33rem, 0);
+            transform: translate3d(0, -33rem, 0);
+  }
+  .photo2 {
+    padding: 6rem 0 27.6rem 0;
+    background: linear-gradient(62.43deg, #cea995 13.77%, #e7baa3 51.33%, #f0cdb7 91.19%);
+    margin-top: 4rem;
+  }
+  .photo2 img,
+  .photo2 h1 {
+    width: 100%;
+  }
+  .photo2 h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: #FFFFFF;
+  }
+  .photo2-first {
+    position: absolute;
+  }
+  .photo2-second {
+    position: absolute;
+    -webkit-transform: translate3d(32rem, 21rem, 0);
+            transform: translate3d(32rem, 21rem, 0);
+  }
+  .photo2-bg {
+    position: absolute;
+    -webkit-transform: translate3d(71.5rem, 19rem, 0);
+            transform: translate3d(71.5rem, 19rem, 0);
+  }
+  .photo2-fourth {
+    position: absolute;
+    -webkit-transform: translate3d(38rem, 5rem, 0);
+            transform: translate3d(38rem, 5rem, 0);
+  }
+  .photo2 .text,
+  .photo2 .circle {
+    position: absolute;
+    -webkit-transform: translate3d(-26rem, 0, 0);
+            transform: translate3d(-26rem, 0, 0);
+  }
+  .photo2 .text h1 {
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+  }
+  .photo2 .circle {
+    margin-left: -4rem;
+    padding: 0 1rem;
+    border: 1px solid #C6E4AC;
+    border-radius: 50%;
+    background-color: #C6E4AC;
+  }
+  .eightthQuestion {
+    margin-top: 16rem;
+  }
+  .ritual-bg {
+    position: absolute;
+    -webkit-transform: translate3D(77rem, 6rem, 0);
+            transform: translate3D(77rem, 6rem, 0);
   }
 }
