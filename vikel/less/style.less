@@ -229,7 +229,7 @@ p {
   }
   &-bg {
     position: absolute;
-    transform: translate3d(44rem,18rem,0);
+    transform: translate3d(43rem,18rem,0);
   }
   &-fourth {
     position: absolute; //eat
@@ -317,10 +317,10 @@ p {
 .ritual {
   position: relative;
   margin-top: 6rem;
-  padding: 6rem 5% 6rem 10%;
+  padding: 6rem 0 6rem 3%;
   background: linear-gradient(121.08deg, #CEA995 11.81%, #D7AB94 53.11%, #F0CDB7 96.16%);
   &-text {
-    margin-right: 3rem;
+    //margin-right: 3rem;
     h1 {
       font-size: 34px;
       line-height: 42px;
@@ -387,7 +387,7 @@ p {
     background-color: white;
     border: 1px solid white;
     box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-    margin-left: -2.5rem;
+    
     img {
       margin-bottom: 2rem;
     }
@@ -398,7 +398,7 @@ p {
   }
   &-bg{
     position: absolute;
-    transform: translate3D(25rem,6rem,0);
+    transform: translate3D(33rem,6rem,0);
   }
 }
 
@@ -705,27 +705,41 @@ footer{
 
 .photo2 {
   padding: 6rem 0 68rem 0;
+  margin-bottom: 10rem;
   &-second {
     
     position: absolute;
-    transform: translate3d(3rem,60rem,0);
+    transform: translate3d(3.5rem,72rem,0);
   }
   &-bg {
     position: absolute;
-    transform: translate3d(8.2rem,58.7rem,0);
+    transform: translate3d(8.2rem,71rem,0);
   }
   &-fourth {
     position: absolute;
-    transform: translate3d(1rem,40rem,0);
+    transform: translate3d(0rem,52rem,0);
+    img {
+      width: 110% !important;
+    }
   }
   .text, .circle {
     position: absolute;
-    transform: translate3d(5rem,26rem,0);
+    transform: translate3d(5rem,25rem,0);
   }
-  h1 {
-    font-size: 27px;
+  .text {
+    h1 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 42px;
+      color: #FFFFFF;
+      text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+    }
   }
 }
+
+
+//==========================
 
 .video {
   margin-left: -120vw;	
@@ -741,11 +755,11 @@ footer{
   }
   &-first{ //sport
     position: absolute;
-    transform: translate3d(1.5rem,12rem,0);
+    transform: translate3d(1.5rem,10rem,0);
   }
   &-second { // bg
     position: absolute;
-    transform: translate3d(3rem,10.5rem,0);
+    transform: translate3d(3rem,11.5rem,0);
   }
   &-thrid { //face
     position: absolute;
@@ -753,13 +767,12 @@ footer{
   }
   &-bg{ // line
     position: absolute;
-    transform: translate3d(0,50rem,0);
-  
+    transform: translate3d(0,47rem,0);
   }
   .text {
     width: 100%;
     position: absolute;
-    transform: translate3d(0rem,29rem,0);
+    transform: translate3d(-1rem,29rem,0);
     color: #282828;
     font-size: 30px !important;
     line-height: 42px;
@@ -768,28 +781,87 @@ footer{
     margin-left: -4rem;
     border-radius: 20rem;
     background-color: #C6E4AC;
-    padding: 0 1.2rem;
+    padding: 0 1.1rem;
     color: white;
-    transform: translate3d(4rem,25rem,0);
+    transform: translate3d(3rem,25rem,0);
   }
 }
 .tenthQuestion {
-  margin-top: 65rem;
+  margin-top: 58rem;
 }
 
 .ritual {
+  text-align: center;
+  position: relative;
+  margin-top: 6rem;
+  padding: 6rem 0 6rem 0;
   &-text {
-    text-align: center; 
-    
+ 
     .for-button {
       button {
-        margin-bottom: 8rem; 
+        color: white; 
+        background: rgba(255, 255, 255, 0.2);
+        border: 1px solid #FFFFFF;
+        width: 140px;
+        height: 50px;
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+        p {
+          margin: -0.1rem 0;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 25px;
+          text-align: center;
+          color: #FFFFFF;
+        }
+      }
+      button:focus {
+        outline:none !important;
+      }
+      button:active {
+        background: rgba(255, 255, 255, 0.1);
+      }
+      button:hover {
+        background: rgba(255, 255, 255, 0.1);
       }
     }
   }
-  
+  &-primer {
+    width: 100%;
+    padding: 4rem 0.5rem 4rem 0.5rem;
+    text-align: center;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    margin-bottom: 4rem;
+    img {
+      margin-bottom: 2rem;
+    }
+  } 
+  &-primer:hover {
+    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+    cursor: pointer;
+  }
+  &-tonal {
+    width: 100%;
+    padding: 3rem 0.5rem 2.5rem 0.5rem;
+    text-align: center;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    
+    img {
+      margin-bottom: 2rem;
+    }
+  }
+  &-tonal:hover {
+    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+    cursor: pointer;
+  }
   &-bg{
-    top: 80%; 
+    position: absolute;
+    transform: translate3D(0,57rem,0); //====
   }
 }
 .slider {
@@ -887,7 +959,9 @@ footer{
     }
     
   }
-//====================================
+  
+  //==================================
+  
   .rellax2 {
    
     .one {
@@ -907,26 +981,34 @@ footer{
   }
   
   .photo2 {
-    padding: 6rem 0 82rem 0;
+    padding: 6rem 0 86rem 0;
     &-second {
       position: absolute;
-      transform: translate3d(8rem,74rem,0);
+      transform: translate3d(8rem,76rem,0);
     }
     &-bg {
       position: absolute;
-      transform: translate3d(15rem,72rem,0);
+      transform: translate3d(15rem,74rem,0);
     }
     &-fourth {
       position: absolute;
-      transform: translate3d(2rem,53rem,0);
+      transform: translate3d(2rem,55rem,0);
     }
     .text, .circle {
       position: absolute;
       transform: translate3d(5rem,42rem,0);
     }
-    h1 {
-      font-size: 27px;
+    .text {
+      h1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+      }
     }
+    
   }
   .rellax4 {
     .one {
@@ -953,11 +1035,11 @@ footer{
     }
     &-first{ //sport
       position: absolute;
-      transform: translate3d(4rem,18rem,0);
+      transform: translate3d(4rem,19rem,0);
     }
     &-second { // bg
       position: absolute;
-      transform: translate3d(5.5rem,16.5rem,0);
+      transform: translate3d(5.5rem,20.5rem,0);
     }
     &-thrid { //face
       position: absolute;
@@ -979,13 +1061,13 @@ footer{
       margin-left: -4rem;
       border-radius: 20rem;
       background-color: #C6E4AC;
-      padding: 0 1.2rem;
+      padding: 0 1.1rem;
       color: white;
       transform: translate3d(5rem,40rem,0);
     }
   }
   .tenthQuestion {
-    margin-top: 75rem;
+    margin-top: 65rem;
   }
   .rellax9 {
    
@@ -1010,18 +1092,77 @@ footer{
     }
   }
   .ritual {
+    text-align: center;
+    position: relative;
+    margin-top: 6rem;
+    padding: 6rem 0 6rem 0;
     &-text {
-      text-align: center; 
-      
+   
       .for-button {
         button {
-          margin-bottom: 8rem; 
+          color: white; 
+          background: rgba(255, 255, 255, 0.2);
+          border: 1px solid #FFFFFF;
+          width: 140px;
+          height: 50px;
+          margin-top: 3rem;
+          margin-bottom: 4rem;
+          p {
+            margin: -0.1rem 0;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #FFFFFF;
+          }
+        }
+        button:focus {
+          outline:none !important;
+        }
+        button:active {
+          background: rgba(255, 255, 255, 0.1);
+        }
+        button:hover {
+          background: rgba(255, 255, 255, 0.1);
         }
       }
     }
-    
+    &-primer {
+      width: 100%;
+      padding: 4rem 0.5rem 4rem 0.5rem;
+      text-align: center;
+      background-color: white;
+      border: 1px solid white;
+      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+      margin-bottom: 4rem;
+      img {
+        margin-bottom: 2rem;
+      }
+    } 
+    &-primer:hover {
+      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+      cursor: pointer;
+    }
+    &-tonal {
+      width: 100%;
+      padding: 3rem 0.5rem 2.5rem 0.5rem;
+      text-align: center;
+      background-color: white;
+      border: 1px solid white;
+      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+      
+      img {
+        margin-bottom: 2rem;
+      }
+    }
+    &-tonal:hover {
+      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+      cursor: pointer;
+    }
     &-bg{
-      top: 80%; 
+      position: absolute;
+      transform: translate3D(0,49rem,0); //====
     }
   }
   .slider {
@@ -1104,7 +1245,44 @@ footer{
     transform: translate3d(0,-11rem,0); //=====
   }
   //=========================
+
+  .photo2 {
   
+    padding: 6rem 0 16.5rem 0;
+    background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
+    margin-top: 4rem;
+    img, h1 {
+      width: 100%;
+    }
+    &-first { //boutle
+      position: absolute;
+    }
+    &-second {//mirror
+      position: absolute;
+      transform: translate3d(18rem,14rem,0);
+    }
+    &-bg {
+      position: absolute;
+      transform: translate3d(34rem,13rem,0);
+      img {
+        width: 80% !important;
+      }
+    }
+    &-fourth {
+      position: absolute; //eat
+      transform: translate3d(20rem,5rem,0);
+    }
+    .text, .circle {
+      position: absolute;
+      transform: translate3d(-11rem,-4rem,0);
+    }
+    .text {
+      width: 100%;
+      
+    }
+    
+    }
+  //=========================
    .rellax2 {
    
     .one {
@@ -1122,29 +1300,7 @@ footer{
      transform: translate3d(-22rem,20rem,0);
    }
   }
-  
-  .photo2 {
-    padding: 6rem 0 16.5rem 0;
-    &-second {
-      position: absolute;
-      transform: translate3d(16rem,14rem,0);
-    }
-    &-bg {
-      position: absolute;
-      transform: translate3d(31rem,12rem,0);
-    }
-    &-fourth {
-      position: absolute;
-      transform: translate3d(20rem,5rem,0);
-    }
-    .text, .circle {
-      position: absolute;
-      transform: translate3d(-9rem,0,0);
-    }
-    h1 {
-      font-size: 27px;
-    }
-  }
+
   .rellax4 {
     .one {
     transform: translate3d(19rem,0,0);
@@ -1163,7 +1319,7 @@ footer{
     }
   }
   .photo3 {
-    margin-top: 6rem;
+    margin-top: 4rem;
     position: relative;
     img {
       width: 100%;
@@ -1174,29 +1330,32 @@ footer{
     }
     &-second {
       position: absolute;
-      transform: translate3d(2rem,2rem,0);
+      transform: translate3d(-2rem,2rem,0);
     }
     &-thrid {
       position: absolute;
-      transform: translate3d(14rem,4rem,0);
+      transform: translate3d(7rem,4rem,0);
     }
     &-bg{
       position: absolute;
-      transform: translate3d(0,16rem,0);
+      transform: translate3d(-4rem,12rem,0);
     
     }
     .circle, .text {
       position: absolute;
-      transform: translate3d(12rem,30rem,0);
+      transform: translate3d(6rem,26rem,0);
       color: #282828;
       font-size: 34px;
       line-height: 42px;
+    }
+    .text {
+      width: 100%;
     }
     .circle {
       margin-left: -4rem;
       border-radius: 20rem;
       background-color: #C6E4AC;
-      padding: 0 1.2rem;
+      padding: 0 1.1rem;
       color: white;
     }
   }
@@ -1220,6 +1379,93 @@ footer{
     }
     .two {
       transform: translate3d(0,0rem,0);
+    }
+  }
+  .ritual {
+    position: relative;
+    margin-top: 6rem;
+    padding: 6rem 0 6rem 3%;
+    background: linear-gradient(121.08deg, #CEA995 11.81%, #D7AB94 53.11%, #F0CDB7 96.16%);
+    &-text {
+      //margin-right: 3rem;
+      h1 {
+        font-size: 34px;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+      }
+      p {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 19px;
+        line-height: 26px;
+        color: #FFFFFF;
+        margin: 2rem 0;
+      }
+      .for-button {
+        button {
+          color: white; 
+          background: rgba(255, 255, 255, 0.2);
+          border: 1px solid #FFFFFF;
+          width: 140px;
+          height: 50px;
+          margin-top: 3rem;
+          p {
+            margin: -0.1rem 0;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #FFFFFF;
+          }
+        }
+        button:focus {
+          outline:none !important;
+        }
+        button:active {
+          background: rgba(255, 255, 255, 0.1);
+        }
+        button:hover {
+          background: rgba(255, 255, 255, 0.1);
+        }
+      }
+    }
+    &-primer {
+      width: 85%;
+      padding: 4rem 0.5rem 4rem 0.5rem;
+      text-align: center;
+      background-color: white;
+      border: 1px solid white;
+      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+      img {
+        margin-bottom: 2rem;
+      }
+    } 
+    &-primer:hover {
+      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+      cursor: pointer;
+    }
+    &-tonal {
+      width: 85%;
+      padding: 3rem 0.5rem 2.5rem 0.5rem;
+      text-align: center;
+      background-color: white;
+      border: 1px solid white;
+      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+      
+      img {
+        margin-bottom: 2rem;
+      }
+    }
+    &-tonal:hover {
+      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+      cursor: pointer;
+    }
+    &-bg{
+      position: absolute;
+      transform: translate3D(20rem,6rem,0); //====
     }
   }
   .slider {
@@ -1278,32 +1524,129 @@ footer{
   } 
   }
   //==================================
-   
+  .photo2 {
   
-   .photo2{
-    &-second {
+    padding: 6rem 0 21.5rem 0;
+    background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
+    &-first { //boutle
       position: absolute;
-      transform: translate3d(16rem,20rem,0);
+    }
+    &-second {//mirror
+      position: absolute;
+      transform: translate3d(18rem,16rem,0);
     }
     &-bg {
       position: absolute;
-      transform: translate3d(34rem,18rem,0);
+      transform: translate3d(38rem,15rem,0);
+      img {
+        width: 80% !important;
+      }
     }
     &-fourth {
-      position: absolute;
-      transform: translate3d(22rem,5rem,0);
+      position: absolute; //eat
+      transform: translate3d(24rem,5rem,0);
     }
     .text, .circle {
       position: absolute;
-      transform: translate3d(-11rem,0,0);
+      transform: translate3d(-11rem,-4rem,0);
     }
-   }
-   
+    .text {
+      width: 100%;
+    }
+    }
+  //==================================
   
   .photo3 {
     &-first{
       position: absolute;
-      transform: translate3d(-24.5rem,0,0);
+      transform: translate3d(-16.5rem,0,0);
+    }
+  }
+  .ritual {
+    position: relative;
+    margin-top: 6rem;
+    padding: 6rem 0 6rem 3%;
+    background: linear-gradient(121.08deg, #CEA995 11.81%, #D7AB94 53.11%, #F0CDB7 96.16%);
+    &-text {
+      //margin-right: 3rem;
+      h1 {
+        font-size: 34px;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+      }
+      p {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 19px;
+        line-height: 26px;
+        color: #FFFFFF;
+        margin: 2rem 0;
+      }
+      .for-button {
+        button {
+          color: white; 
+          background: rgba(255, 255, 255, 0.2);
+          border: 1px solid #FFFFFF;
+          width: 140px;
+          height: 50px;
+          margin-top: 4rem;
+          p {
+            margin: -0.1rem 0;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #FFFFFF;
+          }
+        }
+        button:focus {
+          outline:none !important;
+        }
+        button:active {
+          background: rgba(255, 255, 255, 0.1);
+        }
+        button:hover {
+          background: rgba(255, 255, 255, 0.1);
+        }
+      }
+    }
+    &-primer {
+      width: 85%;
+      padding: 4rem 0.5rem 4rem 0.5rem;
+      text-align: center;
+      background-color: white;
+      border: 1px solid white;
+      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+      img {
+        margin-bottom: 2rem;
+      }
+    } 
+    &-primer:hover {
+      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+      cursor: pointer;
+    }
+    &-tonal {
+      width: 85%;
+      padding: 3rem 0.5rem 2.5rem 0.5rem;
+      text-align: center;
+      background-color: white;
+      border: 1px solid white;
+      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+      
+      img {
+        margin-bottom: 2rem;
+      }
+    }
+    &-tonal:hover {
+      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+      cursor: pointer;
+    }
+    &-bg{
+      position: absolute;
+      transform: translate3D(20rem,6rem,0); //====
     }
   }
   .slider {
