@@ -641,23 +641,16 @@ footer a {
           transform: translate3d(-27rem, 0, 0);
 }
 .rellax10 {
-  display: none;
   position: relative;
 }
-.rellax10 .one,
-.rellax10 .two {
+.rellax10 .one {
   position: absolute;
 }
 .rellax10 .one {
-  -webkit-transform: translate3d(20rem, 41rem, 0);
-          transform: translate3d(20rem, 41rem, 0);
-}
-.rellax10 .two {
-  -webkit-transform: translate3d(20rem, -20rem, 0);
-          transform: translate3d(20rem, -20rem, 0);
+  -webkit-transform: translate3d(16rem, -20rem, 0);
+          transform: translate3d(16rem, -20rem, 0);
 }
 .rellax11 {
-  display: none;
   position: relative;
 }
 .rellax11 .one,
@@ -665,12 +658,12 @@ footer a {
   position: absolute;
 }
 .rellax11 .one {
-  -webkit-transform: translate3d(20rem, 15rem, 0);
-          transform: translate3d(20rem, 15rem, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
 }
 .rellax11 .two {
-  -webkit-transform: translate3d(20rem, 100rem, 0);
-          transform: translate3d(20rem, 100rem, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
 }
 @media (max-width: 320px) and (max-width: 374.98px) {
   .header-logo {
