@@ -925,6 +925,19 @@ footer a {
   .rellax7 .two {
     transform: translate3d(-17rem, -70rem, 0);
   }
+  .rellax9 {
+    position: relative;
+  }
+  .rellax9 .one,
+  .rellax9 .two {
+    position: absolute;
+  }
+  .rellax9 .one {
+    transform: translate3d(-10rem, 50rem, 0);
+  }
+  .rellax9 .two {
+    transform: translate3d(-10rem, -60rem, 0);
+  }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .header-logo {
@@ -1048,12 +1061,6 @@ footer a {
   }
   .fifthQuestion {
     margin-top: 5rem;
-  }
-  .rellax9 .one {
-    transform: translate3d(0, 40rem, 0);
-  }
-  .rellax9 .two {
-    transform: translate3d(0, 70rem, 0);
   }
   .rellax10 {
     position: relative;
@@ -1255,6 +1262,19 @@ footer a {
   }
   .rellax7 .two {
     transform: translate3d(-23rem, -50rem, 0);
+  }
+  .rellax9 {
+    position: relative;
+  }
+  .rellax9 .one,
+  .rellax9 .two {
+    position: absolute;
+  }
+  .rellax9 .one {
+    transform: translate3d(-20rem, 48rem, 0);
+  }
+  .rellax9 .two {
+    transform: translate3d(-20rem, -60rem, 0);
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -1558,6 +1578,19 @@ footer a {
   .rellax7 .two {
     transform: translate3d(-16rem, -47rem, 0);
   }
+  .rellax9 {
+    position: relative;
+  }
+  .rellax9 .one,
+  .rellax9 .two {
+    position: absolute;
+  }
+  .rellax9 .one {
+    transform: translate3d(-23rem, 35rem, 0);
+  }
+  .rellax9 .two {
+    transform: translate3d(-23rem, -30rem, 0);
+  }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .first-text {
@@ -1758,6 +1791,19 @@ footer a {
   }
   .rellax7 .two {
     transform: translate3d(-17rem, -47rem, 0);
+  }
+  .rellax9 {
+    position: relative;
+  }
+  .rellax9 .one,
+  .rellax9 .two {
+    position: absolute;
+  }
+  .rellax9 .one {
+    transform: translate3d(-25rem, 35rem, 0);
+  }
+  .rellax9 .two {
+    transform: translate3d(-25rem, -30rem, 0);
   }
 }
 @media (min-width: 1408px) and (max-width: 1479.98px) {
