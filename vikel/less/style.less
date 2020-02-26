@@ -900,6 +900,35 @@ footer{
 footer{
   padding: 1rem 0 1rem 3rem; 
 }
+// ============== адаптивность rellax ==========
+.rellax1 {
+  position: relative;
+  .one { // flower big
+    position: absolute;
+    transform: translate3d(6rem,-400px,0);
+  }
+  .two { // flower small
+    position: absolute;
+    transform: translate3d(0rem,-8rem,0);
+  }
+  .three{ // tree
+    position: absolute;
+    transform: translate3d(6rem,-1rem,0);
+  }
+}
+.rellax2 {
+  position: relative;
+  .one, .two {
+    position: absolute;
+    z-index: 1;
+  }
+  .one { //flower small
+    transform: translate3d(0rem,19rem,0);
+  }
+  .two { //green letter
+    transform: translate3d(6rem,-12rem,0);
+  }
+}
 
 //====================
   }
@@ -969,15 +998,7 @@ footer{
   
   //==================================
   
-  .rellax2 {
-   
-    .one {
-      transform: translate3d(2rem,40rem,0);
-    }
-    .two {
-      transform: translate3d(6rem,52rem,0);
-    }
-  }
+  
   .rellax3 {
     .one {
       transform: translate3d(-19rem,76rem,0);
@@ -1207,6 +1228,35 @@ footer{
   footer{
     padding: 1rem 0 1rem 2rem;
   }
+  // ============== адаптивность rellax ==========
+.rellax1 {
+  position: relative;
+  .one { // flower big
+    position: absolute;
+    transform: translate3d(12rem,-400px,0);
+  }
+  .two { // flower small
+    position: absolute;
+    transform: translate3d(6rem,-8rem,0);
+  }
+  .three{ // tree
+    position: absolute;
+    transform: translate3d(12rem,-1rem,0);
+  }
+}
+.rellax2 {
+  position: relative;
+  .one, .two {
+    position: absolute;
+    z-index: 1;
+  }
+  .one { //flower small
+    transform: translate3d(0rem,19rem,0);
+  }
+  .two { //green letter
+    transform: translate3d(6rem,-12rem,0);
+  }
+}
 //=================  
  }
 
@@ -1293,15 +1343,7 @@ footer{
     
     }
   //=========================
-   .rellax2 {
-   
-    .one {
-      transform: translate3d(-9rem,5rem,0);
-    }
-    .two {
-      transform: translate3d(-3rem,5rem,0);
-    }
-  }
+  
   .rellax3 {
     .one {
       transform: translate3d(-22rem,16rem,0);
@@ -1506,6 +1548,22 @@ footer{
   footer{
     padding: 1rem 0 1rem 2rem;
   }
+// ============== адаптивность rellax ==========
+.rellax1 {
+  position: relative;
+  .one { // flower big
+    position: absolute;
+    transform: translate3d(20rem,-16rem,0);
+  }
+  .two { // flower small
+    position: absolute;
+    transform: translate3d(16rem,-8rem,0);
+  }
+  .three{ // tree
+    position: absolute;
+    transform: translate3d(20rem,-5rem,0);
+  }
+}
 //==================
  }
 
@@ -1688,6 +1746,22 @@ footer{
   }
   footer{
     padding: 1rem 0 1rem 5rem;
+  }
+  //==========адаптивность rellax1================
+  .rellax1 {
+    position: relative;
+    .one { // flower big
+      position: absolute;
+      transform: translate3d(26rem,-20rem,0);
+    }
+    .two { // flower small
+      position: absolute;
+      transform: translate3d(21rem,-10rem,0);
+    }
+    .three{ // tree
+      position: absolute;
+      transform: translate3d(26rem,-5rem,0);
+    }
   }
 //===================
  }

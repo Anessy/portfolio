@@ -837,6 +837,35 @@ footer a {
   footer {
     padding: 1rem 0 1rem 3rem;
   }
+  .rellax1 {
+    position: relative;
+  }
+  .rellax1 .one {
+    position: absolute;
+    transform: translate3d(6rem, -400px, 0);
+  }
+  .rellax1 .two {
+    position: absolute;
+    transform: translate3d(0rem, -8rem, 0);
+  }
+  .rellax1 .three {
+    position: absolute;
+    transform: translate3d(6rem, -1rem, 0);
+  }
+  .rellax2 {
+    position: relative;
+  }
+  .rellax2 .one,
+  .rellax2 .two {
+    position: absolute;
+    z-index: 1;
+  }
+  .rellax2 .one {
+    transform: translate3d(0rem, 19rem, 0);
+  }
+  .rellax2 .two {
+    transform: translate3d(6rem, -12rem, 0);
+  }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .header-logo {
@@ -888,12 +917,6 @@ footer a {
   .play .a img:hover {
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 50%;
-  }
-  .rellax2 .one {
-    transform: translate3d(2rem, 40rem, 0);
-  }
-  .rellax2 .two {
-    transform: translate3d(6rem, 52rem, 0);
   }
   .rellax3 .one {
     transform: translate3d(-19rem, 76rem, 0);
@@ -1102,6 +1125,35 @@ footer a {
   footer {
     padding: 1rem 0 1rem 2rem;
   }
+  .rellax1 {
+    position: relative;
+  }
+  .rellax1 .one {
+    position: absolute;
+    transform: translate3d(12rem, -400px, 0);
+  }
+  .rellax1 .two {
+    position: absolute;
+    transform: translate3d(6rem, -8rem, 0);
+  }
+  .rellax1 .three {
+    position: absolute;
+    transform: translate3d(12rem, -1rem, 0);
+  }
+  .rellax2 {
+    position: relative;
+  }
+  .rellax2 .one,
+  .rellax2 .two {
+    position: absolute;
+    z-index: 1;
+  }
+  .rellax2 .one {
+    transform: translate3d(0rem, 19rem, 0);
+  }
+  .rellax2 .two {
+    transform: translate3d(6rem, -12rem, 0);
+  }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .header a {
@@ -1170,12 +1222,6 @@ footer a {
   }
   .photo2 .text {
     width: 100%;
-  }
-  .rellax2 .one {
-    transform: translate3d(-9rem, 5rem, 0);
-  }
-  .rellax2 .two {
-    transform: translate3d(-3rem, 5rem, 0);
   }
   .rellax3 .one {
     transform: translate3d(-22rem, 16rem, 0);
@@ -1363,6 +1409,21 @@ footer a {
   footer {
     padding: 1rem 0 1rem 2rem;
   }
+  .rellax1 {
+    position: relative;
+  }
+  .rellax1 .one {
+    position: absolute;
+    transform: translate3d(20rem, -16rem, 0);
+  }
+  .rellax1 .two {
+    position: absolute;
+    transform: translate3d(16rem, -8rem, 0);
+  }
+  .rellax1 .three {
+    position: absolute;
+    transform: translate3d(20rem, -5rem, 0);
+  }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .first-text {
@@ -1522,6 +1583,21 @@ footer a {
   }
   footer {
     padding: 1rem 0 1rem 5rem;
+  }
+  .rellax1 {
+    position: relative;
+  }
+  .rellax1 .one {
+    position: absolute;
+    transform: translate3d(26rem, -20rem, 0);
+  }
+  .rellax1 .two {
+    position: absolute;
+    transform: translate3d(21rem, -10rem, 0);
+  }
+  .rellax1 .three {
+    position: absolute;
+    transform: translate3d(26rem, -5rem, 0);
   }
 }
 @media (min-width: 1408px) and (max-width: 1479.98px) {
