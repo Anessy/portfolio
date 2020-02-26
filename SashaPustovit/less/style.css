@@ -42,7 +42,7 @@ p {
 }
 .first {
   position: relative;
-  background: linear-gradient(118.36deg, #E1F0B7 33.25%, #BAD794 68.07%, #CCE2A8 96.16%);
+  background: linear-gradient(118.36deg, #CEA995 11.81%, #D7AB94 53.11%, #F0CDB7 96.16%);
 }
 .first-photo {
   transform: translateY(4.6rem);
@@ -53,7 +53,7 @@ p {
 }
 .first-text {
   padding-top: 4rem;
-  width: 70%;
+  width: 72%;
   margin-left: 12%;
 }
 .first-text h1 {
@@ -89,7 +89,7 @@ p {
 .first-bg {
   position: absolute;
   bottom: 0;
-  right: -4rem;
+  right: 0;
 }
 .about {
   margin: 8rem 0 4rem 0;
@@ -359,7 +359,7 @@ p {
 }
 .ritual-primer {
   width: 85%;
-  padding: 4rem 0.7rem 4rem 0.7rem;
+  padding: 4rem 0.5rem 4rem 0.5rem;
   text-align: center;
   background-color: white;
   border: 1px solid white;
@@ -374,7 +374,7 @@ p {
 }
 .ritual-tonal {
   width: 85%;
-  padding: 3rem 0.7rem 2.5rem 0.7rem;
+  padding: 3rem 0.5rem 2.5rem 0.5rem;
   text-align: center;
   background-color: white;
   border: 1px solid white;
@@ -618,11 +618,6 @@ footer a {
   .first-text {
     width: 90%;
     margin-left: 5%;
-  }
-  .first-bg {
-    position: absolute;
-    bottom: 0;
-    right: -15rem;
   }
   .about {
     margin: 4rem 0 4rem 0;
@@ -987,11 +982,6 @@ footer a {
   .first-text {
     width: 90%;
     margin-left: 5%;
-  }
-  .first-bg {
-    position: absolute;
-    bottom: 0;
-    right: -15rem;
   }
   .about {
     margin: 4rem 0 4rem 0;
@@ -1359,11 +1349,6 @@ footer a {
   .first-scroll {
     margin-bottom: 6rem;
   }
-  .first-bg {
-    position: absolute;
-    bottom: 0;
-    right: -5rem;
-  }
   .about {
     margin: 6rem 0 4rem 0;
   }
@@ -1519,7 +1504,7 @@ footer a {
   }
   .ritual-primer {
     width: 100%;
-    padding: 4rem 0.6rem 4rem 0.6rem;
+    padding: 4rem 0.5rem 4rem 0.5rem;
     text-align: center;
     background-color: white;
     border: 1px solid white;
@@ -1535,7 +1520,7 @@ footer a {
   }
   .ritual-tonal {
     width: 100%;
-    padding: 3rem 0.6rem 2.5rem 0.6rem;
+    padding: 3rem 0.5rem 2.5rem 0.5rem;
     text-align: center;
     background-color: white;
     border: 1px solid white;
@@ -1718,11 +1703,6 @@ footer a {
   .first-text {
     width: 90%;
     margin-left: 5%;
-  }
-  .first-bg {
-    position: absolute;
-    bottom: 0;
-    right: -18rem;
   }
   .rellax1 .one {
     transform: translate3d(-1rem, -15rem, 0);
@@ -2061,11 +2041,6 @@ footer a {
   .first-text {
     width: 80%;
     margin-left: 10%;
-  }
-  .first-bg {
-    position: absolute;
-    bottom: 0;
-    right: -10rem;
   }
   .about {
     margin: 6rem 0 6rem 0;

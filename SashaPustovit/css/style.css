@@ -42,10 +42,11 @@ p {
 }
 .first {
   position: relative;
-  background: linear-gradient(118.36deg, #E1F0B7 33.25%, #BAD794 68.07%, #CCE2A8 96.16%);
+  background: linear-gradient(118.36deg, #cea995 11.81%, #d7ab94 53.11%, #f0cdb7 96.16%);
 }
 .first-photo {
-  transform: translateY(4.6rem);
+  -webkit-transform: translateY(4.6rem);
+          transform: translateY(4.6rem);
   width: 100%;
 }
 .first-photo img {
@@ -53,7 +54,7 @@ p {
 }
 .first-text {
   padding-top: 4rem;
-  width: 70%;
+  width: 72%;
   margin-left: 12%;
 }
 .first-text h1 {
@@ -89,7 +90,7 @@ p {
 .first-bg {
   position: absolute;
   bottom: 0;
-  right: -4rem;
+  right: 0;
 }
 .about {
   margin: 8rem 0 4rem 0;
@@ -121,10 +122,12 @@ p {
   position: absolute;
 }
 .photo .one {
-  transform: translate3d(10rem, -9rem, 0);
+  -webkit-transform: translate3d(10rem, -9rem, 0);
+          transform: translate3d(10rem, -9rem, 0);
 }
 .photo .two {
-  transform: translate3d(4rem, 19rem, 0);
+  -webkit-transform: translate3d(4rem, 19rem, 0);
+          transform: translate3d(4rem, 19rem, 0);
 }
 .photo .three {
   margin-left: 6rem;
@@ -196,7 +199,8 @@ p {
   margin-bottom: -1rem;
 }
 .play {
-  transform: translate3d(0, -20rem, 0);
+  -webkit-transform: translate3d(0, -20rem, 0);
+          transform: translate3d(0, -20rem, 0);
 }
 .play .a {
   margin-left: 2rem;
@@ -215,7 +219,7 @@ p {
 }
 .photo2 {
   padding: 6rem 0 27.6rem 0;
-  background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
+  background: linear-gradient(62.43deg, #cea995 13.77%, #e7baa3 51.33%, #f0cdb7 91.19%);
   margin-top: 4rem;
 }
 .photo2 img,
@@ -234,20 +238,24 @@ p {
 }
 .photo2-second {
   position: absolute;
-  transform: translate3d(20rem, 20rem, 0);
+  -webkit-transform: translate3d(20rem, 20rem, 0);
+          transform: translate3d(20rem, 20rem, 0);
 }
 .photo2-bg {
   position: absolute;
-  transform: translate3d(43rem, 18rem, 0);
+  -webkit-transform: translate3d(43rem, 18rem, 0);
+          transform: translate3d(43rem, 18rem, 0);
 }
 .photo2-fourth {
   position: absolute;
-  transform: translate3d(26rem, 5rem, 0);
+  -webkit-transform: translate3d(26rem, 5rem, 0);
+          transform: translate3d(26rem, 5rem, 0);
 }
 .photo2 .text,
 .photo2 .circle {
   position: absolute;
-  transform: translate3d(-14rem, 0, 0);
+  -webkit-transform: translate3d(-14rem, 0, 0);
+          transform: translate3d(-14rem, 0, 0);
 }
 .photo2 .text h1 {
   text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
@@ -271,24 +279,29 @@ p {
 }
 .photo3-first {
   position: absolute;
-  transform: translate3d(-20rem, 0, 0);
+  -webkit-transform: translate3d(-20rem, 0, 0);
+          transform: translate3d(-20rem, 0, 0);
 }
 .photo3-second {
   position: absolute;
-  transform: translate3d(1rem, 2rem, 0);
+  -webkit-transform: translate3d(1rem, 2rem, 0);
+          transform: translate3d(1rem, 2rem, 0);
 }
 .photo3-thrid {
   position: absolute;
-  transform: translate3d(14.5rem, 4rem, 0);
+  -webkit-transform: translate3d(14.5rem, 4rem, 0);
+          transform: translate3d(14.5rem, 4rem, 0);
 }
 .photo3-bg {
   position: absolute;
-  transform: translate3d(0, 16rem, 0);
+  -webkit-transform: translate3d(0, 16rem, 0);
+          transform: translate3d(0, 16rem, 0);
 }
 .photo3 .circle,
 .photo3 .text {
   position: absolute;
-  transform: translate3d(12rem, 27rem, 0);
+  -webkit-transform: translate3d(12rem, 27rem, 0);
+          transform: translate3d(12rem, 27rem, 0);
 }
 .photo3 .circle h1,
 .photo3 .text h1 {
@@ -314,7 +327,7 @@ p {
   position: relative;
   margin-top: 6rem;
   padding: 6rem 0 6rem 3%;
-  background: linear-gradient(121.08deg, #CEA995 11.81%, #D7AB94 53.11%, #F0CDB7 96.16%);
+  background: linear-gradient(121.08deg, #cea995 11.81%, #d7ab94 53.11%, #f0cdb7 96.16%);
 }
 .ritual-text h1 {
   font-size: 34px;
@@ -359,37 +372,42 @@ p {
 }
 .ritual-primer {
   width: 85%;
-  padding: 4rem 0.7rem 4rem 0.7rem;
+  padding: 4rem 0.5rem 4rem 0.5rem;
   text-align: center;
   background-color: white;
   border: 1px solid white;
-  box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+  -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+          box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
 }
 .ritual-primer img {
   margin-bottom: 2rem;
 }
 .ritual-primer:hover {
-  box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+  -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+          box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
   cursor: pointer;
 }
 .ritual-tonal {
   width: 85%;
-  padding: 3rem 0.7rem 2.5rem 0.7rem;
+  padding: 3rem 0.5rem 2.5rem 0.5rem;
   text-align: center;
   background-color: white;
   border: 1px solid white;
-  box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+  -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+          box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
 }
 .ritual-tonal img {
   margin-bottom: 2rem;
 }
 .ritual-tonal:hover {
-  box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+  -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+          box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
   cursor: pointer;
 }
 .ritual-bg {
   position: absolute;
-  transform: translate3D(33rem, 6rem, 0);
+  -webkit-transform: translate3D(33rem, 6rem, 0);
+          transform: translate3D(33rem, 6rem, 0);
 }
 .slider {
   color: white;
@@ -473,15 +491,18 @@ footer a {
 }
 .rellax1 .one {
   position: absolute;
-  transform: translate3d(30rem, -20rem, 0);
+  -webkit-transform: translate3d(30rem, -20rem, 0);
+          transform: translate3d(30rem, -20rem, 0);
 }
 .rellax1 .two {
   position: absolute;
-  transform: translate3d(25rem, -10rem, 0);
+  -webkit-transform: translate3d(25rem, -10rem, 0);
+          transform: translate3d(25rem, -10rem, 0);
 }
 .rellax1 .three {
   position: absolute;
-  transform: translate3d(30rem, -5rem, 0);
+  -webkit-transform: translate3d(30rem, -5rem, 0);
+          transform: translate3d(30rem, -5rem, 0);
 }
 .rellax2 {
   position: relative;
@@ -492,10 +513,12 @@ footer a {
   z-index: 1;
 }
 .rellax2 .one {
-  transform: translate3d(-10rem, 8rem, 0);
+  -webkit-transform: translate3d(-10rem, 8rem, 0);
+          transform: translate3d(-10rem, 8rem, 0);
 }
 .rellax2 .two {
-  transform: translate3d(-2rem, -12rem, 0);
+  -webkit-transform: translate3d(-2rem, -12rem, 0);
+          transform: translate3d(-2rem, -12rem, 0);
 }
 .rellax3 {
   position: relative;
@@ -505,21 +528,25 @@ footer a {
   position: absolute;
 }
 .rellax3 .one {
-  transform: translate3d(-26rem, 5rem, 0);
+  -webkit-transform: translate3d(-26rem, 5rem, 0);
+          transform: translate3d(-26rem, 5rem, 0);
 }
 .rellax3 .two {
-  transform: translate3d(-28rem, 21rem, 0);
+  -webkit-transform: translate3d(-28rem, 21rem, 0);
+          transform: translate3d(-28rem, 21rem, 0);
 }
 .rellax4 {
   position: relative;
 }
 .rellax4 .one {
   position: absolute;
-  transform: translate3d(22rem, -46rem, 0);
+  -webkit-transform: translate3d(22rem, -46rem, 0);
+          transform: translate3d(22rem, -46rem, 0);
 }
 .rellax4 .two {
   position: absolute;
-  transform: translate3d(22rem, -15rem, 0);
+  -webkit-transform: translate3d(22rem, -15rem, 0);
+          transform: translate3d(22rem, -15rem, 0);
 }
 .rellax5 {
   position: relative;
@@ -529,17 +556,20 @@ footer a {
   position: absolute;
 }
 .rellax5 .one {
-  transform: translate3d(20rem, -56rem, 0);
+  -webkit-transform: translate3d(20rem, -56rem, 0);
+          transform: translate3d(20rem, -56rem, 0);
 }
 .rellax5 .two {
-  transform: translate3d(20rem, -8rem, 0);
+  -webkit-transform: translate3d(20rem, -8rem, 0);
+          transform: translate3d(20rem, -8rem, 0);
 }
 .rellax6 {
   position: relative;
 }
 .rellax6 .one {
   position: absolute;
-  transform: translate3d(0, 12rem, 0);
+  -webkit-transform: translate3d(0, 12rem, 0);
+          transform: translate3d(0, 12rem, 0);
   z-index: 1;
 }
 .rellax7 {
@@ -550,17 +580,20 @@ footer a {
   position: absolute;
 }
 .rellax7 .one {
-  transform: translate3d(-20rem, 10rem, 0);
+  -webkit-transform: translate3d(-20rem, 10rem, 0);
+          transform: translate3d(-20rem, 10rem, 0);
 }
 .rellax7 .two {
-  transform: translate3d(-20rem, -47rem, 0);
+  -webkit-transform: translate3d(-20rem, -47rem, 0);
+          transform: translate3d(-20rem, -47rem, 0);
 }
 .rellax8 {
   position: relative;
 }
 .rellax8 .one {
   position: absolute;
-  transform: translate3d(22rem, -4rem, 0);
+  -webkit-transform: translate3d(22rem, -4rem, 0);
+          transform: translate3d(22rem, -4rem, 0);
 }
 .rellax9 {
   position: relative;
@@ -570,10 +603,12 @@ footer a {
   position: absolute;
 }
 .rellax9 .one {
-  transform: translate3d(-27rem, 35rem, 0);
+  -webkit-transform: translate3d(-27rem, 35rem, 0);
+          transform: translate3d(-27rem, 35rem, 0);
 }
 .rellax9 .two {
-  transform: translate3d(-27rem, -30rem, 0);
+  -webkit-transform: translate3d(-27rem, -30rem, 0);
+          transform: translate3d(-27rem, -30rem, 0);
 }
 .rellax10 {
   position: relative;
@@ -583,10 +618,12 @@ footer a {
   position: absolute;
 }
 .rellax10 .one {
-  transform: translate3d(20rem, 41rem, 0);
+  -webkit-transform: translate3d(20rem, 41rem, 0);
+          transform: translate3d(20rem, 41rem, 0);
 }
 .rellax10 .two {
-  transform: translate3d(20rem, -20rem, 0);
+  -webkit-transform: translate3d(20rem, -20rem, 0);
+          transform: translate3d(20rem, -20rem, 0);
 }
 .rellax11 {
   position: relative;
@@ -596,10 +633,12 @@ footer a {
   position: absolute;
 }
 .rellax11 .one {
-  transform: translate3d(20rem, 15rem, 0);
+  -webkit-transform: translate3d(20rem, 15rem, 0);
+          transform: translate3d(20rem, 15rem, 0);
 }
 .rellax11 .two {
-  transform: translate3d(20rem, 100rem, 0);
+  -webkit-transform: translate3d(20rem, 100rem, 0);
+          transform: translate3d(20rem, 100rem, 0);
 }
 @media (max-width: 320px) and (max-width: 374.98px) {
   .header-logo {
@@ -613,16 +652,12 @@ footer a {
     margin: 0 0.2rem;
   }
   .first-photo {
-    transform: translateY(3rem);
+    -webkit-transform: translateY(3rem);
+            transform: translateY(3rem);
   }
   .first-text {
     width: 90%;
     margin-left: 5%;
-  }
-  .first-bg {
-    position: absolute;
-    bottom: 0;
-    right: -15rem;
   }
   .about {
     margin: 4rem 0 4rem 0;
@@ -631,10 +666,12 @@ footer a {
     width: 110%;
   }
   .photo .one {
-    transform: translate3d(10rem, -2rem, 0);
+    -webkit-transform: translate3d(10rem, -2rem, 0);
+            transform: translate3d(10rem, -2rem, 0);
   }
   .photo .two {
-    transform: translate3d(-2rem, 16rem, 0);
+    -webkit-transform: translate3d(-2rem, 16rem, 0);
+            transform: translate3d(-2rem, 16rem, 0);
   }
   .photo .three {
     margin-left: -2rem;
@@ -652,7 +689,8 @@ footer a {
     margin-top: 33rem;
   }
   .play {
-    transform: translate3d(-1rem, -16rem, 0);
+    -webkit-transform: translate3d(-1rem, -16rem, 0);
+            transform: translate3d(-1rem, -16rem, 0);
   }
   .play .a {
     margin-left: 2rem;
@@ -670,15 +708,18 @@ footer a {
   }
   .photo2-second {
     position: absolute;
-    transform: translate3d(3.5rem, 72rem, 0);
+    -webkit-transform: translate3d(3.5rem, 72rem, 0);
+            transform: translate3d(3.5rem, 72rem, 0);
   }
   .photo2-bg {
     position: absolute;
-    transform: translate3d(8.2rem, 71rem, 0);
+    -webkit-transform: translate3d(8.2rem, 71rem, 0);
+            transform: translate3d(8.2rem, 71rem, 0);
   }
   .photo2-fourth {
     position: absolute;
-    transform: translate3d(0rem, 53rem, 0);
+    -webkit-transform: translate3d(0rem, 53rem, 0);
+            transform: translate3d(0rem, 53rem, 0);
   }
   .photo2-fourth img {
     width: 110% !important;
@@ -686,7 +727,8 @@ footer a {
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    transform: translate3d(5rem, 29rem, 0);
+    -webkit-transform: translate3d(5rem, 29rem, 0);
+            transform: translate3d(5rem, 29rem, 0);
   }
   .photo2 .text h1 {
     font-style: normal;
@@ -710,24 +752,29 @@ footer a {
   }
   .photo3-first {
     position: absolute;
-    transform: translate3d(1.5rem, 10rem, 0);
+    -webkit-transform: translate3d(1.5rem, 10rem, 0);
+            transform: translate3d(1.5rem, 10rem, 0);
   }
   .photo3-second {
     position: absolute;
-    transform: translate3d(3rem, 11.5rem, 0);
+    -webkit-transform: translate3d(3rem, 11.5rem, 0);
+            transform: translate3d(3rem, 11.5rem, 0);
   }
   .photo3-thrid {
     position: absolute;
-    transform: translate3d(-1rem, 0, 0);
+    -webkit-transform: translate3d(-1rem, 0, 0);
+            transform: translate3d(-1rem, 0, 0);
   }
   .photo3-bg {
     position: absolute;
-    transform: translate3d(0, 47rem, 0);
+    -webkit-transform: translate3d(0, 47rem, 0);
+            transform: translate3d(0, 47rem, 0);
   }
   .photo3 .text {
     width: 100%;
     position: absolute;
-    transform: translate3d(-1rem, 29rem, 0);
+    -webkit-transform: translate3d(-1rem, 29rem, 0);
+            transform: translate3d(-1rem, 29rem, 0);
     color: #282828;
     font-size: 30px !important;
     line-height: 42px;
@@ -738,7 +785,8 @@ footer a {
     background-color: #C6E4AC;
     padding: 0 1.1rem;
     color: white;
-    transform: translate3d(3rem, 25rem, 0);
+    -webkit-transform: translate3d(3rem, 25rem, 0);
+            transform: translate3d(3rem, 25rem, 0);
   }
   .tenthQuestion {
     margin-top: 58rem;
@@ -782,14 +830,16 @@ footer a {
     text-align: center;
     background-color: white;
     border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
     margin-bottom: 4rem;
   }
   .ritual-primer img {
     margin-bottom: 2rem;
   }
   .ritual-primer:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
     cursor: pointer;
   }
   .ritual-tonal {
@@ -798,18 +848,21 @@ footer a {
     text-align: center;
     background-color: white;
     border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
   }
   .ritual-tonal img {
     margin-bottom: 2rem;
   }
   .ritual-tonal:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
     cursor: pointer;
   }
   .ritual-bg {
     position: absolute;
-    transform: translate3D(0, 57rem, 0);
+    -webkit-transform: translate3D(0, 57rem, 0);
+            transform: translate3D(0, 57rem, 0);
   }
   .slider {
     color: white;
@@ -847,15 +900,18 @@ footer a {
   }
   .rellax1 .one {
     position: absolute;
-    transform: translate3d(6rem, -400px, 0);
+    -webkit-transform: translate3d(6rem, -400px, 0);
+            transform: translate3d(6rem, -400px, 0);
   }
   .rellax1 .two {
     position: absolute;
-    transform: translate3d(0rem, -8rem, 0);
+    -webkit-transform: translate3d(0rem, -8rem, 0);
+            transform: translate3d(0rem, -8rem, 0);
   }
   .rellax1 .three {
     position: absolute;
-    transform: translate3d(6rem, -1rem, 0);
+    -webkit-transform: translate3d(6rem, -1rem, 0);
+            transform: translate3d(6rem, -1rem, 0);
   }
   .rellax2 {
     position: relative;
@@ -866,10 +922,12 @@ footer a {
     z-index: 1;
   }
   .rellax2 .one {
-    transform: translate3d(0rem, 19rem, 0);
+    -webkit-transform: translate3d(0rem, 19rem, 0);
+            transform: translate3d(0rem, 19rem, 0);
   }
   .rellax2 .two {
-    transform: translate3d(6rem, -12rem, 0);
+    -webkit-transform: translate3d(6rem, -12rem, 0);
+            transform: translate3d(6rem, -12rem, 0);
   }
   .rellax3 {
     position: relative;
@@ -879,21 +937,25 @@ footer a {
     position: absolute;
   }
   .rellax3 .one {
-    transform: translate3d(-12rem, 2rem, 0);
+    -webkit-transform: translate3d(-12rem, 2rem, 0);
+            transform: translate3d(-12rem, 2rem, 0);
   }
   .rellax3 .two {
-    transform: translate3d(-14rem, 36rem, 0);
+    -webkit-transform: translate3d(-14rem, 36rem, 0);
+            transform: translate3d(-14rem, 36rem, 0);
   }
   .rellax4 {
     position: relative;
   }
   .rellax4 .one {
     position: absolute;
-    transform: translate3d(3rem, -22rem, 0);
+    -webkit-transform: translate3d(3rem, -22rem, 0);
+            transform: translate3d(3rem, -22rem, 0);
   }
   .rellax4 .two {
     position: absolute;
-    transform: translate3d(8rem, -15rem, 0);
+    -webkit-transform: translate3d(8rem, -15rem, 0);
+            transform: translate3d(8rem, -15rem, 0);
   }
   .rellax5 {
     position: relative;
@@ -903,32 +965,38 @@ footer a {
     position: absolute;
   }
   .rellax5 .one {
-    transform: translate3d(-14rem, -96rem, 0);
+    -webkit-transform: translate3d(-14rem, -96rem, 0);
+            transform: translate3d(-14rem, -96rem, 0);
   }
   .rellax5 .two {
-    transform: translate3d(-14rem, -30rem, 0);
+    -webkit-transform: translate3d(-14rem, -30rem, 0);
+            transform: translate3d(-14rem, -30rem, 0);
   }
   .rellax6 {
     position: relative;
   }
   .rellax6 .one {
     position: absolute;
-    transform: translate3d(-10rem, 23rem, 0);
+    -webkit-transform: translate3d(-10rem, 23rem, 0);
+            transform: translate3d(-10rem, 23rem, 0);
     z-index: 1;
   }
   .rellax7 {
     position: relative;
-    transform: translate3d(0, -40rem, 0);
+    -webkit-transform: translate3d(0, -40rem, 0);
+            transform: translate3d(0, -40rem, 0);
   }
   .rellax7 .one,
   .rellax7 .two {
     position: absolute;
   }
   .rellax7 .one {
-    transform: translate3d(-17rem, 6rem, 0);
+    -webkit-transform: translate3d(-17rem, 6rem, 0);
+            transform: translate3d(-17rem, 6rem, 0);
   }
   .rellax7 .two {
-    transform: translate3d(-17rem, -70rem, 0);
+    -webkit-transform: translate3d(-17rem, -70rem, 0);
+            transform: translate3d(-17rem, -70rem, 0);
   }
   .rellax9 {
     position: relative;
@@ -938,10 +1006,12 @@ footer a {
     position: absolute;
   }
   .rellax9 .one {
-    transform: translate3d(-10rem, 50rem, 0);
+    -webkit-transform: translate3d(-10rem, 50rem, 0);
+            transform: translate3d(-10rem, 50rem, 0);
   }
   .rellax9 .two {
-    transform: translate3d(-10rem, -60rem, 0);
+    -webkit-transform: translate3d(-10rem, -60rem, 0);
+            transform: translate3d(-10rem, -60rem, 0);
   }
   .rellax10 {
     position: relative;
@@ -951,10 +1021,12 @@ footer a {
     position: absolute;
   }
   .rellax10 .one {
-    transform: translate3d(0rem, 91rem, 0);
+    -webkit-transform: translate3d(0rem, 91rem, 0);
+            transform: translate3d(0rem, 91rem, 0);
   }
   .rellax10 .two {
-    transform: translate3d(0rem, -20rem, 0);
+    -webkit-transform: translate3d(0rem, -20rem, 0);
+            transform: translate3d(0rem, -20rem, 0);
   }
   .rellax11 {
     position: relative;
@@ -964,10 +1036,12 @@ footer a {
     position: absolute;
   }
   .rellax11 .one {
-    transform: translate3d(0rem, 40rem, 0);
+    -webkit-transform: translate3d(0rem, 40rem, 0);
+            transform: translate3d(0rem, 40rem, 0);
   }
   .rellax11 .two {
-    transform: translate3d(0rem, 190rem, 0);
+    -webkit-transform: translate3d(0rem, 190rem, 0);
+            transform: translate3d(0rem, 190rem, 0);
   }
 }
 @media (max-width: 375px) and (max-width: 575.98px) {
@@ -982,16 +1056,12 @@ footer a {
     margin: 0 0.2rem;
   }
   .first-photo {
-    transform: translateY(3rem);
+    -webkit-transform: translateY(3rem);
+            transform: translateY(3rem);
   }
   .first-text {
     width: 90%;
     margin-left: 5%;
-  }
-  .first-bg {
-    position: absolute;
-    bottom: 0;
-    right: -15rem;
   }
   .about {
     margin: 4rem 0 4rem 0;
@@ -1000,10 +1070,12 @@ footer a {
     width: 110%;
   }
   .photo .one {
-    transform: translate3d(10rem, -2rem, 0);
+    -webkit-transform: translate3d(10rem, -2rem, 0);
+            transform: translate3d(10rem, -2rem, 0);
   }
   .photo .two {
-    transform: translate3d(-2rem, 16rem, 0);
+    -webkit-transform: translate3d(-2rem, 16rem, 0);
+            transform: translate3d(-2rem, 16rem, 0);
   }
   .photo .three {
     margin-left: -2rem;
@@ -1021,7 +1093,8 @@ footer a {
     margin-top: 38rem;
   }
   .play {
-    transform: translate3d(-1rem, -16rem, 0);
+    -webkit-transform: translate3d(-1rem, -16rem, 0);
+            transform: translate3d(-1rem, -16rem, 0);
   }
   .play .a {
     margin-left: 2rem;
@@ -1039,15 +1112,18 @@ footer a {
   }
   .photo2-second {
     position: absolute;
-    transform: translate3d(3.5rem, 72rem, 0);
+    -webkit-transform: translate3d(3.5rem, 72rem, 0);
+            transform: translate3d(3.5rem, 72rem, 0);
   }
   .photo2-bg {
     position: absolute;
-    transform: translate3d(8.2rem, 71rem, 0);
+    -webkit-transform: translate3d(8.2rem, 71rem, 0);
+            transform: translate3d(8.2rem, 71rem, 0);
   }
   .photo2-fourth {
     position: absolute;
-    transform: translate3d(0rem, 53rem, 0);
+    -webkit-transform: translate3d(0rem, 53rem, 0);
+            transform: translate3d(0rem, 53rem, 0);
   }
   .photo2-fourth img {
     width: 110% !important;
@@ -1055,7 +1131,8 @@ footer a {
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    transform: translate3d(5rem, 29rem, 0);
+    -webkit-transform: translate3d(5rem, 29rem, 0);
+            transform: translate3d(5rem, 29rem, 0);
   }
   .photo2 .text h1 {
     font-style: normal;
@@ -1082,24 +1159,29 @@ footer a {
   }
   .photo3-first {
     position: absolute;
-    transform: translate3d(1.5rem, 10rem, 0);
+    -webkit-transform: translate3d(1.5rem, 10rem, 0);
+            transform: translate3d(1.5rem, 10rem, 0);
   }
   .photo3-second {
     position: absolute;
-    transform: translate3d(3rem, 11.5rem, 0);
+    -webkit-transform: translate3d(3rem, 11.5rem, 0);
+            transform: translate3d(3rem, 11.5rem, 0);
   }
   .photo3-thrid {
     position: absolute;
-    transform: translate3d(-1rem, 0, 0);
+    -webkit-transform: translate3d(-1rem, 0, 0);
+            transform: translate3d(-1rem, 0, 0);
   }
   .photo3-bg {
     position: absolute;
-    transform: translate3d(0, 47rem, 0);
+    -webkit-transform: translate3d(0, 47rem, 0);
+            transform: translate3d(0, 47rem, 0);
   }
   .photo3 .text {
     width: 100%;
     position: absolute;
-    transform: translate3d(-1rem, 29rem, 0);
+    -webkit-transform: translate3d(-1rem, 29rem, 0);
+            transform: translate3d(-1rem, 29rem, 0);
     color: #282828;
     font-size: 30px !important;
     line-height: 42px;
@@ -1110,7 +1192,8 @@ footer a {
     background-color: #C6E4AC;
     padding: 0 1.1rem;
     color: white;
-    transform: translate3d(3rem, 25rem, 0);
+    -webkit-transform: translate3d(3rem, 25rem, 0);
+            transform: translate3d(3rem, 25rem, 0);
   }
   .tenthQuestion {
     margin-top: 58rem;
@@ -1154,14 +1237,16 @@ footer a {
     text-align: center;
     background-color: white;
     border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
     margin-bottom: 4rem;
   }
   .ritual-primer img {
     margin-bottom: 2rem;
   }
   .ritual-primer:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
     cursor: pointer;
   }
   .ritual-tonal {
@@ -1170,18 +1255,21 @@ footer a {
     text-align: center;
     background-color: white;
     border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
   }
   .ritual-tonal img {
     margin-bottom: 2rem;
   }
   .ritual-tonal:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
     cursor: pointer;
   }
   .ritual-bg {
     position: absolute;
-    transform: translate3D(0, 57rem, 0);
+    -webkit-transform: translate3D(0, 57rem, 0);
+            transform: translate3D(0, 57rem, 0);
   }
   .slider {
     color: white;
@@ -1219,15 +1307,18 @@ footer a {
   }
   .rellax1 .one {
     position: absolute;
-    transform: translate3d(6rem, -400px, 0);
+    -webkit-transform: translate3d(6rem, -400px, 0);
+            transform: translate3d(6rem, -400px, 0);
   }
   .rellax1 .two {
     position: absolute;
-    transform: translate3d(0rem, -8rem, 0);
+    -webkit-transform: translate3d(0rem, -8rem, 0);
+            transform: translate3d(0rem, -8rem, 0);
   }
   .rellax1 .three {
     position: absolute;
-    transform: translate3d(6rem, -1rem, 0);
+    -webkit-transform: translate3d(6rem, -1rem, 0);
+            transform: translate3d(6rem, -1rem, 0);
   }
   .rellax2 {
     position: relative;
@@ -1238,10 +1329,12 @@ footer a {
     z-index: 1;
   }
   .rellax2 .one {
-    transform: translate3d(0rem, 19rem, 0);
+    -webkit-transform: translate3d(0rem, 19rem, 0);
+            transform: translate3d(0rem, 19rem, 0);
   }
   .rellax2 .two {
-    transform: translate3d(6rem, -12rem, 0);
+    -webkit-transform: translate3d(6rem, -12rem, 0);
+            transform: translate3d(6rem, -12rem, 0);
   }
   .rellax3 {
     position: relative;
@@ -1251,21 +1344,25 @@ footer a {
     position: absolute;
   }
   .rellax3 .one {
-    transform: translate3d(-12rem, 10rem, 0);
+    -webkit-transform: translate3d(-12rem, 10rem, 0);
+            transform: translate3d(-12rem, 10rem, 0);
   }
   .rellax3 .two {
-    transform: translate3d(-14rem, 36rem, 0);
+    -webkit-transform: translate3d(-14rem, 36rem, 0);
+            transform: translate3d(-14rem, 36rem, 0);
   }
   .rellax4 {
     position: relative;
   }
   .rellax4 .one {
     position: absolute;
-    transform: translate3d(3rem, -22rem, 0);
+    -webkit-transform: translate3d(3rem, -22rem, 0);
+            transform: translate3d(3rem, -22rem, 0);
   }
   .rellax4 .two {
     position: absolute;
-    transform: translate3d(8rem, -15rem, 0);
+    -webkit-transform: translate3d(8rem, -15rem, 0);
+            transform: translate3d(8rem, -15rem, 0);
   }
   .rellax5 {
     position: relative;
@@ -1275,32 +1372,38 @@ footer a {
     position: absolute;
   }
   .rellax5 .one {
-    transform: translate3d(-14rem, -86rem, 0);
+    -webkit-transform: translate3d(-14rem, -86rem, 0);
+            transform: translate3d(-14rem, -86rem, 0);
   }
   .rellax5 .two {
-    transform: translate3d(-14rem, -30rem, 0);
+    -webkit-transform: translate3d(-14rem, -30rem, 0);
+            transform: translate3d(-14rem, -30rem, 0);
   }
   .rellax6 {
     position: relative;
   }
   .rellax6 .one {
     position: absolute;
-    transform: translate3d(-10rem, 23rem, 0);
+    -webkit-transform: translate3d(-10rem, 23rem, 0);
+            transform: translate3d(-10rem, 23rem, 0);
     z-index: 1;
   }
   .rellax7 {
     position: relative;
-    transform: translate3d(0, -40rem, 0);
+    -webkit-transform: translate3d(0, -40rem, 0);
+            transform: translate3d(0, -40rem, 0);
   }
   .rellax7 .one,
   .rellax7 .two {
     position: absolute;
   }
   .rellax7 .one {
-    transform: translate3d(-17rem, 6rem, 0);
+    -webkit-transform: translate3d(-17rem, 6rem, 0);
+            transform: translate3d(-17rem, 6rem, 0);
   }
   .rellax7 .two {
-    transform: translate3d(-17rem, -70rem, 0);
+    -webkit-transform: translate3d(-17rem, -70rem, 0);
+            transform: translate3d(-17rem, -70rem, 0);
   }
   .rellax9 {
     position: relative;
@@ -1310,10 +1413,12 @@ footer a {
     position: absolute;
   }
   .rellax9 .one {
-    transform: translate3d(-10rem, 50rem, 0);
+    -webkit-transform: translate3d(-10rem, 50rem, 0);
+            transform: translate3d(-10rem, 50rem, 0);
   }
   .rellax9 .two {
-    transform: translate3d(-10rem, -60rem, 0);
+    -webkit-transform: translate3d(-10rem, -60rem, 0);
+            transform: translate3d(-10rem, -60rem, 0);
   }
   .rellax10 {
     position: relative;
@@ -1323,10 +1428,12 @@ footer a {
     position: absolute;
   }
   .rellax10 .one {
-    transform: translate3d(0rem, 91rem, 0);
+    -webkit-transform: translate3d(0rem, 91rem, 0);
+            transform: translate3d(0rem, 91rem, 0);
   }
   .rellax10 .two {
-    transform: translate3d(0rem, -20rem, 0);
+    -webkit-transform: translate3d(0rem, -20rem, 0);
+            transform: translate3d(0rem, -20rem, 0);
   }
   .rellax11 {
     position: relative;
@@ -1336,10 +1443,12 @@ footer a {
     position: absolute;
   }
   .rellax11 .one {
-    transform: translate3d(0rem, 40rem, 0);
+    -webkit-transform: translate3d(0rem, 40rem, 0);
+            transform: translate3d(0rem, 40rem, 0);
   }
   .rellax11 .two {
-    transform: translate3d(0rem, 190rem, 0);
+    -webkit-transform: translate3d(0rem, 190rem, 0);
+            transform: translate3d(0rem, 190rem, 0);
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -1359,19 +1468,16 @@ footer a {
   .first-scroll {
     margin-bottom: 6rem;
   }
-  .first-bg {
-    position: absolute;
-    bottom: 0;
-    right: -5rem;
-  }
   .about {
     margin: 6rem 0 4rem 0;
   }
   .photo .one {
-    transform: translate3d(10rem, -2rem, 0);
+    -webkit-transform: translate3d(10rem, -2rem, 0);
+            transform: translate3d(10rem, -2rem, 0);
   }
   .photo .two {
-    transform: translate3d(4rem, 18rem, 0);
+    -webkit-transform: translate3d(4rem, 18rem, 0);
+            transform: translate3d(4rem, 18rem, 0);
   }
   .photo .three {
     margin-left: 6rem;
@@ -1386,7 +1492,8 @@ footer a {
     margin-top: 36rem;
   }
   .play {
-    transform: translate3d(-1rem, -8.5rem, 0);
+    -webkit-transform: translate3d(-1rem, -8.5rem, 0);
+            transform: translate3d(-1rem, -8.5rem, 0);
   }
   .play .a {
     margin-left: 2rem;
@@ -1403,20 +1510,24 @@ footer a {
   }
   .photo2-second {
     position: absolute;
-    transform: translate3d(8rem, 76rem, 0);
+    -webkit-transform: translate3d(8rem, 76rem, 0);
+            transform: translate3d(8rem, 76rem, 0);
   }
   .photo2-bg {
     position: absolute;
-    transform: translate3d(15rem, 74rem, 0);
+    -webkit-transform: translate3d(15rem, 74rem, 0);
+            transform: translate3d(15rem, 74rem, 0);
   }
   .photo2-fourth {
     position: absolute;
-    transform: translate3d(2rem, 55rem, 0);
+    -webkit-transform: translate3d(2rem, 55rem, 0);
+            transform: translate3d(2rem, 55rem, 0);
   }
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    transform: translate3d(5rem, 42rem, 0);
+    -webkit-transform: translate3d(5rem, 42rem, 0);
+            transform: translate3d(5rem, 42rem, 0);
   }
   .photo2 .text h1 {
     font-style: normal;
@@ -1435,23 +1546,28 @@ footer a {
   }
   .photo3-first {
     position: absolute;
-    transform: translate3d(4rem, 19rem, 0);
+    -webkit-transform: translate3d(4rem, 19rem, 0);
+            transform: translate3d(4rem, 19rem, 0);
   }
   .photo3-second {
     position: absolute;
-    transform: translate3d(5.5rem, 20.5rem, 0);
+    -webkit-transform: translate3d(5.5rem, 20.5rem, 0);
+            transform: translate3d(5.5rem, 20.5rem, 0);
   }
   .photo3-thrid {
     position: absolute;
-    transform: translate3d(-1rem, 0, 0);
+    -webkit-transform: translate3d(-1rem, 0, 0);
+            transform: translate3d(-1rem, 0, 0);
   }
   .photo3-bg {
     position: absolute;
-    transform: translate3d(0, 52rem, 0);
+    -webkit-transform: translate3d(0, 52rem, 0);
+            transform: translate3d(0, 52rem, 0);
   }
   .photo3 .text {
     position: absolute;
-    transform: translate3d(1rem, 44rem, 0);
+    -webkit-transform: translate3d(1rem, 44rem, 0);
+            transform: translate3d(1rem, 44rem, 0);
     color: #282828;
     font-size: 34px;
     line-height: 42px;
@@ -1462,7 +1578,8 @@ footer a {
     background-color: #C6E4AC;
     padding: 0 1.1rem;
     color: white;
-    transform: translate3d(5rem, 40rem, 0);
+    -webkit-transform: translate3d(5rem, 40rem, 0);
+            transform: translate3d(5rem, 40rem, 0);
   }
   .tenthQuestion {
     margin-top: 65rem;
@@ -1479,10 +1596,12 @@ footer a {
     position: absolute;
   }
   .rellax10 .one {
-    transform: translate3d(0, 46rem, 0);
+    -webkit-transform: translate3d(0, 46rem, 0);
+            transform: translate3d(0, 46rem, 0);
   }
   .rellax10 .two {
-    transform: translate3d(0, 0rem, 0);
+    -webkit-transform: translate3d(0, 0rem, 0);
+            transform: translate3d(0, 0rem, 0);
   }
   .ritual {
     text-align: center;
@@ -1519,38 +1638,43 @@ footer a {
   }
   .ritual-primer {
     width: 100%;
-    padding: 4rem 0.6rem 4rem 0.6rem;
+    padding: 4rem 0.5rem 4rem 0.5rem;
     text-align: center;
     background-color: white;
     border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
     margin-bottom: 4rem;
   }
   .ritual-primer img {
     margin-bottom: 2rem;
   }
   .ritual-primer:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
     cursor: pointer;
   }
   .ritual-tonal {
     width: 100%;
-    padding: 3rem 0.6rem 2.5rem 0.6rem;
+    padding: 3rem 0.5rem 2.5rem 0.5rem;
     text-align: center;
     background-color: white;
     border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
   }
   .ritual-tonal img {
     margin-bottom: 2rem;
   }
   .ritual-tonal:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
     cursor: pointer;
   }
   .ritual-bg {
     position: absolute;
-    transform: translate3D(0, 49rem, 0);
+    -webkit-transform: translate3D(0, 49rem, 0);
+            transform: translate3D(0, 49rem, 0);
   }
   .slider .slider-bg-1,
   .slider .slider-bg-2,
@@ -1589,15 +1713,18 @@ footer a {
   }
   .rellax1 .one {
     position: absolute;
-    transform: translate3d(12rem, -400px, 0);
+    -webkit-transform: translate3d(12rem, -400px, 0);
+            transform: translate3d(12rem, -400px, 0);
   }
   .rellax1 .two {
     position: absolute;
-    transform: translate3d(6rem, -8rem, 0);
+    -webkit-transform: translate3d(6rem, -8rem, 0);
+            transform: translate3d(6rem, -8rem, 0);
   }
   .rellax1 .three {
     position: absolute;
-    transform: translate3d(12rem, -1rem, 0);
+    -webkit-transform: translate3d(12rem, -1rem, 0);
+            transform: translate3d(12rem, -1rem, 0);
   }
   .rellax2 {
     position: relative;
@@ -1608,10 +1735,12 @@ footer a {
     z-index: 1;
   }
   .rellax2 .one {
-    transform: translate3d(0rem, 19rem, 0);
+    -webkit-transform: translate3d(0rem, 19rem, 0);
+            transform: translate3d(0rem, 19rem, 0);
   }
   .rellax2 .two {
-    transform: translate3d(6rem, -12rem, 0);
+    -webkit-transform: translate3d(6rem, -12rem, 0);
+            transform: translate3d(6rem, -12rem, 0);
   }
   .rellax3 {
     position: relative;
@@ -1621,21 +1750,25 @@ footer a {
     position: absolute;
   }
   .rellax3 .one {
-    transform: translate3d(-18rem, 2rem, 0);
+    -webkit-transform: translate3d(-18rem, 2rem, 0);
+            transform: translate3d(-18rem, 2rem, 0);
   }
   .rellax3 .two {
-    transform: translate3d(-20rem, 36rem, 0);
+    -webkit-transform: translate3d(-20rem, 36rem, 0);
+            transform: translate3d(-20rem, 36rem, 0);
   }
   .rellax4 {
     position: relative;
   }
   .rellax4 .one {
     position: absolute;
-    transform: translate3d(13rem, -46rem, 0);
+    -webkit-transform: translate3d(13rem, -46rem, 0);
+            transform: translate3d(13rem, -46rem, 0);
   }
   .rellax4 .two {
     position: absolute;
-    transform: translate3d(13rem, -15rem, 0);
+    -webkit-transform: translate3d(13rem, -15rem, 0);
+            transform: translate3d(13rem, -15rem, 0);
   }
   .rellax5 {
     position: relative;
@@ -1645,17 +1778,20 @@ footer a {
     position: absolute;
   }
   .rellax5 .one {
-    transform: translate3d(-20rem, -74rem, 0);
+    -webkit-transform: translate3d(-20rem, -74rem, 0);
+            transform: translate3d(-20rem, -74rem, 0);
   }
   .rellax5 .two {
-    transform: translate3d(-20rem, -12rem, 0);
+    -webkit-transform: translate3d(-20rem, -12rem, 0);
+            transform: translate3d(-20rem, -12rem, 0);
   }
   .rellax6 {
     position: relative;
   }
   .rellax6 .one {
     position: absolute;
-    transform: translate3d(-5rem, 16rem, 0);
+    -webkit-transform: translate3d(-5rem, 16rem, 0);
+            transform: translate3d(-5rem, 16rem, 0);
     z-index: 1;
   }
   .rellax7 {
@@ -1666,10 +1802,12 @@ footer a {
     position: absolute;
   }
   .rellax7 .one {
-    transform: translate3d(-23rem, 16rem, 0);
+    -webkit-transform: translate3d(-23rem, 16rem, 0);
+            transform: translate3d(-23rem, 16rem, 0);
   }
   .rellax7 .two {
-    transform: translate3d(-23rem, -50rem, 0);
+    -webkit-transform: translate3d(-23rem, -50rem, 0);
+            transform: translate3d(-23rem, -50rem, 0);
   }
   .rellax9 {
     position: relative;
@@ -1679,10 +1817,12 @@ footer a {
     position: absolute;
   }
   .rellax9 .one {
-    transform: translate3d(-20rem, 48rem, 0);
+    -webkit-transform: translate3d(-20rem, 48rem, 0);
+            transform: translate3d(-20rem, 48rem, 0);
   }
   .rellax9 .two {
-    transform: translate3d(-20rem, -60rem, 0);
+    -webkit-transform: translate3d(-20rem, -60rem, 0);
+            transform: translate3d(-20rem, -60rem, 0);
   }
   .rellax10 {
     position: relative;
@@ -1692,10 +1832,12 @@ footer a {
     position: absolute;
   }
   .rellax10 .one {
-    transform: translate3d(-5rem, 81rem, 0);
+    -webkit-transform: translate3d(-5rem, 81rem, 0);
+            transform: translate3d(-5rem, 81rem, 0);
   }
   .rellax10 .two {
-    transform: translate3d(-5rem, -20rem, 0);
+    -webkit-transform: translate3d(-5rem, -20rem, 0);
+            transform: translate3d(-5rem, -20rem, 0);
   }
   .rellax11 {
     position: relative;
@@ -1705,10 +1847,12 @@ footer a {
     position: absolute;
   }
   .rellax11 .one {
-    transform: translate3d(9rem, 0rem, 0);
+    -webkit-transform: translate3d(9rem, 0rem, 0);
+            transform: translate3d(9rem, 0rem, 0);
   }
   .rellax11 .two {
-    transform: translate3d(9rem, 180rem, 0);
+    -webkit-transform: translate3d(9rem, 180rem, 0);
+            transform: translate3d(9rem, 180rem, 0);
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -1719,39 +1863,40 @@ footer a {
     width: 90%;
     margin-left: 5%;
   }
-  .first-bg {
-    position: absolute;
-    bottom: 0;
-    right: -18rem;
-  }
   .rellax1 .one {
-    transform: translate3d(-1rem, -15rem, 0);
+    -webkit-transform: translate3d(-1rem, -15rem, 0);
+            transform: translate3d(-1rem, -15rem, 0);
   }
   .rellax1 .two {
-    transform: translate3d(-17rem, -8rem, 0);
+    -webkit-transform: translate3d(-17rem, -8rem, 0);
+            transform: translate3d(-17rem, -8rem, 0);
   }
   .rellax1 .three {
-    transform: translate3d(-14rem, -6rem, 0);
+    -webkit-transform: translate3d(-14rem, -6rem, 0);
+            transform: translate3d(-14rem, -6rem, 0);
   }
   .about {
     margin: 6rem 0 4rem 0;
   }
   .photo .one {
-    transform: translate3d(10rem, -7rem, 0);
+    -webkit-transform: translate3d(10rem, -7rem, 0);
+            transform: translate3d(10rem, -7rem, 0);
   }
   .photo .two {
-    transform: translate3d(4rem, 16.5rem, 0);
+    -webkit-transform: translate3d(4rem, 16.5rem, 0);
+            transform: translate3d(4rem, 16.5rem, 0);
   }
   .no-diw {
     width: 100%;
     margin-top: 36rem;
   }
   .play {
-    transform: translate3d(0, -11rem, 0);
+    -webkit-transform: translate3d(0, -11rem, 0);
+            transform: translate3d(0, -11rem, 0);
   }
   .photo2 {
     padding: 6rem 0 16.5rem 0;
-    background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
+    background: linear-gradient(62.43deg, #cea995 13.77%, #e7baa3 51.33%, #f0cdb7 91.19%);
     margin-top: 4rem;
   }
   .photo2 img,
@@ -1763,23 +1908,27 @@ footer a {
   }
   .photo2-second {
     position: absolute;
-    transform: translate3d(18rem, 14rem, 0);
+    -webkit-transform: translate3d(18rem, 14rem, 0);
+            transform: translate3d(18rem, 14rem, 0);
   }
   .photo2-bg {
     position: absolute;
-    transform: translate3d(34rem, 13rem, 0);
+    -webkit-transform: translate3d(34rem, 13rem, 0);
+            transform: translate3d(34rem, 13rem, 0);
   }
   .photo2-bg img {
     width: 80% !important;
   }
   .photo2-fourth {
     position: absolute;
-    transform: translate3d(20rem, 5rem, 0);
+    -webkit-transform: translate3d(20rem, 5rem, 0);
+            transform: translate3d(20rem, 5rem, 0);
   }
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    transform: translate3d(-11rem, -4rem, 0);
+    -webkit-transform: translate3d(-11rem, -4rem, 0);
+            transform: translate3d(-11rem, -4rem, 0);
   }
   .photo2 .text {
     width: 100%;
@@ -1793,24 +1942,29 @@ footer a {
   }
   .photo3-first {
     position: absolute;
-    transform: translate3d(-18.5rem, 0, 0);
+    -webkit-transform: translate3d(-18.5rem, 0, 0);
+            transform: translate3d(-18.5rem, 0, 0);
   }
   .photo3-second {
     position: absolute;
-    transform: translate3d(-2rem, 2rem, 0);
+    -webkit-transform: translate3d(-2rem, 2rem, 0);
+            transform: translate3d(-2rem, 2rem, 0);
   }
   .photo3-thrid {
     position: absolute;
-    transform: translate3d(7rem, 4rem, 0);
+    -webkit-transform: translate3d(7rem, 4rem, 0);
+            transform: translate3d(7rem, 4rem, 0);
   }
   .photo3-bg {
     position: absolute;
-    transform: translate3d(-4rem, 12rem, 0);
+    -webkit-transform: translate3d(-4rem, 12rem, 0);
+            transform: translate3d(-4rem, 12rem, 0);
   }
   .photo3 .circle,
   .photo3 .text {
     position: absolute;
-    transform: translate3d(6rem, 26rem, 0);
+    -webkit-transform: translate3d(6rem, 26rem, 0);
+            transform: translate3d(6rem, 26rem, 0);
     color: #282828;
     font-size: 34px;
     line-height: 42px;
@@ -1826,10 +1980,12 @@ footer a {
     color: white;
   }
   .rellax9 .one {
-    transform: translate3d(0, 40rem, 0);
+    -webkit-transform: translate3d(0, 40rem, 0);
+            transform: translate3d(0, 40rem, 0);
   }
   .rellax9 .two {
-    transform: translate3d(0, 70rem, 0);
+    -webkit-transform: translate3d(0, 70rem, 0);
+            transform: translate3d(0, 70rem, 0);
   }
   .rellax10 {
     position: relative;
@@ -1840,16 +1996,18 @@ footer a {
     position: absolute;
   }
   .rellax10 .one {
-    transform: translate3d(0, 46rem, 0);
+    -webkit-transform: translate3d(0, 46rem, 0);
+            transform: translate3d(0, 46rem, 0);
   }
   .rellax10 .two {
-    transform: translate3d(0, 0rem, 0);
+    -webkit-transform: translate3d(0, 0rem, 0);
+            transform: translate3d(0, 0rem, 0);
   }
   .ritual {
     position: relative;
     margin-top: 6rem;
     padding: 6rem 0 6rem 3%;
-    background: linear-gradient(121.08deg, #CEA995 11.81%, #D7AB94 53.11%, #F0CDB7 96.16%);
+    background: linear-gradient(121.08deg, #cea995 11.81%, #d7ab94 53.11%, #f0cdb7 96.16%);
   }
   .ritual-text h1 {
     font-size: 34px;
@@ -1898,13 +2056,15 @@ footer a {
     text-align: center;
     background-color: white;
     border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
   }
   .ritual-primer img {
     margin-bottom: 2rem;
   }
   .ritual-primer:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
     cursor: pointer;
   }
   .ritual-tonal {
@@ -1913,18 +2073,21 @@ footer a {
     text-align: center;
     background-color: white;
     border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
   }
   .ritual-tonal img {
     margin-bottom: 2rem;
   }
   .ritual-tonal:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
     cursor: pointer;
   }
   .ritual-bg {
     position: absolute;
-    transform: translate3D(20rem, 6rem, 0);
+    -webkit-transform: translate3D(20rem, 6rem, 0);
+            transform: translate3D(20rem, 6rem, 0);
   }
   .slider .slider-bg-1,
   .slider .slider-bg-2,
@@ -1957,15 +2120,18 @@ footer a {
   }
   .rellax1 .one {
     position: absolute;
-    transform: translate3d(20rem, -16rem, 0);
+    -webkit-transform: translate3d(20rem, -16rem, 0);
+            transform: translate3d(20rem, -16rem, 0);
   }
   .rellax1 .two {
     position: absolute;
-    transform: translate3d(16rem, -8rem, 0);
+    -webkit-transform: translate3d(16rem, -8rem, 0);
+            transform: translate3d(16rem, -8rem, 0);
   }
   .rellax1 .three {
     position: absolute;
-    transform: translate3d(20rem, -5rem, 0);
+    -webkit-transform: translate3d(20rem, -5rem, 0);
+            transform: translate3d(20rem, -5rem, 0);
   }
   .rellax3 {
     position: relative;
@@ -1975,21 +2141,25 @@ footer a {
     position: absolute;
   }
   .rellax3 .one {
-    transform: translate3d(-18rem, 0rem, 0);
+    -webkit-transform: translate3d(-18rem, 0rem, 0);
+            transform: translate3d(-18rem, 0rem, 0);
   }
   .rellax3 .two {
-    transform: translate3d(-20rem, 22rem, 0);
+    -webkit-transform: translate3d(-20rem, 22rem, 0);
+            transform: translate3d(-20rem, 22rem, 0);
   }
   .rellax4 {
     position: relative;
   }
   .rellax4 .one {
     position: absolute;
-    transform: translate3d(18rem, -46rem, 0);
+    -webkit-transform: translate3d(18rem, -46rem, 0);
+            transform: translate3d(18rem, -46rem, 0);
   }
   .rellax4 .two {
     position: absolute;
-    transform: translate3d(18rem, -15rem, 0);
+    -webkit-transform: translate3d(18rem, -15rem, 0);
+            transform: translate3d(18rem, -15rem, 0);
   }
   .rellax5 {
     position: relative;
@@ -1999,10 +2169,12 @@ footer a {
     position: absolute;
   }
   .rellax5 .one {
-    transform: translate3d(16rem, -56rem, 0);
+    -webkit-transform: translate3d(16rem, -56rem, 0);
+            transform: translate3d(16rem, -56rem, 0);
   }
   .rellax5 .two {
-    transform: translate3d(16rem, -8rem, 0);
+    -webkit-transform: translate3d(16rem, -8rem, 0);
+            transform: translate3d(16rem, -8rem, 0);
   }
   .rellax7 {
     position: relative;
@@ -2012,10 +2184,12 @@ footer a {
     position: absolute;
   }
   .rellax7 .one {
-    transform: translate3d(-16rem, 10rem, 0);
+    -webkit-transform: translate3d(-16rem, 10rem, 0);
+            transform: translate3d(-16rem, 10rem, 0);
   }
   .rellax7 .two {
-    transform: translate3d(-16rem, -47rem, 0);
+    -webkit-transform: translate3d(-16rem, -47rem, 0);
+            transform: translate3d(-16rem, -47rem, 0);
   }
   .rellax9 {
     position: relative;
@@ -2025,10 +2199,12 @@ footer a {
     position: absolute;
   }
   .rellax9 .one {
-    transform: translate3d(-23rem, 35rem, 0);
+    -webkit-transform: translate3d(-23rem, 35rem, 0);
+            transform: translate3d(-23rem, 35rem, 0);
   }
   .rellax9 .two {
-    transform: translate3d(-23rem, -30rem, 0);
+    -webkit-transform: translate3d(-23rem, -30rem, 0);
+            transform: translate3d(-23rem, -30rem, 0);
   }
   .rellax10 {
     position: relative;
@@ -2038,10 +2214,12 @@ footer a {
     position: absolute;
   }
   .rellax10 .one {
-    transform: translate3d(0rem, 41rem, 0);
+    -webkit-transform: translate3d(0rem, 41rem, 0);
+            transform: translate3d(0rem, 41rem, 0);
   }
   .rellax10 .two {
-    transform: translate3d(0rem, -20rem, 0);
+    -webkit-transform: translate3d(0rem, -20rem, 0);
+            transform: translate3d(0rem, -20rem, 0);
   }
   .rellax11 {
     position: relative;
@@ -2051,10 +2229,12 @@ footer a {
     position: absolute;
   }
   .rellax11 .one {
-    transform: translate3d(16rem, 15rem, 0);
+    -webkit-transform: translate3d(16rem, 15rem, 0);
+            transform: translate3d(16rem, 15rem, 0);
   }
   .rellax11 .two {
-    transform: translate3d(16rem, 100rem, 0);
+    -webkit-transform: translate3d(16rem, 100rem, 0);
+            transform: translate3d(16rem, 100rem, 0);
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -2062,63 +2242,65 @@ footer a {
     width: 80%;
     margin-left: 10%;
   }
-  .first-bg {
-    position: absolute;
-    bottom: 0;
-    right: -10rem;
-  }
   .about {
     margin: 6rem 0 6rem 0;
   }
   .photo .two {
-    transform: translate3d(4rem, 17.5rem, 0);
+    -webkit-transform: translate3d(4rem, 17.5rem, 0);
+            transform: translate3d(4rem, 17.5rem, 0);
   }
   .no-diw {
     width: 100%;
     margin-top: 38rem;
   }
   .video-box .play {
-    transform: translate3d(0, -15rem, 0);
+    -webkit-transform: translate3d(0, -15rem, 0);
+            transform: translate3d(0, -15rem, 0);
   }
   .photo2 {
     padding: 6rem 0 21.5rem 0;
-    background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
+    background: linear-gradient(62.43deg, #cea995 13.77%, #e7baa3 51.33%, #f0cdb7 91.19%);
   }
   .photo2-first {
     position: absolute;
   }
   .photo2-second {
     position: absolute;
-    transform: translate3d(18rem, 16rem, 0);
+    -webkit-transform: translate3d(18rem, 16rem, 0);
+            transform: translate3d(18rem, 16rem, 0);
   }
   .photo2-bg {
     position: absolute;
-    transform: translate3d(38rem, 15rem, 0);
+    -webkit-transform: translate3d(38rem, 15rem, 0);
+            transform: translate3d(38rem, 15rem, 0);
   }
   .photo2-bg img {
     width: 80% !important;
   }
   .photo2-fourth {
     position: absolute;
-    transform: translate3d(24rem, 5rem, 0);
+    -webkit-transform: translate3d(24rem, 5rem, 0);
+            transform: translate3d(24rem, 5rem, 0);
   }
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    transform: translate3d(-11rem, -4rem, 0);
+    -webkit-transform: translate3d(-11rem, -4rem, 0);
+            transform: translate3d(-11rem, -4rem, 0);
   }
   .photo2 .text {
     width: 100%;
   }
   .photo3-first {
     position: absolute;
-    transform: translate3d(-16.5rem, 0, 0);
+    -webkit-transform: translate3d(-16.5rem, 0, 0);
+            transform: translate3d(-16.5rem, 0, 0);
   }
   .ritual {
     position: relative;
     margin-top: 6rem;
     padding: 6rem 0 6rem 3%;
-    background: linear-gradient(121.08deg, #CEA995 11.81%, #D7AB94 53.11%, #F0CDB7 96.16%);
+    background: linear-gradient(121.08deg, #cea995 11.81%, #d7ab94 53.11%, #f0cdb7 96.16%);
   }
   .ritual-text h1 {
     font-size: 34px;
@@ -2167,13 +2349,15 @@ footer a {
     text-align: center;
     background-color: white;
     border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
   }
   .ritual-primer img {
     margin-bottom: 2rem;
   }
   .ritual-primer:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
     cursor: pointer;
   }
   .ritual-tonal {
@@ -2182,18 +2366,21 @@ footer a {
     text-align: center;
     background-color: white;
     border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
   }
   .ritual-tonal img {
     margin-bottom: 2rem;
   }
   .ritual-tonal:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
     cursor: pointer;
   }
   .ritual-bg {
     position: absolute;
-    transform: translate3D(20rem, 6rem, 0);
+    -webkit-transform: translate3D(20rem, 6rem, 0);
+            transform: translate3D(20rem, 6rem, 0);
   }
   .slider .slider-bg-1,
   .slider .slider-bg-2,
@@ -2226,15 +2413,18 @@ footer a {
   }
   .rellax1 .one {
     position: absolute;
-    transform: translate3d(26rem, -20rem, 0);
+    -webkit-transform: translate3d(26rem, -20rem, 0);
+            transform: translate3d(26rem, -20rem, 0);
   }
   .rellax1 .two {
     position: absolute;
-    transform: translate3d(21rem, -10rem, 0);
+    -webkit-transform: translate3d(21rem, -10rem, 0);
+            transform: translate3d(21rem, -10rem, 0);
   }
   .rellax1 .three {
     position: absolute;
-    transform: translate3d(26rem, -5rem, 0);
+    -webkit-transform: translate3d(26rem, -5rem, 0);
+            transform: translate3d(26rem, -5rem, 0);
   }
   .rellax3 {
     position: relative;
@@ -2244,10 +2434,12 @@ footer a {
     position: absolute;
   }
   .rellax3 .one {
-    transform: translate3d(-22rem, 5rem, 0);
+    -webkit-transform: translate3d(-22rem, 5rem, 0);
+            transform: translate3d(-22rem, 5rem, 0);
   }
   .rellax3 .two {
-    transform: translate3d(-24rem, 21rem, 0);
+    -webkit-transform: translate3d(-24rem, 21rem, 0);
+            transform: translate3d(-24rem, 21rem, 0);
   }
   .rellax7 {
     position: relative;
@@ -2257,10 +2449,12 @@ footer a {
     position: absolute;
   }
   .rellax7 .one {
-    transform: translate3d(-17rem, 10rem, 0);
+    -webkit-transform: translate3d(-17rem, 10rem, 0);
+            transform: translate3d(-17rem, 10rem, 0);
   }
   .rellax7 .two {
-    transform: translate3d(-17rem, -47rem, 0);
+    -webkit-transform: translate3d(-17rem, -47rem, 0);
+            transform: translate3d(-17rem, -47rem, 0);
   }
   .rellax9 {
     position: relative;
@@ -2270,10 +2464,12 @@ footer a {
     position: absolute;
   }
   .rellax9 .one {
-    transform: translate3d(-25rem, 35rem, 0);
+    -webkit-transform: translate3d(-25rem, 35rem, 0);
+            transform: translate3d(-25rem, 35rem, 0);
   }
   .rellax9 .two {
-    transform: translate3d(-25rem, -30rem, 0);
+    -webkit-transform: translate3d(-25rem, -30rem, 0);
+            transform: translate3d(-25rem, -30rem, 0);
   }
   .rellax10 {
     position: relative;
@@ -2283,19 +2479,22 @@ footer a {
     position: absolute;
   }
   .rellax10 .one {
-    transform: translate3d(16rem, 39rem, 0);
+    -webkit-transform: translate3d(16rem, 39rem, 0);
+            transform: translate3d(16rem, 39rem, 0);
   }
   .rellax10 .two {
-    transform: translate3d(16rem, -24rem, 0);
+    -webkit-transform: translate3d(16rem, -24rem, 0);
+            transform: translate3d(16rem, -24rem, 0);
   }
 }
 @media (min-width: 1408px) and (max-width: 1479.98px) {
   .play {
-    transform: translate3d(0, -23rem, 0);
+    -webkit-transform: translate3d(0, -23rem, 0);
+            transform: translate3d(0, -23rem, 0);
   }
   .photo2 {
     padding: 6rem 0 27.6rem 0;
-    background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
+    background: linear-gradient(62.43deg, #cea995 13.77%, #e7baa3 51.33%, #f0cdb7 91.19%);
     margin-top: 4rem;
   }
   .photo2 img,
@@ -2314,20 +2513,24 @@ footer a {
   }
   .photo2-second {
     position: absolute;
-    transform: translate3d(24rem, 20rem, 0);
+    -webkit-transform: translate3d(24rem, 20rem, 0);
+            transform: translate3d(24rem, 20rem, 0);
   }
   .photo2-bg {
     position: absolute;
-    transform: translate3d(53.5rem, 18rem, 0);
+    -webkit-transform: translate3d(53.5rem, 18rem, 0);
+            transform: translate3d(53.5rem, 18rem, 0);
   }
   .photo2-fourth {
     position: absolute;
-    transform: translate3d(30rem, 5rem, 0);
+    -webkit-transform: translate3d(30rem, 5rem, 0);
+            transform: translate3d(30rem, 5rem, 0);
   }
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    transform: translate3d(-17rem, 0, 0);
+    -webkit-transform: translate3d(-17rem, 0, 0);
+            transform: translate3d(-17rem, 0, 0);
   }
   .photo2 .text h1 {
     text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
@@ -2346,7 +2549,7 @@ footer a {
     position: relative;
     margin-top: 6rem;
     padding: 6rem 0 6rem 3%;
-    background: linear-gradient(121.08deg, #CEA995 11.81%, #D7AB94 53.11%, #F0CDB7 96.16%);
+    background: linear-gradient(121.08deg, #cea995 11.81%, #d7ab94 53.11%, #f0cdb7 96.16%);
   }
   .ritual-text {
     margin-right: 1rem;
@@ -2398,13 +2601,15 @@ footer a {
     text-align: center;
     background-color: white;
     border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
   }
   .ritual-primer img {
     margin-bottom: 2rem;
   }
   .ritual-primer:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
     cursor: pointer;
   }
   .ritual-tonal {
@@ -2413,27 +2618,31 @@ footer a {
     text-align: center;
     background-color: white;
     border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
   }
   .ritual-tonal img {
     margin-bottom: 2rem;
   }
   .ritual-tonal:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
     cursor: pointer;
   }
   .ritual-bg {
     position: absolute;
-    transform: translate3D(40rem, 6rem, 0);
+    -webkit-transform: translate3D(40rem, 6rem, 0);
+            transform: translate3D(40rem, 6rem, 0);
   }
 }
 @media (min-width: 1480px) and (max-width: 1535.98px) {
   .play {
-    transform: translate3d(0, -23rem, 0);
+    -webkit-transform: translate3d(0, -23rem, 0);
+            transform: translate3d(0, -23rem, 0);
   }
   .photo2 {
     padding: 6rem 0 27.6rem 0;
-    background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
+    background: linear-gradient(62.43deg, #cea995 13.77%, #e7baa3 51.33%, #f0cdb7 91.19%);
     margin-top: 4rem;
   }
   .photo2 img,
@@ -2452,20 +2661,24 @@ footer a {
   }
   .photo2-second {
     position: absolute;
-    transform: translate3d(24rem, 21rem, 0);
+    -webkit-transform: translate3d(24rem, 21rem, 0);
+            transform: translate3d(24rem, 21rem, 0);
   }
   .photo2-bg {
     position: absolute;
-    transform: translate3d(55rem, 19rem, 0);
+    -webkit-transform: translate3d(55rem, 19rem, 0);
+            transform: translate3d(55rem, 19rem, 0);
   }
   .photo2-fourth {
     position: absolute;
-    transform: translate3d(30rem, 5rem, 0);
+    -webkit-transform: translate3d(30rem, 5rem, 0);
+            transform: translate3d(30rem, 5rem, 0);
   }
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    transform: translate3d(-17rem, 0, 0);
+    -webkit-transform: translate3d(-17rem, 0, 0);
+            transform: translate3d(-17rem, 0, 0);
   }
   .photo2 .text h1 {
     text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
@@ -2484,7 +2697,7 @@ footer a {
     position: relative;
     margin-top: 6rem;
     padding: 6rem 0 6rem 3%;
-    background: linear-gradient(121.08deg, #CEA995 11.81%, #D7AB94 53.11%, #F0CDB7 96.16%);
+    background: linear-gradient(121.08deg, #cea995 11.81%, #d7ab94 53.11%, #f0cdb7 96.16%);
   }
   .ritual-text h1 {
     font-size: 34px;
@@ -2533,13 +2746,15 @@ footer a {
     text-align: center;
     background-color: white;
     border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
   }
   .ritual-primer img {
     margin-bottom: 2rem;
   }
   .ritual-primer:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
     cursor: pointer;
   }
   .ritual-tonal {
@@ -2548,27 +2763,31 @@ footer a {
     text-align: center;
     background-color: white;
     border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
   }
   .ritual-tonal img {
     margin-bottom: 2rem;
   }
   .ritual-tonal:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
     cursor: pointer;
   }
   .ritual-bg {
     position: absolute;
-    transform: translate3D(45rem, 6rem, 0);
+    -webkit-transform: translate3D(45rem, 6rem, 0);
+            transform: translate3D(45rem, 6rem, 0);
   }
 }
 @media (min-width: 1536px) and (max-width: 1599.98px) {
   .play {
-    transform: translate3d(0, -23rem, 0);
+    -webkit-transform: translate3d(0, -23rem, 0);
+            transform: translate3d(0, -23rem, 0);
   }
   .photo2 {
     padding: 6rem 0 27.6rem 0;
-    background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
+    background: linear-gradient(62.43deg, #cea995 13.77%, #e7baa3 51.33%, #f0cdb7 91.19%);
     margin-top: 4rem;
   }
   .photo2 img,
@@ -2587,20 +2806,24 @@ footer a {
   }
   .photo2-second {
     position: absolute;
-    transform: translate3d(24rem, 21rem, 0);
+    -webkit-transform: translate3d(24rem, 21rem, 0);
+            transform: translate3d(24rem, 21rem, 0);
   }
   .photo2-bg {
     position: absolute;
-    transform: translate3d(55rem, 19rem, 0);
+    -webkit-transform: translate3d(55rem, 19rem, 0);
+            transform: translate3d(55rem, 19rem, 0);
   }
   .photo2-fourth {
     position: absolute;
-    transform: translate3d(30rem, 5rem, 0);
+    -webkit-transform: translate3d(30rem, 5rem, 0);
+            transform: translate3d(30rem, 5rem, 0);
   }
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    transform: translate3d(-17rem, 0, 0);
+    -webkit-transform: translate3d(-17rem, 0, 0);
+            transform: translate3d(-17rem, 0, 0);
   }
   .photo2 .text h1 {
     text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
@@ -2617,16 +2840,18 @@ footer a {
   }
   .ritual-bg {
     position: absolute;
-    transform: translate3D(50rem, 6rem, 0);
+    -webkit-transform: translate3D(50rem, 6rem, 0);
+            transform: translate3D(50rem, 6rem, 0);
   }
 }
 @media (min-width: 1600px) and (max-width: 1679.98px) {
   .play {
-    transform: translate3d(0, -25rem, 0);
+    -webkit-transform: translate3d(0, -25rem, 0);
+            transform: translate3d(0, -25rem, 0);
   }
   .photo2 {
     padding: 6rem 0 27.6rem 0;
-    background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
+    background: linear-gradient(62.43deg, #cea995 13.77%, #e7baa3 51.33%, #f0cdb7 91.19%);
     margin-top: 4rem;
   }
   .photo2 img,
@@ -2645,20 +2870,24 @@ footer a {
   }
   .photo2-second {
     position: absolute;
-    transform: translate3d(26rem, 21rem, 0);
+    -webkit-transform: translate3d(26rem, 21rem, 0);
+            transform: translate3d(26rem, 21rem, 0);
   }
   .photo2-bg {
     position: absolute;
-    transform: translate3d(58rem, 19rem, 0);
+    -webkit-transform: translate3d(58rem, 19rem, 0);
+            transform: translate3d(58rem, 19rem, 0);
   }
   .photo2-fourth {
     position: absolute;
-    transform: translate3d(32rem, 5rem, 0);
+    -webkit-transform: translate3d(32rem, 5rem, 0);
+            transform: translate3d(32rem, 5rem, 0);
   }
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    transform: translate3d(-18rem, 0, 0);
+    -webkit-transform: translate3d(-18rem, 0, 0);
+            transform: translate3d(-18rem, 0, 0);
   }
   .photo2 .text h1 {
     text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
@@ -2675,16 +2904,18 @@ footer a {
   }
   .ritual-bg {
     position: absolute;
-    transform: translate3D(57rem, 6rem, 0);
+    -webkit-transform: translate3D(57rem, 6rem, 0);
+            transform: translate3D(57rem, 6rem, 0);
   }
 }
 @media (min-width: 1680px) and (max-width: 1919.98px) {
   .play {
-    transform: translate3d(0, -25rem, 0);
+    -webkit-transform: translate3d(0, -25rem, 0);
+            transform: translate3d(0, -25rem, 0);
   }
   .photo2 {
     padding: 6rem 0 27.6rem 0;
-    background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
+    background: linear-gradient(62.43deg, #cea995 13.77%, #e7baa3 51.33%, #f0cdb7 91.19%);
     margin-top: 4rem;
   }
   .photo2 img,
@@ -2703,20 +2934,24 @@ footer a {
   }
   .photo2-second {
     position: absolute;
-    transform: translate3d(28rem, 21rem, 0);
+    -webkit-transform: translate3d(28rem, 21rem, 0);
+            transform: translate3d(28rem, 21rem, 0);
   }
   .photo2-bg {
     position: absolute;
-    transform: translate3d(62rem, 19rem, 0);
+    -webkit-transform: translate3d(62rem, 19rem, 0);
+            transform: translate3d(62rem, 19rem, 0);
   }
   .photo2-fourth {
     position: absolute;
-    transform: translate3d(34rem, 5rem, 0);
+    -webkit-transform: translate3d(34rem, 5rem, 0);
+            transform: translate3d(34rem, 5rem, 0);
   }
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    transform: translate3d(-18rem, 0, 0);
+    -webkit-transform: translate3d(-18rem, 0, 0);
+            transform: translate3d(-18rem, 0, 0);
   }
   .photo2 .text h1 {
     text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
@@ -2733,7 +2968,8 @@ footer a {
   }
   .ritual-bg {
     position: absolute;
-    transform: translate3D(55rem, 6rem, 0);
+    -webkit-transform: translate3D(55rem, 6rem, 0);
+            transform: translate3D(55rem, 6rem, 0);
   }
   .rellax7 {
     position: relative;
@@ -2743,19 +2979,22 @@ footer a {
     position: absolute;
   }
   .rellax7 .one {
-    transform: translate3d(-24rem, 10rem, 0);
+    -webkit-transform: translate3d(-24rem, 10rem, 0);
+            transform: translate3d(-24rem, 10rem, 0);
   }
   .rellax7 .two {
-    transform: translate3d(-24rem, -47rem, 0);
+    -webkit-transform: translate3d(-24rem, -47rem, 0);
+            transform: translate3d(-24rem, -47rem, 0);
   }
 }
 @media (min-width: 1920px) and (max-width: 2047.98px) {
   .play {
-    transform: translate3d(0, -29rem, 0);
+    -webkit-transform: translate3d(0, -29rem, 0);
+            transform: translate3d(0, -29rem, 0);
   }
   .photo2 {
     padding: 6rem 0 27.6rem 0;
-    background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
+    background: linear-gradient(62.43deg, #cea995 13.77%, #e7baa3 51.33%, #f0cdb7 91.19%);
     margin-top: 4rem;
   }
   .photo2 img,
@@ -2774,20 +3013,24 @@ footer a {
   }
   .photo2-second {
     position: absolute;
-    transform: translate3d(32rem, 21rem, 0);
+    -webkit-transform: translate3d(32rem, 21rem, 0);
+            transform: translate3d(32rem, 21rem, 0);
   }
   .photo2-bg {
     position: absolute;
-    transform: translate3d(69.5rem, 19rem, 0);
+    -webkit-transform: translate3d(69.5rem, 19rem, 0);
+            transform: translate3d(69.5rem, 19rem, 0);
   }
   .photo2-fourth {
     position: absolute;
-    transform: translate3d(38rem, 5rem, 0);
+    -webkit-transform: translate3d(38rem, 5rem, 0);
+            transform: translate3d(38rem, 5rem, 0);
   }
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    transform: translate3d(-23rem, 0, 0);
+    -webkit-transform: translate3d(-23rem, 0, 0);
+            transform: translate3d(-23rem, 0, 0);
   }
   .photo2 .text h1 {
     text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
@@ -2804,7 +3047,8 @@ footer a {
   }
   .ritual-bg {
     position: absolute;
-    transform: translate3D(70rem, 6rem, 0);
+    -webkit-transform: translate3D(70rem, 6rem, 0);
+            transform: translate3D(70rem, 6rem, 0);
   }
   .rellax7 {
     position: relative;
@@ -2814,10 +3058,12 @@ footer a {
     position: absolute;
   }
   .rellax7 .one {
-    transform: translate3d(-28rem, 10rem, 0);
+    -webkit-transform: translate3d(-28rem, 10rem, 0);
+            transform: translate3d(-28rem, 10rem, 0);
   }
   .rellax7 .two {
-    transform: translate3d(-28rem, -47rem, 0);
+    -webkit-transform: translate3d(-28rem, -47rem, 0);
+            transform: translate3d(-28rem, -47rem, 0);
   }
   .first-text {
     padding-top: 14rem;
@@ -2827,24 +3073,28 @@ footer a {
   }
   .rellax1 .one {
     position: absolute;
-    transform: translate3d(40rem, -20rem, 0);
+    -webkit-transform: translate3d(40rem, -20rem, 0);
+            transform: translate3d(40rem, -20rem, 0);
   }
   .rellax1 .two {
     position: absolute;
-    transform: translate3d(35rem, -10rem, 0);
+    -webkit-transform: translate3d(35rem, -10rem, 0);
+            transform: translate3d(35rem, -10rem, 0);
   }
   .rellax1 .three {
     position: absolute;
-    transform: translate3d(40rem, -5rem, 0);
+    -webkit-transform: translate3d(40rem, -5rem, 0);
+            transform: translate3d(40rem, -5rem, 0);
   }
 }
 @media (min-width: 2048px) {
   .play {
-    transform: translate3d(0, -33rem, 0);
+    -webkit-transform: translate3d(0, -33rem, 0);
+            transform: translate3d(0, -33rem, 0);
   }
   .photo2 {
     padding: 6rem 0 27.6rem 0;
-    background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
+    background: linear-gradient(62.43deg, #cea995 13.77%, #e7baa3 51.33%, #f0cdb7 91.19%);
     margin-top: 4rem;
   }
   .photo2 img,
@@ -2863,20 +3113,24 @@ footer a {
   }
   .photo2-second {
     position: absolute;
-    transform: translate3d(32rem, 21rem, 0);
+    -webkit-transform: translate3d(32rem, 21rem, 0);
+            transform: translate3d(32rem, 21rem, 0);
   }
   .photo2-bg {
     position: absolute;
-    transform: translate3d(71.5rem, 19rem, 0);
+    -webkit-transform: translate3d(71.5rem, 19rem, 0);
+            transform: translate3d(71.5rem, 19rem, 0);
   }
   .photo2-fourth {
     position: absolute;
-    transform: translate3d(38rem, 5rem, 0);
+    -webkit-transform: translate3d(38rem, 5rem, 0);
+            transform: translate3d(38rem, 5rem, 0);
   }
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    transform: translate3d(-26rem, 0, 0);
+    -webkit-transform: translate3d(-26rem, 0, 0);
+            transform: translate3d(-26rem, 0, 0);
   }
   .photo2 .text h1 {
     text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
@@ -2893,7 +3147,8 @@ footer a {
   }
   .ritual-bg {
     position: absolute;
-    transform: translate3D(77rem, 6rem, 0);
+    -webkit-transform: translate3D(77rem, 6rem, 0);
+            transform: translate3D(77rem, 6rem, 0);
   }
   .rellax7 {
     position: relative;
@@ -2903,10 +3158,12 @@ footer a {
     position: absolute;
   }
   .rellax7 .one {
-    transform: translate3d(-34rem, 10rem, 0);
+    -webkit-transform: translate3d(-34rem, 10rem, 0);
+            transform: translate3d(-34rem, 10rem, 0);
   }
   .rellax7 .two {
-    transform: translate3d(-34rem, -47rem, 0);
+    -webkit-transform: translate3d(-34rem, -47rem, 0);
+            transform: translate3d(-34rem, -47rem, 0);
   }
   .first-text {
     padding-top: 14rem;
@@ -2916,14 +3173,17 @@ footer a {
   }
   .rellax1 .one {
     position: absolute;
-    transform: translate3d(40rem, -20rem, 0);
+    -webkit-transform: translate3d(40rem, -20rem, 0);
+            transform: translate3d(40rem, -20rem, 0);
   }
   .rellax1 .two {
     position: absolute;
-    transform: translate3d(35rem, -10rem, 0);
+    -webkit-transform: translate3d(35rem, -10rem, 0);
+            transform: translate3d(35rem, -10rem, 0);
   }
   .rellax1 .three {
     position: absolute;
-    transform: translate3d(40rem, -5rem, 0);
+    -webkit-transform: translate3d(40rem, -5rem, 0);
+            transform: translate3d(40rem, -5rem, 0);
   }
 }

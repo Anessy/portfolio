@@ -90,7 +90,7 @@ p {
 .first-bg {
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: -4rem;
 }
 .about {
   margin: 8rem 0 4rem 0;
@@ -372,7 +372,7 @@ p {
 }
 .ritual-primer {
   width: 85%;
-  padding: 4rem 0.5rem 4rem 0.5rem;
+  padding: 4rem 0.7rem 4rem 0.7rem;
   text-align: center;
   background-color: white;
   border: 1px solid white;
@@ -389,7 +389,7 @@ p {
 }
 .ritual-tonal {
   width: 85%;
-  padding: 3rem 0.5rem 2.5rem 0.5rem;
+  padding: 3rem 0.7rem 2.5rem 0.7rem;
   text-align: center;
   background-color: white;
   border: 1px solid white;
@@ -658,6 +658,11 @@ footer a {
   .first-text {
     width: 90%;
     margin-left: 5%;
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: -15rem;
   }
   .about {
     margin: 4rem 0 4rem 0;
@@ -1062,6 +1067,11 @@ footer a {
   .first-text {
     width: 90%;
     margin-left: 5%;
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: -15rem;
   }
   .about {
     margin: 4rem 0 4rem 0;
@@ -1468,6 +1478,11 @@ footer a {
   .first-scroll {
     margin-bottom: 6rem;
   }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: -5rem;
+  }
   .about {
     margin: 6rem 0 4rem 0;
   }
@@ -1638,7 +1653,7 @@ footer a {
   }
   .ritual-primer {
     width: 100%;
-    padding: 4rem 0.5rem 4rem 0.5rem;
+    padding: 4rem 0.6rem 4rem 0.6rem;
     text-align: center;
     background-color: white;
     border: 1px solid white;
@@ -1656,7 +1671,7 @@ footer a {
   }
   .ritual-tonal {
     width: 100%;
-    padding: 3rem 0.5rem 2.5rem 0.5rem;
+    padding: 3rem 0.6rem 2.5rem 0.6rem;
     text-align: center;
     background-color: white;
     border: 1px solid white;
@@ -1862,6 +1877,11 @@ footer a {
   .first-text {
     width: 90%;
     margin-left: 5%;
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: -18rem;
   }
   .rellax1 .one {
     -webkit-transform: translate3d(-1rem, -15rem, 0);
@@ -2241,6 +2261,11 @@ footer a {
   .first-text {
     width: 80%;
     margin-left: 10%;
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: -10rem;
   }
   .about {
     margin: 6rem 0 6rem 0;
