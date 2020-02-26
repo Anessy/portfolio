@@ -659,6 +659,9 @@ footer a {
     width: 90%;
     margin-left: 5%;
   }
+  .firstQuestion {
+    margin-top: 8rem;
+  }
   .about {
     margin: 4rem 0 4rem 0;
   }
