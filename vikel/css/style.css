@@ -640,7 +640,7 @@ footer a {
   -webkit-transform: translate3d(20rem, 100rem, 0);
           transform: translate3d(20rem, 100rem, 0);
 }
-@media (max-width: 575.98px) {
+@media (max-width: 320px) and (max-width: 374.98px) {
   .header-logo {
     text-align: center;
     margin-bottom: 1.5rem;
@@ -967,6 +967,413 @@ footer a {
   .rellax5 .one {
     -webkit-transform: translate3d(-14rem, -96rem, 0);
             transform: translate3d(-14rem, -96rem, 0);
+  }
+  .rellax5 .two {
+    -webkit-transform: translate3d(-14rem, -30rem, 0);
+            transform: translate3d(-14rem, -30rem, 0);
+  }
+  .rellax6 {
+    position: relative;
+  }
+  .rellax6 .one {
+    position: absolute;
+    -webkit-transform: translate3d(-10rem, 23rem, 0);
+            transform: translate3d(-10rem, 23rem, 0);
+    z-index: 1;
+  }
+  .rellax7 {
+    position: relative;
+    -webkit-transform: translate3d(0, -40rem, 0);
+            transform: translate3d(0, -40rem, 0);
+  }
+  .rellax7 .one,
+  .rellax7 .two {
+    position: absolute;
+  }
+  .rellax7 .one {
+    -webkit-transform: translate3d(-17rem, 6rem, 0);
+            transform: translate3d(-17rem, 6rem, 0);
+  }
+  .rellax7 .two {
+    -webkit-transform: translate3d(-17rem, -70rem, 0);
+            transform: translate3d(-17rem, -70rem, 0);
+  }
+  .rellax9 {
+    position: relative;
+  }
+  .rellax9 .one,
+  .rellax9 .two {
+    position: absolute;
+  }
+  .rellax9 .one {
+    -webkit-transform: translate3d(-10rem, 50rem, 0);
+            transform: translate3d(-10rem, 50rem, 0);
+  }
+  .rellax9 .two {
+    -webkit-transform: translate3d(-10rem, -60rem, 0);
+            transform: translate3d(-10rem, -60rem, 0);
+  }
+  .rellax10 {
+    position: relative;
+  }
+  .rellax10 .one,
+  .rellax10 .two {
+    position: absolute;
+  }
+  .rellax10 .one {
+    -webkit-transform: translate3d(0rem, 91rem, 0);
+            transform: translate3d(0rem, 91rem, 0);
+  }
+  .rellax10 .two {
+    -webkit-transform: translate3d(0rem, -20rem, 0);
+            transform: translate3d(0rem, -20rem, 0);
+  }
+  .rellax11 {
+    position: relative;
+  }
+  .rellax11 .one,
+  .rellax11 .two {
+    position: absolute;
+  }
+  .rellax11 .one {
+    -webkit-transform: translate3d(0rem, 40rem, 0);
+            transform: translate3d(0rem, 40rem, 0);
+  }
+  .rellax11 .two {
+    -webkit-transform: translate3d(0rem, 190rem, 0);
+            transform: translate3d(0rem, 190rem, 0);
+  }
+}
+@media (max-width: 375px) and (max-width: 575.98px) {
+  .header-logo {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  .header-links {
+    margin: 0 -2rem;
+  }
+  .header-links a {
+    margin: 0 0.2rem;
+  }
+  .first-photo {
+    -webkit-transform: translateY(3rem);
+            transform: translateY(3rem);
+  }
+  .first-text {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .about {
+    margin: 4rem 0 4rem 0;
+  }
+  .photo img {
+    width: 110%;
+  }
+  .photo .one {
+    -webkit-transform: translate3d(10rem, -2rem, 0);
+            transform: translate3d(10rem, -2rem, 0);
+  }
+  .photo .two {
+    -webkit-transform: translate3d(-2rem, 16rem, 0);
+            transform: translate3d(-2rem, 16rem, 0);
+  }
+  .photo .three {
+    margin-left: -2rem;
+    margin-top: 13rem;
+  }
+  .photo .three img {
+    width: 120% !important;
+  }
+  .photo .four {
+    top: -4rem;
+    left: 0;
+  }
+  .no-diw {
+    width: 100%;
+    margin-top: 38rem;
+  }
+  .play {
+    -webkit-transform: translate3d(-1rem, -16rem, 0);
+            transform: translate3d(-1rem, -16rem, 0);
+  }
+  .play .a {
+    margin-left: 2rem;
+  }
+  .play .a img {
+    width: 80%;
+  }
+  .play .a img:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+  }
+  .photo2 {
+    padding: 6rem 0 68rem 0;
+    margin-bottom: 10rem;
+  }
+  .photo2-second {
+    position: absolute;
+    -webkit-transform: translate3d(3.5rem, 72rem, 0);
+            transform: translate3d(3.5rem, 72rem, 0);
+  }
+  .photo2-bg {
+    position: absolute;
+    -webkit-transform: translate3d(8.2rem, 71rem, 0);
+            transform: translate3d(8.2rem, 71rem, 0);
+  }
+  .photo2-fourth {
+    position: absolute;
+    -webkit-transform: translate3d(0rem, 53rem, 0);
+            transform: translate3d(0rem, 53rem, 0);
+  }
+  .photo2-fourth img {
+    width: 110% !important;
+  }
+  .photo2 .text,
+  .photo2 .circle {
+    position: absolute;
+    -webkit-transform: translate3d(5rem, 29rem, 0);
+            transform: translate3d(5rem, 29rem, 0);
+  }
+  .photo2 .text h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+  }
+  .eightthQuestion {
+    margin-top: 12rem;
+  }
+  .video {
+    margin-left: -120vw;
+    width: 340vw;
+    height: 140vw;
+  }
+  .photo3 {
+    margin-top: 6rem;
+    position: relative;
+  }
+  .photo3 img {
+    width: 100%;
+  }
+  .photo3-first {
+    position: absolute;
+    -webkit-transform: translate3d(1.5rem, 10rem, 0);
+            transform: translate3d(1.5rem, 10rem, 0);
+  }
+  .photo3-second {
+    position: absolute;
+    -webkit-transform: translate3d(3rem, 11.5rem, 0);
+            transform: translate3d(3rem, 11.5rem, 0);
+  }
+  .photo3-thrid {
+    position: absolute;
+    -webkit-transform: translate3d(-1rem, 0, 0);
+            transform: translate3d(-1rem, 0, 0);
+  }
+  .photo3-bg {
+    position: absolute;
+    -webkit-transform: translate3d(0, 47rem, 0);
+            transform: translate3d(0, 47rem, 0);
+  }
+  .photo3 .text {
+    width: 100%;
+    position: absolute;
+    -webkit-transform: translate3d(-1rem, 29rem, 0);
+            transform: translate3d(-1rem, 29rem, 0);
+    color: #282828;
+    font-size: 30px !important;
+    line-height: 42px;
+  }
+  .photo3 .circle {
+    margin-left: -4rem;
+    border-radius: 20rem;
+    background-color: #C6E4AC;
+    padding: 0 1.1rem;
+    color: white;
+    -webkit-transform: translate3d(3rem, 25rem, 0);
+            transform: translate3d(3rem, 25rem, 0);
+  }
+  .tenthQuestion {
+    margin-top: 58rem;
+  }
+  .ritual {
+    text-align: center;
+    position: relative;
+    margin-top: 6rem;
+    padding: 6rem 0 6rem 0;
+  }
+  .ritual-text .for-button button {
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    width: 140px;
+    height: 50px;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+  .ritual-text .for-button button p {
+    margin: -0.1rem 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .ritual-text .for-button button:focus {
+    outline: none !important;
+  }
+  .ritual-text .for-button button:active {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .ritual-text .for-button button:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .ritual-primer {
+    width: 100%;
+    padding: 4rem 0.5rem 4rem 0.5rem;
+    text-align: center;
+    background-color: white;
+    border: 1px solid white;
+    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    margin-bottom: 4rem;
+  }
+  .ritual-primer img {
+    margin-bottom: 2rem;
+  }
+  .ritual-primer:hover {
+    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+    cursor: pointer;
+  }
+  .ritual-tonal {
+    width: 100%;
+    padding: 3rem 0.5rem 2.5rem 0.5rem;
+    text-align: center;
+    background-color: white;
+    border: 1px solid white;
+    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+  }
+  .ritual-tonal img {
+    margin-bottom: 2rem;
+  }
+  .ritual-tonal:hover {
+    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
+    cursor: pointer;
+  }
+  .ritual-bg {
+    position: absolute;
+    -webkit-transform: translate3D(0, 57rem, 0);
+            transform: translate3D(0, 57rem, 0);
+  }
+  .slider {
+    color: white;
+  }
+  .slider .slider-bg-1,
+  .slider .slider-bg-2,
+  .slider .slider-bg-3 {
+    padding-top: 2rem;
+    background-size: cover;
+    margin: auto;
+    width: 100vw;
+    height: 179vw;
+  }
+  .slider .SlideNumber {
+    padding-top: 0rem;
+    margin-left: -0.5rem;
+  }
+  .slider .buttonSlider {
+    margin-bottom: 3rem;
+  }
+  .slider .text {
+    margin-bottom: 3rem;
+  }
+  .slider button {
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    padding: 0.5rem 1rem;
+  }
+  footer {
+    padding: 1rem 0 1rem 3rem;
+  }
+  .rellax1 {
+    position: relative;
+  }
+  .rellax1 .one {
+    position: absolute;
+    -webkit-transform: translate3d(6rem, -400px, 0);
+            transform: translate3d(6rem, -400px, 0);
+  }
+  .rellax1 .two {
+    position: absolute;
+    -webkit-transform: translate3d(0rem, -8rem, 0);
+            transform: translate3d(0rem, -8rem, 0);
+  }
+  .rellax1 .three {
+    position: absolute;
+    -webkit-transform: translate3d(6rem, -1rem, 0);
+            transform: translate3d(6rem, -1rem, 0);
+  }
+  .rellax2 {
+    position: relative;
+  }
+  .rellax2 .one,
+  .rellax2 .two {
+    position: absolute;
+    z-index: 1;
+  }
+  .rellax2 .one {
+    -webkit-transform: translate3d(0rem, 19rem, 0);
+            transform: translate3d(0rem, 19rem, 0);
+  }
+  .rellax2 .two {
+    -webkit-transform: translate3d(6rem, -12rem, 0);
+            transform: translate3d(6rem, -12rem, 0);
+  }
+  .rellax3 {
+    position: relative;
+  }
+  .rellax3 .one,
+  .rellax3 .two {
+    position: absolute;
+  }
+  .rellax3 .one {
+    -webkit-transform: translate3d(-12rem, 10rem, 0);
+            transform: translate3d(-12rem, 10rem, 0);
+  }
+  .rellax3 .two {
+    -webkit-transform: translate3d(-14rem, 36rem, 0);
+            transform: translate3d(-14rem, 36rem, 0);
+  }
+  .rellax4 {
+    position: relative;
+  }
+  .rellax4 .one {
+    position: absolute;
+    -webkit-transform: translate3d(3rem, -22rem, 0);
+            transform: translate3d(3rem, -22rem, 0);
+  }
+  .rellax4 .two {
+    position: absolute;
+    -webkit-transform: translate3d(8rem, -15rem, 0);
+            transform: translate3d(8rem, -15rem, 0);
+  }
+  .rellax5 {
+    position: relative;
+  }
+  .rellax5 .one,
+  .rellax5 .two {
+    position: absolute;
+  }
+  .rellax5 .one {
+    -webkit-transform: translate3d(-14rem, -86rem, 0);
+            transform: translate3d(-14rem, -86rem, 0);
   }
   .rellax5 .two {
     -webkit-transform: translate3d(-14rem, -30rem, 0);
