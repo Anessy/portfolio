@@ -673,7 +673,7 @@ footer a {
   }
   .photo2-fourth {
     position: absolute;
-    transform: translate3d(0rem, 52rem, 0);
+    transform: translate3d(0rem, 53rem, 0);
   }
   .photo2-fourth img {
     width: 110% !important;
@@ -681,7 +681,7 @@ footer a {
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    transform: translate3d(5rem, 25rem, 0);
+    transform: translate3d(5rem, 29rem, 0);
   }
   .photo2 .text h1 {
     font-style: normal;
