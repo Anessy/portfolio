@@ -617,10 +617,10 @@ footer a {
   position: absolute;
 }
 .rellax11 .one {
-  transform: translate3d(0, 0, 0);
+  transform: translate3d(-35rem, 0, 0);
 }
 .rellax11 .two {
-  transform: translate3d(0, 0, 0);
+  transform: translate3d(28rem, 0, 0);
 }
 @media (max-width: 320px) and (max-width: 374.98px) {
   .header-logo {

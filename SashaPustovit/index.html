@@ -513,7 +513,7 @@
       <img class="rellax" data-rellax-speed="-1" src="./img/rellax11/1.svg" alt="1">
     </div>
     <div class="two">
-      <img class="rellax two" data-rellax-speed="-1" src="./img/rellax11/2.svg" alt="2">
+      <img class="rellax" data-rellax-speed="-1" src="./img/rellax11/2.svg" alt="2">
     </div>
   </div>
 </div>
@@ -784,7 +784,11 @@
     <!-- подключаем rellax -->
     <script src="js/rellax.min.js"></script>
     <script>
-      var rellax = new Rellax('.rellax'); // Accepts any class name
+      //var rellax = new Rellax('.rellax'); 
+      // Accepts any class name
+      var rellax = new Rellax('.rellax', {
+        horizontal: true
+  });
     </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
