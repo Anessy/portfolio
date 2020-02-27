@@ -126,7 +126,8 @@ p {
 .eightthQuestion,
 .ninethQuestion,
 .tenthQuestion,
-.eleventhQuestion {
+.eleventhQuestion,
+.twelwethQuestion {
   margin-top: 2rem;
   text-align: left;
 }
@@ -141,7 +142,8 @@ p {
 .eightthQuestion h1,
 .ninethQuestion h1,
 .tenthQuestion h1,
-.eleventhQuestion h1 {
+.eleventhQuestion h1,
+.twelwethQuestion h1 {
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
@@ -159,7 +161,8 @@ p {
 .eightthQuestion p,
 .ninethQuestion p,
 .tenthQuestion p,
-.eleventhQuestion p {
+.eleventhQuestion p,
+.twelwethQuestion p {
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -169,8 +172,11 @@ p {
 .firstQuestion {
   margin-top: 4rem;
 }
-.secondQuestion {
-  margin-bottom: 6rem;
+.seventhQuestion {
+  margin-bottom: 4rem;
+}
+.thirdQuestion {
+  margin-bottom: 4rem;
 }
 .video-box {
   margin-bottom: -1rem;
@@ -195,90 +201,95 @@ p {
   height: 43vw;
 }
 .photo2 {
-  padding: 6rem 0 27.6rem 0;
-  background: linear-gradient(113.71deg, #cce2a8 11.81%, #bad794 53.11%, #e1f0b7 96.16%);
-  margin-top: 4rem;
+  position: relative;
+  padding: 4rem 0 33rem 0;
+  background: linear-gradient(198.01deg, #cce2a8 19.88%, #bad794 55.51%, #e1f0b7 87%);
 }
-.photo2 img,
-.photo2 h1 {
+.photo2 .one,
+.photo2 .two,
+.photo2 .three {
+  position: absolute;
+}
+.photo2 .one {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+.photo2 .one img {
   width: 100%;
 }
-.photo2 h1 {
+.photo2 .two {
+  -webkit-transform: translate3d(-10rem, 15.5rem, 0);
+          transform: translate3d(-10rem, 15.5rem, 0);
+}
+.photo2 .two img {
+  width: 100%;
+}
+.photo2 .three {
+  -webkit-transform: translate3d(18rem, 17rem, 0);
+          transform: translate3d(18rem, 17rem, 0);
+}
+.photo2 .three img {
+  width: 100%;
+}
+.photo2 .text,
+.photo2 .circle {
+  position: absolute;
+  -webkit-transform: translate3d(16rem, 0, 0);
+          transform: translate3d(16rem, 0, 0);
+}
+.photo2 .text h1 {
+  font-family: PT Serif;
   font-style: normal;
   font-weight: bold;
   font-size: 34px;
   line-height: 42px;
   color: #FFFFFF;
-}
-.photo2-first {
-  position: absolute;
-}
-.photo2-second {
-  position: absolute;
-  -webkit-transform: translate3d(22rem, 16rem, 0);
-          transform: translate3d(22rem, 16rem, 0);
-}
-.photo2-bg {
-  position: absolute;
-  -webkit-transform: translate3d(55rem, 5rem, 0);
-          transform: translate3d(55rem, 5rem, 0);
-}
-.photo2-fourth {
-  position: absolute;
-  -webkit-transform: translate3d(28.5rem, 3.5rem, 0);
-          transform: translate3d(28.5rem, 3.5rem, 0);
-}
-.photo2 .text,
-.photo2 .circle {
-  position: absolute;
-  -webkit-transform: translate3d(-14rem, 0, 0);
-          transform: translate3d(-14rem, 0, 0);
-}
-.photo2 .text h1 {
   text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
 }
 .photo2 .circle {
   margin-left: -4rem;
-  padding: 0 1rem;
+  padding: 0 1.2rem;
   border: 1px solid #F0CDB7;
   border-radius: 50%;
   background-color: #F0CDB7;
+  color: white;
 }
 .eightthQuestion {
-  margin-top: 15rem;
+  margin-top: 5rem;
 }
 .photo3 {
   margin-top: 4rem;
   position: relative;
 }
-.photo3 img {
-  width: 100%;
-}
-.photo3-first {
-  position: absolute;
-  -webkit-transform: translate3d(5rem, 22rem, 0);
-          transform: translate3d(5rem, 22rem, 0);
-}
-.photo3-second {
-  position: absolute;
-  -webkit-transform: translate3d(-16rem, 20rem, 0);
-          transform: translate3d(-16rem, 20rem, 0);
-}
-.photo3-thrid {
+.photo3-one {
   position: absolute;
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
 }
-.photo3-bg {
+.photo3-one img {
+  width: 100%;
+}
+.photo3-two {
   position: absolute;
-  -webkit-transform: translate3d(0, 10rem, 0);
-          transform: translate3d(0, 10rem, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+.photo3-two img {
+  width: 100%;
+}
+.photo3-lines {
+  position: absolute;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+.photo3-lines img {
+  width: 100%;
 }
 .photo3 .circle,
 .photo3 .text {
   position: absolute;
-  -webkit-transform: translate3d(7rem, 0, 0);
-          transform: translate3d(7rem, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
 }
 .photo3 .circle h1,
 .photo3 .text h1 {
@@ -297,7 +308,7 @@ p {
 .photo3 .circle h1 {
   color: white;
 }
-.tenthQuestion {
+.forteenthQuestion {
   margin-top: 43rem;
 }
 .ritual {
@@ -3455,13 +3466,13 @@ footer a {
             transform: translate3d(40rem, -5rem, 0);
   }
 }
-@media (min-width: 2048px) and (max-width: 2199.98px) {
+@media (min-width: 2200px) and (max-width: 2499.98px) {
   .play {
     -webkit-transform: translate3d(0, -33rem, 0);
             transform: translate3d(0, -33rem, 0);
   }
   .photo2 {
-    padding: 6rem 0 27.6rem 0;
+    padding: 6rem 0 39.5rem 0;
     background: linear-gradient(113.71deg, #cce2a8 11.81%, #bad794 53.11%, #e1f0b7 96.16%);
     margin-top: 4rem;
   }
@@ -3481,24 +3492,24 @@ footer a {
   }
   .photo2-second {
     position: absolute;
-    -webkit-transform: translate3d(36rem, 16rem, 0);
-            transform: translate3d(36rem, 16rem, 0);
+    -webkit-transform: translate3d(36rem, 26rem, 0);
+            transform: translate3d(36rem, 26rem, 0);
   }
   .photo2-bg {
     position: absolute;
-    -webkit-transform: translate3d(80rem, 5rem, 0);
-            transform: translate3d(80rem, 5rem, 0);
+    -webkit-transform: translate3d(80rem, 14rem, 0);
+            transform: translate3d(80rem, 14rem, 0);
   }
   .photo2-fourth {
     position: absolute;
-    -webkit-transform: translate3d(38rem, 3.5rem, 0);
-            transform: translate3d(38rem, 3.5rem, 0);
+    -webkit-transform: translate3d(34rem, 12.5rem, 0);
+            transform: translate3d(34rem, 12.5rem, 0);
   }
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    -webkit-transform: translate3d(-26rem, 0, 0);
-            transform: translate3d(-26rem, 0, 0);
+    -webkit-transform: translate3d(-36rem, 0, 0);
+            transform: translate3d(-36rem, 0, 0);
   }
   .photo2 .text h1 {
     text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
@@ -3553,5 +3564,138 @@ footer a {
     position: absolute;
     -webkit-transform: translate3d(40rem, -5rem, 0);
             transform: translate3d(40rem, -5rem, 0);
+  }
+}
+@media (min-width: 2500px) {
+  .play {
+    -webkit-transform: translate3d(0, -37rem, 0);
+            transform: translate3d(0, -37rem, 0);
+  }
+  .photo2 {
+    padding: 6rem 0 40rem 0;
+    background: linear-gradient(113.71deg, #cce2a8 11.81%, #bad794 53.11%, #e1f0b7 96.16%);
+    margin-top: 4rem;
+  }
+  .photo2 img,
+  .photo2 h1 {
+    width: 100%;
+  }
+  .photo2 h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: #FFFFFF;
+  }
+  .photo2-first {
+    position: absolute;
+  }
+  .photo2-second {
+    position: absolute;
+    -webkit-transform: translate3d(36rem, 26rem, 0);
+            transform: translate3d(36rem, 26rem, 0);
+  }
+  .photo2-bg {
+    position: absolute;
+    -webkit-transform: translate3d(88rem, 14rem, 0);
+            transform: translate3d(88rem, 14rem, 0);
+  }
+  .photo2-fourth {
+    position: absolute;
+    -webkit-transform: translate3d(38rem, 12.5rem, 0);
+            transform: translate3d(38rem, 12.5rem, 0);
+  }
+  .photo2 .text,
+  .photo2 .circle {
+    position: absolute;
+    -webkit-transform: translate3d(-40rem, 0, 0);
+            transform: translate3d(-40rem, 0, 0);
+  }
+  .photo2 .text h1 {
+    text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
+  }
+  .photo2 .circle {
+    margin-left: -4rem;
+    padding: 0 1rem;
+    border: 1px solid #F0CDB7;
+    border-radius: 50%;
+    background-color: #F0CDB7;
+  }
+  .eightthQuestion {
+    margin-top: 16rem;
+  }
+  .ritual-bg {
+    position: absolute;
+    -webkit-transform: translate3D(77rem, 6rem, 0);
+            transform: translate3D(77rem, 6rem, 0);
+  }
+  .rellax7 {
+    margin-top: -10rem;
+    position: relative;
+  }
+  .rellax7 .one,
+  .rellax7 .two {
+    position: absolute;
+  }
+  .rellax7 .one {
+    -webkit-transform: translate3d(-45rem, 10rem, 0);
+            transform: translate3d(-45rem, 10rem, 0);
+  }
+  .rellax7 .two {
+    -webkit-transform: translate3d(-45rem, -47rem, 0);
+            transform: translate3d(-45rem, -47rem, 0);
+  }
+  .first-text {
+    padding-top: 14rem;
+  }
+  .rellax1 {
+    position: relative;
+  }
+  .rellax1 .one {
+    position: absolute;
+    -webkit-transform: translate3d(40rem, -20rem, 0);
+            transform: translate3d(40rem, -20rem, 0);
+  }
+  .rellax1 .two {
+    position: absolute;
+    -webkit-transform: translate3d(35rem, -10rem, 0);
+            transform: translate3d(35rem, -10rem, 0);
+  }
+  .rellax1 .three {
+    position: absolute;
+    -webkit-transform: translate3d(40rem, -5rem, 0);
+            transform: translate3d(40rem, -5rem, 0);
+  }
+  .rellax6 {
+    position: relative;
+  }
+  .rellax6 .one {
+    position: absolute;
+    -webkit-transform: translate3d(105rem, 12rem, 0);
+            transform: translate3d(105rem, 12rem, 0);
+    z-index: 1;
+  }
+  .rellax8 {
+    position: relative;
+  }
+  .rellax8 .one {
+    position: absolute;
+    -webkit-transform: translate3d(20rem, 34rem, 0);
+            transform: translate3d(20rem, 34rem, 0);
+  }
+  .rellax8-1 {
+    position: relative;
+  }
+  .rellax8-1 .one,
+  .rellax8-1 .two {
+    position: absolute;
+  }
+  .rellax8-1 .one {
+    -webkit-transform: translate3d(-35rem, 10rem, 0);
+            transform: translate3d(-35rem, 10rem, 0);
+  }
+  .rellax8-1 .two {
+    -webkit-transform: translate3d(-35rem, -70rem, 0);
+            transform: translate3d(-35rem, -70rem, 0);
   }
 }

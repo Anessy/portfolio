@@ -134,7 +134,7 @@ p {
 }
 //===================================================================
 
-.firstQuestion, .secondQuestion, .secQuestion, .thirdQuestion,.fourthQuestion,.fifthQuestion,.sixthQuestion,.seventhQuestion,.eightthQuestion,.ninethQuestion,.tenthQuestion,.eleventhQuestion {
+.firstQuestion, .secondQuestion, .secQuestion, .thirdQuestion,.fourthQuestion,.fifthQuestion,.sixthQuestion,.seventhQuestion,.eightthQuestion,.ninethQuestion,.tenthQuestion,.eleventhQuestion,.twelwethQuestion {
   margin-top: 2rem;
   text-align: left;
   h1 {
@@ -155,8 +155,11 @@ p {
 .firstQuestion {
   margin-top: 4rem;
 }
-.secondQuestion {
-  margin-bottom: 6rem;
+.seventhQuestion {
+  margin-bottom: 4rem;
+}
+.thirdQuestion {
+  margin-bottom: 4rem;
 }
 
 //================================================================
@@ -188,51 +191,54 @@ p {
 
 
 .photo2 {
+  position: relative;
+  padding: 4rem 0 33rem 0;
+  background: linear-gradient(198.01deg, #CCE2A8 19.88%, #BAD794 55.51%, #E1F0B7 87%);
+  .one,.two,.three {
+    position: absolute;
+  } 
+  .one { //joga
+    transform: translate3d(0,0,0);
+    img {
+      width: 100%;
+    }
+  }
+  .two { //bg
+    transform: translate3d(-10rem,15.5rem,0);
+    img {
+      width: 100%;
+    }
+  }
+  .three { //music
+    transform: translate3d(18rem,17rem,0);
+    img {
+      width: 100%;
+    }
+  }
   
-  padding: 6rem 0 27.6rem 0;
-  background: linear-gradient(113.71deg, #CCE2A8 11.81%, #BAD794 53.11%, #E1F0B7 96.16%);
-  margin-top: 4rem;
-  img, h1 {
-    width: 100%;
-  }
-  h1 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 34px;
-    line-height: 42px;
-    color: #FFFFFF;
-  }
-  &-first { //boutle
-    position: absolute;
-  }
-  &-second {//tea
-    position: absolute;
-    transform: translate3d(22rem,16rem,0);
-  }
-  &-bg { //love
-    position: absolute;
-    transform: translate3d(55rem,5rem,0);
-  }
-  &-fourth { //bg
-    position: absolute; 
-    transform: translate3d(28.5rem,3.5rem,0);
-  }
   .text, .circle {
     position: absolute;
-    transform: translate3d(-14rem,0,0);
+    transform: translate3d(16rem,0,0);
   }
   .text {
     h1 {
+      font-family: PT Serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 42px;
+      color: #FFFFFF;
       text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
     }
   }
   
   .circle {
     margin-left: -4rem;
-    padding: 0 1rem;
+    padding: 0 1.2rem;
     border: 1px solid #F0CDB7;
     border-radius: 50%;
     background-color: #F0CDB7;
+    color: white;
   }
   }
   
@@ -240,35 +246,39 @@ p {
 
 
 .eightthQuestion {
-  margin-top: 15rem;
+  margin-top: 5rem;
 }
 
 .photo3 {
   margin-top: 4rem;
   position: relative;
-  img {
-    width: 100%;
-  }
-  &-first{ //phone
-    position: absolute;
-    transform: translate3d(5rem,22rem,0);
-  }
-  &-second { //bg
-    position: absolute;
-    transform: translate3d(-16rem,20rem,0);
-  }
-  &-thrid { //love
+  
+  &-one { // song
     position: absolute;
     transform: translate3d(0,0,0);
+    img {
+      width: 100%;
+    }
   }
-  &-bg{ //line
+  &-two { //hend
     position: absolute;
-    transform: translate3d(0,10rem,0);
-  
+    transform: translate3d(0,0,0);
+    img {
+      width: 100%;
+    }
   }
+  &-lines { //lines
+    position: absolute;
+    transform: translate3d(0,0,0);
+    img {
+      width: 100%;
+    }
+  }
+
+  
   .circle, .text {
     position: absolute;
-    transform: translate3d(7rem,0,0);
+    transform: translate3d(0,0,0);
     h1 {
     font-style: normal;
     font-weight: bold;
@@ -289,9 +299,7 @@ p {
 }
 //================================================================
 
-
-
-.tenthQuestion {
+.forteenthQuestion {
   margin-top: 43rem;
 }
 //================================================================
@@ -3469,13 +3477,13 @@ footer{
     }
   }
 }
-@media (min-width: 2048px) and (max-width: 2199.98px) {
+@media (min-width: 2200px) and  (max-width: 2499.98px) {
   .play {
     transform: translate3d(0,-33rem,0);
   }
   .photo2 {
   
-    padding: 6rem 0 27.6rem 0;
+    padding: 6rem 0 39.5rem 0;
     background: linear-gradient(113.71deg, #CCE2A8 11.81%, #BAD794 53.11%, #E1F0B7 96.16%);
     margin-top: 4rem;
     img, h1 {
@@ -3493,19 +3501,19 @@ footer{
     }
     &-second {//tea
       position: absolute;
-      transform: translate3d(36rem,16rem,0);
+      transform: translate3d(36rem,26rem,0);
     }
     &-bg { //love
       position: absolute;
-      transform: translate3d(80rem,5rem,0);
+      transform: translate3d(80rem,14rem,0);
     }
     &-fourth { //bg
       position: absolute; 
-      transform: translate3d(38rem,3.5rem,0);
+      transform: translate3d(34rem,12.5rem,0);
     }
     .text, .circle {
       position: absolute;
-      transform: translate3d(-26rem,0,0);
+      transform: translate3d(-36rem,0,0);
     }
     .text {
       h1 {
@@ -3565,6 +3573,137 @@ footer{
     .three { 
       position: absolute;
       transform: translate3d(40rem,-5rem,0);
+    }
+  }
+}
+@media (min-width: 2500px) {
+  .play {
+    transform: translate3d(0,-37rem,0);
+  }
+  .photo2 {
+  
+    padding: 6rem 0 40rem 0;
+    background: linear-gradient(113.71deg, #CCE2A8 11.81%, #BAD794 53.11%, #E1F0B7 96.16%);
+    margin-top: 4rem;
+    img, h1 {
+      width: 100%;
+    }
+    h1 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 42px;
+      color: #FFFFFF;
+    }
+    &-first { //boutle
+      position: absolute;
+    }
+    &-second {//tea
+      position: absolute;
+      transform: translate3d(36rem,26rem,0);
+    }
+    &-bg { //love
+      position: absolute;
+      transform: translate3d(88rem,14rem,0);
+    }
+    &-fourth { //bg
+      position: absolute; 
+      transform: translate3d(38rem,12.5rem,0);
+    }
+    .text, .circle {
+      position: absolute;
+      transform: translate3d(-40rem,0,0);
+    }
+    .text {
+      h1 {
+        text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
+      }
+    }
+    
+    .circle {
+      margin-left: -4rem;
+      padding: 0 1rem;
+      border: 1px solid #F0CDB7;
+      border-radius: 50%;
+      background-color: #F0CDB7;
+    }
+    }
+
+  .eightthQuestion {
+    margin-top: 16rem;
+  }
+  .ritual {
+    &-bg{
+      position: absolute;
+      transform: translate3D(77rem,6rem,0);//=====
+    }
+  }
+  
+  .rellax7 {
+   margin-top: -10rem;
+    position: relative;
+    
+    .one,.two {
+      position: absolute;
+    }
+    .one{ //tree
+      transform: translate3d(-45rem,10rem,0);
+    }
+    .two { //avokado
+      transform: translate3d(-45rem,-47rem,0);
+    }
+  }
+  .first {
+    &-text {
+      padding-top: 14rem;
+    }
+  }
+  .rellax1 {
+
+    position: relative;
+    .one { // flower big
+      position: absolute;
+      transform: translate3d(40rem,-20rem,0);
+    }
+    .two { // flower small
+      position: absolute;
+      transform: translate3d(35rem,-10rem,0);
+    }
+    .three { 
+      position: absolute;
+      transform: translate3d(40rem,-5rem,0);
+    }
+  }
+  .rellax6 {
+  
+    position: relative;
+  
+    .one {
+      position: absolute;
+      transform: translate3d(105rem,12rem,0);
+      z-index: 1;
+    }
+  }
+  .rellax8 {
+    position: relative;
+    .one {
+      position: absolute;
+      transform: translate3d(20rem,34rem,0);
+    }
+  }
+  //================================================================
+  .rellax8-1 {
+    
+    position: relative;
+    
+    .one,.two {
+      position: absolute;
+    }
+    .one{ //tree
+      transform: translate3d(-35rem,10rem,0);
+    }
+    .two { //avokado
+      transform: translate3d(-35rem,-70rem,0);
     }
   }
 }
