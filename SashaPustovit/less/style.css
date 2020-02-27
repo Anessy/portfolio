@@ -111,9 +111,6 @@ p {
 .photo {
   position: relative;
 }
-.photo img {
-  width: 90%;
-}
 .photo .one,
 .photo .two,
 .photo .three,
@@ -123,18 +120,27 @@ p {
 .photo .one {
   transform: translate3d(18rem, 18rem, 0);
 }
+.photo .one img {
+  width: 90%;
+}
 .photo .two {
-  transform: translate3d(11rem, 13rem, 0);
+  transform: translate3d(16rem, 18rem, 0);
 }
 .photo .three {
   margin-left: 6rem;
 }
+.photo .three img {
+  width: 90%;
+}
 .photo .four {
   transform: translate3d(0, 18rem, 0);
 }
+.photo .four img {
+  width: 90%;
+}
 .no-diw {
   width: 100%;
-  margin-top: 42rem;
+  margin-top: 45rem;
 }
 .firstQuestion,
 .secondQuestion,
@@ -617,10 +623,10 @@ footer a {
   position: absolute;
 }
 .rellax11 .one {
-  transform: translate3d(-35rem, 0, 0);
+  transform: translate3d(-35rem, 10rem, 0);
 }
 .rellax11 .two {
-  transform: translate3d(28rem, 0, 0);
+  transform: translate3d(28rem, 10rem, 0);
 }
 @media (max-width: 320px) and (max-width: 374.98px) {
   .header-logo {
@@ -643,32 +649,27 @@ footer a {
   .about {
     margin: 4rem 0 4rem 0;
   }
-  .photo img {
-    width: 110%;
-  }
   .photo .one {
-    transform: translate3d(10rem, -2rem, 0);
+    transform: translate3d(0, 12rem, 0);
   }
   .photo .two {
-    transform: translate3d(-2rem, 16rem, 0);
+    transform: translate3d(-2rem, 6rem, 0);
+    width: 120%;
   }
   .photo .three {
     margin-left: -2rem;
-    margin-top: 13rem;
-  }
-  .photo .three img {
-    width: 120% !important;
+    width: 120%;
   }
   .photo .four {
-    top: -2rem;
-    left: 0;
+    transform: translate3d(0, 13rem, 0);
+    width: 110%;
   }
   .no-diw {
     width: 100%;
-    margin-top: 33rem;
+    margin-top: 32rem;
   }
   .play {
-    transform: translate3d(-1rem, -16rem, 0);
+    transform: translate3d(-1rem, -12rem, 0);
   }
   .play .a {
     margin-left: 2rem;
@@ -1004,32 +1005,31 @@ footer a {
     width: 90%;
     margin-left: 5%;
   }
+  .first-bg {
+    position: absolute;
+    bottom: -1rem;
+    right: -6rem;
+  }
   .about {
     margin: 4rem 0 4rem 0;
   }
-  .photo img {
-    width: 110%;
-  }
   .photo .one {
-    transform: translate3d(10rem, -2rem, 0);
+    transform: translate3d(0, 12rem, 0);
   }
   .photo .two {
-    transform: translate3d(-2rem, 16rem, 0);
+    transform: translate3d(-4rem, 6rem, 0);
+    width: 120%;
   }
   .photo .three {
-    margin-left: -2rem;
-    margin-top: 13rem;
-  }
-  .photo .three img {
-    width: 120% !important;
+    margin-left: -4rem;
+    width: 120%;
   }
   .photo .four {
-    top: -4rem;
-    left: 0;
+    transform: translate3d(0, 13rem, 0);
   }
   .no-diw {
     width: 100%;
-    margin-top: 38rem;
+    margin-top: 44rem;
   }
   .play {
     transform: translate3d(-1rem, -16rem, 0);
@@ -1054,14 +1054,11 @@ footer a {
   }
   .photo2-bg {
     position: absolute;
-    transform: translate3d(8.2rem, 71rem, 0);
+    transform: translate3d(8.2rem, 68rem, 0);
   }
   .photo2-fourth {
     position: absolute;
-    transform: translate3d(0rem, 53rem, 0);
-  }
-  .photo2-fourth img {
-    width: 110% !important;
+    transform: translate3d(4rem, 51rem, 0);
   }
   .photo2 .text,
   .photo2 .circle {
@@ -1083,6 +1080,9 @@ footer a {
     margin-left: -120vw;
     width: 340vw;
     height: 140vw;
+  }
+  .play {
+    transform: translate3d(0, -19rem, 0);
   }
   .photo3 {
     margin-top: 6rem;
@@ -1370,26 +1370,32 @@ footer a {
   .first-scroll {
     margin-bottom: 6rem;
   }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: -8rem;
+  }
   .about {
     margin: 6rem 0 4rem 0;
   }
   .photo .one {
-    transform: translate3d(10rem, -2rem, 0);
+    transform: translate3d(0, 22rem, 0);
   }
   .photo .two {
-    transform: translate3d(4rem, 18rem, 0);
+    transform: translate3d(7rem, 18rem, 0);
   }
   .photo .three {
-    margin-left: 6rem;
-    margin-top: 11rem;
+    margin-left: -4rem;
+  }
+  .photo .three img {
+    width: 110%;
   }
   .photo .four {
-    top: 0;
-    left: 0;
+    transform: translate3d(0, 20rem, 0);
   }
   .no-diw {
     width: 100%;
-    margin-top: 36rem;
+    margin-top: 46rem;
   }
   .play {
     transform: translate3d(-1rem, -8.5rem, 0);
@@ -1405,24 +1411,24 @@ footer a {
     border-radius: 50%;
   }
   .photo2 {
-    padding: 6rem 0 86rem 0;
+    padding: 0rem 0 88rem 0;
   }
   .photo2-second {
     position: absolute;
-    transform: translate3d(8rem, 76rem, 0);
+    transform: translate3d(6rem, 77rem, 0);
   }
   .photo2-bg {
     position: absolute;
-    transform: translate3d(15rem, 74rem, 0);
+    transform: translate3d(15rem, 56rem, 0);
   }
   .photo2-fourth {
     position: absolute;
-    transform: translate3d(2rem, 55rem, 0);
+    transform: translate3d(16.5rem, 55rem, 0);
   }
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    transform: translate3d(5rem, 42rem, 0);
+    transform: translate3d(5rem, 43rem, 0);
   }
   .photo2 .text h1 {
     font-style: normal;
@@ -1738,52 +1744,48 @@ footer a {
     margin: 6rem 0 4rem 0;
   }
   .photo .one {
-    transform: translate3d(10rem, -7rem, 0);
+    transform: translate3d(18rem, 16rem, 0);
   }
   .photo .two {
-    transform: translate3d(4rem, 16.5rem, 0);
+    transform: translate3d(11rem, 11rem, 0);
+  }
+  .photo .three {
+    margin-left: 6rem;
+  }
+  .photo .four {
+    transform: translate3d(0, 14rem, 0);
   }
   .no-diw {
     width: 100%;
-    margin-top: 36rem;
+    margin-top: 43rem;
   }
   .play {
     transform: translate3d(0, -11rem, 0);
   }
   .photo2 {
-    padding: 6rem 0 16.5rem 0;
-    background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
-    margin-top: 4rem;
-  }
-  .photo2 img,
-  .photo2 h1 {
-    width: 100%;
+    padding: 6rem 0 21.5rem 0;
   }
   .photo2-first {
     position: absolute;
   }
   .photo2-second {
     position: absolute;
-    transform: translate3d(18rem, 14rem, 0);
+    transform: translate3d(18rem, 15rem, 0);
+    width: 80%;
   }
   .photo2-bg {
     position: absolute;
-    transform: translate3d(34rem, 13rem, 0);
-  }
-  .photo2-bg img {
-    width: 80% !important;
+    transform: translate3d(35rem, 2rem, 0);
   }
   .photo2-fourth {
     position: absolute;
-    transform: translate3d(20rem, 5rem, 0);
+    transform: translate3d(19rem, 1.5rem, 0);
+    width: 85%;
   }
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    transform: translate3d(-11rem, -4rem, 0);
-  }
-  .photo2 .text {
-    width: 100%;
+    transform: translate3d(-12rem, -4rem, 0);
   }
   .photo3 {
     margin-top: 4rem;
@@ -2063,48 +2065,57 @@ footer a {
     width: 80%;
     margin-left: 10%;
   }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: -12rem;
+  }
   .about {
     margin: 6rem 0 6rem 0;
   }
+  .photo .one {
+    transform: translate3d(18rem, 16rem, 0);
+  }
   .photo .two {
-    transform: translate3d(4rem, 17.5rem, 0);
+    transform: translate3d(11rem, 11rem, 0);
+  }
+  .photo .three {
+    margin-left: 6rem;
+  }
+  .photo .four {
+    transform: translate3d(0, 18rem, 0);
   }
   .no-diw {
     width: 100%;
-    margin-top: 38rem;
+    margin-top: 44rem;
   }
   .video-box .play {
     transform: translate3d(0, -15rem, 0);
   }
   .photo2 {
     padding: 6rem 0 21.5rem 0;
-    background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
   }
   .photo2-first {
     position: absolute;
   }
   .photo2-second {
     position: absolute;
-    transform: translate3d(18rem, 16rem, 0);
+    transform: translate3d(23rem, 15rem, 0);
+    width: 80%;
   }
   .photo2-bg {
     position: absolute;
-    transform: translate3d(38rem, 15rem, 0);
-  }
-  .photo2-bg img {
-    width: 80% !important;
+    transform: translate3d(45rem, 2rem, 0);
   }
   .photo2-fourth {
     position: absolute;
-    transform: translate3d(24rem, 5rem, 0);
+    transform: translate3d(24.5rem, 1rem, 0);
+    width: 85%;
   }
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    transform: translate3d(-11rem, -4rem, 0);
-  }
-  .photo2 .text {
-    width: 100%;
+    transform: translate3d(-12rem, -4rem, 0);
   }
   .photo3-first {
     position: absolute;

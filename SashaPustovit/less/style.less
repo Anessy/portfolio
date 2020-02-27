@@ -124,23 +124,31 @@ p {
 
 .photo {
   position: relative;
-  img {
-    width: 90%;
-  }
+  
   .one, .two, .three, .four {
     position: absolute;
   }
   .one { //lines
     transform: translate3d(18rem,18rem,0);
+    img {
+      width: 90%;
+    }
   }
   .two { //bg
-    transform: translate3d(11rem,13rem,0);
+    transform: translate3d(16rem,18rem,0);
+   
   }
   .three {//sleep
     margin-left: 6rem;
+    img {
+      width: 90%;
+    }
   }
   .four { //sport
     transform: translate3d(0,18rem,0);
+    img {
+      width: 90%;
+    }
   }
 }
 
@@ -149,7 +157,7 @@ p {
 
 .no-diw{
   width: 100%;
-  margin-top: 42rem;
+  margin-top: 45rem;
 }
 //===================================================================
 
@@ -656,10 +664,10 @@ footer{
     position: absolute;
   }
   .one {
-    transform: translate3d(-35rem,0,0);
+    transform: translate3d(-35rem,10rem,0);
   }
   .two {
-    transform: translate3d(28rem,0,0);
+    transform: translate3d(28rem,10rem,0);
   }
 }
 
@@ -695,35 +703,28 @@ footer{
   
 }
 .photo {
-  
-  img {
-    width: 110%;
-  }
-  
   .one { //lines
-    transform: translate3d(10rem,-2rem,0);//===768
+    transform: translate3d(0,12rem,0);
   }
   .two { //bg
-    transform: translate3d(-2rem,16rem,0); //===992===768
+    transform: translate3d(-2rem,6rem,0);
+    width: 120%;
   }
-  .three {//girl
+  .three {//sleep
     margin-left: -2rem;
-    margin-top: 13rem;
-    img {
-      width: 120% !important;
-    }
+    width: 120%;
   }
-  .four { //bathroom
-    top: -2rem;
-    left: 0;
+  .four { //sport
+    transform: translate3d(0,13rem,0);
+    width: 110%;
   }
 }
 .no-diw{
   width: 100%;
-  margin-top: 33rem;
+  margin-top: 32rem;
 }
 .play {
-  transform: translate3d(-1rem,-16rem,0); //=====
+  transform: translate3d(-1rem,-12rem,0); //=====
   .a {
     margin-left: 2rem;
     img {
@@ -1078,38 +1079,35 @@ footer{
         width: 90%;
         margin-left: 5%;
       }
+      &-bg{
+        position: absolute;
+        bottom: -1rem;
+        right: -6rem;
+      }
     }
    .about {
     margin: 4rem 0 4rem 0;
     
   }
   .photo {
-    
-    img {
-      width: 110%;
-    }
-    
     .one { //lines
-      transform: translate3d(10rem,-2rem,0);//===768
+      transform: translate3d(0,12rem,0);
     }
     .two { //bg
-      transform: translate3d(-2rem,16rem,0); //===992===768
+      transform: translate3d(-4rem,6rem,0);
+      width: 120%;
     }
-    .three {//girl
-      margin-left: -2rem;
-      margin-top: 13rem;
-      img {
-        width: 120% !important;
-      }
+    .three {//sleep
+      margin-left: -4rem;
+      width: 120%;
     }
-    .four { //bathroom
-      top: -4rem;
-      left: 0;
+    .four { //sport
+      transform: translate3d(0,13rem,0);
     }
   }
   .no-diw{
     width: 100%;
-    margin-top: 38rem;
+    margin-top: 44rem;
   }
   .play {
     transform: translate3d(-1rem,-16rem,0); //=====
@@ -1129,21 +1127,18 @@ footer{
   .photo2 {
     padding: 6rem 0 68rem 0;
     margin-bottom: 10rem;
-    &-second {
-      
+    &-second {//tea
       position: absolute;
       transform: translate3d(3.5rem,72rem,0);
     }
-    &-bg {
+    &-bg { //love
       position: absolute;
-      transform: translate3d(8.2rem,71rem,0);
+      transform: translate3d(8.2rem,68rem,0);
     }
-    &-fourth {
+    &-fourth {//bg
       position: absolute;
-      transform: translate3d(0rem,53rem,0);
-      img {
-        width: 110% !important;
-      }
+      transform: translate3d(4rem,51rem,0);
+      
     }
     .text, .circle {
       position: absolute;
@@ -1167,6 +1162,9 @@ footer{
     margin-left: -120vw;	
     width: 340vw;
     height: 140vw;
+  }
+  .play {
+    transform: translate3d(0,-19rem,0);
   }
   
   .photo3 {
@@ -1447,7 +1445,7 @@ footer{
     }
   }
   //====================
-    }
+  }
 // Малые девайсы («ландшафтные», < 768px)
 @media (min-width: 576px) and (max-width: 767.98px) { 
   .header {
@@ -1471,31 +1469,36 @@ footer{
     &-scroll {
       margin-bottom: 6rem;
     }
+    &-bg{
+      position: absolute;
+      bottom: 0;
+      right: -8rem;
+    }
   }
 
   .about {
     margin: 6rem 0 4rem 0;
   }
   .photo {
-   
     .one { //lines
-      transform: translate3d(10rem,-2rem,0);//===768
+      transform: translate3d(0,22rem,0);
     }
     .two { //bg
-      transform: translate3d(4rem,18rem,0); //===992===768
+      transform: translate3d(7rem,18rem,0);
     }
-    .three {//girl
-      margin-left: 6rem; //===576
-      margin-top: 11rem; //===576
+    .three {//sleep
+      margin-left: -4rem;
+      img {
+        width: 110%;
+      }
     }
-    .four { //bathroom
-      top: 0;
-      left: 0;
+    .four { //sport
+      transform: translate3d(0,20rem,0);
     }
   }
   .no-diw{
     width: 100%;
-    margin-top: 36rem;
+    margin-top: 46rem;
   }
   .play {
     transform: translate3d(-1rem,-8.5rem,0); //=====
@@ -1513,22 +1516,22 @@ footer{
   }
  
   .photo2 {
-    padding: 6rem 0 86rem 0;
-    &-second {
+    padding: 0rem 0 88rem 0;
+    &-second { //tea
       position: absolute;
-      transform: translate3d(8rem,76rem,0);
+      transform: translate3d(6rem,77rem,0);
     }
-    &-bg {
+    &-bg { //love
       position: absolute;
-      transform: translate3d(15rem,74rem,0);
+      transform: translate3d(15rem,56rem,0);
     }
-    &-fourth {
+    &-fourth { //bg
       position: absolute;
-      transform: translate3d(2rem,55rem,0);
+      transform: translate3d(16.5rem,55rem,0);
     }
     .text, .circle {
       position: absolute;
-      transform: translate3d(5rem,42rem,0);
+      transform: translate3d(5rem,43rem,0);
     }
     .text {
       h1 {
@@ -1840,8 +1843,7 @@ footer{
   }
 }
 //=================  
- }
-
+  }
 // Средние девайсы («таблетки», < 992px) 
 @media (min-width: 768px) and (max-width: 991.98px) { 
   .header {
@@ -1870,18 +1872,22 @@ footer{
     margin: 6rem 0 4rem 0;
   }
   .photo {
-   
     .one { //lines
-      transform: translate3d(10rem,-7rem,0);//===768
+      transform: translate3d(18rem,16rem,0);
     }
     .two { //bg
-      transform: translate3d(4rem,16.5rem,0); //===992===768
+      transform: translate3d(11rem,11rem,0);
     }
-   
+    .three {//sleep
+      margin-left: 6rem;
+    }
+    .four { //sport
+      transform: translate3d(0,14rem,0);
+    }
   }
   .no-diw{
     width: 100%;
-    margin-top: 36rem;
+    margin-top: 43rem;
   }
   .play {
     transform: translate3d(0,-11rem,0); //=====
@@ -1889,40 +1895,28 @@ footer{
   //=========================
 
   .photo2 {
-  
-    padding: 6rem 0 16.5rem 0;
-    background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
-    margin-top: 4rem;
-    img, h1 {
-      width: 100%;
-    }
+    padding: 6rem 0 21.5rem 0;
     &-first { //boutle
       position: absolute;
     }
-    &-second {//mirror
+    &-second {//tea
       position: absolute;
-      transform: translate3d(18rem,14rem,0);
+      transform: translate3d(18rem,15rem,0);
+      width: 80%;
     }
-    &-bg {
+    &-bg { //love
       position: absolute;
-      transform: translate3d(34rem,13rem,0);
-      img {
-        width: 80% !important;
-      }
+      transform: translate3d(35rem,2rem,0);
     }
-    &-fourth {
-      position: absolute; //eat
-      transform: translate3d(20rem,5rem,0);
+    &-fourth { //bg
+      position: absolute; 
+      transform: translate3d(19rem,1.5rem,0);
+      width: 85%;
     }
     .text, .circle {
       position: absolute;
-      transform: translate3d(-11rem,-4rem,0);
+      transform: translate3d(-12rem,-4rem,0);
     }
-    .text {
-      width: 100%;
-      
-    }
-    
     }
   //=========================
   
@@ -2212,9 +2206,7 @@ footer{
   }
 }
 //==================
- }
- 
-
+  }
 // Большие девайсы (большие десктопы, < 1200px)
 @media (min-width: 992px) and (max-width: 1199.98px) { 
   .first {
@@ -2222,18 +2214,32 @@ footer{
       width: 80%;
       margin-left: 10%;
     }
+    &-bg{
+      position: absolute;
+      bottom: 0;
+      right: -12rem;
+    }
   }
   .about {
     margin: 6rem 0 6rem 0;
   }
   .photo {
+    .one { //lines
+      transform: translate3d(18rem,16rem,0);
+    }
     .two { //bg
-      transform: translate3d(4rem,17.5rem,0); //======
+      transform: translate3d(11rem,11rem,0);
+    }
+    .three {//sleep
+      margin-left: 6rem;
+    }
+    .four { //sport
+      transform: translate3d(0,18rem,0);
     }
   }
   .no-diw{
     width: 100%;
-    margin-top: 38rem;
+    margin-top: 44rem;
   }
   .video-box{
   
@@ -2245,32 +2251,31 @@ footer{
   .photo2 {
   
     padding: 6rem 0 21.5rem 0;
-    background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
+    
     &-first { //boutle
       position: absolute;
     }
-    &-second {//mirror
+    &-second {//tea
       position: absolute;
-      transform: translate3d(18rem,16rem,0);
+      transform: translate3d(23rem,15rem,0);
+      width: 80%;
     }
-    &-bg {
+    &-bg { //love
       position: absolute;
-      transform: translate3d(38rem,15rem,0);
-      img {
-        width: 80% !important;
-      }
+      transform: translate3d(45rem,2rem,0);
     }
-    &-fourth {
-      position: absolute; //eat
-      transform: translate3d(24rem,5rem,0);
+    &-fourth { //bg
+      position: absolute; 
+      transform: translate3d(24.5rem,1rem,0);
+      width: 85%;
     }
     .text, .circle {
       position: absolute;
-      transform: translate3d(-11rem,-4rem,0);
+      transform: translate3d(-12rem,-4rem,0);
     }
-    .text {
-      width: 100%;
-    }
+    
+    
+   
     }
   //==================================
   
@@ -2462,7 +2467,8 @@ footer{
     }
   }
 //===================
- }
+
+  }
 
 
 
