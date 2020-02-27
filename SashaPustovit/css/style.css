@@ -1095,8 +1095,8 @@ footer a {
     margin: 4rem 0 4rem 0;
   }
   .photo .one {
-    -webkit-transform: translate3d(0, 12rem, 0);
-            transform: translate3d(0, 12rem, 0);
+    -webkit-transform: translate3d(0, 24rem, 0);
+            transform: translate3d(0, 24rem, 0);
   }
   .photo .two {
     -webkit-transform: translate3d(-4rem, 6rem, 0);
@@ -1330,18 +1330,18 @@ footer a {
   }
   .rellax1 .one {
     position: absolute;
-    -webkit-transform: translate3d(6rem, -400px, 0);
-            transform: translate3d(6rem, -400px, 0);
+    -webkit-transform: translate3d(10rem, -27rem, 0);
+            transform: translate3d(10rem, -27rem, 0);
   }
   .rellax1 .two {
     position: absolute;
-    -webkit-transform: translate3d(0rem, -8rem, 0);
-            transform: translate3d(0rem, -8rem, 0);
+    -webkit-transform: translate3d(6rem, -1rem, 0);
+            transform: translate3d(6rem, -1rem, 0);
   }
   .rellax1 .three {
     position: absolute;
-    -webkit-transform: translate3d(6rem, -1rem, 0);
-            transform: translate3d(6rem, -1rem, 0);
+    -webkit-transform: translate3d(6rem, 5rem, 0);
+            transform: translate3d(6rem, 5rem, 0);
   }
   .rellax2 {
     position: relative;
@@ -1352,12 +1352,24 @@ footer a {
     z-index: 1;
   }
   .rellax2 .one {
-    -webkit-transform: translate3d(0rem, 19rem, 0);
-            transform: translate3d(0rem, 19rem, 0);
+    -webkit-transform: translate3d(12rem, 5rem, 0);
+            transform: translate3d(12rem, 5rem, 0);
   }
   .rellax2 .two {
-    -webkit-transform: translate3d(6rem, -12rem, 0);
-            transform: translate3d(6rem, -12rem, 0);
+    -webkit-transform: translate3d(12rem, -15rem, 0);
+            transform: translate3d(12rem, -15rem, 0);
+  }
+  .rellax2-1 {
+    display: none;
+    position: relative;
+  }
+  .rellax2-1 .one {
+    position: absolute;
+    z-index: 1;
+  }
+  .rellax2-1 .one {
+    -webkit-transform: translate3d(-22rem, 16rem, 0);
+            transform: translate3d(-22rem, 16rem, 0);
   }
   .rellax3 {
     position: relative;
@@ -1367,25 +1379,25 @@ footer a {
     position: absolute;
   }
   .rellax3 .one {
-    -webkit-transform: translate3d(-12rem, 10rem, 0);
-            transform: translate3d(-12rem, 10rem, 0);
+    -webkit-transform: translate3d(4rem, 12rem, 0);
+            transform: translate3d(4rem, 12rem, 0);
   }
   .rellax3 .two {
-    -webkit-transform: translate3d(-14rem, 36rem, 0);
-            transform: translate3d(-14rem, 36rem, 0);
+    -webkit-transform: translate3d(4rem, 45rem, 0);
+            transform: translate3d(4rem, 45rem, 0);
   }
   .rellax4 {
     position: relative;
   }
   .rellax4 .one {
     position: absolute;
-    -webkit-transform: translate3d(3rem, -22rem, 0);
-            transform: translate3d(3rem, -22rem, 0);
+    -webkit-transform: translate3d(-13rem, -17rem, 0);
+            transform: translate3d(-13rem, -17rem, 0);
   }
   .rellax4 .two {
     position: absolute;
-    -webkit-transform: translate3d(8rem, -15rem, 0);
-            transform: translate3d(8rem, -15rem, 0);
+    -webkit-transform: translate3d(-13rem, 12rem, 0);
+            transform: translate3d(-13rem, 12rem, 0);
   }
   .rellax5 {
     position: relative;
@@ -1395,83 +1407,109 @@ footer a {
     position: absolute;
   }
   .rellax5 .one {
-    -webkit-transform: translate3d(-14rem, -86rem, 0);
-            transform: translate3d(-14rem, -86rem, 0);
+    -webkit-transform: translate3d(-20.5rem, -110rem, 0);
+            transform: translate3d(-20.5rem, -110rem, 0);
   }
   .rellax5 .two {
-    -webkit-transform: translate3d(-14rem, -30rem, 0);
-            transform: translate3d(-14rem, -30rem, 0);
+    -webkit-transform: translate3d(-15.5rem, -40rem, 0);
+            transform: translate3d(-15.5rem, -40rem, 0);
   }
   .rellax6 {
+    display: none;
     position: relative;
   }
   .rellax6 .one {
     position: absolute;
-    -webkit-transform: translate3d(-10rem, 23rem, 0);
-            transform: translate3d(-10rem, 23rem, 0);
+    -webkit-transform: translate3d(65rem, 12rem, 0);
+            transform: translate3d(65rem, 12rem, 0);
     z-index: 1;
   }
   .rellax7 {
     position: relative;
-    -webkit-transform: translate3d(0, -40rem, 0);
-            transform: translate3d(0, -40rem, 0);
   }
   .rellax7 .one,
   .rellax7 .two {
     position: absolute;
   }
   .rellax7 .one {
-    -webkit-transform: translate3d(-17rem, 6rem, 0);
-            transform: translate3d(-17rem, 6rem, 0);
+    -webkit-transform: translate3d(-16rem, -30rem, 0);
+            transform: translate3d(-16rem, -30rem, 0);
   }
   .rellax7 .two {
-    -webkit-transform: translate3d(-17rem, -70rem, 0);
-            transform: translate3d(-17rem, -70rem, 0);
+    -webkit-transform: translate3d(-16rem, -116rem, 0);
+            transform: translate3d(-16rem, -116rem, 0);
+  }
+  .rellax8 {
+    position: relative;
+    display: none;
+  }
+  .rellax8 .one {
+    position: absolute;
+    -webkit-transform: translate3d(16rem, 34rem, 0);
+            transform: translate3d(16rem, 34rem, 0);
+  }
+  .rellax8-1 {
+    position: relative;
+    margin-top: -24rem;
+  }
+  .rellax8-1 .one,
+  .rellax8-1 .two {
+    position: absolute;
+  }
+  .rellax8-1 .one {
+    -webkit-transform: translate3d(2rem, -5rem, 0);
+            transform: translate3d(2rem, -5rem, 0);
+  }
+  .rellax8-1 .two {
+    -webkit-transform: translate3d(2rem, -100rem, 0);
+            transform: translate3d(2rem, -100rem, 0);
   }
   .rellax9 {
+    margin-top: -20rem;
     position: relative;
   }
   .rellax9 .one,
-  .rellax9 .two {
+  .rellax9 .two,
+  .rellax9 .three {
     position: absolute;
   }
   .rellax9 .one {
-    -webkit-transform: translate3d(-10rem, 50rem, 0);
-            transform: translate3d(-10rem, 50rem, 0);
+    -webkit-transform: translate3d(-11rem, 120rem, 0);
+            transform: translate3d(-11rem, 120rem, 0);
   }
   .rellax9 .two {
-    -webkit-transform: translate3d(-10rem, -60rem, 0);
-            transform: translate3d(-10rem, -60rem, 0);
+    -webkit-transform: translate3d(-12rem, -30rem, 0);
+            transform: translate3d(-12rem, -30rem, 0);
+  }
+  .rellax9 .three {
+    -webkit-transform: translate3d(-11rem, 0, 0);
+            transform: translate3d(-11rem, 0, 0);
   }
   .rellax10 {
     position: relative;
   }
-  .rellax10 .one,
-  .rellax10 .two {
+  .rellax10 .one {
     position: absolute;
   }
   .rellax10 .one {
-    -webkit-transform: translate3d(0rem, 91rem, 0);
-            transform: translate3d(0rem, 91rem, 0);
-  }
-  .rellax10 .two {
-    -webkit-transform: translate3d(0rem, -20rem, 0);
-            transform: translate3d(0rem, -20rem, 0);
+    -webkit-transform: translate3d(4rem, 23rem, 0);
+            transform: translate3d(4rem, 23rem, 0);
   }
   .rellax11 {
     position: relative;
+    margin-bottom: -6rem;
   }
   .rellax11 .one,
   .rellax11 .two {
     position: absolute;
   }
   .rellax11 .one {
-    -webkit-transform: translate3d(0rem, 40rem, 0);
-            transform: translate3d(0rem, 40rem, 0);
+    -webkit-transform: translate3d(-12rem, 10rem, 0);
+            transform: translate3d(-12rem, 10rem, 0);
   }
   .rellax11 .two {
-    -webkit-transform: translate3d(0rem, 190rem, 0);
-            transform: translate3d(0rem, 190rem, 0);
+    -webkit-transform: translate3d(6rem, 10rem, 0);
+            transform: translate3d(6rem, 10rem, 0);
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -1617,22 +1655,6 @@ footer a {
   .fifthQuestion {
     margin-top: 5rem;
   }
-  .rellax10 {
-    position: relative;
-    right: -30%;
-  }
-  .rellax10 .one,
-  .rellax10 .two {
-    position: absolute;
-  }
-  .rellax10 .one {
-    -webkit-transform: translate3d(0, 46rem, 0);
-            transform: translate3d(0, 46rem, 0);
-  }
-  .rellax10 .two {
-    -webkit-transform: translate3d(0, 0rem, 0);
-            transform: translate3d(0, 0rem, 0);
-  }
   .ritual {
     text-align: center;
     position: relative;
@@ -1743,18 +1765,18 @@ footer a {
   }
   .rellax1 .one {
     position: absolute;
-    -webkit-transform: translate3d(12rem, -400px, 0);
-            transform: translate3d(12rem, -400px, 0);
+    -webkit-transform: translate3d(18rem, -35rem, 0);
+            transform: translate3d(18rem, -35rem, 0);
   }
   .rellax1 .two {
     position: absolute;
-    -webkit-transform: translate3d(6rem, -8rem, 0);
-            transform: translate3d(6rem, -8rem, 0);
+    -webkit-transform: translate3d(13rem, -1rem, 0);
+            transform: translate3d(13rem, -1rem, 0);
   }
   .rellax1 .three {
     position: absolute;
-    -webkit-transform: translate3d(12rem, -1rem, 0);
-            transform: translate3d(12rem, -1rem, 0);
+    -webkit-transform: translate3d(13rem, 5rem, 0);
+            transform: translate3d(13rem, 5rem, 0);
   }
   .rellax2 {
     position: relative;
@@ -1765,12 +1787,24 @@ footer a {
     z-index: 1;
   }
   .rellax2 .one {
-    -webkit-transform: translate3d(0rem, 19rem, 0);
-            transform: translate3d(0rem, 19rem, 0);
+    -webkit-transform: translate3d(12rem, 5rem, 0);
+            transform: translate3d(12rem, 5rem, 0);
   }
   .rellax2 .two {
-    -webkit-transform: translate3d(6rem, -12rem, 0);
-            transform: translate3d(6rem, -12rem, 0);
+    -webkit-transform: translate3d(12rem, -15rem, 0);
+            transform: translate3d(12rem, -15rem, 0);
+  }
+  .rellax2-1 {
+    display: none;
+    position: relative;
+  }
+  .rellax2-1 .one {
+    position: absolute;
+    z-index: 1;
+  }
+  .rellax2-1 .one {
+    -webkit-transform: translate3d(-22rem, 16rem, 0);
+            transform: translate3d(-22rem, 16rem, 0);
   }
   .rellax3 {
     position: relative;
@@ -1780,25 +1814,25 @@ footer a {
     position: absolute;
   }
   .rellax3 .one {
-    -webkit-transform: translate3d(-18rem, 2rem, 0);
-            transform: translate3d(-18rem, 2rem, 0);
+    -webkit-transform: translate3d(5rem, 10rem, 0);
+            transform: translate3d(5rem, 10rem, 0);
   }
   .rellax3 .two {
-    -webkit-transform: translate3d(-20rem, 36rem, 0);
-            transform: translate3d(-20rem, 36rem, 0);
+    -webkit-transform: translate3d(4rem, 50rem, 0);
+            transform: translate3d(4rem, 50rem, 0);
   }
   .rellax4 {
     position: relative;
   }
   .rellax4 .one {
     position: absolute;
-    -webkit-transform: translate3d(13rem, -46rem, 0);
-            transform: translate3d(13rem, -46rem, 0);
+    -webkit-transform: translate3d(-22rem, -46rem, 0);
+            transform: translate3d(-22rem, -46rem, 0);
   }
   .rellax4 .two {
     position: absolute;
-    -webkit-transform: translate3d(13rem, -15rem, 0);
-            transform: translate3d(13rem, -15rem, 0);
+    -webkit-transform: translate3d(-22rem, -15rem, 0);
+            transform: translate3d(-22rem, -15rem, 0);
   }
   .rellax5 {
     position: relative;
@@ -1808,20 +1842,21 @@ footer a {
     position: absolute;
   }
   .rellax5 .one {
-    -webkit-transform: translate3d(-20rem, -74rem, 0);
-            transform: translate3d(-20rem, -74rem, 0);
+    -webkit-transform: translate3d(-28.5rem, -66rem, 0);
+            transform: translate3d(-28.5rem, -66rem, 0);
   }
   .rellax5 .two {
-    -webkit-transform: translate3d(-20rem, -12rem, 0);
-            transform: translate3d(-20rem, -12rem, 0);
+    -webkit-transform: translate3d(-23.5rem, 0rem, 0);
+            transform: translate3d(-23.5rem, 0rem, 0);
   }
   .rellax6 {
+    display: none;
     position: relative;
   }
   .rellax6 .one {
     position: absolute;
-    -webkit-transform: translate3d(-5rem, 16rem, 0);
-            transform: translate3d(-5rem, 16rem, 0);
+    -webkit-transform: translate3d(65rem, 12rem, 0);
+            transform: translate3d(65rem, 12rem, 0);
     z-index: 1;
   }
   .rellax7 {
@@ -1832,42 +1867,66 @@ footer a {
     position: absolute;
   }
   .rellax7 .one {
-    -webkit-transform: translate3d(-23rem, 16rem, 0);
-            transform: translate3d(-23rem, 16rem, 0);
+    -webkit-transform: translate3d(-24rem, -10rem, 0);
+            transform: translate3d(-24rem, -10rem, 0);
   }
   .rellax7 .two {
-    -webkit-transform: translate3d(-23rem, -50rem, 0);
-            transform: translate3d(-23rem, -50rem, 0);
+    -webkit-transform: translate3d(-24rem, -106rem, 0);
+            transform: translate3d(-24rem, -106rem, 0);
+  }
+  .rellax8 {
+    position: relative;
+    display: none;
+  }
+  .rellax8 .one {
+    position: absolute;
+    -webkit-transform: translate3d(16rem, 34rem, 0);
+            transform: translate3d(16rem, 34rem, 0);
+  }
+  .rellax8-1 {
+    position: relative;
+  }
+  .rellax8-1 .one,
+  .rellax8-1 .two {
+    position: absolute;
+  }
+  .rellax8-1 .one {
+    -webkit-transform: translate3d(9rem, -5rem, 0);
+            transform: translate3d(9rem, -5rem, 0);
+  }
+  .rellax8-1 .two {
+    -webkit-transform: translate3d(9rem, -100rem, 0);
+            transform: translate3d(9rem, -100rem, 0);
   }
   .rellax9 {
     position: relative;
   }
   .rellax9 .one,
-  .rellax9 .two {
+  .rellax9 .two,
+  .rellax9 .three {
     position: absolute;
   }
   .rellax9 .one {
-    -webkit-transform: translate3d(-20rem, 48rem, 0);
-            transform: translate3d(-20rem, 48rem, 0);
+    -webkit-transform: translate3d(-20rem, 120rem, 0);
+            transform: translate3d(-20rem, 120rem, 0);
   }
   .rellax9 .two {
-    -webkit-transform: translate3d(-20rem, -60rem, 0);
-            transform: translate3d(-20rem, -60rem, 0);
+    -webkit-transform: translate3d(-21rem, -30rem, 0);
+            transform: translate3d(-21rem, -30rem, 0);
+  }
+  .rellax9 .three {
+    -webkit-transform: translate3d(-20rem, 0, 0);
+            transform: translate3d(-20rem, 0, 0);
   }
   .rellax10 {
     position: relative;
   }
-  .rellax10 .one,
-  .rellax10 .two {
+  .rellax10 .one {
     position: absolute;
   }
   .rellax10 .one {
-    -webkit-transform: translate3d(-5rem, 81rem, 0);
-            transform: translate3d(-5rem, 81rem, 0);
-  }
-  .rellax10 .two {
-    -webkit-transform: translate3d(-5rem, -20rem, 0);
-            transform: translate3d(-5rem, -20rem, 0);
+    -webkit-transform: translate3d(16rem, -20rem, 0);
+            transform: translate3d(16rem, -20rem, 0);
   }
   .rellax11 {
     position: relative;
@@ -1877,12 +1936,12 @@ footer a {
     position: absolute;
   }
   .rellax11 .one {
-    -webkit-transform: translate3d(9rem, 0rem, 0);
-            transform: translate3d(9rem, 0rem, 0);
+    -webkit-transform: translate3d(-20rem, 10rem, 0);
+            transform: translate3d(-20rem, 10rem, 0);
   }
   .rellax11 .two {
-    -webkit-transform: translate3d(9rem, 180rem, 0);
-            transform: translate3d(9rem, 180rem, 0);
+    -webkit-transform: translate3d(12rem, 10rem, 0);
+            transform: translate3d(12rem, 10rem, 0);
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -1893,17 +1952,10 @@ footer a {
     width: 90%;
     margin-left: 5%;
   }
-  .rellax1 .one {
-    -webkit-transform: translate3d(-1rem, -15rem, 0);
-            transform: translate3d(-1rem, -15rem, 0);
-  }
-  .rellax1 .two {
-    -webkit-transform: translate3d(-17rem, -8rem, 0);
-            transform: translate3d(-17rem, -8rem, 0);
-  }
-  .rellax1 .three {
-    -webkit-transform: translate3d(-14rem, -6rem, 0);
-            transform: translate3d(-14rem, -6rem, 0);
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: -6rem;
   }
   .about {
     margin: 6rem 0 4rem 0;
@@ -1992,30 +2044,6 @@ footer a {
     position: absolute;
     -webkit-transform: translate3d(5rem, 0, 0);
             transform: translate3d(5rem, 0, 0);
-  }
-  .rellax9 .one {
-    -webkit-transform: translate3d(0, 40rem, 0);
-            transform: translate3d(0, 40rem, 0);
-  }
-  .rellax9 .two {
-    -webkit-transform: translate3d(0, 70rem, 0);
-            transform: translate3d(0, 70rem, 0);
-  }
-  .rellax10 {
-    position: relative;
-    right: -30%;
-  }
-  .rellax10 .one,
-  .rellax10 .two {
-    position: absolute;
-  }
-  .rellax10 .one {
-    -webkit-transform: translate3d(0, 46rem, 0);
-            transform: translate3d(0, 46rem, 0);
-  }
-  .rellax10 .two {
-    -webkit-transform: translate3d(0, 0rem, 0);
-            transform: translate3d(0, 0rem, 0);
   }
   .ritual {
     position: relative;
@@ -2134,18 +2162,45 @@ footer a {
   }
   .rellax1 .one {
     position: absolute;
-    -webkit-transform: translate3d(20rem, -16rem, 0);
-            transform: translate3d(20rem, -16rem, 0);
+    -webkit-transform: translate3d(23rem, -23rem, 0);
+            transform: translate3d(23rem, -23rem, 0);
   }
   .rellax1 .two {
     position: absolute;
-    -webkit-transform: translate3d(16rem, -8rem, 0);
-            transform: translate3d(16rem, -8rem, 0);
+    -webkit-transform: translate3d(18rem, -5rem, 0);
+            transform: translate3d(18rem, -5rem, 0);
   }
   .rellax1 .three {
     position: absolute;
-    -webkit-transform: translate3d(20rem, -5rem, 0);
-            transform: translate3d(20rem, -5rem, 0);
+    -webkit-transform: translate3d(18rem, -5rem, 0);
+            transform: translate3d(18rem, -5rem, 0);
+  }
+  .rellax2 {
+    position: relative;
+  }
+  .rellax2 .one,
+  .rellax2 .two {
+    position: absolute;
+    z-index: 1;
+  }
+  .rellax2 .one {
+    -webkit-transform: translate3d(16rem, -5rem, 0);
+            transform: translate3d(16rem, -5rem, 0);
+  }
+  .rellax2 .two {
+    -webkit-transform: translate3d(16rem, -15rem, 0);
+            transform: translate3d(16rem, -15rem, 0);
+  }
+  .rellax2-1 {
+    position: relative;
+  }
+  .rellax2-1 .one {
+    position: absolute;
+    z-index: 1;
+  }
+  .rellax2-1 .one {
+    -webkit-transform: translate3d(-22rem, 16rem, 0);
+            transform: translate3d(-22rem, 16rem, 0);
   }
   .rellax3 {
     position: relative;
@@ -2155,25 +2210,25 @@ footer a {
     position: absolute;
   }
   .rellax3 .one {
-    -webkit-transform: translate3d(-18rem, 0rem, 0);
-            transform: translate3d(-18rem, 0rem, 0);
+    -webkit-transform: translate3d(5rem, 10rem, 0);
+            transform: translate3d(5rem, 10rem, 0);
   }
   .rellax3 .two {
-    -webkit-transform: translate3d(-20rem, 22rem, 0);
-            transform: translate3d(-20rem, 22rem, 0);
+    -webkit-transform: translate3d(4rem, 35rem, 0);
+            transform: translate3d(4rem, 35rem, 0);
   }
   .rellax4 {
     position: relative;
   }
   .rellax4 .one {
     position: absolute;
-    -webkit-transform: translate3d(18rem, -46rem, 0);
-            transform: translate3d(18rem, -46rem, 0);
+    -webkit-transform: translate3d(-26rem, -46rem, 0);
+            transform: translate3d(-26rem, -46rem, 0);
   }
   .rellax4 .two {
     position: absolute;
-    -webkit-transform: translate3d(18rem, -15rem, 0);
-            transform: translate3d(18rem, -15rem, 0);
+    -webkit-transform: translate3d(-26rem, -15rem, 0);
+            transform: translate3d(-26rem, -15rem, 0);
   }
   .rellax5 {
     position: relative;
@@ -2183,12 +2238,21 @@ footer a {
     position: absolute;
   }
   .rellax5 .one {
-    -webkit-transform: translate3d(16rem, -56rem, 0);
-            transform: translate3d(16rem, -56rem, 0);
+    -webkit-transform: translate3d(-31rem, -66rem, 0);
+            transform: translate3d(-31rem, -66rem, 0);
   }
   .rellax5 .two {
-    -webkit-transform: translate3d(16rem, -8rem, 0);
-            transform: translate3d(16rem, -8rem, 0);
+    -webkit-transform: translate3d(-26rem, -8rem, 0);
+            transform: translate3d(-26rem, -8rem, 0);
+  }
+  .rellax6 {
+    position: relative;
+  }
+  .rellax6 .one {
+    position: absolute;
+    -webkit-transform: translate3d(65rem, 12rem, 0);
+            transform: translate3d(65rem, 12rem, 0);
+    z-index: 1;
   }
   .rellax7 {
     position: relative;
@@ -2198,42 +2262,65 @@ footer a {
     position: absolute;
   }
   .rellax7 .one {
-    -webkit-transform: translate3d(-16rem, 10rem, 0);
-            transform: translate3d(-16rem, 10rem, 0);
+    -webkit-transform: translate3d(-16rem, 22rem, 0);
+            transform: translate3d(-16rem, 22rem, 0);
   }
   .rellax7 .two {
-    -webkit-transform: translate3d(-16rem, -47rem, 0);
-            transform: translate3d(-16rem, -47rem, 0);
+    -webkit-transform: translate3d(-16rem, -42rem, 0);
+            transform: translate3d(-16rem, -42rem, 0);
+  }
+  .rellax8 {
+    position: relative;
+  }
+  .rellax8 .one {
+    position: absolute;
+    -webkit-transform: translate3d(16rem, 34rem, 0);
+            transform: translate3d(16rem, 34rem, 0);
+  }
+  .rellax8-1 {
+    position: relative;
+  }
+  .rellax8-1 .one,
+  .rellax8-1 .two {
+    position: absolute;
+  }
+  .rellax8-1 .one {
+    -webkit-transform: translate3d(-35rem, 10rem, 0);
+            transform: translate3d(-35rem, 10rem, 0);
+  }
+  .rellax8-1 .two {
+    -webkit-transform: translate3d(-35rem, -70rem, 0);
+            transform: translate3d(-35rem, -70rem, 0);
   }
   .rellax9 {
     position: relative;
   }
   .rellax9 .one,
-  .rellax9 .two {
+  .rellax9 .two,
+  .rellax9 .three {
     position: absolute;
   }
   .rellax9 .one {
-    -webkit-transform: translate3d(-23rem, 35rem, 0);
-            transform: translate3d(-23rem, 35rem, 0);
+    -webkit-transform: translate3d(-30rem, 55rem, 0);
+            transform: translate3d(-30rem, 55rem, 0);
   }
   .rellax9 .two {
-    -webkit-transform: translate3d(-23rem, -30rem, 0);
-            transform: translate3d(-23rem, -30rem, 0);
+    -webkit-transform: translate3d(-20rem, -24rem, 0);
+            transform: translate3d(-20rem, -24rem, 0);
+  }
+  .rellax9 .three {
+    -webkit-transform: translate3d(-27rem, 0, 0);
+            transform: translate3d(-27rem, 0, 0);
   }
   .rellax10 {
     position: relative;
   }
-  .rellax10 .one,
-  .rellax10 .two {
+  .rellax10 .one {
     position: absolute;
   }
   .rellax10 .one {
-    -webkit-transform: translate3d(0rem, 41rem, 0);
-            transform: translate3d(0rem, 41rem, 0);
-  }
-  .rellax10 .two {
-    -webkit-transform: translate3d(0rem, -20rem, 0);
-            transform: translate3d(0rem, -20rem, 0);
+    -webkit-transform: translate3d(16rem, -20rem, 0);
+            transform: translate3d(16rem, -20rem, 0);
   }
   .rellax11 {
     position: relative;
@@ -2243,12 +2330,12 @@ footer a {
     position: absolute;
   }
   .rellax11 .one {
-    -webkit-transform: translate3d(16rem, 15rem, 0);
-            transform: translate3d(16rem, 15rem, 0);
+    -webkit-transform: translate3d(-26rem, 10rem, 0);
+            transform: translate3d(-26rem, 10rem, 0);
   }
   .rellax11 .two {
-    -webkit-transform: translate3d(16rem, 100rem, 0);
-            transform: translate3d(16rem, 100rem, 0);
+    -webkit-transform: translate3d(16rem, 10rem, 0);
+            transform: translate3d(16rem, 10rem, 0);
   }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -2466,18 +2553,45 @@ footer a {
   }
   .rellax1 .one {
     position: absolute;
-    -webkit-transform: translate3d(26rem, -20rem, 0);
-            transform: translate3d(26rem, -20rem, 0);
+    -webkit-transform: translate3d(28rem, -23rem, 0);
+            transform: translate3d(28rem, -23rem, 0);
   }
   .rellax1 .two {
     position: absolute;
-    -webkit-transform: translate3d(21rem, -10rem, 0);
-            transform: translate3d(21rem, -10rem, 0);
+    -webkit-transform: translate3d(23rem, -5rem, 0);
+            transform: translate3d(23rem, -5rem, 0);
   }
   .rellax1 .three {
     position: absolute;
-    -webkit-transform: translate3d(26rem, -5rem, 0);
-            transform: translate3d(26rem, -5rem, 0);
+    -webkit-transform: translate3d(23rem, -5rem, 0);
+            transform: translate3d(23rem, -5rem, 0);
+  }
+  .rellax2 {
+    position: relative;
+  }
+  .rellax2 .one,
+  .rellax2 .two {
+    position: absolute;
+    z-index: 1;
+  }
+  .rellax2 .one {
+    -webkit-transform: translate3d(20rem, 0, 0);
+            transform: translate3d(20rem, 0, 0);
+  }
+  .rellax2 .two {
+    -webkit-transform: translate3d(20rem, -10rem, 0);
+            transform: translate3d(20rem, -10rem, 0);
+  }
+  .rellax2-1 {
+    position: relative;
+  }
+  .rellax2-1 .one {
+    position: absolute;
+    z-index: 1;
+  }
+  .rellax2-1 .one {
+    -webkit-transform: translate3d(-22rem, 16rem, 0);
+            transform: translate3d(-22rem, 16rem, 0);
   }
   .rellax3 {
     position: relative;
@@ -2487,12 +2601,49 @@ footer a {
     position: absolute;
   }
   .rellax3 .one {
-    -webkit-transform: translate3d(-22rem, 5rem, 0);
-            transform: translate3d(-22rem, 5rem, 0);
+    -webkit-transform: translate3d(5rem, 13rem, 0);
+            transform: translate3d(5rem, 13rem, 0);
   }
   .rellax3 .two {
-    -webkit-transform: translate3d(-24rem, 21rem, 0);
-            transform: translate3d(-24rem, 21rem, 0);
+    -webkit-transform: translate3d(4rem, 32rem, 0);
+            transform: translate3d(4rem, 32rem, 0);
+  }
+  .rellax4 {
+    position: relative;
+  }
+  .rellax4 .one {
+    position: absolute;
+    -webkit-transform: translate3d(-31rem, -46rem, 0);
+            transform: translate3d(-31rem, -46rem, 0);
+  }
+  .rellax4 .two {
+    position: absolute;
+    -webkit-transform: translate3d(-31rem, -15rem, 0);
+            transform: translate3d(-31rem, -15rem, 0);
+  }
+  .rellax5 {
+    position: relative;
+  }
+  .rellax5 .one,
+  .rellax5 .two {
+    position: absolute;
+  }
+  .rellax5 .one {
+    -webkit-transform: translate3d(-36rem, -62rem, 0);
+            transform: translate3d(-36rem, -62rem, 0);
+  }
+  .rellax5 .two {
+    -webkit-transform: translate3d(-35rem, -8rem, 0);
+            transform: translate3d(-35rem, -8rem, 0);
+  }
+  .rellax6 {
+    position: relative;
+  }
+  .rellax6 .one {
+    position: absolute;
+    -webkit-transform: translate3d(65rem, 12rem, 0);
+            transform: translate3d(65rem, 12rem, 0);
+    z-index: 1;
   }
   .rellax7 {
     position: relative;
@@ -2502,42 +2653,80 @@ footer a {
     position: absolute;
   }
   .rellax7 .one {
-    -webkit-transform: translate3d(-17rem, 10rem, 0);
-            transform: translate3d(-17rem, 10rem, 0);
+    -webkit-transform: translate3d(-20rem, 10rem, 0);
+            transform: translate3d(-20rem, 10rem, 0);
   }
   .rellax7 .two {
-    -webkit-transform: translate3d(-17rem, -47rem, 0);
-            transform: translate3d(-17rem, -47rem, 0);
+    -webkit-transform: translate3d(-20rem, -47rem, 0);
+            transform: translate3d(-20rem, -47rem, 0);
+  }
+  .rellax8 {
+    position: relative;
+  }
+  .rellax8 .one {
+    position: absolute;
+    -webkit-transform: translate3d(16rem, 34rem, 0);
+            transform: translate3d(16rem, 34rem, 0);
+  }
+  .rellax8-1 {
+    position: relative;
+  }
+  .rellax8-1 .one,
+  .rellax8-1 .two {
+    position: absolute;
+  }
+  .rellax8-1 .one {
+    -webkit-transform: translate3d(-35rem, 10rem, 0);
+            transform: translate3d(-35rem, 10rem, 0);
+  }
+  .rellax8-1 .two {
+    -webkit-transform: translate3d(-35rem, -70rem, 0);
+            transform: translate3d(-35rem, -70rem, 0);
   }
   .rellax9 {
     position: relative;
   }
   .rellax9 .one,
-  .rellax9 .two {
+  .rellax9 .two,
+  .rellax9 .three {
     position: absolute;
   }
   .rellax9 .one {
-    -webkit-transform: translate3d(-25rem, 35rem, 0);
-            transform: translate3d(-25rem, 35rem, 0);
+    -webkit-transform: translate3d(-30rem, 55rem, 0);
+            transform: translate3d(-30rem, 55rem, 0);
   }
   .rellax9 .two {
-    -webkit-transform: translate3d(-25rem, -30rem, 0);
-            transform: translate3d(-25rem, -30rem, 0);
+    -webkit-transform: translate3d(-26rem, -24rem, 0);
+            transform: translate3d(-26rem, -24rem, 0);
+  }
+  .rellax9 .three {
+    -webkit-transform: translate3d(-27rem, 0, 0);
+            transform: translate3d(-27rem, 0, 0);
   }
   .rellax10 {
     position: relative;
   }
-  .rellax10 .one,
-  .rellax10 .two {
+  .rellax10 .one {
     position: absolute;
   }
   .rellax10 .one {
-    -webkit-transform: translate3d(16rem, 39rem, 0);
-            transform: translate3d(16rem, 39rem, 0);
+    -webkit-transform: translate3d(16rem, -20rem, 0);
+            transform: translate3d(16rem, -20rem, 0);
   }
-  .rellax10 .two {
-    -webkit-transform: translate3d(16rem, -24rem, 0);
-            transform: translate3d(16rem, -24rem, 0);
+  .rellax11 {
+    position: relative;
+  }
+  .rellax11 .one,
+  .rellax11 .two {
+    position: absolute;
+  }
+  .rellax11 .one {
+    -webkit-transform: translate3d(-31rem, 10rem, 0);
+            transform: translate3d(-31rem, 10rem, 0);
+  }
+  .rellax11 .two {
+    -webkit-transform: translate3d(22rem, 10rem, 0);
+            transform: translate3d(22rem, 10rem, 0);
   }
 }
 @media (min-width: 1408px) and (max-width: 1479.98px) {

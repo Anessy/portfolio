@@ -1089,7 +1089,7 @@ footer{
   }
   .photo {
     .one { //lines
-      transform: translate3d(0,12rem,0);
+      transform: translate3d(0,24rem,0);
     }
     .two { //bg
       transform: translate3d(-4rem,6rem,0);
@@ -1315,134 +1315,187 @@ footer{
   footer{
     padding: 1rem 0 1rem 3rem; 
   }
-  // ============== адаптивность rellax ==========
-  .rellax1 {
-    position: relative;
-    .one { // flower big
-      position: absolute;
-      transform: translate3d(6rem,-400px,0);
-    }
-    .two { // flower small
-      position: absolute;
-      transform: translate3d(0rem,-8rem,0);
-    }
-    .three{ // tree
-      position: absolute;
-      transform: translate3d(6rem,-1rem,0);
-    }
+  // ============== адаптивность rellax ==========//==========адаптивность rellax1================
+.rellax1 {
+  position: relative;
+  .one { // flover
+    position: absolute;
+    transform: translate3d(10rem,-27rem,0);
   }
-  .rellax2 {
-    position: relative;
-    .one, .two {
-      position: absolute;
-      z-index: 1;
-    }
-    .one { //flower small
-      transform: translate3d(0rem,19rem,0);
-    }
-    .two { //green letter
-      transform: translate3d(6rem,-12rem,0);
-    }
+  .two { // 
+    position: absolute;
+    transform: translate3d(6rem,-1rem,0);
   }
-  .rellax3 {
-    position: relative;
-    .one, .two {
-      position: absolute;
-    }
-    .one { //back
-      transform: translate3d(-12rem,10rem,0);
-    }
-    .two { //first
-     transform: translate3d(-14rem,36rem,0);
-   }
-   }
-   .rellax4 {
-    
-    position: relative;
-    .one { //tree
-      position: absolute;
-      transform: translate3d(3rem,-22rem,0);
-    }
-    .two { // green letter
-      position: absolute;
-      transform: translate3d(8rem,-15rem,0);
-    }
+  .three{ // 
+    position: absolute; //tree
+    transform: translate3d(6rem,5rem,0);
   }
-  .rellax5 {
-    
-    position: relative; 
-    .one,.two{
-      position: absolute; 
-    } 
-    .one { //avokado
-      transform: translate3d(-14rem,-86rem,0);
-    }
-    .two { // green letter
-      transform: translate3d(-14rem,-30rem,0);
-    }
+}
+//=======================================================
+.rellax2 {
+
+  position: relative;
+  .one, .two {
+    position: absolute;
+    z-index: 1;
   }
-  .rellax6 {
-    
-    position: relative;
+  .one { //flower small
+    transform: translate3d(12rem,5rem,0);
+  }
+  .two { //green letter
+    transform: translate3d(12rem,-15rem,0);
+  }
+}
+//=========================================================
+.rellax2-1 {
+  display: none;
+  position: relative;
+  .one {
+    position: absolute;
+    z-index: 1;
+  }
+  .one { //avocado
+    transform: translate3d(-22rem,16rem,0);
   
-    .one {
-      position: absolute;
-      transform: translate3d(-10rem,23rem,0);
-      z-index: 1;
-    }
+}
+}
+//=========================================================
+.rellax3 {
+ 
+ position: relative;
+ .one, .two {
+   position: absolute;
+ }
+ .one {
+   transform: translate3d(4rem,12rem,0);
+ }
+ .two {
+  transform: translate3d(4rem,45rem,0);
+}
+}
+//==========================================================
+.rellax4 {
+  
+  position: relative;
+  .one { //tree
+    position: absolute;
+    transform: translate3d(-13rem,-17rem,0);
   }
-  .rellax7 {
-    
-    position: relative;
-    transform: translate3d(0,-40rem,0);
-    .one,.two {
-      position: absolute;
-    }
-    .one{ //avokado
-      transform: translate3d(-17rem,6rem,0);
-    }
-    .two { //tree
-      transform: translate3d(-17rem,-70rem,0);
-      
-      
-    }
+  .two { // green letter
+    position: absolute;
+    transform: translate3d(-13rem,12rem,0);
   }
-  .rellax9 {
-    position: relative;
-    .one,.two {
-      position: absolute;
-    }
-    .one { // nuts
-      transform: translate3d(-10rem,50rem,0);
-    }
-    .two { // green letter
-      transform: translate3d(-10rem,-60rem,0);
-    }
+}
+//=========================================================
+.rellax5 {
+  
+  position: relative; 
+  .one,.two{
+    position: absolute; 
+  } 
+  .one { //avokado
+    transform: translate3d(-20.5rem,-110rem,0);
   }
-  .rellax10 {
-    position: relative;
-    .one,.two {
-      position: absolute;
-    }
-    .one {
-      transform: translate3d(0rem,91rem,0);
-    }
-    .two {
-      transform: translate3d(0rem,-20rem,0);
-    }
+  .two { // green letter
+    transform: translate3d(-15.5rem,-40rem,0);
   }
-  .rellax11 {
-    position: relative;
-    .one,.two {
-      position: absolute;
-    }
-    .one { // avokado
-      transform: translate3d(0rem,40rem,0);
-    }
-    .two { // green letter
-      transform: translate3d(0rem,190rem,0);
-    }
+}
+
+//=======================================================
+
+.rellax6 {
+  display: none;
+  position: relative;
+
+  .one {
+    position: absolute;
+    transform: translate3d(65rem,12rem,0);
+    z-index: 1;
   }
+}
+//==========================================================
+.rellax7 {
+  
+  position: relative;
+  
+  .one,.two {
+    position: absolute;
+  }
+  .one{ //tree
+    transform: translate3d(-16rem,-30rem,0);
+  }
+  .two { //avokado
+    transform: translate3d(-16rem,-116rem,0);
+  }
+}
+//================================================================
+.rellax8 {
+  position: relative;
+  display: none;
+  .one {
+    position: absolute;
+    transform: translate3d(16rem,34rem,0);
+  }
+}
+//================================================================
+.rellax8-1 {
+  
+  position: relative;
+  margin-top: -24rem;
+  .one,.two {
+    position: absolute;
+  }
+  .one{ //tree
+    transform: translate3d(2rem,-5rem,0);
+  }
+  .two { //avokado
+    transform: translate3d(2rem,-100rem,0);
+  }
+}
+//================================================================
+.rellax9 {
+  margin-top: -20rem;
+  position: relative;
+  .one,.two,.three {
+    position: absolute;
+  }
+  .one { // green letter
+    transform: translate3d(-11rem,120rem,0);
+  }
+  .two { // nuts
+    transform: translate3d(-12rem,-30rem,0);
+  }
+  .three { // flower
+    transform: translate3d(-11rem,0,0);
+  }
+}
+//================================================================
+.rellax10 {
+  
+  position: relative;
+  .one {
+    position: absolute;
+  }
+  .one {
+    transform: translate3d(4rem,23rem,0);
+  }
+  
+}
+//================================================================
+.rellax11 {
+  
+  position: relative;
+  margin-bottom: -6rem;
+  .one,.two {
+    position: absolute;
+  }
+  .one {
+    transform: translate3d(-12rem,10rem,0);
+  }
+  .two {
+    transform: translate3d(6rem,10rem,0);
+  }
+}
   //====================
   }
 // Малые девайсы («ландшафтные», < 768px)
@@ -1590,20 +1643,6 @@ footer{
   .fifthQuestion {
     margin-top: 5rem;
   }
-
-  .rellax10 {
-    position: relative;
-    right: -30%;
-    .one,.two {
-      position: absolute;
-    }
-    .one {
-      transform: translate3d(0,46rem,0);
-    }
-    .two {
-      transform: translate3d(0,0rem,0);
-    }
-  }
   .ritual {
     text-align: center;
     position: relative;
@@ -1713,59 +1752,78 @@ footer{
   footer{
     padding: 1rem 0 1rem 2rem;
   }
-  // ============== адаптивность rellax ==========
+// ============== адаптивность rellax ==========//==========адаптивность rellax1================
 .rellax1 {
   position: relative;
-  .one { // flower big
+  .one { // flover
     position: absolute;
-    transform: translate3d(12rem,-400px,0);
+    transform: translate3d(18rem,-35rem,0);
   }
-  .two { // flower small
+  .two { // 
     position: absolute;
-    transform: translate3d(6rem,-8rem,0);
+    transform: translate3d(13rem,-1rem,0);
   }
-  .three{ // tree
-    position: absolute;
-    transform: translate3d(12rem,-1rem,0);
+  .three{ // 
+    position: absolute; //tree
+    transform: translate3d(13rem,5rem,0);
   }
 }
+//=======================================================
 .rellax2 {
+
   position: relative;
   .one, .two {
     position: absolute;
     z-index: 1;
   }
   .one { //flower small
-    transform: translate3d(0rem,19rem,0);
+    transform: translate3d(12rem,5rem,0);
   }
   .two { //green letter
-    transform: translate3d(6rem,-12rem,0);
+    transform: translate3d(12rem,-15rem,0);
   }
 }
-.rellax3 {
+//=========================================================
+.rellax2-1 {
+  display: none;
   position: relative;
-  .one, .two {
+  .one {
     position: absolute;
+    z-index: 1;
   }
-  .one { //back
-    transform: translate3d(-18rem,2rem,0);
-  }
-  .two { //first
-   transform: translate3d(-20rem,36rem,0);
+  .one { //avocado
+    transform: translate3d(-22rem,16rem,0);
+  
+}
+}
+//=========================================================
+.rellax3 {
+ 
+ position: relative;
+ .one, .two {
+   position: absolute;
  }
+ .one {
+   transform: translate3d(5rem,10rem,0);
  }
- .rellax4 {
+ .two {
+  transform: translate3d(4rem,50rem,0);
+}
+}
+//==========================================================
+.rellax4 {
   
   position: relative;
   .one { //tree
     position: absolute;
-    transform: translate3d(13rem,-46rem,0);
+    transform: translate3d(-22rem,-46rem,0);
   }
   .two { // green letter
     position: absolute;
-    transform: translate3d(13rem,-15rem,0);
+    transform: translate3d(-22rem,-15rem,0);
   }
 }
+//=========================================================
 .rellax5 {
   
   position: relative; 
@@ -1773,22 +1831,26 @@ footer{
     position: absolute; 
   } 
   .one { //avokado
-    transform: translate3d(-20rem,-74rem,0);
+    transform: translate3d(-28.5rem,-66rem,0);
   }
   .two { // green letter
-    transform: translate3d(-20rem,-12rem,0);
+    transform: translate3d(-23.5rem,0rem,0);
   }
 }
+
+//=======================================================
+
 .rellax6 {
-  
+  display: none;
   position: relative;
 
   .one {
     position: absolute;
-    transform: translate3d(-5rem,16rem,0);
+    transform: translate3d(65rem,12rem,0);
     z-index: 1;
   }
 }
+//==========================================================
 .rellax7 {
   
   position: relative;
@@ -1796,49 +1858,78 @@ footer{
   .one,.two {
     position: absolute;
   }
-  .one{ //avokado
-    transform: translate3d(-23rem,16rem,0);
-    
+  .one{ //tree
+    transform: translate3d(-24rem,-10rem,0);
   }
-  .two { //tree
-    transform: translate3d(-23rem,-50rem,0);
-    
+  .two { //avokado
+    transform: translate3d(-24rem,-106rem,0);
   }
 }
-.rellax9 {
+//================================================================
+.rellax8 {
   position: relative;
+  display: none;
+  .one {
+    position: absolute;
+    transform: translate3d(16rem,34rem,0);
+  }
+}
+//================================================================
+.rellax8-1 {
+  
+  position: relative;
+  
   .one,.two {
     position: absolute;
   }
-  .one { // nuts
-    transform: translate3d(-20rem,48rem,0);
+  .one{ //tree
+    transform: translate3d(9rem,-5rem,0);
   }
-  .two { // green letter
-    transform: translate3d(-20rem,-60rem,0);
+  .two { //avokado
+    transform: translate3d(9rem,-100rem,0);
   }
 }
+//================================================================
+.rellax9 {
+  
+  position: relative;
+  .one,.two,.three {
+    position: absolute;
+  }
+  .one { // green letter
+    transform: translate3d(-20rem,120rem,0);
+  }
+  .two { // nuts
+    transform: translate3d(-21rem,-30rem,0);
+  }
+  .three { // flower
+    transform: translate3d(-20rem,0,0);
+  }
+}
+//================================================================
 .rellax10 {
+  
+  position: relative;
+  .one {
+    position: absolute;
+  }
+  .one {
+    transform: translate3d(16rem,-20rem,0);
+  }
+  
+}
+//================================================================
+.rellax11 {
+  
   position: relative;
   .one,.two {
     position: absolute;
   }
   .one {
-    transform: translate3d(-5rem,81rem,0);
+    transform: translate3d(-20rem,10rem,0);
   }
   .two {
-    transform: translate3d(-5rem,-20rem,0);
-  }
-}
-.rellax11 {
-  position: relative;
-  .one,.two {
-    position: absolute;
-  }
-  .one { // avokado
-    transform: translate3d(9rem,0rem,0);
-  }
-  .two { // green letter
-    transform: translate3d(9rem,180rem,0);
+    transform: translate3d(12rem,10rem,0);
   }
 }
 //=================  
@@ -1855,18 +1946,14 @@ footer{
       width: 90%;
       margin-left: 5%;
     }
+    &-bg{
+      position: absolute;
+      bottom: 0;
+      right: -6rem;
+    }
+
   }
-  .rellax1 {
-    .one {
-      transform: translate3d(-1rem,-15rem,0);
-    }
-    .two {
-      transform: translate3d(-17rem,-8rem,0);
-    }
-    .three {
-      transform: translate3d(-14rem,-6rem,0);
-    }
-  }
+  
   .about {
     margin: 6rem 0 4rem 0;
   }
@@ -1949,28 +2036,7 @@ footer{
     }
   }
   //========================
-  .rellax9 {
-   
-    .one {
-      transform: translate3d(0,40rem,0);
-    }
-    .two {
-      transform: translate3d(0,70rem,0);
-    }
-  }
-  .rellax10 {
-    position: relative;
-    right: -30%;
-    .one,.two {
-      position: absolute;
-    }
-    .one {
-      transform: translate3d(0,46rem,0);
-    }
-    .two {
-      transform: translate3d(0,0rem,0);
-    }
-  }
+  
   .ritual {
     position: relative;
     margin-top: 6rem;
@@ -2086,46 +2152,78 @@ footer{
   footer{
     padding: 1rem 0 1rem 2rem;
   }
-// ============== адаптивность rellax ==========
+// ============== адаптивность rellax ==========//==========адаптивность rellax1================
 .rellax1 {
   position: relative;
-  .one { // flower big
+  .one { // flover
     position: absolute;
-    transform: translate3d(20rem,-16rem,0);
+    transform: translate3d(23rem,-23rem,0);
   }
-  .two { // flower small
+  .two { // 
     position: absolute;
-    transform: translate3d(16rem,-8rem,0);
+    transform: translate3d(18rem,-5rem,0);
   }
-  .three{ // tree
+  .three{ // 
     position: absolute;
-    transform: translate3d(20rem,-5rem,0);
+    transform: translate3d(18rem,-5rem,0);
   }
 }
-.rellax3 {
+//=======================================================
+.rellax2 {
+
   position: relative;
   .one, .two {
     position: absolute;
+    z-index: 1;
   }
-  .one { //back
-    transform: translate3d(-18rem,0rem,0);
+  .one { //flower small
+    transform: translate3d(16rem,-5rem,0);
   }
-  .two { //first
-   transform: translate3d(-20rem,22rem,0);
+  .two { //green letter
+    transform: translate3d(16rem,-15rem,0);
+  }
+}
+//=========================================================
+.rellax2-1 {
+
+  position: relative;
+  .one {
+    position: absolute;
+    z-index: 1;
+  }
+  .one { //avocado
+    transform: translate3d(-22rem,16rem,0);
+  
+}
+}
+//=========================================================
+.rellax3 {
+ 
+ position: relative;
+ .one, .two {
+   position: absolute;
  }
+ .one {
+   transform: translate3d(5rem,10rem,0);
  }
- .rellax4 {
+ .two {
+  transform: translate3d(4rem,35rem,0);
+}
+}
+//==========================================================
+.rellax4 {
   
   position: relative;
   .one { //tree
     position: absolute;
-    transform: translate3d(18rem,-46rem,0);
+    transform: translate3d(-26rem,-46rem,0);
   }
   .two { // green letter
     position: absolute;
-    transform: translate3d(18rem,-15rem,0);
+    transform: translate3d(-26rem,-15rem,0);
   }
 }
+//=========================================================
 .rellax5 {
   
   position: relative; 
@@ -2133,12 +2231,26 @@ footer{
     position: absolute; 
   } 
   .one { //avokado
-    transform: translate3d(16rem,-56rem,0);
+    transform: translate3d(-31rem,-66rem,0);
   }
   .two { // green letter
-    transform: translate3d(16rem,-8rem,0);
+    transform: translate3d(-26rem,-8rem,0);
   }
 }
+
+//=======================================================
+
+.rellax6 {
+  
+  position: relative;
+
+  .one {
+    position: absolute;
+    transform: translate3d(65rem,12rem,0);
+    z-index: 1;
+  }
+}
+//==========================================================
 .rellax7 {
   
   position: relative;
@@ -2147,48 +2259,76 @@ footer{
     position: absolute;
   }
   .one{ //tree
-    transform: translate3d(-16rem,10rem,0);
-    
+    transform: translate3d(-16rem,22rem,0);
   }
   .two { //avokado
-    transform: translate3d(-16rem,-47rem,0);
-    
+    transform: translate3d(-16rem,-42rem,0);
   }
 }
-.rellax9 {
+//================================================================
+.rellax8 {
   position: relative;
+  .one {
+    position: absolute;
+    transform: translate3d(16rem,34rem,0);
+  }
+}
+//================================================================
+.rellax8-1 {
+  
+  position: relative;
+  
   .one,.two {
+    position: absolute;
+  }
+  .one{ //tree
+    transform: translate3d(-35rem,10rem,0);
+  }
+  .two { //avokado
+    transform: translate3d(-35rem,-70rem,0);
+  }
+}
+//================================================================
+.rellax9 {
+  
+  position: relative;
+  .one,.two,.three {
     position: absolute;
   }
   .one { // green letter
-    transform: translate3d(-23rem,35rem,0);
+    transform: translate3d(-30rem,55rem,0);
   }
   .two { // nuts
-    transform: translate3d(-23rem,-30rem,0);
+    transform: translate3d(-20rem,-24rem,0);
+  }
+  .three { // flower
+    transform: translate3d(-27rem,0,0);
   }
 }
+//================================================================
 .rellax10 {
+  
   position: relative;
-  .one,.two {
+  .one {
     position: absolute;
   }
   .one {
-    transform: translate3d(0rem,41rem,0);
+    transform: translate3d(16rem,-20rem,0);
   }
-  .two {
-    transform: translate3d(0rem,-20rem,0);
-  }
+  
 }
+//================================================================
 .rellax11 {
+  
   position: relative;
   .one,.two {
     position: absolute;
   }
   .one {
-    transform: translate3d(16rem,15rem,0);
+    transform: translate3d(-26rem,10rem,0);
   }
   .two {
-    transform: translate3d(16rem,100rem,0);
+    transform: translate3d(16rem,10rem,0);
   }
 }
 //==================
@@ -2411,67 +2551,180 @@ footer{
   //==========адаптивность rellax1================
   .rellax1 {
     position: relative;
-    .one { // flower big
+    .one { // flover
       position: absolute;
-      transform: translate3d(26rem,-20rem,0);
+      transform: translate3d(28rem,-23rem,0);
     }
-    .two { // flower small
+    .two { // 
       position: absolute;
-      transform: translate3d(21rem,-10rem,0);
+      transform: translate3d(23rem,-5rem,0);
     }
-    .three{ // tree
+    .three{ // 
       position: absolute;
-      transform: translate3d(26rem,-5rem,0);
+      transform: translate3d(23rem,-5rem,0);
     }
   }
-  .rellax3 {
+  //=======================================================
+  .rellax2 {
+  
     position: relative;
     .one, .two {
       position: absolute;
+      z-index: 1;
     }
-    .one {
-      transform: translate3d(-22rem,5rem,0);
+    .one { //flower small
+      transform: translate3d(20rem,0,0);
     }
-    .two {
-     transform: translate3d(-24rem,21rem,0);
-   }
-   }
-   .rellax7 {
+    .two { //green letter
+      transform: translate3d(20rem,-10rem,0);
+    }
+  }
+  //=========================================================
+  .rellax2-1 {
   
+    position: relative;
+    .one {
+      position: absolute;
+      z-index: 1;
+    }
+    .one { //avocado
+      transform: translate3d(-22rem,16rem,0);
+    
+  }
+  }
+  //=========================================================
+  .rellax3 {
+   
+   position: relative;
+   .one, .two {
+     position: absolute;
+   }
+   .one {
+     transform: translate3d(5rem,13rem,0);
+   }
+   .two {
+    transform: translate3d(4rem,32rem,0);
+  }
+  }
+  //==========================================================
+  .rellax4 {
+    
+    position: relative;
+    .one { //tree
+      position: absolute;
+      transform: translate3d(-31rem,-46rem,0);
+    }
+    .two { // green letter
+      position: absolute;
+      transform: translate3d(-31rem,-15rem,0);
+    }
+  }
+  //=========================================================
+  .rellax5 {
+    
+    position: relative; 
+    .one,.two{
+      position: absolute; 
+    } 
+    .one { //avokado
+      transform: translate3d(-36rem,-62rem,0);
+    }
+    .two { // green letter
+      transform: translate3d(-35rem,-8rem,0);
+    }
+  }
+  
+  //=======================================================
+  
+  .rellax6 {
+    
+    position: relative;
+  
+    .one {
+      position: absolute;
+      transform: translate3d(65rem,12rem,0);
+      z-index: 1;
+    }
+  }
+  //==========================================================
+  .rellax7 {
+    
     position: relative;
     
     .one,.two {
       position: absolute;
     }
     .one{ //tree
-      transform: translate3d(-17rem,10rem,0);
+      transform: translate3d(-20rem,10rem,0);
     }
     .two { //avokado
-      transform: translate3d(-17rem,-47rem,0);
+      transform: translate3d(-20rem,-47rem,0);
     }
   }
-  .rellax9 {
+  //================================================================
+  .rellax8 {
     position: relative;
+    .one {
+      position: absolute;
+      transform: translate3d(16rem,34rem,0);
+    }
+  }
+  //================================================================
+  .rellax8-1 {
+    
+    position: relative;
+    
     .one,.two {
       position: absolute;
     }
-    .one { // green letter
-      transform: translate3d(-25rem,35rem,0);
+    .one{ //tree
+      transform: translate3d(-35rem,10rem,0);
     }
-    .two { // nuts
-      transform: translate3d(-25rem,-30rem,0);
+    .two { //avokado
+      transform: translate3d(-35rem,-70rem,0);
     }
   }
+  //================================================================
+  .rellax9 {
+    
+    position: relative;
+    .one,.two,.three {
+      position: absolute;
+    }
+    .one { // green letter
+      transform: translate3d(-30rem,55rem,0);
+    }
+    .two { // nuts
+      transform: translate3d(-26rem,-24rem,0);
+    }
+    .three { // flower
+      transform: translate3d(-27rem,0,0);
+    }
+  }
+  //================================================================
   .rellax10 {
+    
+    position: relative;
+    .one {
+      position: absolute;
+    }
+    .one {
+      transform: translate3d(16rem,-20rem,0);
+    }
+    
+  }
+  //================================================================
+  .rellax11 {
+    
     position: relative;
     .one,.two {
       position: absolute;
     }
     .one {
-      transform: translate3d(16rem,39rem,0);
+      transform: translate3d(-31rem,10rem,0);
     }
     .two {
-      transform: translate3d(16rem,-24rem,0);
+      transform: translate3d(22rem,10rem,0);
     }
   }
 //===================
