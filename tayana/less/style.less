@@ -124,6 +124,9 @@ p {
 
 .photo {
   position: relative;
+  img {
+    width: 100%;
+  }
 }
 
 //===================================================================
@@ -632,7 +635,7 @@ footer{
 
 // ========== АДАПТИВНОСТЬ ==========================================
 // Экстрамалые девайсы («телефоны», < 576px)
-@media (max-width: 320px) and (max-width: 374.98px){ 
+@media (max-width: 373.98px){ 
   .header {
     &-logo {
       text-align: center;
@@ -659,26 +662,13 @@ footer{
   
 }
 .photo {
-  .one { //lines
-    transform: translate3d(0,12rem,0);
-  }
-  .two { //bg
-    transform: translate3d(-2rem,6rem,0);
-    width: 120%;
-  }
-  .three {//sleep
-    margin-left: -2rem;
-    width: 120%;
-  }
-  .four { //sport
-    transform: translate3d(0,13rem,0);
-    width: 110%;
+  position: relative;
+  margin-left: -9rem;
+  img {
+    width: 200% !important;
   }
 }
-.no-diw{
-  width: 100%;
-  margin-top: 32rem;
-}
+
 .play {
   transform: translate3d(-1rem,-12rem,0); //=====
   .a {
@@ -695,37 +685,56 @@ footer{
 }
 
 .photo2 {
-  padding: 0rem 0 68rem 0;
-  margin-bottom: 10rem;
-  &-second {//tea
+  position: relative;
+  padding: 4rem 0 68rem 0;
+  background: linear-gradient(198.01deg, #CCE2A8 19.88%, #BAD794 55.51%, #E1F0B7 87%);
+  .one,.two,.three {
     position: absolute;
-    transform: translate3d(0rem,67rem,0);
+  } 
+  .one { //joga
+    transform: translate3d(-4rem,0,0);
+    img {
+      width: 180%;
+    }
   }
-  &-bg { //love
-    position: absolute;
-    transform: translate3d(5rem,52rem,0);
+  .two { //bg
+    transform: translate3d(5rem,24rem,0);
+    img {
+      width: 120%;
+    }
   }
-  &-fourth {//bg
-    position: absolute;
-    transform: translate3d(6rem,51rem,0);
-    
-    
+  .three { //music
+    transform: translate3d(6rem,25rem,0);
+    img {
+      width: 120%;
+    }
   }
+  
   .text, .circle {
     position: absolute;
-    transform: translate3d(5rem,29rem,0);
+    transform: translate3d(3rem,39rem,0);
   }
   .text {
     h1 {
+      font-family: PT Serif;
       font-style: normal;
       font-weight: bold;
       font-size: 34px;
       line-height: 42px;
       color: #FFFFFF;
-      text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+      text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
     }
   }
-}
+  
+  .circle {
+    margin-left: -4rem;
+    padding: 0 1.2rem;
+    border: 1px solid #F0CDB7;
+    border-radius: 50%;
+    background-color: #F0CDB7;
+    color: white;
+  }
+  }
 
 .video {
   margin-left: -120vw;	
@@ -734,46 +743,58 @@ footer{
 }
 
 .photo3 {
-  margin-top: 6rem;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
   position: relative;
-  img {
-    width: 100%;
-  }
-  &-first{ //phone
-    position: absolute;
-    transform: translate3d(6rem,28rem,0);
-  }
-  &-second { // bg
-    position: absolute;
-    transform: translate3d(4.5rem,26.5rem,0);
-  }
-  &-thrid { //love
-    position: absolute;
-    transform: translate3d(-1rem,0,0);
-  }
-  &-bg{ // line
-    position: absolute;
-    transform: translate3d(0,56rem,0);
   
-  }
-  .text {
+  &-one { // song
     position: absolute;
-    transform: translate3d(3rem,43rem,0);
-    color: #282828;
+    transform: translate3d(-4rem,0,0);
+    img {
+      width: 120%;
+    }
+  }
+  &-two { //hend
+    position: absolute;
+    transform: translate3d(8rem,44rem,0);
+    img {
+      width: 130%;
+    }
+  }
+  &-lines { //lines
+    position: absolute;
+    transform: translate3d(0,80rem,0);
+    img {
+      width: 100%;
+    }
+  }
+
+  
+  .circle, .text {
+    position: absolute;
+    transform: translate3d(3rem,74rem,0);
+    h1 {
+    font-style: normal;
+    font-weight: bold;
     font-size: 34px;
     line-height: 42px;
+    color: #282828;
+    }
   }
   .circle {
-    margin-left: -4rem;
+    margin-left: -4.5rem;
     border-radius: 20rem;
-    background-color: #F0CDB7;
-    padding: 0 1.1rem;
-    color: white;
-    transform: translate3d(3rem,43rem,0);
+    background-color: #C6E4AC;
+    padding: 0 1rem;
+    h1 {
+      color: white;
+    }
   }
 }
-.tenthQuestion {
-  margin-top: 58rem;
+//================================================================
+
+.forteenthQuestion {
+  margin-top: 85rem;
 }
 
 .ritual {
@@ -1099,24 +1120,11 @@ footer{
     
   }
   .photo {
-    .one { //lines
-      transform: translate3d(0,24rem,0);
+    position: relative;
+    margin-left: -9rem;
+    img {
+      width: 200% !important;
     }
-    .two { //bg
-      transform: translate3d(-4rem,6rem,0);
-      width: 120%;
-    }
-    .three {//sleep
-      margin-left: -4rem;
-      width: 120%;
-    }
-    .four { //sport
-      transform: translate3d(0,13rem,0);
-    }
-  }
-  .no-diw{
-    width: 100%;
-    margin-top: 44rem;
   }
   .play {
     transform: translate3d(-1rem,-16rem,0); //=====
@@ -1134,39 +1142,59 @@ footer{
   }
   
   .photo2 {
-    padding: 6rem 0 68rem 0;
-    margin-bottom: 10rem;
-    &-second {//tea
+    position: relative;
+    padding: 4rem 0 68rem 0;
+    background: linear-gradient(198.01deg, #CCE2A8 19.88%, #BAD794 55.51%, #E1F0B7 87%);
+    .one,.two,.three {
       position: absolute;
-      transform: translate3d(0rem,67rem,0);
+    } 
+    .one { //joga
+      transform: translate3d(-4rem,0,0);
+      img {
+        width: 180%;
+      }
     }
-    &-bg { //love
-      position: absolute;
-      transform: translate3d(5rem,52rem,0);
+    .two { //bg
+      transform: translate3d(5rem,24rem,0);
+      img {
+        width: 120%;
+      }
     }
-    &-fourth {//bg
-      position: absolute;
-      transform: translate3d(6rem,51rem,0);
-      
-      
+    .three { //music
+      transform: translate3d(6rem,25rem,0);
+      img {
+        width: 120%;
+      }
     }
+    
     .text, .circle {
       position: absolute;
-      transform: translate3d(5rem,29rem,0);
+      transform: translate3d(3rem,46rem,0);
     }
     .text {
       h1 {
+        font-family: PT Serif;
         font-style: normal;
         font-weight: bold;
         font-size: 34px;
         line-height: 42px;
         color: #FFFFFF;
-        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+        text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
       }
     }
-  }
+    
+    .circle {
+      margin-left: -4rem;
+      padding: 0 1.2rem;
+      border: 1px solid #F0CDB7;
+      border-radius: 50%;
+      background-color: #F0CDB7;
+      color: white;
+    }
+    }
+
   .eightthQuestion {
-    margin-top: 14rem;
+    margin-top: 8rem;
   }
   .video {
     margin-left: -120vw;	
@@ -1178,46 +1206,57 @@ footer{
   }
   
   .photo3 {
-    margin-top: 6rem;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
     position: relative;
-    img {
-      width: 100%;
-    }
-    &-first{ //phone
-      position: absolute;
-      transform: translate3d(6rem,28rem,0);
-    }
-    &-second { // bg
-      position: absolute;
-      transform: translate3d(4.5rem,26.5rem,0);
-    }
-    &-thrid { //love
-      position: absolute;
-      transform: translate3d(-1rem,0,0);
-    }
-    &-bg{ // line
-      position: absolute;
-      transform: translate3d(0,56rem,0);
     
-    }
-    .text {
+    &-one { // song
       position: absolute;
-      transform: translate3d(3rem,43rem,0);
-      color: #282828;
+      transform: translate3d(-2rem,0,0);
+      img {
+        width: 120%;
+      }
+    }
+    &-two { //hend
+      position: absolute;
+      transform: translate3d(7rem,36rem,0);
+      img {
+        width: 100%;
+      }
+    }
+    &-lines { //lines
+      position: absolute;
+      transform: translate3d(0,76rem,0);
+      img {
+        width: 100%;
+      }
+    }
+  
+    .circle, .text {
+      position: absolute;
+      transform: translate3d(5rem,51rem,0);
+      h1 {
+      font-style: normal;
+      font-weight: bold;
       font-size: 34px;
       line-height: 42px;
+      color: #282828;
+      }
     }
     .circle {
-      margin-left: -4rem;
+      margin-left: -4.5rem;
       border-radius: 20rem;
-      background-color: #F0CDB7;
-      padding: 0 1.1rem;
-      color: white;
-      transform: translate3d(3rem,43rem,0);
+      background-color: #C6E4AC;
+      padding: 0 1rem;
+      h1 {
+        color: white;
+      }
     }
   }
-  .tenthQuestion {
-    margin-top: 68rem;
+  //================================================================
+  
+  .forteenthQuestion {
+    margin-top: 80rem;
   }
   
   .ritual {
@@ -1543,26 +1582,13 @@ footer{
     margin: 6rem 0 4rem 0;
   }
   .photo {
-    .one { //lines
-      transform: translate3d(0,22rem,0);
-    }
-    .two { //bg
-      transform: translate3d(7rem,18rem,0);
-    }
-    .three {//sleep
-      margin-left: -4rem;
-      img {
-        width: 110%;
-      }
-    }
-    .four { //sport
-      transform: translate3d(0,20rem,0);
+    position: relative;
+    margin-left: -9rem;
+    img {
+      width: 200% !important;
     }
   }
-  .no-diw{
-    width: 100%;
-    margin-top: 46rem;
-  }
+
   .play {
     transform: translate3d(-1rem,-8.5rem,0); //=====
     .a {
@@ -1579,80 +1605,116 @@ footer{
   }
  
   .photo2 {
-    padding: 0rem 0 88rem 0;
-    &-second { //tea
+    position: relative;
+    padding: 4rem 0 68rem 0;
+    background: linear-gradient(198.01deg, #CCE2A8 19.88%, #BAD794 55.51%, #E1F0B7 87%);
+    .one,.two,.three {
       position: absolute;
-      transform: translate3d(6rem,77rem,0);
+    } 
+    .one { //joga
+      transform: translate3d(-3rem,0,0);
+      img {
+        width: 180%;
+      }
     }
-    &-bg { //love
-      position: absolute;
-      transform: translate3d(15rem,56rem,0);
+    .two { //bg
+      transform: translate3d(11rem,28rem,0);
+      img {
+        width: 170%;
+      }
     }
-    &-fourth { //bg
-      position: absolute;
-      transform: translate3d(16.5rem,55rem,0);
+    .three { //music
+      transform: translate3d(12rem,29rem,0);
+      img {
+        width: 170%;
+      }
     }
+    
     .text, .circle {
       position: absolute;
-      transform: translate3d(5rem,43rem,0);
+      transform: translate3d(3rem,52rem,0);
     }
     .text {
       h1 {
+        font-family: PT Serif;
         font-style: normal;
         font-weight: bold;
         font-size: 34px;
         line-height: 42px;
         color: #FFFFFF;
-        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+        text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
       }
     }
     
-  }
-
-  .photo3 {
-    margin-top: 6rem;
-    position: relative;
-    img {
-      width: 100%;
-    }
-    &-first{ //phone
-      position: absolute;
-      transform: translate3d(8rem,39rem,0);
-    }
-    &-second { // bg
-      position: absolute;
-      transform: translate3d(5.5rem,36.5rem,0);
-    }
-    &-thrid { //love
-      position: absolute;
-      transform: translate3d(-1rem,0,0);
-    }
-    &-bg{ // line
-      position: absolute;
-      transform: translate3d(0,66rem,0);
-    
-    }
-    .text {
-      position: absolute;
-      transform: translate3d(3rem,59rem,0);
-      color: #282828;
-      font-size: 34px;
-      line-height: 42px;
-    }
     .circle {
       margin-left: -4rem;
-      border-radius: 20rem;
+      padding: 0 1.2rem;
+      border: 1px solid #F0CDB7;
+      border-radius: 50%;
       background-color: #F0CDB7;
-      padding: 0 1.1rem;
       color: white;
-      transform: translate3d(3rem,59rem,0);
     }
-  }
+    }
+
+    .photo3 {
+      margin-top: 4rem;
+      margin-bottom: 6rem;
+      position: relative;
+      
+      &-one { // song
+        position: absolute;
+        transform: translate3d(-4rem,0,0);
+        img {
+          width: 120%;
+        }
+      }
+      &-two { //hend
+        position: absolute;
+        transform: translate3d(10rem,54rem,0);
+        img {
+          width: 130%;
+        }
+      }
+      &-lines { //lines
+        position: absolute;
+        transform: translate3d(0,80rem,0);
+        img {
+          width: 100%;
+        }
+      }
+    
+      
+      .circle, .text {
+        position: absolute;
+        transform: translate3d(3rem,74rem,0);
+        h1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 42px;
+        color: #282828;
+        }
+      }
+      .circle {
+        margin-left: -4.5rem;
+        border-radius: 20rem;
+        background-color: #C6E4AC;
+        padding: 0 1rem;
+        h1 {
+          color: white;
+        }
+      }
+    }
+    //================================================================
+    
+    .forteenthQuestion {
+      margin-top: 85rem;
+    }
   .tenthQuestion {
     margin-top: 80rem;
   }
   .fifthQuestion {
-    margin-top: 8rem;
+    margin-top: 6rem;
   }
   .ritual {
     text-align: center;
@@ -1982,37 +2044,61 @@ footer{
       transform: translate3d(0,14rem,0);
     }
   }
-  .no-diw{
-    width: 100%;
-    margin-top: 43rem;
-  }
+ 
   .play {
     transform: translate3d(0,-11rem,0); //=====
   }
   //=========================
 
   .photo2 {
-    padding: 6rem 0 21.5rem 0;
-    &-first { //boutle
+    position: relative;
+    padding: 4rem 0 28rem 0;
+    background: linear-gradient(198.01deg, #CCE2A8 19.88%, #BAD794 55.51%, #E1F0B7 87%);
+    .one,.two,.three {
       position: absolute;
+    } 
+    .one { //joga
+      transform: translate3d(-3rem,0,0);
+      img {
+        width: 100%;
+      }
     }
-    &-second {//tea
-      position: absolute;
-      transform: translate3d(18rem,15rem,0);
-      width: 80%;
+    .two { //bg
+      transform: translate3d(-11rem,9rem,0);
+      img {
+        width: 100%;
+      }
     }
-    &-bg { //love
-      position: absolute;
-      transform: translate3d(35rem,2rem,0);
+    .three { //music
+      transform: translate3d(6rem,10rem,0);
+      img {
+        width: 100%;
+      }
     }
-    &-fourth { //bg
-      position: absolute; 
-      transform: translate3d(19rem,1.5rem,0);
-      width: 85%;
-    }
+    
     .text, .circle {
       position: absolute;
-      transform: translate3d(-12rem,-4rem,0);
+      transform: translate3d(9rem,0,0);
+    }
+    .text {
+      h1 {
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
+      }
+    }
+    
+    .circle {
+      margin-left: -4rem;
+      padding: 0 1.2rem;
+      border: 1px solid #F0CDB7;
+      border-radius: 50%;
+      background-color: #F0CDB7;
+      color: white;
     }
     }
   //=========================
@@ -2020,31 +2106,57 @@ footer{
   
   .photo3 {
     margin-top: 4rem;
+    margin-bottom: 6rem;
     position: relative;
-    img {
-      width: 100%;
-    }
-    &-first{ //phone
-      position: absolute;
-      transform: translate3d(1rem,18rem,0);
-    }
-    &-second { //bg
-      position: absolute;
-      transform: translate3d(-15rem,17rem,0);
-    }
-    &-thrid { //love
+    
+    &-one { // song
       position: absolute;
       transform: translate3d(-4rem,0,0);
+      img {
+        width: 100%;
+      }
     }
-    &-bg{ //line
+    &-two { //hend
       position: absolute;
-      transform: translate3d(0,10rem,0);
-    
+      transform: translate3d(24rem,34rem,0);
+      img {
+        width: 130%;
+      }
     }
+    &-lines { //lines
+      position: absolute;
+      transform: translate3d(0,20rem,0);
+      img {
+        width: 100%;
+      }
+    }
+  
+    
     .circle, .text {
       position: absolute;
-      transform: translate3d(5rem,0,0);
+      transform: translate3d(0rem,2rem,0);
+      h1 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 42px;
+      color: #282828;
+      }
     }
+    .circle {
+      margin-left: -4.5rem;
+      border-radius: 20rem;
+      background-color: #C6E4AC;
+      padding: 0 1rem;
+      h1 {
+        color: white;
+      }
+    }
+  }
+  //================================================================
+  
+  .forteenthQuestion {
+    margin-top: 35rem;
   }
   //========================
   
@@ -2360,24 +2472,7 @@ footer{
   .about {
     margin: 6rem 0 6rem 0;
   }
-  .photo {
-    .one { //lines
-      transform: translate3d(18rem,16rem,0);
-    }
-    .two { //bg
-      transform: translate3d(11rem,11rem,0);
-    }
-    .three {//sleep
-      margin-left: 6rem;
-    }
-    .four { //sport
-      transform: translate3d(0,18rem,0);
-    }
-  }
-  .no-diw{
-    width: 100%;
-    margin-top: 44rem;
-  }
+ 
   .video-box{
   
   .play {
@@ -2386,64 +2481,113 @@ footer{
   }
   //==================================
   .photo2 {
-  
-    padding: 6rem 0 21.5rem 0;
+    position: relative;
+    padding: 4rem 0 28rem 0;
+    background: linear-gradient(198.01deg, #CCE2A8 19.88%, #BAD794 55.51%, #E1F0B7 87%);
+    .one,.two,.three {
+      position: absolute;
+    } 
+    .one { //joga
+      transform: translate3d(0,0,0);
+      img {
+        width: 100%;
+      }
+    }
+    .two { //bg
+      transform: translate3d(-10rem,11.5rem,0);
+      img {
+        width: 100%;
+      }
+    }
+    .three { //music
+      transform: translate3d(12rem,13rem,0);
+      img {
+        width: 100%;
+      }
+    }
     
-    &-first { //boutle
-      position: absolute;
-    }
-    &-second {//tea
-      position: absolute;
-      transform: translate3d(23rem,15rem,0);
-      width: 80%;
-    }
-    &-bg { //love
-      position: absolute;
-      transform: translate3d(45rem,2rem,0);
-    }
-    &-fourth { //bg
-      position: absolute; 
-      transform: translate3d(24.5rem,1rem,0);
-      width: 85%;
-    }
     .text, .circle {
       position: absolute;
-      transform: translate3d(-12rem,-4rem,0);
+      transform: translate3d(13rem,0,0);
+    }
+    .text {
+      h1 {
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
+      }
     }
     
-    
-   
+    .circle {
+      margin-left: -4rem;
+      padding: 0 1.2rem;
+      border: 1px solid #F0CDB7;
+      border-radius: 50%;
+      background-color: #F0CDB7;
+      color: white;
+    }
     }
   //==================================
   
   .photo3 {
     margin-top: 4rem;
+    margin-bottom: 6rem;
     position: relative;
-    img {
-      width: 100%;
-    }
-    &-first{ //phone
-      position: absolute;
-      transform: translate3d(5rem,22rem,0);
-    }
-    &-second { //bg
-      position: absolute;
-      transform: translate3d(-13rem,20rem,0);
-    }
-    &-thrid { //love
-      position: absolute;
-      transform: translate3d(0,0,0);
-    }
-    &-bg{ //line
-      position: absolute;
-      transform: translate3d(0,10rem,0);
     
+    &-one { // song
+      position: absolute;
+      transform: translate3d(-4rem,0,0);
+      img {
+        width: 100%;
+      }
     }
+    &-two { //hend
+      position: absolute;
+      transform: translate3d(26rem,34rem,0);
+      img {
+        width: 130%;
+      }
+    }
+    &-lines { //lines
+      position: absolute;
+      transform: translate3d(0,20rem,0);
+      img {
+        width: 100%;
+      }
+    }
+  
+    
     .circle, .text {
       position: absolute;
-      transform: translate3d(7rem,0,0);
+      transform: translate3d(0rem,2rem,0);
+      h1 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 42px;
+      color: #282828;
+      }
+    }
+    .circle {
+      margin-left: -4.5rem;
+      border-radius: 20rem;
+      background-color: #C6E4AC;
+      padding: 0 1rem;
+      h1 {
+        color: white;
+      }
     }
   }
+  //================================================================
+  
+  .forteenthQuestion {
+    margin-top: 39rem;
+  }
+  //================================================================
   .ritual {
     position: relative;
     margin-top: 6rem;
