@@ -754,8 +754,8 @@ footer a {
   .photo3 .circle h1 {
     color: white;
   }
-  .forteenthQuestion 7 {
-    margin-top: 75rem;
+  .forteenthQuestion {
+    margin-top: 85rem;
   }
   .ritual {
     text-align: center;
@@ -1155,7 +1155,7 @@ footer a {
     color: white;
   }
   .forteenthQuestion {
-    margin-top: 80rem;
+    margin-top: 90rem;
   }
   .ritual {
     text-align: center;
@@ -3122,9 +3122,6 @@ footer a {
   .play {
     transform: translate3d(0, -25rem, 0);
   }
-  .eightthQuestion {
-    margin-top: 12rem;
-  }
   .ritual-bg {
     position: absolute;
     transform: translate3D(57rem, 6rem, 0);
@@ -3274,9 +3271,6 @@ footer a {
 @media (min-width: 1680px) and (max-width: 1919.98px) {
   .play {
     transform: translate3d(0, -25rem, 0);
-  }
-  .eightthQuestion {
-    margin-top: 14rem;
   }
   .ritual-bg {
     position: absolute;
