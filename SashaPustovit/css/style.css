@@ -241,11 +241,6 @@ p {
 .photo2-first {
   position: absolute;
 }
-.photo2-second {
-  position: absolute;
-  -webkit-transform: translate3d(22rem, 16rem, 0);
-          transform: translate3d(22rem, 16rem, 0);
-}
 .photo2-bg {
   position: absolute;
   -webkit-transform: translate3d(55rem, 5rem, 0);
