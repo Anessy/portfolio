@@ -25,16 +25,14 @@ p {
   font-family: 'Open Sans';
 }
 .afterVideo {
+  z-index: -1;
   background: linear-gradient(117.12deg, #C8A492 4.88%, #D7AB94 37.36%, #F1CEB8 72.67%);
 }
 header {
   padding: 2rem 0;
 }
 header .logo {
-  margin-left: -1rem;
-}
-header .line {
-  margin-left: -2rem;
+  margin-left: 1rem;
 }
 .oneDay {
   transform: translate3d(0, 3rem, 0);
@@ -43,7 +41,7 @@ header .line {
   font-family: 'PT Serif';
   font-style: normal;
   font-weight: bold;
-  font-size: 49px;
+  font-size: 50px;
   line-height: 48px;
   color: #955555;
   margin-bottom: 2rem;
@@ -71,12 +69,19 @@ header .line {
 .oneDay .sasha {
   margin-top: 1rem;
 }
+.oneDay .vikel,
+.oneDay .sasha {
+  width: 100%;
+}
+.oneDay .tayanna {
+  width: 105%;
+}
 .oneDay .boxVikel {
   position: relative;
 }
 .oneDay .boxVikel .linkVikel {
   position: absolute;
-  transform: translate3d(12rem, -2rem, 0);
+  transform: translate3d(10rem, -2rem, 0);
   font-family: Lato;
   font-style: normal;
   font-weight: bold;
@@ -103,7 +108,7 @@ header .line {
 }
 .oneDay .boxSasha .linkVikel {
   position: absolute;
-  transform: translate3d(13rem, -2rem, 0);
+  transform: translate3d(11rem, -2rem, 0);
   font-family: Lato;
   font-style: normal;
   font-weight: bold;
@@ -130,7 +135,7 @@ header .line {
 }
 .oneDay .boxTayanna .linkVikel {
   position: absolute;
-  transform: translate3d(10.5rem, -2rem, 0);
+  transform: translate3d(9.5rem, -2rem, 0);
   font-family: Lato;
   font-style: normal;
   font-weight: bold;
@@ -152,6 +157,47 @@ header .line {
 .oneDay .tayanna:hover {
   box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
 }
+.bg {
+  position: relative;
+}
+.bg .eggs {
+  position: absolute;
+  top: -10rem;
+  right: 0;
+}
+.bg .lines {
+  position: absolute;
+  top: 10rem;
+  right: -51rem;
+}
 footer {
-  padding: 2rem;
+  padding: 2rem 0;
+}
+.for-parralax1 {
+  position: relative;
+}
+.for-parralax1 .parralax1 {
+  position: absolute;
+  z-index: 1;
+}
+.for-parralax1 .parralax1 .one {
+  transform: translate3d(-34rem, 25rem, 0);
+}
+.for-parralax1 .parralax1 .two {
+  transform: translate3d(-33rem, 24rem, 0);
+}
+.for-parralax1 .parralax1 .three {
+  transform: translate3d(0, 0, 0);
+}
+.for-parralax1 .parralax1 .four {
+  transform: translate3d(13rem, 0, 0);
+}
+.for-parralax1 .parralax1 .five {
+  transform: translate3d(16rem, 2rem, 1rem);
+}
+.for-parralax1 .parralax1 .six {
+  transform: translate3d(33rem, 20rem, 0);
+}
+.for-parralax1 .parralax1 .seven {
+  transform: translate3d(32rem, 1rem, 0);
 }

@@ -15,13 +15,32 @@
   </head>
   <body>
 
-    <!-- <div id="player"></div> -->
-
+    <div id="player"></div>
+    <!-- /////////////////////////////////////////// -->
+<div class="for-parralax1">
+  <div class="row justify-content-center">
+    <div class="parralax1">
+      <div id="container" class="container">
+        <div id="scene" class="scene">
+          <div class="layer" data-depth="1.00"><img class="one" src="./img/parralax/1.svg"></div>
+          <div class="layer" data-depth="2.00"><img class="two" src="./img/parralax/2.svg"></div>
+          <div class="layer" data-depth="3.00"><img class="three" src="./img/parralax/3.svg"></div>
+          <div class="layer" data-depth="4.00"><img class="four" src="./img/parralax/4.svg"></div>
+          <div class="layer" data-depth="5.00"><img class="five" src="./img/parralax/5.svg"></div>
+          <div class="layer" data-depth="6.00"><img class="six" src="./img/parralax/6.svg"></div>
+          <div class="layer" data-depth="7.00"><img class="seven" src="./img/parralax/7.svg"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- /////////////////////////////////////////// -->
+  
 
    <div class="afterVideo">
     <header>
       <div class="row">
-        <div class="col-7 col-sm-7 col-md-2 offset-md-2 col-lg-2 offset-lg-1 col-xl-2 offset-xl-1">
+        <div class="col-7 col-sm-7 col-md-2 offset-md-1 col-lg-2 offset-lg-1 col-xl-2 offset-xl-1">
           <img src="./img/header/logo.svg" alt="" class="logo">
         </div>
         <div class="col-5 col-sm-5 col-md-8 collg-8 col-xl-8">
@@ -32,7 +51,14 @@
 
     <section> 
       <div class="oneDay">
-        <div class="container">
+        
+        <div class="bg">
+          <div class="eggs">
+            <img src="./img/bg/eggs.svg" alt="">
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
           <div class="row">
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
               <div class="oneDay-text">
@@ -47,6 +73,15 @@
                 </p>
               </div>
             </div>
+
+
+            <div class="bg">
+              <div class="lines">
+                <img src="./img/bg/lines.svg" alt="">
+              </div>
+            </div>
+
+
             <div class="col-12 col-sm-12 col-md-4 offset-md-1 col-lg-4 offset-lg-1 col-xl-4 offset-xl-1">
               <div class="boxVikel">
                 <a class="first-link" href="#">
@@ -100,8 +135,10 @@
     </section>
    </div>
 
+  
+
    <footer>
-     <div class="container">
+    <div class="col-7 col-sm-7 col-md-2 offset-md-1 col-lg-2 offset-lg-1 col-xl-2 offset-xl-1">
       <img class="elle" src="./img/elle.svg" alt="">
      </div>
    </footer>
@@ -118,5 +155,16 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <!-- Мой скрипт  -->
     <script src="./js/script.js"></script>
+    <!-- Подключаем parralax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script src="./js/parallax.min.js"></script>
+    <script>
+
+      var scene = document.getElementById('scene');
+      var parallax = new Parallax(scene, {
+        selector: '.layer'
+      });
+    
+      </script>
   </body>
 </html>
