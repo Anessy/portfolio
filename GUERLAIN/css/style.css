@@ -15,15 +15,6 @@ body {
   font-weight: bold;
   font-style: normal;
 }
-h1,
-h2,
-h4,
-h4 {
-  font-family: 'PT Serif';
-}
-p {
-  font-family: 'Open Sans';
-}
 .afterVideo {
   z-index: -1;
   background: linear-gradient(117.12deg, #c8a492 4.88%, #d7ab94 37.36%, #f1ceb8 72.67%);
@@ -217,4 +208,373 @@ footer {
 .for-parralax1 .parralax1 .seven {
   -webkit-transform: translate3d(32rem, 1rem, 0);
           transform: translate3d(32rem, 1rem, 0);
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  header {
+    padding: 2rem 0;
+  }
+  header .logo {
+    margin-left: 1rem;
+  }
+  header .line {
+    margin-left: 4rem;
+  }
+  .oneDay {
+    -webkit-transform: translate3d(0, 3rem, 0);
+            transform: translate3d(0, 3rem, 0);
+  }
+  .oneDay-text {
+    width: 120%;
+    padding-bottom: 3rem;
+  }
+  .oneDay .vikel,
+  .oneDay .tayanna {
+    margin-top: 1rem;
+  }
+  .oneDay .sasha {
+    margin-top: 1.5rem;
+  }
+  .oneDay .vikel,
+  .oneDay .sasha {
+    width: 100%;
+  }
+  .oneDay .tayanna {
+    width: 115%;
+  }
+  .oneDay .boxVikel {
+    position: relative;
+  }
+  .oneDay .boxVikel .linkVikel {
+    position: absolute;
+    -webkit-transform: translate3d(3rem, -2rem, 0);
+            transform: translate3d(3rem, -2rem, 0);
+  }
+  .oneDay .boxVikel .linkVikel a {
+    color: #FFFFFF;
+  }
+  .oneDay .boxVikel .linkVikel .link {
+    padding: 0 0 1rem 1rem;
+  }
+  .oneDay .boxSasha {
+    position: relative;
+  }
+  .oneDay .boxSasha .linkVikel {
+    position: absolute;
+    -webkit-transform: translate3d(4rem, -2rem, 0);
+            transform: translate3d(4rem, -2rem, 0);
+  }
+  .oneDay .boxSasha .linkVikel a {
+    color: #FFFFFF;
+  }
+  .oneDay .boxSasha .linkVikel .link {
+    padding: 0 0 1rem 1rem;
+  }
+  .oneDay .boxTayanna {
+    position: relative;
+  }
+  .oneDay .boxTayanna .linkVikel {
+    position: absolute;
+    -webkit-transform: translate3d(4.5rem, -2rem, 0);
+            transform: translate3d(4.5rem, -2rem, 0);
+  }
+  .oneDay .boxTayanna .linkVikel a {
+    color: #FFFFFF;
+  }
+  .oneDay .boxTayanna .linkVikel .link {
+    padding: 0 0 1rem 1rem;
+  }
+  .bg {
+    position: relative;
+  }
+  .bg .eggs {
+    position: absolute;
+    top: -10rem;
+    right: 0;
+  }
+  .bg .lines {
+    position: absolute;
+    top: 13rem;
+    right: -36rem;
+  }
+  .for-parralax1 {
+    position: relative;
+  }
+  .for-parralax1 .parralax1 {
+    position: absolute;
+    z-index: 1;
+  }
+  .for-parralax1 .parralax1 .one {
+    -webkit-transform: translate3d(-21rem, 25rem, 0);
+            transform: translate3d(-21rem, 25rem, 0);
+  }
+  .for-parralax1 .parralax1 .two {
+    -webkit-transform: translate3d(-19rem, 24rem, 0);
+            transform: translate3d(-19rem, 24rem, 0);
+  }
+  .for-parralax1 .parralax1 .three {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  .for-parralax1 .parralax1 .four {
+    -webkit-transform: translate3d(10rem, 0, 0);
+            transform: translate3d(10rem, 0, 0);
+  }
+  .for-parralax1 .parralax1 .five {
+    -webkit-transform: translate3d(11rem, 2rem, 1rem);
+            transform: translate3d(11rem, 2rem, 1rem);
+  }
+  .for-parralax1 .parralax1 .six {
+    -webkit-transform: translate3d(23rem, 20rem, 0);
+            transform: translate3d(23rem, 20rem, 0);
+  }
+  .for-parralax1 .parralax1 .seven {
+    -webkit-transform: translate3d(21rem, 1rem, 0);
+            transform: translate3d(21rem, 1rem, 0);
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  header {
+    padding: 2rem 0;
+  }
+  header .logo {
+    margin-left: 1rem;
+  }
+  header .line {
+    margin-left: 4rem;
+  }
+  .oneDay {
+    -webkit-transform: translate3d(0, 3rem, 0);
+            transform: translate3d(0, 3rem, 0);
+  }
+  .oneDay-text {
+    width: 120%;
+    padding-bottom: 3rem;
+  }
+  .oneDay .vikel,
+  .oneDay .tayanna {
+    margin-top: 1rem;
+  }
+  .oneDay .sasha {
+    margin-top: 1.5rem;
+  }
+  .oneDay .vikel,
+  .oneDay .sasha {
+    width: 100%;
+  }
+  .oneDay .tayanna {
+    width: 115%;
+  }
+  .oneDay .boxVikel {
+    position: relative;
+  }
+  .oneDay .boxVikel .linkVikel {
+    position: absolute;
+    -webkit-transform: translate3d(3rem, -2rem, 0);
+            transform: translate3d(3rem, -2rem, 0);
+  }
+  .oneDay .boxVikel .linkVikel a {
+    color: #FFFFFF;
+  }
+  .oneDay .boxVikel .linkVikel .link {
+    padding: 0 0 1rem 1rem;
+  }
+  .oneDay .boxSasha {
+    position: relative;
+  }
+  .oneDay .boxSasha .linkVikel {
+    position: absolute;
+    -webkit-transform: translate3d(4rem, -2rem, 0);
+            transform: translate3d(4rem, -2rem, 0);
+  }
+  .oneDay .boxSasha .linkVikel a {
+    color: #FFFFFF;
+  }
+  .oneDay .boxSasha .linkVikel .link {
+    padding: 0 0 1rem 1rem;
+  }
+  .oneDay .boxTayanna {
+    position: relative;
+  }
+  .oneDay .boxTayanna .linkVikel {
+    position: absolute;
+    -webkit-transform: translate3d(4.5rem, -2rem, 0);
+            transform: translate3d(4.5rem, -2rem, 0);
+  }
+  .oneDay .boxTayanna .linkVikel a {
+    color: #FFFFFF;
+  }
+  .oneDay .boxTayanna .linkVikel .link {
+    padding: 0 0 1rem 1rem;
+  }
+  .bg {
+    position: relative;
+  }
+  .bg .eggs {
+    position: absolute;
+    top: -10rem;
+    right: 0;
+  }
+  .bg .lines {
+    position: absolute;
+    top: 13rem;
+    right: -36rem;
+  }
+  .for-parralax1 {
+    position: relative;
+  }
+  .for-parralax1 .parralax1 {
+    position: absolute;
+    z-index: 1;
+  }
+  .for-parralax1 .parralax1 .one {
+    -webkit-transform: translate3d(-21rem, 25rem, 0);
+            transform: translate3d(-21rem, 25rem, 0);
+  }
+  .for-parralax1 .parralax1 .two {
+    -webkit-transform: translate3d(-19rem, 24rem, 0);
+            transform: translate3d(-19rem, 24rem, 0);
+  }
+  .for-parralax1 .parralax1 .three {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  .for-parralax1 .parralax1 .four {
+    -webkit-transform: translate3d(10rem, 0, 0);
+            transform: translate3d(10rem, 0, 0);
+  }
+  .for-parralax1 .parralax1 .five {
+    -webkit-transform: translate3d(11rem, 2rem, 1rem);
+            transform: translate3d(11rem, 2rem, 1rem);
+  }
+  .for-parralax1 .parralax1 .six {
+    -webkit-transform: translate3d(23rem, 20rem, 0);
+            transform: translate3d(23rem, 20rem, 0);
+  }
+  .for-parralax1 .parralax1 .seven {
+    -webkit-transform: translate3d(21rem, 1rem, 0);
+            transform: translate3d(21rem, 1rem, 0);
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  header {
+    padding: 2rem 0;
+  }
+  header .logo {
+    margin-left: 1rem;
+  }
+  header .line {
+    margin-left: 2rem;
+  }
+  .oneDay {
+    -webkit-transform: translate3d(0, 3rem, 0);
+            transform: translate3d(0, 3rem, 0);
+  }
+  .oneDay-text {
+    width: 120%;
+    padding-bottom: 3rem;
+  }
+  .oneDay .vikel,
+  .oneDay .tayanna {
+    margin-top: 1rem;
+  }
+  .oneDay .sasha {
+    margin-top: 1.5rem;
+  }
+  .oneDay .vikel,
+  .oneDay .sasha {
+    width: 100%;
+  }
+  .oneDay .tayanna {
+    width: 110%;
+  }
+  .oneDay .boxVikel {
+    position: relative;
+  }
+  .oneDay .boxVikel .linkVikel {
+    position: absolute;
+    -webkit-transform: translate3d(5rem, -2rem, 0);
+            transform: translate3d(5rem, -2rem, 0);
+  }
+  .oneDay .boxVikel .linkVikel a {
+    color: #FFFFFF;
+  }
+  .oneDay .boxVikel .linkVikel .link {
+    padding: 0 0 1rem 2rem;
+  }
+  .oneDay .boxSasha {
+    position: relative;
+  }
+  .oneDay .boxSasha .linkVikel {
+    position: absolute;
+    -webkit-transform: translate3d(6rem, -2rem, 0);
+            transform: translate3d(6rem, -2rem, 0);
+  }
+  .oneDay .boxSasha .linkVikel a {
+    color: #FFFFFF;
+  }
+  .oneDay .boxSasha .linkVikel .link {
+    padding: 0 0 1rem 2rem;
+  }
+  .oneDay .boxTayanna {
+    position: relative;
+  }
+  .oneDay .boxTayanna .linkVikel {
+    position: absolute;
+    -webkit-transform: translate3d(5.5rem, -2rem, 0);
+            transform: translate3d(5.5rem, -2rem, 0);
+  }
+  .oneDay .boxTayanna .linkVikel a {
+    color: #FFFFFF;
+  }
+  .oneDay .boxTayanna .linkVikel .link {
+    padding: 0 0 1rem 2rem;
+  }
+  .bg {
+    position: relative;
+  }
+  .bg .eggs {
+    position: absolute;
+    top: -10rem;
+    right: 0;
+  }
+  .bg .lines {
+    position: absolute;
+    top: 10rem;
+    right: -51rem;
+  }
+  .for-parralax1 {
+    position: relative;
+  }
+  .for-parralax1 .parralax1 {
+    position: absolute;
+    z-index: 1;
+  }
+  .for-parralax1 .parralax1 .one {
+    -webkit-transform: translate3d(-27rem, 25rem, 0);
+            transform: translate3d(-27rem, 25rem, 0);
+  }
+  .for-parralax1 .parralax1 .two {
+    -webkit-transform: translate3d(-26rem, 24rem, 0);
+            transform: translate3d(-26rem, 24rem, 0);
+  }
+  .for-parralax1 .parralax1 .three {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  .for-parralax1 .parralax1 .four {
+    -webkit-transform: translate3d(10rem, 0, 0);
+            transform: translate3d(10rem, 0, 0);
+  }
+  .for-parralax1 .parralax1 .five {
+    -webkit-transform: translate3d(13rem, 2rem, 1rem);
+            transform: translate3d(13rem, 2rem, 1rem);
+  }
+  .for-parralax1 .parralax1 .six {
+    -webkit-transform: translate3d(27rem, 20rem, 0);
+            transform: translate3d(27rem, 20rem, 0);
+  }
+  .for-parralax1 .parralax1 .seven {
+    -webkit-transform: translate3d(26rem, 1rem, 0);
+            transform: translate3d(26rem, 1rem, 0);
+  }
 }

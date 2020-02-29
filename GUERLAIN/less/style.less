@@ -23,13 +23,6 @@ body
   font-style: normal;
 }
 
-h1, h2, h4, h4 {
-  font-family: 'PT Serif';
-}
-
-p {
-  font-family: 'Open Sans';
-}
 
 .afterVideo {
   z-index: -1;
@@ -236,10 +229,368 @@ footer {
 @media (max-width: 375px) and (max-width: 575.98px){ 
 }
 @media (min-width: 576px) and (max-width: 767.98px) { 
+  header {
+    padding: 2rem 0;
+    .logo {
+      margin-left: 1rem;
+    }
+    .line {
+      margin-left: 4rem; //992 768
+    }
+  }
+  
+  .oneDay {
+    transform: translate3d(0,3rem,0);
+    &-text {
+      width: 120%; //992
+      padding-bottom: 3rem; //992
+  }
+    .vikel,.tayanna {
+      margin-top: 1rem;
+    }
+    .sasha {
+      margin-top: 1.5rem; //992
+    }
+  
+    .vikel,.sasha {
+      width: 100%;
+    }
+    .tayanna {
+      width: 115%; //992 768
+    }
+  
+    .boxVikel {
+      position: relative;
+      
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(3rem,-2rem,0); // 992 768
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 1rem; //768
+        }
+      }
+    }
+
+    .boxSasha {
+      position: relative;
+      
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(4rem,-2rem,0); // 992 768
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 1rem; //768
+        }
+      }
+    }
+
+    .boxTayanna{
+      position: relative;
+      
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(4.5rem,-2rem,0); // 992
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 1rem; //768
+        }
+      }
+    }
+  }
+  
+  .bg {
+    position: relative;
+    .eggs {
+      position: absolute;
+      top: -10rem;
+      right: 0;
+    }
+    .lines {
+      position: absolute;
+      top: 13rem;
+      right: -36rem;
+    }
+  }
+  // ================= PARRALAX ======================
+  .for-parralax1 {
+    position: relative;
+    .parralax1 {
+      position: absolute;
+      z-index: 1;
+      .one { //tree
+        transform: translate3d(-21rem,25rem,0);
+      }
+      .two { //smal flower
+        transform: translate3d(-19rem,24rem,0);
+      }
+      .three {
+        transform: translate3d(0,0,0);
+      }
+      .four { // small flower
+        transform: translate3d(10rem,0,0);
+      }
+      .five { // big flower
+        transform: translate3d(11rem,2rem,1rem);
+      }
+      .six { // green tree
+        transform: translate3d(23rem,20rem,0);
+      }
+      .seven { // smal flower
+        transform: translate3d(21rem,1rem,0);
+      }
+      
+    }
+  }
 }
 @media (min-width: 768px) and (max-width: 991.98px) { 
+  header {
+    padding: 2rem 0;
+    .logo {
+      margin-left: 1rem;
+    }
+    .line {
+      margin-left: 4rem; //992 768
+    }
+  }
+  
+  .oneDay {
+    transform: translate3d(0,3rem,0);
+    &-text {
+      width: 120%; //992
+      padding-bottom: 3rem; //992
+  }
+    .vikel,.tayanna {
+      margin-top: 1rem;
+    }
+    .sasha {
+      margin-top: 1.5rem; //992
+    }
+  
+    .vikel,.sasha {
+      width: 100%;
+    }
+    .tayanna {
+      width: 115%; //992 768
+    }
+  
+    .boxVikel {
+      position: relative;
+      
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(3rem,-2rem,0); // 992 768
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 1rem; //768
+        }
+      }
+    }
+
+    .boxSasha {
+      position: relative;
+      
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(4rem,-2rem,0); // 992 768
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 1rem; //768
+        }
+      }
+    }
+
+    .boxTayanna{
+      position: relative;
+      
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(4.5rem,-2rem,0); // 992
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 1rem; //768
+        }
+      }
+    }
+  }
+  
+  .bg {
+    position: relative;
+    .eggs {
+      position: absolute;
+      top: -10rem;
+      right: 0;
+    }
+    .lines {
+      position: absolute;
+      top: 13rem;
+      right: -36rem;
+    }
+  }
+  // ================= PARRALAX ======================
+  .for-parralax1 {
+    position: relative;
+    .parralax1 {
+      position: absolute;
+      z-index: 1;
+      .one { //tree
+        transform: translate3d(-21rem,25rem,0);
+      }
+      .two { //smal flower
+        transform: translate3d(-19rem,24rem,0);
+      }
+      .three {
+        transform: translate3d(0,0,0);
+      }
+      .four { // small flower
+        transform: translate3d(10rem,0,0);
+      }
+      .five { // big flower
+        transform: translate3d(11rem,2rem,1rem);
+      }
+      .six { // green tree
+        transform: translate3d(23rem,20rem,0);
+      }
+      .seven { // smal flower
+        transform: translate3d(21rem,1rem,0);
+      }
+      
+    }
+  }
 }
 @media (min-width: 992px) and (max-width: 1199.98px) { 
+  header {
+    padding: 2rem 0;
+    .logo {
+      margin-left: 1rem;
+    }
+    .line {
+      margin-left: 2rem; //992
+    }
+  }
+  
+  .oneDay {
+    transform: translate3d(0,3rem,0);
+    &-text {
+      width: 120%; //992
+      padding-bottom: 3rem; //992
+  }
+    .vikel,.tayanna {
+      margin-top: 1rem;
+    }
+    .sasha {
+      margin-top: 1.5rem; //992
+    }
+  
+    .vikel,.sasha {
+      width: 100%;
+    }
+    .tayanna {
+      width: 110%; //992
+    }
+  
+    .boxVikel {
+      position: relative;
+      
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(5rem,-2rem,0); // 992
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+    }
+
+    .boxSasha {
+      position: relative;
+      
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(6rem,-2rem,0); // 992
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+    }
+
+    .boxTayanna{
+      position: relative;
+      
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(5.5rem,-2rem,0); // 992
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+    }
+  }
+  
+  .bg {
+    position: relative;
+    .eggs {
+      position: absolute;
+      top: -10rem;
+      right: 0;
+    }
+    .lines {
+      position: absolute;
+      top: 10rem;
+      right: -51rem;
+    }
+  }
+  // ================= PARRALAX ======================
+  .for-parralax1 {
+    position: relative;
+    .parralax1 {
+      position: absolute;
+      z-index: 1;
+      .one { //tree
+        transform: translate3d(-27rem,25rem,0);
+      }
+      .two { //smal flower
+        transform: translate3d(-26rem,24rem,0);
+      }
+      .three {
+        transform: translate3d(0,0,0);
+      }
+      .four { // small flower
+        transform: translate3d(10rem,0,0);
+      }
+      .five { // big flower
+        transform: translate3d(13rem,2rem,1rem);
+      }
+      .six { // green tree
+        transform: translate3d(27rem,20rem,0);
+      }
+      .seven { // smal flower
+        transform: translate3d(26rem,1rem,0);
+      }
+      
+    }
+  }
+//====================================================  
 }
 
  // ================ Большие девайсы (большие десктопы, >= 1200px)
