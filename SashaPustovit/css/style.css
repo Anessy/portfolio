@@ -2915,7 +2915,7 @@ footer a {
             transform: translate3D(40rem, 6rem, 0);
   }
 }
-@media (min-width: 1440px) and (max-width: 1439.98px) {
+@media (min-width: 1440px) and (max-width: 1479.98px) {
   .play {
     -webkit-transform: translate3d(0, -23rem, 0);
             transform: translate3d(0, -23rem, 0);

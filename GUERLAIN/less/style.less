@@ -225,8 +225,275 @@ footer {
 // ================= АДАПТИВНОСТЬ ==================
 
 @media (max-width: 320px) and (max-width: 374.98px){ 
+  header {
+    padding: 2rem 0;
+    .logo {
+      margin-left: 1rem;
+    }
+    .line {
+      margin-left: -2rem; //992 768 576 375
+    }
+  }
+  
+  .oneDay {
+    transform: translate3d(0,3rem,0);
+    &-text {
+      width: 75%; //992 //375
+      padding-bottom: 3rem; //992
+      padding-left: 2rem; //375
+  }
+    .vikel,.tayanna {
+      margin-top: 1rem;
+    }
+    .sasha {
+      margin-top: 1.5rem; //992
+    }
+  
+    .vikel,.sasha {
+      width: 100%;
+    }
+    .tayanna {
+      width: 100%; //992 768 375
+    }
+  
+    .boxVikel {
+      position: relative;
+      
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(10rem,-2rem,0); // 992 768 576
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 1rem; //768
+        }
+      }
+    }
+
+    .boxSasha {
+      position: relative;
+      
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(11rem,-2rem,0); // 992 768 576
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 1rem; //768
+        }
+      }
+    }
+
+    .boxTayanna{ // 576
+      position: relative;
+      width: 92vw;  //375
+      height: 60vw;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 0 0;
+      }
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(12.5rem,-2rem,0); // 992 576
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          display: none; //375
+          padding: 0 0 1rem 1rem; //768
+        }
+      }
+    }
+  }
+  
+  .bg {
+    position: relative;
+    .eggs {
+      position: absolute;
+      top: -15rem; //375
+      right: -5rem; //375
+    }
+    .lines {
+      position: absolute;
+      top: 21rem;
+      right: -3rem;
+      img {
+        transform: translate3d(0,8rem,0);
+      }
+    }
+  }
+
+  footer {
+    padding: 7rem 0 0 0; //576
+  }
+  // ================= PARRALAX ======================
+  .for-parralax1 {
+    position: relative;
+    .parralax1 {
+      position: absolute;
+      z-index: 1;
+      .one { //tree
+        transform: translate3d(-21rem,25rem,0);
+      }
+      .two { //smal flower
+        transform: translate3d(-16rem,24rem,0);
+      }
+      .three {
+        transform: translate3d(10rem,36rem,0);
+      }
+      .four { // small flower
+        transform: translate3d(10rem,20rem,0);
+      }
+      .five { // big flower
+        transform: translate3d(10rem,30rem,1rem);
+      }
+      .six { // green tree
+        transform: translate3d(-11rem,82rem,0);
+      }
+      .seven { // smal flower
+        transform: translate3d(-8rem,80rem,0);
+      }
+      
+    }
+  }
 }
 @media (max-width: 375px) and (max-width: 575.98px){ 
+  header {
+    padding: 2rem 0;
+    .logo {
+      margin-left: 1rem;
+    }
+    .line {
+      margin-left: -2rem; //992 768 576 375
+    }
+  }
+  
+  .oneDay {
+    transform: translate3d(0,3rem,0);
+    &-text {
+      width: 75%; //992 //375
+      padding-bottom: 3rem; //992
+      padding-left: 2rem; //375
+  }
+    .vikel,.tayanna {
+      margin-top: 1rem;
+    }
+    .sasha {
+      margin-top: 1.5rem; //992
+    }
+  
+    .vikel,.sasha {
+      width: 100%;
+    }
+    .tayanna {
+      width: 100%; //992 768 375
+    }
+  
+    .boxVikel {
+      position: relative;
+      
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(12rem,-2rem,0); // 992 768 576
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 1rem; //768
+        }
+      }
+    }
+
+    .boxSasha {
+      position: relative;
+      
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(13rem,-2rem,0); // 992 768 576
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 1rem; //768
+        }
+      }
+    }
+
+    .boxTayanna{ // 576
+      position: relative;
+      width: 92vw;  //375
+      height: 60vw;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 0 0;
+      }
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(16.5rem,-2rem,0); // 992 576
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          display: none; //375
+          padding: 0 0 1rem 1rem; //768
+        }
+      }
+    }
+  }
+  
+  .bg {
+    position: relative;
+    .eggs {
+      position: absolute;
+      top: -15rem; //375
+      right: -5rem; //375
+    }
+    .lines {
+      position: absolute;
+      top: 21rem;
+      right: -3rem;
+    }
+  }
+
+  footer {
+    padding: 7rem 0 0 0; //576
+  }
+  // ================= PARRALAX ======================
+  .for-parralax1 {
+    position: relative;
+    .parralax1 {
+      position: absolute;
+      z-index: 1;
+      .one { //tree
+        transform: translate3d(-21rem,25rem,0);
+      }
+      .two { //smal flower
+        transform: translate3d(-16rem,24rem,0);
+      }
+      .three {
+        transform: translate3d(10rem,36rem,0);
+      }
+      .four { // small flower
+        transform: translate3d(10rem,20rem,0);
+      }
+      .five { // big flower
+        transform: translate3d(10rem,30rem,1rem);
+      }
+      .six { // green tree
+        transform: translate3d(-11rem,82rem,0);
+      }
+      .seven { // smal flower
+        transform: translate3d(-8rem,80rem,0);
+      }
+      
+    }
+  }
 }
 @media (min-width: 576px) and (max-width: 767.98px) { 
   header {
@@ -235,7 +502,7 @@ footer {
       margin-left: 1rem;
     }
     .line {
-      margin-left: 4rem; //992 768
+      margin-left: -5rem; //992 768 576
     }
   }
   
@@ -264,7 +531,7 @@ footer {
       
       .linkVikel {
         position: absolute;
-        transform: translate3d(3rem,-2rem,0); // 992 768
+        transform: translate3d(24rem,-2rem,0); // 992 768 576
         a {
           color: #FFFFFF;
         }
@@ -279,7 +546,7 @@ footer {
       
       .linkVikel {
         position: absolute;
-        transform: translate3d(4rem,-2rem,0); // 992 768
+        transform: translate3d(25rem,-2rem,0); // 992 768 576
         a {
           color: #FFFFFF;
         }
@@ -289,12 +556,19 @@ footer {
       }
     }
 
-    .boxTayanna{
+    .boxTayanna{ // 576
       position: relative;
-      
+      width: 95vw; 
+      height: 60vw;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 0 0;
+      }
       .linkVikel {
         position: absolute;
-        transform: translate3d(4.5rem,-2rem,0); // 992
+        transform: translate3d(28.5rem,-2rem,0); // 992 576
         a {
           color: #FFFFFF;
         }
@@ -314,9 +588,13 @@ footer {
     }
     .lines {
       position: absolute;
-      top: 13rem;
-      right: -36rem;
+      top: 7rem; //576
+      right: 0rem; //576
     }
+  }
+
+  footer {
+    padding: 7rem 0 0 0; //576
   }
   // ================= PARRALAX ======================
   .for-parralax1 {
@@ -331,19 +609,19 @@ footer {
         transform: translate3d(-19rem,24rem,0);
       }
       .three {
-        transform: translate3d(0,0,0);
+        transform: translate3d(0,20rem,0);
       }
       .four { // small flower
-        transform: translate3d(10rem,0,0);
+        transform: translate3d(10rem,20rem,0);
       }
       .five { // big flower
-        transform: translate3d(11rem,2rem,1rem);
+        transform: translate3d(11rem,22rem,1rem);
       }
       .six { // green tree
-        transform: translate3d(23rem,20rem,0);
+        transform: translate3d(-12rem,90rem,0);
       }
       .seven { // smal flower
-        transform: translate3d(21rem,1rem,0);
+        transform: translate3d(-10rem,80rem,0);
       }
       
     }
@@ -593,24 +871,1290 @@ footer {
 //====================================================  
 }
 
+
+
+
  // ================ Большие девайсы (большие десктопы, >= 1200px)
  @media (min-width: 1408px) and (max-width: 1439.98px) {
+  header {
+    padding: 2rem 0;
+    .logo {
+      margin-left: 1rem;
+    }
+    .line {
+      
+    }
+  }
+  
+  .oneDay {
+    transform: translate3d(0,3rem,0);
+    &-text {
+      width: 110%;
+    }
+    .vikel,.tayanna {
+      margin-top: 1rem;
+    }
+    .sasha {
+      margin-top: 1rem;
+    }
+  
+    .vikel,.sasha {
+      width: 100%;
+    }
+    .tayanna {
+      width: 105%;
+    }
+  
+    .boxVikel {
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(12rem,-2rem,0);
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+    }
+   
+    .boxSasha {
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(13rem,-2rem,0);
+        
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+      a:hover {
+        color: #C6E4AC;
+        text-decoration: none;
+      }
+    }
+    .boxTayanna{
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(10.5rem,-2rem,0);
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+    }
+    .tayanna:hover {
+      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    }
+  }
+  
+  .bg {
+    position: relative;
+    .eggs {
+      position: absolute;
+      top: -10rem;
+      right: 0;
+    }
+    .lines {
+      position: absolute;
+      top: 13rem;
+      right: -57rem;
+    }
+  }
+  footer {
+    padding: 2rem 0;
+  }
+  
+  // ================= PARRALAX ======================
+  .for-parralax1 {
+    position: relative;
+    .parralax1 {
+      position: absolute;
+      z-index: 1;
+      .one { //tree
+        transform: translate3d(-37rem,25rem,0);
+      }
+      .two { //smal flower
+        transform: translate3d(-33rem,24rem,0);
+      }
+      .three {
+        transform: translate3d(0,0,0);
+      }
+      .four { // small flower
+        transform: translate3d(13rem,0,0);
+      }
+      .five { // big flower
+        transform: translate3d(16rem,2rem,1rem);
+      }
+      .six { // green tree
+        transform: translate3d(37rem,20rem,0);
+      }
+      .seven { // smal flower
+        transform: translate3d(32rem,1rem,0);
+      }
+      
+    }
+  }
  }
- @media (min-width: 1440px) and (max-width: 1439.98px) {
+ @media (min-width: 1440px) and (max-width: 1479.98px) {
+  header {
+    padding: 2rem 0;
+    .logo {
+      margin-left: 1rem;
+    }
+    .line {
+      
+    }
+  }
+  
+  .oneDay {
+    transform: translate3d(0,3rem,0);
+    &-text {
+      width: 110%;
+    }
+    .vikel,.tayanna {
+      margin-top: 1rem;
+    }
+    .sasha {
+      margin-top: 1rem;
+    }
+  
+    .vikel,.sasha {
+      width: 100%;
+    }
+    .tayanna {
+      width: 105%;
+    }
+  
+    .boxVikel {
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(12rem,-2rem,0);
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+    }
+   
+    .boxSasha {
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(13rem,-2rem,0);
+        
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+      a:hover {
+        color: #C6E4AC;
+        text-decoration: none;
+      }
+    }
+    .boxTayanna{
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(10.5rem,-2rem,0);
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+    }
+    .tayanna:hover {
+      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    }
+  }
+  
+  .bg {
+    position: relative;
+    .eggs {
+      position: absolute;
+      top: -10rem;
+      right: 0;
+    }
+    .lines {
+      position: absolute;
+      top: 13rem;
+      right: -58rem;
+    }
+  }
+  footer {
+    padding: 2rem 0;
+  }
+  
+  // ================= PARRALAX ======================
+  .for-parralax1 {
+    position: relative;
+    .parralax1 {
+      position: absolute;
+      z-index: 1;
+      .one { //tree
+        transform: translate3d(-37rem,25rem,0);
+      }
+      .two { //smal flower
+        transform: translate3d(-33rem,24rem,0);
+      }
+      .three {
+        transform: translate3d(0,0,0);
+      }
+      .four { // small flower
+        transform: translate3d(13rem,0,0);
+      }
+      .five { // big flower
+        transform: translate3d(16rem,2rem,1rem);
+      }
+      .six { // green tree
+        transform: translate3d(37rem,20rem,0);
+      }
+      .seven { // smal flower
+        transform: translate3d(32rem,1rem,0);
+      }
+      
+    }
+  }
  } 
  @media (min-width: 1480px) and (max-width: 1535.98px) {
+  header {
+    padding: 2rem 0;
+    .logo {
+      margin-left: 1rem;
+    }
+    .line {
+      
+    }
+  }
+  
+  .oneDay {
+    transform: translate3d(0,3rem,0);
+    &-text {
+      width: 110%;
+    }
+    .vikel,.tayanna {
+      margin-top: 1rem;
+    }
+    .sasha {
+      margin-top: 1rem;
+    }
+  
+    .vikel,.sasha {
+      width: 100%;
+    }
+    .tayanna {
+      width: 105%;
+    }
+  
+    .boxVikel {
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(13rem,-2rem,0);
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+    }
+   
+    .boxSasha {
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(14rem,-2rem,0);
+        
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+      a:hover {
+        color: #C6E4AC;
+        text-decoration: none;
+      }
+    }
+    .boxTayanna{
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(11.5rem,-2rem,0);
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+    }
+    .tayanna:hover {
+      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    }
+  }
+  
+  .bg {
+    position: relative;
+    .eggs {
+      position: absolute;
+      top: -10rem;
+      right: 0;
+    }
+    .lines {
+      position: absolute;
+      top: 13rem;
+      right: -64rem;
+    }
+  }
+  footer {
+    padding: 2rem 0;
+  }
+  
+  // ================= PARRALAX ======================
+  .for-parralax1 {
+    position: relative;
+    .parralax1 {
+      position: absolute;
+      z-index: 1;
+      .one { //tree
+        transform: translate3d(-37rem,25rem,0);
+      }
+      .two { //smal flower
+        transform: translate3d(-33rem,24rem,0);
+      }
+      .three {
+        transform: translate3d(0,0,0);
+      }
+      .four { // small flower
+        transform: translate3d(13rem,0,0);
+      }
+      .five { // big flower
+        transform: translate3d(16rem,2rem,1rem);
+      }
+      .six { // green tree
+        transform: translate3d(37rem,20rem,0);
+      }
+      .seven { // smal flower
+        transform: translate3d(32rem,1rem,0);
+      }
+      
+    }
+  }
  }
  @media (min-width: 1536px) and (max-width: 1599.98px) {
+  header {
+    padding: 2rem 0;
+    .logo {
+      margin-left: 1rem;
+    }
+    .line {
+      
+    }
+  }
+  
+  .oneDay {
+    transform: translate3d(0,3rem,0);
+    &-text {
+      width: 110%;
+    }
+    .vikel,.tayanna {
+      margin-top: 1rem;
+    }
+    .sasha {
+      margin-top: 1rem;
+    }
+  
+    .vikel,.sasha {
+      width: 100%;
+    }
+    .tayanna {
+      width: 105%;
+    }
+  
+    .boxVikel {
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(14rem,-2rem,0);
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+    }
+   
+    .boxSasha {
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(15rem,-2rem,0);
+        
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+      a:hover {
+        color: #C6E4AC;
+        text-decoration: none;
+      }
+    }
+    .boxTayanna{
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(12.5rem,-2rem,0);
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+    }
+    .tayanna:hover {
+      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    }
+  }
+  
+  .bg {
+    position: relative;
+    .eggs {
+      position: absolute;
+      top: -10rem;
+      right: 0;
+    }
+    .lines {
+      position: absolute;
+      top: 16rem;
+      right: -68rem;
+    }
+  }
+  footer {
+    padding: 2rem 0;
+  }
+  
+  // ================= PARRALAX ======================
+  .for-parralax1 {
+    position: relative;
+    .parralax1 {
+      position: absolute;
+      z-index: 1;
+      .one { //tree
+        transform: translate3d(-39rem,25rem,0);
+      }
+      .two { //smal flower
+        transform: translate3d(-33rem,24rem,0);
+      }
+      .three {
+        transform: translate3d(0,0,0);
+      }
+      .four { // small flower
+        transform: translate3d(13rem,0,0);
+      }
+      .five { // big flower
+        transform: translate3d(19rem,2rem,1rem);
+      }
+      .six { // green tree
+        transform: translate3d(40rem,20rem,0);
+      }
+      .seven { // smal flower
+        transform: translate3d(32rem,1rem,0);
+      }
+      
+    }
+  }
  }
  @media (min-width: 1600px) and (max-width: 1679.98px) {
+  header {
+    padding: 2rem 0;
+    .logo {
+      margin-left: 1rem;
+    }
+    .line {
+      margin-left: -2rem;
+    }
+  }
+  
+  .oneDay {
+    transform: translate3d(0,3rem,0);
+    &-text {
+      width: 110%;
+    }
+    .vikel,.tayanna {
+      margin-top: 1rem;
+    }
+    .sasha {
+      margin-top: 1rem;
+    }
+  
+    .vikel,.sasha {
+      width: 100%;
+    }
+    .tayanna {
+      width: 105%;
+    }
+  
+    .boxVikel {
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(15rem,-2rem,0);
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+    }
+   
+    .boxSasha {
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(16rem,-2rem,0);
+        
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+      a:hover {
+        color: #C6E4AC;
+        text-decoration: none;
+      }
+    }
+    .boxTayanna{
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(13.5rem,-2rem,0);
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+    }
+    .tayanna:hover {
+      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    }
+  }
+  
+  .bg {
+    position: relative;
+    .eggs {
+      position: absolute;
+      top: -10rem;
+      right: 0;
+    }
+    .lines {
+      position: absolute;
+      top: 16rem;
+      right: -68rem;
+    }
+  }
+  footer {
+    padding: 2rem 0;
+  }
+  
+  // ================= PARRALAX ======================
+  .for-parralax1 {
+    position: relative;
+    .parralax1 {
+      position: absolute;
+      z-index: 1;
+      .one { //tree
+        transform: translate3d(-39rem,25rem,0);
+      }
+      .two { //smal flower
+        transform: translate3d(-33rem,24rem,0);
+      }
+      .three {
+        transform: translate3d(0,0,0);
+      }
+      .four { // small flower
+        transform: translate3d(13rem,0,0);
+      }
+      .five { // big flower
+        transform: translate3d(19rem,2rem,1rem);
+      }
+      .six { // green tree
+        transform: translate3d(40rem,20rem,0);
+      }
+      .seven { // smal flower
+        transform: translate3d(32rem,1rem,0);
+      }
+      
+    }
+  }
  }
  @media (min-width: 1680px) and (max-width: 1919.98px) {
+  header {
+    padding: 2rem 0;
+    .logo {
+      margin-left: 1rem;
+    }
+    .line {
+      margin-left: -3rem;
+    }
+  }
+  
+  .oneDay {
+    transform: translate3d(0,3rem,0);
+    &-text {
+      width: 110%;
+    }
+    .vikel,.tayanna {
+      margin-top: 1rem;
+    }
+    .sasha {
+      margin-top: 1rem;
+    }
+  
+    .vikel,.sasha {
+      width: 100%;
+    }
+    .tayanna {
+      width: 105%;
+    }
+  
+    .boxVikel {
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(17rem,-2rem,0);
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+    }
+   
+    .boxSasha {
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(18rem,-2rem,0);
+        
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+      a:hover {
+        color: #C6E4AC;
+        text-decoration: none;
+      }
+    }
+    .boxTayanna{
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(14.5rem,-2rem,0);
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+    }
+    .tayanna:hover {
+      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    }
+  }
+  
+  .bg {
+    position: relative;
+    .eggs {
+      position: absolute;
+      top: -10rem;
+      right: 0;
+    }
+    .lines {
+      position: absolute;
+      top: 16rem;
+      right: -68rem;
+    }
+  }
+  footer {
+    padding: 2rem 0;
+  }
+  
+  // ================= PARRALAX ======================
+  .for-parralax1 {
+    position: relative;
+    .parralax1 {
+      position: absolute;
+      z-index: 1;
+      .one { //tree
+        transform: translate3d(-41rem,25rem,0);
+      }
+      .two { //smal flower
+        transform: translate3d(-35rem,24rem,0);
+      }
+      .three {
+        transform: translate3d(0,0,0);
+      }
+      .four { // small flower
+        transform: translate3d(15rem,0,0);
+      }
+      .five { // big flower
+        transform: translate3d(21rem,2rem,1rem);
+      }
+      .six { // green tree
+        transform: translate3d(44rem,20rem,0);
+      }
+      .seven { // smal flower
+        transform: translate3d(40rem,1rem,0);
+      }
+      
+    }
+  }
  }
  @media (min-width: 1920px) and (max-width: 2047.98px) {
+  header {
+    padding: 2rem 0;
+    .logo {
+      margin-left: 1rem;
+    }
+    .line {
+      margin-left: -5rem;
+    }
+  }
+  
+  .oneDay {
+    transform: translate3d(0,3rem,0);
+    &-text {
+      width: 110%;
+    }
+    .vikel,.tayanna {
+      margin-top: 1rem;
+    }
+    .sasha {
+      margin-top: 2rem;
+    }
+  
+    .vikel,.sasha {
+      width: 100%;
+    }
+    .tayanna {
+      width: 105%;
+    }
+  
+    .boxVikel {
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(20rem,-2rem,0);
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+    }
+   
+    .boxSasha {
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(21rem,-2rem,0);
+        
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+      a:hover {
+        color: #C6E4AC;
+        text-decoration: none;
+      }
+    }
+    .boxTayanna{
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(16.5rem,-2rem,0);
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+    }
+    .tayanna:hover {
+      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    }
+  }
+  
+  .bg {
+    position: relative;
+    .eggs {
+      position: absolute;
+      top: -10rem;
+      right: 0;
+    }
+    .lines {
+      position: absolute;
+      top: 24rem;
+      right: -77rem;
+    }
+  }
+  footer {
+    padding: 2rem 0;
+  }
+  
+  // ================= PARRALAX ======================
+  .for-parralax1 {
+    position: relative;
+    .parralax1 {
+      position: absolute;
+      z-index: 1;
+      .one { //tree
+        transform: translate3d(-45rem,25rem,0);
+      }
+      .two { //smal flower
+        transform: translate3d(-39rem,24rem,0);
+      }
+      .three {
+        transform: translate3d(0,0,0);
+      }
+      .four { // small flower
+        transform: translate3d(15rem,0,0);
+      }
+      .five { // big flower
+        transform: translate3d(23rem,2rem,1rem);
+      }
+      .six { // green tree
+        transform: translate3d(50rem,27rem,0);
+      }
+      .seven { // smal flower
+        transform: translate3d(49rem,1rem,0);
+      }
+      
+    }
+  }
  }
  @media (min-width: 2048px) and (max-width: 2199.98px) {
+  header {
+    padding: 2rem 0;
+    .logo {
+      margin-left: 1rem;
+    }
+    .line {
+      margin-left: -6rem;
+    }
+  }
+  
+  .oneDay {
+    transform: translate3d(0,3rem,0);
+    &-text {
+      width: 110%;
+    }
+    .vikel,.tayanna {
+      margin-top: 1rem;
+    }
+    .sasha {
+      margin-top: 2rem;
+    }
+  
+    .vikel,.sasha {
+      width: 100%;
+    }
+    .tayanna {
+      width: 105%;
+    }
+  
+    .boxVikel {
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(22rem,-2rem,0);
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+    }
+   
+    .boxSasha {
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(23rem,-2rem,0);
+        
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+      a:hover {
+        color: #C6E4AC;
+        text-decoration: none;
+      }
+    }
+    .boxTayanna{
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(18.5rem,-2rem,0);
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+    }
+    .tayanna:hover {
+      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    }
+  }
+  
+  .bg {
+    position: relative;
+    .eggs {
+      position: absolute;
+      top: -10rem;
+      right: 0;
+    }
+    .lines {
+      position: absolute;
+      top: 28rem;
+      right: -85rem;
+    }
+  }
+  footer {
+    padding: 2rem 0;
+  }
+  
+  // ================= PARRALAX ======================
+  .for-parralax1 {
+    position: relative;
+    .parralax1 {
+      position: absolute;
+      z-index: 1;
+      .one { //tree
+        transform: translate3d(-50rem,30rem,0);
+      }
+      .two { //smal flower
+        transform: translate3d(-44rem,24rem,0);
+      }
+      .three {
+        transform: translate3d(0,0,0);
+      }
+      .four { // small flower
+        transform: translate3d(15rem,0,0);
+      }
+      .five { // big flower
+        transform: translate3d(25rem,2rem,1rem);
+      }
+      .six { // green tree
+        transform: translate3d(52rem,30rem,0);
+      }
+      .seven { // smal flower
+        transform: translate3d(51rem,1rem,0);
+      }
+      
+    }
+  }
  }
  @media (min-width: 2200px) and  (max-width: 2499.98px) {
+  header {
+    padding: 2rem 0;
+    .logo {
+      margin-left: 1rem;
+    }
+    .line {
+      margin-left: -9rem;
+      width: 150%;
+    }
+  }
+  
+  .oneDay {
+    transform: translate3d(0,3rem,0);
+    &-text {
+      width: 110%;
+    }
+    .vikel,.tayanna {
+      margin-top: 1rem;
+    }
+    .sasha {
+      margin-top: 2.4rem;
+    }
+  
+    .vikel,.sasha {
+      width: 100%;
+    }
+    .tayanna {
+      width: 105%;
+    }
+  
+    .boxVikel {
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(25rem,-2rem,0);
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+    }
+   
+    .boxSasha {
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(26rem,-2rem,0);
+        
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+      a:hover {
+        color: #C6E4AC;
+        text-decoration: none;
+      }
+    }
+    .boxTayanna{
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(20.5rem,-2rem,0);
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+    }
+    .tayanna:hover {
+      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    }
+  }
+  
+  .bg {
+    position: relative;
+    .eggs {
+      position: absolute;
+      top: -10rem;
+      right: 0;
+    }
+    .lines {
+      position: absolute;
+      top: 31rem;
+      right: -88rem;
+    }
+  }
+  footer {
+    padding: 2rem 0;
+  }
+  
+  // ================= PARRALAX ======================
+  .for-parralax1 {
+    position: relative;
+    .parralax1 {
+      position: absolute;
+      z-index: 1;
+      .one { //tree
+        transform: translate3d(-55rem,31rem,0);
+      }
+      .two { //smal flower
+        transform: translate3d(-47rem,26rem,0);
+      }
+      .three {
+        transform: translate3d(0,0,0);
+      }
+      .four { // small flower
+        transform: translate3d(15rem,0,0);
+      }
+      .five { // big flower
+        transform: translate3d(29rem,3rem,1rem);
+      }
+      .six { // green tree
+        transform: translate3d(56rem,34rem,0);
+      }
+      .seven { // smal flower
+        transform: translate3d(55rem,1rem,0);
+      }
+      
+    }
+  }
  }
  @media (min-width: 2500px) {
+  header {
+    padding: 2rem 0;
+    .logo {
+      margin-left: 1rem;
+    }
+    .line {
+      margin-left: -19rem;
+      width: 150%;
+    }
+  }
+  
+  .oneDay {
+    transform: translate3d(0,3rem,0);
+    &-text {
+      width: 110%;
+    }
+    .vikel,.tayanna {
+      margin-top: 1rem;
+    }
+    .sasha {
+      margin-top: 2.9rem;
+    }
+  
+    .vikel,.sasha {
+      width: 100%;
+    }
+    .tayanna {
+      width: 105%;
+      margin-left: 1rem;
+    }
+  
+    .boxVikel {
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(30rem,-2rem,0);
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+    }
+   
+    .boxSasha {
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(31rem,-2rem,0);
+        
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+      a:hover {
+        color: #C6E4AC;
+        text-decoration: none;
+      }
+    }
+    .boxTayanna{
+      position: relative;
+      .linkVikel {
+        position: absolute;
+        transform: translate3d(25.5rem,-2rem,0);
+        a {
+          color: #FFFFFF;
+        }
+        .link {
+          padding: 0 0 1rem 2rem;
+        }
+      }
+    }
+    .tayanna:hover {
+      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    }
+  }
+  
+  .bg {
+    position: relative;
+    .eggs {
+      position: absolute;
+      top: -10rem;
+      right: 0;
+    }
+    .lines {
+      position: absolute;
+      top: 31rem;
+      right: -88rem;
+    }
+  }
+  footer {
+    padding: 2rem 0;
+  }
+  
+  // ================= PARRALAX ======================
+  .for-parralax1 {
+    position: relative;
+    .parralax1 {
+      position: absolute;
+      z-index: 1;
+      .one { //tree
+        transform: translate3d(-60rem,33rem,0);
+      }
+      .two { //smal flower
+        transform: translate3d(-50rem,28rem,0);
+      }
+      .three {
+        transform: translate3d(0,0,0);
+      }
+      .four { // small flower
+        transform: translate3d(18rem,0,0);
+      }
+      .five { // big flower
+        transform: translate3d(31rem,3rem,1rem);
+      }
+      .six { // green tree
+        transform: translate3d(64rem,40rem,0);
+      }
+      .seven { // smal flower
+        transform: translate3d(62rem,5rem,0);
+      }
+      
+    }
+  }
  }
