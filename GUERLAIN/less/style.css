@@ -37,6 +37,9 @@ header .logo {
 .oneDay {
   transform: translate3d(0, 3rem, 0);
 }
+.oneDay-text {
+  width: 110%;
+}
 .oneDay-text h1 {
   font-family: 'PT Serif';
   font-style: normal;
