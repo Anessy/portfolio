@@ -260,7 +260,11 @@ p {
   background-color: #F0CDB7;
 }
 .eightthQuestion {
-  margin-top: 15rem;
+  margin-top: 7rem;
+}
+.ninethQuestion {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 .photo3 {
   margin-top: 4rem;
@@ -313,6 +317,7 @@ p {
 .ritual {
   position: relative;
   margin-top: 6rem;
+  padding: 4rem 0 6rem 3%;
   background: linear-gradient(121.08deg, #CEA995 11.81%, #D7AB94 53.11%, #F0CDB7 96.16%);
 }
 .ritual-text {
@@ -353,7 +358,7 @@ p {
   background: rgba(255, 255, 255, 0.1);
 }
 .ritual-primer {
-  padding: 4rem 0.7rem 2.5rem 0.7rem;
+  padding: 4rem 0.8rem 2.5rem 0.8rem;
   text-align: center;
   background-color: white;
   border: 1px solid white;
@@ -378,7 +383,7 @@ p {
   cursor: pointer;
 }
 .ritual-tonal {
-  padding: 3rem 0.7rem 2.5rem 0.7rem;
+  padding: 3rem 0.8rem 2.5rem 0.8rem;
   text-align: center;
   background-color: white;
   border: 1px solid white;
