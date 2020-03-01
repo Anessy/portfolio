@@ -313,7 +313,6 @@ p {
 .ritual {
   position: relative;
   margin-top: 6rem;
-  padding: 4rem 0 6rem 3%;
   background: linear-gradient(121.08deg, #CEA995 11.81%, #D7AB94 53.11%, #F0CDB7 96.16%);
 }
 .ritual-text {
@@ -354,7 +353,6 @@ p {
   background: rgba(255, 255, 255, 0.1);
 }
 .ritual-primer {
-  width: 85%;
   padding: 4rem 0.7rem 2.5rem 0.7rem;
   text-align: center;
   background-color: white;
@@ -380,7 +378,6 @@ p {
   cursor: pointer;
 }
 .ritual-tonal {
-  width: 85%;
   padding: 3rem 0.7rem 2.5rem 0.7rem;
   text-align: center;
   background-color: white;
@@ -642,7 +639,7 @@ footer a {
 .rellax11 .two {
   transform: translate3d(28rem, 10rem, 0);
 }
-@media (max-width: 320px) and (max-width: 374.98px) {
+@media (max-width: 374.98px) {
   .header-logo {
     text-align: center;
     margin-bottom: 1.5rem;
@@ -780,72 +777,37 @@ footer a {
     margin-top: 58rem;
   }
   .ritual {
-    text-align: center;
-    position: relative;
     margin-top: 6rem;
-    padding: 6rem 0 6rem 0;
+    padding: 4rem 0;
   }
-  .ritual-text .for-button button {
-    color: white;
-    background: rgba(255, 255, 255, 0.2);
-    border: 1px solid #FFFFFF;
-    width: 140px;
-    height: 50px;
-    margin-top: 3rem;
-    margin-bottom: 4rem;
-  }
-  .ritual-text .for-button button p {
-    margin: -0.1rem 0;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 25px;
+  .ritual-text {
     text-align: center;
-    color: #FFFFFF;
-  }
-  .ritual-text .for-button button:focus {
-    outline: none !important;
-  }
-  .ritual-text .for-button button:active {
-    background: rgba(255, 255, 255, 0.1);
-  }
-  .ritual-text .for-button button:hover {
-    background: rgba(255, 255, 255, 0.1);
   }
   .ritual-primer {
-    width: 100%;
-    padding: 4rem 0.5rem 4rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-    margin-bottom: 4rem;
+    padding: 4rem 0.9rem 2.5rem 0.9rem;
+    margin-bottom: 2rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.3rem;
   }
   .ritual-primer img {
     margin-bottom: 2rem;
   }
-  .ritual-primer:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-tonal {
-    width: 100%;
-    padding: 3rem 0.5rem 2.5rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    padding: 3rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-tonal p {
+    color: #282828;
   }
   .ritual-tonal img {
     margin-bottom: 2rem;
   }
-  .ritual-tonal:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-bg {
     position: absolute;
-    transform: translate3D(0, 57rem, 0);
+    transform: translate3D(0rem, 42rem, 0);
+  }
+  .ritual-bg img {
+    transform: translate3d(-4rem, 6rem, 0);
   }
   .slider {
     color: white;
@@ -1193,72 +1155,34 @@ footer a {
     margin-top: 68rem;
   }
   .ritual {
-    text-align: center;
-    position: relative;
     margin-top: 6rem;
-    padding: 6rem 0 6rem 0;
+    padding: 4rem 0;
   }
-  .ritual-text .for-button button {
-    color: white;
-    background: rgba(255, 255, 255, 0.2);
-    border: 1px solid #FFFFFF;
-    width: 140px;
-    height: 50px;
-    margin-top: 3rem;
-    margin-bottom: 4rem;
-  }
-  .ritual-text .for-button button p {
-    margin: -0.1rem 0;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 25px;
+  .ritual-text {
     text-align: center;
-    color: #FFFFFF;
-  }
-  .ritual-text .for-button button:focus {
-    outline: none !important;
-  }
-  .ritual-text .for-button button:active {
-    background: rgba(255, 255, 255, 0.1);
-  }
-  .ritual-text .for-button button:hover {
-    background: rgba(255, 255, 255, 0.1);
   }
   .ritual-primer {
-    width: 100%;
-    padding: 4rem 0.5rem 4rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-    margin-bottom: 4rem;
+    padding: 4rem 0.9rem 2.5rem 0.9rem;
+    margin-bottom: 2rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.3rem;
   }
   .ritual-primer img {
     margin-bottom: 2rem;
   }
-  .ritual-primer:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-tonal {
-    width: 100%;
-    padding: 3rem 0.5rem 2.5rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    padding: 3rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-tonal p {
+    color: #282828;
   }
   .ritual-tonal img {
     margin-bottom: 2rem;
   }
-  .ritual-tonal:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-bg {
     position: absolute;
-    transform: translate3D(0, 57rem, 0);
+    transform: translate3D(0rem, 39rem, 0);
   }
   .slider {
     color: white;
@@ -1593,72 +1517,34 @@ footer a {
     margin-top: 5rem;
   }
   .ritual {
-    text-align: center;
-    position: relative;
     margin-top: 6rem;
-    padding: 6rem 0 6rem 0;
+    padding: 4rem 0;
   }
-  .ritual-text .for-button button {
-    color: white;
-    background: rgba(255, 255, 255, 0.2);
-    border: 1px solid #FFFFFF;
-    width: 140px;
-    height: 50px;
-    margin-top: 3rem;
-    margin-bottom: 4rem;
-  }
-  .ritual-text .for-button button p {
-    margin: -0.1rem 0;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 25px;
+  .ritual-text {
     text-align: center;
-    color: #FFFFFF;
-  }
-  .ritual-text .for-button button:focus {
-    outline: none !important;
-  }
-  .ritual-text .for-button button:active {
-    background: rgba(255, 255, 255, 0.1);
-  }
-  .ritual-text .for-button button:hover {
-    background: rgba(255, 255, 255, 0.1);
   }
   .ritual-primer {
-    width: 100%;
-    padding: 4rem 0.5rem 4rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-    margin-bottom: 4rem;
+    padding: 4rem 0.7rem 2.5rem 0.7rem;
+    margin-bottom: 2rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.3rem;
   }
   .ritual-primer img {
     margin-bottom: 2rem;
   }
-  .ritual-primer:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-tonal {
-    width: 100%;
-    padding: 3rem 0.5rem 2.5rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    padding: 3rem 0.7rem 2.5rem 0.7rem;
+  }
+  .ritual-tonal p {
+    color: #282828;
   }
   .ritual-tonal img {
     margin-bottom: 2rem;
   }
-  .ritual-tonal:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-bg {
     position: absolute;
-    transform: translate3D(0, 49rem, 0);
+    transform: translate3D(0rem, 39rem, 0);
   }
   .slider .slider-bg-1,
   .slider .slider-bg-2,
@@ -1950,85 +1836,33 @@ footer a {
     transform: translate3d(5rem, 0, 0);
   }
   .ritual {
-    position: relative;
     margin-top: 6rem;
-    padding: 6rem 0 6rem 3%;
-    background: linear-gradient(121.08deg, #CEA995 11.81%, #D7AB94 53.11%, #F0CDB7 96.16%);
+    padding: 4rem 0;
   }
-  .ritual-text h1 {
-    font-size: 34px;
-    line-height: 42px;
-    color: #FFFFFF;
-    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
-  }
-  .ritual-text p {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 26px;
-    color: #FFFFFF;
-    margin: 2rem 0;
-  }
-  .ritual-text .for-button button {
-    color: white;
-    background: rgba(255, 255, 255, 0.2);
-    border: 1px solid #FFFFFF;
-    width: 140px;
-    height: 50px;
-    margin-top: 3rem;
-  }
-  .ritual-text .for-button button p {
-    margin: -0.1rem 0;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 25px;
+  .ritual-text {
     text-align: center;
-    color: #FFFFFF;
-  }
-  .ritual-text .for-button button:focus {
-    outline: none !important;
-  }
-  .ritual-text .for-button button:active {
-    background: rgba(255, 255, 255, 0.1);
-  }
-  .ritual-text .for-button button:hover {
-    background: rgba(255, 255, 255, 0.1);
   }
   .ritual-primer {
-    width: 85%;
-    padding: 4rem 0.5rem 4rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    padding: 4rem 0.7rem 2.5rem 0.7rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.3rem;
   }
   .ritual-primer img {
     margin-bottom: 2rem;
   }
-  .ritual-primer:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-tonal {
-    width: 85%;
-    padding: 3rem 0.5rem 2.5rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    padding: 3rem 0.7rem 2.5rem 0.7rem;
+  }
+  .ritual-tonal p {
+    color: #282828;
   }
   .ritual-tonal img {
     margin-bottom: 2rem;
   }
-  .ritual-tonal:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-bg {
     position: absolute;
-    transform: translate3D(20rem, 6rem, 0);
+    transform: translate3D(15rem, 12rem, 0);
   }
   .slider .slider-bg-1,
   .slider .slider-bg-2,
@@ -2308,85 +2142,33 @@ footer a {
     transform: translate3d(7rem, 0, 0);
   }
   .ritual {
-    position: relative;
     margin-top: 6rem;
-    padding: 6rem 0 6rem 3%;
-    background: linear-gradient(121.08deg, #CEA995 11.81%, #D7AB94 53.11%, #F0CDB7 96.16%);
+    padding: 4rem 0;
   }
-  .ritual-text h1 {
-    font-size: 34px;
-    line-height: 42px;
-    color: #FFFFFF;
-    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
-  }
-  .ritual-text p {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 26px;
-    color: #FFFFFF;
-    margin: 2rem 0;
-  }
-  .ritual-text .for-button button {
-    color: white;
-    background: rgba(255, 255, 255, 0.2);
-    border: 1px solid #FFFFFF;
-    width: 140px;
-    height: 50px;
-    margin-top: 4rem;
-  }
-  .ritual-text .for-button button p {
-    margin: -0.1rem 0;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 25px;
+  .ritual-text {
     text-align: center;
-    color: #FFFFFF;
-  }
-  .ritual-text .for-button button:focus {
-    outline: none !important;
-  }
-  .ritual-text .for-button button:active {
-    background: rgba(255, 255, 255, 0.1);
-  }
-  .ritual-text .for-button button:hover {
-    background: rgba(255, 255, 255, 0.1);
   }
   .ritual-primer {
-    width: 85%;
-    padding: 4rem 0.5rem 4rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    padding: 4rem 0.7rem 2.5rem 0.7rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.3rem;
   }
   .ritual-primer img {
     margin-bottom: 2rem;
   }
-  .ritual-primer:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-tonal {
-    width: 85%;
-    padding: 3rem 0.5rem 2.5rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    padding: 3rem 0.7rem 2.5rem 0.7rem;
+  }
+  .ritual-tonal p {
+    color: #282828;
   }
   .ritual-tonal img {
     margin-bottom: 2rem;
   }
-  .ritual-tonal:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-bg {
     position: absolute;
-    transform: translate3D(20rem, 6rem, 0);
+    transform: translate3D(33rem, 14rem, 0);
   }
   .slider .slider-bg-1,
   .slider .slider-bg-2,
@@ -2625,88 +2407,36 @@ footer a {
     margin-top: 12rem;
   }
   .ritual {
-    position: relative;
     margin-top: 6rem;
-    padding: 6rem 0 6rem 3%;
-    background: linear-gradient(121.08deg, #CEA995 11.81%, #D7AB94 53.11%, #F0CDB7 96.16%);
+    padding: 4rem 0 6rem 3%;
   }
   .ritual-text {
-    margin-right: 1rem;
+    text-align: center;
   }
   .ritual-text h1 {
     font-size: 34px;
+    margin-bottom: 3rem;
     line-height: 42px;
     color: #FFFFFF;
     text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
   }
-  .ritual-text p {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 26px;
-    color: #FFFFFF;
-    margin: 2rem 0;
-  }
-  .ritual-text .for-button button {
-    color: white;
-    background: rgba(255, 255, 255, 0.2);
-    border: 1px solid #FFFFFF;
-    width: 140px;
-    height: 50px;
-    margin-top: 4rem;
-  }
-  .ritual-text .for-button button p {
-    margin: -0.1rem 0;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 25px;
-    text-align: center;
-    color: #FFFFFF;
-  }
-  .ritual-text .for-button button:focus {
-    outline: none !important;
-  }
-  .ritual-text .for-button button:active {
-    background: rgba(255, 255, 255, 0.1);
-  }
-  .ritual-text .for-button button:hover {
-    background: rgba(255, 255, 255, 0.1);
-  }
   .ritual-primer {
-    width: 85%;
-    padding: 4rem 0.5rem 4rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    padding: 4rem 0.7rem 2.5rem 0.7rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.3rem;
   }
   .ritual-primer img {
     margin-bottom: 2rem;
   }
-  .ritual-primer:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-tonal {
-    width: 85%;
-    padding: 3rem 0.5rem 2.5rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    padding: 3rem 0.7rem 2.5rem 0.7rem;
   }
   .ritual-tonal img {
     margin-bottom: 2rem;
   }
-  .ritual-tonal:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-bg {
-    position: absolute;
-    transform: translate3D(40rem, 6rem, 0);
+    transform: translate3D(39rem, 14rem, 0);
   }
 }
 @media (min-width: 1440px) and (max-width: 1479.98px) {
@@ -2763,88 +2493,36 @@ footer a {
     margin-top: 12rem;
   }
   .ritual {
-    position: relative;
     margin-top: 6rem;
-    padding: 6rem 0 6rem 3%;
-    background: linear-gradient(121.08deg, #CEA995 11.81%, #D7AB94 53.11%, #F0CDB7 96.16%);
+    padding: 4rem 0 6rem 3%;
   }
   .ritual-text {
-    margin-right: 1rem;
+    text-align: center;
   }
   .ritual-text h1 {
     font-size: 34px;
+    margin-bottom: 3rem;
     line-height: 42px;
     color: #FFFFFF;
     text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
   }
-  .ritual-text p {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 26px;
-    color: #FFFFFF;
-    margin: 2rem 0;
-  }
-  .ritual-text .for-button button {
-    color: white;
-    background: rgba(255, 255, 255, 0.2);
-    border: 1px solid #FFFFFF;
-    width: 140px;
-    height: 50px;
-    margin-top: 4rem;
-  }
-  .ritual-text .for-button button p {
-    margin: -0.1rem 0;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 25px;
-    text-align: center;
-    color: #FFFFFF;
-  }
-  .ritual-text .for-button button:focus {
-    outline: none !important;
-  }
-  .ritual-text .for-button button:active {
-    background: rgba(255, 255, 255, 0.1);
-  }
-  .ritual-text .for-button button:hover {
-    background: rgba(255, 255, 255, 0.1);
-  }
   .ritual-primer {
-    width: 85%;
-    padding: 4rem 0.5rem 4rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    padding: 4rem 0.7rem 2.5rem 0.7rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.3rem;
   }
   .ritual-primer img {
     margin-bottom: 2rem;
   }
-  .ritual-primer:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-tonal {
-    width: 85%;
-    padding: 3rem 0.5rem 3.5rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    padding: 3rem 0.7rem 2.5rem 0.7rem;
   }
   .ritual-tonal img {
     margin-bottom: 2rem;
   }
-  .ritual-tonal:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-bg {
-    position: absolute;
-    transform: translate3D(40rem, 6rem, 0);
+    transform: translate3D(43rem, 14rem, 0);
   }
 }
 @media (min-width: 1480px) and (max-width: 1535.98px) {
@@ -2901,85 +2579,36 @@ footer a {
     margin-top: 12rem;
   }
   .ritual {
-    position: relative;
     margin-top: 6rem;
-    padding: 6rem 0 6rem 3%;
-    background: linear-gradient(121.08deg, #CEA995 11.81%, #D7AB94 53.11%, #F0CDB7 96.16%);
+    padding: 4rem 0 6rem 3%;
+  }
+  .ritual-text {
+    text-align: center;
   }
   .ritual-text h1 {
     font-size: 34px;
+    margin-bottom: 3rem;
     line-height: 42px;
     color: #FFFFFF;
     text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
   }
-  .ritual-text p {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 26px;
-    color: #FFFFFF;
-    margin: 2rem 0;
-  }
-  .ritual-text .for-button button {
-    color: white;
-    background: rgba(255, 255, 255, 0.2);
-    border: 1px solid #FFFFFF;
-    width: 140px;
-    height: 50px;
-    margin-top: 4rem;
-  }
-  .ritual-text .for-button button p {
-    margin: -0.1rem 0;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 25px;
-    text-align: center;
-    color: #FFFFFF;
-  }
-  .ritual-text .for-button button:focus {
-    outline: none !important;
-  }
-  .ritual-text .for-button button:active {
-    background: rgba(255, 255, 255, 0.1);
-  }
-  .ritual-text .for-button button:hover {
-    background: rgba(255, 255, 255, 0.1);
-  }
   .ritual-primer {
-    width: 85%;
-    padding: 4rem 0.5rem 2.7rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    padding: 4rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.3rem;
   }
   .ritual-primer img {
     margin-bottom: 2rem;
   }
-  .ritual-primer:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-tonal {
-    width: 85%;
-    padding: 3rem 0.5rem 2.5rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    padding: 3rem 0.9rem 2.5rem 0.9rem;
   }
   .ritual-tonal img {
     margin-bottom: 2rem;
   }
-  .ritual-tonal:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-bg {
-    position: absolute;
-    transform: translate3D(45rem, 6rem, 0);
+    transform: translate3D(43rem, 14rem, 0);
   }
 }
 @media (min-width: 1536px) and (max-width: 1599.98px) {
@@ -3035,9 +2664,37 @@ footer a {
   .eightthQuestion {
     margin-top: 12rem;
   }
+  .ritual {
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+  }
+  .ritual-text {
+    text-align: center;
+  }
+  .ritual-text h1 {
+    font-size: 34px;
+    margin-bottom: 3rem;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+  }
+  .ritual-primer {
+    padding: 4rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.3rem;
+  }
+  .ritual-primer img {
+    margin-bottom: 2rem;
+  }
+  .ritual-tonal {
+    padding: 3rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-tonal img {
+    margin-bottom: 2rem;
+  }
   .ritual-bg {
-    position: absolute;
-    transform: translate3D(50rem, 6rem, 0);
+    transform: translate3D(47rem, 14rem, 0);
   }
 }
 @media (min-width: 1600px) and (max-width: 1679.98px) {
@@ -3093,9 +2750,37 @@ footer a {
   .eightthQuestion {
     margin-top: 12rem;
   }
+  .ritual {
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+  }
+  .ritual-text {
+    text-align: center;
+  }
+  .ritual-text h1 {
+    font-size: 34px;
+    margin-bottom: 3rem;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+  }
+  .ritual-primer {
+    padding: 4rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.3rem;
+  }
+  .ritual-primer img {
+    margin-bottom: 2rem;
+  }
+  .ritual-tonal {
+    padding: 3rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-tonal img {
+    margin-bottom: 2rem;
+  }
   .ritual-bg {
-    position: absolute;
-    transform: translate3D(57rem, 6rem, 0);
+    transform: translate3D(52rem, 14rem, 0);
   }
 }
 @media (min-width: 1680px) and (max-width: 1919.98px) {
@@ -3151,10 +2836,6 @@ footer a {
   .eightthQuestion {
     margin-top: 14rem;
   }
-  .ritual-bg {
-    position: absolute;
-    transform: translate3D(55rem, 6rem, 0);
-  }
   .rellax7 {
     position: relative;
   }
@@ -3167,6 +2848,38 @@ footer a {
   }
   .rellax7 .two {
     transform: translate3d(-24rem, -47rem, 0);
+  }
+  .ritual {
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+  }
+  .ritual-text {
+    text-align: center;
+  }
+  .ritual-text h1 {
+    font-size: 34px;
+    margin-bottom: 3rem;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+  }
+  .ritual-primer {
+    padding: 4rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.3rem;
+  }
+  .ritual-primer img {
+    margin-bottom: 2rem;
+  }
+  .ritual-tonal {
+    padding: 3rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-tonal img {
+    margin-bottom: 2rem;
+  }
+  .ritual-bg {
+    transform: translate3D(56rem, 14rem, 0);
   }
 }
 @media (min-width: 1920px) and (max-width: 2047.98px) {
@@ -3222,9 +2935,37 @@ footer a {
   .eightthQuestion {
     margin-top: 16rem;
   }
+  .ritual {
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+  }
+  .ritual-text {
+    text-align: center;
+  }
+  .ritual-text h1 {
+    font-size: 34px;
+    margin-bottom: 3rem;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+  }
+  .ritual-primer {
+    padding: 4rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.3rem;
+  }
+  .ritual-primer img {
+    margin-bottom: 2rem;
+  }
+  .ritual-tonal {
+    padding: 3rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-tonal img {
+    margin-bottom: 2rem;
+  }
   .ritual-bg {
-    position: absolute;
-    transform: translate3D(70rem, 6rem, 0);
+    transform: translate3D(70rem, 14rem, 0);
   }
   .rellax7 {
     position: relative;
@@ -3311,9 +3052,37 @@ footer a {
   .eightthQuestion {
     margin-top: 16rem;
   }
+  .ritual {
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+  }
+  .ritual-text {
+    text-align: center;
+  }
+  .ritual-text h1 {
+    font-size: 34px;
+    margin-bottom: 3rem;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+  }
+  .ritual-primer {
+    padding: 4rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.3rem;
+  }
+  .ritual-primer img {
+    margin-bottom: 2rem;
+  }
+  .ritual-tonal {
+    padding: 3rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-tonal img {
+    margin-bottom: 2rem;
+  }
   .ritual-bg {
-    position: absolute;
-    transform: translate3D(77rem, 6rem, 0);
+    transform: translate3D(77rem, 14rem, 0);
   }
   .rellax7 {
     position: relative;
@@ -3400,9 +3169,37 @@ footer a {
   .eightthQuestion {
     margin-top: 16rem;
   }
+  .ritual {
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+  }
+  .ritual-text {
+    text-align: center;
+  }
+  .ritual-text h1 {
+    font-size: 34px;
+    margin-bottom: 3rem;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+  }
+  .ritual-primer {
+    padding: 4rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.3rem;
+  }
+  .ritual-primer img {
+    margin-bottom: 2rem;
+  }
+  .ritual-tonal {
+    padding: 3rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-tonal img {
+    margin-bottom: 2rem;
+  }
   .ritual-bg {
-    position: absolute;
-    transform: translate3D(77rem, 6rem, 0);
+    transform: translate3D(89rem, 14rem, 0);
   }
   .rellax7 {
     position: relative;
@@ -3489,9 +3286,42 @@ footer a {
   .eightthQuestion {
     margin-top: 16rem;
   }
+  .ritual {
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+  }
+  .ritual-text {
+    text-align: center;
+  }
+  .ritual-text h1 {
+    font-size: 34px;
+    margin-bottom: 3rem;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+  }
+  .ritual-primer {
+    width: 85%;
+    padding: 4rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.3rem;
+  }
+  .ritual-primer img {
+    margin-bottom: 2rem;
+  }
+  .ritual-tonal {
+    width: 85%;
+    padding: 3rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-tonal img {
+    margin-bottom: 2rem;
+  }
   .ritual-bg {
-    position: absolute;
-    transform: translate3D(77rem, 6rem, 0);
+    transform: translate3D(83rem, 4rem, 0);
+  }
+  .ritual-bg img {
+    width: 150%;
   }
   .rellax7 {
     margin-top: -10rem;
