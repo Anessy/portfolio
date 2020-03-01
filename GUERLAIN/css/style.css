@@ -352,6 +352,9 @@ footer {
   }
 }
 @media (max-width: 375px) and (max-width: 575.98px) {
+  #video {
+    display: none;
+  }
   header {
     padding: 2rem 0;
   }
@@ -490,6 +493,9 @@ footer {
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
+  #video {
+    display: none;
+  }
   header {
     padding: 2rem 0;
   }
