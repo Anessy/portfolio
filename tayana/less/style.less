@@ -66,7 +66,7 @@ p {
       font-family: PT Serif;
       font-style: normal;
       font-weight: bold;
-      font-size: 34px;
+      font-size: 30px;
       line-height: 42px;
       color: #FFFFFF;
       text-shadow: 0px 1px 2px #E1B3A0;
@@ -265,9 +265,16 @@ p {
       width: 100%;
     }
   }
+  &-bg {
+    position: absolute;
+    transform: translate3d(18rem,32.1rem,0);
+    img {
+      width: 90%;
+    }
+  }
   &-two { //hend
     position: absolute;
-    transform: translate3d(32rem,36rem,0);
+    transform: translate3d(-3.5rem,33.5rem,0);
     img {
       width: 100%;
     }
@@ -312,61 +319,65 @@ p {
 .ritual {
   position: relative;
   margin-top: 6rem;
-  padding: 6rem 0 6rem 3%;
+  padding: 4rem 0 6rem 3%;
   background: linear-gradient(121.08deg, #CEA995 11.81%, #D7AB94 53.11%, #F0CDB7 96.16%);
   &-text {
-    //margin-right: 3rem;
+    text-align: center;
     h1 {
       font-size: 34px;
+      margin-bottom: 3rem;
       line-height: 42px;
       color: #FFFFFF;
       text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+    } 
+  }
+  .for-button {
+    button {
+      color: white; 
+      background: rgba(255, 255, 255, 0.2);
+      border: 1px solid #FFFFFF;
+      width: 140px;
+      height: 50px;
+      background: rgba(198, 228, 172, 0.15);
+      border: 1px solid #C6E4AC;
+      p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #B6D29E;
+        margin-top: 0.7rem;
+      }
     }
-    p {
-      font-family: 'Lato';
-      font-style: normal;
-      font-weight: normal;
-      font-size: 19px;
-      line-height: 26px;
-      color: #FFFFFF;
-      margin: 2rem 0;
+    button:focus {
+      outline:none !important;
     }
-    .for-button {
-      button {
-        color: white; 
-        background: rgba(255, 255, 255, 0.2);
-        border: 1px solid #FFFFFF;
-        width: 140px;
-        height: 50px;
-        margin-top: 4rem;
-        p {
-          margin: -0.1rem 0;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 15px;
-          line-height: 25px;
-          text-align: center;
-          color: #FFFFFF;
-        }
-      }
-      button:focus {
-        outline:none !important;
-      }
-      button:active {
-        background: rgba(255, 255, 255, 0.1);
-      }
-      button:hover {
-        background: rgba(255, 255, 255, 0.1);
-      }
+    button:active {
+      background: rgba(255, 255, 255, 0.1);
+    }
+    button:hover {
+      background: rgba(255, 255, 255, 0.1);
     }
   }
   &-primer {
-    width: 85%;
-    padding: 4rem 0.7rem 4rem 0.7rem;
+    //width: 85%;
+    padding: 4rem 0.8rem 2.5rem 0.8rem;
     text-align: center;
     background-color: white;
     border: 1px solid white;
     box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    p {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      text-transform: capitalize;
+      color: #282828;
+      margin-bottom: 2.6rem;
+    }
     img {
       margin-bottom: 2rem;
     }
@@ -376,13 +387,22 @@ p {
     cursor: pointer;
   }
   &-tonal {
-    width: 85%;
-    padding: 3rem 0.7rem 2.5rem 0.7rem;
+   //width: 85%;
+    padding: 3rem 0.8rem 2.5rem 0.8rem;
     text-align: center;
     background-color: white;
     border: 1px solid white;
     box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-    
+    p {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      text-transform: capitalize;
+      color: #282828;
+    }
     img {
       margin-bottom: 2rem;
     }
@@ -393,7 +413,7 @@ p {
   }
   &-bg{
     position: absolute;
-    transform: translate3D(33rem,6rem,0);
+    transform: translate3D(33rem,14rem,0);
   }
 }
 
@@ -614,10 +634,10 @@ footer{
     position: absolute;
   }
   .one{ // green letter
-    transform: translate3d(-2rem,-52rem,0);
+    transform: translate3d(-10rem,-52rem,0);
   }
   .two { //nuts
-    transform: translate3d(0,-2rem,0);
+    transform: translate3d(-8rem,-2rem,0);
   }
 }
 //================================================================
@@ -654,6 +674,15 @@ footer{
     &-text {
       width: 90%;
       margin-left: 5%;
+      h1 {
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px #E1B3A0;
+      }
     }
   }
  .about {
@@ -753,6 +782,9 @@ footer{
       width: 120%;
     }
   }
+  &-bg {
+    display: none;
+  }
   &-two { //hend
     margin-top: -6rem;
     margin-right: 1rem;
@@ -797,81 +829,42 @@ footer{
 //================================================================
 
 .forteenthQuestion {
-  margin-top: 85rem;
+  margin-top: 75rem;
 }
 
 .ritual {
-  text-align: center;
-  position: relative;
   margin-top: 6rem;
-  padding: 6rem 0 6rem 0;
+  padding: 4rem 0;
   &-text {
- 
-    .for-button {
-      button {
-        color: white; 
-        background: rgba(255, 255, 255, 0.2);
-        border: 1px solid #FFFFFF;
-        width: 140px;
-        height: 50px;
-        margin-top: 3rem;
-        margin-bottom: 4rem;
-        p {
-          margin: -0.1rem 0;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 15px;
-          line-height: 25px;
-          text-align: center;
-          color: #FFFFFF;
-        }
-      }
-      button:focus {
-        outline:none !important;
-      }
-      button:active {
-        background: rgba(255, 255, 255, 0.1);
-      }
-      button:hover {
-        background: rgba(255, 255, 255, 0.1);
-      }
-    }
-  }
-  &-primer {
-    width: 100%;
-    padding: 4rem 0.5rem 4rem 0.5rem;
     text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-    margin-bottom: 4rem;
+  }
+  
+  &-primer {
+    padding: 4rem 0.9rem 2.5rem 0.9rem;
+    margin-bottom: 2rem;
+    p {
+      margin-bottom: 2.3rem;
+    }
     img {
       margin-bottom: 2rem;
     }
   } 
-  &-primer:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
+
   &-tonal {
-    width: 100%;
-    padding: 3rem 0.5rem 2.5rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-    
+    padding: 3rem 0.9rem 2.5rem 0.9rem;
+    p {
+      color: #282828;
+    }
     img {
       margin-bottom: 2rem;
     }
   }
-  &-tonal:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   &-bg{
     position: absolute;
-    transform: translate3D(0,57rem,0); //====
+    transform: translate3D(0rem,42rem,0);
+    img {
+      transform: translate3d(-4rem,6rem,0);
+    }
   }
 }
 .slider {
@@ -1082,6 +1075,15 @@ footer{
       &-text {
         width: 90%;
         margin-left: 5%;
+        h1 {
+          font-family: PT Serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 34px;
+          line-height: 42px;
+          color: #FFFFFF;
+          text-shadow: 0px 1px 2px #E1B3A0;
+        }
       }
       &-bg{
         position: absolute;
@@ -1191,6 +1193,9 @@ footer{
         width: 120%;
       }
     }
+    &-bg {
+      display: none;
+    }
     &-two { //hend
       position: absolute;
       transform: translate3d(7rem,36rem,0);
@@ -1234,77 +1239,35 @@ footer{
   }
   
   .ritual {
-    text-align: center;
-    position: relative;
     margin-top: 6rem;
-    padding: 6rem 0 6rem 0;
+    padding: 4rem 0;
     &-text {
-   
-      .for-button {
-        button {
-          color: white; 
-          background: rgba(255, 255, 255, 0.2);
-          border: 1px solid #FFFFFF;
-          width: 140px;
-          height: 50px;
-          margin-top: 3rem;
-          margin-bottom: 4rem;
-          p {
-            margin: -0.1rem 0;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 15px;
-            line-height: 25px;
-            text-align: center;
-            color: #FFFFFF;
-          }
-        }
-        button:focus {
-          outline:none !important;
-        }
-        button:active {
-          background: rgba(255, 255, 255, 0.1);
-        }
-        button:hover {
-          background: rgba(255, 255, 255, 0.1);
-        }
-      }
-    }
-    &-primer {
-      width: 100%;
-      padding: 4rem 0.5rem 4rem 0.5rem;
       text-align: center;
-      background-color: white;
-      border: 1px solid white;
-      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-      margin-bottom: 4rem;
+    }
+    
+    &-primer {
+      padding: 4rem 0.9rem 2.5rem 0.9rem;
+      margin-bottom: 2rem;
+      p {
+        margin-bottom: 2.3rem;
+      }
       img {
         margin-bottom: 2rem;
       }
     } 
-    &-primer:hover {
-      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-      cursor: pointer;
-    }
+
     &-tonal {
-      width: 100%;
-      padding: 3rem 0.5rem 2.5rem 0.5rem;
-      text-align: center;
-      background-color: white;
-      border: 1px solid white;
-      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-      
+      padding: 3rem 0.9rem 2.5rem 0.9rem;
+      p {
+        color: #282828;
+      }
       img {
         margin-bottom: 2rem;
       }
     }
-    &-tonal:hover {
-      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-      cursor: pointer;
-    }
     &-bg{
       position: absolute;
-      transform: translate3D(0,57rem,0); //====
+      transform: translate3D(0rem,39rem,0);
     }
   }
   .slider {
@@ -1515,6 +1478,15 @@ footer{
     }
     &-text {
       margin-bottom: 5rem;
+      h1 {
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px #E1B3A0;
+      }
     }
     &-scroll {
       margin-bottom: 6rem;
@@ -1616,6 +1588,9 @@ footer{
           width: 120%;
         }
       }
+      &-bg {
+        display: none;
+      }
       &-two { //hend
         position: absolute;
         transform: translate3d(10rem,54rem,0);
@@ -1663,77 +1638,35 @@ footer{
     margin-top: 6rem;
   }
   .ritual {
-    text-align: center;
-    position: relative;
     margin-top: 6rem;
-    padding: 6rem 0 6rem 0;
+    padding: 4rem 0;
     &-text {
-   
-      .for-button {
-        button {
-          color: white; 
-          background: rgba(255, 255, 255, 0.2);
-          border: 1px solid #FFFFFF;
-          width: 140px;
-          height: 50px;
-          margin-top: 3rem;
-          margin-bottom: 4rem;
-          p {
-            margin: -0.1rem 0;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 15px;
-            line-height: 25px;
-            text-align: center;
-            color: #FFFFFF;
-          }
-        }
-        button:focus {
-          outline:none !important;
-        }
-        button:active {
-          background: rgba(255, 255, 255, 0.1);
-        }
-        button:hover {
-          background: rgba(255, 255, 255, 0.1);
-        }
-      }
-    }
-    &-primer {
-      width: 100%;
-      padding: 4rem 0.5rem 4rem 0.5rem;
       text-align: center;
-      background-color: white;
-      border: 1px solid white;
-      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-      margin-bottom: 4rem;
+    }
+    
+    &-primer {
+      padding: 4rem 0.7rem 2.5rem 0.7rem;
+      margin-bottom: 2rem;
+      p {
+        margin-bottom: 2.3rem;
+      }
       img {
         margin-bottom: 2rem;
       }
     } 
-    &-primer:hover {
-      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-      cursor: pointer;
-    }
+
     &-tonal {
-      width: 100%;
-      padding: 3rem 0.5rem 2.5rem 0.5rem;
-      text-align: center;
-      background-color: white;
-      border: 1px solid white;
-      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-      
+      padding: 3rem 0.7rem 2.5rem 0.7rem;
+      p {
+        color: #282828;
+      }
       img {
         margin-bottom: 2rem;
       }
     }
-    &-tonal:hover {
-      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-      cursor: pointer;
-    }
     &-bg{
       position: absolute;
-      transform: translate3D(0,49rem,0); //====
+      transform: translate3D(0rem,39rem,0);
     }
   }
   .slider {
@@ -1939,6 +1872,15 @@ footer{
     &-text {
       width: 90%;
       margin-left: 5%;
+      h1 {
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px #E1B3A0;
+      }
     }
     &-bg{
       position: absolute;
@@ -2037,11 +1979,18 @@ footer{
         width: 100%;
       }
     }
+    &-bg {
+      position: absolute;
+      transform: translate3d(4.5rem,24.1rem,0);
+      img {
+        width: 90%;
+      }
+    }
     &-two { //hend
       position: absolute;
-      transform: translate3d(24rem,34rem,0);
+      transform: translate3d(-11.5rem,25.5rem,0);
       img {
-        width: 130%;
+        width: 100%;
       }
     }
     &-lines { //lines
@@ -2051,8 +2000,6 @@ footer{
         width: 100%;
       }
     }
-  
-    
     .circle, .text {
       position: absolute;
       transform: translate3d(0rem,2rem,0);
@@ -2082,90 +2029,34 @@ footer{
   //========================
   
   .ritual {
-    position: relative;
     margin-top: 6rem;
-    padding: 6rem 0 6rem 3%;
-    background: linear-gradient(121.08deg, #CEA995 11.81%, #D7AB94 53.11%, #F0CDB7 96.16%);
+    padding: 4rem 0;
     &-text {
-      //margin-right: 3rem;
-      h1 {
-        font-size: 34px;
-        line-height: 42px;
-        color: #FFFFFF;
-        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
-      }
-      p {
-        font-family: 'Lato';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 19px;
-        line-height: 26px;
-        color: #FFFFFF;
-        margin: 2rem 0;
-      }
-      .for-button {
-        button {
-          color: white; 
-          background: rgba(255, 255, 255, 0.2);
-          border: 1px solid #FFFFFF;
-          width: 140px;
-          height: 50px;
-          margin-top: 3rem;
-          p {
-            margin: -0.1rem 0;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 15px;
-            line-height: 25px;
-            text-align: center;
-            color: #FFFFFF;
-          }
-        }
-        button:focus {
-          outline:none !important;
-        }
-        button:active {
-          background: rgba(255, 255, 255, 0.1);
-        }
-        button:hover {
-          background: rgba(255, 255, 255, 0.1);
-        }
-      }
-    }
-    &-primer {
-      width: 85%;
-      padding: 4rem 0.5rem 4rem 0.5rem;
       text-align: center;
-      background-color: white;
-      border: 1px solid white;
-      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    }
+    
+    &-primer {
+      padding: 4rem 0.7rem 2.5rem 0.7rem;
+      p {
+        margin-bottom: 2.6rem;
+      }
       img {
         margin-bottom: 2rem;
       }
     } 
-    &-primer:hover {
-      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-      cursor: pointer;
-    }
+
     &-tonal {
-      width: 85%;
-      padding: 3rem 0.5rem 2.5rem 0.5rem;
-      text-align: center;
-      background-color: white;
-      border: 1px solid white;
-      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-      
+      padding: 3rem 0.7rem 2.5rem 0.7rem;
+      p {
+        color: #282828;
+      }
       img {
         margin-bottom: 2rem;
       }
     }
-    &-tonal:hover {
-      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-      cursor: pointer;
-    }
     &-bg{
       position: absolute;
-      transform: translate3D(20rem,6rem,0); //====
+      transform: translate3D(15rem,12rem,0);
     }
   }
   .slider {
@@ -2330,10 +2221,10 @@ footer{
     position: absolute;
   }
   .one{ // green letter
-    transform: translate3d(-2rem,-58rem,0);
+    transform: translate3d(-18rem,-50rem,0);
   }
   .two { //nuts
-    transform: translate3d(-1rem,-10rem,0);
+    transform: translate3d(-16rem,-19rem,0);
   }
 }
 //================================================================
@@ -2353,6 +2244,15 @@ footer{
     &-text {
       width: 80%;
       margin-left: 10%;
+      h1 {
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px #E1B3A0;
+      }
     }
     &-bg{
       position: absolute;
@@ -2436,11 +2336,18 @@ footer{
         width: 100%;
       }
     }
+    &-bg {
+      position: absolute;
+      transform: translate3d(6rem,28.1rem,0);
+      img {
+        width: 90%;
+      }
+    }
     &-two { //hend
       position: absolute;
-      transform: translate3d(26rem,34rem,0);
+      transform: translate3d(-11.5rem,29.5rem,0);
       img {
-        width: 130%;
+        width: 100%;
       }
     }
     &-lines { //lines
@@ -2480,90 +2387,34 @@ footer{
   }
   //================================================================
   .ritual {
-    position: relative;
     margin-top: 6rem;
-    padding: 6rem 0 6rem 3%;
-    background: linear-gradient(121.08deg, #CEA995 11.81%, #D7AB94 53.11%, #F0CDB7 96.16%);
+    padding: 4rem 0;
     &-text {
-      //margin-right: 3rem;
-      h1 {
-        font-size: 34px;
-        line-height: 42px;
-        color: #FFFFFF;
-        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
-      }
-      p {
-        font-family: 'Lato';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 19px;
-        line-height: 26px;
-        color: #FFFFFF;
-        margin: 2rem 0;
-      }
-      .for-button {
-        button {
-          color: white; 
-          background: rgba(255, 255, 255, 0.2);
-          border: 1px solid #FFFFFF;
-          width: 140px;
-          height: 50px;
-          margin-top: 4rem;
-          p {
-            margin: -0.1rem 0;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 15px;
-            line-height: 25px;
-            text-align: center;
-            color: #FFFFFF;
-          }
-        }
-        button:focus {
-          outline:none !important;
-        }
-        button:active {
-          background: rgba(255, 255, 255, 0.1);
-        }
-        button:hover {
-          background: rgba(255, 255, 255, 0.1);
-        }
-      }
-    }
-    &-primer {
-      width: 85%;
-      padding: 4rem 0.5rem 4rem 0.5rem;
       text-align: center;
-      background-color: white;
-      border: 1px solid white;
-      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    }
+    
+    &-primer {
+      padding: 4rem 0.7rem 2.5rem 0.7rem;
+      p {
+        margin-bottom: 2.6rem;
+      }
       img {
         margin-bottom: 2rem;
       }
     } 
-    &-primer:hover {
-      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-      cursor: pointer;
-    }
+
     &-tonal {
-      width: 85%;
-      padding: 3rem 0.5rem 2.5rem 0.5rem;
-      text-align: center;
-      background-color: white;
-      border: 1px solid white;
-      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-      
+      padding: 3rem 0.7rem 2.5rem 0.7rem;
+      p {
+        color: #282828;
+      }
       img {
         margin-bottom: 2rem;
       }
     }
-    &-tonal:hover {
-      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-      cursor: pointer;
-    }
     &-bg{
       position: absolute;
-      transform: translate3D(20rem,6rem,0); //====
+      transform: translate3D(33rem,14rem,0);
     }
   }
   .slider {
@@ -2728,10 +2579,10 @@ footer{
       position: absolute;
     }
     .one{ // green letter
-      transform: translate3d(-2rem,-52rem,0);
+      transform: translate3d(-18rem,-50rem,0);
     }
     .two { //nuts
-      transform: translate3d(-1rem,-5rem,0);
+      transform: translate3d(-16rem,-17rem,0);
     }
   }
   //================================================================
@@ -2756,7 +2607,7 @@ footer{
 
 
  // ================ Большие девайсы (большие десктопы, >= 1200px)
-@media (min-width: 1408px) and (max-width: 1479.98px) {
+@media (min-width: 1408px) and (max-width: 1439.98px) {
   .play {
     transform: translate3d(0,-23rem,0);
   }
@@ -2764,90 +2615,38 @@ footer{
     margin-top: 12rem;
   }
   .ritual {
-    position: relative;
     margin-top: 6rem;
-    padding: 6rem 0 6rem 3%;
-    background: linear-gradient(121.08deg, #CEA995 11.81%, #D7AB94 53.11%, #F0CDB7 96.16%);
+    padding: 4rem 0 6rem 3%;
     &-text {
-      margin-right: 1rem;
+      text-align: center;
       h1 {
         font-size: 34px;
+        margin-bottom: 3rem;
         line-height: 42px;
         color: #FFFFFF;
         text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
-      }
-      p {
-        font-family: 'Lato';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 19px;
-        line-height: 26px;
-        color: #FFFFFF;
-        margin: 2rem 0;
-      }
-      .for-button {
-        button {
-          color: white; 
-          background: rgba(255, 255, 255, 0.2);
-          border: 1px solid #FFFFFF;
-          width: 140px;
-          height: 50px;
-          margin-top: 4rem;
-          p {
-            margin: -0.1rem 0;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 15px;
-            line-height: 25px;
-            text-align: center;
-            color: #FFFFFF;
-          }
-        }
-        button:focus {
-          outline:none !important;
-        }
-        button:active {
-          background: rgba(255, 255, 255, 0.1);
-        }
-        button:hover {
-          background: rgba(255, 255, 255, 0.1);
-        }
-      }
+      } 
     }
+
     &-primer {
-      width: 85%;
-      padding: 4rem 0.5rem 4rem 0.5rem;
-      text-align: center;
-      background-color: white;
-      border: 1px solid white;
-      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+      padding: 4rem 0.7rem 2.5rem 0.7rem;
+      p {
+        margin-bottom: 2.6rem;
+      }
       img {
         margin-bottom: 2rem;
       }
     } 
-    &-primer:hover {
-      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-      cursor: pointer;
-    }
+
     &-tonal {
-      width: 85%;
-      padding: 3rem 0.5rem 2.5rem 0.5rem;
-      text-align: center;
-      background-color: white;
-      border: 1px solid white;
-      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-      
+      padding: 3rem 0.7rem 2.5rem 0.7rem;
       img {
         margin-bottom: 2rem;
       }
     }
-    &-tonal:hover {
-      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-      cursor: pointer;
-    }
+  
     &-bg{
-      position: absolute;
-      transform: translate3D(40rem,6rem,0);//=====
+      transform: translate3D(39rem,14rem,0);
     }
   }
   // ===========адаптивность rellax ==============================
@@ -2984,10 +2783,10 @@ footer{
       position: absolute;
     }
     .one{ // green letter
-      transform: translate3d(-2rem,-42rem,0);
+      transform: translate3d(-10rem,-42rem,0);
     }
     .two { //nuts
-      transform: translate3d(0,-18rem,0);
+      transform: translate3d(-8rem,-18rem,0);
     }
   }
   //================================================================
@@ -3001,100 +2800,76 @@ footer{
   }
 //================================================================
  }
- @media (min-width: 1480px) and (max-width: 1535.98px) {
+ @media (min-width: 1440px) and (max-width: 1479.98px) {
   .play {
     transform: translate3d(0,-23rem,0);
   }
-  
-
-  .eightthQuestion {
-    margin-top: 12rem;
-  }
-  .ritual {
+  .photo2 {
     position: relative;
+    padding: 4rem 0 33rem 0;
+    .one,.two,.three {
+      position: absolute;
+    } 
+    .one { //joga
+      transform: translate3d(0,0,0);
+      img {
+        width: 100%;
+      }
+    }
+    .two { //bg
+      transform: translate3d(-14rem,15.5rem,0);
+      img {
+        width: 100%;
+      }
+    }
+    .three { //music
+      transform: translate3d(18rem,17rem,0);
+      img {
+        width: 100%;
+      }
+    }
+    
+    .text, .circle {
+      position: absolute;
+      transform: translate3d(16rem,0,0);
+    }
+   
+    
+   
+    }
+  .ritual {
     margin-top: 6rem;
-    padding: 6rem 0 6rem 3%;
-    background: linear-gradient(121.08deg, #CEA995 11.81%, #D7AB94 53.11%, #F0CDB7 96.16%);
+    padding: 4rem 0 6rem 3%;
     &-text {
-      //margin-right: 3rem;
+      text-align: center;
       h1 {
         font-size: 34px;
+        margin-bottom: 3rem;
         line-height: 42px;
         color: #FFFFFF;
         text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
-      }
-      p {
-        font-family: 'Lato';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 19px;
-        line-height: 26px;
-        color: #FFFFFF;
-        margin: 2rem 0;
-      }
-      .for-button {
-        button {
-          color: white; 
-          background: rgba(255, 255, 255, 0.2);
-          border: 1px solid #FFFFFF;
-          width: 140px;
-          height: 50px;
-          margin-top: 4rem;
-          p {
-            margin: -0.1rem 0;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 15px;
-            line-height: 25px;
-            text-align: center;
-            color: #FFFFFF;
-          }
-        }
-        button:focus {
-          outline:none !important;
-        }
-        button:active {
-          background: rgba(255, 255, 255, 0.1);
-        }
-        button:hover {
-          background: rgba(255, 255, 255, 0.1);
-        }
-      }
+      } 
     }
+
     &-primer {
-      width: 85%;
-      padding: 4rem 0.5rem 2.7rem 0.5rem;
-      text-align: center;
-      background-color: white;
-      border: 1px solid white;
-      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+      padding: 4rem 0.7rem 2.5rem 0.7rem;
+      p {
+        margin-bottom: 2.6rem;
+      }
       img {
         margin-bottom: 2rem;
       }
     } 
-    &-primer:hover {
-      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-      cursor: pointer;
-    }
+
     &-tonal {
-      width: 85%;
-      padding: 3rem 0.5rem 2.5rem 0.5rem;
-      text-align: center;
-      background-color: white;
-      border: 1px solid white;
-      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-      
+      padding: 3rem 0.7rem 2.5rem 0.7rem;
       img {
         margin-bottom: 2rem;
       }
     }
-    &-tonal:hover {
-      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-      cursor: pointer;
-    }
+  
     &-bg{
-      position: absolute;
-      transform: translate3D(45rem,6rem,0);//=====
+      transform: translate3D(43rem,14rem,0);
     }
   }
   .rellax1 {
@@ -3230,10 +3005,236 @@ footer{
       position: absolute;
     }
     .one{ // green letter
-      transform: translate3d(-2rem,-42rem,0);
+      transform: translate3d(-10rem,-42rem,0);
     }
     .two { //nuts
-      transform: translate3d(0,-18rem,0);
+      transform: translate3d(-8rem,-18rem,0);
+    }
+  }
+  //================================================================
+  .rellax9 {
+  
+    position: relative;
+    .one {
+      position: absolute;
+      transform: translate3d(26rem,-20rem,0);
+    }
+  }
+//================================================================
+//================================================================
+ }
+ @media (min-width: 1480px) and (max-width: 1535.98px) {
+  .play {
+    transform: translate3d(0,-23rem,0);
+  }
+  .eightthQuestion {
+    margin-top: 12rem;
+  }
+  .photo2 {
+    position: relative;
+    padding: 4rem 0 33rem 0;
+    .one,.two,.three {
+      position: absolute;
+    } 
+    .one { //joga
+      transform: translate3d(0,0,0);
+      img {
+        width: 100%;
+      }
+    }
+    .two { //bg
+      transform: translate3d(-15rem,15.5rem,0);
+      img {
+        width: 100%;
+      }
+    }
+    .three { //music
+      transform: translate3d(18rem,17rem,0);
+      img {
+        width: 100%;
+      }
+    }
+    
+    .text, .circle {
+      position: absolute;
+      transform: translate3d(16rem,0,0);
+    }
+   
+    
+   
+    }
+  .ritual {
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+    &-text {
+      text-align: center;
+      h1 {
+        font-size: 34px;
+        margin-bottom: 3rem;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+      } 
+    }
+
+    &-primer {
+      padding: 4rem 0.9rem 2.5rem 0.9rem;
+      p {
+        margin-bottom: 2.6rem;
+      }
+      img {
+        margin-bottom: 2rem;
+      }
+    } 
+
+    &-tonal {
+      padding: 3rem 0.9rem 2.5rem 0.9rem;
+      img {
+        margin-bottom: 2rem;
+      }
+    }
+  
+    &-bg{
+      transform: translate3D(43rem,14rem,0);
+    }
+  }
+  .rellax1 {
+  
+    position: relative;
+    .one { // flover big
+      position: absolute;
+      transform: translate3d(32rem,-18rem,0);
+    }
+    .two { // flower small first
+      position: absolute;
+      transform: translate3d(28rem,-7rem,0);
+    }
+    .three{ // nuts
+      position: absolute;
+      transform: translate3d(31rem,-5rem,0);
+    }
+    .four{ // flower small second
+      position: absolute;
+      transform: translate3d(33rem,2rem,0);
+    }
+  }
+  //=======================================================
+  .rellax2 {
+    position: relative;
+    .one, .two, .three {
+      position: absolute;
+      z-index: 1;
+    }
+    .one { //flower small
+      transform: translate3d(-20rem,0,0);
+    }
+    .two { //green letter
+      transform: translate3d(-20rem,0,0);
+    }
+    .three { //flower small
+      transform: translate3d(-26rem,0,0);
+    }
+  }
+  //=========================================================
+  .rellax2-1 {
+    
+    position: relative;
+    .one {
+      position: absolute;
+      z-index: 1;
+    }
+    .one { //avocado
+      transform: translate3d(17rem,0,0);
+    
+  }
+  }
+  //=========================================================
+  .rellax3 {
+   
+   position: relative;
+   .one {
+     position: absolute;
+   }
+   .one {
+     transform: translate3d(-31rem,0,0);
+   }
+   
+  }
+  //==========================================================
+  .rellax4 {
+    z-index: -1;
+    position: relative;
+    .one { //green letter
+      position: absolute;
+      transform: translate3d(-36rem,-42rem,0);
+    }
+    .two { // avokado
+      position: absolute;
+      transform: translate3d(-36rem,-32rem,0);
+    }
+  }
+  //=========================================================
+  .rellax5 {
+    
+    position: relative; 
+    .one,.two{
+      position: absolute; 
+    } 
+    .one { //avokado
+      transform: translate3d(-34rem,-44rem,0);
+    }
+    .two { // tree
+      transform: translate3d(-34rem,-10rem,0);
+    }
+  }
+  
+  //=======================================================
+  
+  .rellax6 {
+    position: relative;
+    .one {
+      position: absolute;
+      transform: translate3d(65rem,0,0);
+      z-index: 1;
+    }
+  }
+  //==========================================================
+  .rellax7 {
+    z-index: -1;
+    position: relative;
+    .one,.two {
+      position: absolute;
+    }
+    .one{ //green letter
+      transform: translate3d(-33rem,-20rem,0);
+    }
+    .two { //avokado
+      transform: translate3d(-33rem,0,0);
+    }
+  }
+  //================================================================
+  .rellax8 {
+    position: relative;
+    .one {
+      position: absolute; //big flower
+      transform: translate3d(-33rem,10rem,0);
+    }
+    .two {
+      position: absolute; // small flower
+      transform: translate3d(-28rem,0rem,0);
+    }
+  }
+  //================================================================
+  .rellax8-1 {
+    position: relative;
+    .one,.two {
+      position: absolute;
+    }
+    .one{ // green letter
+      transform: translate3d(-10rem,-42rem,0);
+    }
+    .two { //nuts
+      transform: translate3d(-8rem,-18rem,0);
     }
   }
   //================================================================
@@ -3250,6 +3251,74 @@ footer{
  @media (min-width: 1536px) and (max-width: 1599.98px) {
   .play {
     transform: translate3d(0,-23rem,0);
+  }
+  .photo2 {
+    position: relative;
+    padding: 4rem 0 33rem 0;
+    .one,.two,.three {
+      position: absolute;
+    } 
+    .one { //joga
+      transform: translate3d(0,0,0);
+      img {
+        width: 100%;
+      }
+    }
+    .two { //bg
+      transform: translate3d(-16rem,15.5rem,0);
+      img {
+        width: 100%;
+      }
+    }
+    .three { //music
+      transform: translate3d(18rem,17rem,0);
+      img {
+        width: 100%;
+      }
+    }
+    
+    .text, .circle {
+      position: absolute;
+      transform: translate3d(16rem,0,0);
+    }
+   
+    
+   
+    }
+  .ritual {
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+    &-text {
+      text-align: center;
+      h1 {
+        font-size: 34px;
+        margin-bottom: 3rem;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+      } 
+    }
+
+    &-primer {
+      padding: 4rem 0.9rem 2.5rem 0.9rem;
+      p {
+        margin-bottom: 2.3rem;
+      }
+      img {
+        margin-bottom: 2rem;
+      }
+    } 
+
+    &-tonal {
+      padding: 3rem 0.9rem 2.5rem 0.9rem;
+      img {
+        margin-bottom: 2rem;
+      }
+    }
+  
+    &-bg{
+      transform: translate3D(47rem,14rem,0);
+    }
   }
   //==========адаптивность rellax =======================
   .rellax1 {
@@ -3385,10 +3454,10 @@ footer{
       position: absolute;
     }
     .one{ // green letter
-      transform: translate3d(-2rem,-42rem,0);
+      transform: translate3d(-10rem,-42rem,0);
     }
     .two { //nuts
-      transform: translate3d(0,-18rem,0);
+      transform: translate3d(-8rem,-18rem,0);
     }
   }
   //================================================================
@@ -3403,25 +3472,82 @@ footer{
   .eightthQuestion {
     margin-top: 12rem;
   }
-  .ritual {
-    
-    &-bg{
-      position: absolute;
-      transform: translate3D(50rem,6rem,0);//=====
-    }
-  }
+ 
 //================================================================
  }
  @media (min-width: 1600px) and (max-width: 1679.98px) {
   .play {
     transform: translate3d(0,-25rem,0);
   }
-  
-  .ritual {
-   
-    &-bg{
+  .photo2 {
+    position: relative;
+    padding: 4rem 0 33rem 0;
+    .one,.two,.three {
       position: absolute;
-      transform: translate3D(57rem,6rem,0);//=====
+    } 
+    .one { //joga
+      transform: translate3d(0,0,0);
+      img {
+        width: 100%;
+      }
+    }
+    .two { //bg
+      transform: translate3d(-17rem,15.5rem,0);
+      img {
+        width: 100%;
+      }
+    }
+    .three { //music
+      transform: translate3d(18rem,17rem,0);
+      img {
+        width: 100%;
+      }
+    }
+    
+    .text, .circle {
+      position: absolute;
+      transform: translate3d(16rem,0,0);
+    }
+   
+    
+   
+    }
+  .ritual {
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+    &-text {
+      text-align: center;
+      h1 {
+        font-size: 34px;
+        margin-bottom: 3rem;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+      } 
+    }
+
+    &-primer {
+      padding: 4rem 0.9rem 2.5rem 0.9rem;
+      p {
+        margin-bottom: 2.6rem;
+      }
+      img {
+        margin-bottom: 2rem;
+      }
+    } 
+
+    &-tonal {
+      padding: 3rem 0.9rem 2.5rem 0.9rem;
+      img {
+        margin-bottom: 2rem;
+      }
+    }
+  
+    &-bg{
+      transform: translate3D(52rem,18rem,0);
+      img {
+        transform: translate3d(0,6rem,0);
+      }
     }
   }
   //=============адаптивность rellax ==================
@@ -3558,10 +3684,10 @@ footer{
       position: absolute;
     }
     .one{ // green letter
-      transform: translate3d(-2rem,-42rem,0);
+      transform: translate3d(-10rem,-42rem,0);
     }
     .two { //nuts
-      transform: translate3d(0,-18rem,0);
+      transform: translate3d(-8rem,-18rem,0);
     }
   }
   //================================================================
@@ -3592,10 +3718,38 @@ footer{
   
   
   .ritual {
-    
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+    &-text {
+      text-align: center;
+      h1 {
+        font-size: 34px;
+        margin-bottom: 3rem;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+      } 
+    }
+
+    &-primer {
+      padding: 4rem 0.9rem 2.5rem 0.9rem;
+      p {
+        margin-bottom: 2.6rem;
+      }
+      img {
+        margin-bottom: 2rem;
+      }
+    } 
+
+    &-tonal {
+      padding: 3rem 0.9rem 2.5rem 0.9rem;
+      img {
+        margin-bottom: 2rem;
+      }
+    }
+  
     &-bg{
-      position: absolute;
-      transform: translate3D(55rem,6rem,0);//=====
+      transform: translate3D(56rem,14rem,0);
     }
   }
   .photo2 {
@@ -3765,10 +3919,10 @@ footer{
       position: absolute;
     }
     .one{ // green letter
-      transform: translate3d(-2rem,-42rem,0);
+      transform: translate3d(-10rem,-42rem,0);
     }
     .two { //nuts
-      transform: translate3d(0,-18rem,0);
+      transform: translate3d(-8rem,-18rem,0);
     }
   }
   //================================================================
@@ -3788,10 +3942,38 @@ footer{
   }
   
   .ritual {
-    
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+    &-text {
+      text-align: center;
+      h1 {
+        font-size: 34px;
+        margin-bottom: 3rem;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+      } 
+    }
+
+    &-primer {
+      padding: 4rem 0.9rem 2.5rem 0.9rem;
+      p {
+        margin-bottom: 2.6rem;
+      }
+      img {
+        margin-bottom: 2rem;
+      }
+    } 
+
+    &-tonal {
+      padding: 3rem 0.9rem 2.5rem 0.9rem;
+      img {
+        margin-bottom: 2rem;
+      }
+    }
+  
     &-bg{
-      position: absolute;
-      transform: translate3D(70rem,6rem,0);//=====
+      transform: translate3D(70rem,14rem,0);
     }
   }
   
@@ -3967,10 +4149,10 @@ footer{
       position: absolute;
     }
     .one{ // green letter
-      transform: translate3d(-2rem,-42rem,0);
+      transform: translate3d(-10rem,-42rem,0);
     }
     .two { //nuts
-      transform: translate3d(0,-18rem,0);
+      transform: translate3d(-8rem,-18rem,0);
     }
   }
   //================================================================
@@ -3990,11 +4172,41 @@ footer{
   }
   
   .ritual {
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+    &-text {
+      text-align: center;
+      h1 {
+        font-size: 34px;
+        margin-bottom: 3rem;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+      } 
+    }
+
+    &-primer {
+      padding: 4rem 0.9rem 2.5rem 0.9rem;
+      p {
+        margin-bottom: 2.6rem;
+      }
+      img {
+        margin-bottom: 2rem;
+      }
+    } 
+
+    &-tonal {
+      padding: 3rem 0.9rem 2.5rem 0.9rem;
+      img {
+        margin-bottom: 2rem;
+      }
+    }
+  
     &-bg{
-      position: absolute;
-      transform: translate3D(77rem,6rem,0);//=====
+      transform: translate3D(77rem,14rem,0);
     }
   }
+  
   
   .first {
     &-text {
@@ -4168,10 +4380,10 @@ footer{
       position: absolute;
     }
     .one{ // green letter
-      transform: translate3d(-2rem,-42rem,0);
+      transform: translate3d(-10rem,-42rem,0);
     }
     .two { //nuts
-      transform: translate3d(0,-18rem,0);
+      transform: translate3d(-8rem,-18rem,0);
     }
   }
   //================================================================
@@ -4190,9 +4402,38 @@ footer{
   }
   
   .ritual {
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+    &-text {
+      text-align: center;
+      h1 {
+        font-size: 34px;
+        margin-bottom: 3rem;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+      } 
+    }
+
+    &-primer {
+      padding: 4rem 0.9rem 2.5rem 0.9rem;
+      p {
+        margin-bottom: 2.6rem;
+      }
+      img {
+        margin-bottom: 2rem;
+      }
+    } 
+
+    &-tonal {
+      padding: 3rem 0.9rem 2.5rem 0.9rem;
+      img {
+        margin-bottom: 2rem;
+      }
+    }
+  
     &-bg{
-      position: absolute;
-      transform: translate3D(77rem,6rem,0);//=====
+      transform: translate3D(89rem,14rem,0);
     }
   }
   
@@ -4369,10 +4610,10 @@ footer{
       position: absolute;
     }
     .one{ // green letter
-      transform: translate3d(-2rem,-42rem,0);
+      transform: translate3d(-10rem,-42rem,0);
     }
     .two { //nuts
-      transform: translate3d(0,-18rem,0);
+      transform: translate3d(-8rem,-18rem,0);
     }
   }
   //================================================================
@@ -4392,12 +4633,45 @@ footer{
   }
   
   .ritual {
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+    &-text {
+      text-align: center;
+      h1 {
+        font-size: 34px;
+        margin-bottom: 3rem;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+      } 
+    }
+
+    &-primer {
+      width: 85%;
+      padding: 4rem 0.9rem 2.5rem 0.9rem;
+      p {
+        margin-bottom: 2.6rem;
+      }
+      img {
+        margin-bottom: 2rem;
+      }
+    } 
+
+    &-tonal {
+      width: 85%;
+      padding: 3rem 0.9rem 2.5rem 0.9rem;
+      img {
+        margin-bottom: 2rem;
+      }
+    }
+  
     &-bg{
-      position: absolute;
-      transform: translate3D(77rem,6rem,0);//=====
+      transform: translate3D(83rem,4rem,0);
+      img {
+        width: 150%;
+      }
     }
   }
-  
   
   .first {
     &-text {
@@ -4571,10 +4845,10 @@ footer{
       position: absolute;
     }
     .one{ // green letter
-      transform: translate3d(-2rem,-42rem,0);
+      transform: translate3d(-10rem,-42rem,0);
     }
     .two { //nuts
-      transform: translate3d(0,-18rem,0);
+      transform: translate3d(-8rem,-18rem,0);
     }
   }
   //================================================================

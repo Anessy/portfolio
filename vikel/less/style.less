@@ -66,7 +66,7 @@ p {
       font-family: PT Serif;
       font-style: normal;
       font-weight: bold;
-      font-size: 34px;
+      font-size: 30px;
       line-height: 42px;
       color: #FFFFFF;
       text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
@@ -317,61 +317,65 @@ p {
 .ritual {
   position: relative;
   margin-top: 6rem;
-  padding: 6rem 0 6rem 3%;
+  padding: 4rem 0 6rem 3%;
   background: linear-gradient(121.08deg, #CEA995 11.81%, #D7AB94 53.11%, #F0CDB7 96.16%);
   &-text {
-    //margin-right: 3rem;
+    text-align: center;
     h1 {
       font-size: 34px;
+      margin-bottom: 3rem;
       line-height: 42px;
       color: #FFFFFF;
       text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+    } 
+  }
+  .for-button {
+    button {
+      color: white; 
+      background: rgba(255, 255, 255, 0.2);
+      border: 1px solid #FFFFFF;
+      width: 140px;
+      height: 50px;
+      background: rgba(198, 228, 172, 0.15);
+      border: 1px solid #C6E4AC;
+      p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #B6D29E;
+        margin-top: 0.7rem;
+      }
     }
-    p {
-      font-family: 'Lato';
-      font-style: normal;
-      font-weight: normal;
-      font-size: 19px;
-      line-height: 26px;
-      color: #FFFFFF;
-      margin: 2rem 0;
+    button:focus {
+      outline:none !important;
     }
-    .for-button {
-      button {
-        color: white; 
-        background: rgba(255, 255, 255, 0.2);
-        border: 1px solid #FFFFFF;
-        width: 140px;
-        height: 50px;
-        margin-top: 4rem;
-        p {
-          margin: -0.1rem 0;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 15px;
-          line-height: 25px;
-          text-align: center;
-          color: #FFFFFF;
-        }
-      }
-      button:focus {
-        outline:none !important;
-      }
-      button:active {
-        background: rgba(255, 255, 255, 0.1);
-      }
-      button:hover {
-        background: rgba(255, 255, 255, 0.1);
-      }
+    button:active {
+      background: rgba(255, 255, 255, 0.1);
+    }
+    button:hover {
+      background: rgba(255, 255, 255, 0.1);
     }
   }
   &-primer {
-    width: 85%;
-    padding: 4rem 0.7rem 4rem 0.7rem;
+    //width: 85%;
+    padding: 4rem 0.8rem 2.5rem 0.8rem;
     text-align: center;
     background-color: white;
     border: 1px solid white;
     box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    p {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      text-transform: capitalize;
+      color: #282828;
+      margin-bottom: 2.6rem;
+    }
     img {
       margin-bottom: 2rem;
     }
@@ -381,13 +385,22 @@ p {
     cursor: pointer;
   }
   &-tonal {
-    width: 85%;
-    padding: 3rem 0.7rem 2.5rem 0.7rem;
+   //width: 85%;
+    padding: 3rem 0.8rem 2.5rem 0.8rem;
     text-align: center;
     background-color: white;
     border: 1px solid white;
     box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-    
+    p {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      text-transform: capitalize;
+      color: #282828;
+    }
     img {
       margin-bottom: 2rem;
     }
@@ -398,7 +411,7 @@ p {
   }
   &-bg{
     position: absolute;
-    transform: translate3D(33rem,6rem,0);
+    transform: translate3D(33rem,14rem,0);
   }
 }
 
@@ -657,6 +670,15 @@ footer{
     &-text {
       width: 90%;
       margin-left: 5%;
+      h1 {
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
+      }
     }
     &-bg{
         position: absolute;
@@ -796,77 +818,38 @@ footer{
 }
 
 .ritual {
-  text-align: center;
-  position: relative;
   margin-top: 6rem;
-  padding: 6rem 0 6rem 0;
+  padding: 4rem 0;
   &-text {
- 
-    .for-button {
-      button {
-        color: white; 
-        background: rgba(255, 255, 255, 0.2);
-        border: 1px solid #FFFFFF;
-        width: 140px;
-        height: 50px;
-        margin-top: 3rem;
-        margin-bottom: 4rem;
-        p {
-          margin: -0.1rem 0;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 15px;
-          line-height: 25px;
-          text-align: center;
-          color: #FFFFFF;
-        }
-      }
-      button:focus {
-        outline:none !important;
-      }
-      button:active {
-        background: rgba(255, 255, 255, 0.1);
-      }
-      button:hover {
-        background: rgba(255, 255, 255, 0.1);
-      }
-    }
-  }
-  &-primer {
-    width: 100%;
-    padding: 4rem 0.5rem 4rem 0.5rem;
     text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-    margin-bottom: 4rem;
+  }
+  
+  &-primer {
+    padding: 4rem 0.9rem 2.5rem 0.9rem;
+    margin-bottom: 2rem;
+    p {
+      margin-bottom: 2.3rem;
+    }
     img {
       margin-bottom: 2rem;
     }
   } 
-  &-primer:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
+
   &-tonal {
-    width: 100%;
-    padding: 3rem 0.5rem 2.5rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-    
+    padding: 3rem 0.9rem 2.5rem 0.9rem;
+    p {
+      color: #282828;
+    }
     img {
       margin-bottom: 2rem;
     }
   }
-  &-tonal:hover {
-    box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   &-bg{
     position: absolute;
-    transform: translate3D(0,57rem,0); //====
+    transform: translate3D(0rem,42rem,0);
+    img {
+      transform: translate3d(-4rem,6rem,0);
+    }
   }
 }
 .slider {
@@ -1051,6 +1034,15 @@ footer{
       &-text {
         width: 90%;
         margin-left: 5%;
+        h1 {
+          font-family: PT Serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 34px;
+          line-height: 42px;
+          color: #FFFFFF;
+          text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
+        }
       }
       &-bg{
         position: absolute;
@@ -1115,7 +1107,7 @@ footer{
     }
     &-bg {
       position: absolute;
-      transform: translate3d(8.2rem,71rem,0);
+      transform: translate3d(8.5rem,71rem,0);
     }
     &-fourth {
       position: absolute;
@@ -1192,77 +1184,35 @@ footer{
   }
   
   .ritual {
-    text-align: center;
-    position: relative;
     margin-top: 6rem;
-    padding: 6rem 0 6rem 0;
+    padding: 4rem 0;
     &-text {
-   
-      .for-button {
-        button {
-          color: white; 
-          background: rgba(255, 255, 255, 0.2);
-          border: 1px solid #FFFFFF;
-          width: 140px;
-          height: 50px;
-          margin-top: 3rem;
-          margin-bottom: 4rem;
-          p {
-            margin: -0.1rem 0;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 15px;
-            line-height: 25px;
-            text-align: center;
-            color: #FFFFFF;
-          }
-        }
-        button:focus {
-          outline:none !important;
-        }
-        button:active {
-          background: rgba(255, 255, 255, 0.1);
-        }
-        button:hover {
-          background: rgba(255, 255, 255, 0.1);
-        }
-      }
-    }
-    &-primer {
-      width: 100%;
-      padding: 4rem 0.5rem 4rem 0.5rem;
       text-align: center;
-      background-color: white;
-      border: 1px solid white;
-      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-      margin-bottom: 4rem;
+    }
+    
+    &-primer {
+      padding: 4rem 0.9rem 2.5rem 0.9rem;
+      margin-bottom: 2rem;
+      p {
+        margin-bottom: 2.3rem;
+      }
       img {
         margin-bottom: 2rem;
       }
     } 
-    &-primer:hover {
-      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-      cursor: pointer;
-    }
+
     &-tonal {
-      width: 100%;
-      padding: 3rem 0.5rem 2.5rem 0.5rem;
-      text-align: center;
-      background-color: white;
-      border: 1px solid white;
-      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-      
+      padding: 3rem 0.9rem 2.5rem 0.9rem;
+      p {
+        color: #282828;
+      }
       img {
         margin-bottom: 2rem;
       }
     }
-    &-tonal:hover {
-      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-      cursor: pointer;
-    }
     &-bg{
       position: absolute;
-      transform: translate3D(0,57rem,0); //====
+      transform: translate3D(0rem,39rem,0);
     }
   }
   .slider {
@@ -1446,6 +1396,15 @@ footer{
     }
     &-text {
       margin-bottom: 5rem;
+      h1 {
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
+      }
     }
     &-scroll {
       margin-bottom: 6rem;
@@ -1587,77 +1546,35 @@ footer{
     }
   }
   .ritual {
-    text-align: center;
-    position: relative;
     margin-top: 6rem;
-    padding: 6rem 0 6rem 0;
+    padding: 4rem 0;
     &-text {
-   
-      .for-button {
-        button {
-          color: white; 
-          background: rgba(255, 255, 255, 0.2);
-          border: 1px solid #FFFFFF;
-          width: 140px;
-          height: 50px;
-          margin-top: 3rem;
-          margin-bottom: 4rem;
-          p {
-            margin: -0.1rem 0;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 15px;
-            line-height: 25px;
-            text-align: center;
-            color: #FFFFFF;
-          }
-        }
-        button:focus {
-          outline:none !important;
-        }
-        button:active {
-          background: rgba(255, 255, 255, 0.1);
-        }
-        button:hover {
-          background: rgba(255, 255, 255, 0.1);
-        }
-      }
-    }
-    &-primer {
-      width: 100%;
-      padding: 4rem 0.6rem 4rem 0.6rem;
       text-align: center;
-      background-color: white;
-      border: 1px solid white;
-      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-      margin-bottom: 4rem;
+    }
+    
+    &-primer {
+      padding: 4rem 0.7rem 2.5rem 0.7rem;
+      margin-bottom: 2rem;
+      p {
+        margin-bottom: 2.3rem;
+      }
       img {
         margin-bottom: 2rem;
       }
     } 
-    &-primer:hover {
-      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-      cursor: pointer;
-    }
+
     &-tonal {
-      width: 100%;
-      padding: 3rem 0.6rem 2.5rem 0.6rem;
-      text-align: center;
-      background-color: white;
-      border: 1px solid white;
-      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-      
+      padding: 3rem 0.7rem 2.5rem 0.7rem;
+      p {
+        color: #282828;
+      }
       img {
         margin-bottom: 2rem;
       }
     }
-    &-tonal:hover {
-      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-      cursor: pointer;
-    }
     &-bg{
       position: absolute;
-      transform: translate3D(0,49rem,0); //====
+      transform: translate3D(0rem,39rem,0);
     }
   }
   .slider {
@@ -1837,6 +1754,15 @@ footer{
     &-text {
       width: 90%;
       margin-left: 5%;
+      h1 {
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
+      }
     }
     &-bg{
       position: absolute;
@@ -1981,90 +1907,34 @@ footer{
     }
   }
   .ritual {
-    position: relative;
     margin-top: 6rem;
-    padding: 6rem 0 6rem 3%;
-    background: linear-gradient(121.08deg, #CEA995 11.81%, #D7AB94 53.11%, #F0CDB7 96.16%);
+    padding: 4rem 0;
     &-text {
-      //margin-right: 3rem;
-      h1 {
-        font-size: 34px;
-        line-height: 42px;
-        color: #FFFFFF;
-        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
-      }
-      p {
-        font-family: 'Lato';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 19px;
-        line-height: 26px;
-        color: #FFFFFF;
-        margin: 2rem 0;
-      }
-      .for-button {
-        button {
-          color: white; 
-          background: rgba(255, 255, 255, 0.2);
-          border: 1px solid #FFFFFF;
-          width: 140px;
-          height: 50px;
-          margin-top: 3rem;
-          p {
-            margin: -0.1rem 0;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 15px;
-            line-height: 25px;
-            text-align: center;
-            color: #FFFFFF;
-          }
-        }
-        button:focus {
-          outline:none !important;
-        }
-        button:active {
-          background: rgba(255, 255, 255, 0.1);
-        }
-        button:hover {
-          background: rgba(255, 255, 255, 0.1);
-        }
-      }
-    }
-    &-primer {
-      width: 85%;
-      padding: 4rem 0.5rem 4rem 0.5rem;
       text-align: center;
-      background-color: white;
-      border: 1px solid white;
-      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    }
+    
+    &-primer {
+      padding: 4rem 0.7rem 2.5rem 0.7rem;
+      p {
+        margin-bottom: 2.6rem;
+      }
       img {
         margin-bottom: 2rem;
       }
     } 
-    &-primer:hover {
-      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-      cursor: pointer;
-    }
+
     &-tonal {
-      width: 85%;
-      padding: 3rem 0.5rem 2.5rem 0.5rem;
-      text-align: center;
-      background-color: white;
-      border: 1px solid white;
-      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-      
+      padding: 3rem 0.7rem 2.5rem 0.7rem;
+      p {
+        color: #282828;
+      }
       img {
         margin-bottom: 2rem;
       }
     }
-    &-tonal:hover {
-      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-      cursor: pointer;
-    }
     &-bg{
       position: absolute;
-      transform: translate3D(20rem,6rem,0); //====
+      transform: translate3D(15rem,12rem,0);
     }
   }
   .slider {
@@ -2210,6 +2080,15 @@ footer{
     &-text {
       width: 80%;
       margin-left: 10%;
+      h1 {
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
+      }
     }
     &-bg{
       position: absolute;
@@ -2275,90 +2154,34 @@ footer{
     }
   }
   .ritual {
-    position: relative;
     margin-top: 6rem;
-    padding: 6rem 0 6rem 3%;
-    background: linear-gradient(121.08deg, #CEA995 11.81%, #D7AB94 53.11%, #F0CDB7 96.16%);
+    padding: 4rem 0;
     &-text {
-      //margin-right: 3rem;
-      h1 {
-        font-size: 34px;
-        line-height: 42px;
-        color: #FFFFFF;
-        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
-      }
-      p {
-        font-family: 'Lato';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 19px;
-        line-height: 26px;
-        color: #FFFFFF;
-        margin: 2rem 0;
-      }
-      .for-button {
-        button {
-          color: white; 
-          background: rgba(255, 255, 255, 0.2);
-          border: 1px solid #FFFFFF;
-          width: 140px;
-          height: 50px;
-          margin-top: 4rem;
-          p {
-            margin: -0.1rem 0;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 15px;
-            line-height: 25px;
-            text-align: center;
-            color: #FFFFFF;
-          }
-        }
-        button:focus {
-          outline:none !important;
-        }
-        button:active {
-          background: rgba(255, 255, 255, 0.1);
-        }
-        button:hover {
-          background: rgba(255, 255, 255, 0.1);
-        }
-      }
-    }
-    &-primer {
-      width: 85%;
-      padding: 4rem 0.5rem 4rem 0.5rem;
       text-align: center;
-      background-color: white;
-      border: 1px solid white;
-      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    }
+    
+    &-primer {
+      padding: 4rem 0.7rem 2.5rem 0.7rem;
+      p {
+        margin-bottom: 2.6rem;
+      }
       img {
         margin-bottom: 2rem;
       }
     } 
-    &-primer:hover {
-      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-      cursor: pointer;
-    }
+
     &-tonal {
-      width: 85%;
-      padding: 3rem 0.5rem 2.5rem 0.5rem;
-      text-align: center;
-      background-color: white;
-      border: 1px solid white;
-      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-      
+      padding: 3rem 0.7rem 2.5rem 0.7rem;
+      p {
+        color: #282828;
+      }
       img {
         margin-bottom: 2rem;
       }
     }
-    &-tonal:hover {
-      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-      cursor: pointer;
-    }
     &-bg{
       position: absolute;
-      transform: translate3D(20rem,6rem,0); //====
+      transform: translate3D(33rem,14rem,0);
     }
   }
   .slider {
@@ -2467,7 +2290,7 @@ footer{
 
 
  // ================ Большие девайсы (большие десктопы, >= 1200px)
-@media (min-width: 1408px) and (max-width: 1479.98px) {
+@media (min-width: 1408px) and (max-width: 1439.98px) {
   .play {
     transform: translate3d(0,-23rem,0);
   }
@@ -2524,90 +2347,171 @@ footer{
     margin-top: 12rem;
   }
   .ritual {
-    position: relative;
     margin-top: 6rem;
-    padding: 6rem 0 6rem 3%;
-    background: linear-gradient(121.08deg, #CEA995 11.81%, #D7AB94 53.11%, #F0CDB7 96.16%);
+    padding: 4rem 0 6rem 3%;
     &-text {
-      margin-right: 1rem;
+      text-align: center;
       h1 {
         font-size: 34px;
+        margin-bottom: 3rem;
         line-height: 42px;
         color: #FFFFFF;
         text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
-      }
-      p {
-        font-family: 'Lato';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 19px;
-        line-height: 26px;
-        color: #FFFFFF;
-        margin: 2rem 0;
-      }
-      .for-button {
-        button {
-          color: white; 
-          background: rgba(255, 255, 255, 0.2);
-          border: 1px solid #FFFFFF;
-          width: 140px;
-          height: 50px;
-          margin-top: 4rem;
-          p {
-            margin: -0.1rem 0;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 15px;
-            line-height: 25px;
-            text-align: center;
-            color: #FFFFFF;
-          }
-        }
-        button:focus {
-          outline:none !important;
-        }
-        button:active {
-          background: rgba(255, 255, 255, 0.1);
-        }
-        button:hover {
-          background: rgba(255, 255, 255, 0.1);
-        }
-      }
+      } 
     }
+
     &-primer {
-      width: 85%;
-      padding: 4rem 0.5rem 4rem 0.5rem;
-      text-align: center;
-      background-color: white;
-      border: 1px solid white;
-      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+      padding: 4rem 0.7rem 2.5rem 0.7rem;
+      p {
+        margin-bottom: 2.6rem;
+      }
       img {
         margin-bottom: 2rem;
       }
     } 
-    &-primer:hover {
-      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-      cursor: pointer;
-    }
+
     &-tonal {
-      width: 85%;
-      padding: 3rem 0.5rem 2.5rem 0.5rem;
-      text-align: center;
-      background-color: white;
-      border: 1px solid white;
-      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-      
+      padding: 3rem 0.7rem 2.5rem 0.7rem;
       img {
         margin-bottom: 2rem;
       }
     }
-    &-tonal:hover {
-      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-      cursor: pointer;
-    }
+  
     &-bg{
+      transform: translate3D(39rem,14rem,0);
+    }
+  }
+  .rellax7 {
+  
+    position: relative;
+    
+    .one,.two {
       position: absolute;
-      transform: translate3D(40rem,6rem,0);//=====
+    }
+    .one{ //tree
+      transform: translate3d(-22rem,10rem,0);
+    }
+    .two { //avokado
+      transform: translate3d(-22rem,-47rem,0);
+    }
+  }
+  .rellax8 {
+    position: relative;
+    
+    .one {
+      position: absolute;
+      transform: translate3d(32rem,-4rem,0);
+    }
+  }
+//================================================================
+ }
+ @media (min-width: 1440px) and (max-width: 1479.98px) {
+  .play {
+    transform: translate3d(0,-23rem,0);
+  }
+  .ritual {
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+    &-text {
+      text-align: center;
+      h1 {
+        font-size: 34px;
+        margin-bottom: 3rem;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+      } 
+    }
+
+    &-primer {
+      padding: 4rem 0.7rem 2.5rem 0.7rem;
+      p {
+        margin-bottom: 2.6rem;
+      }
+      img {
+        margin-bottom: 2rem;
+      }
+    } 
+
+    &-tonal {
+      padding: 3rem 0.7rem 2.5rem 0.7rem;
+      img {
+        margin-bottom: 2rem;
+      }
+    }
+  
+    &-bg{
+      transform: translate3D(43rem,14rem,0);
+    }
+  }
+  .photo2 {
+  
+    padding: 6rem 0 27.6rem 0;
+    background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
+    margin-top: 4rem;
+    img, h1 {
+      width: 100%;
+    }
+    h1 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 42px;
+      color: #FFFFFF;
+    }
+    &-first { //boutle
+      position: absolute;
+    }
+    &-second {//mirror
+      position: absolute;
+      transform: translate3d(24rem,21rem,0);
+    }
+    &-bg {
+      position: absolute;
+      transform: translate3d(55rem,19rem,0);
+    }
+    &-fourth {
+      position: absolute; //eat
+      transform: translate3d(30rem,5rem,0);
+    }
+    .text, .circle {
+      position: absolute;
+      transform: translate3d(-17rem,0,0);
+    }
+    .text {
+      h1 {
+        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+      }
+    }
+    
+    .circle {
+      margin-left: -4rem;
+      padding: 0 1rem;
+      border: 1px solid #C6E4AC;
+      border-radius: 50%;
+      background-color: #C6E4AC;
+    }
+    }
+  .rellax7 {
+  
+    position: relative;
+    
+    .one,.two {
+      position: absolute;
+    }
+    .one{ //tree
+      transform: translate3d(-22rem,10rem,0);
+    }
+    .two { //avokado
+      transform: translate3d(-22rem,-47rem,0);
+    }
+  }
+  .rellax8 {
+    position: relative;
+    
+    .one {
+      position: absolute;
+      transform: translate3d(30rem,-4rem,0);
     }
   }
 //================================================================
@@ -2669,90 +2573,60 @@ footer{
     margin-top: 12rem;
   }
   .ritual {
-    position: relative;
     margin-top: 6rem;
-    padding: 6rem 0 6rem 3%;
-    background: linear-gradient(121.08deg, #CEA995 11.81%, #D7AB94 53.11%, #F0CDB7 96.16%);
+    padding: 4rem 0 6rem 3%;
     &-text {
-      //margin-right: 3rem;
+      text-align: center;
       h1 {
         font-size: 34px;
+        margin-bottom: 3rem;
         line-height: 42px;
         color: #FFFFFF;
         text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
-      }
-      p {
-        font-family: 'Lato';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 19px;
-        line-height: 26px;
-        color: #FFFFFF;
-        margin: 2rem 0;
-      }
-      .for-button {
-        button {
-          color: white; 
-          background: rgba(255, 255, 255, 0.2);
-          border: 1px solid #FFFFFF;
-          width: 140px;
-          height: 50px;
-          margin-top: 4rem;
-          p {
-            margin: -0.1rem 0;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 15px;
-            line-height: 25px;
-            text-align: center;
-            color: #FFFFFF;
-          }
-        }
-        button:focus {
-          outline:none !important;
-        }
-        button:active {
-          background: rgba(255, 255, 255, 0.1);
-        }
-        button:hover {
-          background: rgba(255, 255, 255, 0.1);
-        }
-      }
+      } 
     }
+
     &-primer {
-      width: 85%;
-      padding: 4rem 0.5rem 2.7rem 0.5rem;
-      text-align: center;
-      background-color: white;
-      border: 1px solid white;
-      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+      padding: 4rem 0.9rem 2.5rem 0.9rem;
+      p {
+        margin-bottom: 2.3rem;
+      }
       img {
         margin-bottom: 2rem;
       }
     } 
-    &-primer:hover {
-      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-      cursor: pointer;
-    }
+
     &-tonal {
-      width: 85%;
-      padding: 3rem 0.5rem 2.5rem 0.5rem;
-      text-align: center;
-      background-color: white;
-      border: 1px solid white;
-      box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-      
+      padding: 3rem 0.9rem 2.5rem 0.9rem;
       img {
         margin-bottom: 2rem;
       }
     }
-    &-tonal:hover {
-      box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-      cursor: pointer;
-    }
+  
     &-bg{
+      transform: translate3D(43rem,14rem,0);
+    }
+  }
+  .rellax7 {
+  
+    position: relative;
+    
+    .one,.two {
       position: absolute;
-      transform: translate3D(45rem,6rem,0);//=====
+    }
+    .one{ //tree
+      transform: translate3d(-24rem,10rem,0);
+    }
+    .two { //avokado
+      transform: translate3d(-24rem,-47rem,0);
+    }
+  }
+  .rellax8 {
+    position: relative;
+    
+    .one {
+      position: absolute;
+      transform: translate3d(32rem,-4rem,0);
     }
   }
 //================================================================
@@ -2814,10 +2688,60 @@ footer{
     margin-top: 12rem;
   }
   .ritual {
-    
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+    &-text {
+      text-align: center;
+      h1 {
+        font-size: 34px;
+        margin-bottom: 3rem;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+      } 
+    }
+
+    &-primer {
+      padding: 4rem 0.9rem 2.5rem 0.9rem;
+      p {
+        margin-bottom: 2.6rem;
+      }
+      img {
+        margin-bottom: 2rem;
+      }
+    } 
+
+    &-tonal {
+      padding: 3rem 0.9rem 2.5rem 0.9rem;
+      img {
+        margin-bottom: 2rem;
+      }
+    }
+  
     &-bg{
+      transform: translate3D(47rem,14rem,0);
+    }
+  }
+  .rellax7 {
+  
+    position: relative;
+    
+    .one,.two {
       position: absolute;
-      transform: translate3D(50rem,6rem,0);//=====
+    }
+    .one{ //tree
+      transform: translate3d(-24rem,10rem,0);
+    }
+    .two { //avokado
+      transform: translate3d(-24rem,-47rem,0);
+    }
+  }
+  .rellax8 {
+    position: relative;
+    
+    .one {
+      position: absolute;
+      transform: translate3d(32rem,-4rem,0);
     }
   }
 //================================================================
@@ -2879,10 +2803,46 @@ footer{
     margin-top: 12rem;
   }
   .ritual {
-   
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+    &-text {
+      text-align: center;
+      h1 {
+        font-size: 34px;
+        margin-bottom: 3rem;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+      } 
+    }
+
+    &-primer {
+      padding: 4rem 0.9rem 2.5rem 0.9rem;
+      p {
+        margin-bottom: 2.6rem;
+      }
+      img {
+        margin-bottom: 2rem;
+      }
+    } 
+
+    &-tonal {
+      padding: 3rem 0.9rem 2.5rem 0.9rem;
+      img {
+        margin-bottom: 2rem;
+      }
+    }
+  
     &-bg{
+      transform: translate3D(52rem,14rem,0);
+    }
+  }
+  .rellax8 {
+    position: relative;
+    
+    .one {
       position: absolute;
-      transform: translate3D(57rem,6rem,0);//=====
+      transform: translate3d(32rem,-4rem,0);
     }
   }
 //================================================================
@@ -2944,10 +2904,38 @@ footer{
     margin-top: 14rem;
   }
   .ritual {
-    
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+    &-text {
+      text-align: center;
+      h1 {
+        font-size: 34px;
+        margin-bottom: 3rem;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+      } 
+    }
+
+    &-primer {
+      padding: 4rem 0.9rem 2.5rem 0.9rem;
+      p {
+        margin-bottom: 2.6rem;
+      }
+      img {
+        margin-bottom: 2rem;
+      }
+    } 
+
+    &-tonal {
+      padding: 3rem 0.9rem 2.5rem 0.9rem;
+      img {
+        margin-bottom: 2rem;
+      }
+    }
+  
     &-bg{
-      position: absolute;
-      transform: translate3D(55rem,6rem,0);//=====
+      transform: translate3D(56rem,14rem,0);
     }
   }
   .rellax7 {
@@ -2962,6 +2950,14 @@ footer{
     }
     .two { //avokado
       transform: translate3d(-24rem,-47rem,0);
+    }
+  }
+  .rellax8 {
+    position: relative;
+    
+    .one {
+      position: absolute;
+      transform: translate3d(32rem,-4rem,0);
     }
   }
 //================================================================
@@ -3023,10 +3019,38 @@ footer{
     margin-top: 16rem;
   }
   .ritual {
-    
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+    &-text {
+      text-align: center;
+      h1 {
+        font-size: 34px;
+        margin-bottom: 3rem;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+      } 
+    }
+
+    &-primer {
+      padding: 4rem 0.9rem 2.5rem 0.9rem;
+      p {
+        margin-bottom: 2.6rem;
+      }
+      img {
+        margin-bottom: 2rem;
+      }
+    } 
+
+    &-tonal {
+      padding: 3rem 0.9rem 2.5rem 0.9rem;
+      img {
+        margin-bottom: 2rem;
+      }
+    }
+  
     &-bg{
-      position: absolute;
-      transform: translate3D(70rem,6rem,0);//=====
+      transform: translate3D(70rem,14rem,0);
     }
   }
   .rellax7 {
@@ -3063,9 +3087,17 @@ footer{
       transform: translate3d(40rem,-5rem,0);
     }
   }
+  .rellax8 {
+    position: relative;
+    
+    .one {
+      position: absolute;
+      transform: translate3d(32rem,-4rem,0);
+    }
+  }
 //================================================================
  }
- @media (min-width: 2048px)  {
+ @media (min-width: 2048px) and (max-width: 2199.98px) {
   .play {
     transform: translate3d(0,-33rem,0);
   }
@@ -3122,9 +3154,38 @@ footer{
     margin-top: 16rem;
   }
   .ritual {
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+    &-text {
+      text-align: center;
+      h1 {
+        font-size: 34px;
+        margin-bottom: 3rem;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+      } 
+    }
+
+    &-primer {
+      padding: 4rem 0.9rem 2.5rem 0.9rem;
+      p {
+        margin-bottom: 2.6rem;
+      }
+      img {
+        margin-bottom: 2rem;
+      }
+    } 
+
+    &-tonal {
+      padding: 3rem 0.9rem 2.5rem 0.9rem;
+      img {
+        margin-bottom: 2rem;
+      }
+    }
+  
     &-bg{
-      position: absolute;
-      transform: translate3D(77rem,6rem,0);//=====
+      transform: translate3D(77rem,14rem,0);
     }
   }
   
@@ -3162,5 +3223,286 @@ footer{
       transform: translate3d(40rem,-5rem,0);
     }
   }
+    .rellax8 {
+      position: relative;
+      
+      .one {
+        position: absolute;
+        transform: translate3d(32rem,-4rem,0);
+      }
+    }
 }
+@media (min-width: 2200px) and  (max-width: 2499.98px) {
+  .play {
+    transform: translate3d(0,-33rem,0);
+  }
+  
+  .ritual {
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+    &-text {
+      text-align: center;
+      h1 {
+        font-size: 34px;
+        margin-bottom: 3rem;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+      } 
+    }
+
+    &-primer {
+      padding: 4rem 0.9rem 2.5rem 0.9rem;
+      p {
+        margin-bottom: 2.7rem;
+      }
+      img {
+        margin-bottom: 2rem;
+      }
+    } 
+
+    &-tonal {
+      padding: 3rem 0.9rem 2.5rem 0.9rem;
+      img {
+        margin-bottom: 2rem;
+      }
+    }
+  
+    &-bg{
+      transform: translate3D(89rem,14rem,0);
+    }
+  }
+  
+  .first {
+    &-text {
+      padding-top: 14rem;
+    }
+  }
+  .photo2 {
+  
+    padding: 6rem 0 27.6rem 0;
+    background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
+    margin-top: 4rem;
+    img, h1 {
+      width: 100%;
+    }
+    h1 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 42px;
+      color: #FFFFFF;
+    }
+    &-first { //boutle
+      position: absolute;
+    }
+    &-second {//mirror
+      position: absolute;
+      transform: translate3d(32rem,21rem,0);
+    }
+    &-bg {
+      position: absolute;
+      transform: translate3d(74.5rem,19rem,0);
+    }
+    &-fourth {
+      position: absolute; //eat
+      transform: translate3d(38rem,5rem,0);
+    }
+    .text, .circle {
+      position: absolute;
+      transform: translate3d(-34rem,0,0);
+    }
+    .text {
+      h1 {
+        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+      }
+    }
+    
+    .circle {
+      margin-left: -4rem;
+      padding: 0 1rem;
+      border: 1px solid #C6E4AC;
+      border-radius: 50%;
+      background-color: #C6E4AC;
+    }
+    }
+    .rellax1 {
+      position: relative;
+      .one { // flower big
+        position: absolute;
+        transform: translate3d(50rem,-20rem,0);
+      }
+      .two { // flower small
+        position: absolute;
+        transform: translate3d(45rem,-10rem,0);
+      }
+      .three{ // tree
+        position: absolute;
+        transform: translate3d(50rem,-5rem,0);
+      }
+    }
+    .eightthQuestion {
+      margin-top: 15rem;
+    }
+    .rellax7 {
+      position: relative;
+      .one,.two {
+        position: absolute;
+      }
+      .one{ //tree
+        transform: translate3d(-40rem,10rem,0);
+      }
+      .two { //avokado
+        transform: translate3d(-40rem,-47rem,0);
+      }
+    }
+    .rellax8 {
+      position: relative;
+      
+      .one {
+        position: absolute;
+        transform: translate3d(30rem,-4rem,0);
+      }
+    }
+}
+@media (min-width: 2500px) {
+  .play {
+    transform: translate3d(0,-37rem,0);
+  }
+  .photo2 {
+  
+    padding: 6rem 0 27.6rem 0;
+    background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
+    margin-top: 4rem;
+    img, h1 {
+      width: 100%;
+    }
+    h1 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 42px;
+      color: #FFFFFF;
+    }
+    &-first { //boutle
+      position: absolute;
+    }
+    &-second {//mirror
+      position: absolute;
+      transform: translate3d(32rem,21rem,0);
+    }
+    &-bg {
+      position: absolute;
+      transform: translate3d(78.5rem,19rem,0);
+    }
+    &-fourth {
+      position: absolute; //eat
+      transform: translate3d(38rem,5rem,0);
+    }
+    .text, .circle {
+      position: absolute;
+      transform: translate3d(-41rem,0,0);
+    }
+    .text {
+      h1 {
+        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+      }
+    }
+    
+    .circle {
+      margin-left: -4rem;
+      padding: 0 1rem;
+      border: 1px solid #C6E4AC;
+      border-radius: 50%;
+      background-color: #C6E4AC;
+    }
+    }
+
+  .eightthQuestion {
+    margin-top: 16rem;
+  }
+  .ritual {
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+    &-text {
+      text-align: center;
+      h1 {
+        font-size: 34px;
+        margin-bottom: 3rem;
+        line-height: 42px;
+        color: #FFFFFF;
+        text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+      } 
+    }
+
+    &-primer {
+      width: 85%;
+      padding: 4rem 0.9rem 2.5rem 0.9rem;
+      p {
+        margin-bottom: 2.6rem;
+      }
+      img {
+        margin-bottom: 2rem;
+      }
+    } 
+
+    &-tonal {
+      width: 85%;
+      padding: 3rem 0.9rem 2.5rem 0.9rem;
+      img {
+        margin-bottom: 2rem;
+      }
+    }
+  
+    &-bg{
+      transform: translate3D(83rem,4rem,0);
+      img {
+        width: 150%;
+      }
+    }
+  }
+  .rellax7 {
+  
+    position: relative;
+    
+    .one,.two {
+      position: absolute;
+    }
+    .one{ //tree
+      transform: translate3d(-46rem,10rem,0);
+    }
+    .two { //avokado
+      transform: translate3d(-46rem,-47rem,0);
+    }
+  }
+  .first {
+    &-text {
+      padding-top: 14rem;
+    }
+  }
+  .rellax1 {
+    position: relative;
+    .one { // flower big
+      position: absolute;
+      transform: translate3d(50rem,-20rem,0);
+    }
+    .two { // flower small
+      position: absolute;
+      transform: translate3d(45rem,-10rem,0);
+    }
+    .three{ // tree
+      position: absolute;
+      transform: translate3d(50rem,-5rem,0);
+    }
+  }
+  .rellax8 {
+    position: relative;
+    
+    .one {
+      position: absolute;
+      transform: translate3d(30rem,-4rem,0);
+    }
+  }
+}
+
  

@@ -61,7 +61,7 @@ p {
   font-family: PT Serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 34px;
+  font-size: 30px;
   line-height: 42px;
   color: #FFFFFF;
   text-shadow: 0px 1px 2px #E1B3A0;
@@ -282,10 +282,18 @@ p {
 .photo3-one img {
   width: 100%;
 }
+.photo3-bg {
+  position: absolute;
+  -webkit-transform: translate3d(18rem, 32.1rem, 0);
+          transform: translate3d(18rem, 32.1rem, 0);
+}
+.photo3-bg img {
+  width: 90%;
+}
 .photo3-two {
   position: absolute;
-  -webkit-transform: translate3d(32rem, 36rem, 0);
-          transform: translate3d(32rem, 36rem, 0);
+  -webkit-transform: translate3d(-3.5rem, 33.5rem, 0);
+          transform: translate3d(-3.5rem, 33.5rem, 0);
 }
 .photo3-two img {
   width: 100%;
@@ -327,58 +335,64 @@ p {
 .ritual {
   position: relative;
   margin-top: 6rem;
-  padding: 6rem 0 6rem 3%;
+  padding: 4rem 0 6rem 3%;
   background: linear-gradient(121.08deg, #cea995 11.81%, #d7ab94 53.11%, #f0cdb7 96.16%);
+}
+.ritual-text {
+  text-align: center;
 }
 .ritual-text h1 {
   font-size: 34px;
+  margin-bottom: 3rem;
   line-height: 42px;
   color: #FFFFFF;
   text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
 }
-.ritual-text p {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 19px;
-  line-height: 26px;
-  color: #FFFFFF;
-  margin: 2rem 0;
-}
-.ritual-text .for-button button {
+.ritual .for-button button {
   color: white;
   background: rgba(255, 255, 255, 0.2);
   border: 1px solid #FFFFFF;
   width: 140px;
   height: 50px;
-  margin-top: 4rem;
+  background: rgba(198, 228, 172, 0.15);
+  border: 1px solid #C6E4AC;
 }
-.ritual-text .for-button button p {
-  margin: -0.1rem 0;
+.ritual .for-button button p {
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 25px;
   text-align: center;
-  color: #FFFFFF;
+  color: #B6D29E;
+  margin-top: 0.7rem;
 }
-.ritual-text .for-button button:focus {
+.ritual .for-button button:focus {
   outline: none !important;
 }
-.ritual-text .for-button button:active {
+.ritual .for-button button:active {
   background: rgba(255, 255, 255, 0.1);
 }
-.ritual-text .for-button button:hover {
+.ritual .for-button button:hover {
   background: rgba(255, 255, 255, 0.1);
 }
 .ritual-primer {
-  width: 85%;
-  padding: 4rem 0.7rem 4rem 0.7rem;
+  padding: 4rem 0.8rem 2.5rem 0.8rem;
   text-align: center;
   background-color: white;
   border: 1px solid white;
   -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
           box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+}
+.ritual-primer p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #282828;
+  margin-bottom: 2.6rem;
 }
 .ritual-primer img {
   margin-bottom: 2rem;
@@ -389,13 +403,22 @@ p {
   cursor: pointer;
 }
 .ritual-tonal {
-  width: 85%;
-  padding: 3rem 0.7rem 2.5rem 0.7rem;
+  padding: 3rem 0.8rem 2.5rem 0.8rem;
   text-align: center;
   background-color: white;
   border: 1px solid white;
   -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
           box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+}
+.ritual-tonal p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #282828;
 }
 .ritual-tonal img {
   margin-bottom: 2rem;
@@ -407,8 +430,8 @@ p {
 }
 .ritual-bg {
   position: absolute;
-  -webkit-transform: translate3D(33rem, 6rem, 0);
-          transform: translate3D(33rem, 6rem, 0);
+  -webkit-transform: translate3D(33rem, 14rem, 0);
+          transform: translate3D(33rem, 14rem, 0);
 }
 .slider {
   color: white;
@@ -627,12 +650,12 @@ footer a {
   position: absolute;
 }
 .rellax8-1 .one {
-  -webkit-transform: translate3d(-2rem, -52rem, 0);
-          transform: translate3d(-2rem, -52rem, 0);
+  -webkit-transform: translate3d(-10rem, -52rem, 0);
+          transform: translate3d(-10rem, -52rem, 0);
 }
 .rellax8-1 .two {
-  -webkit-transform: translate3d(0, -2rem, 0);
-          transform: translate3d(0, -2rem, 0);
+  -webkit-transform: translate3d(-8rem, -2rem, 0);
+          transform: translate3d(-8rem, -2rem, 0);
 }
 .rellax9 {
   position: relative;
@@ -660,6 +683,15 @@ footer a {
   .first-text {
     width: 90%;
     margin-left: 5%;
+  }
+  .first-text h1 {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px #E1B3A0;
   }
   .about {
     margin: 4rem 0 4rem 0;
@@ -757,6 +789,9 @@ footer a {
   .photo3-one img {
     width: 120%;
   }
+  .photo3-bg {
+    display: none;
+  }
   .photo3-two {
     margin-top: -6rem;
     margin-right: 1rem;
@@ -801,80 +836,42 @@ footer a {
     color: white;
   }
   .forteenthQuestion {
-    margin-top: 85rem;
+    margin-top: 75rem;
   }
   .ritual {
-    text-align: center;
-    position: relative;
     margin-top: 6rem;
-    padding: 6rem 0 6rem 0;
+    padding: 4rem 0;
   }
-  .ritual-text .for-button button {
-    color: white;
-    background: rgba(255, 255, 255, 0.2);
-    border: 1px solid #FFFFFF;
-    width: 140px;
-    height: 50px;
-    margin-top: 3rem;
-    margin-bottom: 4rem;
-  }
-  .ritual-text .for-button button p {
-    margin: -0.1rem 0;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 25px;
+  .ritual-text {
     text-align: center;
-    color: #FFFFFF;
-  }
-  .ritual-text .for-button button:focus {
-    outline: none !important;
-  }
-  .ritual-text .for-button button:active {
-    background: rgba(255, 255, 255, 0.1);
-  }
-  .ritual-text .for-button button:hover {
-    background: rgba(255, 255, 255, 0.1);
   }
   .ritual-primer {
-    width: 100%;
-    padding: 4rem 0.5rem 4rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-    margin-bottom: 4rem;
+    padding: 4rem 0.9rem 2.5rem 0.9rem;
+    margin-bottom: 2rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.3rem;
   }
   .ritual-primer img {
     margin-bottom: 2rem;
   }
-  .ritual-primer:hover {
-    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-tonal {
-    width: 100%;
-    padding: 3rem 0.5rem 2.5rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    padding: 3rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-tonal p {
+    color: #282828;
   }
   .ritual-tonal img {
     margin-bottom: 2rem;
   }
-  .ritual-tonal:hover {
-    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-bg {
     position: absolute;
-    -webkit-transform: translate3D(0, 57rem, 0);
-            transform: translate3D(0, 57rem, 0);
+    -webkit-transform: translate3D(0rem, 42rem, 0);
+            transform: translate3D(0rem, 42rem, 0);
+  }
+  .ritual-bg img {
+    -webkit-transform: translate3d(-4rem, 6rem, 0);
+            transform: translate3d(-4rem, 6rem, 0);
   }
   .slider {
     color: white;
@@ -1090,6 +1087,15 @@ footer a {
     width: 90%;
     margin-left: 5%;
   }
+  .first-text h1 {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px #E1B3A0;
+  }
   .first-bg {
     position: absolute;
     bottom: -1rem;
@@ -1198,6 +1204,9 @@ footer a {
   .photo3-one img {
     width: 120%;
   }
+  .photo3-bg {
+    display: none;
+  }
   .photo3-two {
     position: absolute;
     -webkit-transform: translate3d(7rem, 36rem, 0);
@@ -1241,77 +1250,35 @@ footer a {
     margin-top: 90rem;
   }
   .ritual {
-    text-align: center;
-    position: relative;
     margin-top: 6rem;
-    padding: 6rem 0 6rem 0;
+    padding: 4rem 0;
   }
-  .ritual-text .for-button button {
-    color: white;
-    background: rgba(255, 255, 255, 0.2);
-    border: 1px solid #FFFFFF;
-    width: 140px;
-    height: 50px;
-    margin-top: 3rem;
-    margin-bottom: 4rem;
-  }
-  .ritual-text .for-button button p {
-    margin: -0.1rem 0;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 25px;
+  .ritual-text {
     text-align: center;
-    color: #FFFFFF;
-  }
-  .ritual-text .for-button button:focus {
-    outline: none !important;
-  }
-  .ritual-text .for-button button:active {
-    background: rgba(255, 255, 255, 0.1);
-  }
-  .ritual-text .for-button button:hover {
-    background: rgba(255, 255, 255, 0.1);
   }
   .ritual-primer {
-    width: 100%;
-    padding: 4rem 0.5rem 4rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-    margin-bottom: 4rem;
+    padding: 4rem 0.9rem 2.5rem 0.9rem;
+    margin-bottom: 2rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.3rem;
   }
   .ritual-primer img {
     margin-bottom: 2rem;
   }
-  .ritual-primer:hover {
-    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-tonal {
-    width: 100%;
-    padding: 3rem 0.5rem 2.5rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    padding: 3rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-tonal p {
+    color: #282828;
   }
   .ritual-tonal img {
     margin-bottom: 2rem;
   }
-  .ritual-tonal:hover {
-    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-bg {
     position: absolute;
-    -webkit-transform: translate3D(0, 57rem, 0);
-            transform: translate3D(0, 57rem, 0);
+    -webkit-transform: translate3D(0rem, 39rem, 0);
+            transform: translate3D(0rem, 39rem, 0);
   }
   .slider {
     color: white;
@@ -1522,6 +1489,15 @@ footer a {
   .first-text {
     margin-bottom: 5rem;
   }
+  .first-text h1 {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px #E1B3A0;
+  }
   .first-scroll {
     margin-bottom: 6rem;
   }
@@ -1621,6 +1597,9 @@ footer a {
   .photo3-one img {
     width: 120%;
   }
+  .photo3-bg {
+    display: none;
+  }
   .photo3-two {
     position: absolute;
     -webkit-transform: translate3d(10rem, 54rem, 0);
@@ -1667,77 +1646,35 @@ footer a {
     margin-top: 6rem;
   }
   .ritual {
-    text-align: center;
-    position: relative;
     margin-top: 6rem;
-    padding: 6rem 0 6rem 0;
+    padding: 4rem 0;
   }
-  .ritual-text .for-button button {
-    color: white;
-    background: rgba(255, 255, 255, 0.2);
-    border: 1px solid #FFFFFF;
-    width: 140px;
-    height: 50px;
-    margin-top: 3rem;
-    margin-bottom: 4rem;
-  }
-  .ritual-text .for-button button p {
-    margin: -0.1rem 0;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 25px;
+  .ritual-text {
     text-align: center;
-    color: #FFFFFF;
-  }
-  .ritual-text .for-button button:focus {
-    outline: none !important;
-  }
-  .ritual-text .for-button button:active {
-    background: rgba(255, 255, 255, 0.1);
-  }
-  .ritual-text .for-button button:hover {
-    background: rgba(255, 255, 255, 0.1);
   }
   .ritual-primer {
-    width: 100%;
-    padding: 4rem 0.5rem 4rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-    margin-bottom: 4rem;
+    padding: 4rem 0.7rem 2.5rem 0.7rem;
+    margin-bottom: 2rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.3rem;
   }
   .ritual-primer img {
     margin-bottom: 2rem;
   }
-  .ritual-primer:hover {
-    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-tonal {
-    width: 100%;
-    padding: 3rem 0.5rem 2.5rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    padding: 3rem 0.7rem 2.5rem 0.7rem;
+  }
+  .ritual-tonal p {
+    color: #282828;
   }
   .ritual-tonal img {
     margin-bottom: 2rem;
   }
-  .ritual-tonal:hover {
-    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-bg {
     position: absolute;
-    -webkit-transform: translate3D(0, 49rem, 0);
-            transform: translate3D(0, 49rem, 0);
+    -webkit-transform: translate3D(0rem, 39rem, 0);
+            transform: translate3D(0rem, 39rem, 0);
   }
   .slider .slider-bg-1,
   .slider .slider-bg-2,
@@ -1942,6 +1879,15 @@ footer a {
     width: 90%;
     margin-left: 5%;
   }
+  .first-text h1 {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px #E1B3A0;
+  }
   .first-bg {
     position: absolute;
     bottom: 0;
@@ -2036,13 +1982,21 @@ footer a {
   .photo3-one img {
     width: 100%;
   }
+  .photo3-bg {
+    position: absolute;
+    -webkit-transform: translate3d(4.5rem, 24.1rem, 0);
+            transform: translate3d(4.5rem, 24.1rem, 0);
+  }
+  .photo3-bg img {
+    width: 90%;
+  }
   .photo3-two {
     position: absolute;
-    -webkit-transform: translate3d(24rem, 34rem, 0);
-            transform: translate3d(24rem, 34rem, 0);
+    -webkit-transform: translate3d(-11.5rem, 25.5rem, 0);
+            transform: translate3d(-11.5rem, 25.5rem, 0);
   }
   .photo3-two img {
-    width: 130%;
+    width: 100%;
   }
   .photo3-lines {
     position: absolute;
@@ -2079,90 +2033,34 @@ footer a {
     margin-top: 35rem;
   }
   .ritual {
-    position: relative;
     margin-top: 6rem;
-    padding: 6rem 0 6rem 3%;
-    background: linear-gradient(121.08deg, #cea995 11.81%, #d7ab94 53.11%, #f0cdb7 96.16%);
+    padding: 4rem 0;
   }
-  .ritual-text h1 {
-    font-size: 34px;
-    line-height: 42px;
-    color: #FFFFFF;
-    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
-  }
-  .ritual-text p {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 26px;
-    color: #FFFFFF;
-    margin: 2rem 0;
-  }
-  .ritual-text .for-button button {
-    color: white;
-    background: rgba(255, 255, 255, 0.2);
-    border: 1px solid #FFFFFF;
-    width: 140px;
-    height: 50px;
-    margin-top: 3rem;
-  }
-  .ritual-text .for-button button p {
-    margin: -0.1rem 0;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 25px;
+  .ritual-text {
     text-align: center;
-    color: #FFFFFF;
-  }
-  .ritual-text .for-button button:focus {
-    outline: none !important;
-  }
-  .ritual-text .for-button button:active {
-    background: rgba(255, 255, 255, 0.1);
-  }
-  .ritual-text .for-button button:hover {
-    background: rgba(255, 255, 255, 0.1);
   }
   .ritual-primer {
-    width: 85%;
-    padding: 4rem 0.5rem 4rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    padding: 4rem 0.7rem 2.5rem 0.7rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.6rem;
   }
   .ritual-primer img {
     margin-bottom: 2rem;
   }
-  .ritual-primer:hover {
-    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-tonal {
-    width: 85%;
-    padding: 3rem 0.5rem 2.5rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    padding: 3rem 0.7rem 2.5rem 0.7rem;
+  }
+  .ritual-tonal p {
+    color: #282828;
   }
   .ritual-tonal img {
     margin-bottom: 2rem;
   }
-  .ritual-tonal:hover {
-    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-bg {
     position: absolute;
-    -webkit-transform: translate3D(20rem, 6rem, 0);
-            transform: translate3D(20rem, 6rem, 0);
+    -webkit-transform: translate3D(15rem, 12rem, 0);
+            transform: translate3D(15rem, 12rem, 0);
   }
   .slider .slider-bg-1,
   .slider .slider-bg-2,
@@ -2330,12 +2228,12 @@ footer a {
     position: absolute;
   }
   .rellax8-1 .one {
-    -webkit-transform: translate3d(-2rem, -58rem, 0);
-            transform: translate3d(-2rem, -58rem, 0);
+    -webkit-transform: translate3d(-18rem, -50rem, 0);
+            transform: translate3d(-18rem, -50rem, 0);
   }
   .rellax8-1 .two {
-    -webkit-transform: translate3d(-1rem, -10rem, 0);
-            transform: translate3d(-1rem, -10rem, 0);
+    -webkit-transform: translate3d(-16rem, -19rem, 0);
+            transform: translate3d(-16rem, -19rem, 0);
   }
   .rellax9 {
     position: relative;
@@ -2350,6 +2248,15 @@ footer a {
   .first-text {
     width: 80%;
     margin-left: 10%;
+  }
+  .first-text h1 {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px #E1B3A0;
   }
   .first-bg {
     position: absolute;
@@ -2430,13 +2337,21 @@ footer a {
   .photo3-one img {
     width: 100%;
   }
+  .photo3-bg {
+    position: absolute;
+    -webkit-transform: translate3d(6rem, 28.1rem, 0);
+            transform: translate3d(6rem, 28.1rem, 0);
+  }
+  .photo3-bg img {
+    width: 90%;
+  }
   .photo3-two {
     position: absolute;
-    -webkit-transform: translate3d(26rem, 34rem, 0);
-            transform: translate3d(26rem, 34rem, 0);
+    -webkit-transform: translate3d(-11.5rem, 29.5rem, 0);
+            transform: translate3d(-11.5rem, 29.5rem, 0);
   }
   .photo3-two img {
-    width: 130%;
+    width: 100%;
   }
   .photo3-lines {
     position: absolute;
@@ -2473,90 +2388,34 @@ footer a {
     margin-top: 39rem;
   }
   .ritual {
-    position: relative;
     margin-top: 6rem;
-    padding: 6rem 0 6rem 3%;
-    background: linear-gradient(121.08deg, #cea995 11.81%, #d7ab94 53.11%, #f0cdb7 96.16%);
+    padding: 4rem 0;
   }
-  .ritual-text h1 {
-    font-size: 34px;
-    line-height: 42px;
-    color: #FFFFFF;
-    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
-  }
-  .ritual-text p {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 26px;
-    color: #FFFFFF;
-    margin: 2rem 0;
-  }
-  .ritual-text .for-button button {
-    color: white;
-    background: rgba(255, 255, 255, 0.2);
-    border: 1px solid #FFFFFF;
-    width: 140px;
-    height: 50px;
-    margin-top: 4rem;
-  }
-  .ritual-text .for-button button p {
-    margin: -0.1rem 0;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 25px;
+  .ritual-text {
     text-align: center;
-    color: #FFFFFF;
-  }
-  .ritual-text .for-button button:focus {
-    outline: none !important;
-  }
-  .ritual-text .for-button button:active {
-    background: rgba(255, 255, 255, 0.1);
-  }
-  .ritual-text .for-button button:hover {
-    background: rgba(255, 255, 255, 0.1);
   }
   .ritual-primer {
-    width: 85%;
-    padding: 4rem 0.5rem 4rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    padding: 4rem 0.7rem 2.5rem 0.7rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.6rem;
   }
   .ritual-primer img {
     margin-bottom: 2rem;
   }
-  .ritual-primer:hover {
-    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-tonal {
-    width: 85%;
-    padding: 3rem 0.5rem 2.5rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    padding: 3rem 0.7rem 2.5rem 0.7rem;
+  }
+  .ritual-tonal p {
+    color: #282828;
   }
   .ritual-tonal img {
     margin-bottom: 2rem;
   }
-  .ritual-tonal:hover {
-    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-bg {
     position: absolute;
-    -webkit-transform: translate3D(20rem, 6rem, 0);
-            transform: translate3D(20rem, 6rem, 0);
+    -webkit-transform: translate3D(33rem, 14rem, 0);
+            transform: translate3D(33rem, 14rem, 0);
   }
   .slider .slider-bg-1,
   .slider .slider-bg-2,
@@ -2724,12 +2583,12 @@ footer a {
     position: absolute;
   }
   .rellax8-1 .one {
-    -webkit-transform: translate3d(-2rem, -52rem, 0);
-            transform: translate3d(-2rem, -52rem, 0);
+    -webkit-transform: translate3d(-18rem, -50rem, 0);
+            transform: translate3d(-18rem, -50rem, 0);
   }
   .rellax8-1 .two {
-    -webkit-transform: translate3d(-1rem, -5rem, 0);
-            transform: translate3d(-1rem, -5rem, 0);
+    -webkit-transform: translate3d(-16rem, -17rem, 0);
+            transform: translate3d(-16rem, -17rem, 0);
   }
   .rellax9 {
     position: relative;
@@ -2740,7 +2599,7 @@ footer a {
             transform: translate3d(19rem, 0, 0);
   }
 }
-@media (min-width: 1408px) and (max-width: 1479.98px) {
+@media (min-width: 1408px) and (max-width: 1439.98px) {
   .play {
     -webkit-transform: translate3d(0, -23rem, 0);
             transform: translate3d(0, -23rem, 0);
@@ -2749,93 +2608,37 @@ footer a {
     margin-top: 12rem;
   }
   .ritual {
-    position: relative;
     margin-top: 6rem;
-    padding: 6rem 0 6rem 3%;
-    background: linear-gradient(121.08deg, #cea995 11.81%, #d7ab94 53.11%, #f0cdb7 96.16%);
+    padding: 4rem 0 6rem 3%;
   }
   .ritual-text {
-    margin-right: 1rem;
+    text-align: center;
   }
   .ritual-text h1 {
     font-size: 34px;
+    margin-bottom: 3rem;
     line-height: 42px;
     color: #FFFFFF;
     text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
   }
-  .ritual-text p {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 26px;
-    color: #FFFFFF;
-    margin: 2rem 0;
-  }
-  .ritual-text .for-button button {
-    color: white;
-    background: rgba(255, 255, 255, 0.2);
-    border: 1px solid #FFFFFF;
-    width: 140px;
-    height: 50px;
-    margin-top: 4rem;
-  }
-  .ritual-text .for-button button p {
-    margin: -0.1rem 0;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 25px;
-    text-align: center;
-    color: #FFFFFF;
-  }
-  .ritual-text .for-button button:focus {
-    outline: none !important;
-  }
-  .ritual-text .for-button button:active {
-    background: rgba(255, 255, 255, 0.1);
-  }
-  .ritual-text .for-button button:hover {
-    background: rgba(255, 255, 255, 0.1);
-  }
   .ritual-primer {
-    width: 85%;
-    padding: 4rem 0.5rem 4rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    padding: 4rem 0.7rem 2.5rem 0.7rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.6rem;
   }
   .ritual-primer img {
     margin-bottom: 2rem;
   }
-  .ritual-primer:hover {
-    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-tonal {
-    width: 85%;
-    padding: 3rem 0.5rem 2.5rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    padding: 3rem 0.7rem 2.5rem 0.7rem;
   }
   .ritual-tonal img {
     margin-bottom: 2rem;
   }
-  .ritual-tonal:hover {
-    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-bg {
-    position: absolute;
-    -webkit-transform: translate3D(40rem, 6rem, 0);
-            transform: translate3D(40rem, 6rem, 0);
+    -webkit-transform: translate3D(39rem, 14rem, 0);
+            transform: translate3D(39rem, 14rem, 0);
   }
   .rellax1 {
     position: relative;
@@ -2977,12 +2780,242 @@ footer a {
     position: absolute;
   }
   .rellax8-1 .one {
-    -webkit-transform: translate3d(-2rem, -42rem, 0);
-            transform: translate3d(-2rem, -42rem, 0);
+    -webkit-transform: translate3d(-10rem, -42rem, 0);
+            transform: translate3d(-10rem, -42rem, 0);
   }
   .rellax8-1 .two {
-    -webkit-transform: translate3d(0, -18rem, 0);
-            transform: translate3d(0, -18rem, 0);
+    -webkit-transform: translate3d(-8rem, -18rem, 0);
+            transform: translate3d(-8rem, -18rem, 0);
+  }
+  .rellax9 {
+    position: relative;
+  }
+  .rellax9 .one {
+    position: absolute;
+    -webkit-transform: translate3d(26rem, -20rem, 0);
+            transform: translate3d(26rem, -20rem, 0);
+  }
+}
+@media (min-width: 1440px) and (max-width: 1479.98px) {
+  .play {
+    -webkit-transform: translate3d(0, -23rem, 0);
+            transform: translate3d(0, -23rem, 0);
+  }
+  .photo2 {
+    position: relative;
+    padding: 4rem 0 33rem 0;
+  }
+  .photo2 .one,
+  .photo2 .two,
+  .photo2 .three {
+    position: absolute;
+  }
+  .photo2 .one {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  .photo2 .one img {
+    width: 100%;
+  }
+  .photo2 .two {
+    -webkit-transform: translate3d(-14rem, 15.5rem, 0);
+            transform: translate3d(-14rem, 15.5rem, 0);
+  }
+  .photo2 .two img {
+    width: 100%;
+  }
+  .photo2 .three {
+    -webkit-transform: translate3d(18rem, 17rem, 0);
+            transform: translate3d(18rem, 17rem, 0);
+  }
+  .photo2 .three img {
+    width: 100%;
+  }
+  .photo2 .text,
+  .photo2 .circle {
+    position: absolute;
+    -webkit-transform: translate3d(16rem, 0, 0);
+            transform: translate3d(16rem, 0, 0);
+  }
+  .ritual {
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+  }
+  .ritual-text {
+    text-align: center;
+  }
+  .ritual-text h1 {
+    font-size: 34px;
+    margin-bottom: 3rem;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+  }
+  .ritual-primer {
+    padding: 4rem 0.7rem 2.5rem 0.7rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.6rem;
+  }
+  .ritual-primer img {
+    margin-bottom: 2rem;
+  }
+  .ritual-tonal {
+    padding: 3rem 0.7rem 2.5rem 0.7rem;
+  }
+  .ritual-tonal img {
+    margin-bottom: 2rem;
+  }
+  .ritual-bg {
+    -webkit-transform: translate3D(43rem, 14rem, 0);
+            transform: translate3D(43rem, 14rem, 0);
+  }
+  .rellax1 {
+    position: relative;
+  }
+  .rellax1 .one {
+    position: absolute;
+    -webkit-transform: translate3d(32rem, -18rem, 0);
+            transform: translate3d(32rem, -18rem, 0);
+  }
+  .rellax1 .two {
+    position: absolute;
+    -webkit-transform: translate3d(28rem, -7rem, 0);
+            transform: translate3d(28rem, -7rem, 0);
+  }
+  .rellax1 .three {
+    position: absolute;
+    -webkit-transform: translate3d(31rem, -5rem, 0);
+            transform: translate3d(31rem, -5rem, 0);
+  }
+  .rellax1 .four {
+    position: absolute;
+    -webkit-transform: translate3d(33rem, 2rem, 0);
+            transform: translate3d(33rem, 2rem, 0);
+  }
+  .rellax2 {
+    position: relative;
+  }
+  .rellax2 .one,
+  .rellax2 .two,
+  .rellax2 .three {
+    position: absolute;
+    z-index: 1;
+  }
+  .rellax2 .one {
+    -webkit-transform: translate3d(-20rem, 0, 0);
+            transform: translate3d(-20rem, 0, 0);
+  }
+  .rellax2 .two {
+    -webkit-transform: translate3d(-20rem, 0, 0);
+            transform: translate3d(-20rem, 0, 0);
+  }
+  .rellax2 .three {
+    -webkit-transform: translate3d(-26rem, 0, 0);
+            transform: translate3d(-26rem, 0, 0);
+  }
+  .rellax2-1 {
+    position: relative;
+  }
+  .rellax2-1 .one {
+    position: absolute;
+    z-index: 1;
+  }
+  .rellax2-1 .one {
+    -webkit-transform: translate3d(17rem, 0, 0);
+            transform: translate3d(17rem, 0, 0);
+  }
+  .rellax3 {
+    position: relative;
+  }
+  .rellax3 .one {
+    position: absolute;
+  }
+  .rellax3 .one {
+    -webkit-transform: translate3d(-31rem, 0, 0);
+            transform: translate3d(-31rem, 0, 0);
+  }
+  .rellax4 {
+    z-index: -1;
+    position: relative;
+  }
+  .rellax4 .one {
+    position: absolute;
+    -webkit-transform: translate3d(-36rem, -42rem, 0);
+            transform: translate3d(-36rem, -42rem, 0);
+  }
+  .rellax4 .two {
+    position: absolute;
+    -webkit-transform: translate3d(-36rem, -32rem, 0);
+            transform: translate3d(-36rem, -32rem, 0);
+  }
+  .rellax5 {
+    position: relative;
+  }
+  .rellax5 .one,
+  .rellax5 .two {
+    position: absolute;
+  }
+  .rellax5 .one {
+    -webkit-transform: translate3d(-34rem, -44rem, 0);
+            transform: translate3d(-34rem, -44rem, 0);
+  }
+  .rellax5 .two {
+    -webkit-transform: translate3d(-34rem, -10rem, 0);
+            transform: translate3d(-34rem, -10rem, 0);
+  }
+  .rellax6 {
+    position: relative;
+  }
+  .rellax6 .one {
+    position: absolute;
+    -webkit-transform: translate3d(65rem, 0, 0);
+            transform: translate3d(65rem, 0, 0);
+    z-index: 1;
+  }
+  .rellax7 {
+    z-index: -1;
+    position: relative;
+  }
+  .rellax7 .one,
+  .rellax7 .two {
+    position: absolute;
+  }
+  .rellax7 .one {
+    -webkit-transform: translate3d(-33rem, -20rem, 0);
+            transform: translate3d(-33rem, -20rem, 0);
+  }
+  .rellax7 .two {
+    -webkit-transform: translate3d(-33rem, 0, 0);
+            transform: translate3d(-33rem, 0, 0);
+  }
+  .rellax8 {
+    position: relative;
+  }
+  .rellax8 .one {
+    position: absolute;
+    -webkit-transform: translate3d(-33rem, 10rem, 0);
+            transform: translate3d(-33rem, 10rem, 0);
+  }
+  .rellax8 .two {
+    position: absolute;
+    -webkit-transform: translate3d(-28rem, 0rem, 0);
+            transform: translate3d(-28rem, 0rem, 0);
+  }
+  .rellax8-1 {
+    position: relative;
+  }
+  .rellax8-1 .one,
+  .rellax8-1 .two {
+    position: absolute;
+  }
+  .rellax8-1 .one {
+    -webkit-transform: translate3d(-10rem, -42rem, 0);
+            transform: translate3d(-10rem, -42rem, 0);
+  }
+  .rellax8-1 .two {
+    -webkit-transform: translate3d(-8rem, -18rem, 0);
+            transform: translate3d(-8rem, -18rem, 0);
   }
   .rellax9 {
     position: relative;
@@ -3001,91 +3034,74 @@ footer a {
   .eightthQuestion {
     margin-top: 12rem;
   }
-  .ritual {
+  .photo2 {
     position: relative;
+    padding: 4rem 0 33rem 0;
+  }
+  .photo2 .one,
+  .photo2 .two,
+  .photo2 .three {
+    position: absolute;
+  }
+  .photo2 .one {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  .photo2 .one img {
+    width: 100%;
+  }
+  .photo2 .two {
+    -webkit-transform: translate3d(-15rem, 15.5rem, 0);
+            transform: translate3d(-15rem, 15.5rem, 0);
+  }
+  .photo2 .two img {
+    width: 100%;
+  }
+  .photo2 .three {
+    -webkit-transform: translate3d(18rem, 17rem, 0);
+            transform: translate3d(18rem, 17rem, 0);
+  }
+  .photo2 .three img {
+    width: 100%;
+  }
+  .photo2 .text,
+  .photo2 .circle {
+    position: absolute;
+    -webkit-transform: translate3d(16rem, 0, 0);
+            transform: translate3d(16rem, 0, 0);
+  }
+  .ritual {
     margin-top: 6rem;
-    padding: 6rem 0 6rem 3%;
-    background: linear-gradient(121.08deg, #cea995 11.81%, #d7ab94 53.11%, #f0cdb7 96.16%);
+    padding: 4rem 0 6rem 3%;
+  }
+  .ritual-text {
+    text-align: center;
   }
   .ritual-text h1 {
     font-size: 34px;
+    margin-bottom: 3rem;
     line-height: 42px;
     color: #FFFFFF;
     text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
   }
-  .ritual-text p {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 26px;
-    color: #FFFFFF;
-    margin: 2rem 0;
-  }
-  .ritual-text .for-button button {
-    color: white;
-    background: rgba(255, 255, 255, 0.2);
-    border: 1px solid #FFFFFF;
-    width: 140px;
-    height: 50px;
-    margin-top: 4rem;
-  }
-  .ritual-text .for-button button p {
-    margin: -0.1rem 0;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 25px;
-    text-align: center;
-    color: #FFFFFF;
-  }
-  .ritual-text .for-button button:focus {
-    outline: none !important;
-  }
-  .ritual-text .for-button button:active {
-    background: rgba(255, 255, 255, 0.1);
-  }
-  .ritual-text .for-button button:hover {
-    background: rgba(255, 255, 255, 0.1);
-  }
   .ritual-primer {
-    width: 85%;
-    padding: 4rem 0.5rem 2.7rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    padding: 4rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.6rem;
   }
   .ritual-primer img {
     margin-bottom: 2rem;
   }
-  .ritual-primer:hover {
-    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-tonal {
-    width: 85%;
-    padding: 3rem 0.5rem 2.5rem 0.5rem;
-    text-align: center;
-    background-color: white;
-    border: 1px solid white;
-    -webkit-box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
-            box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+    padding: 3rem 0.9rem 2.5rem 0.9rem;
   }
   .ritual-tonal img {
     margin-bottom: 2rem;
   }
-  .ritual-tonal:hover {
-    -webkit-box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-            box-shadow: 0px 4px 60px rgba(186, 142, 122, 0.6);
-    cursor: pointer;
-  }
   .ritual-bg {
-    position: absolute;
-    -webkit-transform: translate3D(45rem, 6rem, 0);
-            transform: translate3D(45rem, 6rem, 0);
+    -webkit-transform: translate3D(43rem, 14rem, 0);
+            transform: translate3D(43rem, 14rem, 0);
   }
   .rellax1 {
     position: relative;
@@ -3227,12 +3243,12 @@ footer a {
     position: absolute;
   }
   .rellax8-1 .one {
-    -webkit-transform: translate3d(-2rem, -42rem, 0);
-            transform: translate3d(-2rem, -42rem, 0);
+    -webkit-transform: translate3d(-10rem, -42rem, 0);
+            transform: translate3d(-10rem, -42rem, 0);
   }
   .rellax8-1 .two {
-    -webkit-transform: translate3d(0, -18rem, 0);
-            transform: translate3d(0, -18rem, 0);
+    -webkit-transform: translate3d(-8rem, -18rem, 0);
+            transform: translate3d(-8rem, -18rem, 0);
   }
   .rellax9 {
     position: relative;
@@ -3247,6 +3263,75 @@ footer a {
   .play {
     -webkit-transform: translate3d(0, -23rem, 0);
             transform: translate3d(0, -23rem, 0);
+  }
+  .photo2 {
+    position: relative;
+    padding: 4rem 0 33rem 0;
+  }
+  .photo2 .one,
+  .photo2 .two,
+  .photo2 .three {
+    position: absolute;
+  }
+  .photo2 .one {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  .photo2 .one img {
+    width: 100%;
+  }
+  .photo2 .two {
+    -webkit-transform: translate3d(-16rem, 15.5rem, 0);
+            transform: translate3d(-16rem, 15.5rem, 0);
+  }
+  .photo2 .two img {
+    width: 100%;
+  }
+  .photo2 .three {
+    -webkit-transform: translate3d(18rem, 17rem, 0);
+            transform: translate3d(18rem, 17rem, 0);
+  }
+  .photo2 .three img {
+    width: 100%;
+  }
+  .photo2 .text,
+  .photo2 .circle {
+    position: absolute;
+    -webkit-transform: translate3d(16rem, 0, 0);
+            transform: translate3d(16rem, 0, 0);
+  }
+  .ritual {
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+  }
+  .ritual-text {
+    text-align: center;
+  }
+  .ritual-text h1 {
+    font-size: 34px;
+    margin-bottom: 3rem;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+  }
+  .ritual-primer {
+    padding: 4rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.3rem;
+  }
+  .ritual-primer img {
+    margin-bottom: 2rem;
+  }
+  .ritual-tonal {
+    padding: 3rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-tonal img {
+    margin-bottom: 2rem;
+  }
+  .ritual-bg {
+    -webkit-transform: translate3D(47rem, 14rem, 0);
+            transform: translate3D(47rem, 14rem, 0);
   }
   .rellax1 {
     position: relative;
@@ -3388,12 +3473,12 @@ footer a {
     position: absolute;
   }
   .rellax8-1 .one {
-    -webkit-transform: translate3d(-2rem, -42rem, 0);
-            transform: translate3d(-2rem, -42rem, 0);
+    -webkit-transform: translate3d(-10rem, -42rem, 0);
+            transform: translate3d(-10rem, -42rem, 0);
   }
   .rellax8-1 .two {
-    -webkit-transform: translate3d(0, -18rem, 0);
-            transform: translate3d(0, -18rem, 0);
+    -webkit-transform: translate3d(-8rem, -18rem, 0);
+            transform: translate3d(-8rem, -18rem, 0);
   }
   .rellax9 {
     position: relative;
@@ -3406,21 +3491,84 @@ footer a {
   .eightthQuestion {
     margin-top: 12rem;
   }
-  .ritual-bg {
-    position: absolute;
-    -webkit-transform: translate3D(50rem, 6rem, 0);
-            transform: translate3D(50rem, 6rem, 0);
-  }
 }
 @media (min-width: 1600px) and (max-width: 1679.98px) {
   .play {
     -webkit-transform: translate3d(0, -25rem, 0);
             transform: translate3d(0, -25rem, 0);
   }
-  .ritual-bg {
+  .photo2 {
+    position: relative;
+    padding: 4rem 0 33rem 0;
+  }
+  .photo2 .one,
+  .photo2 .two,
+  .photo2 .three {
     position: absolute;
-    -webkit-transform: translate3D(57rem, 6rem, 0);
-            transform: translate3D(57rem, 6rem, 0);
+  }
+  .photo2 .one {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  .photo2 .one img {
+    width: 100%;
+  }
+  .photo2 .two {
+    -webkit-transform: translate3d(-17rem, 15.5rem, 0);
+            transform: translate3d(-17rem, 15.5rem, 0);
+  }
+  .photo2 .two img {
+    width: 100%;
+  }
+  .photo2 .three {
+    -webkit-transform: translate3d(18rem, 17rem, 0);
+            transform: translate3d(18rem, 17rem, 0);
+  }
+  .photo2 .three img {
+    width: 100%;
+  }
+  .photo2 .text,
+  .photo2 .circle {
+    position: absolute;
+    -webkit-transform: translate3d(16rem, 0, 0);
+            transform: translate3d(16rem, 0, 0);
+  }
+  .ritual {
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+  }
+  .ritual-text {
+    text-align: center;
+  }
+  .ritual-text h1 {
+    font-size: 34px;
+    margin-bottom: 3rem;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+  }
+  .ritual-primer {
+    padding: 4rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.6rem;
+  }
+  .ritual-primer img {
+    margin-bottom: 2rem;
+  }
+  .ritual-tonal {
+    padding: 3rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-tonal img {
+    margin-bottom: 2rem;
+  }
+  .ritual-bg {
+    -webkit-transform: translate3D(52rem, 18rem, 0);
+            transform: translate3D(52rem, 18rem, 0);
+  }
+  .ritual-bg img {
+    -webkit-transform: translate3d(0, 6rem, 0);
+            transform: translate3d(0, 6rem, 0);
   }
   .rellax1 {
     position: relative;
@@ -3562,12 +3710,12 @@ footer a {
     position: absolute;
   }
   .rellax8-1 .one {
-    -webkit-transform: translate3d(-2rem, -42rem, 0);
-            transform: translate3d(-2rem, -42rem, 0);
+    -webkit-transform: translate3d(-10rem, -42rem, 0);
+            transform: translate3d(-10rem, -42rem, 0);
   }
   .rellax8-1 .two {
-    -webkit-transform: translate3d(0, -18rem, 0);
-            transform: translate3d(0, -18rem, 0);
+    -webkit-transform: translate3d(-8rem, -18rem, 0);
+            transform: translate3d(-8rem, -18rem, 0);
   }
   .rellax9 {
     position: relative;
@@ -3591,10 +3739,38 @@ footer a {
     -webkit-transform: translate3d(0, -25rem, 0);
             transform: translate3d(0, -25rem, 0);
   }
+  .ritual {
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+  }
+  .ritual-text {
+    text-align: center;
+  }
+  .ritual-text h1 {
+    font-size: 34px;
+    margin-bottom: 3rem;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+  }
+  .ritual-primer {
+    padding: 4rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.6rem;
+  }
+  .ritual-primer img {
+    margin-bottom: 2rem;
+  }
+  .ritual-tonal {
+    padding: 3rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-tonal img {
+    margin-bottom: 2rem;
+  }
   .ritual-bg {
-    position: absolute;
-    -webkit-transform: translate3D(55rem, 6rem, 0);
-            transform: translate3D(55rem, 6rem, 0);
+    -webkit-transform: translate3D(56rem, 14rem, 0);
+            transform: translate3D(56rem, 14rem, 0);
   }
   .photo2 {
     position: relative;
@@ -3772,12 +3948,12 @@ footer a {
     position: absolute;
   }
   .rellax8-1 .one {
-    -webkit-transform: translate3d(-2rem, -42rem, 0);
-            transform: translate3d(-2rem, -42rem, 0);
+    -webkit-transform: translate3d(-10rem, -42rem, 0);
+            transform: translate3d(-10rem, -42rem, 0);
   }
   .rellax8-1 .two {
-    -webkit-transform: translate3d(0, -18rem, 0);
-            transform: translate3d(0, -18rem, 0);
+    -webkit-transform: translate3d(-8rem, -18rem, 0);
+            transform: translate3d(-8rem, -18rem, 0);
   }
   .rellax9 {
     position: relative;
@@ -3793,10 +3969,38 @@ footer a {
     -webkit-transform: translate3d(0, -29rem, 0);
             transform: translate3d(0, -29rem, 0);
   }
+  .ritual {
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+  }
+  .ritual-text {
+    text-align: center;
+  }
+  .ritual-text h1 {
+    font-size: 34px;
+    margin-bottom: 3rem;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+  }
+  .ritual-primer {
+    padding: 4rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.6rem;
+  }
+  .ritual-primer img {
+    margin-bottom: 2rem;
+  }
+  .ritual-tonal {
+    padding: 3rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-tonal img {
+    margin-bottom: 2rem;
+  }
   .ritual-bg {
-    position: absolute;
-    -webkit-transform: translate3D(70rem, 6rem, 0);
-            transform: translate3D(70rem, 6rem, 0);
+    -webkit-transform: translate3D(70rem, 14rem, 0);
+            transform: translate3D(70rem, 14rem, 0);
   }
   .first-text {
     padding-top: 14rem;
@@ -3980,12 +4184,12 @@ footer a {
     position: absolute;
   }
   .rellax8-1 .one {
-    -webkit-transform: translate3d(-2rem, -42rem, 0);
-            transform: translate3d(-2rem, -42rem, 0);
+    -webkit-transform: translate3d(-10rem, -42rem, 0);
+            transform: translate3d(-10rem, -42rem, 0);
   }
   .rellax8-1 .two {
-    -webkit-transform: translate3d(0, -18rem, 0);
-            transform: translate3d(0, -18rem, 0);
+    -webkit-transform: translate3d(-8rem, -18rem, 0);
+            transform: translate3d(-8rem, -18rem, 0);
   }
   .rellax9 {
     position: relative;
@@ -4001,10 +4205,38 @@ footer a {
     -webkit-transform: translate3d(0, -33rem, 0);
             transform: translate3d(0, -33rem, 0);
   }
+  .ritual {
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+  }
+  .ritual-text {
+    text-align: center;
+  }
+  .ritual-text h1 {
+    font-size: 34px;
+    margin-bottom: 3rem;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+  }
+  .ritual-primer {
+    padding: 4rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.6rem;
+  }
+  .ritual-primer img {
+    margin-bottom: 2rem;
+  }
+  .ritual-tonal {
+    padding: 3rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-tonal img {
+    margin-bottom: 2rem;
+  }
   .ritual-bg {
-    position: absolute;
-    -webkit-transform: translate3D(77rem, 6rem, 0);
-            transform: translate3D(77rem, 6rem, 0);
+    -webkit-transform: translate3D(77rem, 14rem, 0);
+            transform: translate3D(77rem, 14rem, 0);
   }
   .first-text {
     padding-top: 14rem;
@@ -4188,12 +4420,12 @@ footer a {
     position: absolute;
   }
   .rellax8-1 .one {
-    -webkit-transform: translate3d(-2rem, -42rem, 0);
-            transform: translate3d(-2rem, -42rem, 0);
+    -webkit-transform: translate3d(-10rem, -42rem, 0);
+            transform: translate3d(-10rem, -42rem, 0);
   }
   .rellax8-1 .two {
-    -webkit-transform: translate3d(0, -18rem, 0);
-            transform: translate3d(0, -18rem, 0);
+    -webkit-transform: translate3d(-8rem, -18rem, 0);
+            transform: translate3d(-8rem, -18rem, 0);
   }
   .rellax9 {
     position: relative;
@@ -4209,10 +4441,38 @@ footer a {
     -webkit-transform: translate3d(0, -33rem, 0);
             transform: translate3d(0, -33rem, 0);
   }
+  .ritual {
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+  }
+  .ritual-text {
+    text-align: center;
+  }
+  .ritual-text h1 {
+    font-size: 34px;
+    margin-bottom: 3rem;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+  }
+  .ritual-primer {
+    padding: 4rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.6rem;
+  }
+  .ritual-primer img {
+    margin-bottom: 2rem;
+  }
+  .ritual-tonal {
+    padding: 3rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-tonal img {
+    margin-bottom: 2rem;
+  }
   .ritual-bg {
-    position: absolute;
-    -webkit-transform: translate3D(77rem, 6rem, 0);
-            transform: translate3D(77rem, 6rem, 0);
+    -webkit-transform: translate3D(89rem, 14rem, 0);
+            transform: translate3D(89rem, 14rem, 0);
   }
   .first-text {
     padding-top: 14rem;
@@ -4396,12 +4656,12 @@ footer a {
     position: absolute;
   }
   .rellax8-1 .one {
-    -webkit-transform: translate3d(-2rem, -42rem, 0);
-            transform: translate3d(-2rem, -42rem, 0);
+    -webkit-transform: translate3d(-10rem, -42rem, 0);
+            transform: translate3d(-10rem, -42rem, 0);
   }
   .rellax8-1 .two {
-    -webkit-transform: translate3d(0, -18rem, 0);
-            transform: translate3d(0, -18rem, 0);
+    -webkit-transform: translate3d(-8rem, -18rem, 0);
+            transform: translate3d(-8rem, -18rem, 0);
   }
   .rellax9 {
     position: relative;
@@ -4417,10 +4677,43 @@ footer a {
     -webkit-transform: translate3d(0, -37rem, 0);
             transform: translate3d(0, -37rem, 0);
   }
+  .ritual {
+    margin-top: 6rem;
+    padding: 4rem 0 6rem 3%;
+  }
+  .ritual-text {
+    text-align: center;
+  }
+  .ritual-text h1 {
+    font-size: 34px;
+    margin-bottom: 3rem;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+  }
+  .ritual-primer {
+    width: 85%;
+    padding: 4rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-primer p {
+    margin-bottom: 2.6rem;
+  }
+  .ritual-primer img {
+    margin-bottom: 2rem;
+  }
+  .ritual-tonal {
+    width: 85%;
+    padding: 3rem 0.9rem 2.5rem 0.9rem;
+  }
+  .ritual-tonal img {
+    margin-bottom: 2rem;
+  }
   .ritual-bg {
-    position: absolute;
-    -webkit-transform: translate3D(77rem, 6rem, 0);
-            transform: translate3D(77rem, 6rem, 0);
+    -webkit-transform: translate3D(83rem, 4rem, 0);
+            transform: translate3D(83rem, 4rem, 0);
+  }
+  .ritual-bg img {
+    width: 150%;
   }
   .first-text {
     padding-top: 14rem;
@@ -4604,12 +4897,12 @@ footer a {
     position: absolute;
   }
   .rellax8-1 .one {
-    -webkit-transform: translate3d(-2rem, -42rem, 0);
-            transform: translate3d(-2rem, -42rem, 0);
+    -webkit-transform: translate3d(-10rem, -42rem, 0);
+            transform: translate3d(-10rem, -42rem, 0);
   }
   .rellax8-1 .two {
-    -webkit-transform: translate3d(0, -18rem, 0);
-            transform: translate3d(0, -18rem, 0);
+    -webkit-transform: translate3d(-8rem, -18rem, 0);
+            transform: translate3d(-8rem, -18rem, 0);
   }
   .rellax9 {
     position: relative;
