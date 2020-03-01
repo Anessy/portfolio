@@ -1,3 +1,4 @@
+
 if( window.innerWidth <= 767 ){
   document.querySelector('#player').hidden = true;
 } else {
