@@ -60,7 +60,7 @@ p {
   font-family: PT Serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 34px;
+  font-size: 30px;
   line-height: 42px;
   color: #FFFFFF;
   text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
@@ -313,57 +313,64 @@ p {
 .ritual {
   position: relative;
   margin-top: 6rem;
-  padding: 6rem 0 6rem 3%;
+  padding: 4rem 0 6rem 3%;
   background: linear-gradient(121.08deg, #CEA995 11.81%, #D7AB94 53.11%, #F0CDB7 96.16%);
+}
+.ritual-text {
+  text-align: center;
 }
 .ritual-text h1 {
   font-size: 34px;
+  margin-bottom: 3rem;
   line-height: 42px;
   color: #FFFFFF;
   text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
 }
-.ritual-text p {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 19px;
-  line-height: 26px;
-  color: #FFFFFF;
-  margin: 2rem 0;
-}
-.ritual-text .for-button button {
+.ritual .for-button button {
   color: white;
   background: rgba(255, 255, 255, 0.2);
   border: 1px solid #FFFFFF;
   width: 140px;
   height: 50px;
-  margin-top: 4rem;
+  background: rgba(198, 228, 172, 0.15);
+  border: 1px solid #C6E4AC;
 }
-.ritual-text .for-button button p {
-  margin: -0.1rem 0;
+.ritual .for-button button p {
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 25px;
   text-align: center;
-  color: #FFFFFF;
+  color: #B6D29E;
+  margin-top: 0.7rem;
 }
-.ritual-text .for-button button:focus {
+.ritual .for-button button:focus {
   outline: none !important;
 }
-.ritual-text .for-button button:active {
+.ritual .for-button button:active {
   background: rgba(255, 255, 255, 0.1);
 }
-.ritual-text .for-button button:hover {
+.ritual .for-button button:hover {
   background: rgba(255, 255, 255, 0.1);
 }
 .ritual-primer {
   width: 85%;
-  padding: 4rem 0.7rem 4rem 0.7rem;
+  padding: 4rem 0.7rem 2.5rem 0.7rem;
   text-align: center;
   background-color: white;
   border: 1px solid white;
   box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
+}
+.ritual-primer p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #282828;
+  margin-bottom: 2.3rem;
 }
 .ritual-primer img {
   margin-bottom: 2rem;
@@ -380,6 +387,16 @@ p {
   border: 1px solid white;
   box-shadow: 0px 4px 30px rgba(186, 142, 122, 0.8);
 }
+.ritual-tonal p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #282828;
+}
 .ritual-tonal img {
   margin-bottom: 2rem;
 }
@@ -389,7 +406,7 @@ p {
 }
 .ritual-bg {
   position: absolute;
-  transform: translate3D(33rem, 6rem, 0);
+  transform: translate3D(33rem, 14rem, 0);
 }
 .slider {
   color: white;
@@ -642,6 +659,15 @@ footer a {
   .first-text {
     width: 90%;
     margin-left: 5%;
+  }
+  .first-text h1 {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
   }
   .about {
     margin: 4rem 0 4rem 0;
@@ -1036,6 +1062,15 @@ footer a {
   .first-text {
     width: 90%;
     margin-left: 5%;
+  }
+  .first-text h1 {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
   }
   .first-bg {
     position: absolute;
@@ -1433,6 +1468,15 @@ footer a {
   .first-text {
     margin-bottom: 5rem;
   }
+  .first-text h1 {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+  }
   .first-scroll {
     margin-bottom: 6rem;
   }
@@ -1816,6 +1860,15 @@ footer a {
     width: 90%;
     margin-left: 5%;
   }
+  .first-text h1 {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+  }
   .first-bg {
     position: absolute;
     bottom: 0;
@@ -2164,6 +2217,15 @@ footer a {
   .first-text {
     width: 80%;
     margin-left: 10%;
+  }
+  .first-text h1 {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
   }
   .first-bg {
     position: absolute;
