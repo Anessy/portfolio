@@ -254,8 +254,8 @@ p {
 .photo2 .text,
 .photo2 .circle {
   position: absolute;
-  -webkit-transform: translate3d(-14rem, 0, 0);
-          transform: translate3d(-14rem, 0, 0);
+  -webkit-transform: translate3d(-14rem, 5rem, 0);
+          transform: translate3d(-14rem, 5rem, 0);
 }
 .photo2 .text h1 {
   text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
@@ -2646,8 +2646,8 @@ footer a {
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    -webkit-transform: translate3d(-18rem, 0, 0);
-            transform: translate3d(-18rem, 0, 0);
+    -webkit-transform: translate3d(-18rem, 5rem, 0);
+            transform: translate3d(-18rem, 5rem, 0);
   }
   .photo2 .text h1 {
     text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
@@ -2738,8 +2738,8 @@ footer a {
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    -webkit-transform: translate3d(-18rem, 0, 0);
-            transform: translate3d(-18rem, 0, 0);
+    -webkit-transform: translate3d(-18rem, 5rem, 0);
+            transform: translate3d(-18rem, 5rem, 0);
   }
   .photo2 .text h1 {
     text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
@@ -2830,8 +2830,8 @@ footer a {
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    -webkit-transform: translate3d(-18rem, 0, 0);
-            transform: translate3d(-18rem, 0, 0);
+    -webkit-transform: translate3d(-18rem, 5rem, 0);
+            transform: translate3d(-18rem, 5rem, 0);
   }
   .photo2 .text h1 {
     text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
@@ -2922,8 +2922,8 @@ footer a {
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    -webkit-transform: translate3d(-18rem, 0, 0);
-            transform: translate3d(-18rem, 0, 0);
+    -webkit-transform: translate3d(-18rem, 5rem, 0);
+            transform: translate3d(-18rem, 5rem, 0);
   }
   .photo2 .text h1 {
     text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
@@ -3014,8 +3014,8 @@ footer a {
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    -webkit-transform: translate3d(-18rem, 0, 0);
-            transform: translate3d(-18rem, 0, 0);
+    -webkit-transform: translate3d(-18rem, 5rem, 0);
+            transform: translate3d(-18rem, 5rem, 0);
   }
   .photo2 .text h1 {
     text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
@@ -3106,8 +3106,8 @@ footer a {
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    -webkit-transform: translate3d(-18rem, 0, 0);
-            transform: translate3d(-18rem, 0, 0);
+    -webkit-transform: translate3d(-18rem, 5rem, 0);
+            transform: translate3d(-18rem, 5rem, 0);
   }
   .photo2 .text h1 {
     text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
@@ -3213,8 +3213,8 @@ footer a {
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    -webkit-transform: translate3d(-18rem, 0, 0);
-            transform: translate3d(-18rem, 0, 0);
+    -webkit-transform: translate3d(-18rem, 5rem, 0);
+            transform: translate3d(-18rem, 5rem, 0);
   }
   .photo2 .text h1 {
     text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
@@ -3345,8 +3345,8 @@ footer a {
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    -webkit-transform: translate3d(-26rem, 0, 0);
-            transform: translate3d(-26rem, 0, 0);
+    -webkit-transform: translate3d(-26rem, 5rem, 0);
+            transform: translate3d(-26rem, 5rem, 0);
   }
   .photo2 .text h1 {
     text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
@@ -3470,8 +3470,8 @@ footer a {
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    -webkit-transform: translate3d(-36rem, 0, 0);
-            transform: translate3d(-36rem, 0, 0);
+    -webkit-transform: translate3d(-36rem, 5rem, 0);
+            transform: translate3d(-36rem, 5rem, 0);
   }
   .photo2 .text h1 {
     text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
@@ -3595,8 +3595,8 @@ footer a {
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    -webkit-transform: translate3d(-40rem, 0, 0);
-            transform: translate3d(-40rem, 0, 0);
+    -webkit-transform: translate3d(-40rem, 5rem, 0);
+            transform: translate3d(-40rem, 5rem, 0);
   }
   .photo2 .text h1 {
     text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
