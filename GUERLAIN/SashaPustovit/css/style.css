@@ -2604,7 +2604,7 @@ footer a {
             transform: translate3d(22rem, 10rem, 0);
   }
 }
-@media (min-width: 1408px) and (max-width: 1439.98px) {
+@media (min-width: 1365px) and (max-width: 1439.98px) {
   .play {
     -webkit-transform: translate3d(0, -23rem, 0);
             transform: translate3d(0, -23rem, 0);
@@ -2694,6 +2694,14 @@ footer a {
   .ritual-bg {
     -webkit-transform: translate3D(39rem, 14rem, 0);
             transform: translate3D(39rem, 14rem, 0);
+  }
+  .first-text {
+    padding-top: 7rem;
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 }
 @media (min-width: 1440px) and (max-width: 1479.98px) {
@@ -2787,6 +2795,14 @@ footer a {
     -webkit-transform: translate3D(43rem, 14rem, 0);
             transform: translate3D(43rem, 14rem, 0);
   }
+  .first-text {
+    padding-top: 7rem;
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
 }
 @media (min-width: 1480px) and (max-width: 1535.98px) {
   .play {
@@ -2878,6 +2894,14 @@ footer a {
   .ritual-bg {
     -webkit-transform: translate3D(43rem, 14rem, 0);
             transform: translate3D(43rem, 14rem, 0);
+  }
+  .first-text {
+    padding-top: 9rem;
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 }
 @media (min-width: 1536px) and (max-width: 1599.98px) {
@@ -2971,6 +2995,17 @@ footer a {
     -webkit-transform: translate3D(47rem, 14rem, 0);
             transform: translate3D(47rem, 14rem, 0);
   }
+  .first-text {
+    padding-top: 9rem;
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: 4rem;
+  }
+  .first-bg img {
+    width: 120%;
+  }
 }
 @media (min-width: 1600px) and (max-width: 1679.98px) {
   .play {
@@ -3062,6 +3097,17 @@ footer a {
   .ritual-bg {
     -webkit-transform: translate3D(52rem, 14rem, 0);
             transform: translate3D(52rem, 14rem, 0);
+  }
+  .first-text {
+    padding-top: 12rem;
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: 4rem;
+  }
+  .first-bg img {
+    width: 120%;
   }
 }
 @media (min-width: 1680px) and (max-width: 1919.98px) {
@@ -3169,6 +3215,17 @@ footer a {
   .ritual-bg {
     -webkit-transform: translate3D(56rem, 14rem, 0);
             transform: translate3D(56rem, 14rem, 0);
+  }
+  .first-text {
+    padding-top: 12rem;
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: 4rem;
+  }
+  .first-bg img {
+    width: 120%;
   }
 }
 @media (min-width: 1920px) and (max-width: 2047.98px) {
@@ -3532,7 +3589,15 @@ footer a {
             transform: translate3d(-34rem, -47rem, 0);
   }
   .first-text {
-    padding-top: 14rem;
+    padding-top: 20rem;
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: 10rem;
+  }
+  .first-bg img {
+    width: 150%;
   }
   .rellax1 {
     position: relative;
@@ -3663,7 +3728,15 @@ footer a {
             transform: translate3d(-45rem, -47rem, 0);
   }
   .first-text {
-    padding-top: 14rem;
+    padding-top: 20rem;
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: 10rem;
+  }
+  .first-bg img {
+    width: 150%;
   }
   .rellax1 {
     position: relative;
