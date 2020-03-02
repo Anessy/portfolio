@@ -2452,6 +2452,28 @@ footer a {
     -webkit-transform: translate3d(32rem, -4rem, 0);
             transform: translate3d(32rem, -4rem, 0);
   }
+  .first-text {
+    padding-top: 10rem;
+    width: 70%;
+    margin-left: 12%;
+  }
+  .first-text h1 {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: -4rem;
+  }
+  .first-bg img {
+    width: 100%;
+  }
 }
 @media (min-width: 1440px) and (max-width: 1479.98px) {
   .play {
@@ -2563,6 +2585,28 @@ footer a {
     position: absolute;
     -webkit-transform: translate3d(30rem, -4rem, 0);
             transform: translate3d(30rem, -4rem, 0);
+  }
+  .first-text {
+    padding-top: 10rem;
+    width: 70%;
+    margin-left: 12%;
+  }
+  .first-text h1 {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: -4rem;
+  }
+  .first-bg img {
+    width: 100%;
   }
 }
 @media (min-width: 1480px) and (max-width: 1535.98px) {
@@ -2679,6 +2723,28 @@ footer a {
     -webkit-transform: translate3d(32rem, -4rem, 0);
             transform: translate3d(32rem, -4rem, 0);
   }
+  .first-text {
+    padding-top: 10rem;
+    width: 70%;
+    margin-left: 12%;
+  }
+  .first-text h1 {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: -4rem;
+  }
+  .first-bg img {
+    width: 100%;
+  }
 }
 @media (min-width: 1536px) and (max-width: 1599.98px) {
   .play {
@@ -2794,6 +2860,28 @@ footer a {
     -webkit-transform: translate3d(32rem, -4rem, 0);
             transform: translate3d(32rem, -4rem, 0);
   }
+  .first-text {
+    padding-top: 10rem;
+    width: 70%;
+    margin-left: 12%;
+  }
+  .first-text h1 {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: 6rem;
+  }
+  .first-bg img {
+    width: 120%;
+  }
 }
 @media (min-width: 1600px) and (max-width: 1679.98px) {
   .play {
@@ -2893,6 +2981,28 @@ footer a {
     position: absolute;
     -webkit-transform: translate3d(32rem, -4rem, 0);
             transform: translate3d(32rem, -4rem, 0);
+  }
+  .first-text {
+    padding-top: 10rem;
+    width: 70%;
+    margin-left: 12%;
+  }
+  .first-text h1 {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: 6rem;
+  }
+  .first-bg img {
+    width: 120%;
   }
 }
 @media (min-width: 1680px) and (max-width: 1919.98px) {
@@ -3009,6 +3119,28 @@ footer a {
     -webkit-transform: translate3d(32rem, -4rem, 0);
             transform: translate3d(32rem, -4rem, 0);
   }
+  .first-text {
+    padding-top: 12rem;
+    width: 70%;
+    margin-left: 12%;
+  }
+  .first-text h1 {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: 10rem;
+  }
+  .first-bg img {
+    width: 150%;
+  }
 }
 @media (min-width: 1920px) and (max-width: 2047.98px) {
   .play {
@@ -3117,7 +3249,26 @@ footer a {
             transform: translate3d(-28rem, -47rem, 0);
   }
   .first-text {
-    padding-top: 14rem;
+    padding-top: 15rem;
+    width: 70%;
+    margin-left: 12%;
+  }
+  .first-text h1 {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: 10rem;
+  }
+  .first-bg img {
+    width: 150%;
   }
   .rellax1 {
     position: relative;
@@ -3253,7 +3404,26 @@ footer a {
             transform: translate3d(-34rem, -47rem, 0);
   }
   .first-text {
-    padding-top: 14rem;
+    padding-top: 19rem;
+    width: 70%;
+    margin-left: 12%;
+  }
+  .first-text h1 {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: 10rem;
+  }
+  .first-bg img {
+    width: 150%;
   }
   .rellax1 {
     position: relative;
@@ -3321,7 +3491,26 @@ footer a {
             transform: translate3D(89rem, 14rem, 0);
   }
   .first-text {
-    padding-top: 14rem;
+    padding-top: 19rem;
+    width: 70%;
+    margin-left: 12%;
+  }
+  .first-text h1 {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: 10rem;
+  }
+  .first-bg img {
+    width: 150%;
   }
   .photo2 {
     padding: 6rem 0 27.6rem 0;
@@ -3419,6 +3608,28 @@ footer a {
   }
 }
 @media (min-width: 2500px) {
+  .first-text {
+    padding-top: 19rem;
+    width: 70%;
+    margin-left: 12%;
+  }
+  .first-text h1 {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: 10rem;
+  }
+  .first-bg img {
+    width: 150%;
+  }
   .play {
     -webkit-transform: translate3d(0, -37rem, 0);
             transform: translate3d(0, -37rem, 0);
@@ -3528,9 +3739,6 @@ footer a {
   .rellax7 .two {
     -webkit-transform: translate3d(-46rem, -47rem, 0);
             transform: translate3d(-46rem, -47rem, 0);
-  }
-  .first-text {
-    padding-top: 14rem;
   }
   .rellax1 {
     position: relative;
