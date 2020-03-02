@@ -246,8 +246,8 @@ p {
 .photo2 .text,
 .photo2 .circle {
   position: absolute;
-  -webkit-transform: translate3d(16rem, 0, 0);
-          transform: translate3d(16rem, 0, 0);
+  -webkit-transform: translate3d(16rem, 5rem, 0);
+          transform: translate3d(16rem, 5rem, 0);
 }
 .photo2 .text h1 {
   font-family: PT Serif;
@@ -2891,8 +2891,8 @@ footer a {
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    -webkit-transform: translate3d(16rem, 0, 0);
-            transform: translate3d(16rem, 0, 0);
+    -webkit-transform: translate3d(16rem, 5rem, 0);
+            transform: translate3d(16rem, 5rem, 0);
   }
   .ritual {
     margin-top: 6rem;
@@ -3124,8 +3124,8 @@ footer a {
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    -webkit-transform: translate3d(16rem, 0, 0);
-            transform: translate3d(16rem, 0, 0);
+    -webkit-transform: translate3d(16rem, 5rem, 0);
+            transform: translate3d(16rem, 5rem, 0);
   }
   .ritual {
     margin-top: 6rem;
@@ -3354,8 +3354,8 @@ footer a {
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    -webkit-transform: translate3d(16rem, 0, 0);
-            transform: translate3d(16rem, 0, 0);
+    -webkit-transform: translate3d(16rem, 5rem, 0);
+            transform: translate3d(16rem, 5rem, 0);
   }
   .ritual {
     margin-top: 6rem;
@@ -3587,8 +3587,8 @@ footer a {
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    -webkit-transform: translate3d(16rem, 0, 0);
-            transform: translate3d(16rem, 0, 0);
+    -webkit-transform: translate3d(16rem, 5rem, 0);
+            transform: translate3d(16rem, 5rem, 0);
   }
   .ritual {
     margin-top: 6rem;
@@ -3839,8 +3839,8 @@ footer a {
     position: absolute;
   }
   .photo2 .one {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 5rem, 0);
+            transform: translate3d(0, 5rem, 0);
   }
   .photo2 .one img {
     width: 100%;
@@ -4095,8 +4095,8 @@ footer a {
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    -webkit-transform: translate3d(16rem, 0, 0);
-            transform: translate3d(16rem, 0, 0);
+    -webkit-transform: translate3d(16rem, 5rem, 0);
+            transform: translate3d(16rem, 5rem, 0);
   }
   .eightthQuestion {
     margin-top: 5rem;
@@ -4331,8 +4331,8 @@ footer a {
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    -webkit-transform: translate3d(16rem, 0, 0);
-            transform: translate3d(16rem, 0, 0);
+    -webkit-transform: translate3d(16rem, 5rem, 0);
+            transform: translate3d(16rem, 5rem, 0);
   }
   .eightthQuestion {
     margin-top: 5rem;
@@ -4567,8 +4567,8 @@ footer a {
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    -webkit-transform: translate3d(16rem, 0, 0);
-            transform: translate3d(16rem, 0, 0);
+    -webkit-transform: translate3d(16rem, 5rem, 0);
+            transform: translate3d(16rem, 5rem, 0);
   }
   .eightthQuestion {
     margin-top: 5rem;
@@ -4808,8 +4808,8 @@ footer a {
   .photo2 .text,
   .photo2 .circle {
     position: absolute;
-    -webkit-transform: translate3d(16rem, 0, 0);
-            transform: translate3d(16rem, 0, 0);
+    -webkit-transform: translate3d(16rem, 5rem, 0);
+            transform: translate3d(16rem, 5rem, 0);
   }
   .eightthQuestion {
     margin-top: 5rem;
