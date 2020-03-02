@@ -1,3 +1,5 @@
+//===========VIKEL===================
+
 html{
   width: 100%;
   max-width: 100%;
@@ -1013,8 +1015,8 @@ footer{
   }
 }
 //====================
-  }
-  @media (max-width: 375px) and (max-width: 575.98px){ 
+}
+@media (min-width: 375px) and (max-width: 399.98px){ 
     .header {
       &-logo {
         text-align: center;
@@ -1376,7 +1378,370 @@ footer{
     }
   }
   //====================
+}
+@media (min-width: 400px) and (max-width: 575.98px){ 
+      .header {
+        &-logo {
+          text-align: center;
+          margin-bottom: 1.5rem;
+        }
+        &-links {
+          margin: 0 -2rem;
+          a {
+            margin: 0 0.2rem;
+          }
+        }      
+      }
+      .first {
+        &-photo {
+          transform: translateY(3rem);
+        }
+        &-text {
+          width: 90%;
+          margin-left: 5%;
+          h1 {
+            font-family: PT Serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 42px;
+            color: #FFFFFF;
+            text-shadow: 0px 1px 2px rgba(160, 187, 124, 0.8);
+          }
+        }
+        &-bg{
+          position: absolute;
+          bottom: 0;
+          right: -15rem;
+        }
+      }
+     .about {
+      margin: 4rem 0 4rem 0;
+      
     }
+    .photo {
+      
+      img {
+        width: 110%;
+      }
+      
+      .one { //lines
+        transform: translate3d(10rem,-2rem,0);//===768
+      }
+      .two { //bg
+        transform: translate3d(-2rem,16rem,0); //===992===768
+      }
+      .three {//girl
+        margin-left: -2rem;
+        margin-top: 13rem;
+        img {
+          width: 120% !important;
+        }
+      }
+      .four { //bathroom
+        top: -4rem;
+        left: 0;
+      }
+    }
+    .no-diw{
+      width: 100%;
+      margin-top: 38rem;
+    }
+    .play {
+      transform: translate3d(-1rem,-16rem,0); //=====
+      .a {
+        margin-left: 2rem;
+        img {
+          width: 80%;
+        }
+        img:hover {
+          background-color: rgba(255,255,255, 0.2);
+          border-radius: 50%;
+        }
+      }
+      
+    }
+    
+    .photo2 {
+      padding: 6rem 0 68rem 0;
+      margin-bottom: 10rem;
+      &-second {
+        
+        position: absolute;
+        transform: translate3d(3.5rem,72rem,0);
+      }
+      &-bg {
+        position: absolute;
+        transform: translate3d(8.5rem,71rem,0);
+      }
+      &-fourth {
+        position: absolute;
+        transform: translate3d(0rem,53rem,0);
+        img {
+          width: 110% !important;
+        }
+      }
+      .text, .circle {
+        position: absolute;
+        transform: translate3d(5rem,33rem,0);
+      }
+      .text {
+        h1 {
+          font-style: normal;
+          font-weight: bold;
+          font-size: 34px;
+          line-height: 42px;
+          color: #FFFFFF;
+          text-shadow: 0px 1px 2px rgba(181, 143, 124, 0.8);
+        }
+      }
+    }
+    .eightthQuestion {
+      margin-top: 18rem;
+    }
+    .video {
+      margin-left: -120vw;	
+      width: 340vw;
+      height: 140vw;
+    }
+    
+    .photo3 {
+      margin-top: 6rem;
+      position: relative;
+      img {
+        width: 100%;
+      }
+      &-first{ //sport
+        position: absolute;
+        transform: translate3d(1.5rem,10rem,0);
+      }
+      &-second { // bg
+        position: absolute;
+        transform: translate3d(3rem,11.5rem,0);
+      }
+      &-thrid { //face
+        position: absolute;
+        transform: translate3d(-1rem,0,0);
+      }
+      &-bg{ // line
+        position: absolute;
+        transform: translate3d(0,47rem,0);
+      }
+      .text {
+        width: 100%;
+        position: absolute;
+        transform: translate3d(-1rem,29rem,0);
+        color: #282828;
+        font-size: 30px !important;
+        line-height: 42px;
+      }
+      .circle {
+        margin-left: -4rem;
+        border-radius: 20rem;
+        background-color: #C6E4AC;
+        padding: 0 1.1rem;
+        color: white;
+        transform: translate3d(3rem,25rem,0);
+      }
+    }
+    .tenthQuestion {
+      margin-top: 58rem;
+    }
+    
+    .ritual {
+      margin-top: 6rem;
+      padding: 4rem 0;
+      &-text {
+        text-align: center;
+      }
+      
+      &-primer {
+        padding: 4rem 0.9rem 2.5rem 0.9rem;
+        margin-bottom: 2rem;
+        p {
+          margin-bottom: 2.3rem;
+        }
+        img {
+          margin-bottom: 2rem;
+        }
+      } 
+  
+      &-tonal {
+        padding: 3rem 0.9rem 2.5rem 0.9rem;
+        p {
+          color: #282828;
+        }
+        img {
+          margin-bottom: 2rem;
+        }
+      }
+      &-bg{
+        position: absolute;
+        transform: translate3D(0rem,39rem,0);
+      }
+    }
+    .slider {
+      color: white;
+      .slider-bg-1, .slider-bg-2, .slider-bg-3 {
+        padding-top: 2rem;
+        background-size: cover;
+        margin: auto;	
+        width: 100vw; //================
+        height: 179vw; //======
+      }
+    
+      .SlideNumber {
+        padding-top: 0rem;
+        margin-left: -0.5rem;
+      }
+      .buttonSlider {
+        margin-bottom: 3rem;
+      }
+      
+      .text {
+        margin-bottom: 3rem;
+      }
+      button {
+        color: white; 
+        background: rgba(255, 255, 255, 0.2);
+        border: 1px solid #FFFFFF;
+        padding: 0.5rem 1rem;
+      }
+      
+    }
+    footer{
+      padding: 1rem 0 1rem 3rem; 
+    }
+    // ============== адаптивность rellax ==========
+    .rellax1 {
+      position: relative;
+      .one { // flower big
+        position: absolute;
+        transform: translate3d(6rem,-400px,0);
+      }
+      .two { // flower small
+        position: absolute;
+        transform: translate3d(0rem,-8rem,0);
+      }
+      .three{ // tree
+        position: absolute;
+        transform: translate3d(6rem,-1rem,0);
+      }
+    }
+    .rellax2 {
+      position: relative;
+      .one, .two {
+        position: absolute;
+        z-index: 1;
+      }
+      .one { //flower small
+        transform: translate3d(0rem,19rem,0);
+      }
+      .two { //green letter
+        transform: translate3d(6rem,-12rem,0);
+      }
+    }
+    .rellax3 {
+      position: relative;
+      .one, .two {
+        position: absolute;
+      }
+      .one { //back
+        transform: translate3d(-12rem,10rem,0);
+      }
+      .two { //first
+       transform: translate3d(-14rem,36rem,0);
+     }
+     }
+     .rellax4 {
+      
+      position: relative;
+      .one { //tree
+        position: absolute;
+        transform: translate3d(3rem,-22rem,0);
+      }
+      .two { // green letter
+        position: absolute;
+        transform: translate3d(8rem,-15rem,0);
+      }
+    }
+    .rellax5 {
+      
+      position: relative; 
+      .one,.two{
+        position: absolute; 
+      } 
+      .one { //avokado
+        transform: translate3d(-14rem,-86rem,0);
+      }
+      .two { // green letter
+        transform: translate3d(-14rem,-30rem,0);
+      }
+    }
+    .rellax6 {
+      
+      position: relative;
+    
+      .one {
+        position: absolute;
+        transform: translate3d(-10rem,23rem,0);
+        z-index: 1;
+      }
+    }
+    .rellax7 {
+      
+      position: relative;
+      transform: translate3d(0,-40rem,0);
+      .one,.two {
+        position: absolute;
+      }
+      .one{ //avokado
+        transform: translate3d(-17rem,6rem,0);
+      }
+      .two { //tree
+        transform: translate3d(-17rem,-70rem,0);
+        
+        
+      }
+    }
+    .rellax9 {
+      position: relative;
+      .one,.two {
+        position: absolute;
+      }
+      .one { // nuts
+        transform: translate3d(-10rem,50rem,0);
+      }
+      .two { // green letter
+        transform: translate3d(-10rem,-60rem,0);
+      }
+    }
+    .rellax10 {
+      position: relative;
+      .one,.two {
+        position: absolute;
+      }
+      .one {
+        transform: translate3d(0rem,91rem,0);
+      }
+      .two {
+        transform: translate3d(0rem,-20rem,0);
+      }
+    }
+    .rellax11 {
+      position: relative;
+      .one,.two {
+        position: absolute;
+      }
+      .one { // avokado
+        transform: translate3d(0rem,40rem,0);
+      }
+      .two { // green letter
+        transform: translate3d(0rem,190rem,0);
+      }
+    }
+    //====================
+}
 // Малые девайсы («ландшафтные», < 768px)
 @media (min-width: 576px) and (max-width: 767.98px) { 
   .header {
@@ -1741,8 +2106,7 @@ footer{
   }
 }
 //=================  
- }
-
+}
 // Средние девайсы («таблетки», < 992px) 
 @media (min-width: 768px) and (max-width: 991.98px) { 
   .header {
@@ -2071,9 +2435,7 @@ footer{
   }
 }
 //==================
- }
- 
-
+}
 // Большие девайсы (большие десктопы, < 1200px)
 @media (min-width: 992px) and (max-width: 1199.98px) { 
   .first {
@@ -2279,7 +2641,7 @@ footer{
     }
   }
 //===================
- }
+}
 
 
 
