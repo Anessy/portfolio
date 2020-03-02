@@ -2398,12 +2398,12 @@ footer a {
     transform: translate3d(19rem, 0, 0);
   }
 }
-@media (min-width: 1366px) and (max-width: 1439.98px) {
+@media (min-width: 1365px) and (max-width: 1439.98px) {
   .play {
     transform: translate3d(0, -23rem, 0);
   }
   .forteenthQuestion {
-    margin-top: 53rem;
+    margin-top: 63rem;
   }
   .eightthQuestion {
     margin-top: 12rem;
