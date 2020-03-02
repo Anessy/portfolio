@@ -2402,6 +2402,14 @@ footer a {
   .play {
     transform: translate3d(0, -23rem, 0);
   }
+  .first-text {
+    padding-top: 10rem;
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
   .forteenthQuestion {
     margin-top: 53rem;
   }
@@ -2629,6 +2637,14 @@ footer a {
   .play {
     transform: translate3d(0, -23rem, 0);
   }
+  .first-text {
+    padding-top: 10rem;
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
   .photo2 {
     position: relative;
     padding: 4rem 0 33rem 0;
@@ -2831,6 +2847,17 @@ footer a {
 @media (min-width: 1480px) and (max-width: 1535.98px) {
   .play {
     transform: translate3d(0, -23rem, 0);
+  }
+  .first-text {
+    padding-top: 10rem;
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: 5rem;
+  }
+  .first-bg img {
+    width: 120%;
   }
   .eightthQuestion {
     margin-top: 12rem;
@@ -3038,6 +3065,17 @@ footer a {
   .play {
     transform: translate3d(0, -23rem, 0);
   }
+  .first-text {
+    padding-top: 10rem;
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: 5rem;
+  }
+  .first-bg img {
+    width: 120%;
+  }
   .photo2 {
     position: relative;
     padding: 4rem 0 33rem 0;
@@ -3243,6 +3281,17 @@ footer a {
 @media (min-width: 1600px) and (max-width: 1679.98px) {
   .play {
     transform: translate3d(0, -25rem, 0);
+  }
+  .first-text {
+    padding-top: 10rem;
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: 5rem;
+  }
+  .first-bg img {
+    width: 120%;
   }
   .photo2 {
     position: relative;
@@ -3456,6 +3505,17 @@ footer a {
 @media (min-width: 1680px) and (max-width: 1919.98px) {
   .play {
     transform: translate3d(0, -25rem, 0);
+  }
+  .first-text {
+    padding-top: 12rem;
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: 5rem;
+  }
+  .first-bg img {
+    width: 120%;
   }
   .ritual {
     margin-top: 6rem;
@@ -3693,7 +3753,15 @@ footer a {
     transform: translate3D(70rem, 14rem, 0);
   }
   .first-text {
-    padding-top: 14rem;
+    padding-top: 16rem;
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: 10rem;
+  }
+  .first-bg img {
+    width: 150%;
   }
   .photo2 {
     position: relative;
@@ -3902,7 +3970,15 @@ footer a {
     transform: translate3D(77rem, 14rem, 0);
   }
   .first-text {
-    padding-top: 14rem;
+    padding-top: 16rem;
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: 10rem;
+  }
+  .first-bg img {
+    width: 150%;
   }
   .photo2 {
     position: relative;
@@ -4111,7 +4187,15 @@ footer a {
     transform: translate3D(89rem, 14rem, 0);
   }
   .first-text {
-    padding-top: 14rem;
+    padding-top: 18rem;
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: 10rem;
+  }
+  .first-bg img {
+    width: 150%;
   }
   .photo2 {
     position: relative;
@@ -4325,7 +4409,15 @@ footer a {
     width: 150%;
   }
   .first-text {
-    padding-top: 14rem;
+    padding-top: 18rem;
+  }
+  .first-bg {
+    position: absolute;
+    bottom: 0;
+    right: 10rem;
+  }
+  .first-bg img {
+    width: 150%;
   }
   .photo2 {
     position: relative;
