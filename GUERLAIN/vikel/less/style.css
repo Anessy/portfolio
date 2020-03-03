@@ -195,19 +195,6 @@ p {
 .video-box {
   margin-bottom: -1rem;
 }
-.play {
-  transform: translate3d(0, -20rem, 0);
-}
-.play .a {
-  margin-left: 2rem;
-}
-.play .a img {
-  width: 60%;
-}
-.play .a img:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 50%;
-}
 .video {
   margin: auto;
   width: 100vw;
@@ -616,7 +603,7 @@ footer a {
 .rellax11 .two {
   transform: translate3d(20rem, 100rem, 0);
 }
-@media (max-width: 320px) and (max-width: 374.98px) {
+@media (min-width: 320px) and (max-width: 374.98px) {
   .header-logo {
     text-align: center;
     margin-bottom: 1.5rem;
@@ -674,19 +661,6 @@ footer a {
   .no-diw {
     width: 100%;
     margin-top: 33rem;
-  }
-  .play {
-    transform: translate3d(-1rem, -16rem, 0);
-  }
-  .play .a {
-    margin-left: 2rem;
-  }
-  .play .a img {
-    width: 80%;
-  }
-  .play .a img:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 50%;
   }
   .photo2 {
     padding: 6rem 0 68rem 0;
@@ -1018,19 +992,6 @@ footer a {
     width: 100%;
     margin-top: 38rem;
   }
-  .play {
-    transform: translate3d(-1rem, -16rem, 0);
-  }
-  .play .a {
-    margin-left: 2rem;
-  }
-  .play .a img {
-    width: 80%;
-  }
-  .play .a img:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 50%;
-  }
   .photo2 {
     padding: 6rem 0 68rem 0;
     margin-bottom: 10rem;
@@ -1361,19 +1322,6 @@ footer a {
     width: 100%;
     margin-top: 38rem;
   }
-  .play {
-    transform: translate3d(-1rem, -16rem, 0);
-  }
-  .play .a {
-    margin-left: 2rem;
-  }
-  .play .a img {
-    width: 80%;
-  }
-  .play .a img:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 50%;
-  }
   .photo2 {
     padding: 6rem 0 68rem 0;
     margin-bottom: 10rem;
@@ -1697,19 +1645,6 @@ footer a {
     width: 100%;
     margin-top: 36rem;
   }
-  .play {
-    transform: translate3d(-1rem, -8.5rem, 0);
-  }
-  .play .a {
-    margin-left: 2rem;
-  }
-  .play .a img {
-    width: 100%;
-  }
-  .play .a img:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 50%;
-  }
   .photo2 {
     padding: 6rem 0 86rem 0;
   }
@@ -2029,9 +1964,6 @@ footer a {
     width: 100%;
     margin-top: 36rem;
   }
-  .play {
-    transform: translate3d(0, -11rem, 0);
-  }
   .photo2 {
     padding: 6rem 0 16.5rem 0;
     background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
@@ -2317,9 +2249,6 @@ footer a {
     width: 100%;
     margin-top: 38rem;
   }
-  .video-box .play {
-    transform: translate3d(0, -15rem, 0);
-  }
   .photo2 {
     padding: 6rem 0 21.5rem 0;
     background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
@@ -2478,9 +2407,6 @@ footer a {
   }
 }
 @media (min-width: 1408px) and (max-width: 1439.98px) {
-  .play {
-    transform: translate3d(0, -23rem, 0);
-  }
   .photo2 {
     padding: 6rem 0 27.6rem 0;
     background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
@@ -2606,9 +2532,6 @@ footer a {
   }
 }
 @media (min-width: 1440px) and (max-width: 1479.98px) {
-  .play {
-    transform: translate3d(0, -23rem, 0);
-  }
   .ritual {
     margin-top: 6rem;
     padding: 4rem 0 6rem 3%;
@@ -2731,9 +2654,6 @@ footer a {
   }
 }
 @media (min-width: 1480px) and (max-width: 1535.98px) {
-  .play {
-    transform: translate3d(0, -23rem, 0);
-  }
   .photo2 {
     padding: 6rem 0 27.6rem 0;
     background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
@@ -2859,9 +2779,6 @@ footer a {
   }
 }
 @media (min-width: 1536px) and (max-width: 1599.98px) {
-  .play {
-    transform: translate3d(0, -23rem, 0);
-  }
   .photo2 {
     padding: 6rem 0 27.6rem 0;
     background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
@@ -2987,9 +2904,6 @@ footer a {
   }
 }
 @media (min-width: 1600px) and (max-width: 1679.98px) {
-  .play {
-    transform: translate3d(0, -25rem, 0);
-  }
   .photo2 {
     padding: 6rem 0 27.6rem 0;
     background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
@@ -3102,9 +3016,6 @@ footer a {
   }
 }
 @media (min-width: 1680px) and (max-width: 1919.98px) {
-  .play {
-    transform: translate3d(0, -25rem, 0);
-  }
   .photo2 {
     padding: 6rem 0 27.6rem 0;
     background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
@@ -3230,9 +3141,6 @@ footer a {
   }
 }
 @media (min-width: 1920px) and (max-width: 2047.98px) {
-  .play {
-    transform: translate3d(0, -29rem, 0);
-  }
   .photo2 {
     padding: 6rem 0 27.6rem 0;
     background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
@@ -3373,9 +3281,6 @@ footer a {
   }
 }
 @media (min-width: 2048px) and (max-width: 2199.98px) {
-  .play {
-    transform: translate3d(0, -33rem, 0);
-  }
   .photo2 {
     padding: 6rem 0 27.6rem 0;
     background: linear-gradient(62.43deg, #CEA995 13.77%, #E7BAA3 51.33%, #F0CDB7 91.19%);
@@ -3516,9 +3421,6 @@ footer a {
   }
 }
 @media (min-width: 2200px) and (max-width: 2499.98px) {
-  .play {
-    transform: translate3d(0, -33rem, 0);
-  }
   .ritual {
     margin-top: 6rem;
     padding: 4rem 0 6rem 3%;
@@ -3680,9 +3582,6 @@ footer a {
   }
   .first-bg img {
     width: 150%;
-  }
-  .play {
-    transform: translate3d(0, -37rem, 0);
   }
   .photo2 {
     padding: 6rem 0 27.6rem 0;
