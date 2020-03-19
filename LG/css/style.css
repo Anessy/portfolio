@@ -248,6 +248,171 @@ body {
 .listen .bg img {
   width: 87%;
 }
+.meditape {
+  background-color: #91A6E3;
+}
+.meditape .logo {
+  padding-top: 2rem;
+  margin-left: 2rem;
+}
+.meditape .all {
+  padding-top: 3rem;
+}
+.meditape .bg {
+  position: relative;
+}
+.meditape .bg .pictute {
+  position: absolute;
+  width: 747px;
+  height: 747px;
+  border: 6px solid #F1E9E0;
+  border-radius: 50%;
+  -webkit-transform: translate3d(-14rem, -7rem, 0);
+          transform: translate3d(-14rem, -7rem, 0);
+}
+.meditape .text {
+  width: 90%;
+  margin-left: 3rem;
+}
+.meditape .text h1 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 38px;
+  color: #FFFFFF;
+  margin-bottom: 2rem;
+}
+.meditape .text p {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-bottom: 3rem;
+}
+.meditape .text .vector {
+  -webkit-transform: translate3d(0rem, 0, 0);
+          transform: translate3d(0rem, 0, 0);
+}
+.meditape .text .ellipse {
+  -webkit-transform: translate3d(4rem, 4rem, 0);
+          transform: translate3d(4rem, 4rem, 0);
+}
+.meditape .text .flower {
+  -webkit-transform: translate3d(0rem, -13rem, 0);
+          transform: translate3d(0rem, -13rem, 0);
+}
+.meditape .about p {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFFFFF;
+  width: 90%;
+  margin-left: 2rem;
+}
+.meditape .girl {
+  position: absolute;
+  -webkit-transform: translate3d(-2rem, -15rem, 0);
+          transform: translate3d(-2rem, -15rem, 0);
+}
+.rules {
+  background-color: #A7A6CF;
+  padding-bottom: 7.2rem;
+  position: relative;
+}
+.rules .bg {
+  position: relative;
+}
+.rules .bg .plant {
+  position: absolute;
+  -webkit-transform: translate3d(0rem, 30rem, 0);
+          transform: translate3d(0rem, 30rem, 0);
+}
+.rules .bg .ellipse {
+  position: absolute;
+  right: 0;
+  top: 1rem;
+}
+.rules .bg .square {
+  position: absolute;
+  right: 0;
+  -webkit-transform: translate3d(-9rem, 1.5rem, 0);
+          transform: translate3d(-9rem, 1.5rem, 0);
+}
+.rules .bg .square img {
+  width: 90%;
+}
+.rules .logo {
+  padding-top: 2rem;
+  margin-left: 2rem;
+}
+.rules .all {
+  margin-top: 0rem;
+}
+.rules .first {
+  width: 85%;
+  margin-left: -3rem;
+}
+.rules .first .garderob h1 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 38px;
+  color: #FFFFFF;
+  margin-bottom: 2rem;
+}
+.rules .first .garderob p {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+.rules .first .wachin p,
+.rules .first .boble p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin-top: 1rem;
+}
+.rules .first .wachin img {
+  margin-top: 1rem;
+}
+.rules .letter {
+  background-color: white;
+  padding: 8rem 4rem 3rem 5rem;
+  position: relative;
+  -webkit-transform: translate3d(-11rem, -8rem, 0);
+          transform: translate3d(-11rem, -8rem, 0);
+}
+.rules .letter img {
+  position: absolute;
+  -webkit-transform: translate3d(-2rem, 0rem, 0);
+          transform: translate3d(-2rem, 0rem, 0);
+}
+.rules .letter p {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #282828;
+}
+.rules .secondBG {
+  position: absolute;
+  right: 0;
+  -webkit-transform: translate3d(-1rem, -26rem, 0);
+          transform: translate3d(-1rem, -26rem, 0);
+}
 /* <=576 - Extra Small .col- */
 @media (min-width: 320px) and (max-width: 374.98px) {
   .header {
@@ -358,7 +523,7 @@ body {
     width: 100%;
   }
   .listen {
-    padding-bottom: 0rem;
+    padding-bottom: 3rem;
     padding-top: 4rem;
   }
   .listen .logo {
@@ -383,8 +548,8 @@ body {
     background-color: white;
     margin-left: -1rem;
     padding: 3rem 2rem 3rem 4rem;
-    -webkit-transform: translate3d(0, 0rem, 0);
-            transform: translate3d(0, 0rem, 0);
+    -webkit-transform: translate3d(3rem, 0rem, 0);
+            transform: translate3d(3rem, 0rem, 0);
   }
   .listen .block .name .H {
     margin-top: 0.5rem;
@@ -399,11 +564,134 @@ body {
   }
   .listen .bg {
     position: absolute;
-    -webkit-transform: translate3d(0rem, 74rem, 0);
-            transform: translate3d(0rem, 74rem, 0);
+    -webkit-transform: translate3d(0rem, 84rem, 0);
+            transform: translate3d(0rem, 84rem, 0);
   }
   .listen .bg img {
     width: 100%;
+  }
+  .meditape {
+    background-color: #91A6E3;
+  }
+  .meditape .page {
+    display: none;
+  }
+  .meditape .logo {
+    display: none;
+  }
+  .meditape .all {
+    padding-top: 5rem;
+  }
+  .meditape .bg {
+    position: relative;
+  }
+  .meditape .bg .pictute {
+    display: none;
+  }
+  .meditape .text {
+    width: 80%;
+    margin-left: 3rem;
+  }
+  .meditape .text h1 {
+    margin-bottom: 2rem;
+  }
+  .meditape .text p {
+    margin-bottom: 3rem;
+  }
+  .meditape .text .vector {
+    -webkit-transform: translate3d(-2rem, 0, 0);
+            transform: translate3d(-2rem, 0, 0);
+  }
+  .meditape .text .ellipse {
+    -webkit-transform: translate3d(-8rem, 4rem, 0);
+            transform: translate3d(-8rem, 4rem, 0);
+  }
+  .meditape .text .flower {
+    -webkit-transform: translate3d(1rem, -13rem, 0);
+            transform: translate3d(1rem, -13rem, 0);
+  }
+  .meditape .about p {
+    width: 80%;
+    margin-left: 3rem;
+    -webkit-transform: translate3d(0, -10rem, 0);
+            transform: translate3d(0, -10rem, 0);
+  }
+  .meditape .im {
+    text-align: center;
+    -webkit-transform: translate3d(6rem, -10rem, 0);
+            transform: translate3d(6rem, -10rem, 0);
+  }
+  .meditape .girl {
+    position: absolute;
+    -webkit-transform: translate3d(-5rem, -20rem, 0);
+            transform: translate3d(-5rem, -20rem, 0);
+  }
+  .rules {
+    padding-bottom: 2.2rem;
+  }
+  .rules .bg .plant {
+    display: none;
+    -webkit-transform: translate3d(0rem, 53.5rem, 0);
+            transform: translate3d(0rem, 53.5rem, 0);
+  }
+  .rules .bg .ellipse {
+    display: none;
+  }
+  .rules .bg .square {
+    right: 0;
+    -webkit-transform: translate3d(0rem, 72rem, 0);
+            transform: translate3d(0rem, 72rem, 0);
+  }
+  .rules .bg .square img {
+    width: 200%;
+  }
+  .rules .logo {
+    display: none;
+  }
+  .rules .page {
+    display: none;
+  }
+  .rules .all {
+    margin-top: 0rem;
+  }
+  .rules .first {
+    width: 85%;
+    margin-left: 3rem;
+    margin-top: 4rem;
+  }
+  .rules .first .garderob h1 {
+    margin-bottom: 2rem;
+  }
+  .rules .first .garderob p {
+    color: #FFFFFF;
+  }
+  .rules .first .wachin p,
+  .rules .first .boble p {
+    margin-top: 1rem;
+  }
+  .rules .first .wachin img {
+    margin-top: 1rem;
+  }
+  .rules .letter {
+    z-index: 2;
+    background-color: white;
+    padding: 3rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(3rem, 1rem, 0);
+            transform: translate3d(3rem, 1rem, 0);
+  }
+  .rules .letter img {
+    position: absolute;
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
+  }
+  .rules .letter p {
+    color: #282828;
+  }
+  .rules .secondBG {
+    -webkit-transform: translate3d(5rem, -60rem, 0);
+            transform: translate3d(5rem, -60rem, 0);
+    z-index: 1;
   }
 }
 @media (min-width: 375px) and (max-width: 399.98px) {
@@ -515,7 +803,7 @@ body {
     width: 100%;
   }
   .listen {
-    padding-bottom: 0rem;
+    padding-bottom: 2rem;
     padding-top: 4rem;
   }
   .listen .logo {
@@ -540,8 +828,8 @@ body {
     background-color: white;
     margin-left: -1rem;
     padding: 3rem 2rem 3rem 4rem;
-    -webkit-transform: translate3d(0, 0rem, 0);
-            transform: translate3d(0, 0rem, 0);
+    -webkit-transform: translate3d(3.2rem, 0rem, 0);
+            transform: translate3d(3.2rem, 0rem, 0);
   }
   .listen .block .name .H {
     margin-top: 0.5rem;
@@ -556,11 +844,134 @@ body {
   }
   .listen .bg {
     position: absolute;
-    -webkit-transform: translate3d(0rem, 59rem, 0);
-            transform: translate3d(0rem, 59rem, 0);
+    -webkit-transform: translate3d(0rem, 63rem, 0);
+            transform: translate3d(0rem, 63rem, 0);
   }
   .listen .bg img {
     width: 100%;
+  }
+  .meditape {
+    background-color: #91A6E3;
+  }
+  .meditape .page {
+    display: none;
+  }
+  .meditape .logo {
+    display: none;
+  }
+  .meditape .all {
+    padding-top: 5rem;
+  }
+  .meditape .bg {
+    position: relative;
+  }
+  .meditape .bg .pictute {
+    display: none;
+  }
+  .meditape .text {
+    width: 80%;
+    margin-left: 3rem;
+  }
+  .meditape .text h1 {
+    margin-bottom: 2rem;
+  }
+  .meditape .text p {
+    margin-bottom: 3rem;
+  }
+  .meditape .text .vector {
+    -webkit-transform: translate3d(-2rem, 0, 0);
+            transform: translate3d(-2rem, 0, 0);
+  }
+  .meditape .text .ellipse {
+    -webkit-transform: translate3d(-8rem, 4rem, 0);
+            transform: translate3d(-8rem, 4rem, 0);
+  }
+  .meditape .text .flower {
+    -webkit-transform: translate3d(1rem, -13rem, 0);
+            transform: translate3d(1rem, -13rem, 0);
+  }
+  .meditape .about p {
+    width: 80%;
+    margin-left: 3rem;
+    -webkit-transform: translate3d(0, -10rem, 0);
+            transform: translate3d(0, -10rem, 0);
+  }
+  .meditape .im {
+    text-align: center;
+    -webkit-transform: translate3d(6rem, -10rem, 0);
+            transform: translate3d(6rem, -10rem, 0);
+  }
+  .meditape .girl {
+    position: absolute;
+    -webkit-transform: translate3d(-5rem, -20rem, 0);
+            transform: translate3d(-5rem, -20rem, 0);
+  }
+  .rules {
+    padding-bottom: 2.2rem;
+  }
+  .rules .bg .plant {
+    display: none;
+    -webkit-transform: translate3d(0rem, 53.5rem, 0);
+            transform: translate3d(0rem, 53.5rem, 0);
+  }
+  .rules .bg .ellipse {
+    display: none;
+  }
+  .rules .bg .square {
+    right: 0;
+    -webkit-transform: translate3d(0rem, 41rem, 0);
+            transform: translate3d(0rem, 41rem, 0);
+  }
+  .rules .bg .square img {
+    width: 200%;
+  }
+  .rules .logo {
+    display: none;
+  }
+  .rules .page {
+    display: none;
+  }
+  .rules .all {
+    margin-top: 0rem;
+  }
+  .rules .first {
+    width: 85%;
+    margin-left: 3rem;
+    margin-top: 4rem;
+  }
+  .rules .first .garderob h1 {
+    margin-bottom: 2rem;
+  }
+  .rules .first .garderob p {
+    color: #FFFFFF;
+  }
+  .rules .first .wachin p,
+  .rules .first .boble p {
+    margin-top: 1rem;
+  }
+  .rules .first .wachin img {
+    margin-top: 1rem;
+  }
+  .rules .letter {
+    z-index: 2;
+    background-color: white;
+    padding: 3rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(3rem, 1rem, 0);
+            transform: translate3d(3rem, 1rem, 0);
+  }
+  .rules .letter img {
+    position: absolute;
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
+  }
+  .rules .letter p {
+    color: #282828;
+  }
+  .rules .secondBG {
+    -webkit-transform: translate3d(5rem, -60rem, 0);
+            transform: translate3d(5rem, -60rem, 0);
+    z-index: 1;
   }
 }
 @media (min-width: 400px) and (max-width: 575.98px) {
@@ -672,7 +1083,7 @@ body {
     width: 100%;
   }
   .listen {
-    padding-bottom: 0rem;
+    padding-bottom: 2.5rem;
     padding-top: 4rem;
   }
   .listen .logo {
@@ -697,8 +1108,8 @@ body {
     background-color: white;
     margin-left: -1rem;
     padding: 3rem 2rem 3rem 4rem;
-    -webkit-transform: translate3d(0, 0rem, 0);
-            transform: translate3d(0, 0rem, 0);
+    -webkit-transform: translate3d(3rem, 0rem, 0);
+            transform: translate3d(3rem, 0rem, 0);
   }
   .listen .block .name .H {
     margin-top: 0.5rem;
@@ -713,11 +1124,134 @@ body {
   }
   .listen .bg {
     position: absolute;
-    -webkit-transform: translate3d(0rem, 53rem, 0);
-            transform: translate3d(0rem, 53rem, 0);
+    -webkit-transform: translate3d(0rem, 58rem, 0);
+            transform: translate3d(0rem, 58rem, 0);
   }
   .listen .bg img {
     width: 100%;
+  }
+  .meditape {
+    background-color: #91A6E3;
+  }
+  .meditape .page {
+    display: none;
+  }
+  .meditape .logo {
+    display: none;
+  }
+  .meditape .all {
+    padding-top: 5rem;
+  }
+  .meditape .bg {
+    position: relative;
+  }
+  .meditape .bg .pictute {
+    display: none;
+  }
+  .meditape .text {
+    width: 80%;
+    margin-left: 3rem;
+  }
+  .meditape .text h1 {
+    margin-bottom: 2rem;
+  }
+  .meditape .text p {
+    margin-bottom: 3rem;
+  }
+  .meditape .text .vector {
+    -webkit-transform: translate3d(-2rem, 0, 0);
+            transform: translate3d(-2rem, 0, 0);
+  }
+  .meditape .text .ellipse {
+    -webkit-transform: translate3d(-8rem, 4rem, 0);
+            transform: translate3d(-8rem, 4rem, 0);
+  }
+  .meditape .text .flower {
+    -webkit-transform: translate3d(1rem, -13rem, 0);
+            transform: translate3d(1rem, -13rem, 0);
+  }
+  .meditape .about p {
+    width: 80%;
+    margin-left: 3rem;
+    -webkit-transform: translate3d(0, -10rem, 0);
+            transform: translate3d(0, -10rem, 0);
+  }
+  .meditape .im {
+    text-align: center;
+    -webkit-transform: translate3d(6rem, -10rem, 0);
+            transform: translate3d(6rem, -10rem, 0);
+  }
+  .meditape .girl {
+    position: absolute;
+    -webkit-transform: translate3d(-3rem, -20rem, 0);
+            transform: translate3d(-3rem, -20rem, 0);
+  }
+  .rules {
+    padding-bottom: 2.2rem;
+  }
+  .rules .bg .plant {
+    display: none;
+    -webkit-transform: translate3d(0rem, 53.5rem, 0);
+            transform: translate3d(0rem, 53.5rem, 0);
+  }
+  .rules .bg .ellipse {
+    display: none;
+  }
+  .rules .bg .square {
+    right: 0;
+    -webkit-transform: translate3d(2rem, 62rem, 0);
+            transform: translate3d(2rem, 62rem, 0);
+  }
+  .rules .bg .square img {
+    width: 80%;
+  }
+  .rules .logo {
+    display: none;
+  }
+  .rules .page {
+    display: none;
+  }
+  .rules .all {
+    margin-top: 0rem;
+  }
+  .rules .first {
+    width: 85%;
+    margin-left: 3rem;
+    margin-top: 4rem;
+  }
+  .rules .first .garderob h1 {
+    margin-bottom: 2rem;
+  }
+  .rules .first .garderob p {
+    color: #FFFFFF;
+  }
+  .rules .first .wachin p,
+  .rules .first .boble p {
+    margin-top: 1rem;
+  }
+  .rules .first .wachin img {
+    margin-top: 1rem;
+  }
+  .rules .letter {
+    z-index: 2;
+    background-color: white;
+    padding: 3rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(3rem, 1rem, 0);
+            transform: translate3d(3rem, 1rem, 0);
+  }
+  .rules .letter img {
+    position: absolute;
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
+  }
+  .rules .letter p {
+    color: #282828;
+  }
+  .rules .secondBG {
+    -webkit-transform: translate3d(4rem, -56rem, 0);
+            transform: translate3d(4rem, -56rem, 0);
+    z-index: 1;
   }
 }
 /* >=576 - Small .col-sm */
@@ -865,11 +1399,134 @@ body {
   }
   .listen .bg {
     position: absolute;
-    -webkit-transform: translate3d(0rem, 40rem, 0);
-            transform: translate3d(0rem, 40rem, 0);
+    -webkit-transform: translate3d(2rem, 45rem, 0);
+            transform: translate3d(2rem, 45rem, 0);
   }
   .listen .bg img {
-    width: 90%;
+    width: 80%;
+  }
+  .meditape {
+    background-color: #91A6E3;
+  }
+  .meditape .page {
+    display: none;
+  }
+  .meditape .logo {
+    display: none;
+  }
+  .meditape .all {
+    padding-top: 5rem;
+  }
+  .meditape .bg {
+    position: relative;
+  }
+  .meditape .bg .pictute {
+    display: none;
+  }
+  .meditape .text {
+    width: 80%;
+    margin-left: 3rem;
+  }
+  .meditape .text h1 {
+    margin-bottom: 2rem;
+  }
+  .meditape .text p {
+    margin-bottom: 3rem;
+  }
+  .meditape .text .vector {
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
+  }
+  .meditape .text .ellipse {
+    -webkit-transform: translate3d(4rem, 4rem, 0);
+            transform: translate3d(4rem, 4rem, 0);
+  }
+  .meditape .text .flower {
+    -webkit-transform: translate3d(10rem, -13rem, 0);
+            transform: translate3d(10rem, -13rem, 0);
+  }
+  .meditape .about p {
+    width: 80%;
+    margin-left: 3rem;
+    -webkit-transform: translate3d(0, -10rem, 0);
+            transform: translate3d(0, -10rem, 0);
+  }
+  .meditape .im {
+    text-align: center;
+    -webkit-transform: translate3d(0, -10rem, 0);
+            transform: translate3d(0, -10rem, 0);
+  }
+  .meditape .girl {
+    position: absolute;
+    -webkit-transform: translate3d(3rem, -20rem, 0);
+            transform: translate3d(3rem, -20rem, 0);
+  }
+  .rules {
+    padding-bottom: 7.2rem;
+  }
+  .rules .bg .plant {
+    display: none;
+    -webkit-transform: translate3d(0rem, 53.5rem, 0);
+            transform: translate3d(0rem, 53.5rem, 0);
+  }
+  .rules .bg .ellipse {
+    display: none;
+  }
+  .rules .bg .square {
+    right: 0;
+    -webkit-transform: translate3d(0.5rem, 37rem, 0);
+            transform: translate3d(0.5rem, 37rem, 0);
+  }
+  .rules .bg .square img {
+    width: 80%;
+  }
+  .rules .logo {
+    display: none;
+  }
+  .rules .page {
+    display: none;
+  }
+  .rules .all {
+    margin-top: 0rem;
+  }
+  .rules .first {
+    width: 85%;
+    margin-left: 3rem;
+    margin-top: 4rem;
+  }
+  .rules .first .garderob h1 {
+    margin-bottom: 2rem;
+  }
+  .rules .first .garderob p {
+    color: #FFFFFF;
+  }
+  .rules .first .wachin p,
+  .rules .first .boble p {
+    margin-top: 1rem;
+  }
+  .rules .first .wachin img {
+    margin-top: 1rem;
+  }
+  .rules .letter {
+    z-index: 2;
+    background-color: white;
+    padding: 3rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(5rem, 1rem, 0);
+            transform: translate3d(5rem, 1rem, 0);
+  }
+  .rules .letter img {
+    position: absolute;
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
+  }
+  .rules .letter p {
+    color: #282828;
+  }
+  .rules .secondBG {
+    -webkit-transform: translate3d(4rem, -40rem, 0);
+            transform: translate3d(4rem, -40rem, 0);
+    z-index: 1;
   }
 }
 /* >=768 - Medium .col-md  */
@@ -1009,11 +1666,131 @@ body {
   }
   .listen .bg {
     position: absolute;
-    -webkit-transform: translate3d(5rem, 40rem, 0);
-            transform: translate3d(5rem, 40rem, 0);
+    -webkit-transform: translate3d(8rem, 40rem, 0);
+            transform: translate3d(8rem, 40rem, 0);
   }
   .listen .bg img {
     width: 80%;
+  }
+  .meditape {
+    background-color: #91A6E3;
+  }
+  .meditape .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .meditape .all {
+    padding-top: 3rem;
+  }
+  .meditape .bg {
+    position: relative;
+  }
+  .meditape .bg .pictute {
+    display: none;
+  }
+  .meditape .text {
+    width: 80%;
+    margin-left: 3rem;
+  }
+  .meditape .text h1 {
+    margin-bottom: 2rem;
+  }
+  .meditape .text p {
+    margin-bottom: 3rem;
+  }
+  .meditape .text .vector {
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
+  }
+  .meditape .text .ellipse {
+    -webkit-transform: translate3d(4rem, 4rem, 0);
+            transform: translate3d(4rem, 4rem, 0);
+  }
+  .meditape .text .flower {
+    -webkit-transform: translate3d(0rem, -13rem, 0);
+            transform: translate3d(0rem, -13rem, 0);
+  }
+  .meditape .about p {
+    width: 70%;
+    margin-left: 6rem;
+    -webkit-transform: translate3d(0, -10rem, 0);
+            transform: translate3d(0, -10rem, 0);
+  }
+  .meditape .im {
+    text-align: center;
+    -webkit-transform: translate3d(0, -10rem, 0);
+            transform: translate3d(0, -10rem, 0);
+  }
+  .meditape .girl {
+    position: absolute;
+    -webkit-transform: translate3d(8rem, -20rem, 0);
+            transform: translate3d(8rem, -20rem, 0);
+  }
+  .rules {
+    padding-bottom: 7.2rem;
+  }
+  .rules .bg .plant {
+    -webkit-transform: translate3d(0rem, 53.5rem, 0);
+            transform: translate3d(0rem, 53.5rem, 0);
+  }
+  .rules .bg .ellipse {
+    right: 0;
+    top: 1rem;
+    -webkit-transform: translate3d(8rem, 0, 0);
+            transform: translate3d(8rem, 0, 0);
+  }
+  .rules .bg .square {
+    right: 0;
+    -webkit-transform: translate3d(-6.5rem, 31rem, 0);
+            transform: translate3d(-6.5rem, 31rem, 0);
+  }
+  .rules .bg .square img {
+    width: 90%;
+  }
+  .rules .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .rules .all {
+    margin-top: 0rem;
+  }
+  .rules .first {
+    width: 85%;
+    margin-left: 3rem;
+  }
+  .rules .first .garderob h1 {
+    margin-bottom: 2rem;
+  }
+  .rules .first .garderob p {
+    color: #FFFFFF;
+  }
+  .rules .first .wachin p,
+  .rules .first .boble p {
+    margin-top: 1rem;
+  }
+  .rules .first .wachin img {
+    margin-top: 1rem;
+  }
+  .rules .letter {
+    background-color: white;
+    padding: 3rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(5rem, -2rem, 0);
+            transform: translate3d(5rem, -2rem, 0);
+  }
+  .rules .letter img {
+    position: absolute;
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
+  }
+  .rules .letter p {
+    color: #282828;
+  }
+  .rules .secondBG {
+    position: absolute;
+    right: 0;
+    -webkit-transform: translate3d(14rem, -24rem, 0);
+            transform: translate3d(14rem, -24rem, 0);
   }
 }
 /* >=992 - Large .col-lg  */
@@ -1123,7 +1900,7 @@ body {
   .listen .text {
     text-align: center;
     width: 70%;
-    margin-left: 2rem;
+    margin-left: -7rem;
   }
   .listen .text h1 {
     margin-bottom: 2rem;
@@ -1132,11 +1909,12 @@ body {
     margin-top: 2rem;
   }
   .listen .block {
+    position: absolute;
     background-color: white;
     margin-left: -1rem;
     padding: 8rem 2rem 3rem 4rem;
-    -webkit-transform: translate3d(0, -8rem, 0);
-            transform: translate3d(0, -8rem, 0);
+    -webkit-transform: translate3d(16rem, -42rem, 0);
+            transform: translate3d(16rem, -42rem, 0);
   }
   .listen .block .name .H {
     margin-top: 0.5rem;
@@ -1151,11 +1929,159 @@ body {
   }
   .listen .bg {
     position: absolute;
-    -webkit-transform: translate3d(28rem, 10rem, 0);
-            transform: translate3d(28rem, 10rem, 0);
+    -webkit-transform: translate3d(28rem, 14rem, 0);
+            transform: translate3d(28rem, 14rem, 0);
   }
   .listen .bg img {
     width: 70%;
+  }
+  .meditape {
+    background-color: #91A6E3;
+  }
+  .meditape .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .meditape .all {
+    padding-top: 3rem;
+  }
+  .meditape .bg {
+    position: relative;
+  }
+  .meditape .bg .pictute {
+    position: absolute;
+    width: 710px;
+    height: 710px;
+    border: 6px solid #F1E9E0;
+    border-radius: 50%;
+    -webkit-transform: translate3d(-15rem, -5rem, 0);
+            transform: translate3d(-15rem, -5rem, 0);
+  }
+  .meditape .text {
+    width: 80%;
+    margin-left: 3rem;
+  }
+  .meditape .text h1 {
+    margin-bottom: 2rem;
+  }
+  .meditape .text p {
+    margin-bottom: 3rem;
+  }
+  .meditape .text .vector {
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
+  }
+  .meditape .text .ellipse {
+    -webkit-transform: translate3d(4rem, 4rem, 0);
+            transform: translate3d(4rem, 4rem, 0);
+  }
+  .meditape .text .flower {
+    -webkit-transform: translate3d(0rem, -13rem, 0);
+            transform: translate3d(0rem, -13rem, 0);
+  }
+  .meditape .about p {
+    width: 110%;
+    margin-left: 0rem;
+  }
+  .meditape .girl {
+    position: absolute;
+    -webkit-transform: translate3d(-2rem, -15rem, 0);
+            transform: translate3d(-2rem, -15rem, 0);
+  }
+  .rules {
+    background-color: #A7A6CF;
+    padding-bottom: 0rem;
+    position: relative;
+  }
+  .rules .bg {
+    position: relative;
+  }
+  .rules .bg .plant {
+    position: absolute;
+    -webkit-transform: translate3d(0rem, 30rem, 0);
+            transform: translate3d(0rem, 30rem, 0);
+  }
+  .rules .bg .ellipse {
+    position: absolute;
+    right: 0;
+    top: 1rem;
+  }
+  .rules .bg .square {
+    position: absolute;
+    right: 0;
+    -webkit-transform: translate3d(0rem, 19rem, 0);
+            transform: translate3d(0rem, 19rem, 0);
+  }
+  .rules .bg .square img {
+    width: 70%;
+  }
+  .rules .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .rules .all {
+    margin-top: 0rem;
+  }
+  .rules .first {
+    width: 75%;
+    margin-left: -3rem;
+  }
+  .rules .first .garderob h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+  }
+  .rules .first .garderob p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+  }
+  .rules .first .wachin p,
+  .rules .first .boble p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top: 1rem;
+  }
+  .rules .first .wachin img {
+    margin-top: 1rem;
+  }
+  .rules .letter {
+    width: 80%;
+    background-color: white;
+    padding: 8rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(100%, -36rem, 0);
+            transform: translate3d(100%, -36rem, 0);
+  }
+  .rules .letter img {
+    position: absolute;
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
+  }
+  .rules .letter p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #282828;
+  }
+  .rules .secondBG {
+    position: absolute;
+    right: 0;
+    -webkit-transform: translate3d(26rem, -60rem, 0);
+            transform: translate3d(26rem, -60rem, 0);
   }
 }
 /* >= 1200 - Extra large .col-xl */
@@ -1314,6 +2240,141 @@ body {
   .listen .bg img {
     width: 87%;
   }
+  .meditape {
+    background-color: #91A6E3;
+  }
+  .meditape .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .meditape .all {
+    padding-top: 3rem;
+  }
+  .meditape .bg {
+    position: relative;
+  }
+  .meditape .bg .pictute {
+    position: absolute;
+    width: 747px;
+    height: 747px;
+    border: 6px solid #F1E9E0;
+    border-radius: 50%;
+    -webkit-transform: translate3d(-11rem, -7rem, 0);
+            transform: translate3d(-11rem, -7rem, 0);
+  }
+  .meditape .text {
+    width: 90%;
+    margin-left: 3rem;
+  }
+  .meditape .text h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+  }
+  .meditape .text p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+  }
+  .meditape .text .vector {
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
+  }
+  .meditape .text .ellipse {
+    -webkit-transform: translate3d(4rem, 4rem, 0);
+            transform: translate3d(4rem, 4rem, 0);
+  }
+  .meditape .text .flower {
+    -webkit-transform: translate3d(0rem, -13rem, 0);
+            transform: translate3d(0rem, -13rem, 0);
+  }
+  .meditape .about p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    width: 90%;
+    margin-left: 2rem;
+  }
+  .meditape .girl {
+    position: absolute;
+    -webkit-transform: translate3d(-2rem, -15rem, 0);
+            transform: translate3d(-2rem, -15rem, 0);
+  }
+  .rules {
+    padding-bottom: 10rem;
+  }
+  .rules .bg .plant {
+    -webkit-transform: translate3d(0rem, 30rem, 0);
+            transform: translate3d(0rem, 30rem, 0);
+  }
+  .rules .bg .ellipse {
+    right: 0;
+    top: 1rem;
+  }
+  .rules .bg .square {
+    right: 0;
+    -webkit-transform: translate3d(-15rem, 0rem, 0);
+            transform: translate3d(-15rem, 0rem, 0);
+  }
+  .rules .bg .square img {
+    width: 90%;
+  }
+  .rules .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .rules .all {
+    margin-top: 0rem;
+  }
+  .rules .first {
+    width: 85%;
+    margin-left: -3rem;
+  }
+  .rules .first .garderob h1 {
+    margin-bottom: 2rem;
+  }
+  .rules .first .garderob p {
+    color: #FFFFFF;
+  }
+  .rules .first .wachin p,
+  .rules .first .boble p {
+    margin-top: 1rem;
+  }
+  .rules .first .wachin img {
+    margin-top: 1rem;
+  }
+  .rules .letter {
+    background-color: white;
+    padding: 8rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(-11rem, -8rem, 0);
+            transform: translate3d(-11rem, -8rem, 0);
+  }
+  .rules .letter img {
+    position: absolute;
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
+  }
+  .rules .letter p {
+    color: #282828;
+  }
+  .rules .secondBG {
+    position: absolute;
+    right: 0;
+    -webkit-transform: translate3d(-1rem, -26rem, 0);
+            transform: translate3d(-1rem, -26rem, 0);
+  }
 }
 @media (min-width: 1440px) and (max-width: 1479.98px) {
   .header {
@@ -1470,6 +2531,141 @@ body {
   .listen .bg img {
     width: 87%;
   }
+  .meditape {
+    background-color: #91A6E3;
+  }
+  .meditape .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .meditape .all {
+    padding-top: 3rem;
+  }
+  .meditape .bg {
+    position: relative;
+  }
+  .meditape .bg .pictute {
+    position: absolute;
+    width: 747px;
+    height: 747px;
+    border: 6px solid #F1E9E0;
+    border-radius: 50%;
+    -webkit-transform: translate3d(-9rem, -7rem, 0);
+            transform: translate3d(-9rem, -7rem, 0);
+  }
+  .meditape .text {
+    width: 90%;
+    margin-left: 3rem;
+  }
+  .meditape .text h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+  }
+  .meditape .text p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+  }
+  .meditape .text .vector {
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
+  }
+  .meditape .text .ellipse {
+    -webkit-transform: translate3d(4rem, 4rem, 0);
+            transform: translate3d(4rem, 4rem, 0);
+  }
+  .meditape .text .flower {
+    -webkit-transform: translate3d(0rem, -13rem, 0);
+            transform: translate3d(0rem, -13rem, 0);
+  }
+  .meditape .about p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    width: 90%;
+    margin-left: 2rem;
+  }
+  .meditape .girl {
+    position: absolute;
+    -webkit-transform: translate3d(-2rem, -15rem, 0);
+            transform: translate3d(-2rem, -15rem, 0);
+  }
+  .rules {
+    padding-bottom: 11rem;
+  }
+  .rules .bg .plant {
+    -webkit-transform: translate3d(0rem, 30rem, 0);
+            transform: translate3d(0rem, 30rem, 0);
+  }
+  .rules .bg .ellipse {
+    right: 0;
+    top: 1rem;
+  }
+  .rules .bg .square {
+    right: 0;
+    -webkit-transform: translate3d(-16rem, 0rem, 0);
+            transform: translate3d(-16rem, 0rem, 0);
+  }
+  .rules .bg .square img {
+    width: 85%;
+  }
+  .rules .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .rules .all {
+    margin-top: 0rem;
+  }
+  .rules .first {
+    width: 85%;
+    margin-left: -3rem;
+  }
+  .rules .first .garderob h1 {
+    margin-bottom: 2rem;
+  }
+  .rules .first .garderob p {
+    color: #FFFFFF;
+  }
+  .rules .first .wachin p,
+  .rules .first .boble p {
+    margin-top: 1rem;
+  }
+  .rules .first .wachin img {
+    margin-top: 1rem;
+  }
+  .rules .letter {
+    background-color: white;
+    padding: 8rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(-11rem, -8rem, 0);
+            transform: translate3d(-11rem, -8rem, 0);
+  }
+  .rules .letter img {
+    position: absolute;
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
+  }
+  .rules .letter p {
+    color: #282828;
+  }
+  .rules .secondBG {
+    position: absolute;
+    right: 0;
+    -webkit-transform: translate3d(-2rem, -26rem, 0);
+            transform: translate3d(-2rem, -26rem, 0);
+  }
 }
 @media (min-width: 1480px) and (max-width: 1535.98px) {
   .header {
@@ -1609,6 +2805,122 @@ body {
   .listen .bg img {
     width: 87%;
   }
+  .meditape {
+    background-color: #91A6E3;
+  }
+  .meditape .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .meditape .all {
+    padding-top: 3rem;
+  }
+  .meditape .bg {
+    position: relative;
+  }
+  .meditape .bg .pictute {
+    position: absolute;
+    width: 747px;
+    height: 747px;
+    border: 6px solid #F1E9E0;
+    border-radius: 50%;
+    -webkit-transform: translate3d(-9rem, -7rem, 0);
+            transform: translate3d(-9rem, -7rem, 0);
+  }
+  .meditape .text {
+    width: 90%;
+    margin-left: 3rem;
+  }
+  .meditape .text h1 {
+    margin-bottom: 2rem;
+  }
+  .meditape .text p {
+    margin-bottom: 3rem;
+  }
+  .meditape .text .vector {
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
+  }
+  .meditape .text .ellipse {
+    -webkit-transform: translate3d(4rem, 4rem, 0);
+            transform: translate3d(4rem, 4rem, 0);
+  }
+  .meditape .text .flower {
+    -webkit-transform: translate3d(0rem, -13rem, 0);
+            transform: translate3d(0rem, -13rem, 0);
+  }
+  .meditape .about p {
+    margin-left: 2rem;
+  }
+  .meditape .girl {
+    position: absolute;
+    -webkit-transform: translate3d(-2rem, -15rem, 0);
+            transform: translate3d(-2rem, -15rem, 0);
+  }
+  .rules {
+    padding-bottom: 11rem;
+  }
+  .rules .bg .plant {
+    -webkit-transform: translate3d(0rem, 30rem, 0);
+            transform: translate3d(0rem, 30rem, 0);
+  }
+  .rules .bg .ellipse {
+    right: 0;
+    top: 1rem;
+  }
+  .rules .bg .square {
+    right: 0;
+    -webkit-transform: translate3d(-17rem, 0rem, 0);
+            transform: translate3d(-17rem, 0rem, 0);
+  }
+  .rules .bg .square img {
+    width: 85%;
+  }
+  .rules .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .rules .all {
+    margin-top: 0rem;
+  }
+  .rules .first {
+    width: 85%;
+    margin-left: -3rem;
+  }
+  .rules .first .garderob h1 {
+    margin-bottom: 2rem;
+  }
+  .rules .first .garderob p {
+    color: #FFFFFF;
+  }
+  .rules .first .wachin p,
+  .rules .first .boble p {
+    margin-top: 1rem;
+  }
+  .rules .first .wachin img {
+    margin-top: 1rem;
+  }
+  .rules .letter {
+    background-color: white;
+    padding: 8rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(-11rem, -8rem, 0);
+            transform: translate3d(-11rem, -8rem, 0);
+  }
+  .rules .letter img {
+    position: absolute;
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
+  }
+  .rules .letter p {
+    color: #282828;
+  }
+  .rules .secondBG {
+    position: absolute;
+    right: 0;
+    -webkit-transform: translate3d(-2rem, -26rem, 0);
+            transform: translate3d(-2rem, -26rem, 0);
+  }
 }
 @media (min-width: 1536px) and (max-width: 1599.98px) {
   .header {
@@ -1747,6 +3059,122 @@ body {
   }
   .listen .bg img {
     width: 87%;
+  }
+  .meditape {
+    background-color: #91A6E3;
+  }
+  .meditape .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .meditape .all {
+    padding-top: 3rem;
+  }
+  .meditape .bg {
+    position: relative;
+  }
+  .meditape .bg .pictute {
+    position: absolute;
+    width: 767px;
+    height: 767px;
+    border: 6px solid #F1E9E0;
+    border-radius: 50%;
+    -webkit-transform: translate3d(-8rem, -7rem, 0);
+            transform: translate3d(-8rem, -7rem, 0);
+  }
+  .meditape .text {
+    width: 85%;
+    margin-left: 3rem;
+  }
+  .meditape .text h1 {
+    margin-bottom: 2rem;
+  }
+  .meditape .text p {
+    margin-bottom: 3rem;
+  }
+  .meditape .text .vector {
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
+  }
+  .meditape .text .ellipse {
+    -webkit-transform: translate3d(4rem, 4rem, 0);
+            transform: translate3d(4rem, 4rem, 0);
+  }
+  .meditape .text .flower {
+    -webkit-transform: translate3d(0rem, -13rem, 0);
+            transform: translate3d(0rem, -13rem, 0);
+  }
+  .meditape .about p {
+    margin-left: 2rem;
+  }
+  .meditape .girl {
+    position: absolute;
+    -webkit-transform: translate3d(-2rem, -15rem, 0);
+            transform: translate3d(-2rem, -15rem, 0);
+  }
+  .rules {
+    padding-bottom: 11rem;
+  }
+  .rules .bg .plant {
+    -webkit-transform: translate3d(0rem, 30rem, 0);
+            transform: translate3d(0rem, 30rem, 0);
+  }
+  .rules .bg .ellipse {
+    right: 0;
+    top: 1rem;
+  }
+  .rules .bg .square {
+    right: 0;
+    -webkit-transform: translate3d(-19rem, 0rem, 0);
+            transform: translate3d(-19rem, 0rem, 0);
+  }
+  .rules .bg .square img {
+    width: 80%;
+  }
+  .rules .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .rules .all {
+    margin-top: 0rem;
+  }
+  .rules .first {
+    width: 85%;
+    margin-left: -3rem;
+  }
+  .rules .first .garderob h1 {
+    margin-bottom: 2rem;
+  }
+  .rules .first .garderob p {
+    color: #FFFFFF;
+  }
+  .rules .first .wachin p,
+  .rules .first .boble p {
+    margin-top: 1rem;
+  }
+  .rules .first .wachin img {
+    margin-top: 1rem;
+  }
+  .rules .letter {
+    background-color: white;
+    padding: 8rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(-11rem, -8rem, 0);
+            transform: translate3d(-11rem, -8rem, 0);
+  }
+  .rules .letter img {
+    position: absolute;
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
+  }
+  .rules .letter p {
+    color: #282828;
+  }
+  .rules .secondBG {
+    position: absolute;
+    right: 0;
+    -webkit-transform: translate3d(-2rem, -26rem, 0);
+            transform: translate3d(-2rem, -26rem, 0);
   }
 }
 @media (min-width: 1600px) and (max-width: 1679.98px) {
@@ -1890,6 +3318,122 @@ body {
   .listen .bg img {
     width: 87%;
   }
+  .meditape {
+    background-color: #91A6E3;
+  }
+  .meditape .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .meditape .all {
+    padding-top: 3rem;
+  }
+  .meditape .bg {
+    position: relative;
+  }
+  .meditape .bg .pictute {
+    position: absolute;
+    width: 767px;
+    height: 767px;
+    border: 6px solid #F1E9E0;
+    border-radius: 50%;
+    -webkit-transform: translate3d(-8rem, -7rem, 0);
+            transform: translate3d(-8rem, -7rem, 0);
+  }
+  .meditape .text {
+    width: 85%;
+    margin-left: 3rem;
+  }
+  .meditape .text h1 {
+    margin-bottom: 2rem;
+  }
+  .meditape .text p {
+    margin-bottom: 3rem;
+  }
+  .meditape .text .vector {
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
+  }
+  .meditape .text .ellipse {
+    -webkit-transform: translate3d(4rem, 4rem, 0);
+            transform: translate3d(4rem, 4rem, 0);
+  }
+  .meditape .text .flower {
+    -webkit-transform: translate3d(0rem, -13rem, 0);
+            transform: translate3d(0rem, -13rem, 0);
+  }
+  .meditape .about p {
+    margin-left: 2rem;
+  }
+  .meditape .girl {
+    position: absolute;
+    -webkit-transform: translate3d(-2rem, -15rem, 0);
+            transform: translate3d(-2rem, -15rem, 0);
+  }
+  .rules {
+    padding-bottom: 11rem;
+  }
+  .rules .bg .plant {
+    -webkit-transform: translate3d(0rem, 30rem, 0);
+            transform: translate3d(0rem, 30rem, 0);
+  }
+  .rules .bg .ellipse {
+    right: 0;
+    top: 1rem;
+  }
+  .rules .bg .square {
+    right: 0;
+    -webkit-transform: translate3d(-21rem, 0rem, 0);
+            transform: translate3d(-21rem, 0rem, 0);
+  }
+  .rules .bg .square img {
+    width: 80%;
+  }
+  .rules .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .rules .all {
+    margin-top: 0rem;
+  }
+  .rules .first {
+    width: 85%;
+    margin-left: -3rem;
+  }
+  .rules .first .garderob h1 {
+    margin-bottom: 2rem;
+  }
+  .rules .first .garderob p {
+    color: #FFFFFF;
+  }
+  .rules .first .wachin p,
+  .rules .first .boble p {
+    margin-top: 1rem;
+  }
+  .rules .first .wachin img {
+    margin-top: 1rem;
+  }
+  .rules .letter {
+    background-color: white;
+    padding: 8rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(-11rem, -8rem, 0);
+            transform: translate3d(-11rem, -8rem, 0);
+  }
+  .rules .letter img {
+    position: absolute;
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
+  }
+  .rules .letter p {
+    color: #282828;
+  }
+  .rules .secondBG {
+    position: absolute;
+    right: 0;
+    -webkit-transform: translate3d(-2rem, -26rem, 0);
+            transform: translate3d(-2rem, -26rem, 0);
+  }
 }
 @media (min-width: 1680px) and (max-width: 1919.98px) {
   .header {
@@ -2032,6 +3576,122 @@ body {
   }
   .listen .bg img {
     width: 87%;
+  }
+  .meditape {
+    background-color: #91A6E3;
+  }
+  .meditape .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .meditape .all {
+    padding-top: 3rem;
+  }
+  .meditape .bg {
+    position: relative;
+  }
+  .meditape .bg .pictute {
+    position: absolute;
+    width: 787px;
+    height: 787px;
+    border: 6px solid #F1E9E0;
+    border-radius: 50%;
+    -webkit-transform: translate3d(-6rem, -7rem, 0);
+            transform: translate3d(-6rem, -7rem, 0);
+  }
+  .meditape .text {
+    width: 85%;
+    margin-left: 3rem;
+  }
+  .meditape .text h1 {
+    margin-bottom: 2rem;
+  }
+  .meditape .text p {
+    margin-bottom: 3rem;
+  }
+  .meditape .text .vector {
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
+  }
+  .meditape .text .ellipse {
+    -webkit-transform: translate3d(9rem, 6rem, 0);
+            transform: translate3d(9rem, 6rem, 0);
+  }
+  .meditape .text .flower {
+    -webkit-transform: translate3d(3rem, -13rem, 0);
+            transform: translate3d(3rem, -13rem, 0);
+  }
+  .meditape .about p {
+    margin-left: 2rem;
+  }
+  .meditape .girl {
+    position: absolute;
+    -webkit-transform: translate3d(-2rem, -15rem, 0);
+            transform: translate3d(-2rem, -15rem, 0);
+  }
+  .rules {
+    padding-bottom: 11rem;
+  }
+  .rules .bg .plant {
+    -webkit-transform: translate3d(0rem, 30rem, 0);
+            transform: translate3d(0rem, 30rem, 0);
+  }
+  .rules .bg .ellipse {
+    right: 0;
+    top: 1rem;
+  }
+  .rules .bg .square {
+    right: 0;
+    -webkit-transform: translate3d(-21rem, 0rem, 0);
+            transform: translate3d(-21rem, 0rem, 0);
+  }
+  .rules .bg .square img {
+    width: 70%;
+  }
+  .rules .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .rules .all {
+    margin-top: 0rem;
+  }
+  .rules .first {
+    width: 85%;
+    margin-left: -3rem;
+  }
+  .rules .first .garderob h1 {
+    margin-bottom: 2rem;
+  }
+  .rules .first .garderob p {
+    color: #FFFFFF;
+  }
+  .rules .first .wachin p,
+  .rules .first .boble p {
+    margin-top: 1rem;
+  }
+  .rules .first .wachin img {
+    margin-top: 1rem;
+  }
+  .rules .letter {
+    background-color: white;
+    padding: 8rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(-11rem, -8rem, 0);
+            transform: translate3d(-11rem, -8rem, 0);
+  }
+  .rules .letter img {
+    position: absolute;
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
+  }
+  .rules .letter p {
+    color: #282828;
+  }
+  .rules .secondBG {
+    position: absolute;
+    right: 0;
+    -webkit-transform: translate3d(-1rem, -25rem, 0);
+            transform: translate3d(-1rem, -25rem, 0);
   }
 }
 @media (min-width: 1920px) and (max-width: 2047.98px) {
@@ -2180,6 +3840,122 @@ body {
   }
   .listen .bg img {
     width: 87%;
+  }
+  .meditape {
+    background-color: #91A6E3;
+  }
+  .meditape .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .meditape .all {
+    padding-top: 3rem;
+  }
+  .meditape .bg {
+    position: relative;
+  }
+  .meditape .bg .pictute {
+    position: absolute;
+    width: 817px;
+    height: 817px;
+    border: 6px solid #F1E9E0;
+    border-radius: 50%;
+    -webkit-transform: translate3d(-6rem, -7rem, 0);
+            transform: translate3d(-6rem, -7rem, 0);
+  }
+  .meditape .text {
+    width: 85%;
+    margin-left: 3rem;
+  }
+  .meditape .text h1 {
+    margin-bottom: 2rem;
+  }
+  .meditape .text p {
+    margin-bottom: 3rem;
+  }
+  .meditape .text .vector {
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
+  }
+  .meditape .text .ellipse {
+    -webkit-transform: translate3d(11rem, 6rem, 0);
+            transform: translate3d(11rem, 6rem, 0);
+  }
+  .meditape .text .flower {
+    -webkit-transform: translate3d(5rem, -13rem, 0);
+            transform: translate3d(5rem, -13rem, 0);
+  }
+  .meditape .about p {
+    margin-left: 2rem;
+  }
+  .meditape .girl {
+    position: absolute;
+    -webkit-transform: translate3d(-2rem, -15rem, 0);
+            transform: translate3d(-2rem, -15rem, 0);
+  }
+  .rules {
+    padding-bottom: 11rem;
+  }
+  .rules .bg .plant {
+    -webkit-transform: translate3d(0rem, 30rem, 0);
+            transform: translate3d(0rem, 30rem, 0);
+  }
+  .rules .bg .ellipse {
+    right: 0;
+    top: 1rem;
+  }
+  .rules .bg .square {
+    right: 0;
+    -webkit-transform: translate3d(-29rem, 0rem, 0);
+            transform: translate3d(-29rem, 0rem, 0);
+  }
+  .rules .bg .square img {
+    width: 70%;
+  }
+  .rules .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .rules .all {
+    margin-top: 0rem;
+  }
+  .rules .first {
+    width: 85%;
+    margin-left: -3rem;
+  }
+  .rules .first .garderob h1 {
+    margin-bottom: 2rem;
+  }
+  .rules .first .garderob p {
+    color: #FFFFFF;
+  }
+  .rules .first .wachin p,
+  .rules .first .boble p {
+    margin-top: 1rem;
+  }
+  .rules .first .wachin img {
+    margin-top: 1rem;
+  }
+  .rules .letter {
+    background-color: white;
+    padding: 8rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(-11rem, -8rem, 0);
+            transform: translate3d(-11rem, -8rem, 0);
+  }
+  .rules .letter img {
+    position: absolute;
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
+  }
+  .rules .letter p {
+    color: #282828;
+  }
+  .rules .secondBG {
+    position: absolute;
+    right: 0;
+    -webkit-transform: translate3d(-1rem, -25rem, 0);
+            transform: translate3d(-1rem, -25rem, 0);
   }
 }
 @media (min-width: 2048px) and (max-width: 2199.98px) {
@@ -2331,6 +4107,122 @@ body {
   }
   .listen .bg img {
     width: 87%;
+  }
+  .meditape {
+    background-color: #91A6E3;
+  }
+  .meditape .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .meditape .all {
+    padding-top: 3rem;
+  }
+  .meditape .bg {
+    position: relative;
+  }
+  .meditape .bg .pictute {
+    position: absolute;
+    width: 837px;
+    height: 837px;
+    border: 6px solid #F1E9E0;
+    border-radius: 50%;
+    -webkit-transform: translate3d(-6rem, -7rem, 0);
+            transform: translate3d(-6rem, -7rem, 0);
+  }
+  .meditape .text {
+    width: 85%;
+    margin-left: 3rem;
+  }
+  .meditape .text h1 {
+    margin-bottom: 2rem;
+  }
+  .meditape .text p {
+    margin-bottom: 3rem;
+  }
+  .meditape .text .vector {
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
+  }
+  .meditape .text .ellipse {
+    -webkit-transform: translate3d(11rem, 6rem, 0);
+            transform: translate3d(11rem, 6rem, 0);
+  }
+  .meditape .text .flower {
+    -webkit-transform: translate3d(5rem, -13rem, 0);
+            transform: translate3d(5rem, -13rem, 0);
+  }
+  .meditape .about p {
+    margin-left: 2rem;
+  }
+  .meditape .girl {
+    position: absolute;
+    -webkit-transform: translate3d(-2rem, -15rem, 0);
+            transform: translate3d(-2rem, -15rem, 0);
+  }
+  .rules {
+    padding-bottom: 11rem;
+  }
+  .rules .bg .plant {
+    -webkit-transform: translate3d(0rem, 30rem, 0);
+            transform: translate3d(0rem, 30rem, 0);
+  }
+  .rules .bg .ellipse {
+    right: 0;
+    top: 1rem;
+  }
+  .rules .bg .square {
+    right: 0;
+    -webkit-transform: translate3d(-32rem, 0rem, 0);
+            transform: translate3d(-32rem, 0rem, 0);
+  }
+  .rules .bg .square img {
+    width: 70%;
+  }
+  .rules .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .rules .all {
+    margin-top: 0rem;
+  }
+  .rules .first {
+    width: 85%;
+    margin-left: -3rem;
+  }
+  .rules .first .garderob h1 {
+    margin-bottom: 2rem;
+  }
+  .rules .first .garderob p {
+    color: #FFFFFF;
+  }
+  .rules .first .wachin p,
+  .rules .first .boble p {
+    margin-top: 1rem;
+  }
+  .rules .first .wachin img {
+    margin-top: 1rem;
+  }
+  .rules .letter {
+    background-color: white;
+    padding: 8rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(-11rem, -8rem, 0);
+            transform: translate3d(-11rem, -8rem, 0);
+  }
+  .rules .letter img {
+    position: absolute;
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
+  }
+  .rules .letter p {
+    color: #282828;
+  }
+  .rules .secondBG {
+    position: absolute;
+    right: 0;
+    -webkit-transform: translate3d(-1rem, -25rem, 0);
+            transform: translate3d(-1rem, -25rem, 0);
   }
 }
 @media (min-width: 2200px) and (max-width: 2499.98px) {
@@ -2485,6 +4377,122 @@ body {
   .listen .bg img {
     width: 87%;
   }
+  .meditape {
+    background-color: #91A6E3;
+  }
+  .meditape .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .meditape .all {
+    padding-top: 3rem;
+  }
+  .meditape .bg {
+    position: relative;
+  }
+  .meditape .bg .pictute {
+    position: absolute;
+    width: 877px;
+    height: 877px;
+    border: 6px solid #F1E9E0;
+    border-radius: 50%;
+    -webkit-transform: translate3d(-6rem, -7rem, 0);
+            transform: translate3d(-6rem, -7rem, 0);
+  }
+  .meditape .text {
+    width: 80%;
+    margin-left: 3rem;
+  }
+  .meditape .text h1 {
+    margin-bottom: 2rem;
+  }
+  .meditape .text p {
+    margin-bottom: 3rem;
+  }
+  .meditape .text .vector {
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
+  }
+  .meditape .text .ellipse {
+    -webkit-transform: translate3d(15rem, 6rem, 0);
+            transform: translate3d(15rem, 6rem, 0);
+  }
+  .meditape .text .flower {
+    -webkit-transform: translate3d(9rem, -13rem, 0);
+            transform: translate3d(9rem, -13rem, 0);
+  }
+  .meditape .about p {
+    margin-left: 2rem;
+  }
+  .meditape .girl {
+    position: absolute;
+    -webkit-transform: translate3d(-2rem, -15rem, 0);
+            transform: translate3d(-2rem, -15rem, 0);
+  }
+  .rules {
+    padding-bottom: 11rem;
+  }
+  .rules .bg .plant {
+    -webkit-transform: translate3d(0rem, 30rem, 0);
+            transform: translate3d(0rem, 30rem, 0);
+  }
+  .rules .bg .ellipse {
+    right: 0;
+    top: 1rem;
+  }
+  .rules .bg .square {
+    right: 0;
+    -webkit-transform: translate3d(-37rem, 0rem, 0);
+            transform: translate3d(-37rem, 0rem, 0);
+  }
+  .rules .bg .square img {
+    width: 70%;
+  }
+  .rules .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .rules .all {
+    margin-top: 0rem;
+  }
+  .rules .first {
+    width: 85%;
+    margin-left: -3rem;
+  }
+  .rules .first .garderob h1 {
+    margin-bottom: 2rem;
+  }
+  .rules .first .garderob p {
+    color: #FFFFFF;
+  }
+  .rules .first .wachin p,
+  .rules .first .boble p {
+    margin-top: 1rem;
+  }
+  .rules .first .wachin img {
+    margin-top: 1rem;
+  }
+  .rules .letter {
+    background-color: white;
+    padding: 8rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(-11rem, -8rem, 0);
+            transform: translate3d(-11rem, -8rem, 0);
+  }
+  .rules .letter img {
+    position: absolute;
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
+  }
+  .rules .letter p {
+    color: #282828;
+  }
+  .rules .secondBG {
+    position: absolute;
+    right: 0;
+    -webkit-transform: translate3d(-1rem, -25rem, 0);
+            transform: translate3d(-1rem, -25rem, 0);
+  }
 }
 @media (min-width: 2500px) {
   .header {
@@ -2637,5 +4645,121 @@ body {
   }
   .listen .bg img {
     width: 77%;
+  }
+  .meditape {
+    background-color: #91A6E3;
+  }
+  .meditape .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .meditape .all {
+    padding-top: 3rem;
+  }
+  .meditape .bg {
+    position: relative;
+  }
+  .meditape .bg .pictute {
+    position: absolute;
+    width: 897px;
+    height: 897px;
+    border: 6px solid #F1E9E0;
+    border-radius: 50%;
+    -webkit-transform: translate3d(-6rem, -7rem, 0);
+            transform: translate3d(-6rem, -7rem, 0);
+  }
+  .meditape .text {
+    width: 70%;
+    margin-left: 3rem;
+  }
+  .meditape .text h1 {
+    margin-bottom: 2rem;
+  }
+  .meditape .text p {
+    margin-bottom: 3rem;
+  }
+  .meditape .text .vector {
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
+  }
+  .meditape .text .ellipse {
+    -webkit-transform: translate3d(15rem, 6rem, 0);
+            transform: translate3d(15rem, 6rem, 0);
+  }
+  .meditape .text .flower {
+    -webkit-transform: translate3d(9rem, -13rem, 0);
+            transform: translate3d(9rem, -13rem, 0);
+  }
+  .meditape .about p {
+    margin-left: 2rem;
+  }
+  .meditape .girl {
+    position: absolute;
+    -webkit-transform: translate3d(-2rem, -15rem, 0);
+            transform: translate3d(-2rem, -15rem, 0);
+  }
+  .rules {
+    padding-bottom: 11rem;
+  }
+  .rules .bg .plant {
+    -webkit-transform: translate3d(0rem, 30rem, 0);
+            transform: translate3d(0rem, 30rem, 0);
+  }
+  .rules .bg .ellipse {
+    right: 0;
+    top: 1rem;
+  }
+  .rules .bg .square {
+    right: 0;
+    -webkit-transform: translate3d(-44rem, 0rem, 0);
+            transform: translate3d(-44rem, 0rem, 0);
+  }
+  .rules .bg .square img {
+    width: 60%;
+  }
+  .rules .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .rules .all {
+    margin-top: 0rem;
+  }
+  .rules .first {
+    width: 85%;
+    margin-left: -3rem;
+  }
+  .rules .first .garderob h1 {
+    margin-bottom: 2rem;
+  }
+  .rules .first .garderob p {
+    color: #FFFFFF;
+  }
+  .rules .first .wachin p,
+  .rules .first .boble p {
+    margin-top: 1rem;
+  }
+  .rules .first .wachin img {
+    margin-top: 1rem;
+  }
+  .rules .letter {
+    background-color: white;
+    padding: 8rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(-11rem, -8rem, 0);
+            transform: translate3d(-11rem, -8rem, 0);
+  }
+  .rules .letter img {
+    position: absolute;
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
+  }
+  .rules .letter p {
+    color: #282828;
+  }
+  .rules .secondBG {
+    position: absolute;
+    right: 0;
+    -webkit-transform: translate3d(-1rem, -25rem, 0);
+            transform: translate3d(-1rem, -25rem, 0);
   }
 }
