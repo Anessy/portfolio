@@ -340,8 +340,8 @@ body {
 .rules .bg .square {
   position: absolute;
   right: 0;
-  -webkit-transform: translate3d(-9rem, 1.5rem, 0);
-          transform: translate3d(-9rem, 1.5rem, 0);
+  -webkit-transform: translate3d(-9rem, 2rem, 0);
+          transform: translate3d(-9rem, 2rem, 0);
 }
 .rules .bg .square img {
   width: 90%;
@@ -355,7 +355,7 @@ body {
 }
 .rules .first {
   width: 85%;
-  margin-left: -3rem;
+  margin-left: 3rem;
 }
 .rules .first .garderob h1 {
   font-family: 'Roboto', sans-serif;
@@ -391,8 +391,8 @@ body {
   background-color: white;
   padding: 8rem 4rem 3rem 5rem;
   position: relative;
-  -webkit-transform: translate3d(-11rem, -8rem, 0);
-          transform: translate3d(-11rem, -8rem, 0);
+  -webkit-transform: translate3d(2rem, -8rem, 0);
+          transform: translate3d(2rem, -8rem, 0);
 }
 .rules .letter img {
   position: absolute;
@@ -410,8 +410,8 @@ body {
 .rules .secondBG {
   position: absolute;
   right: 0;
-  -webkit-transform: translate3d(-1rem, -26rem, 0);
-          transform: translate3d(-1rem, -26rem, 0);
+  -webkit-transform: translate3d(13rem, -26rem, 0);
+          transform: translate3d(13rem, -26rem, 0);
 }
 /* <=576 - Extra Small .col- */
 @media (min-width: 320px) and (max-width: 374.98px) {
@@ -1989,31 +1989,23 @@ body {
             transform: translate3d(-2rem, -15rem, 0);
   }
   .rules {
-    background-color: #A7A6CF;
-    padding-bottom: 0rem;
-    position: relative;
-  }
-  .rules .bg {
-    position: relative;
+    padding-bottom: 2.5rem;
   }
   .rules .bg .plant {
-    position: absolute;
     -webkit-transform: translate3d(0rem, 30rem, 0);
             transform: translate3d(0rem, 30rem, 0);
   }
   .rules .bg .ellipse {
-    position: absolute;
     right: 0;
     top: 1rem;
   }
   .rules .bg .square {
-    position: absolute;
     right: 0;
-    -webkit-transform: translate3d(0rem, 19rem, 0);
-            transform: translate3d(0rem, 19rem, 0);
+    -webkit-transform: translate3d(2rem, 8rem, 0);
+            transform: translate3d(2rem, 8rem, 0);
   }
   .rules .bg .square img {
-    width: 70%;
+    width: 85%;
   }
   .rules .logo {
     padding-top: 2rem;
@@ -2023,46 +2015,29 @@ body {
     margin-top: 0rem;
   }
   .rules .first {
-    width: 75%;
-    margin-left: -3rem;
+    width: 80%;
+    margin-left: 3rem;
   }
   .rules .first .garderob h1 {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 30px;
-    line-height: 38px;
-    color: #FFFFFF;
     margin-bottom: 2rem;
   }
   .rules .first .garderob p {
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 28px;
     color: #FFFFFF;
   }
   .rules .first .wachin p,
   .rules .first .boble p {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 25px;
-    color: #FFFFFF;
     margin-top: 1rem;
   }
   .rules .first .wachin img {
     margin-top: 1rem;
   }
   .rules .letter {
-    width: 80%;
+    width: 90%;
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    -webkit-transform: translate3d(100%, -36rem, 0);
-            transform: translate3d(100%, -36rem, 0);
+    -webkit-transform: translate3d(0rem, -8rem, 0);
+            transform: translate3d(0rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
@@ -2070,18 +2045,13 @@ body {
             transform: translate3d(-2rem, 0rem, 0);
   }
   .rules .letter p {
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 25px;
     color: #282828;
   }
   .rules .secondBG {
     position: absolute;
     right: 0;
-    -webkit-transform: translate3d(26rem, -60rem, 0);
-            transform: translate3d(26rem, -60rem, 0);
+    -webkit-transform: translate3d(5rem, -30rem, 0);
+            transform: translate3d(5rem, -30rem, 0);
   }
 }
 /* >= 1200 - Extra large .col-xl */
@@ -2312,11 +2282,14 @@ body {
             transform: translate3d(-2rem, -15rem, 0);
   }
   .rules {
-    padding-bottom: 10rem;
+    padding-bottom: 7.2rem;
   }
   .rules .bg .plant {
-    -webkit-transform: translate3d(0rem, 30rem, 0);
-            transform: translate3d(0rem, 30rem, 0);
+    -webkit-transform: translate3d(0rem, 29.5rem, 0);
+            transform: translate3d(0rem, 29.5rem, 0);
+  }
+  .rules .bg .plant img {
+    width: 80%;
   }
   .rules .bg .ellipse {
     right: 0;
@@ -2324,11 +2297,11 @@ body {
   }
   .rules .bg .square {
     right: 0;
-    -webkit-transform: translate3d(-15rem, 0rem, 0);
-            transform: translate3d(-15rem, 0rem, 0);
+    -webkit-transform: translate3d(-16rem, 1.5rem, 0);
+            transform: translate3d(-16rem, 1.5rem, 0);
   }
   .rules .bg .square img {
-    width: 90%;
+    width: 80%;
   }
   .rules .logo {
     padding-top: 2rem;
@@ -2339,7 +2312,7 @@ body {
   }
   .rules .first {
     width: 85%;
-    margin-left: -3rem;
+    margin-left: 3rem;
   }
   .rules .first .garderob h1 {
     margin-bottom: 2rem;
@@ -2358,8 +2331,8 @@ body {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    -webkit-transform: translate3d(-11rem, -8rem, 0);
-            transform: translate3d(-11rem, -8rem, 0);
+    -webkit-transform: translate3d(2rem, -8rem, 0);
+            transform: translate3d(2rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
@@ -2372,8 +2345,8 @@ body {
   .rules .secondBG {
     position: absolute;
     right: 0;
-    -webkit-transform: translate3d(-1rem, -26rem, 0);
-            transform: translate3d(-1rem, -26rem, 0);
+    -webkit-transform: translate3d(14rem, -26rem, 0);
+            transform: translate3d(14rem, -26rem, 0);
   }
 }
 @media (min-width: 1440px) and (max-width: 1479.98px) {
@@ -2603,11 +2576,14 @@ body {
             transform: translate3d(-2rem, -15rem, 0);
   }
   .rules {
-    padding-bottom: 11rem;
+    padding-bottom: 7.2rem;
   }
   .rules .bg .plant {
-    -webkit-transform: translate3d(0rem, 30rem, 0);
-            transform: translate3d(0rem, 30rem, 0);
+    -webkit-transform: translate3d(0rem, 29.5rem, 0);
+            transform: translate3d(0rem, 29.5rem, 0);
+  }
+  .rules .bg .plant img {
+    width: 75%;
   }
   .rules .bg .ellipse {
     right: 0;
@@ -2615,11 +2591,11 @@ body {
   }
   .rules .bg .square {
     right: 0;
-    -webkit-transform: translate3d(-16rem, 0rem, 0);
-            transform: translate3d(-16rem, 0rem, 0);
+    -webkit-transform: translate3d(-17rem, 0rem, 0);
+            transform: translate3d(-17rem, 0rem, 0);
   }
   .rules .bg .square img {
-    width: 85%;
+    width: 80%;
   }
   .rules .logo {
     padding-top: 2rem;
@@ -2630,7 +2606,7 @@ body {
   }
   .rules .first {
     width: 85%;
-    margin-left: -3rem;
+    margin-left: 3rem;
   }
   .rules .first .garderob h1 {
     margin-bottom: 2rem;
@@ -2649,8 +2625,8 @@ body {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    -webkit-transform: translate3d(-11rem, -8rem, 0);
-            transform: translate3d(-11rem, -8rem, 0);
+    -webkit-transform: translate3d(2rem, -8rem, 0);
+            transform: translate3d(2rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
@@ -2663,8 +2639,8 @@ body {
   .rules .secondBG {
     position: absolute;
     right: 0;
-    -webkit-transform: translate3d(-2rem, -26rem, 0);
-            transform: translate3d(-2rem, -26rem, 0);
+    -webkit-transform: translate3d(15rem, -26rem, 0);
+            transform: translate3d(15rem, -26rem, 0);
   }
 }
 @media (min-width: 1480px) and (max-width: 1535.98px) {
@@ -2858,11 +2834,14 @@ body {
             transform: translate3d(-2rem, -15rem, 0);
   }
   .rules {
-    padding-bottom: 11rem;
+    padding-bottom: 7.2rem;
   }
   .rules .bg .plant {
-    -webkit-transform: translate3d(0rem, 30rem, 0);
-            transform: translate3d(0rem, 30rem, 0);
+    -webkit-transform: translate3d(0rem, 29.5rem, 0);
+            transform: translate3d(0rem, 29.5rem, 0);
+  }
+  .rules .bg .plant img {
+    width: 75%;
   }
   .rules .bg .ellipse {
     right: 0;
@@ -2874,7 +2853,7 @@ body {
             transform: translate3d(-17rem, 0rem, 0);
   }
   .rules .bg .square img {
-    width: 85%;
+    width: 80%;
   }
   .rules .logo {
     padding-top: 2rem;
@@ -2885,7 +2864,7 @@ body {
   }
   .rules .first {
     width: 85%;
-    margin-left: -3rem;
+    margin-left: 3rem;
   }
   .rules .first .garderob h1 {
     margin-bottom: 2rem;
@@ -2904,8 +2883,8 @@ body {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    -webkit-transform: translate3d(-11rem, -8rem, 0);
-            transform: translate3d(-11rem, -8rem, 0);
+    -webkit-transform: translate3d(3.5rem, -8rem, 0);
+            transform: translate3d(3.5rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
@@ -2918,8 +2897,8 @@ body {
   .rules .secondBG {
     position: absolute;
     right: 0;
-    -webkit-transform: translate3d(-2rem, -26rem, 0);
-            transform: translate3d(-2rem, -26rem, 0);
+    -webkit-transform: translate3d(15rem, -26rem, 0);
+            transform: translate3d(15rem, -26rem, 0);
   }
 }
 @media (min-width: 1536px) and (max-width: 1599.98px) {
@@ -3113,11 +3092,14 @@ body {
             transform: translate3d(-2rem, -15rem, 0);
   }
   .rules {
-    padding-bottom: 11rem;
+    padding-bottom: 7.2rem;
   }
   .rules .bg .plant {
-    -webkit-transform: translate3d(0rem, 30rem, 0);
-            transform: translate3d(0rem, 30rem, 0);
+    -webkit-transform: translate3d(0rem, 29.5rem, 0);
+            transform: translate3d(0rem, 29.5rem, 0);
+  }
+  .rules .bg .plant img {
+    width: 75%;
   }
   .rules .bg .ellipse {
     right: 0;
@@ -3129,7 +3111,7 @@ body {
             transform: translate3d(-19rem, 0rem, 0);
   }
   .rules .bg .square img {
-    width: 80%;
+    width: 75%;
   }
   .rules .logo {
     padding-top: 2rem;
@@ -3140,7 +3122,7 @@ body {
   }
   .rules .first {
     width: 85%;
-    margin-left: -3rem;
+    margin-left: 3rem;
   }
   .rules .first .garderob h1 {
     margin-bottom: 2rem;
@@ -3159,8 +3141,8 @@ body {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    -webkit-transform: translate3d(-11rem, -8rem, 0);
-            transform: translate3d(-11rem, -8rem, 0);
+    -webkit-transform: translate3d(3.5rem, -8rem, 0);
+            transform: translate3d(3.5rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
@@ -3173,8 +3155,8 @@ body {
   .rules .secondBG {
     position: absolute;
     right: 0;
-    -webkit-transform: translate3d(-2rem, -26rem, 0);
-            transform: translate3d(-2rem, -26rem, 0);
+    -webkit-transform: translate3d(15rem, -26rem, 0);
+            transform: translate3d(15rem, -26rem, 0);
   }
 }
 @media (min-width: 1600px) and (max-width: 1679.98px) {
@@ -3371,11 +3353,14 @@ body {
             transform: translate3d(-2rem, -15rem, 0);
   }
   .rules {
-    padding-bottom: 11rem;
+    padding-bottom: 7.2rem;
   }
   .rules .bg .plant {
-    -webkit-transform: translate3d(0rem, 30rem, 0);
-            transform: translate3d(0rem, 30rem, 0);
+    -webkit-transform: translate3d(0rem, 29.5rem, 0);
+            transform: translate3d(0rem, 29.5rem, 0);
+  }
+  .rules .bg .plant img {
+    width: 75%;
   }
   .rules .bg .ellipse {
     right: 0;
@@ -3383,11 +3368,11 @@ body {
   }
   .rules .bg .square {
     right: 0;
-    -webkit-transform: translate3d(-21rem, 0rem, 0);
-            transform: translate3d(-21rem, 0rem, 0);
+    -webkit-transform: translate3d(-22rem, 0rem, 0);
+            transform: translate3d(-22rem, 0rem, 0);
   }
   .rules .bg .square img {
-    width: 80%;
+    width: 75%;
   }
   .rules .logo {
     padding-top: 2rem;
@@ -3398,7 +3383,7 @@ body {
   }
   .rules .first {
     width: 85%;
-    margin-left: -3rem;
+    margin-left: 3rem;
   }
   .rules .first .garderob h1 {
     margin-bottom: 2rem;
@@ -3417,8 +3402,8 @@ body {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    -webkit-transform: translate3d(-11rem, -8rem, 0);
-            transform: translate3d(-11rem, -8rem, 0);
+    -webkit-transform: translate3d(3.5rem, -8rem, 0);
+            transform: translate3d(3.5rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
@@ -3431,8 +3416,8 @@ body {
   .rules .secondBG {
     position: absolute;
     right: 0;
-    -webkit-transform: translate3d(-2rem, -26rem, 0);
-            transform: translate3d(-2rem, -26rem, 0);
+    -webkit-transform: translate3d(16rem, -26rem, 0);
+            transform: translate3d(16rem, -26rem, 0);
   }
 }
 @media (min-width: 1680px) and (max-width: 1919.98px) {
@@ -3630,11 +3615,14 @@ body {
             transform: translate3d(-2rem, -15rem, 0);
   }
   .rules {
-    padding-bottom: 11rem;
+    padding-bottom: 7.2rem;
   }
   .rules .bg .plant {
-    -webkit-transform: translate3d(0rem, 30rem, 0);
-            transform: translate3d(0rem, 30rem, 0);
+    -webkit-transform: translate3d(0rem, 29.5rem, 0);
+            transform: translate3d(0rem, 29.5rem, 0);
+  }
+  .rules .bg .plant img {
+    width: 75%;
   }
   .rules .bg .ellipse {
     right: 0;
@@ -3642,8 +3630,8 @@ body {
   }
   .rules .bg .square {
     right: 0;
-    -webkit-transform: translate3d(-21rem, 0rem, 0);
-            transform: translate3d(-21rem, 0rem, 0);
+    -webkit-transform: translate3d(-24.5rem, 0rem, 0);
+            transform: translate3d(-24.5rem, 0rem, 0);
   }
   .rules .bg .square img {
     width: 70%;
@@ -3657,7 +3645,7 @@ body {
   }
   .rules .first {
     width: 85%;
-    margin-left: -3rem;
+    margin-left: 3rem;
   }
   .rules .first .garderob h1 {
     margin-bottom: 2rem;
@@ -3676,8 +3664,8 @@ body {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    -webkit-transform: translate3d(-11rem, -8rem, 0);
-            transform: translate3d(-11rem, -8rem, 0);
+    -webkit-transform: translate3d(3.5rem, -8rem, 0);
+            transform: translate3d(3.5rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
@@ -3690,8 +3678,8 @@ body {
   .rules .secondBG {
     position: absolute;
     right: 0;
-    -webkit-transform: translate3d(-1rem, -25rem, 0);
-            transform: translate3d(-1rem, -25rem, 0);
+    -webkit-transform: translate3d(17rem, -26rem, 0);
+            transform: translate3d(17rem, -26rem, 0);
   }
 }
 @media (min-width: 1920px) and (max-width: 2047.98px) {
@@ -3894,11 +3882,14 @@ body {
             transform: translate3d(-2rem, -15rem, 0);
   }
   .rules {
-    padding-bottom: 11rem;
+    padding-bottom: 7.2rem;
   }
   .rules .bg .plant {
-    -webkit-transform: translate3d(0rem, 30rem, 0);
-            transform: translate3d(0rem, 30rem, 0);
+    -webkit-transform: translate3d(0rem, 29.5rem, 0);
+            transform: translate3d(0rem, 29.5rem, 0);
+  }
+  .rules .bg .plant img {
+    width: 75%;
   }
   .rules .bg .ellipse {
     right: 0;
@@ -3906,8 +3897,8 @@ body {
   }
   .rules .bg .square {
     right: 0;
-    -webkit-transform: translate3d(-29rem, 0rem, 0);
-            transform: translate3d(-29rem, 0rem, 0);
+    -webkit-transform: translate3d(-34.5rem, 0rem, 0);
+            transform: translate3d(-34.5rem, 0rem, 0);
   }
   .rules .bg .square img {
     width: 70%;
@@ -3921,7 +3912,7 @@ body {
   }
   .rules .first {
     width: 85%;
-    margin-left: -3rem;
+    margin-left: 3rem;
   }
   .rules .first .garderob h1 {
     margin-bottom: 2rem;
@@ -3940,8 +3931,8 @@ body {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    -webkit-transform: translate3d(-11rem, -8rem, 0);
-            transform: translate3d(-11rem, -8rem, 0);
+    -webkit-transform: translate3d(3.5rem, -8rem, 0);
+            transform: translate3d(3.5rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
@@ -3954,8 +3945,8 @@ body {
   .rules .secondBG {
     position: absolute;
     right: 0;
-    -webkit-transform: translate3d(-1rem, -25rem, 0);
-            transform: translate3d(-1rem, -25rem, 0);
+    -webkit-transform: translate3d(20rem, -26rem, 0);
+            transform: translate3d(20rem, -26rem, 0);
   }
 }
 @media (min-width: 2048px) and (max-width: 2199.98px) {
@@ -4161,20 +4152,26 @@ body {
             transform: translate3d(-2rem, -15rem, 0);
   }
   .rules {
-    padding-bottom: 11rem;
+    padding-bottom: 7.2rem;
   }
   .rules .bg .plant {
-    -webkit-transform: translate3d(0rem, 30rem, 0);
-            transform: translate3d(0rem, 30rem, 0);
+    -webkit-transform: translate3d(0rem, 29.5rem, 0);
+            transform: translate3d(0rem, 29.5rem, 0);
+  }
+  .rules .bg .plant img {
+    width: 75%;
   }
   .rules .bg .ellipse {
     right: 0;
     top: 1rem;
   }
+  .rules .bg .ellipse img {
+    width: 130%;
+  }
   .rules .bg .square {
     right: 0;
-    -webkit-transform: translate3d(-32rem, 0rem, 0);
-            transform: translate3d(-32rem, 0rem, 0);
+    -webkit-transform: translate3d(-39.5rem, 0rem, 0);
+            transform: translate3d(-39.5rem, 0rem, 0);
   }
   .rules .bg .square img {
     width: 70%;
@@ -4188,7 +4185,7 @@ body {
   }
   .rules .first {
     width: 85%;
-    margin-left: -3rem;
+    margin-left: 3rem;
   }
   .rules .first .garderob h1 {
     margin-bottom: 2rem;
@@ -4207,8 +4204,8 @@ body {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    -webkit-transform: translate3d(-11rem, -8rem, 0);
-            transform: translate3d(-11rem, -8rem, 0);
+    -webkit-transform: translate3d(3.5rem, -8rem, 0);
+            transform: translate3d(3.5rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
@@ -4219,10 +4216,12 @@ body {
     color: #282828;
   }
   .rules .secondBG {
-    position: absolute;
     right: 0;
-    -webkit-transform: translate3d(-1rem, -25rem, 0);
-            transform: translate3d(-1rem, -25rem, 0);
+    -webkit-transform: translate3d(18rem, -26rem, 0);
+            transform: translate3d(18rem, -26rem, 0);
+  }
+  .rules .secondBG img {
+    width: 120%;
   }
 }
 @media (min-width: 2200px) and (max-width: 2499.98px) {
@@ -4430,23 +4429,29 @@ body {
             transform: translate3d(-2rem, -15rem, 0);
   }
   .rules {
-    padding-bottom: 11rem;
+    padding-bottom: 7.2rem;
   }
   .rules .bg .plant {
-    -webkit-transform: translate3d(0rem, 30rem, 0);
-            transform: translate3d(0rem, 30rem, 0);
+    -webkit-transform: translate3d(0rem, 29.5rem, 0);
+            transform: translate3d(0rem, 29.5rem, 0);
+  }
+  .rules .bg .plant img {
+    width: 75%;
   }
   .rules .bg .ellipse {
     right: 0;
     top: 1rem;
   }
+  .rules .bg .ellipse img {
+    width: 130%;
+  }
   .rules .bg .square {
     right: 0;
-    -webkit-transform: translate3d(-37rem, 0rem, 0);
-            transform: translate3d(-37rem, 0rem, 0);
+    -webkit-transform: translate3d(-43.5rem, 0rem, 0);
+            transform: translate3d(-43.5rem, 0rem, 0);
   }
   .rules .bg .square img {
-    width: 70%;
+    width: 60%;
   }
   .rules .logo {
     padding-top: 2rem;
@@ -4457,7 +4462,7 @@ body {
   }
   .rules .first {
     width: 85%;
-    margin-left: -3rem;
+    margin-left: 3rem;
   }
   .rules .first .garderob h1 {
     margin-bottom: 2rem;
@@ -4476,8 +4481,8 @@ body {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    -webkit-transform: translate3d(-11rem, -8rem, 0);
-            transform: translate3d(-11rem, -8rem, 0);
+    -webkit-transform: translate3d(3.5rem, -8rem, 0);
+            transform: translate3d(3.5rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
@@ -4488,10 +4493,12 @@ body {
     color: #282828;
   }
   .rules .secondBG {
-    position: absolute;
     right: 0;
-    -webkit-transform: translate3d(-1rem, -25rem, 0);
-            transform: translate3d(-1rem, -25rem, 0);
+    -webkit-transform: translate3d(20rem, -25rem, 0);
+            transform: translate3d(20rem, -25rem, 0);
+  }
+  .rules .secondBG img {
+    width: 120%;
   }
 }
 @media (min-width: 2500px) {
@@ -4699,20 +4706,26 @@ body {
             transform: translate3d(-2rem, -15rem, 0);
   }
   .rules {
-    padding-bottom: 11rem;
+    padding-bottom: 7.2rem;
   }
   .rules .bg .plant {
-    -webkit-transform: translate3d(0rem, 30rem, 0);
-            transform: translate3d(0rem, 30rem, 0);
+    -webkit-transform: translate3d(0rem, 29.5rem, 0);
+            transform: translate3d(0rem, 29.5rem, 0);
+  }
+  .rules .bg .plant img {
+    width: 75%;
   }
   .rules .bg .ellipse {
     right: 0;
     top: 1rem;
   }
+  .rules .bg .ellipse img {
+    width: 130%;
+  }
   .rules .bg .square {
     right: 0;
-    -webkit-transform: translate3d(-44rem, 0rem, 0);
-            transform: translate3d(-44rem, 0rem, 0);
+    -webkit-transform: translate3d(-56rem, 0rem, 0);
+            transform: translate3d(-56rem, 0rem, 0);
   }
   .rules .bg .square img {
     width: 60%;
@@ -4726,7 +4739,7 @@ body {
   }
   .rules .first {
     width: 85%;
-    margin-left: -3rem;
+    margin-left: 3rem;
   }
   .rules .first .garderob h1 {
     margin-bottom: 2rem;
@@ -4745,8 +4758,8 @@ body {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    -webkit-transform: translate3d(-11rem, -8rem, 0);
-            transform: translate3d(-11rem, -8rem, 0);
+    -webkit-transform: translate3d(3.5rem, -8rem, 0);
+            transform: translate3d(3.5rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
@@ -4757,9 +4770,11 @@ body {
     color: #282828;
   }
   .rules .secondBG {
-    position: absolute;
     right: 0;
-    -webkit-transform: translate3d(-1rem, -25rem, 0);
-            transform: translate3d(-1rem, -25rem, 0);
+    -webkit-transform: translate3d(23rem, -24rem, 0);
+            transform: translate3d(23rem, -24rem, 0);
+  }
+  .rules .secondBG img {
+    width: 120%;
   }
 }
