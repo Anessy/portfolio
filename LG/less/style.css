@@ -28,7 +28,7 @@ section {
   font-style: normal;
 }
 .page {
-  margin-top: 8rem;
+  margin-top: 7rem;
 }
 .page .page-1 {
   width: 10px;
@@ -45,13 +45,16 @@ section {
 .page .page-1:hover {
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
 }
+.logo {
+  transform: translate3d(0, 1rem, 0);
+}
 .header {
   min-height: 100vh;
   background-color: #91A6E3;
-  padding-top: 4rem;
 }
 .header .logo {
   margin-left: 2rem;
+  padding-top: 2rem;
 }
 .header .page {
   margin-top: 8rem;
@@ -467,6 +470,187 @@ section {
   line-height: 28px;
   color: #FFFFFF;
 }
+.machine {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 8rem;
+  background-color: #202020;
+}
+.machine .logo {
+  padding-top: 2rem;
+  margin-left: 2rem;
+}
+.machine .bg {
+  position: absolute;
+  width: 657px;
+  height: 657px;
+  border: 6px solid #ffe8cf;
+  border-radius: 50%;
+  transform: translate3d(-10rem, -4rem, 0);
+}
+.machine .wash {
+  margin-left: 3rem;
+  margin-top: 2rem;
+  width: 70%;
+  text-align: center;
+}
+.machine .wash h1 {
+  display: inline;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+.machine .wash .gold {
+  color: #F5D7AC;
+}
+.machine .wash a {
+  display: block;
+  margin-top: 2rem;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 25px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #F5D7AC;
+}
+.machine .wash a .arrow {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: 0.3rem;
+}
+.machine .wash .washing {
+  position: absolute;
+  left: 0;
+  transform: translate3d(-6rem, -10rem, 0);
+}
+.machine .second {
+  width: 80%;
+  transform: translate3d(3rem, 2rem, 0);
+}
+.machine .second img {
+  position: absolute;
+  margin-left: -4rem;
+}
+.machine .second p {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+.last {
+  background-color: #F7F7F7;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 10rem;
+}
+.last .logo {
+  margin-left: 2rem;
+  padding-top: 2rem;
+}
+.last .page {
+  margin-top: 7rem;
+}
+.last .page .page-1 {
+  width: 10px;
+  height: 10px;
+  margin: 0.5rem 1rem 0.5rem 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  margin-top: 2rem;
+  margin-left: 3.4rem;
+}
+.last .page-number {
+  margin-top: 2rem;
+}
+.last .page .page-1:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
+.last .bg .circle {
+  position: absolute;
+  width: 657px;
+  height: 657px;
+  border: 6px solid rgba(250, 202, 202, 0.3);
+  border-radius: 50%;
+  transform: translate3d(-10rem, -6rem, 0);
+}
+.last .bg .bouble-one {
+  position: absolute;
+}
+.last .bg .bouble-two {
+  position: absolute;
+}
+.last .bg .bouble-three {
+  position: absolute;
+}
+.last .wash {
+  margin-top: 2rem;
+  position: relative;
+  width: 80%;
+  text-align: center;
+}
+.last .wash h1 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 36px;
+  color: #282828;
+  margin-left: 3rem;
+}
+.last .wash .washing {
+  position: absolute;
+  left: 0;
+  transform: translate3d(-3rem, -5rem, 0);
+}
+.last .second {
+  width: 85%;
+  margin-top: 2rem;
+}
+.last .second .hundred {
+  padding-top: 3.5rem;
+}
+.last .second .nine {
+  padding-top: 2rem;
+}
+.last .second h1 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 38px;
+  color: #E4B3BA;
+}
+.last .second p {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #282828;
+}
+.last .second .partner {
+  margin-top: 6rem;
+}
+.last .second .link {
+  margin-top: 8.5rem;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 25px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+.last .second .link a {
+  color: #E4B3BA;
+}
 /* <=576 - Extra Small .col- */
 @media (min-width: 320px) and (max-width: 374.98px) {
   section {
@@ -477,7 +661,8 @@ section {
   .liste,
   .meditape,
   .rules,
-  .sleep {
+  .sleep,
+  .machine {
     min-height: auto;
   }
   .header {
@@ -782,6 +967,66 @@ section {
   .sleep .pars p {
     color: #FFFFFF;
   }
+  .machine {
+    padding-bottom: 10rem;
+    padding-top: 3rem;
+  }
+  .machine .logo {
+    display: none;
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .machine .page {
+    display: none;
+  }
+  .machine .bg {
+    width: 627px;
+    height: 627px;
+    border: 6px solid #ffe8cf;
+    border-radius: 50%;
+    transform: translate3d(-15rem, -5rem, 0);
+  }
+  .machine .wash {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    width: 70%;
+  }
+  .machine .wash h1 {
+    color: #FFFFFF;
+  }
+  .machine .wash .gold {
+    color: #F5D7AC;
+  }
+  .machine .wash a {
+    display: block;
+    margin-top: 2rem;
+  }
+  .machine .wash a .arrow {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+  }
+  .machine .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(-7rem, -10rem, 0);
+  }
+  .machine .first {
+    padding-top: 15rem;
+  }
+  .machine .second {
+    width: 80%;
+    transform: translate3d(3rem, 8rem, 0);
+  }
+  .machine .second img {
+    position: absolute;
+    margin-left: -4rem;
+    padding-top: 2rem;
+  }
+  .machine .second p {
+    padding-top: 2rem;
+    color: #FFFFFF;
+  }
 }
 @media (min-width: 375px) and (max-width: 399.98px) {
   section {
@@ -792,7 +1037,8 @@ section {
   .liste,
   .meditape,
   .rules,
-  .sleep {
+  .sleep,
+  .machine {
     min-height: auto;
   }
   .header {
@@ -1097,6 +1343,66 @@ section {
   .sleep .pars p {
     color: #FFFFFF;
   }
+  .machine {
+    padding-bottom: 10rem;
+    padding-top: 3rem;
+  }
+  .machine .logo {
+    display: none;
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .machine .page {
+    display: none;
+  }
+  .machine .bg {
+    width: 627px;
+    height: 627px;
+    border: 6px solid #ffe8cf;
+    border-radius: 50%;
+    transform: translate3d(-15rem, -5rem, 0);
+  }
+  .machine .wash {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    width: 70%;
+  }
+  .machine .wash h1 {
+    color: #FFFFFF;
+  }
+  .machine .wash .gold {
+    color: #F5D7AC;
+  }
+  .machine .wash a {
+    display: block;
+    margin-top: 2rem;
+  }
+  .machine .wash a .arrow {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+  }
+  .machine .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(-7rem, -10rem, 0);
+  }
+  .machine .first {
+    padding-top: 15rem;
+  }
+  .machine .second {
+    width: 80%;
+    transform: translate3d(3rem, 8rem, 0);
+  }
+  .machine .second img {
+    position: absolute;
+    margin-left: -4rem;
+    padding-top: 2rem;
+  }
+  .machine .second p {
+    padding-top: 2rem;
+    color: #FFFFFF;
+  }
 }
 @media (min-width: 400px) and (max-width: 575.98px) {
   section {
@@ -1107,7 +1413,8 @@ section {
   .liste,
   .meditape,
   .rules,
-  .sleep {
+  .sleep,
+  .machine {
     min-height: auto;
   }
   .header {
@@ -1412,6 +1719,66 @@ section {
   .sleep .pars p {
     color: #FFFFFF;
   }
+  .machine {
+    padding-bottom: 10rem;
+    padding-top: 3rem;
+  }
+  .machine .logo {
+    display: none;
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .machine .page {
+    display: none;
+  }
+  .machine .bg {
+    width: 627px;
+    height: 627px;
+    border: 6px solid #ffe8cf;
+    border-radius: 50%;
+    transform: translate3d(-15rem, -5rem, 0);
+  }
+  .machine .wash {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    width: 70%;
+  }
+  .machine .wash h1 {
+    color: #FFFFFF;
+  }
+  .machine .wash .gold {
+    color: #F5D7AC;
+  }
+  .machine .wash a {
+    display: block;
+    margin-top: 2rem;
+  }
+  .machine .wash a .arrow {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+  }
+  .machine .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(-6rem, -10rem, 0);
+  }
+  .machine .first {
+    padding-top: 15rem;
+  }
+  .machine .second {
+    width: 80%;
+    transform: translate3d(3rem, 8rem, 0);
+  }
+  .machine .second img {
+    position: absolute;
+    margin-left: -4rem;
+    padding-top: 2rem;
+  }
+  .machine .second p {
+    padding-top: 2rem;
+    color: #FFFFFF;
+  }
 }
 /* >=576 - Small .col-sm */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -1423,7 +1790,8 @@ section {
   .liste,
   .meditape,
   .rules,
-  .sleep {
+  .sleep,
+  .machine {
     min-height: auto;
   }
   .header {
@@ -1721,6 +2089,67 @@ section {
   .sleep .pars p {
     color: #FFFFFF;
   }
+  .machine {
+    padding-bottom: 10rem;
+    padding-top: 3rem;
+  }
+  .machine .logo {
+    display: none;
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .machine .page {
+    display: none;
+  }
+  .machine .bg {
+    display: none;
+    width: 627px;
+    height: 627px;
+    border: 6px solid #ffe8cf;
+    border-radius: 50%;
+    transform: translate3d(-15rem, -3rem, 0);
+  }
+  .machine .wash {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    width: 70%;
+  }
+  .machine .wash h1 {
+    color: #FFFFFF;
+  }
+  .machine .wash .gold {
+    color: #F5D7AC;
+  }
+  .machine .wash a {
+    display: block;
+    margin-top: 2rem;
+  }
+  .machine .wash a .arrow {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+  }
+  .machine .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(-6rem, -10rem, 0);
+  }
+  .machine .first {
+    padding-top: 15rem;
+  }
+  .machine .second {
+    width: 80%;
+    transform: translate3d(3rem, 8rem, 0);
+  }
+  .machine .second img {
+    position: absolute;
+    margin-left: -4rem;
+    padding-top: 2rem;
+  }
+  .machine .second p {
+    padding-top: 2rem;
+    color: #FFFFFF;
+  }
 }
 /* >=768 - Medium .col-md  */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -1731,7 +2160,8 @@ section {
   .advices,
   .liste,
   .meditape,
-  .rules {
+  .rules,
+  .machine {
     min-height: auto;
   }
   .header {
@@ -2014,6 +2444,57 @@ section {
   .sleep .pars p {
     color: #FFFFFF;
   }
+  .machine {
+    padding-bottom: 10rem;
+  }
+  .machine .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .machine .bg {
+    display: none;
+    width: 627px;
+    height: 627px;
+    border: 6px solid #ffe8cf;
+    border-radius: 50%;
+    transform: translate3d(-15rem, -3rem, 0);
+  }
+  .machine .wash {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    width: 70%;
+  }
+  .machine .wash h1 {
+    color: #FFFFFF;
+  }
+  .machine .wash .gold {
+    color: #F5D7AC;
+  }
+  .machine .wash a {
+    display: block;
+    margin-top: 2rem;
+  }
+  .machine .wash a .arrow {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+  }
+  .machine .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(-6rem, -10rem, 0);
+  }
+  .machine .second {
+    width: 80%;
+    transform: translate3d(3rem, 8rem, 0);
+  }
+  .machine .second img {
+    position: absolute;
+    margin-left: -4rem;
+  }
+  .machine .second p {
+    color: #FFFFFF;
+  }
 }
 /* >=992 - Large .col-lg  */
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -2025,7 +2506,8 @@ section {
   .liste,
   .meditape,
   .rules,
-  .sleep {
+  .sleep,
+  .machine {
     min-height: auto;
   }
   .header {
@@ -2304,13 +2786,62 @@ section {
   .sleep .pars p {
     color: #FFFFFF;
   }
+  .machine {
+    padding-bottom: 10rem;
+  }
+  .machine .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .machine .bg {
+    width: 627px;
+    height: 627px;
+    border: 6px solid #ffe8cf;
+    border-radius: 50%;
+    transform: translate3d(-15rem, -3rem, 0);
+  }
+  .machine .wash {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    width: 70%;
+  }
+  .machine .wash h1 {
+    color: #FFFFFF;
+  }
+  .machine .wash .gold {
+    color: #F5D7AC;
+  }
+  .machine .wash a {
+    display: block;
+    margin-top: 2rem;
+  }
+  .machine .wash a .arrow {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+  }
+  .machine .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(-6rem, -10rem, 0);
+  }
+  .machine .second {
+    width: 80%;
+    transform: translate3d(3rem, 2rem, 0);
+  }
+  .machine .second img {
+    position: absolute;
+    margin-left: -4rem;
+  }
+  .machine .second p {
+    color: #FFFFFF;
+  }
 }
 /* >= 1200 - Extra large .col-xl */
 @media (min-width: 1277px) and (max-width: 1407.98px) {
   .header {
     min-height: 100vh;
     background-color: #91A6E3;
-    padding-top: 4rem;
   }
   .header .logo {
     margin-left: 2rem;
@@ -2730,11 +3261,11 @@ section {
   .listen,
   .meditape,
   .rules,
-  .sleep {
+  .sleep,
+  .machine {
     min-height: auto;
   }
   .header {
-    padding-top: 4rem;
     padding-bottom: 12rem;
   }
   .header .logo {
@@ -3003,6 +3534,9 @@ section {
     right: 0;
     transform: translate3d(14rem, -26rem, 0);
   }
+  .sleep {
+    padding-bottom: 3rem;
+  }
   .sleep .bg {
     transform: translate3d(38rem, 0.5rem, 0);
   }
@@ -3041,6 +3575,79 @@ section {
   .sleep .pars p {
     color: #FFFFFF;
   }
+  .machine {
+    position: relative;
+    padding-bottom: 9rem;
+    background-color: #202020;
+  }
+  .machine .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .machine .bg {
+    position: absolute;
+    width: 677px;
+    height: 677px;
+    border: 6px solid #ffe8cf;
+    border-radius: 50%;
+    transform: translate3d(-8rem, -4rem, 0);
+  }
+  .machine .wash {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    width: 70%;
+    text-align: center;
+  }
+  .machine .wash h1 {
+    display: inline;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 36px;
+    color: #FFFFFF;
+  }
+  .machine .wash .gold {
+    color: #F5D7AC;
+  }
+  .machine .wash a {
+    display: block;
+    margin-top: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #F5D7AC;
+  }
+  .machine .wash a .arrow {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+  }
+  .machine .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(-6rem, -10rem, 0);
+  }
+  .machine .second {
+    width: 80%;
+    transform: translate3d(3rem, 2rem, 0);
+  }
+  .machine .second img {
+    position: absolute;
+    margin-left: -4rem;
+  }
+  .machine .second p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+  }
 }
 @media (min-width: 1440px) and (max-width: 1479.98px) {
   section {
@@ -3051,11 +3658,11 @@ section {
   .listen,
   .meditape,
   .rules,
-  .sleep {
+  .sleep,
+  .machine {
     min-height: auto;
   }
   .header {
-    padding-top: 4rem;
     padding-bottom: 12rem;
   }
   .header .logo {
@@ -3324,6 +3931,9 @@ section {
     right: 0;
     transform: translate3d(15rem, -26rem, 0);
   }
+  .sleep {
+    padding-bottom: 4rem;
+  }
   .sleep .bg {
     transform: translate3d(38rem, 0.5rem, 0);
   }
@@ -3362,6 +3972,79 @@ section {
   .sleep .pars p {
     color: #FFFFFF;
   }
+  .machine {
+    position: relative;
+    padding-bottom: 9rem;
+    background-color: #202020;
+  }
+  .machine .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .machine .bg {
+    position: absolute;
+    width: 677px;
+    height: 677px;
+    border: 6px solid #ffe8cf;
+    border-radius: 50%;
+    transform: translate3d(-8rem, -4rem, 0);
+  }
+  .machine .wash {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    width: 70%;
+    text-align: center;
+  }
+  .machine .wash h1 {
+    display: inline;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 36px;
+    color: #FFFFFF;
+  }
+  .machine .wash .gold {
+    color: #F5D7AC;
+  }
+  .machine .wash a {
+    display: block;
+    margin-top: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #F5D7AC;
+  }
+  .machine .wash a .arrow {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+  }
+  .machine .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(-6rem, -10rem, 0);
+  }
+  .machine .second {
+    width: 80%;
+    transform: translate3d(3rem, 2rem, 0);
+  }
+  .machine .second img {
+    position: absolute;
+    margin-left: -4rem;
+  }
+  .machine .second p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+  }
 }
 @media (min-width: 1480px) and (max-width: 1535.98px) {
   section {
@@ -3372,11 +4055,11 @@ section {
   .listen,
   .meditape,
   .rules,
-  .sleep {
+  .sleep,
+  .machine {
     min-height: auto;
   }
   .header {
-    padding-top: 4rem;
     padding-bottom: 12rem;
   }
   .header .logo {
@@ -3610,6 +4293,9 @@ section {
     right: 0;
     transform: translate3d(15rem, -26rem, 0);
   }
+  .sleep {
+    padding-bottom: 4rem;
+  }
   .sleep .bg {
     transform: translate3d(39.5rem, 0.5rem, 0);
   }
@@ -3648,6 +4334,79 @@ section {
   .sleep .pars p {
     color: #FFFFFF;
   }
+  .machine {
+    position: relative;
+    padding-bottom: 9rem;
+    background-color: #202020;
+  }
+  .machine .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .machine .bg {
+    position: absolute;
+    width: 677px;
+    height: 677px;
+    border: 6px solid #ffe8cf;
+    border-radius: 50%;
+    transform: translate3d(-8rem, -4rem, 0);
+  }
+  .machine .wash {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    width: 70%;
+    text-align: center;
+  }
+  .machine .wash h1 {
+    display: inline;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 36px;
+    color: #FFFFFF;
+  }
+  .machine .wash .gold {
+    color: #F5D7AC;
+  }
+  .machine .wash a {
+    display: block;
+    margin-top: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #F5D7AC;
+  }
+  .machine .wash a .arrow {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+  }
+  .machine .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(-6rem, -10rem, 0);
+  }
+  .machine .second {
+    width: 80%;
+    transform: translate3d(3rem, 2rem, 0);
+  }
+  .machine .second img {
+    position: absolute;
+    margin-left: -4rem;
+  }
+  .machine .second p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+  }
 }
 @media (min-width: 1536px) and (max-width: 1599.98px) {
   section {
@@ -3658,11 +4417,11 @@ section {
   .listen,
   .meditape,
   .rules,
-  .sleep {
+  .sleep,
+  .machine {
     min-height: auto;
   }
   .header {
-    padding-top: 4rem;
     padding-bottom: 12rem;
   }
   .header .logo {
@@ -3896,6 +4655,9 @@ section {
     right: 0;
     transform: translate3d(15rem, -26rem, 0);
   }
+  .sleep {
+    padding-bottom: 4rem;
+  }
   .sleep .bg {
     transform: translate3d(41.5rem, 0.5rem, 0);
   }
@@ -3934,6 +4696,79 @@ section {
   .sleep .pars p {
     color: #FFFFFF;
   }
+  .machine {
+    position: relative;
+    padding-bottom: 9rem;
+    background-color: #202020;
+  }
+  .machine .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .machine .bg {
+    position: absolute;
+    width: 677px;
+    height: 677px;
+    border: 6px solid #ffe8cf;
+    border-radius: 50%;
+    transform: translate3d(-6rem, -4rem, 0);
+  }
+  .machine .wash {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    width: 70%;
+    text-align: center;
+  }
+  .machine .wash h1 {
+    display: inline;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 36px;
+    color: #FFFFFF;
+  }
+  .machine .wash .gold {
+    color: #F5D7AC;
+  }
+  .machine .wash a {
+    display: block;
+    margin-top: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #F5D7AC;
+  }
+  .machine .wash a .arrow {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+  }
+  .machine .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(-6rem, -10rem, 0);
+  }
+  .machine .second {
+    width: 80%;
+    transform: translate3d(3rem, 2rem, 0);
+  }
+  .machine .second img {
+    position: absolute;
+    margin-left: -4rem;
+  }
+  .machine .second p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+  }
 }
 @media (min-width: 1600px) and (max-width: 1679.98px) {
   section {
@@ -3944,11 +4779,11 @@ section {
   .listen,
   .meditape,
   .rules,
-  .sleep {
+  .sleep,
+  .machine {
     min-height: auto;
   }
   .header {
-    padding-top: 4rem;
     padding-bottom: 12rem;
   }
   .header .logo {
@@ -4185,6 +5020,9 @@ section {
     right: 0;
     transform: translate3d(16rem, -26rem, 0);
   }
+  .sleep {
+    padding-bottom: 4rem;
+  }
   .sleep .bg {
     transform: translate3d(44rem, 0.5rem, 0);
   }
@@ -4223,6 +5061,79 @@ section {
   .sleep .pars p {
     color: #FFFFFF;
   }
+  .machine {
+    position: relative;
+    padding-bottom: 9rem;
+    background-color: #202020;
+  }
+  .machine .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .machine .bg {
+    position: absolute;
+    width: 677px;
+    height: 677px;
+    border: 6px solid #ffe8cf;
+    border-radius: 50%;
+    transform: translate3d(-4rem, -4rem, 0);
+  }
+  .machine .wash {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    width: 70%;
+    text-align: center;
+  }
+  .machine .wash h1 {
+    display: inline;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 36px;
+    color: #FFFFFF;
+  }
+  .machine .wash .gold {
+    color: #F5D7AC;
+  }
+  .machine .wash a {
+    display: block;
+    margin-top: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #F5D7AC;
+  }
+  .machine .wash a .arrow {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+  }
+  .machine .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(-6rem, -10rem, 0);
+  }
+  .machine .second {
+    width: 80%;
+    transform: translate3d(3rem, 2rem, 0);
+  }
+  .machine .second img {
+    position: absolute;
+    margin-left: -4rem;
+  }
+  .machine .second p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+  }
 }
 @media (min-width: 1680px) and (max-width: 1919.98px) {
   section {
@@ -4233,11 +5144,11 @@ section {
   .listen,
   .meditape,
   .rules,
-  .sleep {
+  .sleep,
+  .machine {
     min-height: auto;
   }
   .header {
-    padding-top: 4rem;
     padding-bottom: 12rem;
   }
   .header .logo {
@@ -4475,6 +5386,9 @@ section {
     right: 0;
     transform: translate3d(17rem, -26rem, 0);
   }
+  .sleep {
+    padding-bottom: 4rem;
+  }
   .sleep .bg {
     transform: translate3d(47rem, 0.5rem, 0);
   }
@@ -4513,6 +5427,79 @@ section {
   .sleep .pars p {
     color: #FFFFFF;
   }
+  .machine {
+    position: relative;
+    padding-bottom: 9rem;
+    background-color: #202020;
+  }
+  .machine .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .machine .bg {
+    position: absolute;
+    width: 677px;
+    height: 677px;
+    border: 6px solid #ffe8cf;
+    border-radius: 50%;
+    transform: translate3d(-4rem, -4rem, 0);
+  }
+  .machine .wash {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    width: 60%;
+    text-align: center;
+  }
+  .machine .wash h1 {
+    display: inline;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 36px;
+    color: #FFFFFF;
+  }
+  .machine .wash .gold {
+    color: #F5D7AC;
+  }
+  .machine .wash a {
+    display: block;
+    margin-top: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #F5D7AC;
+  }
+  .machine .wash a .arrow {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+  }
+  .machine .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(-4rem, -10rem, 0);
+  }
+  .machine .second {
+    width: 80%;
+    transform: translate3d(3rem, 2rem, 0);
+  }
+  .machine .second img {
+    position: absolute;
+    margin-left: -4rem;
+  }
+  .machine .second p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+  }
 }
 @media (min-width: 1920px) and (max-width: 2047.98px) {
   section {
@@ -4523,11 +5510,11 @@ section {
   .listen,
   .meditape,
   .rules,
-  .sleep {
+  .sleep,
+  .machine {
     min-height: auto;
   }
   .header {
-    padding-top: 4rem;
     padding-bottom: 21rem;
   }
   .header .logo {
@@ -4808,6 +5795,79 @@ section {
   .sleep .pars p {
     color: #FFFFFF;
   }
+  .machine {
+    position: relative;
+    padding-bottom: 9rem;
+    background-color: #202020;
+  }
+  .machine .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .machine .bg {
+    position: absolute;
+    width: 707px;
+    height: 707px;
+    border: 6px solid #ffe8cf;
+    border-radius: 50%;
+    transform: translate3d(-3rem, -4rem, 0);
+  }
+  .machine .wash {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    width: 60%;
+    text-align: center;
+  }
+  .machine .wash h1 {
+    display: inline;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 36px;
+    color: #FFFFFF;
+  }
+  .machine .wash .gold {
+    color: #F5D7AC;
+  }
+  .machine .wash a {
+    display: block;
+    margin-top: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #F5D7AC;
+  }
+  .machine .wash a .arrow {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+  }
+  .machine .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(-4rem, -10rem, 0);
+  }
+  .machine .second {
+    width: 80%;
+    transform: translate3d(3rem, 2rem, 0);
+  }
+  .machine .second img {
+    position: absolute;
+    margin-left: -4rem;
+  }
+  .machine .second p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+  }
 }
 @media (min-width: 2048px) and (max-width: 2199.98px) {
   section {
@@ -4818,7 +5878,8 @@ section {
   .listen,
   .meditape,
   .rules,
-  .sleep {
+  .sleep,
+  .machine {
     min-height: auto;
   }
   .header {
@@ -5111,6 +6172,79 @@ section {
   .sleep .pars p {
     color: #FFFFFF;
   }
+  .machine {
+    position: relative;
+    padding-bottom: 9rem;
+    background-color: #202020;
+  }
+  .machine .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .machine .bg {
+    position: absolute;
+    width: 707px;
+    height: 707px;
+    border: 6px solid #ffe8cf;
+    border-radius: 50%;
+    transform: translate3d(-3rem, -4rem, 0);
+  }
+  .machine .wash {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    width: 60%;
+    text-align: center;
+  }
+  .machine .wash h1 {
+    display: inline;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 36px;
+    color: #FFFFFF;
+  }
+  .machine .wash .gold {
+    color: #F5D7AC;
+  }
+  .machine .wash a {
+    display: block;
+    margin-top: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #F5D7AC;
+  }
+  .machine .wash a .arrow {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+  }
+  .machine .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(-4rem, -10rem, 0);
+  }
+  .machine .second {
+    width: 80%;
+    transform: translate3d(3rem, 2rem, 0);
+  }
+  .machine .second img {
+    position: absolute;
+    margin-left: -4rem;
+  }
+  .machine .second p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+  }
 }
 @media (min-width: 2200px) and (max-width: 2499.98px) {
   section {
@@ -5121,11 +6255,11 @@ section {
   .listen,
   .meditape,
   .rules,
-  .sleep {
+  .sleep,
+  .machine {
     min-height: auto;
   }
   .header {
-    padding-top: 4rem;
     padding-bottom: 21rem;
   }
   .header .logo {
@@ -5377,6 +6511,9 @@ section {
   .rules .secondBG img {
     width: 120%;
   }
+  .sleep {
+    padding-bottom: 4rem;
+  }
   .sleep .bg {
     transform: translate3d(63rem, 0.5rem, 0);
   }
@@ -5416,6 +6553,79 @@ section {
   .sleep .pars p {
     color: #FFFFFF;
   }
+  .machine {
+    position: relative;
+    padding-bottom: 9rem;
+    background-color: #202020;
+  }
+  .machine .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .machine .bg {
+    position: absolute;
+    width: 757px;
+    height: 757px;
+    border: 6px solid #ffe8cf;
+    border-radius: 50%;
+    transform: translate3d(-3rem, -4rem, 0);
+  }
+  .machine .wash {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    width: 60%;
+    text-align: center;
+  }
+  .machine .wash h1 {
+    display: inline;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 36px;
+    color: #FFFFFF;
+  }
+  .machine .wash .gold {
+    color: #F5D7AC;
+  }
+  .machine .wash a {
+    display: block;
+    margin-top: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #F5D7AC;
+  }
+  .machine .wash a .arrow {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+  }
+  .machine .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(-4rem, -10rem, 0);
+  }
+  .machine .second {
+    width: 80%;
+    transform: translate3d(3rem, 2rem, 0);
+  }
+  .machine .second img {
+    position: absolute;
+    margin-left: -4rem;
+  }
+  .machine .second p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+  }
 }
 @media (min-width: 2500px) {
   section {
@@ -5426,11 +6636,11 @@ section {
   .listen,
   .meditape,
   .rules,
-  .sleep {
+  .sleep,
+  .machine {
     min-height: auto;
   }
   .header {
-    padding-top: 4rem;
     padding-bottom: 21rem;
   }
   .header .logo {
@@ -5682,6 +6892,9 @@ section {
   .rules .secondBG img {
     width: 120%;
   }
+  .sleep {
+    padding-bottom: 4rem;
+  }
   .sleep .bg {
     transform: translate3d(72rem, 0.5rem, 0);
   }
@@ -5719,6 +6932,79 @@ section {
     padding-bottom: 6rem;
   }
   .sleep .pars p {
+    color: #FFFFFF;
+  }
+  .machine {
+    position: relative;
+    padding-bottom: 9rem;
+    background-color: #202020;
+  }
+  .machine .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .machine .bg {
+    position: absolute;
+    width: 827px;
+    height: 827px;
+    border: 6px solid #ffe8cf;
+    border-radius: 50%;
+    transform: translate3d(-3rem, -8rem, 0);
+  }
+  .machine .wash {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    width: 60%;
+    text-align: center;
+  }
+  .machine .wash h1 {
+    display: inline;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 36px;
+    color: #FFFFFF;
+  }
+  .machine .wash .gold {
+    color: #F5D7AC;
+  }
+  .machine .wash a {
+    display: block;
+    margin-top: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #F5D7AC;
+  }
+  .machine .wash a .arrow {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+  }
+  .machine .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(-4rem, -10rem, 0);
+  }
+  .machine .second {
+    width: 80%;
+    transform: translate3d(3rem, 2rem, 0);
+  }
+  .machine .second img {
+    position: absolute;
+    margin-left: -4rem;
+  }
+  .machine .second p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
     color: #FFFFFF;
   }
 }
