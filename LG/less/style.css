@@ -20,6 +20,13 @@ section {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'LatoBold';
+  src: url('../fonts/latobold.ttf');
+  src: url('../fonts/latobold.woff2') format('woff2'), url('../fonts/latobold.woff') format('woff'), url('../fonts/latobold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
 .page {
   margin-top: 8rem;
 }
@@ -152,7 +159,7 @@ section {
   width: 70%;
 }
 .advices .imagine h3 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'LatoBold', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -171,7 +178,7 @@ section {
 }
 .advices .imagine .kg {
   transform: translate3d(-1rem, 0, 0);
-  font-family: 'Lato', sans-serif;
+  font-family: 'LatoBold', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -278,7 +285,7 @@ section {
   margin-bottom: 2rem;
 }
 .meditape .text p {
-  font-family: 'Lato', sans-serif;
+  font-family: 'LatoBold', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -352,7 +359,7 @@ section {
   margin-bottom: 2rem;
 }
 .rules .first .garderob p {
-  font-family: 'Lato', sans-serif;
+  font-family: 'LatoBold', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -453,7 +460,7 @@ section {
   margin-top: -7rem;
 }
 .sleep .pars p {
-  font-family: 'Lato', sans-serif;
+  font-family: 'LatoBold', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -2299,6 +2306,421 @@ section {
   }
 }
 /* >= 1200 - Extra large .col-xl */
+@media (min-width: 1277px) and (max-width: 1407.98px) {
+  .header {
+    min-height: 100vh;
+    background-color: #91A6E3;
+    padding-top: 4rem;
+  }
+  .header .logo {
+    margin-left: 2rem;
+  }
+  .header .bird {
+    margin-top: 4rem;
+    width: 100%;
+  }
+  .header .bird img {
+    width: 100%;
+  }
+  .header .text {
+    margin-top: 10rem;
+    margin-left: -9rem;
+    text-align: center;
+    width: 100%;
+  }
+  .header .text h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 66px;
+    text-transform: uppercase;
+    font-feature-settings: 'cpsp' on;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+  }
+  .header .text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    line-height: 38px;
+    color: #FFFFFF;
+  }
+  .header .arrow {
+    margin-top: 3rem;
+  }
+  .header .bg {
+    position: absolute;
+  }
+  .header .bg .circle {
+    transform: translate3d(-5rem, -6rem, 0);
+  }
+  .header .bg .circle img {
+    width: 110%;
+  }
+  .header .bg .line {
+    position: absolute;
+    transform: translate3d(15rem, 16rem, 0);
+  }
+  .header .bg .ellipse {
+    position: absolute;
+    transform: translate3d(19rem, 5rem, 0);
+  }
+  .advices {
+    min-height: 100vh;
+    background-color: #80B0B3;
+  }
+  .advices .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .advices .block {
+    background-color: white;
+    padding: 8rem 3rem 3rem 4rem;
+    margin-left: 2rem;
+    transform: translate3d(0, -8rem, 0);
+  }
+  .advices .block h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 38px;
+    color: #DE9E94;
+    margin-bottom: 2rem;
+  }
+  .advices .block p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #282828;
+  }
+  .advices .block .clock {
+    width: 250%;
+    margin-top: -3rem;
+    margin-left: -1.5rem;
+  }
+  .advices .line {
+    transform: translate3d(2.5rem, 2rem, 0);
+  }
+  .advices .line img {
+    width: 70%;
+  }
+  .advices .imagine h3 {
+    font-family: 'LatoBold', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+  }
+  .advices .imagine .same {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+  }
+  .advices .imagine .kg {
+    transform: translate3d(-1rem, 0, 0);
+    font-family: 'LatoBold', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+  }
+  .advices .bg {
+    position: absolute;
+    transform: translate3d(14rem, 0rem, 0);
+  }
+  .listen {
+    min-height: 100vh;
+    background-color: #E4B3BA;
+  }
+  .listen .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .listen .text {
+    text-align: center;
+    margin-left: -10rem;
+    width: 100%;
+  }
+  .listen .text h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+  }
+  .listen .text p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-top: 2rem;
+  }
+  .listen .block {
+    background-color: white;
+    width: 90%;
+    margin-left: -2rem;
+    padding: 8rem 2rem 3rem 4rem;
+    transform: translate3d(-2rem, -8rem, 0);
+  }
+  .listen .block .name .H {
+    margin-top: 0.5rem;
+  }
+  .listen .block .name h1 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #282828;
+  }
+  .listen .block .megogo {
+    margin-top: 2rem;
+  }
+  .listen .bg {
+    position: absolute;
+    transform: translate3d(41rem, 3.5rem, 0);
+  }
+  .listen .bg img {
+    width: 87%;
+  }
+  .meditape {
+    margin-bottom: -7rem;
+    min-height: 100vh;
+    background-color: #91A6E3;
+  }
+  .meditape .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .meditape .all {
+    padding-top: 3rem;
+  }
+  .meditape .bg {
+    position: relative;
+  }
+  .meditape .bg .pictute {
+    position: absolute;
+    width: 747px;
+    height: 747px;
+    border: 6px solid #F1E9E0;
+    border-radius: 50%;
+    transform: translate3d(-14rem, -5rem, 0);
+  }
+  .meditape .text {
+    width: 80%;
+    margin-left: 3rem;
+  }
+  .meditape .text h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+  }
+  .meditape .text p {
+    font-family: 'LatoBold', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+  }
+  .meditape .text .vector {
+    transform: translate3d(0rem, 0, 0);
+  }
+  .meditape .text .ellipse {
+    transform: translate3d(5rem, 2rem, 0);
+  }
+  .meditape .text .flower {
+    transform: translate3d(1rem, -15rem, 0);
+  }
+  .meditape .about p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    width: 90%;
+    margin-left: 2rem;
+  }
+  .meditape .girl {
+    position: absolute;
+    transform: translate3d(-2rem, -15rem, 0);
+  }
+  .rules {
+    min-height: 100vh;
+    background-color: #A7A6CF;
+    position: relative;
+  }
+  .rules .bg .plant {
+    position: absolute;
+    bottom: 0;
+  }
+  .rules .bg .plant img {
+    width: 85%;
+  }
+  .rules .bg .ellipse {
+    position: absolute;
+    right: 0;
+    top: 1rem;
+  }
+  .rules .bg .square {
+    position: absolute;
+    right: 0;
+    transform: translate3d(-11rem, 0rem, 0);
+  }
+  .rules .bg .square img {
+    width: 90%;
+  }
+  .rules .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .rules .all {
+    margin-top: 0rem;
+  }
+  .rules .first {
+    width: 85%;
+    margin-left: 3rem;
+  }
+  .rules .first .garderob h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+  }
+  .rules .first .garderob p {
+    font-family: 'LatoBold', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+  }
+  .rules .first .wachin p,
+  .rules .first .boble p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top: 1rem;
+  }
+  .rules .first .wachin img {
+    margin-top: 1rem;
+  }
+  .rules .letter {
+    background-color: white;
+    padding: 8rem 4rem 3rem 5rem;
+    position: relative;
+    transform: translate3d(2rem, -8rem, 0);
+  }
+  .rules .letter img {
+    position: absolute;
+    transform: translate3d(-2rem, 0rem, 0);
+  }
+  .rules .letter p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #282828;
+  }
+  .rules .secondBG {
+    position: absolute;
+    right: 0;
+    transform: translate3d(14rem, -30rem, 0);
+  }
+  .rules .secondBG img {
+    width: 90%;
+  }
+  .sleep {
+    min-height: 100vh;
+    background-color: #E4B3BA;
+  }
+  .sleep .bg {
+    position: absolute;
+    transform: translate3d(35.5rem, 1.5rem, 0);
+  }
+  .sleep .bg img {
+    width: 80%;
+  }
+  .sleep .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .sleep .early {
+    width: 70%;
+    margin-left: 2rem;
+    text-align: center;
+  }
+  .sleep .early h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 38px;
+    color: #FFFFFF;
+  }
+  .sleep .early p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 36px;
+    color: #FFFFFF;
+  }
+  .sleep .letter {
+    padding: 8rem 4rem 3rem 5rem;
+    position: relative;
+    transform: translate3d(-4rem, -8rem, 0);
+    background-color: white;
+  }
+  .sleep .letter img {
+    position: absolute;
+    margin-left: -2rem;
+  }
+  .sleep .letter p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #282828;
+  }
+  .sleep .pars {
+    margin-top: -7rem;
+  }
+  .sleep .pars p {
+    font-family: 'LatoBold', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+  }
+}
 @media (min-width: 1408px) and (max-width: 1439.98px) {
   section {
     min-height: auto;
@@ -2491,7 +2913,7 @@ section {
     margin-bottom: 2rem;
   }
   .meditape .text p {
-    font-family: 'Lato', sans-serif;
+    font-family: 'LatoBold', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -2812,7 +3234,7 @@ section {
     margin-bottom: 2rem;
   }
   .meditape .text p {
-    font-family: 'Lato', sans-serif;
+    font-family: 'LatoBold', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
