@@ -2,11 +2,16 @@ html {
   width: 100%;
   max-width: 100%;
   overflow-x: hidden !important;
+  min-height: 100vh;
 }
 body {
   width: 100%;
   max-width: 100%;
   overflow-x: hidden !important;
+  min-height: 100vh;
+}
+section {
+  min-height: 100vh;
 }
 @font-face {
   font-family: 'Lato';
@@ -35,9 +40,9 @@ body {
           box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
 }
 .header {
+  min-height: 100vh;
   background-color: #91A6E3;
   padding-top: 4rem;
-  padding-bottom: 12rem;
 }
 .header .logo {
   margin-left: 2rem;
@@ -112,8 +117,8 @@ body {
           transform: translate3d(19rem, 5rem, 0);
 }
 .advices {
+  min-height: 100vh;
   background-color: #80B0B3;
-  padding-bottom: 1.5rem;
 }
 .advices .logo {
   padding-top: 2rem;
@@ -188,8 +193,8 @@ body {
           transform: translate3d(12rem, 1rem, 0);
 }
 .listen {
+  min-height: 100vh;
   background-color: #E4B3BA;
-  padding-bottom: 5rem;
 }
 .listen .logo {
   padding-top: 2rem;
@@ -249,6 +254,8 @@ body {
   width: 87%;
 }
 .meditape {
+  margin-bottom: -7rem;
+  min-height: 100vh;
   background-color: #91A6E3;
 }
 .meditape .logo {
@@ -297,12 +304,12 @@ body {
           transform: translate3d(0rem, 0, 0);
 }
 .meditape .text .ellipse {
-  -webkit-transform: translate3d(4rem, 4rem, 0);
-          transform: translate3d(4rem, 4rem, 0);
+  -webkit-transform: translate3d(5rem, 2rem, 0);
+          transform: translate3d(5rem, 2rem, 0);
 }
 .meditape .text .flower {
-  -webkit-transform: translate3d(0rem, -13rem, 0);
-          transform: translate3d(0rem, -13rem, 0);
+  -webkit-transform: translate3d(1rem, -15rem, 0);
+          transform: translate3d(1rem, -15rem, 0);
 }
 .meditape .about p {
   font-family: 'Lato', sans-serif;
@@ -320,17 +327,13 @@ body {
           transform: translate3d(-2rem, -15rem, 0);
 }
 .rules {
+  min-height: 100vh;
   background-color: #A7A6CF;
-  padding-bottom: 7.2rem;
-  position: relative;
-}
-.rules .bg {
   position: relative;
 }
 .rules .bg .plant {
   position: absolute;
-  -webkit-transform: translate3d(0rem, 30rem, 0);
-          transform: translate3d(0rem, 30rem, 0);
+  bottom: 0;
 }
 .rules .bg .ellipse {
   position: absolute;
@@ -413,8 +416,86 @@ body {
   -webkit-transform: translate3d(13rem, -26rem, 0);
           transform: translate3d(13rem, -26rem, 0);
 }
+.sleep {
+  min-height: 100vh;
+  background-color: #E4B3BA;
+}
+.sleep .bg {
+  position: absolute;
+  -webkit-transform: translate3d(33rem, 0.5rem, 0);
+          transform: translate3d(33rem, 0.5rem, 0);
+}
+.sleep .bg img {
+  width: 90%;
+}
+.sleep .logo {
+  padding-top: 2rem;
+  margin-left: 2rem;
+}
+.sleep .early {
+  width: 70%;
+  margin-left: 2rem;
+  text-align: center;
+}
+.sleep .early h1 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 38px;
+  color: #FFFFFF;
+}
+.sleep .early p {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+.sleep .letter {
+  padding: 8rem 4rem 3rem 5rem;
+  position: relative;
+  -webkit-transform: translate3d(-4rem, -8rem, 0);
+          transform: translate3d(-4rem, -8rem, 0);
+  background-color: white;
+}
+.sleep .letter img {
+  position: absolute;
+  margin-left: -2rem;
+}
+.sleep .letter p {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #282828;
+}
+.sleep .pars {
+  margin-top: -7rem;
+}
+.sleep .pars p {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
 /* <=576 - Extra Small .col- */
 @media (min-width: 320px) and (max-width: 374.98px) {
+  section {
+    min-height: auto;
+  }
+  .header,
+  .advices,
+  .liste,
+  .meditape,
+  .rules,
+  .sleep {
+    min-height: auto;
+  }
   .header {
     padding-top: 4rem;
     padding-bottom: 12rem;
@@ -693,8 +774,67 @@ body {
             transform: translate3d(5rem, -60rem, 0);
     z-index: 1;
   }
+  .sleep .bg {
+    -webkit-transform: translate3d(0rem, 79rem, 0);
+            transform: translate3d(0rem, 79rem, 0);
+  }
+  .sleep .bg img {
+    width: 100%;
+  }
+  .sleep .logo {
+    display: none;
+  }
+  .sleep .page {
+    display: none;
+  }
+  .sleep .early {
+    margin-top: 4rem;
+    width: 100%;
+    margin-left: 0rem;
+    text-align: center;
+  }
+  .sleep .early h1 {
+    color: #FFFFFF;
+  }
+  .sleep .early p {
+    color: #FFFFFF;
+  }
+  .sleep .letter {
+    width: 100%;
+    padding: 3rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(0rem, 0rem, 0);
+            transform: translate3d(0rem, 0rem, 0);
+    background-color: white;
+    margin-top: 3rem;
+    margin-left: 2.2rem;
+  }
+  .sleep .letter img {
+    margin-left: -2rem;
+  }
+  .sleep .letter p {
+    color: #282828;
+  }
+  .sleep .pars {
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+  }
+  .sleep .pars p {
+    color: #FFFFFF;
+  }
 }
 @media (min-width: 375px) and (max-width: 399.98px) {
+  section {
+    min-height: auto;
+  }
+  .header,
+  .advices,
+  .liste,
+  .meditape,
+  .rules,
+  .sleep {
+    min-height: auto;
+  }
   .header {
     padding-top: 4rem;
     padding-bottom: 12rem;
@@ -973,8 +1113,67 @@ body {
             transform: translate3d(5rem, -60rem, 0);
     z-index: 1;
   }
+  .sleep .bg {
+    -webkit-transform: translate3d(0rem, 59rem, 0);
+            transform: translate3d(0rem, 59rem, 0);
+  }
+  .sleep .bg img {
+    width: 100%;
+  }
+  .sleep .logo {
+    display: none;
+  }
+  .sleep .page {
+    display: none;
+  }
+  .sleep .early {
+    margin-top: 4rem;
+    width: 100%;
+    margin-left: 0rem;
+    text-align: center;
+  }
+  .sleep .early h1 {
+    color: #FFFFFF;
+  }
+  .sleep .early p {
+    color: #FFFFFF;
+  }
+  .sleep .letter {
+    width: 100%;
+    padding: 3rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(0rem, 0rem, 0);
+            transform: translate3d(0rem, 0rem, 0);
+    background-color: white;
+    margin-top: 3rem;
+    margin-left: 2.2rem;
+  }
+  .sleep .letter img {
+    margin-left: -2rem;
+  }
+  .sleep .letter p {
+    color: #282828;
+  }
+  .sleep .pars {
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+  }
+  .sleep .pars p {
+    color: #FFFFFF;
+  }
 }
 @media (min-width: 400px) and (max-width: 575.98px) {
+  section {
+    min-height: auto;
+  }
+  .header,
+  .advices,
+  .liste,
+  .meditape,
+  .rules,
+  .sleep {
+    min-height: auto;
+  }
   .header {
     padding-top: 4rem;
     padding-bottom: 12rem;
@@ -1253,9 +1452,68 @@ body {
             transform: translate3d(4rem, -56rem, 0);
     z-index: 1;
   }
+  .sleep .bg {
+    -webkit-transform: translate3d(0rem, 53rem, 0);
+            transform: translate3d(0rem, 53rem, 0);
+  }
+  .sleep .bg img {
+    width: 100%;
+  }
+  .sleep .logo {
+    display: none;
+  }
+  .sleep .page {
+    display: none;
+  }
+  .sleep .early {
+    margin-top: 2rem;
+    width: 100%;
+    margin-left: 0rem;
+    text-align: center;
+  }
+  .sleep .early h1 {
+    color: #FFFFFF;
+  }
+  .sleep .early p {
+    color: #FFFFFF;
+  }
+  .sleep .letter {
+    width: 100%;
+    padding: 3rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(0rem, 0rem, 0);
+            transform: translate3d(0rem, 0rem, 0);
+    background-color: white;
+    margin-top: 3rem;
+    margin-left: 2.2rem;
+  }
+  .sleep .letter img {
+    margin-left: -2rem;
+  }
+  .sleep .letter p {
+    color: #282828;
+  }
+  .sleep .pars {
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+  }
+  .sleep .pars p {
+    color: #FFFFFF;
+  }
 }
 /* >=576 - Small .col-sm */
 @media (min-width: 576px) and (max-width: 767.98px) {
+  section {
+    min-height: auto;
+  }
+  .header,
+  .advices,
+  .liste,
+  .meditape,
+  .rules,
+  .sleep {
+    min-height: auto;
+  }
   .header {
     padding-top: 4rem;
     padding-bottom: 12rem;
@@ -1528,9 +1786,66 @@ body {
             transform: translate3d(4rem, -40rem, 0);
     z-index: 1;
   }
+  .sleep .bg {
+    -webkit-transform: translate3d(5rem, 39rem, 0);
+            transform: translate3d(5rem, 39rem, 0);
+  }
+  .sleep .bg img {
+    width: 75%;
+  }
+  .sleep .logo {
+    display: none;
+  }
+  .sleep .page {
+    display: none;
+  }
+  .sleep .early {
+    margin-top: 2rem;
+    width: 100%;
+    margin-left: 0rem;
+    text-align: center;
+  }
+  .sleep .early h1 {
+    color: #FFFFFF;
+  }
+  .sleep .early p {
+    color: #FFFFFF;
+  }
+  .sleep .letter {
+    width: 110%;
+    padding: 3rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(0rem, 0rem, 0);
+            transform: translate3d(0rem, 0rem, 0);
+    background-color: white;
+    margin-top: 3rem;
+  }
+  .sleep .letter img {
+    margin-left: -2rem;
+  }
+  .sleep .letter p {
+    color: #282828;
+  }
+  .sleep .pars {
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+  }
+  .sleep .pars p {
+    color: #FFFFFF;
+  }
 }
 /* >=768 - Medium .col-md  */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  section {
+    min-height: auto;
+  }
+  .header,
+  .advices,
+  .liste,
+  .meditape,
+  .rules {
+    min-height: auto;
+  }
   .header {
     padding-top: 4rem;
     padding-bottom: 12rem;
@@ -1729,10 +2044,6 @@ body {
   .rules {
     padding-bottom: 7.2rem;
   }
-  .rules .bg .plant {
-    -webkit-transform: translate3d(0rem, 53.5rem, 0);
-            transform: translate3d(0rem, 53.5rem, 0);
-  }
   .rules .bg .ellipse {
     right: 0;
     top: 1rem;
@@ -1792,9 +2103,65 @@ body {
     -webkit-transform: translate3d(14rem, -24rem, 0);
             transform: translate3d(14rem, -24rem, 0);
   }
+  .sleep .bg {
+    -webkit-transform: translate3d(10rem, 38rem, 0);
+            transform: translate3d(10rem, 38rem, 0);
+  }
+  .sleep .bg img {
+    width: 80%;
+  }
+  .sleep .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .sleep .early {
+    margin-top: 2rem;
+    width: 100%;
+    margin-left: 0rem;
+    text-align: center;
+  }
+  .sleep .early h1 {
+    color: #FFFFFF;
+  }
+  .sleep .early p {
+    color: #FFFFFF;
+  }
+  .sleep .letter {
+    width: 110%;
+    padding: 3rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(0rem, 0rem, 0);
+            transform: translate3d(0rem, 0rem, 0);
+    background-color: white;
+    margin-top: 3rem;
+  }
+  .sleep .letter img {
+    margin-left: -2rem;
+  }
+  .sleep .letter p {
+    color: #282828;
+  }
+  .sleep .pars {
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+  }
+  .sleep .pars p {
+    color: #FFFFFF;
+  }
 }
 /* >=992 - Large .col-lg  */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  section {
+    min-height: auto;
+  }
+  .header,
+  .advices,
+  .liste,
+  .meditape,
+  .rules,
+  .sleep {
+    min-height: auto;
+  }
   .header {
     padding-top: 4rem;
     padding-bottom: 12rem;
@@ -1991,10 +2358,6 @@ body {
   .rules {
     padding-bottom: 2.5rem;
   }
-  .rules .bg .plant {
-    -webkit-transform: translate3d(0rem, 30rem, 0);
-            transform: translate3d(0rem, 30rem, 0);
-  }
   .rules .bg .ellipse {
     right: 0;
     top: 1rem;
@@ -2053,9 +2416,62 @@ body {
     -webkit-transform: translate3d(5rem, -30rem, 0);
             transform: translate3d(5rem, -30rem, 0);
   }
+  .sleep .bg {
+    -webkit-transform: translate3d(30rem, 5rem, 0);
+            transform: translate3d(30rem, 5rem, 0);
+  }
+  .sleep .bg img {
+    width: 80%;
+  }
+  .sleep .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .sleep .early {
+    width: 80%;
+    margin-left: 2rem;
+    text-align: center;
+  }
+  .sleep .early h1 {
+    color: #FFFFFF;
+  }
+  .sleep .early p {
+    color: #FFFFFF;
+  }
+  .sleep .letter {
+    width: 110%;
+    padding: 8rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(0rem, -8rem, 0);
+            transform: translate3d(0rem, -8rem, 0);
+    background-color: white;
+  }
+  .sleep .letter img {
+    margin-left: -2rem;
+  }
+  .sleep .letter p {
+    color: #282828;
+  }
+  .sleep .pars {
+    margin-top: -7rem;
+  }
+  .sleep .pars p {
+    color: #FFFFFF;
+  }
 }
 /* >= 1200 - Extra large .col-xl */
 @media (min-width: 1408px) and (max-width: 1439.98px) {
+  section {
+    min-height: auto;
+  }
+  .header,
+  .advices,
+  .listen,
+  .meditape,
+  .rules,
+  .sleep {
+    min-height: auto;
+  }
   .header {
     padding-top: 4rem;
     padding-bottom: 12rem;
@@ -2211,6 +2627,7 @@ body {
     width: 87%;
   }
   .meditape {
+    margin-bottom: 0rem;
     background-color: #91A6E3;
   }
   .meditape .logo {
@@ -2284,12 +2701,8 @@ body {
   .rules {
     padding-bottom: 7.2rem;
   }
-  .rules .bg .plant {
-    -webkit-transform: translate3d(0rem, 29.5rem, 0);
-            transform: translate3d(0rem, 29.5rem, 0);
-  }
   .rules .bg .plant img {
-    width: 80%;
+    width: 90%;
   }
   .rules .bg .ellipse {
     right: 0;
@@ -2348,8 +2761,59 @@ body {
     -webkit-transform: translate3d(14rem, -26rem, 0);
             transform: translate3d(14rem, -26rem, 0);
   }
+  .sleep .bg {
+    -webkit-transform: translate3d(38rem, 0.5rem, 0);
+            transform: translate3d(38rem, 0.5rem, 0);
+  }
+  .sleep .bg img {
+    width: 80%;
+  }
+  .sleep .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .sleep .early {
+    width: 70%;
+    margin-left: 2rem;
+  }
+  .sleep .early h1 {
+    color: #FFFFFF;
+  }
+  .sleep .early p {
+    color: #FFFFFF;
+  }
+  .sleep .letter {
+    padding: 8rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(-5rem, -8rem, 0);
+            transform: translate3d(-5rem, -8rem, 0);
+    background-color: white;
+  }
+  .sleep .letter img {
+    margin-left: -2rem;
+  }
+  .sleep .letter p {
+    color: #282828;
+  }
+  .sleep .pars {
+    margin-top: -7rem;
+  }
+  .sleep .pars p {
+    color: #FFFFFF;
+  }
 }
 @media (min-width: 1440px) and (max-width: 1479.98px) {
+  section {
+    min-height: auto;
+  }
+  .header,
+  .advices,
+  .listen,
+  .meditape,
+  .rules,
+  .sleep {
+    min-height: auto;
+  }
   .header {
     padding-top: 4rem;
     padding-bottom: 12rem;
@@ -2505,6 +2969,7 @@ body {
     width: 87%;
   }
   .meditape {
+    margin-bottom: 0rem;
     background-color: #91A6E3;
   }
   .meditape .logo {
@@ -2578,12 +3043,8 @@ body {
   .rules {
     padding-bottom: 7.2rem;
   }
-  .rules .bg .plant {
-    -webkit-transform: translate3d(0rem, 29.5rem, 0);
-            transform: translate3d(0rem, 29.5rem, 0);
-  }
   .rules .bg .plant img {
-    width: 75%;
+    width: 90%;
   }
   .rules .bg .ellipse {
     right: 0;
@@ -2642,8 +3103,59 @@ body {
     -webkit-transform: translate3d(15rem, -26rem, 0);
             transform: translate3d(15rem, -26rem, 0);
   }
+  .sleep .bg {
+    -webkit-transform: translate3d(38rem, 0.5rem, 0);
+            transform: translate3d(38rem, 0.5rem, 0);
+  }
+  .sleep .bg img {
+    width: 80%;
+  }
+  .sleep .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .sleep .early {
+    width: 70%;
+    margin-left: 2rem;
+  }
+  .sleep .early h1 {
+    color: #FFFFFF;
+  }
+  .sleep .early p {
+    color: #FFFFFF;
+  }
+  .sleep .letter {
+    padding: 8rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(-5rem, -8rem, 0);
+            transform: translate3d(-5rem, -8rem, 0);
+    background-color: white;
+  }
+  .sleep .letter img {
+    margin-left: -2rem;
+  }
+  .sleep .letter p {
+    color: #282828;
+  }
+  .sleep .pars {
+    margin-top: -7rem;
+  }
+  .sleep .pars p {
+    color: #FFFFFF;
+  }
 }
 @media (min-width: 1480px) and (max-width: 1535.98px) {
+  section {
+    min-height: auto;
+  }
+  .header,
+  .advices,
+  .listen,
+  .meditape,
+  .rules,
+  .sleep {
+    min-height: auto;
+  }
   .header {
     padding-top: 4rem;
     padding-bottom: 12rem;
@@ -2782,6 +3294,7 @@ body {
     width: 87%;
   }
   .meditape {
+    margin-bottom: 0rem;
     background-color: #91A6E3;
   }
   .meditape .logo {
@@ -2836,12 +3349,8 @@ body {
   .rules {
     padding-bottom: 7.2rem;
   }
-  .rules .bg .plant {
-    -webkit-transform: translate3d(0rem, 29.5rem, 0);
-            transform: translate3d(0rem, 29.5rem, 0);
-  }
   .rules .bg .plant img {
-    width: 75%;
+    width: 95%;
   }
   .rules .bg .ellipse {
     right: 0;
@@ -2900,8 +3409,59 @@ body {
     -webkit-transform: translate3d(15rem, -26rem, 0);
             transform: translate3d(15rem, -26rem, 0);
   }
+  .sleep .bg {
+    -webkit-transform: translate3d(39.5rem, 0.5rem, 0);
+            transform: translate3d(39.5rem, 0.5rem, 0);
+  }
+  .sleep .bg img {
+    width: 80%;
+  }
+  .sleep .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .sleep .early {
+    width: 70%;
+    margin-left: 2rem;
+  }
+  .sleep .early h1 {
+    color: #FFFFFF;
+  }
+  .sleep .early p {
+    color: #FFFFFF;
+  }
+  .sleep .letter {
+    padding: 8rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(-5rem, -8rem, 0);
+            transform: translate3d(-5rem, -8rem, 0);
+    background-color: white;
+  }
+  .sleep .letter img {
+    margin-left: -2rem;
+  }
+  .sleep .letter p {
+    color: #282828;
+  }
+  .sleep .pars {
+    margin-top: -7rem;
+  }
+  .sleep .pars p {
+    color: #FFFFFF;
+  }
 }
 @media (min-width: 1536px) and (max-width: 1599.98px) {
+  section {
+    min-height: auto;
+  }
+  .header,
+  .advices,
+  .listen,
+  .meditape,
+  .rules,
+  .sleep {
+    min-height: auto;
+  }
   .header {
     padding-top: 4rem;
     padding-bottom: 12rem;
@@ -3040,6 +3600,7 @@ body {
     width: 87%;
   }
   .meditape {
+    margin-bottom: 0rem;
     background-color: #91A6E3;
   }
   .meditape .logo {
@@ -3094,12 +3655,8 @@ body {
   .rules {
     padding-bottom: 7.2rem;
   }
-  .rules .bg .plant {
-    -webkit-transform: translate3d(0rem, 29.5rem, 0);
-            transform: translate3d(0rem, 29.5rem, 0);
-  }
   .rules .bg .plant img {
-    width: 75%;
+    width: 95%;
   }
   .rules .bg .ellipse {
     right: 0;
@@ -3158,8 +3715,59 @@ body {
     -webkit-transform: translate3d(15rem, -26rem, 0);
             transform: translate3d(15rem, -26rem, 0);
   }
+  .sleep .bg {
+    -webkit-transform: translate3d(41.5rem, 0.5rem, 0);
+            transform: translate3d(41.5rem, 0.5rem, 0);
+  }
+  .sleep .bg img {
+    width: 80%;
+  }
+  .sleep .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .sleep .early {
+    width: 70%;
+    margin-left: 2rem;
+  }
+  .sleep .early h1 {
+    color: #FFFFFF;
+  }
+  .sleep .early p {
+    color: #FFFFFF;
+  }
+  .sleep .letter {
+    padding: 8rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(-5rem, -8rem, 0);
+            transform: translate3d(-5rem, -8rem, 0);
+    background-color: white;
+  }
+  .sleep .letter img {
+    margin-left: -2rem;
+  }
+  .sleep .letter p {
+    color: #282828;
+  }
+  .sleep .pars {
+    margin-top: -7rem;
+  }
+  .sleep .pars p {
+    color: #FFFFFF;
+  }
 }
 @media (min-width: 1600px) and (max-width: 1679.98px) {
+  section {
+    min-height: auto;
+  }
+  .header,
+  .advices,
+  .listen,
+  .meditape,
+  .rules,
+  .sleep {
+    min-height: auto;
+  }
   .header {
     padding-top: 4rem;
     padding-bottom: 12rem;
@@ -3301,6 +3909,7 @@ body {
     width: 87%;
   }
   .meditape {
+    margin-bottom: 0rem;
     background-color: #91A6E3;
   }
   .meditape .logo {
@@ -3355,12 +3964,8 @@ body {
   .rules {
     padding-bottom: 7.2rem;
   }
-  .rules .bg .plant {
-    -webkit-transform: translate3d(0rem, 29.5rem, 0);
-            transform: translate3d(0rem, 29.5rem, 0);
-  }
   .rules .bg .plant img {
-    width: 75%;
+    width: 95%;
   }
   .rules .bg .ellipse {
     right: 0;
@@ -3419,8 +4024,59 @@ body {
     -webkit-transform: translate3d(16rem, -26rem, 0);
             transform: translate3d(16rem, -26rem, 0);
   }
+  .sleep .bg {
+    -webkit-transform: translate3d(44rem, 0.5rem, 0);
+            transform: translate3d(44rem, 0.5rem, 0);
+  }
+  .sleep .bg img {
+    width: 70%;
+  }
+  .sleep .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .sleep .early {
+    width: 70%;
+    margin-left: 2rem;
+  }
+  .sleep .early h1 {
+    color: #FFFFFF;
+  }
+  .sleep .early p {
+    color: #FFFFFF;
+  }
+  .sleep .letter {
+    padding: 8rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(-5rem, -8rem, 0);
+            transform: translate3d(-5rem, -8rem, 0);
+    background-color: white;
+  }
+  .sleep .letter img {
+    margin-left: -2rem;
+  }
+  .sleep .letter p {
+    color: #282828;
+  }
+  .sleep .pars {
+    margin-top: -7rem;
+  }
+  .sleep .pars p {
+    color: #FFFFFF;
+  }
 }
 @media (min-width: 1680px) and (max-width: 1919.98px) {
+  section {
+    min-height: auto;
+  }
+  .header,
+  .advices,
+  .listen,
+  .meditape,
+  .rules,
+  .sleep {
+    min-height: auto;
+  }
   .header {
     padding-top: 4rem;
     padding-bottom: 12rem;
@@ -3563,6 +4219,7 @@ body {
     width: 87%;
   }
   .meditape {
+    margin-bottom: 0rem;
     background-color: #91A6E3;
   }
   .meditape .logo {
@@ -3617,12 +4274,8 @@ body {
   .rules {
     padding-bottom: 7.2rem;
   }
-  .rules .bg .plant {
-    -webkit-transform: translate3d(0rem, 29.5rem, 0);
-            transform: translate3d(0rem, 29.5rem, 0);
-  }
   .rules .bg .plant img {
-    width: 75%;
+    width: 95%;
   }
   .rules .bg .ellipse {
     right: 0;
@@ -3681,8 +4334,59 @@ body {
     -webkit-transform: translate3d(17rem, -26rem, 0);
             transform: translate3d(17rem, -26rem, 0);
   }
+  .sleep .bg {
+    -webkit-transform: translate3d(47rem, 0.5rem, 0);
+            transform: translate3d(47rem, 0.5rem, 0);
+  }
+  .sleep .bg img {
+    width: 70%;
+  }
+  .sleep .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .sleep .early {
+    width: 70%;
+    margin-left: 2rem;
+  }
+  .sleep .early h1 {
+    color: #FFFFFF;
+  }
+  .sleep .early p {
+    color: #FFFFFF;
+  }
+  .sleep .letter {
+    padding: 8rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(-5rem, -8rem, 0);
+            transform: translate3d(-5rem, -8rem, 0);
+    background-color: white;
+  }
+  .sleep .letter img {
+    margin-left: -2rem;
+  }
+  .sleep .letter p {
+    color: #282828;
+  }
+  .sleep .pars {
+    margin-top: -7rem;
+  }
+  .sleep .pars p {
+    color: #FFFFFF;
+  }
 }
 @media (min-width: 1920px) and (max-width: 2047.98px) {
+  section {
+    min-height: auto;
+  }
+  .header,
+  .advices,
+  .listen,
+  .meditape,
+  .rules,
+  .sleep {
+    min-height: auto;
+  }
   .header {
     padding-top: 4rem;
     padding-bottom: 21rem;
@@ -3830,6 +4534,7 @@ body {
     width: 87%;
   }
   .meditape {
+    margin-bottom: 0rem;
     background-color: #91A6E3;
   }
   .meditape .logo {
@@ -3884,12 +4589,8 @@ body {
   .rules {
     padding-bottom: 7.2rem;
   }
-  .rules .bg .plant {
-    -webkit-transform: translate3d(0rem, 29.5rem, 0);
-            transform: translate3d(0rem, 29.5rem, 0);
-  }
   .rules .bg .plant img {
-    width: 75%;
+    width: 90%;
   }
   .rules .bg .ellipse {
     right: 0;
@@ -3948,8 +4649,60 @@ body {
     -webkit-transform: translate3d(20rem, -26rem, 0);
             transform: translate3d(20rem, -26rem, 0);
   }
+  .sleep .bg {
+    -webkit-transform: translate3d(53rem, 0.5rem, 0);
+            transform: translate3d(53rem, 0.5rem, 0);
+  }
+  .sleep .bg img {
+    width: 70%;
+  }
+  .sleep .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .sleep .early {
+    width: 70%;
+    margin-left: 2rem;
+  }
+  .sleep .early h1 {
+    color: #FFFFFF;
+  }
+  .sleep .early p {
+    color: #FFFFFF;
+  }
+  .sleep .letter {
+    padding: 8rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(-5rem, -8rem, 0);
+            transform: translate3d(-5rem, -8rem, 0);
+    background-color: white;
+  }
+  .sleep .letter img {
+    margin-left: -2rem;
+  }
+  .sleep .letter p {
+    color: #282828;
+  }
+  .sleep .pars {
+    margin-top: -7rem;
+    padding-bottom: 4rem;
+  }
+  .sleep .pars p {
+    color: #FFFFFF;
+  }
 }
 @media (min-width: 2048px) and (max-width: 2199.98px) {
+  section {
+    min-height: auto;
+  }
+  .header,
+  .advices,
+  .listen,
+  .meditape,
+  .rules,
+  .sleep {
+    min-height: auto;
+  }
   .header {
     padding-top: 4rem;
     padding-bottom: 21rem;
@@ -4100,6 +4853,7 @@ body {
     width: 87%;
   }
   .meditape {
+    margin-bottom: 0rem;
     background-color: #91A6E3;
   }
   .meditape .logo {
@@ -4153,10 +4907,6 @@ body {
   }
   .rules {
     padding-bottom: 7.2rem;
-  }
-  .rules .bg .plant {
-    -webkit-transform: translate3d(0rem, 29.5rem, 0);
-            transform: translate3d(0rem, 29.5rem, 0);
   }
   .rules .bg .plant img {
     width: 75%;
@@ -4223,8 +4973,60 @@ body {
   .rules .secondBG img {
     width: 120%;
   }
+  .sleep .bg {
+    -webkit-transform: translate3d(58rem, 0.5rem, 0);
+            transform: translate3d(58rem, 0.5rem, 0);
+  }
+  .sleep .bg img {
+    width: 65%;
+  }
+  .sleep .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .sleep .early {
+    width: 70%;
+    margin-left: 2rem;
+  }
+  .sleep .early h1 {
+    color: #FFFFFF;
+  }
+  .sleep .early p {
+    color: #FFFFFF;
+  }
+  .sleep .letter {
+    padding: 8rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(-5rem, -8rem, 0);
+            transform: translate3d(-5rem, -8rem, 0);
+    background-color: white;
+  }
+  .sleep .letter img {
+    margin-left: -2rem;
+  }
+  .sleep .letter p {
+    color: #282828;
+  }
+  .sleep .pars {
+    margin-top: -7rem;
+    padding-bottom: 4rem;
+  }
+  .sleep .pars p {
+    color: #FFFFFF;
+  }
 }
 @media (min-width: 2200px) and (max-width: 2499.98px) {
+  section {
+    min-height: auto;
+  }
+  .header,
+  .advices,
+  .listen,
+  .meditape,
+  .rules,
+  .sleep {
+    min-height: auto;
+  }
   .header {
     padding-top: 4rem;
     padding-bottom: 21rem;
@@ -4377,6 +5179,7 @@ body {
     width: 87%;
   }
   .meditape {
+    margin-bottom: 0rem;
     background-color: #91A6E3;
   }
   .meditape .logo {
@@ -4430,10 +5233,6 @@ body {
   }
   .rules {
     padding-bottom: 7.2rem;
-  }
-  .rules .bg .plant {
-    -webkit-transform: translate3d(0rem, 29.5rem, 0);
-            transform: translate3d(0rem, 29.5rem, 0);
   }
   .rules .bg .plant img {
     width: 75%;
@@ -4500,8 +5299,60 @@ body {
   .rules .secondBG img {
     width: 120%;
   }
+  .sleep .bg {
+    -webkit-transform: translate3d(63rem, 0.5rem, 0);
+            transform: translate3d(63rem, 0.5rem, 0);
+  }
+  .sleep .bg img {
+    width: 65%;
+  }
+  .sleep .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .sleep .early {
+    width: 70%;
+    margin-left: 2rem;
+  }
+  .sleep .early h1 {
+    color: #FFFFFF;
+  }
+  .sleep .early p {
+    color: #FFFFFF;
+  }
+  .sleep .letter {
+    padding: 8rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(-5rem, -8rem, 0);
+            transform: translate3d(-5rem, -8rem, 0);
+    background-color: white;
+  }
+  .sleep .letter img {
+    margin-left: -2rem;
+  }
+  .sleep .letter p {
+    color: #282828;
+  }
+  .sleep .pars {
+    margin-top: -9rem;
+    padding-bottom: 6rem;
+  }
+  .sleep .pars p {
+    color: #FFFFFF;
+  }
 }
 @media (min-width: 2500px) {
+  section {
+    min-height: auto;
+  }
+  .header,
+  .advices,
+  .listen,
+  .meditape,
+  .rules,
+  .sleep {
+    min-height: auto;
+  }
   .header {
     padding-top: 4rem;
     padding-bottom: 21rem;
@@ -4654,6 +5505,7 @@ body {
     width: 77%;
   }
   .meditape {
+    margin-bottom: 0rem;
     background-color: #91A6E3;
   }
   .meditape .logo {
@@ -4707,10 +5559,6 @@ body {
   }
   .rules {
     padding-bottom: 7.2rem;
-  }
-  .rules .bg .plant {
-    -webkit-transform: translate3d(0rem, 29.5rem, 0);
-            transform: translate3d(0rem, 29.5rem, 0);
   }
   .rules .bg .plant img {
     width: 75%;
@@ -4776,5 +5624,46 @@ body {
   }
   .rules .secondBG img {
     width: 120%;
+  }
+  .sleep .bg {
+    -webkit-transform: translate3d(72rem, 0.5rem, 0);
+            transform: translate3d(72rem, 0.5rem, 0);
+  }
+  .sleep .bg img {
+    width: 60%;
+  }
+  .sleep .logo {
+    padding-top: 2rem;
+    margin-left: 2rem;
+  }
+  .sleep .early {
+    width: 70%;
+    margin-left: 2rem;
+  }
+  .sleep .early h1 {
+    color: #FFFFFF;
+  }
+  .sleep .early p {
+    color: #FFFFFF;
+  }
+  .sleep .letter {
+    padding: 8rem 4rem 3rem 5rem;
+    position: relative;
+    -webkit-transform: translate3d(-5rem, -8rem, 0);
+            transform: translate3d(-5rem, -8rem, 0);
+    background-color: white;
+  }
+  .sleep .letter img {
+    margin-left: -2rem;
+  }
+  .sleep .letter p {
+    color: #282828;
+  }
+  .sleep .pars {
+    margin-top: -9rem;
+    padding-bottom: 6rem;
+  }
+  .sleep .pars p {
+    color: #FFFFFF;
   }
 }
