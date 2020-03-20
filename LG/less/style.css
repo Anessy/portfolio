@@ -48,6 +48,16 @@ section {
 .logo {
   transform: translate3d(0, 1rem, 0);
 }
+.listen h1,
+.rules h1,
+.sleep h1,
+.imagine h1,
+.listen h3,
+.rules h3,
+.sleep h3,
+.imagine h3 {
+  margin-top: 2rem;
+}
 .header {
   min-height: 100vh;
   background-color: #91A6E3;
@@ -582,12 +592,16 @@ section {
 }
 .last .bg .bouble-one {
   position: absolute;
+  transform: translate3d(20rem, -5rem, 0);
 }
 .last .bg .bouble-two {
   position: absolute;
+  transform: translate3d(10rem, -3rem, 0);
 }
 .last .bg .bouble-three {
   position: absolute;
+  right: 0;
+  transform: translate3d(0rem, 5rem, 0);
 }
 .last .wash {
   margin-top: 2rem;
@@ -651,6 +665,43 @@ section {
 .last .second .link a {
   color: #E4B3BA;
 }
+.scene {
+  position: absolute;
+  margin-top: -8rem;
+}
+.scene .bouble1 {
+  transform: translate3d(10rem, 0rem, 0);
+}
+.scene .bouble11 {
+  transform: translate3d(15rem, 0rem, 0);
+}
+.scene .bouble2 {
+  transform: translate3d(17rem, -2rem, 0);
+}
+.scene .bouble21 {
+  transform: translate3d(15rem, -4rem, 0);
+}
+.scene .bouble3 {
+  transform: translate3d(8rem, 0rem, 0);
+}
+.scene .bouble31 {
+  transform: translate3d(12rem, -3rem, 0);
+}
+.scene .bouble4 {
+  transform: translate3d(20rem, -5rem, 0);
+}
+.scene .bouble41 {
+  transform: translate3d(7rem, 0rem, 0);
+}
+.scene .bouble5 {
+  transform: translate3d(10rem, 0rem, 0);
+}
+.scene .bouble51 {
+  transform: translate3d(15rem, 0rem, 0);
+}
+.scene .bouble7 {
+  transform: translate3d(0rem, 2rem, 0);
+}
 /* <=576 - Extra Small .col- */
 @media (min-width: 320px) and (max-width: 374.98px) {
   section {
@@ -662,7 +713,8 @@ section {
   .meditape,
   .rules,
   .sleep,
-  .machine {
+  .machine,
+  .last {
     min-height: auto;
   }
   .header {
@@ -1027,6 +1079,85 @@ section {
     padding-top: 2rem;
     color: #FFFFFF;
   }
+  .last {
+    padding-bottom: 5rem;
+  }
+  .last .logo {
+    display: none;
+    margin-left: 2rem;
+    padding-top: 2rem;
+  }
+  .last .page {
+    display: none;
+    margin-top: 7rem;
+  }
+  .last .bg .circle {
+    position: absolute;
+    width: 657px;
+    height: 657px;
+    border: 6px solid rgba(250, 202, 202, 0.3);
+    border-radius: 50%;
+    transform: translate3d(-20rem, -6rem, 0);
+  }
+  .last .bg .bouble-one {
+    position: absolute;
+    transform: translate3d(22rem, -5rem, 0);
+  }
+  .last .bg .bouble-two {
+    position: absolute;
+    transform: translate3d(12rem, -3rem, 0);
+  }
+  .last .bg .bouble-three {
+    position: absolute;
+    right: 0;
+    transform: translate3d(3rem, 35rem, 0);
+  }
+  .last .wash {
+    margin-top: 4rem;
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+  .last .wash h1 {
+    margin-left: 0rem;
+  }
+  .last .wash .washing {
+    position: absolute;
+    width: 150%;
+    left: 0;
+    transform: translate3d(-1rem, -3rem, 0);
+  }
+  .last .second {
+    width: 85%;
+    margin-top: 2rem;
+  }
+  .last .second .tventy {
+    margin-top: 20rem;
+  }
+  .last .second .hundred {
+    padding-top: 3.5rem;
+  }
+  .last .second .nine {
+    padding-top: 2rem;
+  }
+  .last .second h1 {
+    color: #E4B3BA;
+  }
+  .last .second p {
+    color: #282828;
+  }
+  .last .second .partner {
+    position: absolute;
+    margin-top: 4.5rem;
+    transform: translate3d(0, 22.5rem, 0);
+  }
+  .last .second .link {
+    transform: translate3d(0rem, 0, 0);
+    margin-top: 2.5rem;
+  }
+  .last .second .link a {
+    color: #E4B3BA;
+  }
 }
 @media (min-width: 375px) and (max-width: 399.98px) {
   section {
@@ -1038,7 +1169,8 @@ section {
   .meditape,
   .rules,
   .sleep,
-  .machine {
+  .machine,
+  .last {
     min-height: auto;
   }
   .header {
@@ -1403,6 +1535,85 @@ section {
     padding-top: 2rem;
     color: #FFFFFF;
   }
+  .last {
+    padding-bottom: 3rem;
+  }
+  .last .logo {
+    display: none;
+    margin-left: 2rem;
+    padding-top: 2rem;
+  }
+  .last .page {
+    display: none;
+    margin-top: 7rem;
+  }
+  .last .bg .circle {
+    position: absolute;
+    width: 657px;
+    height: 657px;
+    border: 6px solid rgba(250, 202, 202, 0.3);
+    border-radius: 50%;
+    transform: translate3d(-20rem, -6rem, 0);
+  }
+  .last .bg .bouble-one {
+    position: absolute;
+    transform: translate3d(22rem, -5rem, 0);
+  }
+  .last .bg .bouble-two {
+    position: absolute;
+    transform: translate3d(12rem, -3rem, 0);
+  }
+  .last .bg .bouble-three {
+    position: absolute;
+    right: 0;
+    transform: translate3d(3rem, 35rem, 0);
+  }
+  .last .wash {
+    margin-top: 4rem;
+    position: relative;
+    width: 80%;
+    text-align: center;
+  }
+  .last .wash h1 {
+    margin-left: 3rem;
+  }
+  .last .wash .washing {
+    position: absolute;
+    width: 150%;
+    left: 0;
+    transform: translate3d(-1rem, -3rem, 0);
+  }
+  .last .second {
+    width: 85%;
+    margin-top: 2rem;
+  }
+  .last .second .tventy {
+    margin-top: 20rem;
+  }
+  .last .second .hundred {
+    padding-top: 3.5rem;
+  }
+  .last .second .nine {
+    padding-top: 2rem;
+  }
+  .last .second h1 {
+    color: #E4B3BA;
+  }
+  .last .second p {
+    color: #282828;
+  }
+  .last .second .partner {
+    position: absolute;
+    margin-top: 4.5rem;
+    transform: translate3d(0, 19.5rem, 0);
+  }
+  .last .second .link {
+    transform: translate3d(11rem, 0, 0);
+    margin-top: 5.2rem;
+  }
+  .last .second .link a {
+    color: #E4B3BA;
+  }
 }
 @media (min-width: 400px) and (max-width: 575.98px) {
   section {
@@ -1414,7 +1625,8 @@ section {
   .meditape,
   .rules,
   .sleep,
-  .machine {
+  .machine,
+  .last {
     min-height: auto;
   }
   .header {
@@ -1779,6 +1991,84 @@ section {
     padding-top: 2rem;
     color: #FFFFFF;
   }
+  .last {
+    padding-bottom: 3rem;
+  }
+  .last .logo {
+    display: none;
+    margin-left: 2rem;
+    padding-top: 2rem;
+  }
+  .last .page {
+    display: none;
+    margin-top: 7rem;
+  }
+  .last .bg .circle {
+    position: absolute;
+    width: 657px;
+    height: 657px;
+    border: 6px solid rgba(250, 202, 202, 0.3);
+    border-radius: 50%;
+    transform: translate3d(-10rem, -6rem, 0);
+  }
+  .last .bg .bouble-one {
+    position: absolute;
+    transform: translate3d(28rem, -5rem, 0);
+  }
+  .last .bg .bouble-two {
+    position: absolute;
+    transform: translate3d(18rem, -3rem, 0);
+  }
+  .last .bg .bouble-three {
+    position: absolute;
+    right: 0;
+    transform: translate3d(0rem, 35rem, 0);
+  }
+  .last .wash {
+    margin-top: 2rem;
+    position: relative;
+    width: 80%;
+    text-align: center;
+  }
+  .last .wash h1 {
+    margin-left: 3rem;
+  }
+  .last .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(-1rem, -6rem, 0);
+  }
+  .last .second {
+    width: 85%;
+    margin-top: 2rem;
+  }
+  .last .second .tventy {
+    margin-top: 24rem;
+  }
+  .last .second .hundred {
+    padding-top: 3.5rem;
+  }
+  .last .second .nine {
+    padding-top: 2rem;
+  }
+  .last .second h1 {
+    color: #E4B3BA;
+  }
+  .last .second p {
+    color: #282828;
+  }
+  .last .second .partner {
+    position: absolute;
+    margin-top: 4.5rem;
+    transform: translate3d(0, 19.5rem, 0);
+  }
+  .last .second .link {
+    transform: translate3d(11rem, 0, 0);
+    margin-top: 5.2rem;
+  }
+  .last .second .link a {
+    color: #E4B3BA;
+  }
 }
 /* >=576 - Small .col-sm */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -1791,7 +2081,8 @@ section {
   .meditape,
   .rules,
   .sleep,
-  .machine {
+  .machine,
+  .last {
     min-height: auto;
   }
   .header {
@@ -2150,6 +2441,84 @@ section {
     padding-top: 2rem;
     color: #FFFFFF;
   }
+  .last {
+    padding-bottom: 6rem;
+  }
+  .last .logo {
+    display: none;
+    margin-left: 2rem;
+    padding-top: 2rem;
+  }
+  .last .page {
+    display: none;
+    margin-top: 7rem;
+  }
+  .last .bg .circle {
+    position: absolute;
+    width: 657px;
+    height: 657px;
+    border: 6px solid rgba(250, 202, 202, 0.3);
+    border-radius: 50%;
+    transform: translate3d(-10rem, -6rem, 0);
+  }
+  .last .bg .bouble-one {
+    position: absolute;
+    transform: translate3d(28rem, -5rem, 0);
+  }
+  .last .bg .bouble-two {
+    position: absolute;
+    transform: translate3d(18rem, -3rem, 0);
+  }
+  .last .bg .bouble-three {
+    position: absolute;
+    right: 0;
+    transform: translate3d(0rem, 35rem, 0);
+  }
+  .last .wash {
+    margin-top: 2rem;
+    position: relative;
+    width: 80%;
+    text-align: center;
+  }
+  .last .wash h1 {
+    margin-left: 3rem;
+  }
+  .last .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(-1rem, -6rem, 0);
+  }
+  .last .second {
+    width: 85%;
+    margin-top: 2rem;
+  }
+  .last .second .tventy {
+    margin-top: 24rem;
+  }
+  .last .second .hundred {
+    padding-top: 3.5rem;
+  }
+  .last .second .nine {
+    padding-top: 2rem;
+  }
+  .last .second h1 {
+    color: #E4B3BA;
+  }
+  .last .second p {
+    color: #282828;
+  }
+  .last .second .partner {
+    position: absolute;
+    margin-top: 4.5rem;
+    transform: translate3d(0, 19.5rem, 0);
+  }
+  .last .second .link {
+    transform: translate3d(20rem, 0, 0);
+    margin-top: 8.5rem;
+  }
+  .last .second .link a {
+    color: #E4B3BA;
+  }
 }
 /* >=768 - Medium .col-md  */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -2161,7 +2530,8 @@ section {
   .liste,
   .meditape,
   .rules,
-  .machine {
+  .machine,
+  .last {
     min-height: auto;
   }
   .header {
@@ -2495,6 +2865,86 @@ section {
   .machine .second p {
     color: #FFFFFF;
   }
+  .last {
+    padding-bottom: 6rem;
+  }
+  .last .logo {
+    margin-left: 2rem;
+    padding-top: 2rem;
+  }
+  .last .page {
+    margin-top: 7rem;
+  }
+  .last .bg .circle {
+    position: absolute;
+    width: 657px;
+    height: 657px;
+    border: 6px solid rgba(250, 202, 202, 0.3);
+    border-radius: 50%;
+    transform: translate3d(-10rem, -6rem, 0);
+  }
+  .last .bg .bouble-one {
+    position: absolute;
+    transform: translate3d(28rem, -5rem, 0);
+  }
+  .last .bg .bouble-two {
+    position: absolute;
+    transform: translate3d(18rem, -3rem, 0);
+  }
+  .last .bg .bouble-three {
+    position: absolute;
+    right: 0;
+    transform: translate3d(0rem, 35rem, 0);
+  }
+  .last .wash {
+    margin-top: 2rem;
+    position: relative;
+    width: 80%;
+    text-align: center;
+  }
+  .last .wash h1 {
+    margin-left: 3rem;
+  }
+  .last .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(-1rem, -6rem, 0);
+  }
+  .last .second {
+    width: 85%;
+    margin-top: 2rem;
+  }
+  .last .second .tventy {
+    margin-top: 7rem;
+  }
+  .last .second .hundred {
+    padding-top: 3.5rem;
+  }
+  .last .second .nine {
+    padding-top: 2rem;
+  }
+  .last .second h1 {
+    color: #E4B3BA;
+  }
+  .last .second p {
+    color: #282828;
+  }
+  .last .second .partner {
+    position: absolute;
+    margin-top: 4.5rem;
+    transform: translate3d(0, 19.5rem, 0);
+  }
+  .last .second .link {
+    transform: translate3d(20rem, 0, 0);
+    margin-top: 8.5rem;
+  }
+  .last .second .link a {
+    color: #E4B3BA;
+  }
+  .scene {
+    position: absolute;
+    margin-top: -12rem;
+  }
 }
 /* >=992 - Large .col-lg  */
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -2507,7 +2957,8 @@ section {
   .meditape,
   .rules,
   .sleep,
-  .machine {
+  .machine,
+  .last {
     min-height: auto;
   }
   .header {
@@ -2835,6 +3286,81 @@ section {
   }
   .machine .second p {
     color: #FFFFFF;
+  }
+  .last {
+    padding-bottom: 6rem;
+  }
+  .last .logo {
+    margin-left: 2rem;
+    padding-top: 2rem;
+  }
+  .last .page {
+    margin-top: 7rem;
+  }
+  .last .bg .circle {
+    position: absolute;
+    width: 657px;
+    height: 657px;
+    border: 6px solid rgba(250, 202, 202, 0.3);
+    border-radius: 50%;
+    transform: translate3d(-10rem, -6rem, 0);
+  }
+  .last .bg .bouble-one {
+    position: absolute;
+    transform: translate3d(20rem, -5rem, 0);
+  }
+  .last .bg .bouble-two {
+    position: absolute;
+    transform: translate3d(10rem, -3rem, 0);
+  }
+  .last .bg .bouble-three {
+    position: absolute;
+    right: 0;
+    transform: translate3d(0rem, 5rem, 0);
+  }
+  .last .wash {
+    margin-top: 2rem;
+    position: relative;
+    width: 80%;
+    text-align: center;
+  }
+  .last .wash h1 {
+    margin-left: 3rem;
+  }
+  .last .wash .washing {
+    position: absolute;
+    width: 150%;
+    left: 0;
+    transform: translate3d(0rem, -2rem, 0);
+  }
+  .last .second {
+    width: 85%;
+    margin-top: 2rem;
+  }
+  .last .second .hundred {
+    padding-top: 3.5rem;
+  }
+  .last .second .nine {
+    padding-top: 2rem;
+  }
+  .last .second h1 {
+    color: #E4B3BA;
+  }
+  .last .second p {
+    color: #282828;
+  }
+  .last .second .partner {
+    margin-top: 4.5rem;
+  }
+  .last .second .link {
+    margin-top: 8.5rem;
+  }
+  .last .second .link a {
+    color: #E4B3BA;
+  }
+  .scene {
+    position: absolute;
+    margin-top: -10rem;
   }
 }
 /* >= 1200 - Extra large .col-xl */
@@ -3262,7 +3788,8 @@ section {
   .meditape,
   .rules,
   .sleep,
-  .machine {
+  .machine,
+  .last {
     min-height: auto;
   }
   .header {
@@ -3659,7 +4186,8 @@ section {
   .meditape,
   .rules,
   .sleep,
-  .machine {
+  .machine,
+  .last {
     min-height: auto;
   }
   .header {
@@ -4045,6 +4573,71 @@ section {
     line-height: 25px;
     color: #FFFFFF;
   }
+  .last {
+    background-color: #F7F7F7;
+    position: relative;
+    padding-bottom: 10rem;
+  }
+  .last .bg .circle {
+    position: absolute;
+    width: 657px;
+    height: 657px;
+    border: 6px solid rgba(250, 202, 202, 0.3);
+    border-radius: 50%;
+    transform: translate3d(-10rem, -6rem, 0);
+  }
+  .last .bg .bouble-one {
+    position: absolute;
+    transform: translate3d(20rem, -5rem, 0);
+  }
+  .last .bg .bouble-two {
+    position: absolute;
+    transform: translate3d(10rem, -3rem, 0);
+  }
+  .last .bg .bouble-three {
+    position: absolute;
+    right: 0;
+    transform: translate3d(0rem, 5rem, 0);
+  }
+  .last .wash {
+    margin-top: 2rem;
+    position: relative;
+    width: 80%;
+    text-align: center;
+  }
+  .last .wash h1 {
+    margin-left: 3rem;
+  }
+  .last .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(-3rem, -5rem, 0);
+  }
+  .last .second {
+    width: 85%;
+    margin-top: 2rem;
+  }
+  .last .second .hundred {
+    padding-top: 3.5rem;
+  }
+  .last .second .nine {
+    padding-top: 3.5rem;
+  }
+  .last .second h1 {
+    color: #E4B3BA;
+  }
+  .last .second p {
+    color: #282828;
+  }
+  .last .second .partner {
+    margin-top: 6rem;
+  }
+  .last .second .link {
+    margin-top: 8.5rem;
+  }
+  .last .second .link a {
+    color: #E4B3BA;
+  }
 }
 @media (min-width: 1480px) and (max-width: 1535.98px) {
   section {
@@ -4056,7 +4649,8 @@ section {
   .meditape,
   .rules,
   .sleep,
-  .machine {
+  .machine,
+  .last {
     min-height: auto;
   }
   .header {
@@ -4407,6 +5001,71 @@ section {
     line-height: 25px;
     color: #FFFFFF;
   }
+  .last {
+    background-color: #F7F7F7;
+    position: relative;
+    padding-bottom: 10rem;
+  }
+  .last .bg .circle {
+    position: absolute;
+    width: 657px;
+    height: 657px;
+    border: 6px solid rgba(250, 202, 202, 0.3);
+    border-radius: 50%;
+    transform: translate3d(-10rem, -6rem, 0);
+  }
+  .last .bg .bouble-one {
+    position: absolute;
+    transform: translate3d(20rem, -5rem, 0);
+  }
+  .last .bg .bouble-two {
+    position: absolute;
+    transform: translate3d(10rem, -3rem, 0);
+  }
+  .last .bg .bouble-three {
+    position: absolute;
+    right: 0;
+    transform: translate3d(0rem, 5rem, 0);
+  }
+  .last .wash {
+    margin-top: 2rem;
+    position: relative;
+    width: 80%;
+    text-align: center;
+  }
+  .last .wash h1 {
+    margin-left: 3rem;
+  }
+  .last .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(-3rem, -5rem, 0);
+  }
+  .last .second {
+    width: 85%;
+    margin-top: 2rem;
+  }
+  .last .second .hundred {
+    padding-top: 3.5rem;
+  }
+  .last .second .nine {
+    padding-top: 3.5rem;
+  }
+  .last .second h1 {
+    color: #E4B3BA;
+  }
+  .last .second p {
+    color: #282828;
+  }
+  .last .second .partner {
+    margin-top: 6rem;
+  }
+  .last .second .link {
+    margin-top: 8.5rem;
+  }
+  .last .second .link a {
+    color: #E4B3BA;
+  }
 }
 @media (min-width: 1536px) and (max-width: 1599.98px) {
   section {
@@ -4418,7 +5077,8 @@ section {
   .meditape,
   .rules,
   .sleep,
-  .machine {
+  .machine,
+  .last {
     min-height: auto;
   }
   .header {
@@ -4769,6 +5429,71 @@ section {
     line-height: 25px;
     color: #FFFFFF;
   }
+  .last {
+    background-color: #F7F7F7;
+    position: relative;
+    padding-bottom: 10rem;
+  }
+  .last .bg .circle {
+    position: absolute;
+    width: 657px;
+    height: 657px;
+    border: 6px solid rgba(250, 202, 202, 0.3);
+    border-radius: 50%;
+    transform: translate3d(-10rem, -6rem, 0);
+  }
+  .last .bg .bouble-one {
+    position: absolute;
+    transform: translate3d(20rem, -5rem, 0);
+  }
+  .last .bg .bouble-two {
+    position: absolute;
+    transform: translate3d(10rem, -3rem, 0);
+  }
+  .last .bg .bouble-three {
+    position: absolute;
+    right: 0;
+    transform: translate3d(0rem, 5rem, 0);
+  }
+  .last .wash {
+    margin-top: 2rem;
+    position: relative;
+    width: 80%;
+    text-align: center;
+  }
+  .last .wash h1 {
+    margin-left: 3rem;
+  }
+  .last .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(-3rem, -5rem, 0);
+  }
+  .last .second {
+    width: 85%;
+    margin-top: 2rem;
+  }
+  .last .second .hundred {
+    padding-top: 3.5rem;
+  }
+  .last .second .nine {
+    padding-top: 3.5rem;
+  }
+  .last .second h1 {
+    color: #E4B3BA;
+  }
+  .last .second p {
+    color: #282828;
+  }
+  .last .second .partner {
+    margin-top: 6rem;
+  }
+  .last .second .link {
+    margin-top: 8.5rem;
+  }
+  .last .second .link a {
+    color: #E4B3BA;
+  }
 }
 @media (min-width: 1600px) and (max-width: 1679.98px) {
   section {
@@ -4780,7 +5505,8 @@ section {
   .meditape,
   .rules,
   .sleep,
-  .machine {
+  .machine,
+  .last {
     min-height: auto;
   }
   .header {
@@ -5134,6 +5860,71 @@ section {
     line-height: 25px;
     color: #FFFFFF;
   }
+  .last {
+    background-color: #F7F7F7;
+    position: relative;
+    padding-bottom: 10rem;
+  }
+  .last .bg .circle {
+    position: absolute;
+    width: 657px;
+    height: 657px;
+    border: 6px solid rgba(250, 202, 202, 0.3);
+    border-radius: 50%;
+    transform: translate3d(-10rem, -6rem, 0);
+  }
+  .last .bg .bouble-one {
+    position: absolute;
+    transform: translate3d(20rem, -5rem, 0);
+  }
+  .last .bg .bouble-two {
+    position: absolute;
+    transform: translate3d(10rem, -3rem, 0);
+  }
+  .last .bg .bouble-three {
+    position: absolute;
+    right: 0;
+    transform: translate3d(0rem, 5rem, 0);
+  }
+  .last .wash {
+    margin-top: 2rem;
+    position: relative;
+    width: 80%;
+    text-align: center;
+  }
+  .last .wash h1 {
+    margin-left: 3rem;
+  }
+  .last .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(-3rem, -5rem, 0);
+  }
+  .last .second {
+    width: 85%;
+    margin-top: 2rem;
+  }
+  .last .second .hundred {
+    padding-top: 3.5rem;
+  }
+  .last .second .nine {
+    padding-top: 3.5rem;
+  }
+  .last .second h1 {
+    color: #E4B3BA;
+  }
+  .last .second p {
+    color: #282828;
+  }
+  .last .second .partner {
+    margin-top: 6rem;
+  }
+  .last .second .link {
+    margin-top: 8.5rem;
+  }
+  .last .second .link a {
+    color: #E4B3BA;
+  }
 }
 @media (min-width: 1680px) and (max-width: 1919.98px) {
   section {
@@ -5145,7 +5936,8 @@ section {
   .meditape,
   .rules,
   .sleep,
-  .machine {
+  .machine,
+  .last {
     min-height: auto;
   }
   .header {
@@ -5500,6 +6292,71 @@ section {
     line-height: 25px;
     color: #FFFFFF;
   }
+  .last {
+    background-color: #F7F7F7;
+    position: relative;
+    padding-bottom: 10rem;
+  }
+  .last .bg .circle {
+    position: absolute;
+    width: 657px;
+    height: 657px;
+    border: 6px solid rgba(250, 202, 202, 0.3);
+    border-radius: 50%;
+    transform: translate3d(-10rem, -6rem, 0);
+  }
+  .last .bg .bouble-one {
+    position: absolute;
+    transform: translate3d(20rem, -5rem, 0);
+  }
+  .last .bg .bouble-two {
+    position: absolute;
+    transform: translate3d(10rem, -3rem, 0);
+  }
+  .last .bg .bouble-three {
+    position: absolute;
+    right: 0;
+    transform: translate3d(0rem, 5rem, 0);
+  }
+  .last .wash {
+    margin-top: 2rem;
+    position: relative;
+    width: 80%;
+    text-align: center;
+  }
+  .last .wash h1 {
+    margin-left: 3rem;
+  }
+  .last .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(-3rem, -5rem, 0);
+  }
+  .last .second {
+    width: 85%;
+    margin-top: 2rem;
+  }
+  .last .second .hundred {
+    padding-top: 3.5rem;
+  }
+  .last .second .nine {
+    padding-top: 3.5rem;
+  }
+  .last .second h1 {
+    color: #E4B3BA;
+  }
+  .last .second p {
+    color: #282828;
+  }
+  .last .second .partner {
+    margin-top: 6rem;
+  }
+  .last .second .link {
+    margin-top: 8.5rem;
+  }
+  .last .second .link a {
+    color: #E4B3BA;
+  }
 }
 @media (min-width: 1920px) and (max-width: 2047.98px) {
   section {
@@ -5511,7 +6368,8 @@ section {
   .meditape,
   .rules,
   .sleep,
-  .machine {
+  .machine,
+  .last {
     min-height: auto;
   }
   .header {
@@ -5868,6 +6726,78 @@ section {
     line-height: 25px;
     color: #FFFFFF;
   }
+  .last {
+    background-color: #F7F7F7;
+    position: relative;
+    padding-bottom: 10rem;
+  }
+  .last .logo {
+    margin-left: 2rem;
+    padding-top: 2rem;
+  }
+  .last .page {
+    margin-top: 7rem;
+  }
+  .last .bg .circle {
+    position: absolute;
+    width: 697px;
+    height: 697px;
+    border: 6px solid rgba(250, 202, 202, 0.3);
+    border-radius: 50%;
+    transform: translate3d(-3rem, -3rem, 0);
+  }
+  .last .bg .bouble-one {
+    position: absolute;
+    transform: translate3d(20rem, -5rem, 0);
+  }
+  .last .bg .bouble-two {
+    position: absolute;
+    transform: translate3d(10rem, -3rem, 0);
+  }
+  .last .bg .bouble-three {
+    position: absolute;
+    right: 0;
+    transform: translate3d(0rem, 5rem, 0);
+  }
+  .last .wash {
+    margin-top: 2rem;
+    position: relative;
+    width: 80%;
+    text-align: center;
+  }
+  .last .wash h1 {
+    margin-left: 3rem;
+  }
+  .last .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(-3rem, -5rem, 0);
+  }
+  .last .second {
+    width: 85%;
+    margin-top: 2rem;
+  }
+  .last .second .hundred {
+    padding-top: 3.5rem;
+  }
+  .last .second .nine {
+    padding-top: 2rem;
+  }
+  .last .second h1 {
+    color: #E4B3BA;
+  }
+  .last .second p {
+    color: #282828;
+  }
+  .last .second .partner {
+    margin-top: 6rem;
+  }
+  .last .second .link {
+    margin-top: 7rem;
+  }
+  .last .second .link a {
+    color: #E4B3BA;
+  }
 }
 @media (min-width: 2048px) and (max-width: 2199.98px) {
   section {
@@ -5879,7 +6809,8 @@ section {
   .meditape,
   .rules,
   .sleep,
-  .machine {
+  .machine,
+  .last {
     min-height: auto;
   }
   .header {
@@ -6245,6 +7176,78 @@ section {
     line-height: 25px;
     color: #FFFFFF;
   }
+  .last {
+    background-color: #F7F7F7;
+    position: relative;
+    padding-bottom: 10rem;
+  }
+  .last .logo {
+    margin-left: 2rem;
+    padding-top: 2rem;
+  }
+  .last .page {
+    margin-top: 7rem;
+  }
+  .last .bg .circle {
+    position: absolute;
+    width: 697px;
+    height: 697px;
+    border: 6px solid rgba(250, 202, 202, 0.3);
+    border-radius: 50%;
+    transform: translate3d(-3rem, -3rem, 0);
+  }
+  .last .bg .bouble-one {
+    position: absolute;
+    transform: translate3d(20rem, -5rem, 0);
+  }
+  .last .bg .bouble-two {
+    position: absolute;
+    transform: translate3d(10rem, -3rem, 0);
+  }
+  .last .bg .bouble-three {
+    position: absolute;
+    right: 0;
+    transform: translate3d(0rem, 5rem, 0);
+  }
+  .last .wash {
+    margin-top: 2rem;
+    position: relative;
+    width: 80%;
+    text-align: center;
+  }
+  .last .wash h1 {
+    margin-left: 3rem;
+  }
+  .last .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(-3rem, -5rem, 0);
+  }
+  .last .second {
+    width: 85%;
+    margin-top: 2rem;
+  }
+  .last .second .hundred {
+    padding-top: 3.5rem;
+  }
+  .last .second .nine {
+    padding-top: 3.5rem;
+  }
+  .last .second h1 {
+    color: #E4B3BA;
+  }
+  .last .second p {
+    color: #282828;
+  }
+  .last .second .partner {
+    margin-top: 6rem;
+  }
+  .last .second .link {
+    margin-top: 7rem;
+  }
+  .last .second .link a {
+    color: #E4B3BA;
+  }
 }
 @media (min-width: 2200px) and (max-width: 2499.98px) {
   section {
@@ -6256,7 +7259,8 @@ section {
   .meditape,
   .rules,
   .sleep,
-  .machine {
+  .machine,
+  .last {
     min-height: auto;
   }
   .header {
@@ -6626,6 +7630,78 @@ section {
     line-height: 25px;
     color: #FFFFFF;
   }
+  .last {
+    background-color: #F7F7F7;
+    position: relative;
+    padding-bottom: 10rem;
+  }
+  .last .logo {
+    margin-left: 2rem;
+    padding-top: 2rem;
+  }
+  .last .page {
+    margin-top: 7rem;
+  }
+  .last .bg .circle {
+    position: absolute;
+    width: 697px;
+    height: 697px;
+    border: 6px solid rgba(250, 202, 202, 0.3);
+    border-radius: 50%;
+    transform: translate3d(-3rem, -3rem, 0);
+  }
+  .last .bg .bouble-one {
+    position: absolute;
+    transform: translate3d(45rem, -7rem, 0);
+  }
+  .last .bg .bouble-two {
+    position: absolute;
+    transform: translate3d(30rem, -3rem, 0);
+  }
+  .last .bg .bouble-three {
+    position: absolute;
+    right: 0;
+    transform: translate3d(0rem, 5rem, 0);
+  }
+  .last .wash {
+    margin-top: 2rem;
+    position: relative;
+    width: 80%;
+    text-align: center;
+  }
+  .last .wash h1 {
+    margin-left: 3rem;
+  }
+  .last .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(3rem, -5rem, 0);
+  }
+  .last .second {
+    width: 85%;
+    margin-top: 2rem;
+  }
+  .last .second .hundred {
+    padding-top: 3.5rem;
+  }
+  .last .second .nine {
+    padding-top: 3.5rem;
+  }
+  .last .second h1 {
+    color: #E4B3BA;
+  }
+  .last .second p {
+    color: #282828;
+  }
+  .last .second .partner {
+    margin-top: 6rem;
+  }
+  .last .second .link {
+    margin-top: 7rem;
+  }
+  .last .second .link a {
+    color: #E4B3BA;
+  }
 }
 @media (min-width: 2500px) {
   section {
@@ -6637,7 +7713,8 @@ section {
   .meditape,
   .rules,
   .sleep,
-  .machine {
+  .machine,
+  .last {
     min-height: auto;
   }
   .header {
@@ -7006,5 +8083,77 @@ section {
     font-size: 16px;
     line-height: 25px;
     color: #FFFFFF;
+  }
+  .last {
+    background-color: #F7F7F7;
+    position: relative;
+    padding-bottom: 10rem;
+  }
+  .last .logo {
+    margin-left: 2rem;
+    padding-top: 2rem;
+  }
+  .last .page {
+    margin-top: 7rem;
+  }
+  .last .bg .circle {
+    position: absolute;
+    width: 697px;
+    height: 697px;
+    border: 6px solid rgba(250, 202, 202, 0.3);
+    border-radius: 50%;
+    transform: translate3d(-3rem, -3rem, 0);
+  }
+  .last .bg .bouble-one {
+    position: absolute;
+    transform: translate3d(45rem, -7rem, 0);
+  }
+  .last .bg .bouble-two {
+    position: absolute;
+    transform: translate3d(30rem, -3rem, 0);
+  }
+  .last .bg .bouble-three {
+    position: absolute;
+    right: 0;
+    transform: translate3d(0rem, 5rem, 0);
+  }
+  .last .wash {
+    margin-top: 2rem;
+    position: relative;
+    width: 60%;
+    text-align: center;
+  }
+  .last .wash h1 {
+    margin-left: 3rem;
+  }
+  .last .wash .washing {
+    position: absolute;
+    left: 0;
+    transform: translate3d(3rem, -5rem, 0);
+  }
+  .last .second {
+    width: 85%;
+    margin-top: 2rem;
+  }
+  .last .second .hundred {
+    padding-top: 3.5rem;
+  }
+  .last .second .nine {
+    padding-top: 4rem;
+  }
+  .last .second h1 {
+    color: #E4B3BA;
+  }
+  .last .second p {
+    color: #282828;
+  }
+  .last .second .partner {
+    margin-top: 6rem;
+  }
+  .last .second .link {
+    margin-top: 7rem;
+  }
+  .last .second .link a {
+    color: #E4B3BA;
   }
 }

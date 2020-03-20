@@ -64,6 +64,11 @@ section {
   transform: translate3d(0,1rem,0);
 }
 // =====================================
+.listen, .rules, .sleep, .imagine {
+  h1, h3 {
+    margin-top: 2rem;
+  }
+}
 .header {
   min-height: 100vh;
   background-color: #91A6E3;
@@ -635,12 +640,16 @@ section {
     }
     .bouble-one {
       position: absolute;
+      transform: translate3d(20rem,-5rem,0);
     }
     .bouble-two {
       position: absolute;
+      transform: translate3d(10rem,-3rem,0);
     }
     .bouble-three {
       position: absolute;
+      right: 0;
+      transform: translate3d(0rem,5rem,0);
     }
   }
   .wash {
@@ -709,6 +718,45 @@ section {
   }
 
 }
+
+.scene {
+  position: absolute;
+  margin-top: -8rem;
+  .bouble1{
+    transform: translate3d(10rem,0rem,0);
+  }
+  .bouble11{
+    transform: translate3d(15rem,0rem,0);
+  }
+  .bouble2{
+    transform: translate3d(17rem,-2rem,0);
+  }
+  .bouble21{
+    transform: translate3d(15rem,-4rem,0);
+  }
+  .bouble3{
+    transform: translate3d(8rem,0rem,0);
+  }
+  .bouble31{
+    transform: translate3d(12rem,-3rem,0);
+  }
+  .bouble4{
+    transform: translate3d(20rem,-5rem,0);
+  }
+  .bouble41{
+    transform: translate3d(7rem,0rem,0);
+  }
+  .bouble5{
+    transform: translate3d(10rem,0rem,0);
+  }
+  .bouble51{
+    transform: translate3d(15rem,0rem,0);
+  }
+  .bouble7{
+    transform: translate3d(0rem,2rem,0);
+  }
+ 
+}
 // адаптивность 
 
 /* <=576 - Extra Small .col- */
@@ -716,7 +764,7 @@ section {
   section {
     min-height: auto;
   }
-  .header, .advices, .liste, .meditape, .rules, .sleep, .machine {
+  .header, .advices, .liste, .meditape, .rules, .sleep, .machine, .last {
     min-height: auto;
   }
   .header {
@@ -1101,13 +1149,95 @@ section {
       }
     }
   }
+  .last {
+    padding-bottom: 5rem;
+    .logo {
+      display: none;
+      margin-left: 2rem;
+      padding-top: 2rem;
+    }
+    .page {
+      display: none;
+      margin-top: 7rem;
+    }
+    .bg {
+      
+      .circle {
+        position: absolute;
+        width: 657px;
+        height: 657px;
+        border: 6px solid rgba(250, 202, 202, 0.3);
+        border-radius: 50%;
+        transform: translate3d(-20rem,-6rem,0);
+      }
+      .bouble-one {
+        position: absolute;
+        transform: translate3d(22rem,-5rem,0);
+      }
+      .bouble-two {
+        position: absolute;
+        transform: translate3d(12rem,-3rem,0);
+      }
+      .bouble-three {
+        position: absolute;
+        right: 0;
+        transform: translate3d(3rem,35rem,0);
+      }
+    }
+    .wash {
+      margin-top:4rem;
+      position: relative;
+      width: 100%;
+      text-align: center;
+      h1 {
+        margin-left: 0rem;
+      }
+      .washing {
+        position: absolute;
+        width: 150%;
+        left: 0;
+        transform: translate3d(-1rem,-3rem,0);
+      }
+    }
+    .second {
+      width: 85%;
+      margin-top: 2rem;
+      .tventy {
+        margin-top: 20rem;
+      }
+      .hundred {
+        padding-top: 3.5rem;
+      }
+      .nine {
+        padding-top: 2rem;
+      }
+      h1 {
+        color: #E4B3BA;
+      }
+      p {
+        color: #282828;
+      }
+      .partner {
+        position: absolute;
+        margin-top: 4.5rem;
+        transform: translate3d(0,22.5rem,0);
+      }
+      .link {
+        transform: translate3d(0rem,0,0);
+        margin-top: 2.5rem;
+        a {
+          color: #E4B3BA;
+        }
+      }
+    }
+  }
 //==========================  
 }
 @media (min-width: 375px) and (max-width: 399.98px){
   section {
     min-height: auto;
   }
-  .header, .advices, .liste, .meditape, .rules, .sleep, .machine {
+  .header, .advices, .liste, .meditape, .rules, .sleep, .machine, .last {
     min-height: auto;
   }
   .header {
@@ -1492,13 +1622,95 @@ section {
       }
     }
   }
+  .last {
+    padding-bottom: 3rem;
+    .logo {
+      display: none;
+      margin-left: 2rem;
+      padding-top: 2rem;
+    }
+    .page {
+      display: none;
+      margin-top: 7rem;
+    }
+    .bg {
+      
+      .circle {
+        position: absolute;
+        width: 657px;
+        height: 657px;
+        border: 6px solid rgba(250, 202, 202, 0.3);
+        border-radius: 50%;
+        transform: translate3d(-20rem,-6rem,0);
+      }
+      .bouble-one {
+        position: absolute;
+        transform: translate3d(22rem,-5rem,0);
+      }
+      .bouble-two {
+        position: absolute;
+        transform: translate3d(12rem,-3rem,0);
+      }
+      .bouble-three {
+        position: absolute;
+        right: 0;
+        transform: translate3d(3rem,35rem,0);
+      }
+    }
+    .wash {
+      margin-top:4rem;
+      position: relative;
+      width: 80%;
+      text-align: center;
+      h1 {
+        margin-left: 3rem;
+      }
+      .washing {
+        position: absolute;
+        width: 150%;
+        left: 0;
+        transform: translate3d(-1rem,-3rem,0);
+      }
+    }
+    .second {
+      width: 85%;
+      margin-top: 2rem;
+      .tventy {
+        margin-top: 20rem;
+      }
+      .hundred {
+        padding-top: 3.5rem;
+      }
+      .nine {
+        padding-top: 2rem;
+      }
+      h1 {
+        color: #E4B3BA;
+      }
+      p {
+        color: #282828;
+      }
+      .partner {
+        position: absolute;
+        margin-top: 4.5rem;
+        transform: translate3d(0,19.5rem,0);
+      }
+      .link {
+        transform: translate3d(11rem,0,0);
+        margin-top: 5.2rem;
+        a {
+          color: #E4B3BA;
+        }
+      }
+    }
+  }
 //========================================  
 }
 @media (min-width: 400px) and (max-width: 575.98px){
   section {
     min-height: auto;
   }
-  .header, .advices, .liste, .meditape, .rules, .sleep, .machine {
+  .header, .advices, .liste, .meditape, .rules, .sleep, .machine, .last {
     min-height: auto;
   }
   .header {
@@ -1883,6 +2095,88 @@ section {
       }
     }
   }
+  .last {
+    padding-bottom: 3rem;
+    .logo {
+      display: none;
+      margin-left: 2rem;
+      padding-top: 2rem;
+    }
+    .page {
+      display: none;
+      margin-top: 7rem;
+    }
+    .bg {
+      
+      .circle {
+        position: absolute;
+        width: 657px;
+        height: 657px;
+        border: 6px solid rgba(250, 202, 202, 0.3);
+        border-radius: 50%;
+        transform: translate3d(-10rem,-6rem,0);
+      }
+      .bouble-one {
+        position: absolute;
+        transform: translate3d(28rem,-5rem,0);
+      }
+      .bouble-two {
+        position: absolute;
+        transform: translate3d(18rem,-3rem,0);
+      }
+      .bouble-three {
+        position: absolute;
+        right: 0;
+        transform: translate3d(0rem,35rem,0);
+      }
+    }
+    .wash {
+      margin-top:2rem;
+      position: relative;
+      width: 80%;
+      text-align: center;
+      h1 {
+        margin-left: 3rem;
+      }
+      .washing {
+        position: absolute;
+        // width: 150%;
+        left: 0;
+        transform: translate3d(-1rem,-6rem,0);
+      }
+    }
+    .second {
+      width: 85%;
+      margin-top: 2rem;
+      .tventy {
+        margin-top: 24rem;
+      }
+      .hundred {
+        padding-top: 3.5rem;
+      }
+      .nine {
+        padding-top: 2rem;
+      }
+      h1 {
+        color: #E4B3BA;
+      }
+      p {
+        color: #282828;
+      }
+      .partner {
+        position: absolute;
+        margin-top: 4.5rem;
+        transform: translate3d(0,19.5rem,0);
+      }
+      .link {
+        transform: translate3d(11rem,0,0);
+        margin-top: 5.2rem;
+        a {
+          color: #E4B3BA;
+        }
+      }
+    }
+  }
 //==================================  
 }
 /* >=576 - Small .col-sm */
@@ -1890,7 +2184,7 @@ section {
   section {
     min-height: auto;
   }
-  .header, .advices, .liste, .meditape, .rules, .sleep, .machine {
+  .header, .advices, .liste, .meditape, .rules, .sleep, .machine, .last {
     min-height: auto;
   }
   .header {
@@ -2269,13 +2563,95 @@ section {
       }
     }
   }
+  .last {
+    padding-bottom: 6rem;
+    .logo {
+      display: none;
+      margin-left: 2rem;
+      padding-top: 2rem;
+    }
+    .page {
+      display: none;
+      margin-top: 7rem;
+    }
+    .bg {
+      
+      .circle {
+        position: absolute;
+        width: 657px;
+        height: 657px;
+        border: 6px solid rgba(250, 202, 202, 0.3);
+        border-radius: 50%;
+        transform: translate3d(-10rem,-6rem,0);
+      }
+      .bouble-one {
+        position: absolute;
+        transform: translate3d(28rem,-5rem,0);
+      }
+      .bouble-two {
+        position: absolute;
+        transform: translate3d(18rem,-3rem,0);
+      }
+      .bouble-three {
+        position: absolute;
+        right: 0;
+        transform: translate3d(0rem,35rem,0);
+      }
+    }
+    .wash {
+      margin-top:2rem;
+      position: relative;
+      width: 80%;
+      text-align: center;
+      h1 {
+        margin-left: 3rem;
+      }
+      .washing {
+        position: absolute;
+        // width: 150%;
+        left: 0;
+        transform: translate3d(-1rem,-6rem,0);
+      }
+    }
+    .second {
+      width: 85%;
+      margin-top: 2rem;
+      .tventy {
+        margin-top: 24rem;
+      }
+      .hundred {
+        padding-top: 3.5rem;
+      }
+      .nine {
+        padding-top: 2rem;
+      }
+      h1 {
+        color: #E4B3BA;
+      }
+      p {
+        color: #282828;
+      }
+      .partner {
+        position: absolute;
+        margin-top: 4.5rem;
+        transform: translate3d(0,19.5rem,0);
+      }
+      .link {
+        transform: translate3d(20rem,0,0);
+        margin-top: 8.5rem;
+        a {
+          color: #E4B3BA;
+        }
+      }
+    }
+  }
 }
 /* >=768 - Medium .col-md  */
 @media (min-width: 768px) and (max-width: 991.98px){
   section {
     min-height: auto;
   }
-  .header, .advices, .liste, .meditape, .rules, .machine {
+  .header, .advices, .liste, .meditape, .rules, .machine, .last {
     min-height: auto;
   }
   .header {
@@ -2635,6 +3011,90 @@ section {
       }
     }
   }
+  .last {
+    padding-bottom: 6rem;
+    .logo {
+      margin-left: 2rem;
+      padding-top: 2rem;
+    }
+    .page {
+      margin-top: 7rem;
+    }
+    .bg {
+      
+      .circle {
+        position: absolute;
+        width: 657px;
+        height: 657px;
+        border: 6px solid rgba(250, 202, 202, 0.3);
+        border-radius: 50%;
+        transform: translate3d(-10rem,-6rem,0);
+      }
+      .bouble-one {
+        position: absolute;
+        transform: translate3d(28rem,-5rem,0);
+      }
+      .bouble-two {
+        position: absolute;
+        transform: translate3d(18rem,-3rem,0);
+      }
+      .bouble-three {
+        position: absolute;
+        right: 0;
+        transform: translate3d(0rem,35rem,0);
+      }
+    }
+    .wash {
+      margin-top:2rem;
+      position: relative;
+      width: 80%;
+      text-align: center;
+      h1 {
+        margin-left: 3rem;
+      }
+      .washing {
+        position: absolute;
+        // width: 150%;
+        left: 0;
+        transform: translate3d(-1rem,-6rem,0);
+      }
+    }
+    .second {
+      width: 85%;
+      margin-top: 2rem;
+      .tventy {
+        margin-top: 7rem;
+      }
+      .hundred {
+        padding-top: 3.5rem;
+      }
+      .nine {
+        padding-top: 2rem;
+      }
+      h1 {
+        color: #E4B3BA;
+      }
+      p {
+        color: #282828;
+      }
+      .partner {
+        position: absolute;
+        margin-top: 4.5rem;
+        transform: translate3d(0,19.5rem,0);
+      }
+      .link {
+        transform: translate3d(20rem,0,0);
+        margin-top: 8.5rem;
+        a {
+          color: #E4B3BA;
+        }
+      }
+    }
+  }
+  .scene {
+    position: absolute;
+    margin-top: -12rem;
+  }
   
 //========================================= 
 }
@@ -2643,7 +3103,7 @@ section {
   section {
     min-height: auto;
   }
-  .header, .advices, .liste, .meditape, .rules, .sleep, .machine {
+  .header, .advices, .liste, .meditape, .rules, .sleep, .machine, .last {
     min-height: auto;
   }
   .header {
@@ -2997,6 +3457,84 @@ section {
         color: #FFFFFF;
       }
     }
+  }
+  .last {
+    padding-bottom: 6rem;
+    .logo {
+      margin-left: 2rem;
+      padding-top: 2rem;
+    }
+    .page {
+      margin-top: 7rem;
+    }
+    .bg {
+      
+      .circle {
+        position: absolute;
+        width: 657px;
+        height: 657px;
+        border: 6px solid rgba(250, 202, 202, 0.3);
+        border-radius: 50%;
+        transform: translate3d(-10rem,-6rem,0);
+      }
+      .bouble-one {
+        position: absolute;
+        transform: translate3d(20rem,-5rem,0);
+      }
+      .bouble-two {
+        position: absolute;
+        transform: translate3d(10rem,-3rem,0);
+      }
+      .bouble-three {
+        position: absolute;
+        right: 0;
+        transform: translate3d(0rem,5rem,0);
+      }
+    }
+    .wash {
+      margin-top:2rem;
+      position: relative;
+      width: 80%;
+      text-align: center;
+      h1 {
+        margin-left: 3rem;
+      }
+      .washing {
+        position: absolute;
+        width: 150%;
+        left: 0;
+        transform: translate3d(0rem,-2rem,0);
+      }
+    }
+    .second {
+      width: 85%;
+      margin-top: 2rem;
+      .hundred {
+        padding-top: 3.5rem;
+      }
+      .nine {
+        padding-top: 2rem;
+      }
+      h1 {
+        color: #E4B3BA;
+      }
+      p {
+        color: #282828;
+      }
+      .partner {
+        margin-top: 4.5rem;
+      }
+      .link {
+        margin-top: 8.5rem;
+        a {
+          color: #E4B3BA;
+        }
+      }
+    }
+  }
+  .scene {
+    position: absolute;
+    margin-top: -10rem;
   }
 //========================================= 
 } 
@@ -3453,7 +3991,7 @@ section {
   section {
     min-height: auto;
   }
-  .header, .advices, .listen, .meditape, .rules, .sleep, .machine {
+  .header, .advices, .listen, .meditape, .rules, .sleep, .machine, .last {
     min-height: auto;
   }
   .header {
@@ -3871,7 +4409,7 @@ section {
   section {
     min-height: auto;
   }
-  .header, .advices, .listen, .meditape, .rules, .sleep, .machine {
+  .header, .advices, .listen, .meditape, .rules, .sleep, .machine, .last {
     min-height: auto;
   }
   .header {
@@ -4282,13 +4820,82 @@ section {
       }
     }
   }
+  .last {
+    background-color: #F7F7F7;
+    position: relative;
+    padding-bottom: 10rem;
+
+    .bg {
+      
+      .circle {
+        position: absolute;
+        width: 657px;
+        height: 657px;
+        border: 6px solid rgba(250, 202, 202, 0.3);
+        border-radius: 50%;
+        transform: translate3d(-10rem,-6rem,0);
+      }
+      .bouble-one {
+        position: absolute;
+        transform: translate3d(20rem,-5rem,0);
+      }
+      .bouble-two {
+        position: absolute;
+        transform: translate3d(10rem,-3rem,0);
+      }
+      .bouble-three {
+        position: absolute;
+        right: 0;
+        transform: translate3d(0rem,5rem,0);
+      }
+    }
+    .wash {
+      margin-top:2rem;
+      position: relative;
+      width: 80%;
+      text-align: center;
+      h1 {
+        margin-left: 3rem;
+      }
+      .washing {
+        position: absolute;
+        left: 0;
+        transform: translate3d(-3rem,-5rem,0);
+      }
+    }
+    .second {
+      width: 85%;
+      margin-top: 2rem;
+      .hundred {
+        padding-top: 3.5rem;
+      }
+      .nine {
+        padding-top: 3.5rem;
+      }
+      h1 {
+        color: #E4B3BA;
+      }
+      p {
+        color: #282828;
+      }
+      .partner {
+        margin-top: 6rem;
+      }
+      .link {
+        margin-top: 8.5rem;
+        a {
+          color: #E4B3BA;
+        }
+      }
+    }
+  }
 //========================  
 }
 @media (min-width: 1480px) and (max-width: 1535.98px){
   section {
     min-height: auto;
   }
-  .header, .advices, .listen, .meditape, .rules, .sleep, .machine {
+  .header, .advices, .listen, .meditape, .rules, .sleep, .machine, .last {
     min-height: auto;
   }
   .header {
@@ -4666,12 +5273,81 @@ section {
       }
     }
   }
+  .last {
+    background-color: #F7F7F7;
+    position: relative;
+    padding-bottom: 10rem;
+
+    .bg {
+      
+      .circle {
+        position: absolute;
+        width: 657px;
+        height: 657px;
+        border: 6px solid rgba(250, 202, 202, 0.3);
+        border-radius: 50%;
+        transform: translate3d(-10rem,-6rem,0);
+      }
+      .bouble-one {
+        position: absolute;
+        transform: translate3d(20rem,-5rem,0);
+      }
+      .bouble-two {
+        position: absolute;
+        transform: translate3d(10rem,-3rem,0);
+      }
+      .bouble-three {
+        position: absolute;
+        right: 0;
+        transform: translate3d(0rem,5rem,0);
+      }
+    }
+    .wash {
+      margin-top:2rem;
+      position: relative;
+      width: 80%;
+      text-align: center;
+      h1 {
+        margin-left: 3rem;
+      }
+      .washing {
+        position: absolute;
+        left: 0;
+        transform: translate3d(-3rem,-5rem,0);
+      }
+    }
+    .second {
+      width: 85%;
+      margin-top: 2rem;
+      .hundred {
+        padding-top: 3.5rem;
+      }
+      .nine {
+        padding-top: 3.5rem;
+      }
+      h1 {
+        color: #E4B3BA;
+      }
+      p {
+        color: #282828;
+      }
+      .partner {
+        margin-top: 6rem;
+      }
+      .link {
+        margin-top: 8.5rem;
+        a {
+          color: #E4B3BA;
+        }
+      }
+    }
+  }
 }
 @media (min-width: 1536px) and (max-width: 1599.98px){
   section {
     min-height: auto;
   }
-  .header, .advices, .listen, .meditape, .rules, .sleep, .machine {
+  .header, .advices, .listen, .meditape, .rules, .sleep, .machine, .last {
     min-height: auto;
   }
   .header {
@@ -5049,13 +5725,82 @@ section {
       }
     }
   }
+  .last {
+    background-color: #F7F7F7;
+    position: relative;
+    padding-bottom: 10rem;
+
+    .bg {
+      
+      .circle {
+        position: absolute;
+        width: 657px;
+        height: 657px;
+        border: 6px solid rgba(250, 202, 202, 0.3);
+        border-radius: 50%;
+        transform: translate3d(-10rem,-6rem,0);
+      }
+      .bouble-one {
+        position: absolute;
+        transform: translate3d(20rem,-5rem,0);
+      }
+      .bouble-two {
+        position: absolute;
+        transform: translate3d(10rem,-3rem,0);
+      }
+      .bouble-three {
+        position: absolute;
+        right: 0;
+        transform: translate3d(0rem,5rem,0);
+      }
+    }
+    .wash {
+      margin-top:2rem;
+      position: relative;
+      width: 80%;
+      text-align: center;
+      h1 {
+        margin-left: 3rem;
+      }
+      .washing {
+        position: absolute;
+        left: 0;
+        transform: translate3d(-3rem,-5rem,0);
+      }
+    }
+    .second {
+      width: 85%;
+      margin-top: 2rem;
+      .hundred {
+        padding-top: 3.5rem;
+      }
+      .nine {
+        padding-top: 3.5rem;
+      }
+      h1 {
+        color: #E4B3BA;
+      }
+      p {
+        color: #282828;
+      }
+      .partner {
+        margin-top: 6rem;
+      }
+      .link {
+        margin-top: 8.5rem;
+        a {
+          color: #E4B3BA;
+        }
+      }
+    }
+  }
 //=======================  
 }
 @media (min-width: 1600px) and (max-width: 1679.98px){
   section {
     min-height: auto;
   }
-  .header, .advices, .listen, .meditape, .rules, .sleep, .machine {
+  .header, .advices, .listen, .meditape, .rules, .sleep, .machine, .last {
     min-height: auto;
   }
   .header {
@@ -5436,13 +6181,82 @@ section {
       }
     }
   }
+  .last {
+    background-color: #F7F7F7;
+    position: relative;
+    padding-bottom: 10rem;
+
+    .bg {
+      
+      .circle {
+        position: absolute;
+        width: 657px;
+        height: 657px;
+        border: 6px solid rgba(250, 202, 202, 0.3);
+        border-radius: 50%;
+        transform: translate3d(-10rem,-6rem,0);
+      }
+      .bouble-one {
+        position: absolute;
+        transform: translate3d(20rem,-5rem,0);
+      }
+      .bouble-two {
+        position: absolute;
+        transform: translate3d(10rem,-3rem,0);
+      }
+      .bouble-three {
+        position: absolute;
+        right: 0;
+        transform: translate3d(0rem,5rem,0);
+      }
+    }
+    .wash {
+      margin-top:2rem;
+      position: relative;
+      width: 80%;
+      text-align: center;
+      h1 {
+        margin-left: 3rem;
+      }
+      .washing {
+        position: absolute;
+        left: 0;
+        transform: translate3d(-3rem,-5rem,0);
+      }
+    }
+    .second {
+      width: 85%;
+      margin-top: 2rem;
+      .hundred {
+        padding-top: 3.5rem;
+      }
+      .nine {
+        padding-top: 3.5rem;
+      }
+      h1 {
+        color: #E4B3BA;
+      }
+      p {
+        color: #282828;
+      }
+      .partner {
+        margin-top: 6rem;
+      }
+      .link {
+        margin-top: 8.5rem;
+        a {
+          color: #E4B3BA;
+        }
+      }
+    }
+  }
 //======================  
 }
 @media (min-width: 1680px) and (max-width: 1919.98px){
   section {
     min-height: auto;
   }
-  .header, .advices, .listen, .meditape, .rules, .sleep, .machine {
+  .header, .advices, .listen, .meditape, .rules, .sleep, .machine, .last {
     min-height: auto;
   }
   .header {
@@ -5824,13 +6638,82 @@ section {
       }
     }
   }
+  .last {
+    background-color: #F7F7F7;
+    position: relative;
+    padding-bottom: 10rem;
+
+    .bg {
+      
+      .circle {
+        position: absolute;
+        width: 657px;
+        height: 657px;
+        border: 6px solid rgba(250, 202, 202, 0.3);
+        border-radius: 50%;
+        transform: translate3d(-10rem,-6rem,0);
+      }
+      .bouble-one {
+        position: absolute;
+        transform: translate3d(20rem,-5rem,0);
+      }
+      .bouble-two {
+        position: absolute;
+        transform: translate3d(10rem,-3rem,0);
+      }
+      .bouble-three {
+        position: absolute;
+        right: 0;
+        transform: translate3d(0rem,5rem,0);
+      }
+    }
+    .wash {
+      margin-top:2rem;
+      position: relative;
+      width: 80%;
+      text-align: center;
+      h1 {
+        margin-left: 3rem;
+      }
+      .washing {
+        position: absolute;
+        left: 0;
+        transform: translate3d(-3rem,-5rem,0);
+      }
+    }
+    .second {
+      width: 85%;
+      margin-top: 2rem;
+      .hundred {
+        padding-top: 3.5rem;
+      }
+      .nine {
+        padding-top: 3.5rem;
+      }
+      h1 {
+        color: #E4B3BA;
+      }
+      p {
+        color: #282828;
+      }
+      .partner {
+        margin-top: 6rem;
+      }
+      .link {
+        margin-top: 8.5rem;
+        a {
+          color: #E4B3BA;
+        }
+      }
+    }
+  }
 //==================================  
 }
 @media (min-width: 1920px) and (max-width: 2047.98px){
   section {
     min-height: auto;
   }
-  .header, .advices, .listen, .meditape, .rules, .sleep, .machine {
+  .header, .advices, .listen, .meditape, .rules, .sleep, .machine, .last {
     min-height: auto;
   }
   .header {
@@ -6213,12 +7096,87 @@ section {
       }
     }
   }
+  .last {
+    background-color: #F7F7F7;
+    position: relative;
+    padding-bottom: 10rem;
+    .logo {
+      margin-left: 2rem;
+      padding-top: 2rem;
+    }
+    .page {
+      margin-top: 7rem;
+    }
+    .bg {
+      
+      .circle {
+        position: absolute;
+        width: 697px;
+        height: 697px;
+        border: 6px solid rgba(250, 202, 202, 0.3);
+        border-radius: 50%;
+        transform: translate3d(-3rem,-3rem,0);
+      }
+      .bouble-one {
+        position: absolute;
+        transform: translate3d(20rem,-5rem,0);
+      }
+      .bouble-two {
+        position: absolute;
+        transform: translate3d(10rem,-3rem,0);
+      }
+      .bouble-three {
+        position: absolute;
+        right: 0;
+        transform: translate3d(0rem,5rem,0);
+      }
+    }
+    .wash {
+      margin-top:2rem;
+      position: relative;
+      width: 80%;
+      text-align: center;
+      h1 {
+        margin-left: 3rem;
+      }
+      .washing {
+        position: absolute;
+        left: 0;
+        transform: translate3d(-3rem,-5rem,0);
+      }
+    }
+    .second {
+      width: 85%;
+      margin-top: 2rem;
+      .hundred {
+        padding-top: 3.5rem;
+      }
+      .nine {
+        padding-top: 2rem;
+      }
+      h1 {
+        color: #E4B3BA;
+      }
+      p {
+        color: #282828;
+      }
+      .partner {
+        margin-top: 6rem;
+      }
+      .link {
+        margin-top: 7rem;
+        a {
+          color: #E4B3BA;
+        }
+      }
+    }
+  }
 }
 @media (min-width: 2048px) and (max-width: 2199.98px){
   section {
     min-height: auto;
   }
-  .header, .advices, .listen, .meditape, .rules, .sleep, .machine {
+  .header, .advices, .listen, .meditape, .rules, .sleep, .machine, .last {
     min-height: auto;
   }
   .header {
@@ -6610,13 +7568,88 @@ section {
       }
     }
   }
+  .last {
+    background-color: #F7F7F7;
+    position: relative;
+    padding-bottom: 10rem;
+    .logo {
+      margin-left: 2rem;
+      padding-top: 2rem;
+    }
+    .page {
+      margin-top: 7rem;
+    }
+    .bg {
+      
+      .circle {
+        position: absolute;
+        width: 697px;
+        height: 697px;
+        border: 6px solid rgba(250, 202, 202, 0.3);
+        border-radius: 50%;
+        transform: translate3d(-3rem,-3rem,0);
+      }
+      .bouble-one {
+        position: absolute;
+        transform: translate3d(20rem,-5rem,0);
+      }
+      .bouble-two {
+        position: absolute;
+        transform: translate3d(10rem,-3rem,0);
+      }
+      .bouble-three {
+        position: absolute;
+        right: 0;
+        transform: translate3d(0rem,5rem,0);
+      }
+    }
+    .wash {
+      margin-top:2rem;
+      position: relative;
+      width: 80%;
+      text-align: center;
+      h1 {
+        margin-left: 3rem;
+      }
+      .washing {
+        position: absolute;
+        left: 0;
+        transform: translate3d(-3rem,-5rem,0);
+      }
+    }
+    .second {
+      width: 85%;
+      margin-top: 2rem;
+      .hundred {
+        padding-top: 3.5rem;
+      }
+      .nine {
+        padding-top: 3.5rem;
+      }
+      h1 {
+        color: #E4B3BA;
+      }
+      p {
+        color: #282828;
+      }
+      .partner {
+        margin-top: 6rem;
+      }
+      .link {
+        margin-top: 7rem;
+        a {
+          color: #E4B3BA;
+        }
+      }
+    }
+  }
 //=================================  
 }
 @media (min-width: 2200px) and (max-width: 2499.98px){
   section {
     min-height: auto;
   }
-  .header, .advices, .listen, .meditape, .rules, .sleep, .machine {
+  .header, .advices, .listen, .meditape, .rules, .sleep, .machine, .last {
     min-height: auto;
   }
   .header {
@@ -7010,13 +8043,89 @@ section {
       }
     }
   }
+  .last {
+    background-color: #F7F7F7;
+    position: relative;
+    padding-bottom: 10rem;
+    .logo {
+      margin-left: 2rem;
+      padding-top: 2rem;
+    }
+    .page {
+      margin-top: 7rem;
+    }
+    .bg {
+      
+      .circle {
+        position: absolute;
+        width: 697px;
+        height: 697px;
+        border: 6px solid rgba(250, 202, 202, 0.3);
+        border-radius: 50%;
+        transform: translate3d(-3rem,-3rem,0);
+      }
+      .bouble-one {
+        position: absolute;
+        transform: translate3d(45rem,-7rem,0);
+      }
+      .bouble-two {
+        position: absolute;
+        transform: translate3d(30rem,-3rem,0);
+      }
+      .bouble-three {
+        position: absolute;
+        right: 0;
+        transform: translate3d(0rem,5rem,0);
+      }
+    }
+    .wash {
+      margin-top:2rem;
+      position: relative;
+      width: 80%;
+      text-align: center;
+      h1 {
+        margin-left: 3rem;
+      }
+      .washing {
+        position: absolute;
+        left: 0;
+        transform: translate3d(3rem,-5rem,0);
+      }
+    }
+    .second {
+      width: 85%;
+      margin-top: 2rem;
+      .hundred {
+        padding-top: 3.5rem;
+      }
+      .nine {
+        padding-top: 3.5rem;
+      }
+      h1 {
+        color: #E4B3BA;
+      }
+      p {
+        color: #282828;
+      }
+      .partner {
+        margin-top: 6rem;
+      }
+      .link {
+        margin-top: 7rem;
+        a {
+          color: #E4B3BA;
+        }
+      }
+    }
+  }
+  
 //=================================  
 }
 @media (min-width: 2500px){
   section {
     min-height: auto;
   }
-  .header, .advices, .listen, .meditape, .rules, .sleep, .machine {
+  .header, .advices, .listen, .meditape, .rules, .sleep, .machine, .last {
     min-height: auto;
   }
   .header {
@@ -7407,6 +8516,81 @@ section {
         font-size: 16px;
         line-height: 25px;
         color: #FFFFFF;
+      }
+    }
+  }
+  .last {
+    background-color: #F7F7F7;
+    position: relative;
+    padding-bottom: 10rem;
+    .logo {
+      margin-left: 2rem;
+      padding-top: 2rem;
+    }
+    .page {
+      margin-top: 7rem;
+    }
+    .bg {
+      
+      .circle {
+        position: absolute;
+        width: 697px;
+        height: 697px;
+        border: 6px solid rgba(250, 202, 202, 0.3);
+        border-radius: 50%;
+        transform: translate3d(-3rem,-3rem,0);
+      }
+      .bouble-one {
+        position: absolute;
+        transform: translate3d(45rem,-7rem,0);
+      }
+      .bouble-two {
+        position: absolute;
+        transform: translate3d(30rem,-3rem,0);
+      }
+      .bouble-three {
+        position: absolute;
+        right: 0;
+        transform: translate3d(0rem,5rem,0);
+      }
+    }
+    .wash {
+      margin-top:2rem;
+      position: relative;
+      width: 60%;
+      text-align: center;
+      h1 {
+        margin-left: 3rem;
+      }
+      .washing {
+        position: absolute;
+        left: 0;
+        transform: translate3d(3rem,-5rem,0);
+      }
+    }
+    .second {
+      width: 85%;
+      margin-top: 2rem;
+      .hundred {
+        padding-top: 3.5rem;
+      }
+      .nine {
+        padding-top: 4rem;
+      }
+      h1 {
+        color: #E4B3BA;
+      }
+      p {
+        color: #282828;
+      }
+      .partner {
+        margin-top: 6rem;
+      }
+      .link {
+        margin-top: 7rem;
+        a {
+          color: #E4B3BA;
+        }
       }
     }
   }
