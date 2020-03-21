@@ -1449,8 +1449,8 @@ section {
     width: 100%;
     max-width: 100%;
     overflow-x: hidden !important;
-    -webkit-transform: translate3d(0rem, 51rem, 0);
-            transform: translate3d(0rem, 51rem, 0);
+    -webkit-transform: translate3d(0rem, 52rem, 0);
+            transform: translate3d(0rem, 52rem, 0);
   }
   .listen .bg img {
     width: 160%;
