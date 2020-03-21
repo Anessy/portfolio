@@ -9,8 +9,6 @@ body {
   max-width: 100%;
   overflow-x: hidden !important;
   min-height: 100vh;
-  background: url(../img/bouble.jpg);
-  background-size: 80%;
 }
 section {
   min-height: 100vh;
@@ -61,6 +59,24 @@ section {
 .sleep h3,
 .imagine h3 {
   margin-top: 2rem;
+}
+.machine .second .one {
+  margin-top: 0rem;
+}
+.machine .second .two {
+  margin-top: 2rem;
+}
+.machine .second .three {
+  margin-top: 2rem;
+}
+.machine .second .four {
+  margin-top: 0rem;
+}
+.machine .second .five {
+  margin-top: 3.5rem;
+}
+.machine .second .six {
+  margin-top: 3.5rem;
 }
 .header {
   min-height: 100vh;
@@ -255,7 +271,7 @@ section {
           transform: translate3d(-2rem, -8rem, 0);
 }
 .listen .block .name .H {
-  margin-top: 0.5rem;
+  margin-top: 2rem;
 }
 .listen .block .name h1 {
   font-family: 'Lato', sans-serif;
@@ -765,6 +781,14 @@ section {
   .last {
     min-height: auto;
   }
+  .machine .second .one,
+  .machine .second .two,
+  .machine .second .three,
+  .machine .second .four,
+  .machine .second .five,
+  .machine .second .six {
+    margin-top: 0rem;
+  }
   .header {
     padding-top: 4rem;
     padding-bottom: 12rem;
@@ -836,7 +860,7 @@ section {
     color: #282828;
   }
   .advices .block .clock {
-    width: 100%;
+    width: 200%;
     margin-top: -3rem;
     margin-left: -1rem;
   }
@@ -866,8 +890,8 @@ section {
   .advices .bg {
     position: absolute;
     width: 89%;
-    -webkit-transform: translate3d(2rem, 29rem, 0);
-            transform: translate3d(2rem, 29rem, 0);
+    -webkit-transform: translate3d(0rem, 38rem, 0);
+            transform: translate3d(0rem, 38rem, 0);
   }
   .advices .bg img {
     width: 100%;
@@ -884,7 +908,7 @@ section {
   }
   .listen .text {
     text-align: center;
-    width: 70%;
+    width: 80%;
     margin-left: 2rem;
     margin-bottom: 4rem;
   }
@@ -902,7 +926,7 @@ section {
             transform: translate3d(3rem, 0rem, 0);
   }
   .listen .block .name .H {
-    margin-top: 0.5rem;
+    margin-top: 2rem;
   }
   .listen .block .name h1 {
     color: #282828;
@@ -914,8 +938,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    -webkit-transform: translate3d(0rem, 84rem, 0);
-            transform: translate3d(0rem, 84rem, 0);
+    -webkit-transform: translate3d(0rem, 81rem, 0);
+            transform: translate3d(0rem, 81rem, 0);
   }
   .listen .bg img {
     width: 100%;
@@ -1155,7 +1179,7 @@ section {
     color: #FFFFFF;
   }
   .last {
-    padding-bottom: 5rem;
+    padding-bottom: 7rem;
   }
   .last .logo {
     display: none;
@@ -1228,7 +1252,7 @@ section {
   }
   .last .second .partner {
     position: absolute;
-    margin-top: 4.5rem;
+    margin-top: 6.5rem;
     -webkit-transform: translate3d(0, 22.5rem, 0);
             transform: translate3d(0, 22.5rem, 0);
   }
@@ -1254,6 +1278,14 @@ section {
   .machine,
   .last {
     min-height: auto;
+  }
+  .machine .second .one,
+  .machine .second .two,
+  .machine .second .three,
+  .machine .second .four,
+  .machine .second .five,
+  .machine .second .six {
+    margin-top: 0rem;
   }
   .header {
     padding-top: 4rem;
@@ -1745,6 +1777,14 @@ section {
   .last {
     min-height: auto;
   }
+  .machine .second .one,
+  .machine .second .two,
+  .machine .second .three,
+  .machine .second .four,
+  .machine .second .five,
+  .machine .second .six {
+    margin-top: 0rem;
+  }
   .header {
     padding-top: 4rem;
     padding-bottom: 12rem;
@@ -2235,6 +2275,14 @@ section {
   .last {
     min-height: auto;
   }
+  .machine .second .one,
+  .machine .second .two,
+  .machine .second .three,
+  .machine .second .four,
+  .machine .second .five,
+  .machine .second .six {
+    margin-top: 0rem;
+  }
   .header {
     padding-top: 4rem;
     padding-bottom: 12rem;
@@ -2718,6 +2766,14 @@ section {
   .last {
     min-height: auto;
   }
+  .machine .second .one,
+  .machine .second .two,
+  .machine .second .three,
+  .machine .second .four,
+  .machine .second .five,
+  .machine .second .six {
+    margin-top: 2rem;
+  }
   .header {
     padding-top: 4rem;
     padding-bottom: 12rem;
@@ -3177,6 +3233,24 @@ section {
   .last {
     min-height: auto;
   }
+  .machine .second .one {
+    margin-top: 0rem;
+  }
+  .machine .second .two {
+    margin-top: 2rem;
+  }
+  .machine .second .three {
+    margin-top: 2rem;
+  }
+  .machine .second .four {
+    margin-top: 0rem;
+  }
+  .machine .second .five {
+    margin-top: 3.5rem;
+  }
+  .machine .second .six {
+    margin-top: 2.5rem;
+  }
   .header {
     padding-top: 4rem;
     padding-bottom: 12rem;
@@ -3585,7 +3659,7 @@ section {
     padding-top: 3.5rem;
   }
   .last .second .nine {
-    padding-top: 2rem;
+    padding-top: 3.5rem;
   }
   .last .second h1 {
     color: #E4B3BA;
@@ -3597,7 +3671,7 @@ section {
     margin-top: 4.5rem;
   }
   .last .second .link {
-    margin-top: 8.5rem;
+    margin-top: 7rem;
   }
   .last .second .link a {
     color: #E4B3BA;
@@ -3785,7 +3859,7 @@ section {
             transform: translate3d(-2rem, -8rem, 0);
   }
   .listen .block .name .H {
-    margin-top: 0.5rem;
+    margin-top: 2rem;
   }
   .listen .block .name h1 {
     font-family: 'Lato', sans-serif;
@@ -3800,8 +3874,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    -webkit-transform: translate3d(41rem, 3.5rem, 0);
-            transform: translate3d(41rem, 3.5rem, 0);
+    -webkit-transform: translate3d(41rem, 5rem, 0);
+            transform: translate3d(41rem, 5rem, 0);
   }
   .listen .bg img {
     width: 87%;
@@ -4057,6 +4131,24 @@ section {
   .last {
     min-height: auto;
   }
+  .machine .second .one {
+    margin-top: 0rem;
+  }
+  .machine .second .two {
+    margin-top: 3rem;
+  }
+  .machine .second .three {
+    margin-top: 4rem;
+  }
+  .machine .second .four {
+    margin-top: 0rem;
+  }
+  .machine .second .five {
+    margin-top: 3.5rem;
+  }
+  .machine .second .six {
+    margin-top: 3.5rem;
+  }
   .header {
     padding-bottom: 12rem;
   }
@@ -4194,7 +4286,7 @@ section {
             transform: translate3d(-2rem, -8rem, 0);
   }
   .listen .block .name .H {
-    margin-top: 0.5rem;
+    margin-top: 2rem;
   }
   .listen .block .name h1 {
     color: #282828;
@@ -4204,8 +4296,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    -webkit-transform: translate3d(44rem, 4.5rem, 0);
-            transform: translate3d(44rem, 4.5rem, 0);
+    -webkit-transform: translate3d(45rem, 5.5rem, 0);
+            transform: translate3d(45rem, 5.5rem, 0);
   }
   .listen .bg img {
     width: 87%;
@@ -4480,6 +4572,24 @@ section {
   .last {
     min-height: auto;
   }
+  .machine .second .one {
+    margin-top: 0rem;
+  }
+  .machine .second .two {
+    margin-top: 3rem;
+  }
+  .machine .second .three {
+    margin-top: 4rem;
+  }
+  .machine .second .four {
+    margin-top: 0rem;
+  }
+  .machine .second .five {
+    margin-top: 3.5rem;
+  }
+  .machine .second .six {
+    margin-top: 3.5rem;
+  }
   .header {
     padding-bottom: 12rem;
   }
@@ -4617,7 +4727,7 @@ section {
             transform: translate3d(-2rem, -8rem, 0);
   }
   .listen .block .name .H {
-    margin-top: 0.5rem;
+    margin-top: 2rem;
   }
   .listen .block .name h1 {
     color: #282828;
@@ -4627,8 +4737,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    -webkit-transform: translate3d(45rem, 4.5rem, 0);
-            transform: translate3d(45rem, 4.5rem, 0);
+    -webkit-transform: translate3d(46rem, 5.5rem, 0);
+            transform: translate3d(46rem, 5.5rem, 0);
   }
   .listen .bg img {
     width: 87%;
@@ -4973,6 +5083,24 @@ section {
   .last {
     min-height: auto;
   }
+  .machine .second .one {
+    margin-top: 0rem;
+  }
+  .machine .second .two {
+    margin-top: 3rem;
+  }
+  .machine .second .three {
+    margin-top: 4rem;
+  }
+  .machine .second .four {
+    margin-top: 0rem;
+  }
+  .machine .second .five {
+    margin-top: 3.5rem;
+  }
+  .machine .second .six {
+    margin-top: 3.5rem;
+  }
   .header {
     padding-bottom: 12rem;
   }
@@ -5093,7 +5221,7 @@ section {
             transform: translate3d(-2rem, -8rem, 0);
   }
   .listen .block .name .H {
-    margin-top: 0.5rem;
+    margin-top: 2rem;
   }
   .listen .block .name h1 {
     color: #282828;
@@ -5103,8 +5231,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    -webkit-transform: translate3d(47rem, 4.5rem, 0);
-            transform: translate3d(47rem, 4.5rem, 0);
+    -webkit-transform: translate3d(48rem, 5.5rem, 0);
+            transform: translate3d(48rem, 5.5rem, 0);
   }
   .listen .bg img {
     width: 87%;
@@ -5430,6 +5558,24 @@ section {
   .last {
     min-height: auto;
   }
+  .machine .second .one {
+    margin-top: 0rem;
+  }
+  .machine .second .two {
+    margin-top: 3rem;
+  }
+  .machine .second .three {
+    margin-top: 3rem;
+  }
+  .machine .second .four {
+    margin-top: 0rem;
+  }
+  .machine .second .five {
+    margin-top: 3.5rem;
+  }
+  .machine .second .six {
+    margin-top: 3.5rem;
+  }
   .header {
     padding-bottom: 12rem;
   }
@@ -5550,7 +5696,7 @@ section {
             transform: translate3d(-2rem, -8rem, 0);
   }
   .listen .block .name .H {
-    margin-top: 0.5rem;
+    margin-top: 2rem;
   }
   .listen .block .name h1 {
     color: #282828;
@@ -5560,8 +5706,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    -webkit-transform: translate3d(49rem, 3.5rem, 0);
-            transform: translate3d(49rem, 3.5rem, 0);
+    -webkit-transform: translate3d(50rem, 4rem, 0);
+            transform: translate3d(50rem, 4rem, 0);
   }
   .listen .bg img {
     width: 87%;
@@ -5887,6 +6033,24 @@ section {
   .last {
     min-height: auto;
   }
+  .machine .second .one {
+    margin-top: 0rem;
+  }
+  .machine .second .two {
+    margin-top: 3rem;
+  }
+  .machine .second .three {
+    margin-top: 3rem;
+  }
+  .machine .second .four {
+    margin-top: 0rem;
+  }
+  .machine .second .five {
+    margin-top: 3.5rem;
+  }
+  .machine .second .six {
+    margin-top: 5rem;
+  }
   .header {
     padding-bottom: 12rem;
   }
@@ -6010,7 +6174,7 @@ section {
             transform: translate3d(-2rem, -8rem, 0);
   }
   .listen .block .name .H {
-    margin-top: 0.5rem;
+    margin-top: 2rem;
   }
   .listen .block .name h1 {
     color: #282828;
@@ -6020,8 +6184,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    -webkit-transform: translate3d(51rem, 3.5rem, 0);
-            transform: translate3d(51rem, 3.5rem, 0);
+    -webkit-transform: translate3d(52rem, 4rem, 0);
+            transform: translate3d(52rem, 4rem, 0);
   }
   .listen .bg img {
     width: 87%;
@@ -6347,6 +6511,24 @@ section {
   .last {
     min-height: auto;
   }
+  .machine .second .one {
+    margin-top: 0rem;
+  }
+  .machine .second .two {
+    margin-top: 3rem;
+  }
+  .machine .second .three {
+    margin-top: 3rem;
+  }
+  .machine .second .four {
+    margin-top: 0rem;
+  }
+  .machine .second .five {
+    margin-top: 3.5rem;
+  }
+  .machine .second .six {
+    margin-top: 5rem;
+  }
   .header {
     padding-bottom: 12rem;
   }
@@ -6471,7 +6653,7 @@ section {
             transform: translate3d(-2rem, -8rem, 0);
   }
   .listen .block .name .H {
-    margin-top: 0.5rem;
+    margin-top: 2rem;
   }
   .listen .block .name h1 {
     color: #282828;
@@ -6481,8 +6663,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    -webkit-transform: translate3d(53rem, 3.5rem, 0);
-            transform: translate3d(53rem, 3.5rem, 0);
+    -webkit-transform: translate3d(55rem, 4.5rem, 0);
+            transform: translate3d(55rem, 4.5rem, 0);
   }
   .listen .bg img {
     width: 87%;
@@ -6808,6 +6990,24 @@ section {
   .last {
     min-height: auto;
   }
+  .machine .second .one {
+    margin-top: 0rem;
+  }
+  .machine .second .two {
+    margin-top: 3rem;
+  }
+  .machine .second .three {
+    margin-top: 3rem;
+  }
+  .machine .second .four {
+    margin-top: 0rem;
+  }
+  .machine .second .five {
+    margin-top: 3.5rem;
+  }
+  .machine .second .six {
+    margin-top: 4rem;
+  }
   .header {
     padding-bottom: 21rem;
   }
@@ -6937,7 +7137,7 @@ section {
             transform: translate3d(-5rem, -8rem, 0);
   }
   .listen .block .name .H {
-    margin-top: 0.5rem;
+    margin-top: 2rem;
   }
   .listen .block .name h1 {
     color: #282828;
@@ -6947,8 +7147,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    -webkit-transform: translate3d(59rem, 3.5rem, 0);
-            transform: translate3d(59rem, 3.5rem, 0);
+    -webkit-transform: translate3d(60.5rem, 5rem, 0);
+            transform: translate3d(60.5rem, 5rem, 0);
   }
   .listen .bg img {
     width: 87%;
@@ -7279,6 +7479,24 @@ section {
   .last {
     min-height: auto;
   }
+  .machine .second .one {
+    margin-top: 0rem;
+  }
+  .machine .second .two {
+    margin-top: 3rem;
+  }
+  .machine .second .three {
+    margin-top: 3rem;
+  }
+  .machine .second .four {
+    margin-top: 0rem;
+  }
+  .machine .second .five {
+    margin-top: 4rem;
+  }
+  .machine .second .six {
+    margin-top: 3.5rem;
+  }
   .header {
     padding-top: 4rem;
     padding-bottom: 21rem;
@@ -7412,7 +7630,7 @@ section {
             transform: translate3d(-10rem, -8rem, 0);
   }
   .listen .block .name .H {
-    margin-top: 0.5rem;
+    margin-top: 2rem;
   }
   .listen .block .name h1 {
     color: #282828;
@@ -7422,8 +7640,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    -webkit-transform: translate3d(59rem, 2rem, 0);
-            transform: translate3d(59rem, 2rem, 0);
+    -webkit-transform: translate3d(60rem, 2.5rem, 0);
+            transform: translate3d(60rem, 2.5rem, 0);
   }
   .listen .bg img {
     width: 87%;
@@ -7759,6 +7977,24 @@ section {
   .last {
     min-height: auto;
   }
+  .machine .second .one {
+    margin-top: 0rem;
+  }
+  .machine .second .two {
+    margin-top: 3rem;
+  }
+  .machine .second .three {
+    margin-top: 3rem;
+  }
+  .machine .second .four {
+    margin-top: 0rem;
+  }
+  .machine .second .five {
+    margin-top: 4rem;
+  }
+  .machine .second .six {
+    margin-top: 3.5rem;
+  }
   .header {
     padding-bottom: 21rem;
   }
@@ -7891,7 +8127,7 @@ section {
             transform: translate3d(-12rem, -8rem, 0);
   }
   .listen .block .name .H {
-    margin-top: 0.5rem;
+    margin-top: 2rem;
   }
   .listen .block .name h1 {
     color: #282828;
@@ -7903,8 +8139,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    -webkit-transform: translate3d(63.5rem, 1rem, 0);
-            transform: translate3d(63.5rem, 1rem, 0);
+    -webkit-transform: translate3d(63.5rem, 2.5rem, 0);
+            transform: translate3d(63.5rem, 2.5rem, 0);
   }
   .listen .bg img {
     width: 87%;
@@ -8243,6 +8479,24 @@ section {
   .last {
     min-height: auto;
   }
+  .machine .second .one {
+    margin-top: 0rem;
+  }
+  .machine .second .two {
+    margin-top: 3rem;
+  }
+  .machine .second .three {
+    margin-top: 3rem;
+  }
+  .machine .second .four {
+    margin-top: 0rem;
+  }
+  .machine .second .five {
+    margin-top: 3rem;
+  }
+  .machine .second .six {
+    margin-top: 3rem;
+  }
   .header {
     padding-bottom: 21rem;
   }
@@ -8375,7 +8629,7 @@ section {
             transform: translate3d(-20rem, -8rem, 0);
   }
   .listen .block .name .H {
-    margin-top: 0.5rem;
+    margin-top: 2rem;
   }
   .listen .block .name h1 {
     color: #282828;
@@ -8387,8 +8641,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    -webkit-transform: translate3d(66.5rem, 4rem, 0);
-            transform: translate3d(66.5rem, 4rem, 0);
+    -webkit-transform: translate3d(66.5rem, 6rem, 0);
+            transform: translate3d(66.5rem, 6rem, 0);
   }
   .listen .bg img {
     width: 77%;
