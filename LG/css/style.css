@@ -897,7 +897,7 @@ section {
     width: 100%;
   }
   .listen {
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
     padding-top: 4rem;
   }
   .listen .logo {
@@ -922,8 +922,9 @@ section {
     background-color: white;
     margin-left: -1rem;
     padding: 3rem 2rem 3rem 4rem;
-    -webkit-transform: translate3d(3rem, 0rem, 0);
-            transform: translate3d(3rem, 0rem, 0);
+    width: 100%;
+    -webkit-transform: translate3d(1rem, 0rem, 0);
+            transform: translate3d(1rem, 0rem, 0);
   }
   .listen .block .name .H {
     margin-top: 2rem;
@@ -938,11 +939,14 @@ section {
   }
   .listen .bg {
     position: absolute;
-    -webkit-transform: translate3d(0rem, 81rem, 0);
-            transform: translate3d(0rem, 81rem, 0);
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden !important;
+    -webkit-transform: translate3d(0rem, 58rem, 0);
+            transform: translate3d(0rem, 58rem, 0);
   }
   .listen .bg img {
-    width: 100%;
+    width: 200%;
   }
   .meditape {
     background-color: #91A6E3;
@@ -1294,6 +1298,11 @@ section {
   .header .logo {
     margin-left: 0rem;
     text-align: center;
+    -webkit-transform: translate3d(0, -2rem, 0);
+            transform: translate3d(0, -2rem, 0);
+  }
+  .header .logo img {
+    width: 35%;
   }
   .header .page {
     display: none;
@@ -1418,13 +1427,14 @@ section {
   }
   .listen .block {
     background-color: white;
+    width: 100%;
     margin-left: -1rem;
     padding: 3rem 2rem 3rem 4rem;
-    -webkit-transform: translate3d(3.2rem, 0rem, 0);
-            transform: translate3d(3.2rem, 0rem, 0);
+    -webkit-transform: translate3d(2.2rem, 0rem, 0);
+            transform: translate3d(2.2rem, 0rem, 0);
   }
   .listen .block .name .H {
-    margin-top: 0.5rem;
+    margin-top: 2rem;
   }
   .listen .block .name h1 {
     color: #282828;
@@ -1436,11 +1446,14 @@ section {
   }
   .listen .bg {
     position: absolute;
-    -webkit-transform: translate3d(0rem, 63rem, 0);
-            transform: translate3d(0rem, 63rem, 0);
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden !important;
+    -webkit-transform: translate3d(0rem, 51rem, 0);
+            transform: translate3d(0rem, 51rem, 0);
   }
   .listen .bg img {
-    width: 100%;
+    width: 160%;
   }
   .meditape {
     background-color: #91A6E3;
@@ -1566,11 +1579,14 @@ section {
     z-index: 1;
   }
   .sleep .bg {
-    -webkit-transform: translate3d(0rem, 59rem, 0);
-            transform: translate3d(0rem, 59rem, 0);
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden !important;
+    -webkit-transform: translate3d(0rem, 47.5rem, 0);
+            transform: translate3d(0rem, 47.5rem, 0);
   }
   .sleep .bg img {
-    width: 100%;
+    width: 170%;
   }
   .sleep .logo {
     display: none;
