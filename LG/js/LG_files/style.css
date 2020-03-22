@@ -43,10 +43,12 @@ section {
   margin-top: 2rem;
 }
 .page .page-1:hover {
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
 }
 .logo {
-  transform: translate3d(0, 1rem, 0);
+  -webkit-transform: translate3d(0, 1rem, 0);
+          transform: translate3d(0, 1rem, 0);
 }
 .listen h1,
 .rules h1,
@@ -97,7 +99,8 @@ section {
   margin-left: 3.4rem;
 }
 .header .page .page-1:hover {
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
 }
 .header .bird {
   margin-top: 4rem;
@@ -118,7 +121,8 @@ section {
   font-size: 50px;
   line-height: 66px;
   text-transform: uppercase;
-  font-feature-settings: 'cpsp' on;
+  -webkit-font-feature-settings: 'cpsp' on;
+          font-feature-settings: 'cpsp' on;
   color: #FFFFFF;
   margin-bottom: 2rem;
 }
@@ -135,18 +139,21 @@ section {
   position: absolute;
 }
 .header .bg .circle {
-  transform: translate3d(-5rem, -6rem, 0);
+  -webkit-transform: translate3d(-5rem, -6rem, 0);
+          transform: translate3d(-5rem, -6rem, 0);
 }
 .header .bg .circle img {
   width: 110%;
 }
 .header .bg .line {
   position: absolute;
-  transform: translate3d(15rem, 16rem, 0);
+  -webkit-transform: translate3d(15rem, 16rem, 0);
+          transform: translate3d(15rem, 16rem, 0);
 }
 .header .bg .ellipse {
   position: absolute;
-  transform: translate3d(19rem, 5rem, 0);
+  -webkit-transform: translate3d(19rem, 5rem, 0);
+          transform: translate3d(19rem, 5rem, 0);
 }
 .advices {
   min-height: 100vh;
@@ -160,7 +167,8 @@ section {
   background-color: white;
   padding: 8rem 3rem 3rem 4rem;
   margin-left: 2rem;
-  transform: translate3d(0, -8rem, 0);
+  -webkit-transform: translate3d(0, -8rem, 0);
+          transform: translate3d(0, -8rem, 0);
 }
 .advices .block h1 {
   font-family: 'Roboto', sans-serif;
@@ -184,7 +192,8 @@ section {
   margin-left: -1rem;
 }
 .advices .line {
-  transform: translate3d(2.5rem, 2rem, 0);
+  -webkit-transform: translate3d(2.5rem, 2rem, 0);
+          transform: translate3d(2.5rem, 2rem, 0);
 }
 .advices .line img {
   width: 70%;
@@ -208,7 +217,8 @@ section {
   margin-bottom: 3rem;
 }
 .advices .imagine .kg {
-  transform: translate3d(-1rem, 0, 0);
+  -webkit-transform: translate3d(-1rem, 0, 0);
+          transform: translate3d(-1rem, 0, 0);
   font-family: 'LatoBold', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -218,7 +228,8 @@ section {
 }
 .advices .bg {
   position: absolute;
-  transform: translate3d(12rem, 1rem, 0);
+  -webkit-transform: translate3d(12rem, 1rem, 0);
+          transform: translate3d(12rem, 1rem, 0);
 }
 .listen {
   min-height: 100vh;
@@ -256,7 +267,8 @@ section {
   width: 90%;
   margin-left: -2rem;
   padding: 8rem 2rem 3rem 4rem;
-  transform: translate3d(-2rem, -8rem, 0);
+  -webkit-transform: translate3d(-2rem, -8rem, 0);
+          transform: translate3d(-2rem, -8rem, 0);
 }
 .listen .block .name .H {
   margin-top: 2rem;
@@ -274,7 +286,8 @@ section {
 }
 .listen .bg {
   position: absolute;
-  transform: translate3d(38rem, 4.5rem, 0);
+  -webkit-transform: translate3d(38rem, 4.5rem, 0);
+          transform: translate3d(38rem, 4.5rem, 0);
 }
 .listen .bg img {
   width: 87%;
@@ -300,7 +313,8 @@ section {
   height: 747px;
   border: 6px solid #F1E9E0;
   border-radius: 50%;
-  transform: translate3d(-14rem, -7rem, 0);
+  -webkit-transform: translate3d(-14rem, -7rem, 0);
+          transform: translate3d(-14rem, -7rem, 0);
 }
 .meditape .text {
   width: 90%;
@@ -325,13 +339,16 @@ section {
   margin-bottom: 3rem;
 }
 .meditape .text .vector {
-  transform: translate3d(0rem, 0, 0);
+  -webkit-transform: translate3d(0rem, 0, 0);
+          transform: translate3d(0rem, 0, 0);
 }
 .meditape .text .ellipse {
-  transform: translate3d(5rem, 2rem, 0);
+  -webkit-transform: translate3d(5rem, 2rem, 0);
+          transform: translate3d(5rem, 2rem, 0);
 }
 .meditape .text .flower {
-  transform: translate3d(1rem, -15rem, 0);
+  -webkit-transform: translate3d(1rem, -15rem, 0);
+          transform: translate3d(1rem, -15rem, 0);
 }
 .meditape .about p {
   font-family: 'Lato', sans-serif;
@@ -345,7 +362,8 @@ section {
 }
 .meditape .girl {
   position: absolute;
-  transform: translate3d(-2rem, -15rem, 0);
+  -webkit-transform: translate3d(-2rem, -15rem, 0);
+          transform: translate3d(-2rem, -15rem, 0);
 }
 .rules {
   min-height: 100vh;
@@ -364,7 +382,8 @@ section {
 .rules .bg .square {
   position: absolute;
   right: 0;
-  transform: translate3d(-9rem, 2rem, 0);
+  -webkit-transform: translate3d(-9rem, 2rem, 0);
+          transform: translate3d(-9rem, 2rem, 0);
 }
 .rules .bg .square img {
   width: 90%;
@@ -414,11 +433,13 @@ section {
   background-color: white;
   padding: 8rem 4rem 3rem 5rem;
   position: relative;
-  transform: translate3d(2rem, -8rem, 0);
+  -webkit-transform: translate3d(2rem, -8rem, 0);
+          transform: translate3d(2rem, -8rem, 0);
 }
 .rules .letter img {
   position: absolute;
-  transform: translate3d(-2rem, 0rem, 0);
+  -webkit-transform: translate3d(-2rem, 0rem, 0);
+          transform: translate3d(-2rem, 0rem, 0);
 }
 .rules .letter p {
   font-family: 'Lato', sans-serif;
@@ -431,7 +452,8 @@ section {
 .rules .secondBG {
   position: absolute;
   right: 0;
-  transform: translate3d(13rem, -26rem, 0);
+  -webkit-transform: translate3d(13rem, -26rem, 0);
+          transform: translate3d(13rem, -26rem, 0);
 }
 .sleep {
   min-height: 100vh;
@@ -439,7 +461,8 @@ section {
 }
 .sleep .bg {
   position: absolute;
-  transform: translate3d(33rem, 0.5rem, 0);
+  -webkit-transform: translate3d(33rem, 0.5rem, 0);
+          transform: translate3d(33rem, 0.5rem, 0);
 }
 .sleep .bg img {
   width: 90%;
@@ -472,7 +495,8 @@ section {
 .sleep .letter {
   padding: 8rem 4rem 3rem 5rem;
   position: relative;
-  transform: translate3d(-4rem, -8rem, 0);
+  -webkit-transform: translate3d(-4rem, -8rem, 0);
+          transform: translate3d(-4rem, -8rem, 0);
   background-color: white;
 }
 .sleep .letter img {
@@ -514,7 +538,8 @@ section {
   height: 657px;
   border: 6px solid #ffe8cf;
   border-radius: 50%;
-  transform: translate3d(-10rem, -4rem, 0);
+  -webkit-transform: translate3d(-10rem, -4rem, 0);
+          transform: translate3d(-10rem, -4rem, 0);
 }
 .machine .wash {
   margin-left: 3rem;
@@ -542,7 +567,8 @@ section {
   font-weight: bold;
   font-size: 12px;
   line-height: 25px;
-  text-decoration-line: underline;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
   text-transform: uppercase;
   color: #F5D7AC;
 }
@@ -554,11 +580,13 @@ section {
 .machine .wash .washing {
   position: absolute;
   left: 0;
-  transform: translate3d(-6rem, -10rem, 0);
+  -webkit-transform: translate3d(-6rem, -10rem, 0);
+          transform: translate3d(-6rem, -10rem, 0);
 }
 .machine .second {
   width: 80%;
-  transform: translate3d(3rem, 2rem, 0);
+  -webkit-transform: translate3d(3rem, 2rem, 0);
+          transform: translate3d(3rem, 2rem, 0);
 }
 .machine .second img {
   position: absolute;
@@ -598,7 +626,8 @@ section {
   margin-top: 2rem;
 }
 .last .page .page-1:hover {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
 }
 .last .bg .circle {
   position: absolute;
@@ -606,20 +635,24 @@ section {
   height: 657px;
   border: 6px solid rgba(250, 202, 202, 0.3);
   border-radius: 50%;
-  transform: translate3d(-10rem, -6rem, 0);
+  -webkit-transform: translate3d(-10rem, -6rem, 0);
+          transform: translate3d(-10rem, -6rem, 0);
 }
 .last .bg .bouble-one {
   position: absolute;
-  transform: translate3d(20rem, -5rem, 0);
+  -webkit-transform: translate3d(20rem, -5rem, 0);
+          transform: translate3d(20rem, -5rem, 0);
 }
 .last .bg .bouble-two {
   position: absolute;
-  transform: translate3d(10rem, -3rem, 0);
+  -webkit-transform: translate3d(10rem, -3rem, 0);
+          transform: translate3d(10rem, -3rem, 0);
 }
 .last .bg .bouble-three {
   position: absolute;
   right: 0;
-  transform: translate3d(0rem, 5rem, 0);
+  -webkit-transform: translate3d(0rem, 5rem, 0);
+          transform: translate3d(0rem, 5rem, 0);
 }
 .last .wash {
   margin-top: 2rem;
@@ -639,7 +672,8 @@ section {
 .last .wash .washing {
   position: absolute;
   left: 0;
-  transform: translate3d(-3rem, -5rem, 0);
+  -webkit-transform: translate3d(-3rem, -5rem, 0);
+          transform: translate3d(-3rem, -5rem, 0);
 }
 .last .second {
   width: 85%;
@@ -677,7 +711,8 @@ section {
   font-weight: bold;
   font-size: 12px;
   line-height: 25px;
-  text-decoration-line: underline;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
   text-transform: uppercase;
 }
 .last .second .link a {
@@ -688,37 +723,48 @@ section {
   margin-top: -8rem;
 }
 .scene .bouble1 {
-  transform: translate3d(10rem, 0rem, 0);
+  -webkit-transform: translate3d(10rem, 0rem, 0);
+          transform: translate3d(10rem, 0rem, 0);
 }
 .scene .bouble11 {
-  transform: translate3d(15rem, 0rem, 0);
+  -webkit-transform: translate3d(15rem, 0rem, 0);
+          transform: translate3d(15rem, 0rem, 0);
 }
 .scene .bouble2 {
-  transform: translate3d(17rem, -2rem, 0);
+  -webkit-transform: translate3d(17rem, -2rem, 0);
+          transform: translate3d(17rem, -2rem, 0);
 }
 .scene .bouble21 {
-  transform: translate3d(15rem, -4rem, 0);
+  -webkit-transform: translate3d(15rem, -4rem, 0);
+          transform: translate3d(15rem, -4rem, 0);
 }
 .scene .bouble3 {
-  transform: translate3d(8rem, 0rem, 0);
+  -webkit-transform: translate3d(8rem, 0rem, 0);
+          transform: translate3d(8rem, 0rem, 0);
 }
 .scene .bouble31 {
-  transform: translate3d(12rem, -3rem, 0);
+  -webkit-transform: translate3d(12rem, -3rem, 0);
+          transform: translate3d(12rem, -3rem, 0);
 }
 .scene .bouble4 {
-  transform: translate3d(20rem, -5rem, 0);
+  -webkit-transform: translate3d(20rem, -5rem, 0);
+          transform: translate3d(20rem, -5rem, 0);
 }
 .scene .bouble41 {
-  transform: translate3d(7rem, 0rem, 0);
+  -webkit-transform: translate3d(7rem, 0rem, 0);
+          transform: translate3d(7rem, 0rem, 0);
 }
 .scene .bouble5 {
-  transform: translate3d(10rem, 0rem, 0);
+  -webkit-transform: translate3d(10rem, 0rem, 0);
+          transform: translate3d(10rem, 0rem, 0);
 }
 .scene .bouble51 {
-  transform: translate3d(15rem, 0rem, 0);
+  -webkit-transform: translate3d(15rem, 0rem, 0);
+          transform: translate3d(15rem, 0rem, 0);
 }
 .scene .bouble7 {
-  transform: translate3d(0rem, 2rem, 0);
+  -webkit-transform: translate3d(0rem, 2rem, 0);
+          transform: translate3d(0rem, 2rem, 0);
 }
 /* <=576 - Extra Small .col- */
 @media (min-width: 320px) and (max-width: 359.98px) {
@@ -750,7 +796,8 @@ section {
   .header .logo {
     margin-left: 0rem;
     text-align: center;
-    transform: translate3d(0, -2rem, 0);
+    -webkit-transform: translate3d(0, -2rem, 0);
+            transform: translate3d(0, -2rem, 0);
   }
   .header .logo img {
     width: 35%;
@@ -764,7 +811,8 @@ section {
   }
   .header .bird img {
     width: 100%;
-    transform: translate3d(6rem, 0, 0);
+    -webkit-transform: translate3d(6rem, 0, 0);
+            transform: translate3d(6rem, 0, 0);
   }
   .header .text {
     margin-top: 4rem;
@@ -780,16 +828,19 @@ section {
     position: absolute;
   }
   .header .bg .circle {
-    transform: translate3d(-3rem, -10rem, 0);
+    -webkit-transform: translate3d(-3rem, -10rem, 0);
+            transform: translate3d(-3rem, -10rem, 0);
   }
   .header .bg .circle img {
     width: 120%;
   }
   .header .bg .line {
-    transform: translate3d(3rem, 8rem, 0);
+    -webkit-transform: translate3d(3rem, 8rem, 0);
+            transform: translate3d(3rem, 8rem, 0);
   }
   .header .bg .ellipse {
-    transform: translate3d(12rem, 0rem, 0);
+    -webkit-transform: translate3d(12rem, 0rem, 0);
+            transform: translate3d(12rem, 0rem, 0);
   }
   .advices {
     padding-bottom: 1.5rem;
@@ -804,7 +855,8 @@ section {
     background-color: white;
     padding: 8rem 3rem 3rem 4rem;
     margin-left: 1.2rem;
-    transform: translate3d(0, -4rem, 0);
+    -webkit-transform: translate3d(0, -4rem, 0);
+            transform: translate3d(0, -4rem, 0);
   }
   .advices .block h1 {
     margin-bottom: 2rem;
@@ -818,14 +870,16 @@ section {
     margin-left: -1rem;
   }
   .advices .line {
-    transform: translate3d(0rem, 0rem, 0);
+    -webkit-transform: translate3d(0rem, 0rem, 0);
+            transform: translate3d(0rem, 0rem, 0);
     text-align: center;
   }
   .advices .line img {
     width: 50%;
   }
   .advices .imagine {
-    transform: translate3d(0, -2rem, 0);
+    -webkit-transform: translate3d(0, -2rem, 0);
+            transform: translate3d(0, -2rem, 0);
     margin-left: 2rem;
   }
   .advices .imagine h3 {
@@ -835,12 +889,14 @@ section {
     margin-bottom: 3rem;
   }
   .advices .imagine .kg {
-    transform: translate3d(-1rem, 0, 0);
+    -webkit-transform: translate3d(-1rem, 0, 0);
+            transform: translate3d(-1rem, 0, 0);
   }
   .advices .bg {
     position: absolute;
     width: 89%;
-    transform: translate3d(0rem, 38rem, 0);
+    -webkit-transform: translate3d(0rem, 38rem, 0);
+            transform: translate3d(0rem, 38rem, 0);
   }
   .advices .bg img {
     width: 100%;
@@ -872,7 +928,8 @@ section {
     margin-left: -1rem;
     padding: 3rem 2rem 3rem 4rem;
     width: 100%;
-    transform: translate3d(1rem, 0rem, 0);
+    -webkit-transform: translate3d(1rem, 0rem, 0);
+            transform: translate3d(1rem, 0rem, 0);
   }
   .listen .block .name .H {
     margin-top: 2rem;
@@ -890,7 +947,8 @@ section {
     width: 100%;
     max-width: 100%;
     overflow-x: hidden !important;
-    transform: translate3d(0rem, 58rem, 0);
+    -webkit-transform: translate3d(0rem, 58rem, 0);
+            transform: translate3d(0rem, 58rem, 0);
   }
   .listen .bg img {
     width: 200%;
@@ -924,40 +982,48 @@ section {
     margin-bottom: 3rem;
   }
   .meditape .text .vector {
-    transform: translate3d(-2rem, 0, 0);
+    -webkit-transform: translate3d(-2rem, 0, 0);
+            transform: translate3d(-2rem, 0, 0);
   }
   .meditape .text .ellipse {
-    transform: translate3d(-8rem, 4rem, 0);
+    -webkit-transform: translate3d(-8rem, 4rem, 0);
+            transform: translate3d(-8rem, 4rem, 0);
   }
   .meditape .text .flower {
-    transform: translate3d(1rem, -13rem, 0);
+    -webkit-transform: translate3d(1rem, -13rem, 0);
+            transform: translate3d(1rem, -13rem, 0);
   }
   .meditape .about p {
     width: 80%;
     margin-left: 3rem;
-    transform: translate3d(0, -10rem, 0);
+    -webkit-transform: translate3d(0, -10rem, 0);
+            transform: translate3d(0, -10rem, 0);
   }
   .meditape .im {
     text-align: center;
-    transform: translate3d(6rem, -10rem, 0);
+    -webkit-transform: translate3d(6rem, -10rem, 0);
+            transform: translate3d(6rem, -10rem, 0);
   }
   .meditape .girl {
     position: absolute;
-    transform: translate3d(-5rem, -20rem, 0);
+    -webkit-transform: translate3d(-5rem, -20rem, 0);
+            transform: translate3d(-5rem, -20rem, 0);
   }
   .rules {
     padding-bottom: 2.2rem;
   }
   .rules .bg .plant {
     display: none;
-    transform: translate3d(0rem, 53.5rem, 0);
+    -webkit-transform: translate3d(0rem, 53.5rem, 0);
+            transform: translate3d(0rem, 53.5rem, 0);
   }
   .rules .bg .ellipse {
     display: none;
   }
   .rules .bg .square {
     right: 0;
-    transform: translate3d(0rem, 72rem, 0);
+    -webkit-transform: translate3d(0rem, 72rem, 0);
+            transform: translate3d(0rem, 72rem, 0);
   }
   .rules .bg .square img {
     width: 200%;
@@ -994,21 +1060,25 @@ section {
     background-color: white;
     padding: 3rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(3rem, 1rem, 0);
+    -webkit-transform: translate3d(3rem, 1rem, 0);
+            transform: translate3d(3rem, 1rem, 0);
   }
   .rules .letter img {
     position: absolute;
-    transform: translate3d(-2rem, 0rem, 0);
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
   }
   .rules .letter p {
     color: #282828;
   }
   .rules .secondBG {
-    transform: translate3d(5rem, -60rem, 0);
+    -webkit-transform: translate3d(5rem, -60rem, 0);
+            transform: translate3d(5rem, -60rem, 0);
     z-index: 1;
   }
   .sleep .bg {
-    transform: translate3d(0rem, 79rem, 0);
+    -webkit-transform: translate3d(0rem, 79rem, 0);
+            transform: translate3d(0rem, 79rem, 0);
   }
   .sleep .bg img {
     width: 100%;
@@ -1035,7 +1105,8 @@ section {
     width: 100%;
     padding: 3rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(0rem, 0rem, 0);
+    -webkit-transform: translate3d(0rem, 0rem, 0);
+            transform: translate3d(0rem, 0rem, 0);
     background-color: white;
     margin-top: 3rem;
     margin-left: 2.2rem;
@@ -1070,7 +1141,8 @@ section {
     height: 627px;
     border: 6px solid #ffe8cf;
     border-radius: 50%;
-    transform: translate3d(-15rem, -5rem, 0);
+    -webkit-transform: translate3d(-15rem, -5rem, 0);
+            transform: translate3d(-15rem, -5rem, 0);
   }
   .machine .wash {
     margin-left: 3rem;
@@ -1095,14 +1167,16 @@ section {
   .machine .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-7rem, -10rem, 0);
+    -webkit-transform: translate3d(-7rem, -10rem, 0);
+            transform: translate3d(-7rem, -10rem, 0);
   }
   .machine .first {
     padding-top: 15rem;
   }
   .machine .second {
     width: 80%;
-    transform: translate3d(3rem, 8rem, 0);
+    -webkit-transform: translate3d(3rem, 8rem, 0);
+            transform: translate3d(3rem, 8rem, 0);
   }
   .machine .second img {
     position: absolute;
@@ -1131,20 +1205,24 @@ section {
     height: 657px;
     border: 6px solid rgba(250, 202, 202, 0.3);
     border-radius: 50%;
-    transform: translate3d(-20rem, -6rem, 0);
+    -webkit-transform: translate3d(-20rem, -6rem, 0);
+            transform: translate3d(-20rem, -6rem, 0);
   }
   .last .bg .bouble-one {
     position: absolute;
-    transform: translate3d(22rem, -5rem, 0);
+    -webkit-transform: translate3d(22rem, -5rem, 0);
+            transform: translate3d(22rem, -5rem, 0);
   }
   .last .bg .bouble-two {
     position: absolute;
-    transform: translate3d(12rem, -3rem, 0);
+    -webkit-transform: translate3d(12rem, -3rem, 0);
+            transform: translate3d(12rem, -3rem, 0);
   }
   .last .bg .bouble-three {
     position: absolute;
     right: 0;
-    transform: translate3d(3rem, 35rem, 0);
+    -webkit-transform: translate3d(3rem, 35rem, 0);
+            transform: translate3d(3rem, 35rem, 0);
   }
   .last .wash {
     margin-top: 4rem;
@@ -1159,7 +1237,8 @@ section {
     position: absolute;
     width: 150%;
     left: 0;
-    transform: translate3d(-1rem, -3rem, 0);
+    -webkit-transform: translate3d(-1rem, -3rem, 0);
+            transform: translate3d(-1rem, -3rem, 0);
   }
   .last .second {
     width: 85%;
@@ -1183,10 +1262,12 @@ section {
   .last .second .partner {
     position: absolute;
     margin-top: 6.5rem;
-    transform: translate3d(0, 22.5rem, 0);
+    -webkit-transform: translate3d(0, 22.5rem, 0);
+            transform: translate3d(0, 22.5rem, 0);
   }
   .last .second .link {
-    transform: translate3d(0rem, 0, 0);
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
     margin-top: 2.5rem;
   }
   .last .second .link a {
@@ -1222,7 +1303,8 @@ section {
   .header .logo {
     margin-left: 0rem;
     text-align: center;
-    transform: translate3d(0, -2rem, 0);
+    -webkit-transform: translate3d(0, -2rem, 0);
+            transform: translate3d(0, -2rem, 0);
   }
   .header .logo img {
     width: 35%;
@@ -1236,7 +1318,8 @@ section {
   }
   .header .bird img {
     width: 100%;
-    transform: translate3d(6rem, 0, 0);
+    -webkit-transform: translate3d(6rem, 0, 0);
+            transform: translate3d(6rem, 0, 0);
   }
   .header .text {
     margin-top: 4rem;
@@ -1252,16 +1335,19 @@ section {
     position: absolute;
   }
   .header .bg .circle {
-    transform: translate3d(-3rem, -10rem, 0);
+    -webkit-transform: translate3d(-3rem, -10rem, 0);
+            transform: translate3d(-3rem, -10rem, 0);
   }
   .header .bg .circle img {
     width: 120%;
   }
   .header .bg .line {
-    transform: translate3d(3rem, 8rem, 0);
+    -webkit-transform: translate3d(3rem, 8rem, 0);
+            transform: translate3d(3rem, 8rem, 0);
   }
   .header .bg .ellipse {
-    transform: translate3d(12rem, 0rem, 0);
+    -webkit-transform: translate3d(12rem, 0rem, 0);
+            transform: translate3d(12rem, 0rem, 0);
   }
   .advices {
     padding-bottom: 1.5rem;
@@ -1276,7 +1362,8 @@ section {
     background-color: white;
     padding: 8rem 3rem 3rem 4rem;
     margin-left: 1.2rem;
-    transform: translate3d(0, -4rem, 0);
+    -webkit-transform: translate3d(0, -4rem, 0);
+            transform: translate3d(0, -4rem, 0);
   }
   .advices .block h1 {
     margin-bottom: 2rem;
@@ -1290,14 +1377,16 @@ section {
     margin-left: -1rem;
   }
   .advices .line {
-    transform: translate3d(0rem, 0rem, 0);
+    -webkit-transform: translate3d(0rem, 0rem, 0);
+            transform: translate3d(0rem, 0rem, 0);
     text-align: center;
   }
   .advices .line img {
     width: 50%;
   }
   .advices .imagine {
-    transform: translate3d(0, -2rem, 0);
+    -webkit-transform: translate3d(0, -2rem, 0);
+            transform: translate3d(0, -2rem, 0);
     margin-left: 2rem;
   }
   .advices .imagine h3 {
@@ -1307,12 +1396,14 @@ section {
     margin-bottom: 3rem;
   }
   .advices .imagine .kg {
-    transform: translate3d(-1rem, 0, 0);
+    -webkit-transform: translate3d(-1rem, 0, 0);
+            transform: translate3d(-1rem, 0, 0);
   }
   .advices .bg {
     position: absolute;
     width: 89%;
-    transform: translate3d(0rem, 27rem, 0);
+    -webkit-transform: translate3d(0rem, 27rem, 0);
+            transform: translate3d(0rem, 27rem, 0);
   }
   .advices .bg img {
     width: 100%;
@@ -1344,7 +1435,8 @@ section {
     margin-left: -1rem;
     padding: 3rem 2rem 3rem 4rem;
     width: 100%;
-    transform: translate3d(1rem, 0rem, 0);
+    -webkit-transform: translate3d(1rem, 0rem, 0);
+            transform: translate3d(1rem, 0rem, 0);
   }
   .listen .block .name .H {
     margin-top: 2rem;
@@ -1362,7 +1454,8 @@ section {
     width: 100%;
     max-width: 100%;
     overflow-x: hidden !important;
-    transform: translate3d(0rem, 44rem, 0);
+    -webkit-transform: translate3d(0rem, 44rem, 0);
+            transform: translate3d(0rem, 44rem, 0);
   }
   .listen .bg img {
     width: 200%;
@@ -1396,40 +1489,48 @@ section {
     margin-bottom: 3rem;
   }
   .meditape .text .vector {
-    transform: translate3d(-2rem, 0, 0);
+    -webkit-transform: translate3d(-2rem, 0, 0);
+            transform: translate3d(-2rem, 0, 0);
   }
   .meditape .text .ellipse {
-    transform: translate3d(-8rem, 4rem, 0);
+    -webkit-transform: translate3d(-8rem, 4rem, 0);
+            transform: translate3d(-8rem, 4rem, 0);
   }
   .meditape .text .flower {
-    transform: translate3d(1rem, -13rem, 0);
+    -webkit-transform: translate3d(1rem, -13rem, 0);
+            transform: translate3d(1rem, -13rem, 0);
   }
   .meditape .about p {
     width: 80%;
     margin-left: 3rem;
-    transform: translate3d(0, -10rem, 0);
+    -webkit-transform: translate3d(0, -10rem, 0);
+            transform: translate3d(0, -10rem, 0);
   }
   .meditape .im {
     text-align: center;
-    transform: translate3d(6rem, -10rem, 0);
+    -webkit-transform: translate3d(6rem, -10rem, 0);
+            transform: translate3d(6rem, -10rem, 0);
   }
   .meditape .girl {
     position: absolute;
-    transform: translate3d(-5rem, -20rem, 0);
+    -webkit-transform: translate3d(-5rem, -20rem, 0);
+            transform: translate3d(-5rem, -20rem, 0);
   }
   .rules {
     padding-bottom: 2.2rem;
   }
   .rules .bg .plant {
     display: none;
-    transform: translate3d(0rem, 53.5rem, 0);
+    -webkit-transform: translate3d(0rem, 53.5rem, 0);
+            transform: translate3d(0rem, 53.5rem, 0);
   }
   .rules .bg .ellipse {
     display: none;
   }
   .rules .bg .square {
     right: 0;
-    transform: translate3d(0rem, 51.5rem, 0);
+    -webkit-transform: translate3d(0rem, 51.5rem, 0);
+            transform: translate3d(0rem, 51.5rem, 0);
   }
   .rules .bg .square img {
     width: 200%;
@@ -1466,21 +1567,25 @@ section {
     background-color: white;
     padding: 3rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(3rem, 1rem, 0);
+    -webkit-transform: translate3d(3rem, 1rem, 0);
+            transform: translate3d(3rem, 1rem, 0);
   }
   .rules .letter img {
     position: absolute;
-    transform: translate3d(-2rem, 0rem, 0);
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
   }
   .rules .letter p {
     color: #282828;
   }
   .rules .secondBG {
-    transform: translate3d(5rem, -60rem, 0);
+    -webkit-transform: translate3d(5rem, -60rem, 0);
+            transform: translate3d(5rem, -60rem, 0);
     z-index: 1;
   }
   .sleep .bg {
-    transform: translate3d(0rem, 61rem, 0);
+    -webkit-transform: translate3d(0rem, 61rem, 0);
+            transform: translate3d(0rem, 61rem, 0);
   }
   .sleep .bg img {
     width: 100%;
@@ -1507,7 +1612,8 @@ section {
     width: 100%;
     padding: 3rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(0rem, 0rem, 0);
+    -webkit-transform: translate3d(0rem, 0rem, 0);
+            transform: translate3d(0rem, 0rem, 0);
     background-color: white;
     margin-top: 3rem;
     margin-left: 2.2rem;
@@ -1542,7 +1648,8 @@ section {
     height: 627px;
     border: 6px solid #ffe8cf;
     border-radius: 50%;
-    transform: translate3d(-15rem, -5rem, 0);
+    -webkit-transform: translate3d(-15rem, -5rem, 0);
+            transform: translate3d(-15rem, -5rem, 0);
   }
   .machine .wash {
     margin-left: 3rem;
@@ -1567,14 +1674,16 @@ section {
   .machine .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-7rem, -10rem, 0);
+    -webkit-transform: translate3d(-7rem, -10rem, 0);
+            transform: translate3d(-7rem, -10rem, 0);
   }
   .machine .first {
     padding-top: 15rem;
   }
   .machine .second {
     width: 80%;
-    transform: translate3d(3rem, 8rem, 0);
+    -webkit-transform: translate3d(3rem, 8rem, 0);
+            transform: translate3d(3rem, 8rem, 0);
   }
   .machine .second img {
     position: absolute;
@@ -1603,20 +1712,24 @@ section {
     height: 657px;
     border: 6px solid rgba(250, 202, 202, 0.3);
     border-radius: 50%;
-    transform: translate3d(-20rem, -6rem, 0);
+    -webkit-transform: translate3d(-20rem, -6rem, 0);
+            transform: translate3d(-20rem, -6rem, 0);
   }
   .last .bg .bouble-one {
     position: absolute;
-    transform: translate3d(22rem, -5rem, 0);
+    -webkit-transform: translate3d(22rem, -5rem, 0);
+            transform: translate3d(22rem, -5rem, 0);
   }
   .last .bg .bouble-two {
     position: absolute;
-    transform: translate3d(12rem, -3rem, 0);
+    -webkit-transform: translate3d(12rem, -3rem, 0);
+            transform: translate3d(12rem, -3rem, 0);
   }
   .last .bg .bouble-three {
     position: absolute;
     right: 0;
-    transform: translate3d(3rem, 35rem, 0);
+    -webkit-transform: translate3d(3rem, 35rem, 0);
+            transform: translate3d(3rem, 35rem, 0);
   }
   .last .wash {
     margin-top: 4rem;
@@ -1631,7 +1744,8 @@ section {
     position: absolute;
     width: 150%;
     left: 0;
-    transform: translate3d(-1rem, -3rem, 0);
+    -webkit-transform: translate3d(-1rem, -3rem, 0);
+            transform: translate3d(-1rem, -3rem, 0);
   }
   .last .second {
     width: 85%;
@@ -1655,10 +1769,12 @@ section {
   .last .second .partner {
     position: absolute;
     margin-top: 6.5rem;
-    transform: translate3d(0, 22.5rem, 0);
+    -webkit-transform: translate3d(0, 22.5rem, 0);
+            transform: translate3d(0, 22.5rem, 0);
   }
   .last .second .link {
-    transform: translate3d(0rem, 0, 0);
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
     margin-top: 2.5rem;
   }
   .last .second .link a {
@@ -1694,7 +1810,8 @@ section {
   .header .logo {
     margin-left: 0rem;
     text-align: center;
-    transform: translate3d(0, -2rem, 0);
+    -webkit-transform: translate3d(0, -2rem, 0);
+            transform: translate3d(0, -2rem, 0);
   }
   .header .logo img {
     width: 35%;
@@ -1708,7 +1825,8 @@ section {
   }
   .header .bird img {
     width: 100%;
-    transform: translate3d(6rem, 0, 0);
+    -webkit-transform: translate3d(6rem, 0, 0);
+            transform: translate3d(6rem, 0, 0);
   }
   .header .text {
     margin-top: 4rem;
@@ -1724,16 +1842,19 @@ section {
     position: absolute;
   }
   .header .bg .circle {
-    transform: translate3d(-3rem, -12rem, 0);
+    -webkit-transform: translate3d(-3rem, -12rem, 0);
+            transform: translate3d(-3rem, -12rem, 0);
   }
   .header .bg .circle img {
     width: 120%;
   }
   .header .bg .line {
-    transform: translate3d(4rem, 10rem, 0);
+    -webkit-transform: translate3d(4rem, 10rem, 0);
+            transform: translate3d(4rem, 10rem, 0);
   }
   .header .bg .ellipse {
-    transform: translate3d(15rem, 0rem, 0);
+    -webkit-transform: translate3d(15rem, 0rem, 0);
+            transform: translate3d(15rem, 0rem, 0);
   }
   .advices {
     padding-bottom: 1.5rem;
@@ -1748,7 +1869,8 @@ section {
     background-color: white;
     padding: 8rem 3rem 3rem 4rem;
     margin-left: 1.2rem;
-    transform: translate3d(0, -4rem, 0);
+    -webkit-transform: translate3d(0, -4rem, 0);
+            transform: translate3d(0, -4rem, 0);
   }
   .advices .block h1 {
     margin-bottom: 2rem;
@@ -1762,14 +1884,16 @@ section {
     margin-left: -1rem;
   }
   .advices .line {
-    transform: translate3d(0rem, 0rem, 0);
+    -webkit-transform: translate3d(0rem, 0rem, 0);
+            transform: translate3d(0rem, 0rem, 0);
     text-align: center;
   }
   .advices .line img {
     width: 50%;
   }
   .advices .imagine {
-    transform: translate3d(0, -2rem, 0);
+    -webkit-transform: translate3d(0, -2rem, 0);
+            transform: translate3d(0, -2rem, 0);
     margin-left: 2rem;
   }
   .advices .imagine h3 {
@@ -1779,12 +1903,14 @@ section {
     margin-bottom: 3rem;
   }
   .advices .imagine .kg {
-    transform: translate3d(-1rem, 0, 0);
+    -webkit-transform: translate3d(-1rem, 0, 0);
+            transform: translate3d(-1rem, 0, 0);
   }
   .advices .bg {
     position: absolute;
     width: 89%;
-    transform: translate3d(2.5rem, 21rem, 0);
+    -webkit-transform: translate3d(2.5rem, 21rem, 0);
+            transform: translate3d(2.5rem, 21rem, 0);
   }
   .advices .bg img {
     width: 100%;
@@ -1816,7 +1942,8 @@ section {
     width: 100%;
     margin-left: -1rem;
     padding: 3rem 2rem 3rem 4rem;
-    transform: translate3d(2.2rem, 0rem, 0);
+    -webkit-transform: translate3d(2.2rem, 0rem, 0);
+            transform: translate3d(2.2rem, 0rem, 0);
   }
   .listen .block .name .H {
     margin-top: 2rem;
@@ -1834,7 +1961,8 @@ section {
     width: 100%;
     max-width: 100%;
     overflow-x: hidden !important;
-    transform: translate3d(0rem, 52rem, 0);
+    -webkit-transform: translate3d(0rem, 52rem, 0);
+            transform: translate3d(0rem, 52rem, 0);
   }
   .listen .bg img {
     width: 160%;
@@ -1868,40 +1996,48 @@ section {
     margin-bottom: 3rem;
   }
   .meditape .text .vector {
-    transform: translate3d(-2rem, 0, 0);
+    -webkit-transform: translate3d(-2rem, 0, 0);
+            transform: translate3d(-2rem, 0, 0);
   }
   .meditape .text .ellipse {
-    transform: translate3d(-8rem, 4rem, 0);
+    -webkit-transform: translate3d(-8rem, 4rem, 0);
+            transform: translate3d(-8rem, 4rem, 0);
   }
   .meditape .text .flower {
-    transform: translate3d(1rem, -13rem, 0);
+    -webkit-transform: translate3d(1rem, -13rem, 0);
+            transform: translate3d(1rem, -13rem, 0);
   }
   .meditape .about p {
     width: 80%;
     margin-left: 3rem;
-    transform: translate3d(0, -10rem, 0);
+    -webkit-transform: translate3d(0, -10rem, 0);
+            transform: translate3d(0, -10rem, 0);
   }
   .meditape .im {
     text-align: center;
-    transform: translate3d(6rem, -10rem, 0);
+    -webkit-transform: translate3d(6rem, -10rem, 0);
+            transform: translate3d(6rem, -10rem, 0);
   }
   .meditape .girl {
     position: absolute;
-    transform: translate3d(-5rem, -20rem, 0);
+    -webkit-transform: translate3d(-5rem, -20rem, 0);
+            transform: translate3d(-5rem, -20rem, 0);
   }
   .rules {
     padding-bottom: 2.2rem;
   }
   .rules .bg .plant {
     display: none;
-    transform: translate3d(0rem, 53.5rem, 0);
+    -webkit-transform: translate3d(0rem, 53.5rem, 0);
+            transform: translate3d(0rem, 53.5rem, 0);
   }
   .rules .bg .ellipse {
     display: none;
   }
   .rules .bg .square {
     right: 0;
-    transform: translate3d(0rem, 41rem, 0);
+    -webkit-transform: translate3d(0rem, 41rem, 0);
+            transform: translate3d(0rem, 41rem, 0);
   }
   .rules .bg .square img {
     width: 200%;
@@ -1938,24 +2074,28 @@ section {
     background-color: white;
     padding: 3rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(3rem, 1rem, 0);
+    -webkit-transform: translate3d(3rem, 1rem, 0);
+            transform: translate3d(3rem, 1rem, 0);
   }
   .rules .letter img {
     position: absolute;
-    transform: translate3d(-2rem, 0rem, 0);
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
   }
   .rules .letter p {
     color: #282828;
   }
   .rules .secondBG {
-    transform: translate3d(5rem, -60rem, 0);
+    -webkit-transform: translate3d(5rem, -60rem, 0);
+            transform: translate3d(5rem, -60rem, 0);
     z-index: 1;
   }
   .sleep .bg {
     width: 100%;
     max-width: 100%;
     overflow-x: hidden !important;
-    transform: translate3d(0rem, 47.5rem, 0);
+    -webkit-transform: translate3d(0rem, 47.5rem, 0);
+            transform: translate3d(0rem, 47.5rem, 0);
   }
   .sleep .bg img {
     width: 170%;
@@ -1982,7 +2122,8 @@ section {
     width: 100%;
     padding: 3rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(0rem, 0rem, 0);
+    -webkit-transform: translate3d(0rem, 0rem, 0);
+            transform: translate3d(0rem, 0rem, 0);
     background-color: white;
     margin-top: 3rem;
     margin-left: 2.2rem;
@@ -2017,7 +2158,8 @@ section {
     height: 627px;
     border: 6px solid #ffe8cf;
     border-radius: 50%;
-    transform: translate3d(-15rem, -5rem, 0);
+    -webkit-transform: translate3d(-15rem, -5rem, 0);
+            transform: translate3d(-15rem, -5rem, 0);
   }
   .machine .wash {
     margin-left: 3rem;
@@ -2042,14 +2184,16 @@ section {
   .machine .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-7rem, -10rem, 0);
+    -webkit-transform: translate3d(-7rem, -10rem, 0);
+            transform: translate3d(-7rem, -10rem, 0);
   }
   .machine .first {
     padding-top: 15rem;
   }
   .machine .second {
     width: 80%;
-    transform: translate3d(3rem, 8rem, 0);
+    -webkit-transform: translate3d(3rem, 8rem, 0);
+            transform: translate3d(3rem, 8rem, 0);
   }
   .machine .second img {
     position: absolute;
@@ -2078,20 +2222,24 @@ section {
     height: 657px;
     border: 6px solid rgba(250, 202, 202, 0.3);
     border-radius: 50%;
-    transform: translate3d(-20rem, -6rem, 0);
+    -webkit-transform: translate3d(-20rem, -6rem, 0);
+            transform: translate3d(-20rem, -6rem, 0);
   }
   .last .bg .bouble-one {
     position: absolute;
-    transform: translate3d(22rem, -5rem, 0);
+    -webkit-transform: translate3d(22rem, -5rem, 0);
+            transform: translate3d(22rem, -5rem, 0);
   }
   .last .bg .bouble-two {
     position: absolute;
-    transform: translate3d(12rem, -3rem, 0);
+    -webkit-transform: translate3d(12rem, -3rem, 0);
+            transform: translate3d(12rem, -3rem, 0);
   }
   .last .bg .bouble-three {
     position: absolute;
     right: 0;
-    transform: translate3d(3rem, 35rem, 0);
+    -webkit-transform: translate3d(3rem, 35rem, 0);
+            transform: translate3d(3rem, 35rem, 0);
   }
   .last .wash {
     margin-top: 4rem;
@@ -2106,7 +2254,8 @@ section {
     position: absolute;
     width: 150%;
     left: 0;
-    transform: translate3d(-1rem, -3rem, 0);
+    -webkit-transform: translate3d(-1rem, -3rem, 0);
+            transform: translate3d(-1rem, -3rem, 0);
   }
   .last .second {
     width: 85%;
@@ -2130,10 +2279,12 @@ section {
   .last .second .partner {
     position: absolute;
     margin-top: 4.5rem;
-    transform: translate3d(0, 19.5rem, 0);
+    -webkit-transform: translate3d(0, 19.5rem, 0);
+            transform: translate3d(0, 19.5rem, 0);
   }
   .last .second .link {
-    transform: translate3d(11rem, 0, 0);
+    -webkit-transform: translate3d(11rem, 0, 0);
+            transform: translate3d(11rem, 0, 0);
     margin-top: 5.2rem;
   }
   .last .second .link a {
@@ -2146,7 +2297,7 @@ section {
   }
   .header,
   .advices,
-  .listen,
+  .liste,
   .meditape,
   .rules,
   .sleep,
@@ -2179,7 +2330,8 @@ section {
   }
   .header .bird img {
     width: 100%;
-    transform: translate3d(6rem, 0, 0);
+    -webkit-transform: translate3d(6rem, 0, 0);
+            transform: translate3d(6rem, 0, 0);
   }
   .header .text {
     margin-top: 4rem;
@@ -2195,16 +2347,19 @@ section {
     position: absolute;
   }
   .header .bg .circle {
-    transform: translate3d(-3rem, -12rem, 0);
+    -webkit-transform: translate3d(-3rem, -12rem, 0);
+            transform: translate3d(-3rem, -12rem, 0);
   }
   .header .bg .circle img {
     width: 120%;
   }
   .header .bg .line {
-    transform: translate3d(4rem, 10rem, 0);
+    -webkit-transform: translate3d(4rem, 10rem, 0);
+            transform: translate3d(4rem, 10rem, 0);
   }
   .header .bg .ellipse {
-    transform: translate3d(16rem, 0rem, 0);
+    -webkit-transform: translate3d(16rem, 0rem, 0);
+            transform: translate3d(16rem, 0rem, 0);
   }
   .advices {
     padding-bottom: 1.5rem;
@@ -2219,7 +2374,8 @@ section {
     background-color: white;
     padding: 8rem 3rem 3rem 4rem;
     margin-left: 1rem;
-    transform: translate3d(0, -8rem, 0);
+    -webkit-transform: translate3d(0, -8rem, 0);
+            transform: translate3d(0, -8rem, 0);
   }
   .advices .block h1 {
     margin-bottom: 2rem;
@@ -2233,14 +2389,16 @@ section {
     margin-left: -1rem;
   }
   .advices .line {
-    transform: translate3d(0rem, 0rem, 0);
+    -webkit-transform: translate3d(0rem, 0rem, 0);
+            transform: translate3d(0rem, 0rem, 0);
     text-align: center;
   }
   .advices .line img {
     width: 50%;
   }
   .advices .imagine {
-    transform: translate3d(0, -2rem, 0);
+    -webkit-transform: translate3d(0, -2rem, 0);
+            transform: translate3d(0, -2rem, 0);
     margin-left: 2rem;
   }
   .advices .imagine h3 {
@@ -2250,12 +2408,14 @@ section {
     margin-bottom: 3rem;
   }
   .advices .imagine .kg {
-    transform: translate3d(-1rem, 0, 0);
+    -webkit-transform: translate3d(-1rem, 0, 0);
+            transform: translate3d(-1rem, 0, 0);
   }
   .advices .bg {
     position: absolute;
     width: 90%;
-    transform: translate3d(3rem, 10rem, 0);
+    -webkit-transform: translate3d(3rem, 10rem, 0);
+            transform: translate3d(3rem, 10rem, 0);
   }
   .advices .bg img {
     width: 100%;
@@ -2286,10 +2446,11 @@ section {
     background-color: white;
     margin-left: -1rem;
     padding: 3rem 2rem 3rem 4rem;
-    transform: translate3d(3rem, 0rem, 0);
+    -webkit-transform: translate3d(3rem, 0rem, 0);
+            transform: translate3d(3rem, 0rem, 0);
   }
   .listen .block .name .H {
-    margin-top: 2rem;
+    margin-top: 0.5rem;
   }
   .listen .block .name h1 {
     color: #282828;
@@ -2301,7 +2462,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(0rem, 62rem, 0);
+    -webkit-transform: translate3d(0rem, 62rem, 0);
+            transform: translate3d(0rem, 62rem, 0);
   }
   .listen .bg img {
     width: 100%;
@@ -2335,40 +2497,48 @@ section {
     margin-bottom: 3rem;
   }
   .meditape .text .vector {
-    transform: translate3d(-2rem, 0, 0);
+    -webkit-transform: translate3d(-2rem, 0, 0);
+            transform: translate3d(-2rem, 0, 0);
   }
   .meditape .text .ellipse {
-    transform: translate3d(-8rem, 4rem, 0);
+    -webkit-transform: translate3d(-8rem, 4rem, 0);
+            transform: translate3d(-8rem, 4rem, 0);
   }
   .meditape .text .flower {
-    transform: translate3d(1rem, -13rem, 0);
+    -webkit-transform: translate3d(1rem, -13rem, 0);
+            transform: translate3d(1rem, -13rem, 0);
   }
   .meditape .about p {
     width: 80%;
     margin-left: 3rem;
-    transform: translate3d(0, -10rem, 0);
+    -webkit-transform: translate3d(0, -10rem, 0);
+            transform: translate3d(0, -10rem, 0);
   }
   .meditape .im {
     text-align: center;
-    transform: translate3d(6rem, -10rem, 0);
+    -webkit-transform: translate3d(6rem, -10rem, 0);
+            transform: translate3d(6rem, -10rem, 0);
   }
   .meditape .girl {
     position: absolute;
-    transform: translate3d(-3rem, -20rem, 0);
+    -webkit-transform: translate3d(-3rem, -20rem, 0);
+            transform: translate3d(-3rem, -20rem, 0);
   }
   .rules {
     padding-bottom: 2.2rem;
   }
   .rules .bg .plant {
     display: none;
-    transform: translate3d(0rem, 53.5rem, 0);
+    -webkit-transform: translate3d(0rem, 53.5rem, 0);
+            transform: translate3d(0rem, 53.5rem, 0);
   }
   .rules .bg .ellipse {
     display: none;
   }
   .rules .bg .square {
     right: 0;
-    transform: translate3d(0rem, 51rem, 0);
+    -webkit-transform: translate3d(0rem, 51rem, 0);
+            transform: translate3d(0rem, 51rem, 0);
   }
   .rules .bg .square img {
     width: 120%;
@@ -2405,21 +2575,25 @@ section {
     background-color: white;
     padding: 3rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(3rem, 1rem, 0);
+    -webkit-transform: translate3d(3rem, 1rem, 0);
+            transform: translate3d(3rem, 1rem, 0);
   }
   .rules .letter img {
     position: absolute;
-    transform: translate3d(-2rem, 0rem, 0);
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
   }
   .rules .letter p {
     color: #282828;
   }
   .rules .secondBG {
-    transform: translate3d(4rem, -56rem, 0);
+    -webkit-transform: translate3d(4rem, -56rem, 0);
+            transform: translate3d(4rem, -56rem, 0);
     z-index: 1;
   }
   .sleep .bg {
-    transform: translate3d(0rem, 53rem, 0);
+    -webkit-transform: translate3d(0rem, 53rem, 0);
+            transform: translate3d(0rem, 53rem, 0);
   }
   .sleep .bg img {
     width: 100%;
@@ -2446,7 +2620,8 @@ section {
     width: 100%;
     padding: 3rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(0rem, 0rem, 0);
+    -webkit-transform: translate3d(0rem, 0rem, 0);
+            transform: translate3d(0rem, 0rem, 0);
     background-color: white;
     margin-top: 3rem;
     margin-left: 2.2rem;
@@ -2481,7 +2656,8 @@ section {
     height: 627px;
     border: 6px solid #ffe8cf;
     border-radius: 50%;
-    transform: translate3d(-15rem, -5rem, 0);
+    -webkit-transform: translate3d(-15rem, -5rem, 0);
+            transform: translate3d(-15rem, -5rem, 0);
   }
   .machine .wash {
     margin-left: 3rem;
@@ -2506,14 +2682,16 @@ section {
   .machine .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-6rem, -10rem, 0);
+    -webkit-transform: translate3d(-6rem, -10rem, 0);
+            transform: translate3d(-6rem, -10rem, 0);
   }
   .machine .first {
     padding-top: 15rem;
   }
   .machine .second {
     width: 80%;
-    transform: translate3d(3rem, 8rem, 0);
+    -webkit-transform: translate3d(3rem, 8rem, 0);
+            transform: translate3d(3rem, 8rem, 0);
   }
   .machine .second img {
     position: absolute;
@@ -2542,20 +2720,24 @@ section {
     height: 657px;
     border: 6px solid rgba(250, 202, 202, 0.3);
     border-radius: 50%;
-    transform: translate3d(-10rem, -6rem, 0);
+    -webkit-transform: translate3d(-10rem, -6rem, 0);
+            transform: translate3d(-10rem, -6rem, 0);
   }
   .last .bg .bouble-one {
     position: absolute;
-    transform: translate3d(28rem, -5rem, 0);
+    -webkit-transform: translate3d(28rem, -5rem, 0);
+            transform: translate3d(28rem, -5rem, 0);
   }
   .last .bg .bouble-two {
     position: absolute;
-    transform: translate3d(18rem, -3rem, 0);
+    -webkit-transform: translate3d(18rem, -3rem, 0);
+            transform: translate3d(18rem, -3rem, 0);
   }
   .last .bg .bouble-three {
     position: absolute;
     right: 0;
-    transform: translate3d(0rem, 35rem, 0);
+    -webkit-transform: translate3d(0rem, 35rem, 0);
+            transform: translate3d(0rem, 35rem, 0);
   }
   .last .wash {
     margin-top: 2rem;
@@ -2569,7 +2751,8 @@ section {
   .last .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-1rem, -6rem, 0);
+    -webkit-transform: translate3d(-1rem, -6rem, 0);
+            transform: translate3d(-1rem, -6rem, 0);
   }
   .last .second {
     width: 85%;
@@ -2593,10 +2776,12 @@ section {
   .last .second .partner {
     position: absolute;
     margin-top: 4.5rem;
-    transform: translate3d(0, 19.5rem, 0);
+    -webkit-transform: translate3d(0, 19.5rem, 0);
+            transform: translate3d(0, 19.5rem, 0);
   }
   .last .second .link {
-    transform: translate3d(11rem, 0, 0);
+    -webkit-transform: translate3d(11rem, 0, 0);
+            transform: translate3d(11rem, 0, 0);
     margin-top: 6.8rem;
   }
   .last .second .link a {
@@ -2610,7 +2795,7 @@ section {
   }
   .header,
   .advices,
-  .listen,
+  .liste,
   .meditape,
   .rules,
   .sleep,
@@ -2642,7 +2827,8 @@ section {
   }
   .header .bird img {
     width: 100%;
-    transform: translate3d(6rem, 0, 0);
+    -webkit-transform: translate3d(6rem, 0, 0);
+            transform: translate3d(6rem, 0, 0);
   }
   .header .text {
     margin-top: 4rem;
@@ -2658,16 +2844,19 @@ section {
     position: absolute;
   }
   .header .bg .circle {
-    transform: translate3d(-3rem, -21rem, 0);
+    -webkit-transform: translate3d(-3rem, -21rem, 0);
+            transform: translate3d(-3rem, -21rem, 0);
   }
   .header .bg .circle img {
     width: 130%;
   }
   .header .bg .line {
-    transform: translate3d(6rem, 14rem, 0);
+    -webkit-transform: translate3d(6rem, 14rem, 0);
+            transform: translate3d(6rem, 14rem, 0);
   }
   .header .bg .ellipse {
-    transform: translate3d(21rem, 0rem, 0);
+    -webkit-transform: translate3d(21rem, 0rem, 0);
+            transform: translate3d(21rem, 0rem, 0);
   }
   .advices {
     padding-bottom: 1.5rem;
@@ -2679,7 +2868,8 @@ section {
     background-color: white;
     padding: 8rem 3rem 3rem 4rem;
     margin-left: 3.5rem;
-    transform: translate3d(0, -8rem, 0);
+    -webkit-transform: translate3d(0, -8rem, 0);
+            transform: translate3d(0, -8rem, 0);
   }
   .advices .block h1 {
     margin-bottom: 2rem;
@@ -2693,14 +2883,16 @@ section {
     margin-left: -1rem;
   }
   .advices .line {
-    transform: translate3d(0rem, 0rem, 0);
+    -webkit-transform: translate3d(0rem, 0rem, 0);
+            transform: translate3d(0rem, 0rem, 0);
     text-align: center;
   }
   .advices .line img {
     width: 50%;
   }
   .advices .imagine {
-    transform: translate3d(0, -2rem, 0);
+    -webkit-transform: translate3d(0, -2rem, 0);
+            transform: translate3d(0, -2rem, 0);
   }
   .advices .imagine h3 {
     margin-bottom: 1rem;
@@ -2709,11 +2901,13 @@ section {
     margin-bottom: 3rem;
   }
   .advices .imagine .kg {
-    transform: translate3d(-1rem, 0, 0);
+    -webkit-transform: translate3d(-1rem, 0, 0);
+            transform: translate3d(-1rem, 0, 0);
   }
   .advices .bg {
     position: absolute;
-    transform: translate3d(10rem, 5rem, 0);
+    -webkit-transform: translate3d(10rem, 5rem, 0);
+            transform: translate3d(10rem, 5rem, 0);
   }
   .advices .bg img {
     width: 90%;
@@ -2744,10 +2938,11 @@ section {
     background-color: white;
     margin-left: -1rem;
     padding: 3rem 2rem 3rem 4rem;
-    transform: translate3d(0, 0rem, 0);
+    -webkit-transform: translate3d(0, 0rem, 0);
+            transform: translate3d(0, 0rem, 0);
   }
   .listen .block .name .H {
-    margin-top: 2rem;
+    margin-top: 0.5rem;
   }
   .listen .block .name h1 {
     color: #282828;
@@ -2759,7 +2954,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(2rem, 49rem, 0);
+    -webkit-transform: translate3d(2rem, 47rem, 0);
+            transform: translate3d(2rem, 47rem, 0);
   }
   .listen .bg img {
     width: 80%;
@@ -2793,40 +2989,48 @@ section {
     margin-bottom: 3rem;
   }
   .meditape .text .vector {
-    transform: translate3d(0rem, 0, 0);
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
   }
   .meditape .text .ellipse {
-    transform: translate3d(4rem, 4rem, 0);
+    -webkit-transform: translate3d(4rem, 4rem, 0);
+            transform: translate3d(4rem, 4rem, 0);
   }
   .meditape .text .flower {
-    transform: translate3d(10rem, -13rem, 0);
+    -webkit-transform: translate3d(10rem, -13rem, 0);
+            transform: translate3d(10rem, -13rem, 0);
   }
   .meditape .about p {
     width: 80%;
     margin-left: 3rem;
-    transform: translate3d(0, -10rem, 0);
+    -webkit-transform: translate3d(0, -10rem, 0);
+            transform: translate3d(0, -10rem, 0);
   }
   .meditape .im {
     text-align: center;
-    transform: translate3d(0, -10rem, 0);
+    -webkit-transform: translate3d(0, -10rem, 0);
+            transform: translate3d(0, -10rem, 0);
   }
   .meditape .girl {
     position: absolute;
-    transform: translate3d(3rem, -20rem, 0);
+    -webkit-transform: translate3d(3rem, -20rem, 0);
+            transform: translate3d(3rem, -20rem, 0);
   }
   .rules {
     padding-bottom: 7.2rem;
   }
   .rules .bg .plant {
     display: none;
-    transform: translate3d(0rem, 53.5rem, 0);
+    -webkit-transform: translate3d(0rem, 53.5rem, 0);
+            transform: translate3d(0rem, 53.5rem, 0);
   }
   .rules .bg .ellipse {
     display: none;
   }
   .rules .bg .square {
     right: 0;
-    transform: translate3d(0.5rem, 37rem, 0);
+    -webkit-transform: translate3d(0.5rem, 37rem, 0);
+            transform: translate3d(0.5rem, 37rem, 0);
   }
   .rules .bg .square img {
     width: 80%;
@@ -2863,21 +3067,25 @@ section {
     background-color: white;
     padding: 3rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(5rem, 1rem, 0);
+    -webkit-transform: translate3d(5rem, 1rem, 0);
+            transform: translate3d(5rem, 1rem, 0);
   }
   .rules .letter img {
     position: absolute;
-    transform: translate3d(-2rem, 0rem, 0);
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
   }
   .rules .letter p {
     color: #282828;
   }
   .rules .secondBG {
-    transform: translate3d(4rem, -40rem, 0);
+    -webkit-transform: translate3d(4rem, -40rem, 0);
+            transform: translate3d(4rem, -40rem, 0);
     z-index: 1;
   }
   .sleep .bg {
-    transform: translate3d(5rem, 39rem, 0);
+    -webkit-transform: translate3d(5rem, 39rem, 0);
+            transform: translate3d(5rem, 39rem, 0);
   }
   .sleep .bg img {
     width: 75%;
@@ -2904,7 +3112,8 @@ section {
     width: 110%;
     padding: 3rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(0rem, 0rem, 0);
+    -webkit-transform: translate3d(0rem, 0rem, 0);
+            transform: translate3d(0rem, 0rem, 0);
     background-color: white;
     margin-top: 3rem;
   }
@@ -2939,7 +3148,8 @@ section {
     height: 627px;
     border: 6px solid #ffe8cf;
     border-radius: 50%;
-    transform: translate3d(-15rem, -3rem, 0);
+    -webkit-transform: translate3d(-15rem, -3rem, 0);
+            transform: translate3d(-15rem, -3rem, 0);
   }
   .machine .wash {
     margin-left: 3rem;
@@ -2964,14 +3174,16 @@ section {
   .machine .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-6rem, -10rem, 0);
+    -webkit-transform: translate3d(-6rem, -10rem, 0);
+            transform: translate3d(-6rem, -10rem, 0);
   }
   .machine .first {
     padding-top: 15rem;
   }
   .machine .second {
     width: 80%;
-    transform: translate3d(3rem, 8rem, 0);
+    -webkit-transform: translate3d(3rem, 8rem, 0);
+            transform: translate3d(3rem, 8rem, 0);
   }
   .machine .second img {
     position: absolute;
@@ -3000,20 +3212,24 @@ section {
     height: 657px;
     border: 6px solid rgba(250, 202, 202, 0.3);
     border-radius: 50%;
-    transform: translate3d(-10rem, -6rem, 0);
+    -webkit-transform: translate3d(-10rem, -6rem, 0);
+            transform: translate3d(-10rem, -6rem, 0);
   }
   .last .bg .bouble-one {
     position: absolute;
-    transform: translate3d(28rem, -5rem, 0);
+    -webkit-transform: translate3d(28rem, -5rem, 0);
+            transform: translate3d(28rem, -5rem, 0);
   }
   .last .bg .bouble-two {
     position: absolute;
-    transform: translate3d(18rem, -3rem, 0);
+    -webkit-transform: translate3d(18rem, -3rem, 0);
+            transform: translate3d(18rem, -3rem, 0);
   }
   .last .bg .bouble-three {
     position: absolute;
     right: 0;
-    transform: translate3d(0rem, 35rem, 0);
+    -webkit-transform: translate3d(0rem, 35rem, 0);
+            transform: translate3d(0rem, 35rem, 0);
   }
   .last .wash {
     margin-top: 2rem;
@@ -3027,7 +3243,8 @@ section {
   .last .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-1rem, -6rem, 0);
+    -webkit-transform: translate3d(-1rem, -6rem, 0);
+            transform: translate3d(-1rem, -6rem, 0);
   }
   .last .second {
     width: 85%;
@@ -3051,10 +3268,12 @@ section {
   .last .second .partner {
     position: absolute;
     margin-top: 4.5rem;
-    transform: translate3d(0, 19.5rem, 0);
+    -webkit-transform: translate3d(0, 19.5rem, 0);
+            transform: translate3d(0, 19.5rem, 0);
   }
   .last .second .link {
-    transform: translate3d(20rem, 0, 0);
+    -webkit-transform: translate3d(20rem, 0, 0);
+            transform: translate3d(20rem, 0, 0);
     margin-top: 8.5rem;
   }
   .last .second .link a {
@@ -3068,7 +3287,7 @@ section {
   }
   .header,
   .advices,
-  .listen,
+  .liste,
   .meditape,
   .rules,
   .machine,
@@ -3111,18 +3330,21 @@ section {
     position: absolute;
   }
   .header .bg .circle {
-    transform: translate3d(-22rem, -9rem, 0);
+    -webkit-transform: translate3d(-22rem, -9rem, 0);
+            transform: translate3d(-22rem, -9rem, 0);
   }
   .header .bg .circle img {
     width: 120%;
   }
   .header .bg .line {
     position: absolute;
-    transform: translate3d(4rem, 14rem, 0);
+    -webkit-transform: translate3d(4rem, 14rem, 0);
+            transform: translate3d(4rem, 14rem, 0);
   }
   .header .bg .ellipse {
     position: absolute;
-    transform: translate3d(7rem, 3rem, 0);
+    -webkit-transform: translate3d(7rem, 3rem, 0);
+            transform: translate3d(7rem, 3rem, 0);
   }
   .advices {
     padding-bottom: 1.5rem;
@@ -3135,7 +3357,8 @@ section {
     background-color: white;
     padding: 8rem 3rem 3rem 4rem;
     margin-left: 3.5rem;
-    transform: translate3d(0, -8rem, 0);
+    -webkit-transform: translate3d(0, -8rem, 0);
+            transform: translate3d(0, -8rem, 0);
   }
   .advices .block h1 {
     margin-bottom: 2rem;
@@ -3149,7 +3372,8 @@ section {
     margin-left: -1rem;
   }
   .advices .line {
-    transform: translate3d(0rem, 2rem, 0);
+    -webkit-transform: translate3d(0rem, 2rem, 0);
+            transform: translate3d(0rem, 2rem, 0);
     text-align: center;
   }
   .advices .line img {
@@ -3162,11 +3386,13 @@ section {
     margin-bottom: 3rem;
   }
   .advices .imagine .kg {
-    transform: translate3d(-1rem, 0, 0);
+    -webkit-transform: translate3d(-1rem, 0, 0);
+            transform: translate3d(-1rem, 0, 0);
   }
   .advices .bg {
     position: absolute;
-    transform: translate3d(21rem, 3.5rem, 0);
+    -webkit-transform: translate3d(21rem, 3.5rem, 0);
+            transform: translate3d(21rem, 3.5rem, 0);
   }
   .advices .bg img {
     width: 90%;
@@ -3195,10 +3421,11 @@ section {
     background-color: white;
     margin-left: -1rem;
     padding: 3rem 2rem 3rem 4rem;
-    transform: translate3d(0, 0rem, 0);
+    -webkit-transform: translate3d(0, 0rem, 0);
+            transform: translate3d(0, 0rem, 0);
   }
   .listen .block .name .H {
-    margin-top: 2rem;
+    margin-top: 0.5rem;
   }
   .listen .block .name h1 {
     color: #282828;
@@ -3210,7 +3437,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(8rem, 45rem, 0);
+    -webkit-transform: translate3d(8rem, 45rem, 0);
+            transform: translate3d(8rem, 45rem, 0);
   }
   .listen .bg img {
     width: 80%;
@@ -3242,26 +3470,32 @@ section {
     margin-bottom: 3rem;
   }
   .meditape .text .vector {
-    transform: translate3d(0rem, 0, 0);
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
   }
   .meditape .text .ellipse {
-    transform: translate3d(4rem, 4rem, 0);
+    -webkit-transform: translate3d(4rem, 4rem, 0);
+            transform: translate3d(4rem, 4rem, 0);
   }
   .meditape .text .flower {
-    transform: translate3d(0rem, -13rem, 0);
+    -webkit-transform: translate3d(0rem, -13rem, 0);
+            transform: translate3d(0rem, -13rem, 0);
   }
   .meditape .about p {
     width: 70%;
     margin-left: 6rem;
-    transform: translate3d(0, -10rem, 0);
+    -webkit-transform: translate3d(0, -10rem, 0);
+            transform: translate3d(0, -10rem, 0);
   }
   .meditape .im {
     text-align: center;
-    transform: translate3d(0, -10rem, 0);
+    -webkit-transform: translate3d(0, -10rem, 0);
+            transform: translate3d(0, -10rem, 0);
   }
   .meditape .girl {
     position: absolute;
-    transform: translate3d(8rem, -20rem, 0);
+    -webkit-transform: translate3d(8rem, -20rem, 0);
+            transform: translate3d(8rem, -20rem, 0);
   }
   .rules {
     padding-bottom: 7.2rem;
@@ -3269,11 +3503,13 @@ section {
   .rules .bg .ellipse {
     right: 0;
     top: 1rem;
-    transform: translate3d(8rem, 0, 0);
+    -webkit-transform: translate3d(8rem, 0, 0);
+            transform: translate3d(8rem, 0, 0);
   }
   .rules .bg .square {
     right: 0;
-    transform: translate3d(-6.5rem, 31rem, 0);
+    -webkit-transform: translate3d(-6.5rem, 31rem, 0);
+            transform: translate3d(-6.5rem, 31rem, 0);
   }
   .rules .bg .square img {
     width: 90%;
@@ -3306,11 +3542,13 @@ section {
     background-color: white;
     padding: 3rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(5rem, -2rem, 0);
+    -webkit-transform: translate3d(5rem, -2rem, 0);
+            transform: translate3d(5rem, -2rem, 0);
   }
   .rules .letter img {
     position: absolute;
-    transform: translate3d(-2rem, 0rem, 0);
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
   }
   .rules .letter p {
     color: #282828;
@@ -3318,10 +3556,12 @@ section {
   .rules .secondBG {
     position: absolute;
     right: 0;
-    transform: translate3d(14rem, -24rem, 0);
+    -webkit-transform: translate3d(14rem, -24rem, 0);
+            transform: translate3d(14rem, -24rem, 0);
   }
   .sleep .bg {
-    transform: translate3d(10rem, 38rem, 0);
+    -webkit-transform: translate3d(10rem, 38rem, 0);
+            transform: translate3d(10rem, 38rem, 0);
   }
   .sleep .bg img {
     width: 80%;
@@ -3346,7 +3586,8 @@ section {
     width: 110%;
     padding: 3rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(0rem, 0rem, 0);
+    -webkit-transform: translate3d(0rem, 0rem, 0);
+            transform: translate3d(0rem, 0rem, 0);
     background-color: white;
     margin-top: 3rem;
   }
@@ -3376,7 +3617,8 @@ section {
     height: 627px;
     border: 6px solid #ffe8cf;
     border-radius: 50%;
-    transform: translate3d(-15rem, -3rem, 0);
+    -webkit-transform: translate3d(-15rem, -3rem, 0);
+            transform: translate3d(-15rem, -3rem, 0);
   }
   .machine .wash {
     margin-left: 3rem;
@@ -3401,11 +3643,13 @@ section {
   .machine .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-6rem, -10rem, 0);
+    -webkit-transform: translate3d(-6rem, -10rem, 0);
+            transform: translate3d(-6rem, -10rem, 0);
   }
   .machine .second {
     width: 80%;
-    transform: translate3d(3rem, 8rem, 0);
+    -webkit-transform: translate3d(3rem, 8rem, 0);
+            transform: translate3d(3rem, 8rem, 0);
   }
   .machine .second img {
     position: absolute;
@@ -3430,20 +3674,24 @@ section {
     height: 657px;
     border: 6px solid rgba(250, 202, 202, 0.3);
     border-radius: 50%;
-    transform: translate3d(-10rem, -6rem, 0);
+    -webkit-transform: translate3d(-10rem, -6rem, 0);
+            transform: translate3d(-10rem, -6rem, 0);
   }
   .last .bg .bouble-one {
     position: absolute;
-    transform: translate3d(28rem, -5rem, 0);
+    -webkit-transform: translate3d(28rem, -5rem, 0);
+            transform: translate3d(28rem, -5rem, 0);
   }
   .last .bg .bouble-two {
     position: absolute;
-    transform: translate3d(18rem, -3rem, 0);
+    -webkit-transform: translate3d(18rem, -3rem, 0);
+            transform: translate3d(18rem, -3rem, 0);
   }
   .last .bg .bouble-three {
     position: absolute;
     right: 0;
-    transform: translate3d(0rem, 35rem, 0);
+    -webkit-transform: translate3d(0rem, 35rem, 0);
+            transform: translate3d(0rem, 35rem, 0);
   }
   .last .wash {
     margin-top: 2rem;
@@ -3457,7 +3705,8 @@ section {
   .last .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-1rem, -6rem, 0);
+    -webkit-transform: translate3d(-1rem, -6rem, 0);
+            transform: translate3d(-1rem, -6rem, 0);
   }
   .last .second {
     width: 85%;
@@ -3481,10 +3730,12 @@ section {
   .last .second .partner {
     position: absolute;
     margin-top: 4.5rem;
-    transform: translate3d(0, 19.5rem, 0);
+    -webkit-transform: translate3d(0, 19.5rem, 0);
+            transform: translate3d(0, 19.5rem, 0);
   }
   .last .second .link {
-    transform: translate3d(20rem, 0, 0);
+    -webkit-transform: translate3d(20rem, 0, 0);
+            transform: translate3d(20rem, 0, 0);
     margin-top: 8.5rem;
   }
   .last .second .link a {
@@ -3502,13 +3753,12 @@ section {
   }
   .header,
   .advices,
-  .listen,
+  .liste,
   .meditape,
   .rules,
   .sleep,
   .machine,
-  .last,
-  .listen {
+  .last {
     min-height: auto;
   }
   .machine .second .one {
@@ -3558,18 +3808,21 @@ section {
     position: absolute;
   }
   .header .bg .circle {
-    transform: translate3d(-11rem, -6rem, 0);
+    -webkit-transform: translate3d(-11rem, -6rem, 0);
+            transform: translate3d(-11rem, -6rem, 0);
   }
   .header .bg .circle img {
     width: 110%;
   }
   .header .bg .line {
     position: absolute;
-    transform: translate3d(10rem, 14rem, 0);
+    -webkit-transform: translate3d(10rem, 14rem, 0);
+            transform: translate3d(10rem, 14rem, 0);
   }
   .header .bg .ellipse {
     position: absolute;
-    transform: translate3d(13rem, 3rem, 0);
+    -webkit-transform: translate3d(13rem, 3rem, 0);
+            transform: translate3d(13rem, 3rem, 0);
   }
   .advices {
     padding-bottom: 1.5rem;
@@ -3582,7 +3835,8 @@ section {
     background-color: white;
     padding: 8rem 3rem 3rem 4rem;
     margin-left: 2rem;
-    transform: translate3d(0, -8rem, 0);
+    -webkit-transform: translate3d(0, -8rem, 0);
+            transform: translate3d(0, -8rem, 0);
   }
   .advices .block h1 {
     margin-bottom: 2rem;
@@ -3596,7 +3850,8 @@ section {
     margin-left: -1rem;
   }
   .advices .line {
-    transform: translate3d(2.5rem, 2rem, 0);
+    -webkit-transform: translate3d(2.5rem, 2rem, 0);
+            transform: translate3d(2.5rem, 2rem, 0);
   }
   .advices .line img {
     width: 70%;
@@ -3608,18 +3863,19 @@ section {
     margin-bottom: 3rem;
   }
   .advices .imagine .kg {
-    transform: translate3d(-1rem, 0, 0);
+    -webkit-transform: translate3d(-1rem, 0, 0);
+            transform: translate3d(-1rem, 0, 0);
   }
   .advices .bg {
     position: absolute;
-    transform: translate3d(7.5rem, 13.5rem, 0);
+    -webkit-transform: translate3d(7.5rem, 13.5rem, 0);
+            transform: translate3d(7.5rem, 13.5rem, 0);
   }
   .advices .bg img {
     width: 90%;
   }
   .listen {
     background-color: #E4B3BA;
-    padding-bottom: 4rem;
   }
   .listen .logo {
     padding-top: 2rem;
@@ -3641,10 +3897,11 @@ section {
     background-color: white;
     margin-left: -1rem;
     padding: 8rem 2rem 3rem 4rem;
-    transform: translate3d(16rem, -46rem, 0);
+    -webkit-transform: translate3d(16rem, -42rem, 0);
+            transform: translate3d(16rem, -42rem, 0);
   }
   .listen .block .name .H {
-    margin-top: 2rem;
+    margin-top: 0.5rem;
   }
   .listen .block .name h1 {
     color: #282828;
@@ -3656,7 +3913,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(28rem, 15rem, 0);
+    -webkit-transform: translate3d(28rem, 14rem, 0);
+            transform: translate3d(28rem, 14rem, 0);
   }
   .listen .bg img {
     width: 70%;
@@ -3683,7 +3941,8 @@ section {
     height: 710px;
     border: 6px solid #F1E9E0;
     border-radius: 50%;
-    transform: translate3d(-15rem, -5rem, 0);
+    -webkit-transform: translate3d(-15rem, -5rem, 0);
+            transform: translate3d(-15rem, -5rem, 0);
   }
   .meditape .text {
     width: 80%;
@@ -3696,13 +3955,16 @@ section {
     margin-bottom: 3rem;
   }
   .meditape .text .vector {
-    transform: translate3d(0rem, 0, 0);
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
   }
   .meditape .text .ellipse {
-    transform: translate3d(4rem, 4rem, 0);
+    -webkit-transform: translate3d(4rem, 4rem, 0);
+            transform: translate3d(4rem, 4rem, 0);
   }
   .meditape .text .flower {
-    transform: translate3d(0rem, -13rem, 0);
+    -webkit-transform: translate3d(0rem, -13rem, 0);
+            transform: translate3d(0rem, -13rem, 0);
   }
   .meditape .about p {
     width: 110%;
@@ -3710,7 +3972,8 @@ section {
   }
   .meditape .girl {
     position: absolute;
-    transform: translate3d(-2rem, -15rem, 0);
+    -webkit-transform: translate3d(-2rem, -15rem, 0);
+            transform: translate3d(-2rem, -15rem, 0);
   }
   .rules {
     padding-bottom: 2.5rem;
@@ -3721,7 +3984,8 @@ section {
   }
   .rules .bg .square {
     right: 0;
-    transform: translate3d(2rem, 8rem, 0);
+    -webkit-transform: translate3d(2rem, 8rem, 0);
+            transform: translate3d(2rem, 8rem, 0);
   }
   .rules .bg .square img {
     width: 85%;
@@ -3755,11 +4019,13 @@ section {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(0rem, -8rem, 0);
+    -webkit-transform: translate3d(0rem, -8rem, 0);
+            transform: translate3d(0rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
-    transform: translate3d(-2rem, 0rem, 0);
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
   }
   .rules .letter p {
     color: #282828;
@@ -3767,10 +4033,12 @@ section {
   .rules .secondBG {
     position: absolute;
     right: 0;
-    transform: translate3d(5rem, -30rem, 0);
+    -webkit-transform: translate3d(5rem, -30rem, 0);
+            transform: translate3d(5rem, -30rem, 0);
   }
   .sleep .bg {
-    transform: translate3d(30rem, 5rem, 0);
+    -webkit-transform: translate3d(30rem, 5rem, 0);
+            transform: translate3d(30rem, 5rem, 0);
   }
   .sleep .bg img {
     width: 80%;
@@ -3794,7 +4062,8 @@ section {
     width: 110%;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(0rem, -8rem, 0);
+    -webkit-transform: translate3d(0rem, -8rem, 0);
+            transform: translate3d(0rem, -8rem, 0);
     background-color: white;
   }
   .sleep .letter img {
@@ -3821,7 +4090,8 @@ section {
     height: 627px;
     border: 6px solid #ffe8cf;
     border-radius: 50%;
-    transform: translate3d(-15rem, -3rem, 0);
+    -webkit-transform: translate3d(-15rem, -3rem, 0);
+            transform: translate3d(-15rem, -3rem, 0);
   }
   .machine .wash {
     margin-left: 3rem;
@@ -3846,11 +4116,13 @@ section {
   .machine .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-6rem, -10rem, 0);
+    -webkit-transform: translate3d(-6rem, -10rem, 0);
+            transform: translate3d(-6rem, -10rem, 0);
   }
   .machine .second {
     width: 80%;
-    transform: translate3d(3rem, 2rem, 0);
+    -webkit-transform: translate3d(3rem, 2rem, 0);
+            transform: translate3d(3rem, 2rem, 0);
   }
   .machine .second img {
     position: absolute;
@@ -3875,20 +4147,24 @@ section {
     height: 657px;
     border: 6px solid rgba(250, 202, 202, 0.3);
     border-radius: 50%;
-    transform: translate3d(-10rem, -6rem, 0);
+    -webkit-transform: translate3d(-10rem, -6rem, 0);
+            transform: translate3d(-10rem, -6rem, 0);
   }
   .last .bg .bouble-one {
     position: absolute;
-    transform: translate3d(20rem, -5rem, 0);
+    -webkit-transform: translate3d(20rem, -5rem, 0);
+            transform: translate3d(20rem, -5rem, 0);
   }
   .last .bg .bouble-two {
     position: absolute;
-    transform: translate3d(10rem, -3rem, 0);
+    -webkit-transform: translate3d(10rem, -3rem, 0);
+            transform: translate3d(10rem, -3rem, 0);
   }
   .last .bg .bouble-three {
     position: absolute;
     right: 0;
-    transform: translate3d(0rem, 5rem, 0);
+    -webkit-transform: translate3d(0rem, 5rem, 0);
+            transform: translate3d(0rem, 5rem, 0);
   }
   .last .wash {
     margin-top: 2rem;
@@ -3903,7 +4179,8 @@ section {
     position: absolute;
     width: 150%;
     left: 0;
-    transform: translate3d(0rem, -2rem, 0);
+    -webkit-transform: translate3d(0rem, -2rem, 0);
+            transform: translate3d(0rem, -2rem, 0);
   }
   .last .second {
     width: 85%;
@@ -3941,7 +4218,7 @@ section {
   }
   .header,
   .advices,
-  .listen,
+  .liste,
   .meditape,
   .rules,
   .sleep,
@@ -3996,18 +4273,21 @@ section {
     position: absolute;
   }
   .header .bg .circle {
-    transform: translate3d(-11rem, -6rem, 0);
+    -webkit-transform: translate3d(-11rem, -6rem, 0);
+            transform: translate3d(-11rem, -6rem, 0);
   }
   .header .bg .circle img {
     width: 110%;
   }
   .header .bg .line {
     position: absolute;
-    transform: translate3d(10rem, 14rem, 0);
+    -webkit-transform: translate3d(10rem, 14rem, 0);
+            transform: translate3d(10rem, 14rem, 0);
   }
   .header .bg .ellipse {
     position: absolute;
-    transform: translate3d(13rem, 3rem, 0);
+    -webkit-transform: translate3d(13rem, 3rem, 0);
+            transform: translate3d(13rem, 3rem, 0);
   }
   .advices {
     padding-bottom: 1.5rem;
@@ -4020,7 +4300,8 @@ section {
     background-color: white;
     padding: 8rem 3rem 3rem 4rem;
     margin-left: 2rem;
-    transform: translate3d(0, -8rem, 0);
+    -webkit-transform: translate3d(0, -8rem, 0);
+            transform: translate3d(0, -8rem, 0);
   }
   .advices .block h1 {
     margin-bottom: 2rem;
@@ -4034,7 +4315,8 @@ section {
     margin-left: -1rem;
   }
   .advices .line {
-    transform: translate3d(2.5rem, 2rem, 0);
+    -webkit-transform: translate3d(2.5rem, 2rem, 0);
+            transform: translate3d(2.5rem, 2rem, 0);
   }
   .advices .line img {
     width: 70%;
@@ -4046,17 +4328,18 @@ section {
     margin-bottom: 3rem;
   }
   .advices .imagine .kg {
-    transform: translate3d(-1rem, 0, 0);
+    -webkit-transform: translate3d(-1rem, 0, 0);
+            transform: translate3d(-1rem, 0, 0);
   }
   .advices .bg {
     position: absolute;
-    transform: translate3d(8.5rem, 10rem, 0);
+    -webkit-transform: translate3d(8.5rem, 10rem, 0);
+            transform: translate3d(8.5rem, 10rem, 0);
   }
   .advices .bg img {
     width: 90%;
   }
   .listen {
-    padding-bottom: 4rem;
     background-color: #E4B3BA;
   }
   .listen .logo {
@@ -4079,10 +4362,11 @@ section {
     background-color: white;
     margin-left: -1rem;
     padding: 8rem 2rem 3rem 4rem;
-    transform: translate3d(16rem, -42rem, 0);
+    -webkit-transform: translate3d(16rem, -42rem, 0);
+            transform: translate3d(16rem, -42rem, 0);
   }
   .listen .block .name .H {
-    margin-top: 2rem;
+    margin-top: 0.5rem;
   }
   .listen .block .name h1 {
     color: #282828;
@@ -4094,7 +4378,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(28rem, 19rem, 0);
+    -webkit-transform: translate3d(28rem, 19rem, 0);
+            transform: translate3d(28rem, 19rem, 0);
   }
   .listen .bg img {
     width: 70%;
@@ -4118,7 +4403,8 @@ section {
     height: 710px;
     border: 6px solid #F1E9E0;
     border-radius: 50%;
-    transform: translate3d(-15rem, -5rem, 0);
+    -webkit-transform: translate3d(-15rem, -5rem, 0);
+            transform: translate3d(-15rem, -5rem, 0);
   }
   .meditape .text {
     width: 80%;
@@ -4131,13 +4417,16 @@ section {
     margin-bottom: 3rem;
   }
   .meditape .text .vector {
-    transform: translate3d(0rem, 0, 0);
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
   }
   .meditape .text .ellipse {
-    transform: translate3d(4rem, 4rem, 0);
+    -webkit-transform: translate3d(4rem, 4rem, 0);
+            transform: translate3d(4rem, 4rem, 0);
   }
   .meditape .text .flower {
-    transform: translate3d(0rem, -13rem, 0);
+    -webkit-transform: translate3d(0rem, -13rem, 0);
+            transform: translate3d(0rem, -13rem, 0);
   }
   .meditape .about p {
     width: 110%;
@@ -4145,7 +4434,8 @@ section {
   }
   .meditape .girl {
     position: absolute;
-    transform: translate3d(-2rem, -15rem, 0);
+    -webkit-transform: translate3d(-2rem, -15rem, 0);
+            transform: translate3d(-2rem, -15rem, 0);
   }
   .rules {
     padding-bottom: 2.5rem;
@@ -4156,7 +4446,8 @@ section {
   }
   .rules .bg .square {
     right: 0;
-    transform: translate3d(1rem, 7rem, 0);
+    -webkit-transform: translate3d(1rem, 7rem, 0);
+            transform: translate3d(1rem, 7rem, 0);
   }
   .rules .bg .square img {
     width: 85%;
@@ -4190,11 +4481,13 @@ section {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(0rem, -8rem, 0);
+    -webkit-transform: translate3d(0rem, -8rem, 0);
+            transform: translate3d(0rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
-    transform: translate3d(-2rem, 0rem, 0);
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
   }
   .rules .letter p {
     color: #282828;
@@ -4202,10 +4495,12 @@ section {
   .rules .secondBG {
     position: absolute;
     right: 0;
-    transform: translate3d(5rem, -30rem, 0);
+    -webkit-transform: translate3d(5rem, -30rem, 0);
+            transform: translate3d(5rem, -30rem, 0);
   }
   .sleep .bg {
-    transform: translate3d(30rem, 5.5rem, 0);
+    -webkit-transform: translate3d(30rem, 5.5rem, 0);
+            transform: translate3d(30rem, 5.5rem, 0);
   }
   .sleep .bg img {
     width: 80%;
@@ -4229,7 +4524,8 @@ section {
     width: 110%;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(0rem, -8rem, 0);
+    -webkit-transform: translate3d(0rem, -8rem, 0);
+            transform: translate3d(0rem, -8rem, 0);
     background-color: white;
   }
   .sleep .letter img {
@@ -4256,7 +4552,8 @@ section {
     height: 627px;
     border: 6px solid #ffe8cf;
     border-radius: 50%;
-    transform: translate3d(-15rem, -3rem, 0);
+    -webkit-transform: translate3d(-15rem, -3rem, 0);
+            transform: translate3d(-15rem, -3rem, 0);
   }
   .machine .wash {
     margin-left: 3rem;
@@ -4281,11 +4578,13 @@ section {
   .machine .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-6rem, -10rem, 0);
+    -webkit-transform: translate3d(-6rem, -10rem, 0);
+            transform: translate3d(-6rem, -10rem, 0);
   }
   .machine .second {
     width: 80%;
-    transform: translate3d(3rem, 2rem, 0);
+    -webkit-transform: translate3d(3rem, 2rem, 0);
+            transform: translate3d(3rem, 2rem, 0);
   }
   .machine .second img {
     position: absolute;
@@ -4310,20 +4609,24 @@ section {
     height: 657px;
     border: 6px solid rgba(250, 202, 202, 0.3);
     border-radius: 50%;
-    transform: translate3d(-10rem, -6rem, 0);
+    -webkit-transform: translate3d(-10rem, -6rem, 0);
+            transform: translate3d(-10rem, -6rem, 0);
   }
   .last .bg .bouble-one {
     position: absolute;
-    transform: translate3d(20rem, -5rem, 0);
+    -webkit-transform: translate3d(20rem, -5rem, 0);
+            transform: translate3d(20rem, -5rem, 0);
   }
   .last .bg .bouble-two {
     position: absolute;
-    transform: translate3d(10rem, -3rem, 0);
+    -webkit-transform: translate3d(10rem, -3rem, 0);
+            transform: translate3d(10rem, -3rem, 0);
   }
   .last .bg .bouble-three {
     position: absolute;
     right: 0;
-    transform: translate3d(0rem, 5rem, 0);
+    -webkit-transform: translate3d(0rem, 5rem, 0);
+            transform: translate3d(0rem, 5rem, 0);
   }
   .last .wash {
     margin-top: 2rem;
@@ -4338,7 +4641,8 @@ section {
     position: absolute;
     width: 150%;
     left: 0;
-    transform: translate3d(0rem, -2rem, 0);
+    -webkit-transform: translate3d(0rem, -2rem, 0);
+            transform: translate3d(0rem, -2rem, 0);
   }
   .last .second {
     width: 85%;
@@ -4371,7 +4675,7 @@ section {
   }
 }
 /* >= 1200 - Extra large .col-xl */
-@media (min-width: 1277px) and (max-width: 1399.98px) {
+@media (min-width: 1277px) and (max-width: 1407.98px) {
   .header {
     min-height: 100vh;
     background-color: #91A6E3;
@@ -4398,7 +4702,8 @@ section {
     font-size: 50px;
     line-height: 66px;
     text-transform: uppercase;
-    font-feature-settings: 'cpsp' on;
+    -webkit-font-feature-settings: 'cpsp' on;
+            font-feature-settings: 'cpsp' on;
     color: #FFFFFF;
     margin-bottom: 2rem;
   }
@@ -4415,18 +4720,21 @@ section {
     position: absolute;
   }
   .header .bg .circle {
-    transform: translate3d(-5rem, -6rem, 0);
+    -webkit-transform: translate3d(-5rem, -6rem, 0);
+            transform: translate3d(-5rem, -6rem, 0);
   }
   .header .bg .circle img {
     width: 110%;
   }
   .header .bg .line {
     position: absolute;
-    transform: translate3d(15rem, 16rem, 0);
+    -webkit-transform: translate3d(15rem, 16rem, 0);
+            transform: translate3d(15rem, 16rem, 0);
   }
   .header .bg .ellipse {
     position: absolute;
-    transform: translate3d(19rem, 5rem, 0);
+    -webkit-transform: translate3d(19rem, 5rem, 0);
+            transform: translate3d(19rem, 5rem, 0);
   }
   .advices {
     min-height: 100vh;
@@ -4440,7 +4748,8 @@ section {
     background-color: white;
     padding: 8rem 3rem 3rem 4rem;
     margin-left: 2rem;
-    transform: translate3d(0, -8rem, 0);
+    -webkit-transform: translate3d(0, -8rem, 0);
+            transform: translate3d(0, -8rem, 0);
   }
   .advices .block h1 {
     font-family: 'Roboto', sans-serif;
@@ -4464,7 +4773,8 @@ section {
     margin-left: -1.5rem;
   }
   .advices .line {
-    transform: translate3d(2.5rem, 2rem, 0);
+    -webkit-transform: translate3d(2.5rem, 2rem, 0);
+            transform: translate3d(2.5rem, 2rem, 0);
   }
   .advices .line img {
     width: 70%;
@@ -4488,7 +4798,8 @@ section {
     margin-bottom: 3rem;
   }
   .advices .imagine .kg {
-    transform: translate3d(-1rem, 0, 0);
+    -webkit-transform: translate3d(-1rem, 0, 0);
+            transform: translate3d(-1rem, 0, 0);
     font-family: 'LatoBold', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -4498,7 +4809,8 @@ section {
   }
   .advices .bg {
     position: absolute;
-    transform: translate3d(14rem, 0rem, 0);
+    -webkit-transform: translate3d(14rem, 0rem, 0);
+            transform: translate3d(14rem, 0rem, 0);
   }
   .listen {
     min-height: 100vh;
@@ -4536,7 +4848,8 @@ section {
     width: 90%;
     margin-left: -2rem;
     padding: 8rem 2rem 3rem 4rem;
-    transform: translate3d(-2rem, -8rem, 0);
+    -webkit-transform: translate3d(-2rem, -8rem, 0);
+            transform: translate3d(-2rem, -8rem, 0);
   }
   .listen .block .name .H {
     margin-top: 2rem;
@@ -4554,7 +4867,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(41rem, 5rem, 0);
+    -webkit-transform: translate3d(41rem, 5rem, 0);
+            transform: translate3d(41rem, 5rem, 0);
   }
   .listen .bg img {
     width: 87%;
@@ -4580,7 +4894,8 @@ section {
     height: 747px;
     border: 6px solid #F1E9E0;
     border-radius: 50%;
-    transform: translate3d(-14rem, -5rem, 0);
+    -webkit-transform: translate3d(-14rem, -5rem, 0);
+            transform: translate3d(-14rem, -5rem, 0);
   }
   .meditape .text {
     width: 80%;
@@ -4605,13 +4920,16 @@ section {
     margin-bottom: 3rem;
   }
   .meditape .text .vector {
-    transform: translate3d(0rem, 0, 0);
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
   }
   .meditape .text .ellipse {
-    transform: translate3d(5rem, 2rem, 0);
+    -webkit-transform: translate3d(5rem, 2rem, 0);
+            transform: translate3d(5rem, 2rem, 0);
   }
   .meditape .text .flower {
-    transform: translate3d(1rem, -15rem, 0);
+    -webkit-transform: translate3d(1rem, -15rem, 0);
+            transform: translate3d(1rem, -15rem, 0);
   }
   .meditape .about p {
     font-family: 'Lato', sans-serif;
@@ -4625,7 +4943,8 @@ section {
   }
   .meditape .girl {
     position: absolute;
-    transform: translate3d(-2rem, -15rem, 0);
+    -webkit-transform: translate3d(-2rem, -15rem, 0);
+            transform: translate3d(-2rem, -15rem, 0);
   }
   .rules {
     min-height: 100vh;
@@ -4647,7 +4966,8 @@ section {
   .rules .bg .square {
     position: absolute;
     right: 0;
-    transform: translate3d(-11rem, 0rem, 0);
+    -webkit-transform: translate3d(-11rem, 0rem, 0);
+            transform: translate3d(-11rem, 0rem, 0);
   }
   .rules .bg .square img {
     width: 90%;
@@ -4697,11 +5017,13 @@ section {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(2rem, -8rem, 0);
+    -webkit-transform: translate3d(2rem, -8rem, 0);
+            transform: translate3d(2rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
-    transform: translate3d(-2rem, 0rem, 0);
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
   }
   .rules .letter p {
     font-family: 'Lato', sans-serif;
@@ -4714,7 +5036,8 @@ section {
   .rules .secondBG {
     position: absolute;
     right: 0;
-    transform: translate3d(14rem, -30rem, 0);
+    -webkit-transform: translate3d(14rem, -30rem, 0);
+            transform: translate3d(14rem, -30rem, 0);
   }
   .rules .secondBG img {
     width: 90%;
@@ -4725,7 +5048,8 @@ section {
   }
   .sleep .bg {
     position: absolute;
-    transform: translate3d(35.5rem, 1.5rem, 0);
+    -webkit-transform: translate3d(35.5rem, 1.5rem, 0);
+            transform: translate3d(35.5rem, 1.5rem, 0);
   }
   .sleep .bg img {
     width: 80%;
@@ -4758,7 +5082,8 @@ section {
   .sleep .letter {
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(-4rem, -8rem, 0);
+    -webkit-transform: translate3d(-4rem, -8rem, 0);
+            transform: translate3d(-4rem, -8rem, 0);
     background-color: white;
   }
   .sleep .letter img {
@@ -4785,7 +5110,7 @@ section {
     color: #FFFFFF;
   }
 }
-@media (min-width: 1400px) and (max-width: 1439.98px) {
+@media (min-width: 1408px) and (max-width: 1439.98px) {
   section {
     min-height: auto;
   }
@@ -4845,7 +5170,8 @@ section {
     font-size: 50px;
     line-height: 66px;
     text-transform: uppercase;
-    font-feature-settings: 'cpsp' on;
+    -webkit-font-feature-settings: 'cpsp' on;
+            font-feature-settings: 'cpsp' on;
     color: #FFFFFF;
     margin-bottom: 2rem;
   }
@@ -4862,18 +5188,21 @@ section {
     position: absolute;
   }
   .header .bg .circle {
-    transform: translate3d(-5rem, -6rem, 0);
+    -webkit-transform: translate3d(-5rem, -6rem, 0);
+            transform: translate3d(-5rem, -6rem, 0);
   }
   .header .bg .circle img {
     width: 110%;
   }
   .header .bg .line {
     position: absolute;
-    transform: translate3d(15rem, 16rem, 0);
+    -webkit-transform: translate3d(15rem, 16rem, 0);
+            transform: translate3d(15rem, 16rem, 0);
   }
   .header .bg .ellipse {
     position: absolute;
-    transform: translate3d(19rem, 5rem, 0);
+    -webkit-transform: translate3d(19rem, 5rem, 0);
+            transform: translate3d(19rem, 5rem, 0);
   }
   .advices {
     padding-bottom: 1.5rem;
@@ -4886,7 +5215,8 @@ section {
     background-color: white;
     padding: 10rem 3rem 3rem 4rem;
     margin-left: 2rem;
-    transform: translate3d(0, -8rem, 0);
+    -webkit-transform: translate3d(0, -8rem, 0);
+            transform: translate3d(0, -8rem, 0);
   }
   .advices .block h1 {
     margin-bottom: 2rem;
@@ -4898,7 +5228,8 @@ section {
     margin-left: -1rem;
   }
   .advices .line {
-    transform: translate3d(2.5rem, 2rem, 0);
+    -webkit-transform: translate3d(2.5rem, 2rem, 0);
+            transform: translate3d(2.5rem, 2rem, 0);
   }
   .advices .line img {
     width: 70%;
@@ -4910,11 +5241,13 @@ section {
     margin-bottom: 3rem;
   }
   .advices .imagine .kg {
-    transform: translate3d(-1rem, 0, 0);
+    -webkit-transform: translate3d(-1rem, 0, 0);
+            transform: translate3d(-1rem, 0, 0);
   }
   .advices .bg {
     position: absolute;
-    transform: translate3d(20rem, 1rem, 0);
+    -webkit-transform: translate3d(20rem, 1rem, 0);
+            transform: translate3d(20rem, 1rem, 0);
   }
   .advices .bg img {
     width: 90%;
@@ -4942,7 +5275,8 @@ section {
     width: 90%;
     margin-left: -2rem;
     padding: 8rem 2rem 3rem 4rem;
-    transform: translate3d(-2rem, -8rem, 0);
+    -webkit-transform: translate3d(-2rem, -8rem, 0);
+            transform: translate3d(-2rem, -8rem, 0);
   }
   .listen .block .name .H {
     margin-top: 2rem;
@@ -4955,7 +5289,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(45rem, 5.5rem, 0);
+    -webkit-transform: translate3d(45rem, 5.5rem, 0);
+            transform: translate3d(45rem, 5.5rem, 0);
   }
   .listen .bg img {
     width: 87%;
@@ -4980,7 +5315,8 @@ section {
     height: 747px;
     border: 6px solid #F1E9E0;
     border-radius: 50%;
-    transform: translate3d(-11rem, -7rem, 0);
+    -webkit-transform: translate3d(-11rem, -7rem, 0);
+            transform: translate3d(-11rem, -7rem, 0);
   }
   .meditape .text {
     width: 90%;
@@ -5005,13 +5341,16 @@ section {
     margin-bottom: 3rem;
   }
   .meditape .text .vector {
-    transform: translate3d(0rem, 0, 0);
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
   }
   .meditape .text .ellipse {
-    transform: translate3d(4rem, 4rem, 0);
+    -webkit-transform: translate3d(4rem, 4rem, 0);
+            transform: translate3d(4rem, 4rem, 0);
   }
   .meditape .text .flower {
-    transform: translate3d(0rem, -13rem, 0);
+    -webkit-transform: translate3d(0rem, -13rem, 0);
+            transform: translate3d(0rem, -13rem, 0);
   }
   .meditape .about p {
     font-family: 'Lato', sans-serif;
@@ -5025,7 +5364,8 @@ section {
   }
   .meditape .girl {
     position: absolute;
-    transform: translate3d(-2rem, -15rem, 0);
+    -webkit-transform: translate3d(-2rem, -15rem, 0);
+            transform: translate3d(-2rem, -15rem, 0);
   }
   .rules {
     padding-bottom: 7.2rem;
@@ -5039,7 +5379,8 @@ section {
   }
   .rules .bg .square {
     right: 0;
-    transform: translate3d(-16rem, 1.5rem, 0);
+    -webkit-transform: translate3d(-16rem, 1.5rem, 0);
+            transform: translate3d(-16rem, 1.5rem, 0);
   }
   .rules .bg .square img {
     width: 80%;
@@ -5072,11 +5413,13 @@ section {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(2rem, -8rem, 0);
+    -webkit-transform: translate3d(2rem, -8rem, 0);
+            transform: translate3d(2rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
-    transform: translate3d(-2rem, 0rem, 0);
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
   }
   .rules .letter p {
     color: #282828;
@@ -5084,13 +5427,15 @@ section {
   .rules .secondBG {
     position: absolute;
     right: 0;
-    transform: translate3d(14rem, -26rem, 0);
+    -webkit-transform: translate3d(14rem, -26rem, 0);
+            transform: translate3d(14rem, -26rem, 0);
   }
   .sleep {
     padding-bottom: 3rem;
   }
   .sleep .bg {
-    transform: translate3d(38rem, 0.5rem, 0);
+    -webkit-transform: translate3d(38rem, 0.5rem, 0);
+            transform: translate3d(38rem, 0.5rem, 0);
   }
   .sleep .bg img {
     width: 80%;
@@ -5112,7 +5457,8 @@ section {
   .sleep .letter {
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(-5rem, -8rem, 0);
+    -webkit-transform: translate3d(-5rem, -8rem, 0);
+            transform: translate3d(-5rem, -8rem, 0);
     background-color: white;
   }
   .sleep .letter img {
@@ -5142,7 +5488,8 @@ section {
     height: 677px;
     border: 6px solid #ffe8cf;
     border-radius: 50%;
-    transform: translate3d(-8rem, -4rem, 0);
+    -webkit-transform: translate3d(-8rem, -4rem, 0);
+            transform: translate3d(-8rem, -4rem, 0);
   }
   .machine .wash {
     margin-left: 3rem;
@@ -5170,7 +5517,8 @@ section {
     font-weight: bold;
     font-size: 12px;
     line-height: 25px;
-    text-decoration-line: underline;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
     text-transform: uppercase;
     color: #F5D7AC;
   }
@@ -5182,11 +5530,13 @@ section {
   .machine .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-6rem, -10rem, 0);
+    -webkit-transform: translate3d(-6rem, -10rem, 0);
+            transform: translate3d(-6rem, -10rem, 0);
   }
   .machine .second {
     width: 80%;
-    transform: translate3d(3rem, 2rem, 0);
+    -webkit-transform: translate3d(3rem, 2rem, 0);
+            transform: translate3d(3rem, 2rem, 0);
   }
   .machine .second img {
     position: absolute;
@@ -5261,7 +5611,8 @@ section {
     font-size: 50px;
     line-height: 66px;
     text-transform: uppercase;
-    font-feature-settings: 'cpsp' on;
+    -webkit-font-feature-settings: 'cpsp' on;
+            font-feature-settings: 'cpsp' on;
     color: #FFFFFF;
     margin-bottom: 2rem;
   }
@@ -5278,18 +5629,21 @@ section {
     position: absolute;
   }
   .header .bg .circle {
-    transform: translate3d(-5rem, -6rem, 0);
+    -webkit-transform: translate3d(-5rem, -6rem, 0);
+            transform: translate3d(-5rem, -6rem, 0);
   }
   .header .bg .circle img {
     width: 110%;
   }
   .header .bg .line {
     position: absolute;
-    transform: translate3d(19rem, 19rem, 0);
+    -webkit-transform: translate3d(19rem, 19rem, 0);
+            transform: translate3d(19rem, 19rem, 0);
   }
   .header .bg .ellipse {
     position: absolute;
-    transform: translate3d(19rem, 5rem, 0);
+    -webkit-transform: translate3d(19rem, 5rem, 0);
+            transform: translate3d(19rem, 5rem, 0);
   }
   .advices {
     padding-bottom: 1.5rem;
@@ -5302,7 +5656,8 @@ section {
     background-color: white;
     padding: 10rem 3rem 3rem 4rem;
     margin-left: 2rem;
-    transform: translate3d(0, -8rem, 0);
+    -webkit-transform: translate3d(0, -8rem, 0);
+            transform: translate3d(0, -8rem, 0);
   }
   .advices .block h1 {
     margin-bottom: 2rem;
@@ -5314,7 +5669,8 @@ section {
     margin-left: -1rem;
   }
   .advices .line {
-    transform: translate3d(2.5rem, 2rem, 0);
+    -webkit-transform: translate3d(2.5rem, 2rem, 0);
+            transform: translate3d(2.5rem, 2rem, 0);
   }
   .advices .line img {
     width: 70%;
@@ -5326,11 +5682,13 @@ section {
     margin-bottom: 3rem;
   }
   .advices .imagine .kg {
-    transform: translate3d(-1rem, 0, 0);
+    -webkit-transform: translate3d(-1rem, 0, 0);
+            transform: translate3d(-1rem, 0, 0);
   }
   .advices .bg {
     position: absolute;
-    transform: translate3d(21rem, 1rem, 0);
+    -webkit-transform: translate3d(21rem, 1rem, 0);
+            transform: translate3d(21rem, 1rem, 0);
   }
   .advices .bg img {
     width: 90%;
@@ -5358,7 +5716,8 @@ section {
     width: 90%;
     margin-left: -2rem;
     padding: 8rem 2rem 3rem 4rem;
-    transform: translate3d(-2rem, -8rem, 0);
+    -webkit-transform: translate3d(-2rem, -8rem, 0);
+            transform: translate3d(-2rem, -8rem, 0);
   }
   .listen .block .name .H {
     margin-top: 2rem;
@@ -5371,7 +5730,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(46rem, 5.5rem, 0);
+    -webkit-transform: translate3d(46rem, 5.5rem, 0);
+            transform: translate3d(46rem, 5.5rem, 0);
   }
   .listen .bg img {
     width: 87%;
@@ -5396,7 +5756,8 @@ section {
     height: 747px;
     border: 6px solid #F1E9E0;
     border-radius: 50%;
-    transform: translate3d(-9rem, -7rem, 0);
+    -webkit-transform: translate3d(-9rem, -7rem, 0);
+            transform: translate3d(-9rem, -7rem, 0);
   }
   .meditape .text {
     width: 90%;
@@ -5421,13 +5782,16 @@ section {
     margin-bottom: 3rem;
   }
   .meditape .text .vector {
-    transform: translate3d(0rem, 0, 0);
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
   }
   .meditape .text .ellipse {
-    transform: translate3d(4rem, 4rem, 0);
+    -webkit-transform: translate3d(4rem, 4rem, 0);
+            transform: translate3d(4rem, 4rem, 0);
   }
   .meditape .text .flower {
-    transform: translate3d(0rem, -13rem, 0);
+    -webkit-transform: translate3d(0rem, -13rem, 0);
+            transform: translate3d(0rem, -13rem, 0);
   }
   .meditape .about p {
     font-family: 'Lato', sans-serif;
@@ -5441,7 +5805,8 @@ section {
   }
   .meditape .girl {
     position: absolute;
-    transform: translate3d(-2rem, -15rem, 0);
+    -webkit-transform: translate3d(-2rem, -15rem, 0);
+            transform: translate3d(-2rem, -15rem, 0);
   }
   .rules {
     padding-bottom: 7.2rem;
@@ -5455,7 +5820,8 @@ section {
   }
   .rules .bg .square {
     right: 0;
-    transform: translate3d(-17rem, 0rem, 0);
+    -webkit-transform: translate3d(-17rem, 0rem, 0);
+            transform: translate3d(-17rem, 0rem, 0);
   }
   .rules .bg .square img {
     width: 80%;
@@ -5488,11 +5854,13 @@ section {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(2rem, -8rem, 0);
+    -webkit-transform: translate3d(2rem, -8rem, 0);
+            transform: translate3d(2rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
-    transform: translate3d(-2rem, 0rem, 0);
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
   }
   .rules .letter p {
     color: #282828;
@@ -5500,13 +5868,15 @@ section {
   .rules .secondBG {
     position: absolute;
     right: 0;
-    transform: translate3d(15rem, -26rem, 0);
+    -webkit-transform: translate3d(15rem, -26rem, 0);
+            transform: translate3d(15rem, -26rem, 0);
   }
   .sleep {
     padding-bottom: 4rem;
   }
   .sleep .bg {
-    transform: translate3d(38rem, 0.5rem, 0);
+    -webkit-transform: translate3d(38rem, 0.5rem, 0);
+            transform: translate3d(38rem, 0.5rem, 0);
   }
   .sleep .bg img {
     width: 80%;
@@ -5528,7 +5898,8 @@ section {
   .sleep .letter {
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(-5rem, -8rem, 0);
+    -webkit-transform: translate3d(-5rem, -8rem, 0);
+            transform: translate3d(-5rem, -8rem, 0);
     background-color: white;
   }
   .sleep .letter img {
@@ -5558,7 +5929,8 @@ section {
     height: 677px;
     border: 6px solid #ffe8cf;
     border-radius: 50%;
-    transform: translate3d(-8rem, -4rem, 0);
+    -webkit-transform: translate3d(-8rem, -4rem, 0);
+            transform: translate3d(-8rem, -4rem, 0);
   }
   .machine .wash {
     margin-left: 3rem;
@@ -5586,7 +5958,8 @@ section {
     font-weight: bold;
     font-size: 12px;
     line-height: 25px;
-    text-decoration-line: underline;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
     text-transform: uppercase;
     color: #F5D7AC;
   }
@@ -5598,11 +5971,13 @@ section {
   .machine .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-6rem, -10rem, 0);
+    -webkit-transform: translate3d(-6rem, -10rem, 0);
+            transform: translate3d(-6rem, -10rem, 0);
   }
   .machine .second {
     width: 80%;
-    transform: translate3d(3rem, 2rem, 0);
+    -webkit-transform: translate3d(3rem, 2rem, 0);
+            transform: translate3d(3rem, 2rem, 0);
   }
   .machine .second img {
     position: absolute;
@@ -5627,20 +6002,24 @@ section {
     height: 657px;
     border: 6px solid rgba(250, 202, 202, 0.3);
     border-radius: 50%;
-    transform: translate3d(-10rem, -6rem, 0);
+    -webkit-transform: translate3d(-10rem, -6rem, 0);
+            transform: translate3d(-10rem, -6rem, 0);
   }
   .last .bg .bouble-one {
     position: absolute;
-    transform: translate3d(20rem, -5rem, 0);
+    -webkit-transform: translate3d(20rem, -5rem, 0);
+            transform: translate3d(20rem, -5rem, 0);
   }
   .last .bg .bouble-two {
     position: absolute;
-    transform: translate3d(10rem, -3rem, 0);
+    -webkit-transform: translate3d(10rem, -3rem, 0);
+            transform: translate3d(10rem, -3rem, 0);
   }
   .last .bg .bouble-three {
     position: absolute;
     right: 0;
-    transform: translate3d(0rem, 5rem, 0);
+    -webkit-transform: translate3d(0rem, 5rem, 0);
+            transform: translate3d(0rem, 5rem, 0);
   }
   .last .wash {
     margin-top: 2rem;
@@ -5654,7 +6033,8 @@ section {
   .last .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-3rem, -5rem, 0);
+    -webkit-transform: translate3d(-3rem, -5rem, 0);
+            transform: translate3d(-3rem, -5rem, 0);
   }
   .last .second {
     width: 85%;
@@ -5743,18 +6123,21 @@ section {
     position: absolute;
   }
   .header .bg .circle {
-    transform: translate3d(-5rem, -6rem, 0);
+    -webkit-transform: translate3d(-5rem, -6rem, 0);
+            transform: translate3d(-5rem, -6rem, 0);
   }
   .header .bg .circle img {
     width: 110%;
   }
   .header .bg .line {
     position: absolute;
-    transform: translate3d(19rem, 19rem, 0);
+    -webkit-transform: translate3d(19rem, 19rem, 0);
+            transform: translate3d(19rem, 19rem, 0);
   }
   .header .bg .ellipse {
     position: absolute;
-    transform: translate3d(24rem, 5rem, 0);
+    -webkit-transform: translate3d(24rem, 5rem, 0);
+            transform: translate3d(24rem, 5rem, 0);
   }
   .advices {
     padding-bottom: 1.5rem;
@@ -5767,7 +6150,8 @@ section {
     background-color: white;
     padding: 11rem 3rem 3rem 4rem;
     margin-left: 2rem;
-    transform: translate3d(0, -8rem, 0);
+    -webkit-transform: translate3d(0, -8rem, 0);
+            transform: translate3d(0, -8rem, 0);
   }
   .advices .block h1 {
     margin-bottom: 2rem;
@@ -5779,7 +6163,8 @@ section {
     margin-left: -1rem;
   }
   .advices .line {
-    transform: translate3d(2.5rem, 2rem, 0);
+    -webkit-transform: translate3d(2.5rem, 2rem, 0);
+            transform: translate3d(2.5rem, 2rem, 0);
   }
   .advices .line img {
     width: 70%;
@@ -5791,11 +6176,13 @@ section {
     margin-bottom: 3rem;
   }
   .advices .imagine .kg {
-    transform: translate3d(-1rem, 0, 0);
+    -webkit-transform: translate3d(-1rem, 0, 0);
+            transform: translate3d(-1rem, 0, 0);
   }
   .advices .bg {
     position: absolute;
-    transform: translate3d(22rem, 0rem, 0);
+    -webkit-transform: translate3d(22rem, 0rem, 0);
+            transform: translate3d(22rem, 0rem, 0);
   }
   .advices .bg img {
     width: 90%;
@@ -5823,7 +6210,8 @@ section {
     width: 90%;
     margin-left: -2rem;
     padding: 8rem 2rem 3rem 4rem;
-    transform: translate3d(-2rem, -8rem, 0);
+    -webkit-transform: translate3d(-2rem, -8rem, 0);
+            transform: translate3d(-2rem, -8rem, 0);
   }
   .listen .block .name .H {
     margin-top: 2rem;
@@ -5836,7 +6224,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(48rem, 5.5rem, 0);
+    -webkit-transform: translate3d(48rem, 5.5rem, 0);
+            transform: translate3d(48rem, 5.5rem, 0);
   }
   .listen .bg img {
     width: 87%;
@@ -5861,7 +6250,8 @@ section {
     height: 747px;
     border: 6px solid #F1E9E0;
     border-radius: 50%;
-    transform: translate3d(-9rem, -7rem, 0);
+    -webkit-transform: translate3d(-9rem, -7rem, 0);
+            transform: translate3d(-9rem, -7rem, 0);
   }
   .meditape .text {
     width: 90%;
@@ -5874,20 +6264,24 @@ section {
     margin-bottom: 3rem;
   }
   .meditape .text .vector {
-    transform: translate3d(0rem, 0, 0);
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
   }
   .meditape .text .ellipse {
-    transform: translate3d(4rem, 4rem, 0);
+    -webkit-transform: translate3d(4rem, 4rem, 0);
+            transform: translate3d(4rem, 4rem, 0);
   }
   .meditape .text .flower {
-    transform: translate3d(0rem, -13rem, 0);
+    -webkit-transform: translate3d(0rem, -13rem, 0);
+            transform: translate3d(0rem, -13rem, 0);
   }
   .meditape .about p {
     margin-left: 2rem;
   }
   .meditape .girl {
     position: absolute;
-    transform: translate3d(-2rem, -15rem, 0);
+    -webkit-transform: translate3d(-2rem, -15rem, 0);
+            transform: translate3d(-2rem, -15rem, 0);
   }
   .rules {
     padding-bottom: 7.2rem;
@@ -5901,7 +6295,8 @@ section {
   }
   .rules .bg .square {
     right: 0;
-    transform: translate3d(-17rem, 0rem, 0);
+    -webkit-transform: translate3d(-17rem, 0rem, 0);
+            transform: translate3d(-17rem, 0rem, 0);
   }
   .rules .bg .square img {
     width: 80%;
@@ -5934,11 +6329,13 @@ section {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(3.5rem, -8rem, 0);
+    -webkit-transform: translate3d(3.5rem, -8rem, 0);
+            transform: translate3d(3.5rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
-    transform: translate3d(-2rem, 0rem, 0);
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
   }
   .rules .letter p {
     color: #282828;
@@ -5946,13 +6343,15 @@ section {
   .rules .secondBG {
     position: absolute;
     right: 0;
-    transform: translate3d(15rem, -26rem, 0);
+    -webkit-transform: translate3d(15rem, -26rem, 0);
+            transform: translate3d(15rem, -26rem, 0);
   }
   .sleep {
     padding-bottom: 4rem;
   }
   .sleep .bg {
-    transform: translate3d(39.5rem, 0.5rem, 0);
+    -webkit-transform: translate3d(39.5rem, 0.5rem, 0);
+            transform: translate3d(39.5rem, 0.5rem, 0);
   }
   .sleep .bg img {
     width: 80%;
@@ -5974,7 +6373,8 @@ section {
   .sleep .letter {
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(-5rem, -8rem, 0);
+    -webkit-transform: translate3d(-5rem, -8rem, 0);
+            transform: translate3d(-5rem, -8rem, 0);
     background-color: white;
   }
   .sleep .letter img {
@@ -6004,7 +6404,8 @@ section {
     height: 677px;
     border: 6px solid #ffe8cf;
     border-radius: 50%;
-    transform: translate3d(-8rem, -4rem, 0);
+    -webkit-transform: translate3d(-8rem, -4rem, 0);
+            transform: translate3d(-8rem, -4rem, 0);
   }
   .machine .wash {
     margin-left: 3rem;
@@ -6032,7 +6433,8 @@ section {
     font-weight: bold;
     font-size: 12px;
     line-height: 25px;
-    text-decoration-line: underline;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
     text-transform: uppercase;
     color: #F5D7AC;
   }
@@ -6044,11 +6446,13 @@ section {
   .machine .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-6rem, -10rem, 0);
+    -webkit-transform: translate3d(-6rem, -10rem, 0);
+            transform: translate3d(-6rem, -10rem, 0);
   }
   .machine .second {
     width: 80%;
-    transform: translate3d(3rem, 2rem, 0);
+    -webkit-transform: translate3d(3rem, 2rem, 0);
+            transform: translate3d(3rem, 2rem, 0);
   }
   .machine .second img {
     position: absolute;
@@ -6073,20 +6477,24 @@ section {
     height: 657px;
     border: 6px solid rgba(250, 202, 202, 0.3);
     border-radius: 50%;
-    transform: translate3d(-10rem, -6rem, 0);
+    -webkit-transform: translate3d(-10rem, -6rem, 0);
+            transform: translate3d(-10rem, -6rem, 0);
   }
   .last .bg .bouble-one {
     position: absolute;
-    transform: translate3d(20rem, -5rem, 0);
+    -webkit-transform: translate3d(20rem, -5rem, 0);
+            transform: translate3d(20rem, -5rem, 0);
   }
   .last .bg .bouble-two {
     position: absolute;
-    transform: translate3d(10rem, -3rem, 0);
+    -webkit-transform: translate3d(10rem, -3rem, 0);
+            transform: translate3d(10rem, -3rem, 0);
   }
   .last .bg .bouble-three {
     position: absolute;
     right: 0;
-    transform: translate3d(0rem, 5rem, 0);
+    -webkit-transform: translate3d(0rem, 5rem, 0);
+            transform: translate3d(0rem, 5rem, 0);
   }
   .last .wash {
     margin-top: 2rem;
@@ -6100,7 +6508,8 @@ section {
   .last .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-3rem, -5rem, 0);
+    -webkit-transform: translate3d(-3rem, -5rem, 0);
+            transform: translate3d(-3rem, -5rem, 0);
   }
   .last .second {
     width: 85%;
@@ -6189,18 +6598,21 @@ section {
     position: absolute;
   }
   .header .bg .circle {
-    transform: translate3d(-5rem, -6rem, 0);
+    -webkit-transform: translate3d(-5rem, -6rem, 0);
+            transform: translate3d(-5rem, -6rem, 0);
   }
   .header .bg .circle img {
     width: 110%;
   }
   .header .bg .line {
     position: absolute;
-    transform: translate3d(22rem, 21rem, 0);
+    -webkit-transform: translate3d(22rem, 21rem, 0);
+            transform: translate3d(22rem, 21rem, 0);
   }
   .header .bg .ellipse {
     position: absolute;
-    transform: translate3d(24rem, 5rem, 0);
+    -webkit-transform: translate3d(24rem, 5rem, 0);
+            transform: translate3d(24rem, 5rem, 0);
   }
   .advices {
     padding-bottom: 1.5rem;
@@ -6213,7 +6625,8 @@ section {
     background-color: white;
     padding: 9rem 3rem 3rem 4rem;
     margin-left: 2rem;
-    transform: translate3d(0, -8rem, 0);
+    -webkit-transform: translate3d(0, -8rem, 0);
+            transform: translate3d(0, -8rem, 0);
   }
   .advices .block h1 {
     margin-bottom: 2rem;
@@ -6225,7 +6638,8 @@ section {
     margin-left: -1rem;
   }
   .advices .line {
-    transform: translate3d(2.5rem, 2rem, 0);
+    -webkit-transform: translate3d(2.5rem, 2rem, 0);
+            transform: translate3d(2.5rem, 2rem, 0);
   }
   .advices .line img {
     width: 70%;
@@ -6237,11 +6651,13 @@ section {
     margin-bottom: 3rem;
   }
   .advices .imagine .kg {
-    transform: translate3d(-1rem, 0, 0);
+    -webkit-transform: translate3d(-1rem, 0, 0);
+            transform: translate3d(-1rem, 0, 0);
   }
   .advices .bg {
     position: absolute;
-    transform: translate3d(27rem, 2rem, 0);
+    -webkit-transform: translate3d(27rem, 2rem, 0);
+            transform: translate3d(27rem, 2rem, 0);
   }
   .advices .bg img {
     width: 80%;
@@ -6269,7 +6685,8 @@ section {
     width: 90%;
     margin-left: -2rem;
     padding: 8rem 2rem 3rem 4rem;
-    transform: translate3d(-2rem, -8rem, 0);
+    -webkit-transform: translate3d(-2rem, -8rem, 0);
+            transform: translate3d(-2rem, -8rem, 0);
   }
   .listen .block .name .H {
     margin-top: 2rem;
@@ -6282,7 +6699,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(50rem, 4rem, 0);
+    -webkit-transform: translate3d(50rem, 4rem, 0);
+            transform: translate3d(50rem, 4rem, 0);
   }
   .listen .bg img {
     width: 87%;
@@ -6307,7 +6725,8 @@ section {
     height: 767px;
     border: 6px solid #F1E9E0;
     border-radius: 50%;
-    transform: translate3d(-8rem, -7rem, 0);
+    -webkit-transform: translate3d(-8rem, -7rem, 0);
+            transform: translate3d(-8rem, -7rem, 0);
   }
   .meditape .text {
     width: 85%;
@@ -6320,20 +6739,24 @@ section {
     margin-bottom: 3rem;
   }
   .meditape .text .vector {
-    transform: translate3d(0rem, 0, 0);
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
   }
   .meditape .text .ellipse {
-    transform: translate3d(4rem, 4rem, 0);
+    -webkit-transform: translate3d(4rem, 4rem, 0);
+            transform: translate3d(4rem, 4rem, 0);
   }
   .meditape .text .flower {
-    transform: translate3d(0rem, -13rem, 0);
+    -webkit-transform: translate3d(0rem, -13rem, 0);
+            transform: translate3d(0rem, -13rem, 0);
   }
   .meditape .about p {
     margin-left: 2rem;
   }
   .meditape .girl {
     position: absolute;
-    transform: translate3d(-2rem, -15rem, 0);
+    -webkit-transform: translate3d(-2rem, -15rem, 0);
+            transform: translate3d(-2rem, -15rem, 0);
   }
   .rules {
     padding-bottom: 7.2rem;
@@ -6347,7 +6770,8 @@ section {
   }
   .rules .bg .square {
     right: 0;
-    transform: translate3d(-19rem, 0rem, 0);
+    -webkit-transform: translate3d(-19rem, 0rem, 0);
+            transform: translate3d(-19rem, 0rem, 0);
   }
   .rules .bg .square img {
     width: 75%;
@@ -6380,11 +6804,13 @@ section {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(3.5rem, -8rem, 0);
+    -webkit-transform: translate3d(3.5rem, -8rem, 0);
+            transform: translate3d(3.5rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
-    transform: translate3d(-2rem, 0rem, 0);
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
   }
   .rules .letter p {
     color: #282828;
@@ -6392,13 +6818,15 @@ section {
   .rules .secondBG {
     position: absolute;
     right: 0;
-    transform: translate3d(15rem, -26rem, 0);
+    -webkit-transform: translate3d(15rem, -26rem, 0);
+            transform: translate3d(15rem, -26rem, 0);
   }
   .sleep {
     padding-bottom: 4rem;
   }
   .sleep .bg {
-    transform: translate3d(41.5rem, 0.5rem, 0);
+    -webkit-transform: translate3d(41.5rem, 0.5rem, 0);
+            transform: translate3d(41.5rem, 0.5rem, 0);
   }
   .sleep .bg img {
     width: 80%;
@@ -6420,7 +6848,8 @@ section {
   .sleep .letter {
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(-5rem, -8rem, 0);
+    -webkit-transform: translate3d(-5rem, -8rem, 0);
+            transform: translate3d(-5rem, -8rem, 0);
     background-color: white;
   }
   .sleep .letter img {
@@ -6450,7 +6879,8 @@ section {
     height: 677px;
     border: 6px solid #ffe8cf;
     border-radius: 50%;
-    transform: translate3d(-6rem, -4rem, 0);
+    -webkit-transform: translate3d(-6rem, -4rem, 0);
+            transform: translate3d(-6rem, -4rem, 0);
   }
   .machine .wash {
     margin-left: 3rem;
@@ -6478,7 +6908,8 @@ section {
     font-weight: bold;
     font-size: 12px;
     line-height: 25px;
-    text-decoration-line: underline;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
     text-transform: uppercase;
     color: #F5D7AC;
   }
@@ -6490,11 +6921,13 @@ section {
   .machine .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-6rem, -10rem, 0);
+    -webkit-transform: translate3d(-6rem, -10rem, 0);
+            transform: translate3d(-6rem, -10rem, 0);
   }
   .machine .second {
     width: 80%;
-    transform: translate3d(3rem, 2rem, 0);
+    -webkit-transform: translate3d(3rem, 2rem, 0);
+            transform: translate3d(3rem, 2rem, 0);
   }
   .machine .second img {
     position: absolute;
@@ -6519,20 +6952,24 @@ section {
     height: 657px;
     border: 6px solid rgba(250, 202, 202, 0.3);
     border-radius: 50%;
-    transform: translate3d(-10rem, -6rem, 0);
+    -webkit-transform: translate3d(-10rem, -6rem, 0);
+            transform: translate3d(-10rem, -6rem, 0);
   }
   .last .bg .bouble-one {
     position: absolute;
-    transform: translate3d(20rem, -5rem, 0);
+    -webkit-transform: translate3d(20rem, -5rem, 0);
+            transform: translate3d(20rem, -5rem, 0);
   }
   .last .bg .bouble-two {
     position: absolute;
-    transform: translate3d(10rem, -3rem, 0);
+    -webkit-transform: translate3d(10rem, -3rem, 0);
+            transform: translate3d(10rem, -3rem, 0);
   }
   .last .bg .bouble-three {
     position: absolute;
     right: 0;
-    transform: translate3d(0rem, 5rem, 0);
+    -webkit-transform: translate3d(0rem, 5rem, 0);
+            transform: translate3d(0rem, 5rem, 0);
   }
   .last .wash {
     margin-top: 2rem;
@@ -6546,7 +6983,8 @@ section {
   .last .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-3rem, -5rem, 0);
+    -webkit-transform: translate3d(-3rem, -5rem, 0);
+            transform: translate3d(-3rem, -5rem, 0);
   }
   .last .second {
     width: 85%;
@@ -6601,10 +7039,10 @@ section {
     margin-top: 0rem;
   }
   .machine .second .five {
-    margin-top: 4.5rem;
+    margin-top: 3.5rem;
   }
   .machine .second .six {
-    margin-top: 4.5rem;
+    margin-top: 5rem;
   }
   .header {
     padding-bottom: 12rem;
@@ -6635,18 +7073,21 @@ section {
     position: absolute;
   }
   .header .bg .circle {
-    transform: translate3d(-2rem, -6rem, 0);
+    -webkit-transform: translate3d(-2rem, -6rem, 0);
+            transform: translate3d(-2rem, -6rem, 0);
   }
   .header .bg .circle img {
     width: 130%;
   }
   .header .bg .line {
     position: absolute;
-    transform: translate3d(22rem, 21rem, 0);
+    -webkit-transform: translate3d(22rem, 21rem, 0);
+            transform: translate3d(22rem, 21rem, 0);
   }
   .header .bg .ellipse {
     position: absolute;
-    transform: translate3d(27rem, 5rem, 0);
+    -webkit-transform: translate3d(27rem, 5rem, 0);
+            transform: translate3d(27rem, 5rem, 0);
   }
   .header .bg .ellipse img {
     width: 115%;
@@ -6662,7 +7103,8 @@ section {
     background-color: white;
     padding: 9rem 3rem 3rem 4rem;
     margin-left: 2rem;
-    transform: translate3d(0, -8rem, 0);
+    -webkit-transform: translate3d(0, -8rem, 0);
+            transform: translate3d(0, -8rem, 0);
   }
   .advices .block h1 {
     margin-bottom: 2rem;
@@ -6674,7 +7116,8 @@ section {
     margin-left: -1rem;
   }
   .advices .line {
-    transform: translate3d(2.5rem, 2rem, 0);
+    -webkit-transform: translate3d(2.5rem, 2rem, 0);
+            transform: translate3d(2.5rem, 2rem, 0);
   }
   .advices .line img {
     width: 70%;
@@ -6686,11 +7129,13 @@ section {
     margin-bottom: 3rem;
   }
   .advices .imagine .kg {
-    transform: translate3d(-1rem, 0, 0);
+    -webkit-transform: translate3d(-1rem, 0, 0);
+            transform: translate3d(-1rem, 0, 0);
   }
   .advices .bg {
     position: absolute;
-    transform: translate3d(29rem, 1.2rem, 0);
+    -webkit-transform: translate3d(29rem, 1.2rem, 0);
+            transform: translate3d(29rem, 1.2rem, 0);
   }
   .advices .bg img {
     width: 80%;
@@ -6718,7 +7163,8 @@ section {
     width: 90%;
     margin-left: -2rem;
     padding: 8rem 2rem 3rem 4rem;
-    transform: translate3d(-2rem, -8rem, 0);
+    -webkit-transform: translate3d(-2rem, -8rem, 0);
+            transform: translate3d(-2rem, -8rem, 0);
   }
   .listen .block .name .H {
     margin-top: 2rem;
@@ -6731,7 +7177,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(52rem, 4rem, 0);
+    -webkit-transform: translate3d(52rem, 4rem, 0);
+            transform: translate3d(52rem, 4rem, 0);
   }
   .listen .bg img {
     width: 87%;
@@ -6756,7 +7203,8 @@ section {
     height: 767px;
     border: 6px solid #F1E9E0;
     border-radius: 50%;
-    transform: translate3d(-8rem, -7rem, 0);
+    -webkit-transform: translate3d(-8rem, -7rem, 0);
+            transform: translate3d(-8rem, -7rem, 0);
   }
   .meditape .text {
     width: 85%;
@@ -6769,20 +7217,24 @@ section {
     margin-bottom: 3rem;
   }
   .meditape .text .vector {
-    transform: translate3d(0rem, 0, 0);
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
   }
   .meditape .text .ellipse {
-    transform: translate3d(4rem, 4rem, 0);
+    -webkit-transform: translate3d(4rem, 4rem, 0);
+            transform: translate3d(4rem, 4rem, 0);
   }
   .meditape .text .flower {
-    transform: translate3d(0rem, -13rem, 0);
+    -webkit-transform: translate3d(0rem, -13rem, 0);
+            transform: translate3d(0rem, -13rem, 0);
   }
   .meditape .about p {
     margin-left: 2rem;
   }
   .meditape .girl {
     position: absolute;
-    transform: translate3d(-2rem, -15rem, 0);
+    -webkit-transform: translate3d(-2rem, -15rem, 0);
+            transform: translate3d(-2rem, -15rem, 0);
   }
   .rules {
     padding-bottom: 7.2rem;
@@ -6796,7 +7248,8 @@ section {
   }
   .rules .bg .square {
     right: 0;
-    transform: translate3d(-22rem, 0rem, 0);
+    -webkit-transform: translate3d(-22rem, 0rem, 0);
+            transform: translate3d(-22rem, 0rem, 0);
   }
   .rules .bg .square img {
     width: 75%;
@@ -6829,11 +7282,13 @@ section {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(3.5rem, -8rem, 0);
+    -webkit-transform: translate3d(3.5rem, -8rem, 0);
+            transform: translate3d(3.5rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
-    transform: translate3d(-2rem, 0rem, 0);
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
   }
   .rules .letter p {
     color: #282828;
@@ -6841,13 +7296,15 @@ section {
   .rules .secondBG {
     position: absolute;
     right: 0;
-    transform: translate3d(16rem, -26rem, 0);
+    -webkit-transform: translate3d(16rem, -26rem, 0);
+            transform: translate3d(16rem, -26rem, 0);
   }
   .sleep {
     padding-bottom: 4rem;
   }
   .sleep .bg {
-    transform: translate3d(44rem, 0.5rem, 0);
+    -webkit-transform: translate3d(44rem, 0.5rem, 0);
+            transform: translate3d(44rem, 0.5rem, 0);
   }
   .sleep .bg img {
     width: 70%;
@@ -6869,7 +7326,8 @@ section {
   .sleep .letter {
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(-5rem, -8rem, 0);
+    -webkit-transform: translate3d(-5rem, -8rem, 0);
+            transform: translate3d(-5rem, -8rem, 0);
     background-color: white;
   }
   .sleep .letter img {
@@ -6899,7 +7357,8 @@ section {
     height: 677px;
     border: 6px solid #ffe8cf;
     border-radius: 50%;
-    transform: translate3d(-4rem, -4rem, 0);
+    -webkit-transform: translate3d(-4rem, -4rem, 0);
+            transform: translate3d(-4rem, -4rem, 0);
   }
   .machine .wash {
     margin-left: 3rem;
@@ -6927,7 +7386,8 @@ section {
     font-weight: bold;
     font-size: 12px;
     line-height: 25px;
-    text-decoration-line: underline;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
     text-transform: uppercase;
     color: #F5D7AC;
   }
@@ -6939,11 +7399,13 @@ section {
   .machine .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-6rem, -10rem, 0);
+    -webkit-transform: translate3d(-6rem, -10rem, 0);
+            transform: translate3d(-6rem, -10rem, 0);
   }
   .machine .second {
     width: 80%;
-    transform: translate3d(3rem, 2rem, 0);
+    -webkit-transform: translate3d(3rem, 2rem, 0);
+            transform: translate3d(3rem, 2rem, 0);
   }
   .machine .second img {
     position: absolute;
@@ -6968,20 +7430,24 @@ section {
     height: 657px;
     border: 6px solid rgba(250, 202, 202, 0.3);
     border-radius: 50%;
-    transform: translate3d(-10rem, -6rem, 0);
+    -webkit-transform: translate3d(-10rem, -6rem, 0);
+            transform: translate3d(-10rem, -6rem, 0);
   }
   .last .bg .bouble-one {
     position: absolute;
-    transform: translate3d(20rem, -5rem, 0);
+    -webkit-transform: translate3d(20rem, -5rem, 0);
+            transform: translate3d(20rem, -5rem, 0);
   }
   .last .bg .bouble-two {
     position: absolute;
-    transform: translate3d(10rem, -3rem, 0);
+    -webkit-transform: translate3d(10rem, -3rem, 0);
+            transform: translate3d(10rem, -3rem, 0);
   }
   .last .bg .bouble-three {
     position: absolute;
     right: 0;
-    transform: translate3d(0rem, 5rem, 0);
+    -webkit-transform: translate3d(0rem, 5rem, 0);
+            transform: translate3d(0rem, 5rem, 0);
   }
   .last .wash {
     margin-top: 2rem;
@@ -6995,7 +7461,8 @@ section {
   .last .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-3rem, -5rem, 0);
+    -webkit-transform: translate3d(-3rem, -5rem, 0);
+            transform: translate3d(-3rem, -5rem, 0);
   }
   .last .second {
     width: 85%;
@@ -7084,18 +7551,21 @@ section {
     position: absolute;
   }
   .header .bg .circle {
-    transform: translate3d(0rem, -6rem, 0);
+    -webkit-transform: translate3d(0rem, -6rem, 0);
+            transform: translate3d(0rem, -6rem, 0);
   }
   .header .bg .circle img {
     width: 130%;
   }
   .header .bg .line {
     position: absolute;
-    transform: translate3d(26rem, 22rem, 0);
+    -webkit-transform: translate3d(26rem, 22rem, 0);
+            transform: translate3d(26rem, 22rem, 0);
   }
   .header .bg .ellipse {
     position: absolute;
-    transform: translate3d(27rem, 5rem, 0);
+    -webkit-transform: translate3d(27rem, 5rem, 0);
+            transform: translate3d(27rem, 5rem, 0);
   }
   .header .bg .ellipse img {
     width: 130%;
@@ -7112,7 +7582,8 @@ section {
     background-color: white;
     padding: 9rem 3rem 3rem 4rem;
     margin-left: 2rem;
-    transform: translate3d(4rem, -8rem, 0);
+    -webkit-transform: translate3d(4rem, -8rem, 0);
+            transform: translate3d(4rem, -8rem, 0);
   }
   .advices .block h1 {
     margin-bottom: 2rem;
@@ -7124,7 +7595,8 @@ section {
     margin-left: -1rem;
   }
   .advices .line {
-    transform: translate3d(2.5rem, 2rem, 0);
+    -webkit-transform: translate3d(2.5rem, 2rem, 0);
+            transform: translate3d(2.5rem, 2rem, 0);
   }
   .advices .line img {
     width: 70%;
@@ -7136,11 +7608,13 @@ section {
     margin-bottom: 3rem;
   }
   .advices .imagine .kg {
-    transform: translate3d(-1rem, 0, 0);
+    -webkit-transform: translate3d(-1rem, 0, 0);
+            transform: translate3d(-1rem, 0, 0);
   }
   .advices .bg {
     position: absolute;
-    transform: translate3d(30rem, 4rem, 0);
+    -webkit-transform: translate3d(30rem, 4rem, 0);
+            transform: translate3d(30rem, 4rem, 0);
   }
   .advices .bg img {
     width: 80%;
@@ -7168,7 +7642,8 @@ section {
     width: 90%;
     margin-left: -2rem;
     padding: 8rem 2rem 3rem 4rem;
-    transform: translate3d(-2rem, -8rem, 0);
+    -webkit-transform: translate3d(-2rem, -8rem, 0);
+            transform: translate3d(-2rem, -8rem, 0);
   }
   .listen .block .name .H {
     margin-top: 2rem;
@@ -7181,7 +7656,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(55rem, 4.5rem, 0);
+    -webkit-transform: translate3d(55rem, 4.5rem, 0);
+            transform: translate3d(55rem, 4.5rem, 0);
   }
   .listen .bg img {
     width: 87%;
@@ -7206,7 +7682,8 @@ section {
     height: 787px;
     border: 6px solid #F1E9E0;
     border-radius: 50%;
-    transform: translate3d(-6rem, -7rem, 0);
+    -webkit-transform: translate3d(-6rem, -7rem, 0);
+            transform: translate3d(-6rem, -7rem, 0);
   }
   .meditape .text {
     width: 85%;
@@ -7219,20 +7696,24 @@ section {
     margin-bottom: 3rem;
   }
   .meditape .text .vector {
-    transform: translate3d(0rem, 0, 0);
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
   }
   .meditape .text .ellipse {
-    transform: translate3d(9rem, 6rem, 0);
+    -webkit-transform: translate3d(9rem, 6rem, 0);
+            transform: translate3d(9rem, 6rem, 0);
   }
   .meditape .text .flower {
-    transform: translate3d(3rem, -13rem, 0);
+    -webkit-transform: translate3d(3rem, -13rem, 0);
+            transform: translate3d(3rem, -13rem, 0);
   }
   .meditape .about p {
     margin-left: 2rem;
   }
   .meditape .girl {
     position: absolute;
-    transform: translate3d(-2rem, -15rem, 0);
+    -webkit-transform: translate3d(-2rem, -15rem, 0);
+            transform: translate3d(-2rem, -15rem, 0);
   }
   .rules {
     padding-bottom: 7.2rem;
@@ -7246,7 +7727,8 @@ section {
   }
   .rules .bg .square {
     right: 0;
-    transform: translate3d(-24.5rem, 0rem, 0);
+    -webkit-transform: translate3d(-24.5rem, 0rem, 0);
+            transform: translate3d(-24.5rem, 0rem, 0);
   }
   .rules .bg .square img {
     width: 70%;
@@ -7279,11 +7761,13 @@ section {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(3.5rem, -8rem, 0);
+    -webkit-transform: translate3d(3.5rem, -8rem, 0);
+            transform: translate3d(3.5rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
-    transform: translate3d(-2rem, 0rem, 0);
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
   }
   .rules .letter p {
     color: #282828;
@@ -7291,13 +7775,15 @@ section {
   .rules .secondBG {
     position: absolute;
     right: 0;
-    transform: translate3d(17rem, -26rem, 0);
+    -webkit-transform: translate3d(17rem, -26rem, 0);
+            transform: translate3d(17rem, -26rem, 0);
   }
   .sleep {
     padding-bottom: 4rem;
   }
   .sleep .bg {
-    transform: translate3d(47rem, 0.5rem, 0);
+    -webkit-transform: translate3d(47rem, 0.5rem, 0);
+            transform: translate3d(47rem, 0.5rem, 0);
   }
   .sleep .bg img {
     width: 70%;
@@ -7319,7 +7805,8 @@ section {
   .sleep .letter {
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(-5rem, -8rem, 0);
+    -webkit-transform: translate3d(-5rem, -8rem, 0);
+            transform: translate3d(-5rem, -8rem, 0);
     background-color: white;
   }
   .sleep .letter img {
@@ -7349,7 +7836,8 @@ section {
     height: 677px;
     border: 6px solid #ffe8cf;
     border-radius: 50%;
-    transform: translate3d(-4rem, -4rem, 0);
+    -webkit-transform: translate3d(-4rem, -4rem, 0);
+            transform: translate3d(-4rem, -4rem, 0);
   }
   .machine .wash {
     margin-left: 3rem;
@@ -7377,7 +7865,8 @@ section {
     font-weight: bold;
     font-size: 12px;
     line-height: 25px;
-    text-decoration-line: underline;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
     text-transform: uppercase;
     color: #F5D7AC;
   }
@@ -7389,11 +7878,13 @@ section {
   .machine .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-4rem, -10rem, 0);
+    -webkit-transform: translate3d(-4rem, -10rem, 0);
+            transform: translate3d(-4rem, -10rem, 0);
   }
   .machine .second {
     width: 80%;
-    transform: translate3d(3rem, 2rem, 0);
+    -webkit-transform: translate3d(3rem, 2rem, 0);
+            transform: translate3d(3rem, 2rem, 0);
   }
   .machine .second img {
     position: absolute;
@@ -7418,20 +7909,24 @@ section {
     height: 657px;
     border: 6px solid rgba(250, 202, 202, 0.3);
     border-radius: 50%;
-    transform: translate3d(-10rem, -6rem, 0);
+    -webkit-transform: translate3d(-10rem, -6rem, 0);
+            transform: translate3d(-10rem, -6rem, 0);
   }
   .last .bg .bouble-one {
     position: absolute;
-    transform: translate3d(20rem, -5rem, 0);
+    -webkit-transform: translate3d(20rem, -5rem, 0);
+            transform: translate3d(20rem, -5rem, 0);
   }
   .last .bg .bouble-two {
     position: absolute;
-    transform: translate3d(10rem, -3rem, 0);
+    -webkit-transform: translate3d(10rem, -3rem, 0);
+            transform: translate3d(10rem, -3rem, 0);
   }
   .last .bg .bouble-three {
     position: absolute;
     right: 0;
-    transform: translate3d(0rem, 5rem, 0);
+    -webkit-transform: translate3d(0rem, 5rem, 0);
+            transform: translate3d(0rem, 5rem, 0);
   }
   .last .wash {
     margin-top: 2rem;
@@ -7445,7 +7940,8 @@ section {
   .last .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-3rem, -5rem, 0);
+    -webkit-transform: translate3d(-3rem, -5rem, 0);
+            transform: translate3d(-3rem, -5rem, 0);
   }
   .last .second {
     width: 85%;
@@ -7500,10 +7996,10 @@ section {
     margin-top: 0rem;
   }
   .machine .second .five {
-    margin-top: 4.5rem;
+    margin-top: 3.5rem;
   }
   .machine .second .six {
-    margin-top: 3.5rem;
+    margin-top: 4rem;
   }
   .header {
     padding-bottom: 21rem;
@@ -7534,18 +8030,21 @@ section {
     position: absolute;
   }
   .header .bg .circle {
-    transform: translate3d(0rem, -8rem, 0);
+    -webkit-transform: translate3d(0rem, -8rem, 0);
+            transform: translate3d(0rem, -8rem, 0);
   }
   .header .bg .circle img {
     width: 150%;
   }
   .header .bg .line {
     position: absolute;
-    transform: translate3d(26rem, 22rem, 0);
+    -webkit-transform: translate3d(26rem, 22rem, 0);
+            transform: translate3d(26rem, 22rem, 0);
   }
   .header .bg .ellipse {
     position: absolute;
-    transform: translate3d(32rem, 2rem, 0);
+    -webkit-transform: translate3d(32rem, 2rem, 0);
+            transform: translate3d(32rem, 2rem, 0);
   }
   .header .bg .ellipse img {
     width: 160%;
@@ -7562,7 +8061,8 @@ section {
     background-color: white;
     padding: 9rem 3rem 3rem 4rem;
     margin-left: 2rem;
-    transform: translate3d(3rem, -8rem, 0);
+    -webkit-transform: translate3d(3rem, -8rem, 0);
+            transform: translate3d(3rem, -8rem, 0);
   }
   .advices .block h1 {
     margin-bottom: 2rem;
@@ -7574,13 +8074,15 @@ section {
     margin-left: -1rem;
   }
   .advices .line {
-    transform: translate3d(-7.5rem, 2rem, 0);
+    -webkit-transform: translate3d(-7.5rem, 2rem, 0);
+            transform: translate3d(-7.5rem, 2rem, 0);
   }
   .advices .line img {
     width: 70%;
   }
   .advices .imagine {
-    transform: translate3d(-10rem, 0, 0);
+    -webkit-transform: translate3d(-10rem, 0, 0);
+            transform: translate3d(-10rem, 0, 0);
     width: 60%;
   }
   .advices .imagine h3 {
@@ -7590,11 +8092,13 @@ section {
     margin-bottom: 3rem;
   }
   .advices .imagine .kg {
-    transform: translate3d(-1rem, 0, 0);
+    -webkit-transform: translate3d(-1rem, 0, 0);
+            transform: translate3d(-1rem, 0, 0);
   }
   .advices .bg {
     position: absolute;
-    transform: translate3d(24.5rem, 9rem, 0);
+    -webkit-transform: translate3d(24.5rem, 9rem, 0);
+            transform: translate3d(24.5rem, 9rem, 0);
   }
   .advices .bg img {
     width: 80%;
@@ -7622,7 +8126,8 @@ section {
     width: 80%;
     margin-left: -2rem;
     padding: 8rem 2rem 3rem 4rem;
-    transform: translate3d(-5rem, -8rem, 0);
+    -webkit-transform: translate3d(-5rem, -8rem, 0);
+            transform: translate3d(-5rem, -8rem, 0);
   }
   .listen .block .name .H {
     margin-top: 2rem;
@@ -7635,7 +8140,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(60.5rem, 5rem, 0);
+    -webkit-transform: translate3d(60.5rem, 5rem, 0);
+            transform: translate3d(60.5rem, 5rem, 0);
   }
   .listen .bg img {
     width: 87%;
@@ -7660,7 +8166,8 @@ section {
     height: 817px;
     border: 6px solid #F1E9E0;
     border-radius: 50%;
-    transform: translate3d(-6rem, -7rem, 0);
+    -webkit-transform: translate3d(-6rem, -7rem, 0);
+            transform: translate3d(-6rem, -7rem, 0);
   }
   .meditape .text {
     width: 85%;
@@ -7673,20 +8180,24 @@ section {
     margin-bottom: 3rem;
   }
   .meditape .text .vector {
-    transform: translate3d(0rem, 0, 0);
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
   }
   .meditape .text .ellipse {
-    transform: translate3d(11rem, 6rem, 0);
+    -webkit-transform: translate3d(11rem, 6rem, 0);
+            transform: translate3d(11rem, 6rem, 0);
   }
   .meditape .text .flower {
-    transform: translate3d(5rem, -13rem, 0);
+    -webkit-transform: translate3d(5rem, -13rem, 0);
+            transform: translate3d(5rem, -13rem, 0);
   }
   .meditape .about p {
     margin-left: 2rem;
   }
   .meditape .girl {
     position: absolute;
-    transform: translate3d(-2rem, -15rem, 0);
+    -webkit-transform: translate3d(-2rem, -15rem, 0);
+            transform: translate3d(-2rem, -15rem, 0);
   }
   .rules {
     padding-bottom: 7.2rem;
@@ -7700,7 +8211,8 @@ section {
   }
   .rules .bg .square {
     right: 0;
-    transform: translate3d(-34.5rem, 0rem, 0);
+    -webkit-transform: translate3d(-34.5rem, 0rem, 0);
+            transform: translate3d(-34.5rem, 0rem, 0);
   }
   .rules .bg .square img {
     width: 70%;
@@ -7733,11 +8245,13 @@ section {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(3.5rem, -8rem, 0);
+    -webkit-transform: translate3d(3.5rem, -8rem, 0);
+            transform: translate3d(3.5rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
-    transform: translate3d(-2rem, 0rem, 0);
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
   }
   .rules .letter p {
     color: #282828;
@@ -7745,10 +8259,12 @@ section {
   .rules .secondBG {
     position: absolute;
     right: 0;
-    transform: translate3d(20rem, -26rem, 0);
+    -webkit-transform: translate3d(20rem, -26rem, 0);
+            transform: translate3d(20rem, -26rem, 0);
   }
   .sleep .bg {
-    transform: translate3d(53rem, 0.5rem, 0);
+    -webkit-transform: translate3d(53rem, 0.5rem, 0);
+            transform: translate3d(53rem, 0.5rem, 0);
   }
   .sleep .bg img {
     width: 70%;
@@ -7770,7 +8286,8 @@ section {
   .sleep .letter {
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(-5rem, -8rem, 0);
+    -webkit-transform: translate3d(-5rem, -8rem, 0);
+            transform: translate3d(-5rem, -8rem, 0);
     background-color: white;
   }
   .sleep .letter img {
@@ -7801,7 +8318,8 @@ section {
     height: 707px;
     border: 6px solid #ffe8cf;
     border-radius: 50%;
-    transform: translate3d(-3rem, -4rem, 0);
+    -webkit-transform: translate3d(-3rem, -4rem, 0);
+            transform: translate3d(-3rem, -4rem, 0);
   }
   .machine .wash {
     margin-left: 3rem;
@@ -7829,7 +8347,8 @@ section {
     font-weight: bold;
     font-size: 12px;
     line-height: 25px;
-    text-decoration-line: underline;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
     text-transform: uppercase;
     color: #F5D7AC;
   }
@@ -7841,11 +8360,13 @@ section {
   .machine .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-4rem, -10rem, 0);
+    -webkit-transform: translate3d(-4rem, -10rem, 0);
+            transform: translate3d(-4rem, -10rem, 0);
   }
   .machine .second {
     width: 80%;
-    transform: translate3d(3rem, 2rem, 0);
+    -webkit-transform: translate3d(3rem, 2rem, 0);
+            transform: translate3d(3rem, 2rem, 0);
   }
   .machine .second img {
     position: absolute;
@@ -7877,20 +8398,24 @@ section {
     height: 697px;
     border: 6px solid rgba(250, 202, 202, 0.3);
     border-radius: 50%;
-    transform: translate3d(-3rem, -3rem, 0);
+    -webkit-transform: translate3d(-3rem, -3rem, 0);
+            transform: translate3d(-3rem, -3rem, 0);
   }
   .last .bg .bouble-one {
     position: absolute;
-    transform: translate3d(20rem, -5rem, 0);
+    -webkit-transform: translate3d(20rem, -5rem, 0);
+            transform: translate3d(20rem, -5rem, 0);
   }
   .last .bg .bouble-two {
     position: absolute;
-    transform: translate3d(10rem, -3rem, 0);
+    -webkit-transform: translate3d(10rem, -3rem, 0);
+            transform: translate3d(10rem, -3rem, 0);
   }
   .last .bg .bouble-three {
     position: absolute;
     right: 0;
-    transform: translate3d(0rem, 5rem, 0);
+    -webkit-transform: translate3d(0rem, 5rem, 0);
+            transform: translate3d(0rem, 5rem, 0);
   }
   .last .wash {
     margin-top: 2rem;
@@ -7904,7 +8429,8 @@ section {
   .last .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-3rem, -5rem, 0);
+    -webkit-transform: translate3d(-3rem, -5rem, 0);
+            transform: translate3d(-3rem, -5rem, 0);
   }
   .last .second {
     width: 85%;
@@ -7994,21 +8520,24 @@ section {
     position: absolute;
   }
   .header .bg .circle {
-    transform: translate3d(-4rem, -8rem, 0);
+    -webkit-transform: translate3d(-4rem, -8rem, 0);
+            transform: translate3d(-4rem, -8rem, 0);
   }
   .header .bg .circle img {
     width: 170%;
   }
   .header .bg .line {
     position: absolute;
-    transform: translate3d(33rem, 27rem, 0);
+    -webkit-transform: translate3d(33rem, 27rem, 0);
+            transform: translate3d(33rem, 27rem, 0);
   }
   .header .bg .line img {
     width: 130%;
   }
   .header .bg .ellipse {
     position: absolute;
-    transform: translate3d(32rem, 6rem, 0);
+    -webkit-transform: translate3d(32rem, 6rem, 0);
+            transform: translate3d(32rem, 6rem, 0);
   }
   .header .bg .ellipse img {
     width: 160%;
@@ -8025,7 +8554,8 @@ section {
     background-color: white;
     padding: 9rem 3rem 3rem 4rem;
     margin-left: 2rem;
-    transform: translate3d(3rem, -8rem, 0);
+    -webkit-transform: translate3d(3rem, -8rem, 0);
+            transform: translate3d(3rem, -8rem, 0);
   }
   .advices .block h1 {
     margin-bottom: 2rem;
@@ -8037,13 +8567,15 @@ section {
     margin-left: -1rem;
   }
   .advices .line {
-    transform: translate3d(-7.5rem, 2rem, 0);
+    -webkit-transform: translate3d(-7.5rem, 2rem, 0);
+            transform: translate3d(-7.5rem, 2rem, 0);
   }
   .advices .line img {
     width: 70%;
   }
   .advices .imagine {
-    transform: translate3d(-10rem, 0, 0);
+    -webkit-transform: translate3d(-10rem, 0, 0);
+            transform: translate3d(-10rem, 0, 0);
     width: 60%;
   }
   .advices .imagine h3 {
@@ -8053,11 +8585,13 @@ section {
     margin-bottom: 3rem;
   }
   .advices .imagine .kg {
-    transform: translate3d(-1rem, 0, 0);
+    -webkit-transform: translate3d(-1rem, 0, 0);
+            transform: translate3d(-1rem, 0, 0);
   }
   .advices .bg {
     position: absolute;
-    transform: translate3d(27rem, 8rem, 0);
+    -webkit-transform: translate3d(27rem, 8rem, 0);
+            transform: translate3d(27rem, 8rem, 0);
   }
   .advices .bg img {
     width: 80%;
@@ -8085,7 +8619,8 @@ section {
     width: 80%;
     margin-left: -2rem;
     padding: 8rem 2rem 3rem 4rem;
-    transform: translate3d(-10rem, -8rem, 0);
+    -webkit-transform: translate3d(-10rem, -8rem, 0);
+            transform: translate3d(-10rem, -8rem, 0);
   }
   .listen .block .name .H {
     margin-top: 2rem;
@@ -8098,7 +8633,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(60rem, 2.5rem, 0);
+    -webkit-transform: translate3d(60rem, 2.5rem, 0);
+            transform: translate3d(60rem, 2.5rem, 0);
   }
   .listen .bg img {
     width: 87%;
@@ -8123,7 +8659,8 @@ section {
     height: 837px;
     border: 6px solid #F1E9E0;
     border-radius: 50%;
-    transform: translate3d(-6rem, -7rem, 0);
+    -webkit-transform: translate3d(-6rem, -7rem, 0);
+            transform: translate3d(-6rem, -7rem, 0);
   }
   .meditape .text {
     width: 85%;
@@ -8136,20 +8673,24 @@ section {
     margin-bottom: 3rem;
   }
   .meditape .text .vector {
-    transform: translate3d(0rem, 0, 0);
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
   }
   .meditape .text .ellipse {
-    transform: translate3d(11rem, 6rem, 0);
+    -webkit-transform: translate3d(11rem, 6rem, 0);
+            transform: translate3d(11rem, 6rem, 0);
   }
   .meditape .text .flower {
-    transform: translate3d(5rem, -13rem, 0);
+    -webkit-transform: translate3d(5rem, -13rem, 0);
+            transform: translate3d(5rem, -13rem, 0);
   }
   .meditape .about p {
     margin-left: 2rem;
   }
   .meditape .girl {
     position: absolute;
-    transform: translate3d(-2rem, -15rem, 0);
+    -webkit-transform: translate3d(-2rem, -15rem, 0);
+            transform: translate3d(-2rem, -15rem, 0);
   }
   .rules {
     padding-bottom: 7.2rem;
@@ -8166,7 +8707,8 @@ section {
   }
   .rules .bg .square {
     right: 0;
-    transform: translate3d(-39.5rem, 0rem, 0);
+    -webkit-transform: translate3d(-39.5rem, 0rem, 0);
+            transform: translate3d(-39.5rem, 0rem, 0);
   }
   .rules .bg .square img {
     width: 70%;
@@ -8199,24 +8741,28 @@ section {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(3.5rem, -8rem, 0);
+    -webkit-transform: translate3d(3.5rem, -8rem, 0);
+            transform: translate3d(3.5rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
-    transform: translate3d(-2rem, 0rem, 0);
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
   }
   .rules .letter p {
     color: #282828;
   }
   .rules .secondBG {
     right: 0;
-    transform: translate3d(18rem, -26rem, 0);
+    -webkit-transform: translate3d(18rem, -26rem, 0);
+            transform: translate3d(18rem, -26rem, 0);
   }
   .rules .secondBG img {
     width: 120%;
   }
   .sleep .bg {
-    transform: translate3d(58rem, 0.5rem, 0);
+    -webkit-transform: translate3d(58rem, 0.5rem, 0);
+            transform: translate3d(58rem, 0.5rem, 0);
   }
   .sleep .bg img {
     width: 65%;
@@ -8238,7 +8784,8 @@ section {
   .sleep .letter {
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(-5rem, -8rem, 0);
+    -webkit-transform: translate3d(-5rem, -8rem, 0);
+            transform: translate3d(-5rem, -8rem, 0);
     background-color: white;
   }
   .sleep .letter img {
@@ -8269,7 +8816,8 @@ section {
     height: 707px;
     border: 6px solid #ffe8cf;
     border-radius: 50%;
-    transform: translate3d(-3rem, -4rem, 0);
+    -webkit-transform: translate3d(-3rem, -4rem, 0);
+            transform: translate3d(-3rem, -4rem, 0);
   }
   .machine .wash {
     margin-left: 3rem;
@@ -8297,7 +8845,8 @@ section {
     font-weight: bold;
     font-size: 12px;
     line-height: 25px;
-    text-decoration-line: underline;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
     text-transform: uppercase;
     color: #F5D7AC;
   }
@@ -8309,11 +8858,13 @@ section {
   .machine .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-4rem, -10rem, 0);
+    -webkit-transform: translate3d(-4rem, -10rem, 0);
+            transform: translate3d(-4rem, -10rem, 0);
   }
   .machine .second {
     width: 80%;
-    transform: translate3d(3rem, 2rem, 0);
+    -webkit-transform: translate3d(3rem, 2rem, 0);
+            transform: translate3d(3rem, 2rem, 0);
   }
   .machine .second img {
     position: absolute;
@@ -8345,20 +8896,24 @@ section {
     height: 697px;
     border: 6px solid rgba(250, 202, 202, 0.3);
     border-radius: 50%;
-    transform: translate3d(-3rem, -3rem, 0);
+    -webkit-transform: translate3d(-3rem, -3rem, 0);
+            transform: translate3d(-3rem, -3rem, 0);
   }
   .last .bg .bouble-one {
     position: absolute;
-    transform: translate3d(20rem, -5rem, 0);
+    -webkit-transform: translate3d(20rem, -5rem, 0);
+            transform: translate3d(20rem, -5rem, 0);
   }
   .last .bg .bouble-two {
     position: absolute;
-    transform: translate3d(10rem, -3rem, 0);
+    -webkit-transform: translate3d(10rem, -3rem, 0);
+            transform: translate3d(10rem, -3rem, 0);
   }
   .last .bg .bouble-three {
     position: absolute;
     right: 0;
-    transform: translate3d(0rem, 5rem, 0);
+    -webkit-transform: translate3d(0rem, 5rem, 0);
+            transform: translate3d(0rem, 5rem, 0);
   }
   .last .wash {
     margin-top: 2rem;
@@ -8372,7 +8927,8 @@ section {
   .last .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-3rem, -5rem, 0);
+    -webkit-transform: translate3d(-3rem, -5rem, 0);
+            transform: translate3d(-3rem, -5rem, 0);
   }
   .last .second {
     width: 85%;
@@ -8461,21 +9017,24 @@ section {
     position: absolute;
   }
   .header .bg .circle {
-    transform: translate3d(-2rem, -8rem, 0);
+    -webkit-transform: translate3d(-2rem, -8rem, 0);
+            transform: translate3d(-2rem, -8rem, 0);
   }
   .header .bg .circle img {
     width: 170%;
   }
   .header .bg .line {
     position: absolute;
-    transform: translate3d(34rem, 27rem, 0);
+    -webkit-transform: translate3d(34rem, 27rem, 0);
+            transform: translate3d(34rem, 27rem, 0);
   }
   .header .bg .line img {
     width: 130%;
   }
   .header .bg .ellipse {
     position: absolute;
-    transform: translate3d(32rem, 7rem, 0);
+    -webkit-transform: translate3d(32rem, 7rem, 0);
+            transform: translate3d(32rem, 7rem, 0);
   }
   .header .bg .ellipse img {
     width: 180%;
@@ -8492,7 +9051,8 @@ section {
     background-color: white;
     padding: 9rem 3rem 3rem 4rem;
     margin-left: 2rem;
-    transform: translate3d(3rem, -8rem, 0);
+    -webkit-transform: translate3d(3rem, -8rem, 0);
+            transform: translate3d(3rem, -8rem, 0);
   }
   .advices .block h1 {
     margin-bottom: 2rem;
@@ -8504,13 +9064,15 @@ section {
     margin-left: -1rem;
   }
   .advices .line {
-    transform: translate3d(-7.5rem, 2rem, 0);
+    -webkit-transform: translate3d(-7.5rem, 2rem, 0);
+            transform: translate3d(-7.5rem, 2rem, 0);
   }
   .advices .line img {
     width: 70%;
   }
   .advices .imagine {
-    transform: translate3d(-10rem, 0, 0);
+    -webkit-transform: translate3d(-10rem, 0, 0);
+            transform: translate3d(-10rem, 0, 0);
     width: 60%;
   }
   .advices .imagine h3 {
@@ -8520,11 +9082,13 @@ section {
     margin-bottom: 3rem;
   }
   .advices .imagine .kg {
-    transform: translate3d(-1rem, 0, 0);
+    -webkit-transform: translate3d(-1rem, 0, 0);
+            transform: translate3d(-1rem, 0, 0);
   }
   .advices .bg {
     position: absolute;
-    transform: translate3d(30rem, 6rem, 0);
+    -webkit-transform: translate3d(30rem, 6rem, 0);
+            transform: translate3d(30rem, 6rem, 0);
   }
   .advices .bg img {
     width: 80%;
@@ -8552,7 +9116,8 @@ section {
     width: 80%;
     margin-left: -2rem;
     padding: 8rem 2rem 3rem 4rem;
-    transform: translate3d(-12rem, -8rem, 0);
+    -webkit-transform: translate3d(-12rem, -8rem, 0);
+            transform: translate3d(-12rem, -8rem, 0);
   }
   .listen .block .name .H {
     margin-top: 2rem;
@@ -8567,7 +9132,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(63.5rem, 2.5rem, 0);
+    -webkit-transform: translate3d(63.5rem, 2.5rem, 0);
+            transform: translate3d(63.5rem, 2.5rem, 0);
   }
   .listen .bg img {
     width: 87%;
@@ -8592,7 +9158,8 @@ section {
     height: 877px;
     border: 6px solid #F1E9E0;
     border-radius: 50%;
-    transform: translate3d(-6rem, -7rem, 0);
+    -webkit-transform: translate3d(-6rem, -7rem, 0);
+            transform: translate3d(-6rem, -7rem, 0);
   }
   .meditape .text {
     width: 80%;
@@ -8605,20 +9172,24 @@ section {
     margin-bottom: 3rem;
   }
   .meditape .text .vector {
-    transform: translate3d(0rem, 0, 0);
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
   }
   .meditape .text .ellipse {
-    transform: translate3d(15rem, 6rem, 0);
+    -webkit-transform: translate3d(15rem, 6rem, 0);
+            transform: translate3d(15rem, 6rem, 0);
   }
   .meditape .text .flower {
-    transform: translate3d(9rem, -13rem, 0);
+    -webkit-transform: translate3d(9rem, -13rem, 0);
+            transform: translate3d(9rem, -13rem, 0);
   }
   .meditape .about p {
     margin-left: 2rem;
   }
   .meditape .girl {
     position: absolute;
-    transform: translate3d(-2rem, -15rem, 0);
+    -webkit-transform: translate3d(-2rem, -15rem, 0);
+            transform: translate3d(-2rem, -15rem, 0);
   }
   .rules {
     padding-bottom: 7.2rem;
@@ -8635,7 +9206,8 @@ section {
   }
   .rules .bg .square {
     right: 0;
-    transform: translate3d(-43.5rem, 0rem, 0);
+    -webkit-transform: translate3d(-43.5rem, 0rem, 0);
+            transform: translate3d(-43.5rem, 0rem, 0);
   }
   .rules .bg .square img {
     width: 60%;
@@ -8668,18 +9240,21 @@ section {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(3.5rem, -8rem, 0);
+    -webkit-transform: translate3d(3.5rem, -8rem, 0);
+            transform: translate3d(3.5rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
-    transform: translate3d(-2rem, 0rem, 0);
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
   }
   .rules .letter p {
     color: #282828;
   }
   .rules .secondBG {
     right: 0;
-    transform: translate3d(20rem, -25rem, 0);
+    -webkit-transform: translate3d(20rem, -25rem, 0);
+            transform: translate3d(20rem, -25rem, 0);
   }
   .rules .secondBG img {
     width: 120%;
@@ -8688,7 +9263,8 @@ section {
     padding-bottom: 4rem;
   }
   .sleep .bg {
-    transform: translate3d(63rem, 0.5rem, 0);
+    -webkit-transform: translate3d(63rem, 0.5rem, 0);
+            transform: translate3d(63rem, 0.5rem, 0);
   }
   .sleep .bg img {
     width: 65%;
@@ -8710,7 +9286,8 @@ section {
   .sleep .letter {
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(-5rem, -8rem, 0);
+    -webkit-transform: translate3d(-5rem, -8rem, 0);
+            transform: translate3d(-5rem, -8rem, 0);
     background-color: white;
   }
   .sleep .letter img {
@@ -8741,7 +9318,8 @@ section {
     height: 757px;
     border: 6px solid #ffe8cf;
     border-radius: 50%;
-    transform: translate3d(-3rem, -4rem, 0);
+    -webkit-transform: translate3d(-3rem, -4rem, 0);
+            transform: translate3d(-3rem, -4rem, 0);
   }
   .machine .wash {
     margin-left: 3rem;
@@ -8769,7 +9347,8 @@ section {
     font-weight: bold;
     font-size: 12px;
     line-height: 25px;
-    text-decoration-line: underline;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
     text-transform: uppercase;
     color: #F5D7AC;
   }
@@ -8781,11 +9360,13 @@ section {
   .machine .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-4rem, -10rem, 0);
+    -webkit-transform: translate3d(-4rem, -10rem, 0);
+            transform: translate3d(-4rem, -10rem, 0);
   }
   .machine .second {
     width: 80%;
-    transform: translate3d(3rem, 2rem, 0);
+    -webkit-transform: translate3d(3rem, 2rem, 0);
+            transform: translate3d(3rem, 2rem, 0);
   }
   .machine .second img {
     position: absolute;
@@ -8817,20 +9398,24 @@ section {
     height: 697px;
     border: 6px solid rgba(250, 202, 202, 0.3);
     border-radius: 50%;
-    transform: translate3d(-3rem, -3rem, 0);
+    -webkit-transform: translate3d(-3rem, -3rem, 0);
+            transform: translate3d(-3rem, -3rem, 0);
   }
   .last .bg .bouble-one {
     position: absolute;
-    transform: translate3d(45rem, -7rem, 0);
+    -webkit-transform: translate3d(45rem, -7rem, 0);
+            transform: translate3d(45rem, -7rem, 0);
   }
   .last .bg .bouble-two {
     position: absolute;
-    transform: translate3d(30rem, -3rem, 0);
+    -webkit-transform: translate3d(30rem, -3rem, 0);
+            transform: translate3d(30rem, -3rem, 0);
   }
   .last .bg .bouble-three {
     position: absolute;
     right: 0;
-    transform: translate3d(0rem, 5rem, 0);
+    -webkit-transform: translate3d(0rem, 5rem, 0);
+            transform: translate3d(0rem, 5rem, 0);
   }
   .last .wash {
     margin-top: 2rem;
@@ -8844,7 +9429,8 @@ section {
   .last .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(3rem, -5rem, 0);
+    -webkit-transform: translate3d(3rem, -5rem, 0);
+            transform: translate3d(3rem, -5rem, 0);
   }
   .last .second {
     width: 85%;
@@ -8933,21 +9519,24 @@ section {
     position: absolute;
   }
   .header .bg .circle {
-    transform: translate3d(-2rem, -8rem, 0);
+    -webkit-transform: translate3d(-2rem, -8rem, 0);
+            transform: translate3d(-2rem, -8rem, 0);
   }
   .header .bg .circle img {
     width: 190%;
   }
   .header .bg .line {
     position: absolute;
-    transform: translate3d(41rem, 31rem, 0);
+    -webkit-transform: translate3d(41rem, 31rem, 0);
+            transform: translate3d(41rem, 31rem, 0);
   }
   .header .bg .line img {
     width: 150%;
   }
   .header .bg .ellipse {
     position: absolute;
-    transform: translate3d(38rem, 7rem, 0);
+    -webkit-transform: translate3d(38rem, 7rem, 0);
+            transform: translate3d(38rem, 7rem, 0);
   }
   .header .bg .ellipse img {
     width: 195%;
@@ -8964,7 +9553,8 @@ section {
     background-color: white;
     padding: 9rem 3rem 3rem 4rem;
     margin-left: 2rem;
-    transform: translate3d(3rem, -8rem, 0);
+    -webkit-transform: translate3d(3rem, -8rem, 0);
+            transform: translate3d(3rem, -8rem, 0);
   }
   .advices .block h1 {
     margin-bottom: 2rem;
@@ -8976,13 +9566,15 @@ section {
     margin-left: -1rem;
   }
   .advices .line {
-    transform: translate3d(-9.5rem, 2rem, 0);
+    -webkit-transform: translate3d(-9.5rem, 2rem, 0);
+            transform: translate3d(-9.5rem, 2rem, 0);
   }
   .advices .line img {
     width: 70%;
   }
   .advices .imagine {
-    transform: translate3d(-12rem, 0, 0);
+    -webkit-transform: translate3d(-12rem, 0, 0);
+            transform: translate3d(-12rem, 0, 0);
     width: 60%;
   }
   .advices .imagine h3 {
@@ -8992,11 +9584,13 @@ section {
     margin-bottom: 3rem;
   }
   .advices .imagine .kg {
-    transform: translate3d(-1rem, 0, 0);
+    -webkit-transform: translate3d(-1rem, 0, 0);
+            transform: translate3d(-1rem, 0, 0);
   }
   .advices .bg {
     position: absolute;
-    transform: translate3d(36rem, 2rem, 0);
+    -webkit-transform: translate3d(36rem, 2rem, 0);
+            transform: translate3d(36rem, 2rem, 0);
   }
   .advices .bg img {
     width: 80%;
@@ -9024,7 +9618,8 @@ section {
     width: 75%;
     margin-left: -2rem;
     padding: 8rem 2rem 3rem 4rem;
-    transform: translate3d(-20rem, -8rem, 0);
+    -webkit-transform: translate3d(-20rem, -8rem, 0);
+            transform: translate3d(-20rem, -8rem, 0);
   }
   .listen .block .name .H {
     margin-top: 2rem;
@@ -9039,7 +9634,8 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(66.5rem, 6rem, 0);
+    -webkit-transform: translate3d(66.5rem, 6rem, 0);
+            transform: translate3d(66.5rem, 6rem, 0);
   }
   .listen .bg img {
     width: 77%;
@@ -9064,7 +9660,8 @@ section {
     height: 897px;
     border: 6px solid #F1E9E0;
     border-radius: 50%;
-    transform: translate3d(-6rem, -7rem, 0);
+    -webkit-transform: translate3d(-6rem, -7rem, 0);
+            transform: translate3d(-6rem, -7rem, 0);
   }
   .meditape .text {
     width: 70%;
@@ -9077,20 +9674,24 @@ section {
     margin-bottom: 3rem;
   }
   .meditape .text .vector {
-    transform: translate3d(0rem, 0, 0);
+    -webkit-transform: translate3d(0rem, 0, 0);
+            transform: translate3d(0rem, 0, 0);
   }
   .meditape .text .ellipse {
-    transform: translate3d(15rem, 6rem, 0);
+    -webkit-transform: translate3d(15rem, 6rem, 0);
+            transform: translate3d(15rem, 6rem, 0);
   }
   .meditape .text .flower {
-    transform: translate3d(9rem, -13rem, 0);
+    -webkit-transform: translate3d(9rem, -13rem, 0);
+            transform: translate3d(9rem, -13rem, 0);
   }
   .meditape .about p {
     margin-left: 2rem;
   }
   .meditape .girl {
     position: absolute;
-    transform: translate3d(-2rem, -15rem, 0);
+    -webkit-transform: translate3d(-2rem, -15rem, 0);
+            transform: translate3d(-2rem, -15rem, 0);
   }
   .rules {
     padding-bottom: 7.2rem;
@@ -9107,7 +9708,8 @@ section {
   }
   .rules .bg .square {
     right: 0;
-    transform: translate3d(-56rem, 0rem, 0);
+    -webkit-transform: translate3d(-56rem, 0rem, 0);
+            transform: translate3d(-56rem, 0rem, 0);
   }
   .rules .bg .square img {
     width: 60%;
@@ -9140,18 +9742,21 @@ section {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(3.5rem, -8rem, 0);
+    -webkit-transform: translate3d(3.5rem, -8rem, 0);
+            transform: translate3d(3.5rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
-    transform: translate3d(-2rem, 0rem, 0);
+    -webkit-transform: translate3d(-2rem, 0rem, 0);
+            transform: translate3d(-2rem, 0rem, 0);
   }
   .rules .letter p {
     color: #282828;
   }
   .rules .secondBG {
     right: 0;
-    transform: translate3d(23rem, -24rem, 0);
+    -webkit-transform: translate3d(23rem, -24rem, 0);
+            transform: translate3d(23rem, -24rem, 0);
   }
   .rules .secondBG img {
     width: 120%;
@@ -9160,7 +9765,8 @@ section {
     padding-bottom: 4rem;
   }
   .sleep .bg {
-    transform: translate3d(72rem, 0.5rem, 0);
+    -webkit-transform: translate3d(72rem, 0.5rem, 0);
+            transform: translate3d(72rem, 0.5rem, 0);
   }
   .sleep .bg img {
     width: 60%;
@@ -9182,7 +9788,8 @@ section {
   .sleep .letter {
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(-5rem, -8rem, 0);
+    -webkit-transform: translate3d(-5rem, -8rem, 0);
+            transform: translate3d(-5rem, -8rem, 0);
     background-color: white;
   }
   .sleep .letter img {
@@ -9213,7 +9820,8 @@ section {
     height: 827px;
     border: 6px solid #ffe8cf;
     border-radius: 50%;
-    transform: translate3d(-3rem, -8rem, 0);
+    -webkit-transform: translate3d(-3rem, -8rem, 0);
+            transform: translate3d(-3rem, -8rem, 0);
   }
   .machine .wash {
     margin-left: 3rem;
@@ -9241,7 +9849,8 @@ section {
     font-weight: bold;
     font-size: 12px;
     line-height: 25px;
-    text-decoration-line: underline;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
     text-transform: uppercase;
     color: #F5D7AC;
   }
@@ -9253,11 +9862,13 @@ section {
   .machine .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(-4rem, -10rem, 0);
+    -webkit-transform: translate3d(-4rem, -10rem, 0);
+            transform: translate3d(-4rem, -10rem, 0);
   }
   .machine .second {
     width: 80%;
-    transform: translate3d(3rem, 2rem, 0);
+    -webkit-transform: translate3d(3rem, 2rem, 0);
+            transform: translate3d(3rem, 2rem, 0);
   }
   .machine .second img {
     position: absolute;
@@ -9289,20 +9900,24 @@ section {
     height: 697px;
     border: 6px solid rgba(250, 202, 202, 0.3);
     border-radius: 50%;
-    transform: translate3d(-3rem, -3rem, 0);
+    -webkit-transform: translate3d(-3rem, -3rem, 0);
+            transform: translate3d(-3rem, -3rem, 0);
   }
   .last .bg .bouble-one {
     position: absolute;
-    transform: translate3d(45rem, -7rem, 0);
+    -webkit-transform: translate3d(45rem, -7rem, 0);
+            transform: translate3d(45rem, -7rem, 0);
   }
   .last .bg .bouble-two {
     position: absolute;
-    transform: translate3d(30rem, -3rem, 0);
+    -webkit-transform: translate3d(30rem, -3rem, 0);
+            transform: translate3d(30rem, -3rem, 0);
   }
   .last .bg .bouble-three {
     position: absolute;
     right: 0;
-    transform: translate3d(0rem, 5rem, 0);
+    -webkit-transform: translate3d(0rem, 5rem, 0);
+            transform: translate3d(0rem, 5rem, 0);
   }
   .last .wash {
     margin-top: 2rem;
@@ -9316,7 +9931,8 @@ section {
   .last .wash .washing {
     position: absolute;
     left: 0;
-    transform: translate3d(3rem, -5rem, 0);
+    -webkit-transform: translate3d(3rem, -5rem, 0);
+            transform: translate3d(3rem, -5rem, 0);
   }
   .last .second {
     width: 85%;
