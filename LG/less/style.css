@@ -237,7 +237,7 @@ section {
 }
 .listen .text {
   text-align: center;
-  margin-left: -10rem;
+  margin-left: -5rem;
   width: 100%;
 }
 .listen .text h1 {
@@ -259,11 +259,13 @@ section {
   margin-top: 2rem;
 }
 .listen .block {
+  position: relative;
   background-color: white;
   width: 90%;
-  margin-left: -2rem;
+  margin-left: 2rem;
   padding: 8rem 2rem 3rem 4rem;
-  transform: translate3d(-2rem, -8rem, 0);
+  transform: translate3d(0rem, -8rem, 0);
+  min-height: 427px;
 }
 .listen .block .name .H {
   margin-top: 2rem;
@@ -279,12 +281,14 @@ section {
 .listen .block .megogo {
   margin-top: 2rem;
 }
+.listen .block__bg {
+  position: relative;
+}
 .listen .bg {
   position: absolute;
-  transform: translate3d(38rem, 4.5rem, 0);
-}
-.listen .bg img {
-  width: 87%;
+  background: url(../img/page3/bg.png);
+  width: 90%;
+  min-height: 60vh;
 }
 .meditape {
   margin-bottom: -7rem;
@@ -368,14 +372,6 @@ section {
   right: 0;
   top: 1rem;
 }
-.rules .bg .square {
-  position: absolute;
-  right: 0;
-  transform: translate3d(-9rem, 2rem, 0);
-}
-.rules .bg .square img {
-  width: 90%;
-}
 .rules .logo {
   padding-top: 2rem;
   margin-left: 2rem;
@@ -417,11 +413,22 @@ section {
 .rules .first .wachin img {
   margin-top: 1rem;
 }
+.rules .letter_bg {
+  position: relative;
+}
+.rules .square {
+  position: absolute;
+  background: url(../img/page5/bg.png);
+  min-height: 52vh;
+  width: 100%;
+  left: 0;
+}
 .rules .letter {
   background-color: white;
   padding: 8rem 4rem 3rem 5rem;
   position: relative;
   transform: translate3d(2rem, -8rem, 0);
+  min-height: 371px;
 }
 .rules .letter img {
   position: absolute;
@@ -443,13 +450,6 @@ section {
 .sleep {
   min-height: 100vh;
   background-color: #E4B3BA;
-}
-.sleep .bg {
-  position: absolute;
-  transform: translate3d(33rem, 0.5rem, 0);
-}
-.sleep .bg img {
-  width: 90%;
 }
 .sleep .logo {
   padding-top: 2rem;
@@ -475,6 +475,16 @@ section {
   font-size: 26px;
   line-height: 36px;
   color: #FFFFFF;
+}
+.sleep .letter_bg {
+  position: relative;
+}
+.sleep .bg {
+  position: absolute;
+  background: url(../img/page6/square.png);
+  width: 100%;
+  min-height: 36vh;
+  left: -6.5rem;
 }
 .sleep .letter {
   padding: 8rem 4rem 3rem 5rem;
@@ -851,7 +861,7 @@ section {
     position: absolute;
     top: none;
     bottom: 2rem;
-    right: 3rem;
+    left: 3rem;
   }
   .advices .bg img {
     width: 100%;
@@ -898,13 +908,11 @@ section {
   }
   .listen .bg {
     position: absolute;
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden !important;
-    transform: translate3d(0rem, 58rem, 0);
-  }
-  .listen .bg img {
-    width: 200%;
+    background: url(../img/page3/bg.png);
+    width: 90%;
+    bottom: -2rem;
+    left: -2rem;
+    min-height: 98vh;
   }
   .meditape {
     background-color: #91A6E3;
@@ -966,13 +974,6 @@ section {
   .rules .bg .ellipse {
     display: none;
   }
-  .rules .bg .square {
-    right: 0;
-    transform: translate3d(0rem, 72rem, 0);
-  }
-  .rules .bg .square img {
-    width: 200%;
-  }
   .rules .logo {
     display: none;
   }
@@ -1000,12 +1001,20 @@ section {
   .rules .first .wachin img {
     margin-top: 1rem;
   }
+  .rules .square {
+    position: absolute;
+    background: url(../img/page5/bg.png);
+    min-height: 154vh;
+    width: 110%;
+    left: 0rem;
+    bottom: -3rem;
+  }
   .rules .letter {
     z-index: 2;
     background-color: white;
     padding: 3rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(3rem, 1rem, 0);
+    transform: translate3d(2rem, 1rem, 0);
   }
   .rules .letter img {
     position: absolute;
@@ -1017,12 +1026,6 @@ section {
   .rules .secondBG {
     transform: translate3d(5rem, -60rem, 0);
     z-index: 1;
-  }
-  .sleep .bg {
-    transform: translate3d(0rem, 79rem, 0);
-  }
-  .sleep .bg img {
-    width: 100%;
   }
   .sleep .logo {
     display: none;
@@ -1041,6 +1044,14 @@ section {
   }
   .sleep .early p {
     color: #FFFFFF;
+  }
+  .sleep .bg {
+    position: absolute;
+    background: url(../img/page6/square.png);
+    width: 125%;
+    min-height: 95vh;
+    left: -2rem;
+    bottom: -2rem;
   }
   .sleep .letter {
     width: 100%;
@@ -1204,7 +1215,7 @@ section {
     color: #E4B3BA;
   }
 }
-@media (min-width: 360px) and (max-width: 375.98px) {
+@media (min-width: 360px) and (max-width: 374.98px) {
   section {
     min-height: auto;
   }
@@ -1327,7 +1338,7 @@ section {
     position: absolute;
     top: none;
     bottom: 2rem;
-    right: 3rem;
+    left: 3rem;
   }
   .advices .bg img {
     width: 100%;
@@ -1374,13 +1385,11 @@ section {
   }
   .listen .bg {
     position: absolute;
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden !important;
-    transform: translate3d(0rem, 44rem, 0);
-  }
-  .listen .bg img {
-    width: 200%;
+    background: url(../img/page3/bg.png);
+    width: 90%;
+    bottom: -2rem;
+    left: -2rem;
+    min-height: 82vh;
   }
   .meditape {
     background-color: #91A6E3;
@@ -1442,13 +1451,6 @@ section {
   .rules .bg .ellipse {
     display: none;
   }
-  .rules .bg .square {
-    right: 0;
-    transform: translate3d(0rem, 51.5rem, 0);
-  }
-  .rules .bg .square img {
-    width: 200%;
-  }
   .rules .logo {
     display: none;
   }
@@ -1476,6 +1478,14 @@ section {
   .rules .first .wachin img {
     margin-top: 1rem;
   }
+  .rules .square {
+    position: absolute;
+    background: url(../img/page5/bg.png);
+    min-height: 104vh;
+    width: 110%;
+    left: 0rem;
+    bottom: -3rem;
+  }
   .rules .letter {
     z-index: 2;
     background-color: white;
@@ -1494,12 +1504,6 @@ section {
     transform: translate3d(5rem, -60rem, 0);
     z-index: 1;
   }
-  .sleep .bg {
-    transform: translate3d(0rem, 61rem, 0);
-  }
-  .sleep .bg img {
-    width: 100%;
-  }
   .sleep .logo {
     display: none;
   }
@@ -1517,6 +1521,14 @@ section {
   }
   .sleep .early p {
     color: #FFFFFF;
+  }
+  .sleep .bg {
+    position: absolute;
+    background: url(../img/page6/square.png);
+    width: 120%;
+    min-height: 65vh;
+    left: -2rem;
+    bottom: -2rem;
   }
   .sleep .letter {
     width: 100%;
@@ -1801,8 +1813,7 @@ section {
   }
   .advices .bg {
     position: absolute;
-    top: 22rem;
-    right: 3rem;
+    left: 3rem;
   }
   .advices .bg img {
     width: 100%;
@@ -1849,13 +1860,11 @@ section {
   }
   .listen .bg {
     position: absolute;
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden !important;
-    transform: translate3d(0rem, 52rem, 0);
-  }
-  .listen .bg img {
-    width: 160%;
+    background: url(../img/page3/bg.png);
+    width: 90%;
+    bottom: -2rem;
+    left: -0.5rem;
+    min-height: 82vh;
   }
   .meditape {
     background-color: #91A6E3;
@@ -1917,13 +1926,6 @@ section {
   .rules .bg .ellipse {
     display: none;
   }
-  .rules .bg .square {
-    right: 0;
-    transform: translate3d(0rem, 41rem, 0);
-  }
-  .rules .bg .square img {
-    width: 200%;
-  }
   .rules .logo {
     display: none;
   }
@@ -1951,6 +1953,14 @@ section {
   .rules .first .wachin img {
     margin-top: 1rem;
   }
+  .rules .square {
+    position: absolute;
+    background: url(../img/page5/bg.png);
+    min-height: 94vh;
+    width: 110%;
+    left: 0rem;
+    bottom: -3rem;
+  }
   .rules .letter {
     z-index: 2;
     background-color: white;
@@ -1968,15 +1978,6 @@ section {
   .rules .secondBG {
     transform: translate3d(5rem, -60rem, 0);
     z-index: 1;
-  }
-  .sleep .bg {
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden !important;
-    transform: translate3d(0rem, 47.5rem, 0);
-  }
-  .sleep .bg img {
-    width: 170%;
   }
   .sleep .logo {
     display: none;
@@ -1996,11 +1997,19 @@ section {
   .sleep .early p {
     color: #FFFFFF;
   }
+  .sleep .bg {
+    position: absolute;
+    background: url(../img/page6/square.png);
+    width: 120%;
+    min-height: 60vh;
+    left: -2rem;
+    bottom: -2rem;
+  }
   .sleep .letter {
     width: 100%;
     padding: 3rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(0rem, 0rem, 0);
+    transform: translate3d(1rem, 0rem, 0);
     background-color: white;
     margin-top: 3rem;
     margin-left: 2.2rem;
@@ -2275,8 +2284,7 @@ section {
   }
   .advices .bg {
     position: absolute;
-    top: 8rem;
-    right: 0rem;
+    left: 3rem;
   }
   .advices .bg img {
     width: 100%;
@@ -2322,10 +2330,11 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(0rem, 62rem, 0);
-  }
-  .listen .bg img {
-    width: 100%;
+    background: url(../img/page3/bg.png);
+    width: 90%;
+    bottom: -2rem;
+    left: 0rem;
+    min-height: 82vh;
   }
   .meditape {
     background-color: #91A6E3;
@@ -2387,13 +2396,6 @@ section {
   .rules .bg .ellipse {
     display: none;
   }
-  .rules .bg .square {
-    right: 0;
-    transform: translate3d(0rem, 51rem, 0);
-  }
-  .rules .bg .square img {
-    width: 120%;
-  }
   .rules .logo {
     display: none;
   }
@@ -2421,6 +2423,14 @@ section {
   .rules .first .wachin img {
     margin-top: 1rem;
   }
+  .rules .square {
+    position: absolute;
+    background: url(../img/page5/bg.png);
+    min-height: 76vh;
+    width: 110%;
+    left: 0rem;
+    bottom: -3rem;
+  }
   .rules .letter {
     z-index: 2;
     background-color: white;
@@ -2438,12 +2448,6 @@ section {
   .rules .secondBG {
     transform: translate3d(4rem, -56rem, 0);
     z-index: 1;
-  }
-  .sleep .bg {
-    transform: translate3d(0rem, 53rem, 0);
-  }
-  .sleep .bg img {
-    width: 100%;
   }
   .sleep .logo {
     display: none;
@@ -2463,11 +2467,19 @@ section {
   .sleep .early p {
     color: #FFFFFF;
   }
+  .sleep .bg {
+    position: absolute;
+    background: url(../img/page6/square.png);
+    width: 120%;
+    min-height: 45vh;
+    left: -2rem;
+    bottom: -2rem;
+  }
   .sleep .letter {
     width: 100%;
     padding: 3rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(0rem, 0rem, 0);
+    transform: translate3d(0.5rem, 0rem, 0);
     background-color: white;
     margin-top: 3rem;
     margin-left: 2.2rem;
@@ -2767,7 +2779,7 @@ section {
   }
   .listen .block {
     background-color: white;
-    margin-left: -1rem;
+    margin-left: 1rem;
     padding: 3rem 2rem 3rem 4rem;
     transform: translate3d(0, 0rem, 0);
   }
@@ -2784,10 +2796,11 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(2rem, 49rem, 0);
-  }
-  .listen .bg img {
-    width: 80%;
+    background: url(../img/page3/bg.png);
+    width: 90%;
+    bottom: -2rem;
+    left: -1.5rem;
+    min-height: 73vh;
   }
   .meditape {
     background-color: #91A6E3;
@@ -2849,13 +2862,6 @@ section {
   .rules .bg .ellipse {
     display: none;
   }
-  .rules .bg .square {
-    right: 0;
-    transform: translate3d(0.5rem, 37rem, 0);
-  }
-  .rules .bg .square img {
-    width: 80%;
-  }
   .rules .logo {
     display: none;
   }
@@ -2883,6 +2889,14 @@ section {
   .rules .first .wachin img {
     margin-top: 1rem;
   }
+  .rules .square {
+    position: absolute;
+    background: url(../img/page5/bg.png);
+    min-height: 56vh;
+    width: 100%;
+    left: 2.5rem;
+    bottom: -3rem;
+  }
   .rules .letter {
     z-index: 2;
     background-color: white;
@@ -2901,12 +2915,6 @@ section {
     transform: translate3d(4rem, -40rem, 0);
     z-index: 1;
   }
-  .sleep .bg {
-    transform: translate3d(5rem, 39rem, 0);
-  }
-  .sleep .bg img {
-    width: 75%;
-  }
   .sleep .logo {
     display: none;
   }
@@ -2924,6 +2932,14 @@ section {
   }
   .sleep .early p {
     color: #FFFFFF;
+  }
+  .sleep .bg {
+    position: absolute;
+    background: url(../img/page6/square.png);
+    width: 100%;
+    min-height: 45vh;
+    left: -2rem;
+    bottom: -2rem;
   }
   .sleep .letter {
     width: 110%;
@@ -3239,10 +3255,11 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(8rem, 45rem, 0);
-  }
-  .listen .bg img {
-    width: 80%;
+    background: url(../img/page3/bg.png);
+    width: 90%;
+    bottom: -2rem;
+    left: -3.5rem;
+    min-height: 46vh;
   }
   .meditape {
     background-color: #91A6E3;
@@ -3300,13 +3317,6 @@ section {
     top: 1rem;
     transform: translate3d(8rem, 0, 0);
   }
-  .rules .bg .square {
-    right: 0;
-    transform: translate3d(-6.5rem, 31rem, 0);
-  }
-  .rules .bg .square img {
-    width: 90%;
-  }
   .rules .logo {
     padding-top: 2rem;
     margin-left: 2rem;
@@ -3331,6 +3341,14 @@ section {
   .rules .first .wachin img {
     margin-top: 1rem;
   }
+  .rules .square {
+    position: absolute;
+    background: url(../img/page5/bg.png);
+    min-height: 36vh;
+    width: 90%;
+    left: 2.5rem;
+    bottom: 0rem;
+  }
   .rules .letter {
     background-color: white;
     padding: 3rem 4rem 3rem 5rem;
@@ -3349,12 +3367,6 @@ section {
     right: 0;
     transform: translate3d(14rem, -24rem, 0);
   }
-  .sleep .bg {
-    transform: translate3d(10rem, 38rem, 0);
-  }
-  .sleep .bg img {
-    width: 80%;
-  }
   .sleep .logo {
     padding-top: 2rem;
     margin-left: 2rem;
@@ -3370,6 +3382,14 @@ section {
   }
   .sleep .early p {
     color: #FFFFFF;
+  }
+  .sleep .bg {
+    position: absolute;
+    background: url(../img/page6/square.png);
+    width: 100%;
+    min-height: 30vh;
+    left: -2rem;
+    bottom: -2rem;
   }
   .sleep .letter {
     width: 110%;
@@ -3661,7 +3681,7 @@ section {
   .listen .text {
     text-align: center;
     width: 70%;
-    margin-left: -7rem;
+    margin-left: -3rem;
   }
   .listen .text h1 {
     margin-bottom: 2rem;
@@ -3672,9 +3692,9 @@ section {
   .listen .block {
     position: absolute;
     background-color: white;
-    margin-left: -1rem;
+    margin-left: -2rem;
     padding: 8rem 2rem 3rem 4rem;
-    transform: translate3d(16rem, -46rem, 0);
+    transform: translate3d(0rem, -8rem, 0);
   }
   .listen .block .name .H {
     margin-top: 2rem;
@@ -3689,10 +3709,10 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(28rem, 15rem, 0);
-  }
-  .listen .bg img {
-    width: 70%;
+    background: url(../img/page3/bg.png);
+    width: 90%;
+    min-height: 53vh;
+    left: -4rem;
   }
   .meditape {
     background-color: #91A6E3;
@@ -3752,13 +3772,6 @@ section {
     right: 0;
     top: 1rem;
   }
-  .rules .bg .square {
-    right: 0;
-    transform: translate3d(2rem, 8rem, 0);
-  }
-  .rules .bg .square img {
-    width: 85%;
-  }
   .rules .logo {
     padding-top: 2rem;
     margin-left: 2rem;
@@ -3783,6 +3796,14 @@ section {
   .rules .first .wachin img {
     margin-top: 1rem;
   }
+  .rules .square {
+    position: absolute;
+    background: url(../img/page5/bg.png);
+    min-height: 56vh;
+    width: 90%;
+    left: -2rem;
+    bottom: 6rem;
+  }
   .rules .letter {
     width: 90%;
     background-color: white;
@@ -3802,12 +3823,6 @@ section {
     right: 0;
     transform: translate3d(5rem, -30rem, 0);
   }
-  .sleep .bg {
-    transform: translate3d(30rem, 5rem, 0);
-  }
-  .sleep .bg img {
-    width: 80%;
-  }
   .sleep .logo {
     padding-top: 2rem;
     margin-left: 2rem;
@@ -3822,6 +3837,14 @@ section {
   }
   .sleep .early p {
     color: #FFFFFF;
+  }
+  .sleep .bg {
+    position: absolute;
+    background: url(../img/page6/square.png);
+    width: 100%;
+    min-height: 34vh;
+    left: -2rem;
+    bottom: 6rem;
   }
   .sleep .letter {
     width: 110%;
@@ -4103,7 +4126,7 @@ section {
   .listen .text {
     text-align: center;
     width: 70%;
-    margin-left: -7rem;
+    margin-left: -4rem;
   }
   .listen .text h1 {
     margin-bottom: 2rem;
@@ -4114,9 +4137,9 @@ section {
   .listen .block {
     position: absolute;
     background-color: white;
-    margin-left: -1rem;
+    margin-left: -2rem;
     padding: 8rem 2rem 3rem 4rem;
-    transform: translate3d(16rem, -42rem, 0);
+    transform: translate3d(0rem, -8rem, 0);
   }
   .listen .block .name .H {
     margin-top: 2rem;
@@ -4131,10 +4154,10 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(28rem, 19rem, 0);
-  }
-  .listen .bg img {
-    width: 70%;
+    background: url(../img/page3/bg.png);
+    width: 90%;
+    min-height: 72vh;
+    left: -4rem;
   }
   .meditape {
     background-color: #91A6E3;
@@ -4191,13 +4214,6 @@ section {
     right: 0;
     top: 1rem;
   }
-  .rules .bg .square {
-    right: 0;
-    transform: translate3d(1rem, 7rem, 0);
-  }
-  .rules .bg .square img {
-    width: 85%;
-  }
   .rules .logo {
     padding-top: 2rem;
     margin-left: 2rem;
@@ -4222,6 +4238,14 @@ section {
   .rules .first .wachin img {
     margin-top: 1rem;
   }
+  .rules .square {
+    position: absolute;
+    background: url(../img/page5/bg.png);
+    min-height: 56vh;
+    width: 90%;
+    left: -2rem;
+    bottom: 6rem;
+  }
   .rules .letter {
     width: 90%;
     background-color: white;
@@ -4241,12 +4265,6 @@ section {
     right: 0;
     transform: translate3d(5rem, -30rem, 0);
   }
-  .sleep .bg {
-    transform: translate3d(30rem, 5.5rem, 0);
-  }
-  .sleep .bg img {
-    width: 80%;
-  }
   .sleep .logo {
     padding-top: 2rem;
     margin-left: 2rem;
@@ -4261,6 +4279,14 @@ section {
   }
   .sleep .early p {
     color: #FFFFFF;
+  }
+  .sleep .bg {
+    position: absolute;
+    background: url(../img/page6/square.png);
+    width: 100%;
+    min-height: 37vh;
+    left: -2rem;
+    bottom: 6rem;
   }
   .sleep .letter {
     width: 110%;
@@ -4555,7 +4581,7 @@ section {
   }
   .listen .text {
     text-align: center;
-    margin-left: -10rem;
+    margin-left: -5rem;
     width: 100%;
   }
   .listen .text h1 {
@@ -4567,9 +4593,9 @@ section {
   .listen .block {
     background-color: white;
     width: 90%;
-    margin-left: -2rem;
+    margin-left: 3rem;
     padding: 8rem 2rem 3rem 4rem;
-    transform: translate3d(-2rem, -8rem, 0);
+    transform: translate3d(0rem, -8rem, 0);
   }
   .listen .block .name .H {
     margin-top: 2rem;
@@ -4582,10 +4608,10 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(45rem, 5.5rem, 0);
-  }
-  .listen .bg img {
-    width: 87%;
+    background: url(../img/page3/bg.png);
+    width: 90%;
+    min-height: 40vh;
+    bottom: 5rem;
   }
   .meditape {
     margin-bottom: 0rem;
@@ -4664,13 +4690,6 @@ section {
     right: 0;
     top: 1rem;
   }
-  .rules .bg .square {
-    right: 0;
-    transform: translate3d(-16rem, 1.5rem, 0);
-  }
-  .rules .bg .square img {
-    width: 80%;
-  }
   .rules .logo {
     padding-top: 2rem;
     margin-left: 2rem;
@@ -4695,6 +4714,14 @@ section {
   .rules .first .wachin img {
     margin-top: 1rem;
   }
+  .rules .square {
+    position: absolute;
+    background: url(../img/page5/bg.png);
+    min-height: 45vh;
+    width: 100%;
+    left: 0;
+    bottom: 6rem;
+  }
   .rules .letter {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
@@ -4716,12 +4743,6 @@ section {
   .sleep {
     padding-bottom: 3rem;
   }
-  .sleep .bg {
-    transform: translate3d(38rem, 0.5rem, 0);
-  }
-  .sleep .bg img {
-    width: 80%;
-  }
   .sleep .logo {
     padding-top: 2rem;
     margin-left: 2rem;
@@ -4735,6 +4756,14 @@ section {
   }
   .sleep .early p {
     color: #FFFFFF;
+  }
+  .sleep .bg {
+    position: absolute;
+    background: url(../img/page6/square.png);
+    width: 100%;
+    min-height: 33vh;
+    left: -6.5rem;
+    bottom: 6rem;
   }
   .sleep .letter {
     padding: 8rem 4rem 3rem 5rem;
@@ -4975,7 +5004,7 @@ section {
   }
   .listen .text {
     text-align: center;
-    margin-left: -10rem;
+    margin-left: -5rem;
     width: 100%;
   }
   .listen .text h1 {
@@ -4987,9 +5016,9 @@ section {
   .listen .block {
     background-color: white;
     width: 90%;
-    margin-left: -2rem;
+    margin-left: 3rem;
     padding: 8rem 2rem 3rem 4rem;
-    transform: translate3d(-2rem, -8rem, 0);
+    transform: translate3d(0rem, -8rem, 0);
   }
   .listen .block .name .H {
     margin-top: 2rem;
@@ -5002,10 +5031,10 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(46rem, 5.5rem, 0);
-  }
-  .listen .bg img {
-    width: 87%;
+    background: url(../img/page3/bg.png);
+    width: 90%;
+    min-height: 50vh;
+    bottom: 5rem;
   }
   .meditape {
     margin-bottom: 0rem;
@@ -5084,13 +5113,6 @@ section {
     right: 0;
     top: 1rem;
   }
-  .rules .bg .square {
-    right: 0;
-    transform: translate3d(-17rem, 0rem, 0);
-  }
-  .rules .bg .square img {
-    width: 80%;
-  }
   .rules .logo {
     padding-top: 2rem;
     margin-left: 2rem;
@@ -5115,6 +5137,14 @@ section {
   .rules .first .wachin img {
     margin-top: 1rem;
   }
+  .rules .square {
+    position: absolute;
+    background: url(../img/page5/bg.png);
+    min-height: 45vh;
+    width: 100%;
+    left: 0;
+    bottom: 6rem;
+  }
   .rules .letter {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
@@ -5136,12 +5166,6 @@ section {
   .sleep {
     padding-bottom: 4rem;
   }
-  .sleep .bg {
-    transform: translate3d(38rem, 0.5rem, 0);
-  }
-  .sleep .bg img {
-    width: 80%;
-  }
   .sleep .logo {
     padding-top: 2rem;
     margin-left: 2rem;
@@ -5155,6 +5179,14 @@ section {
   }
   .sleep .early p {
     color: #FFFFFF;
+  }
+  .sleep .bg {
+    position: absolute;
+    background: url(../img/page6/square.png);
+    width: 100%;
+    min-height: 32vh;
+    left: -6.5rem;
+    bottom: 6.5rem;
   }
   .sleep .letter {
     padding: 8rem 4rem 3rem 5rem;
@@ -5444,7 +5476,7 @@ section {
   }
   .listen .text {
     text-align: center;
-    margin-left: -10rem;
+    margin-left: -5rem;
     width: 100%;
   }
   .listen .text h1 {
@@ -5456,9 +5488,9 @@ section {
   .listen .block {
     background-color: white;
     width: 90%;
-    margin-left: -2rem;
+    margin-left: 3rem;
     padding: 8rem 2rem 3rem 4rem;
-    transform: translate3d(-2rem, -8rem, 0);
+    transform: translate3d(0rem, -8rem, 0);
   }
   .listen .block .name .H {
     margin-top: 2rem;
@@ -5471,10 +5503,10 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(48rem, 5.5rem, 0);
-  }
-  .listen .bg img {
-    width: 87%;
+    background: url(../img/page3/bg.png);
+    width: 90%;
+    min-height: 50vh;
+    bottom: 5rem;
   }
   .meditape {
     margin-bottom: 0rem;
@@ -5534,13 +5566,6 @@ section {
     right: 0;
     top: 1rem;
   }
-  .rules .bg .square {
-    right: 0;
-    transform: translate3d(-17rem, 0rem, 0);
-  }
-  .rules .bg .square img {
-    width: 80%;
-  }
   .rules .logo {
     padding-top: 2rem;
     margin-left: 2rem;
@@ -5565,11 +5590,19 @@ section {
   .rules .first .wachin img {
     margin-top: 1rem;
   }
+  .rules .square {
+    position: absolute;
+    background: url(../img/page5/bg.png);
+    min-height: 45vh;
+    width: 100%;
+    left: 0;
+    bottom: 6rem;
+  }
   .rules .letter {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(3.5rem, -8rem, 0);
+    transform: translate3d(2rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
@@ -5586,12 +5619,6 @@ section {
   .sleep {
     padding-bottom: 4rem;
   }
-  .sleep .bg {
-    transform: translate3d(39.5rem, 0.5rem, 0);
-  }
-  .sleep .bg img {
-    width: 80%;
-  }
   .sleep .logo {
     padding-top: 2rem;
     margin-left: 2rem;
@@ -5605,6 +5632,14 @@ section {
   }
   .sleep .early p {
     color: #FFFFFF;
+  }
+  .sleep .bg {
+    position: absolute;
+    background: url(../img/page6/square.png);
+    width: 100%;
+    min-height: 32vh;
+    left: -6.5rem;
+    bottom: 6rem;
   }
   .sleep .letter {
     padding: 8rem 4rem 3rem 5rem;
@@ -5894,7 +5929,7 @@ section {
   }
   .listen .text {
     text-align: center;
-    margin-left: -10rem;
+    margin-left: -5rem;
     width: 100%;
   }
   .listen .text h1 {
@@ -5906,9 +5941,9 @@ section {
   .listen .block {
     background-color: white;
     width: 90%;
-    margin-left: -2rem;
+    margin-left: 3rem;
     padding: 8rem 2rem 3rem 4rem;
-    transform: translate3d(-2rem, -8rem, 0);
+    transform: translate3d(0rem, -8rem, 0);
   }
   .listen .block .name .H {
     margin-top: 2rem;
@@ -5921,10 +5956,10 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(50rem, 4rem, 0);
-  }
-  .listen .bg img {
-    width: 87%;
+    background: url(../img/page3/bg.png);
+    width: 90%;
+    min-height: 50vh;
+    bottom: 5rem;
   }
   .meditape {
     margin-bottom: 0rem;
@@ -5984,13 +6019,6 @@ section {
     right: 0;
     top: 1rem;
   }
-  .rules .bg .square {
-    right: 0;
-    transform: translate3d(-19rem, 0rem, 0);
-  }
-  .rules .bg .square img {
-    width: 75%;
-  }
   .rules .logo {
     padding-top: 2rem;
     margin-left: 2rem;
@@ -6015,11 +6043,19 @@ section {
   .rules .first .wachin img {
     margin-top: 1rem;
   }
+  .rules .square {
+    position: absolute;
+    background: url(../img/page5/bg.png);
+    min-height: 45vh;
+    width: 100%;
+    left: 0;
+    bottom: 6rem;
+  }
   .rules .letter {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(3.5rem, -8rem, 0);
+    transform: translate3d(2rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
@@ -6036,12 +6072,6 @@ section {
   .sleep {
     padding-bottom: 4rem;
   }
-  .sleep .bg {
-    transform: translate3d(41.5rem, 0.5rem, 0);
-  }
-  .sleep .bg img {
-    width: 80%;
-  }
   .sleep .logo {
     padding-top: 2rem;
     margin-left: 2rem;
@@ -6055,6 +6085,14 @@ section {
   }
   .sleep .early p {
     color: #FFFFFF;
+  }
+  .sleep .bg {
+    position: absolute;
+    background: url(../img/page6/square.png);
+    width: 100%;
+    min-height: 32vh;
+    left: -6.5rem;
+    bottom: 6rem;
   }
   .sleep .letter {
     padding: 8rem 4rem 3rem 5rem;
@@ -6348,7 +6386,7 @@ section {
   }
   .listen .text {
     text-align: center;
-    margin-left: -10rem;
+    margin-left: -5rem;
     width: 100%;
   }
   .listen .text h1 {
@@ -6360,9 +6398,9 @@ section {
   .listen .block {
     background-color: white;
     width: 90%;
-    margin-left: -2rem;
+    margin-left: 3rem;
     padding: 8rem 2rem 3rem 4rem;
-    transform: translate3d(-2rem, -8rem, 0);
+    transform: translate3d(0rem, -8rem, 0);
   }
   .listen .block .name .H {
     margin-top: 2rem;
@@ -6375,10 +6413,10 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(52rem, 4rem, 0);
-  }
-  .listen .bg img {
-    width: 87%;
+    background: url(../img/page3/bg.png);
+    width: 90%;
+    min-height: 50vh;
+    bottom: 5rem;
   }
   .meditape {
     margin-bottom: 0rem;
@@ -6438,13 +6476,6 @@ section {
     right: 0;
     top: 1rem;
   }
-  .rules .bg .square {
-    right: 0;
-    transform: translate3d(-22rem, 0rem, 0);
-  }
-  .rules .bg .square img {
-    width: 75%;
-  }
   .rules .logo {
     padding-top: 2rem;
     margin-left: 2rem;
@@ -6469,11 +6500,19 @@ section {
   .rules .first .wachin img {
     margin-top: 1rem;
   }
+  .rules .square {
+    position: absolute;
+    background: url(../img/page5/bg.png);
+    min-height: 45vh;
+    width: 100%;
+    left: 0;
+    bottom: 6rem;
+  }
   .rules .letter {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(3.5rem, -8rem, 0);
+    transform: translate3d(2rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
@@ -6490,12 +6529,6 @@ section {
   .sleep {
     padding-bottom: 4rem;
   }
-  .sleep .bg {
-    transform: translate3d(44rem, 0.5rem, 0);
-  }
-  .sleep .bg img {
-    width: 70%;
-  }
   .sleep .logo {
     padding-top: 2rem;
     margin-left: 2rem;
@@ -6510,10 +6543,18 @@ section {
   .sleep .early p {
     color: #FFFFFF;
   }
+  .sleep .bg {
+    position: absolute;
+    background: url(../img/page6/square.png);
+    width: 100%;
+    min-height: 32vh;
+    left: -8rem;
+    bottom: 6rem;
+  }
   .sleep .letter {
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(-5rem, -8rem, 0);
+    transform: translate3d(-6rem, -8rem, 0);
     background-color: white;
   }
   .sleep .letter img {
@@ -6803,7 +6844,7 @@ section {
   }
   .listen .text {
     text-align: center;
-    margin-left: -10rem;
+    margin-left: -5rem;
     width: 100%;
   }
   .listen .text h1 {
@@ -6815,9 +6856,9 @@ section {
   .listen .block {
     background-color: white;
     width: 90%;
-    margin-left: -2rem;
+    margin-left: 3rem;
     padding: 8rem 2rem 3rem 4rem;
-    transform: translate3d(-2rem, -8rem, 0);
+    transform: translate3d(0rem, -8rem, 0);
   }
   .listen .block .name .H {
     margin-top: 2rem;
@@ -6830,10 +6871,10 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(55rem, 4.5rem, 0);
-  }
-  .listen .bg img {
-    width: 87%;
+    background: url(../img/page3/bg.png);
+    width: 90%;
+    min-height: 60vh;
+    bottom: 5rem;
   }
   .meditape {
     margin-bottom: 0rem;
@@ -6893,13 +6934,6 @@ section {
     right: 0;
     top: 1rem;
   }
-  .rules .bg .square {
-    right: 0;
-    transform: translate3d(-24.5rem, 0rem, 0);
-  }
-  .rules .bg .square img {
-    width: 70%;
-  }
   .rules .logo {
     padding-top: 2rem;
     margin-left: 2rem;
@@ -6924,11 +6958,19 @@ section {
   .rules .first .wachin img {
     margin-top: 1rem;
   }
+  .rules .square {
+    position: absolute;
+    background: url(../img/page5/bg.png);
+    min-height: 42vh;
+    width: 100%;
+    left: 0;
+    bottom: 6rem;
+  }
   .rules .letter {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(3.5rem, -8rem, 0);
+    transform: translate3d(2rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
@@ -6945,12 +6987,6 @@ section {
   .sleep {
     padding-bottom: 4rem;
   }
-  .sleep .bg {
-    transform: translate3d(47rem, 0.5rem, 0);
-  }
-  .sleep .bg img {
-    width: 70%;
-  }
   .sleep .logo {
     padding-top: 2rem;
     margin-left: 2rem;
@@ -6965,10 +7001,18 @@ section {
   .sleep .early p {
     color: #FFFFFF;
   }
+  .sleep .bg {
+    position: absolute;
+    background: url(../img/page6/square.png);
+    width: 100%;
+    min-height: 32vh;
+    left: -8rem;
+    bottom: 6rem;
+  }
   .sleep .letter {
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(-5rem, -8rem, 0);
+    transform: translate3d(-6rem, -8rem, 0);
     background-color: white;
   }
   .sleep .letter img {
@@ -7262,7 +7306,7 @@ section {
   }
   .listen .text {
     text-align: center;
-    margin-left: -10rem;
+    margin-left: -5rem;
     width: 90%;
   }
   .listen .text h1 {
@@ -7274,9 +7318,9 @@ section {
   .listen .block {
     background-color: white;
     width: 80%;
-    margin-left: -2rem;
+    margin-left: 3rem;
     padding: 8rem 2rem 3rem 4rem;
-    transform: translate3d(-5rem, -8rem, 0);
+    transform: translate3d(0rem, -8rem, 0);
   }
   .listen .block .name .H {
     margin-top: 2rem;
@@ -7289,10 +7333,10 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(60.5rem, 5rem, 0);
-  }
-  .listen .bg img {
-    width: 87%;
+    background: url(../img/page3/bg.png);
+    width: 80%;
+    min-height: 60vh;
+    bottom: 5rem;
   }
   .meditape {
     margin-bottom: 0rem;
@@ -7352,13 +7396,6 @@ section {
     right: 0;
     top: 1rem;
   }
-  .rules .bg .square {
-    right: 0;
-    transform: translate3d(-34.5rem, 0rem, 0);
-  }
-  .rules .bg .square img {
-    width: 70%;
-  }
   .rules .logo {
     padding-top: 2rem;
     margin-left: 2rem;
@@ -7383,11 +7420,19 @@ section {
   .rules .first .wachin img {
     margin-top: 1rem;
   }
+  .rules .square {
+    position: absolute;
+    background: url(../img/page5/bg.png);
+    min-height: 38vh;
+    width: 100%;
+    left: 0;
+    bottom: 6rem;
+  }
   .rules .letter {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(3.5rem, -8rem, 0);
+    transform: translate3d(2rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
@@ -7400,12 +7445,6 @@ section {
     position: absolute;
     right: 0;
     transform: translate3d(20rem, -26rem, 0);
-  }
-  .sleep .bg {
-    transform: translate3d(53rem, 0.5rem, 0);
-  }
-  .sleep .bg img {
-    width: 70%;
   }
   .sleep .logo {
     padding-top: 2rem;
@@ -7421,10 +7460,18 @@ section {
   .sleep .early p {
     color: #FFFFFF;
   }
+  .sleep .bg {
+    position: absolute;
+    background: url(../img/page6/square.png);
+    width: 100%;
+    min-height: 28vh;
+    left: -8rem;
+    bottom: 6rem;
+  }
   .sleep .letter {
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(-5rem, -8rem, 0);
+    transform: translate3d(-6rem, -8rem, 0);
     background-color: white;
   }
   .sleep .letter img {
@@ -7730,7 +7777,7 @@ section {
   }
   .listen .text {
     text-align: center;
-    margin-left: -10rem;
+    margin-left: -5rem;
     width: 90%;
   }
   .listen .text h1 {
@@ -7742,9 +7789,9 @@ section {
   .listen .block {
     background-color: white;
     width: 80%;
-    margin-left: -2rem;
+    margin-left: 3rem;
     padding: 8rem 2rem 3rem 4rem;
-    transform: translate3d(-10rem, -8rem, 0);
+    transform: translate3d(0rem, -8rem, 0);
   }
   .listen .block .name .H {
     margin-top: 2rem;
@@ -7757,10 +7804,10 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(60rem, 2.5rem, 0);
-  }
-  .listen .bg img {
-    width: 87%;
+    background: url(../img/page3/bg.png);
+    width: 80%;
+    min-height: 60vh;
+    bottom: 5rem;
   }
   .meditape {
     margin-bottom: 0rem;
@@ -7823,13 +7870,6 @@ section {
   .rules .bg .ellipse img {
     width: 130%;
   }
-  .rules .bg .square {
-    right: 0;
-    transform: translate3d(-39.5rem, 0rem, 0);
-  }
-  .rules .bg .square img {
-    width: 70%;
-  }
   .rules .logo {
     padding-top: 2rem;
     margin-left: 2rem;
@@ -7854,11 +7894,19 @@ section {
   .rules .first .wachin img {
     margin-top: 1rem;
   }
+  .rules .square {
+    position: absolute;
+    background: url(../img/page5/bg.png);
+    min-height: 38vh;
+    width: 100%;
+    left: 0;
+    bottom: 6rem;
+  }
   .rules .letter {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(3.5rem, -8rem, 0);
+    transform: translate3d(2rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
@@ -7874,12 +7922,6 @@ section {
   .rules .secondBG img {
     width: 120%;
   }
-  .sleep .bg {
-    transform: translate3d(58rem, 0.5rem, 0);
-  }
-  .sleep .bg img {
-    width: 65%;
-  }
   .sleep .logo {
     padding-top: 2rem;
     margin-left: 2rem;
@@ -7894,10 +7936,18 @@ section {
   .sleep .early p {
     color: #FFFFFF;
   }
+  .sleep .bg {
+    position: absolute;
+    background: url(../img/page6/square.png);
+    width: 100%;
+    min-height: 28vh;
+    left: -11rem;
+    bottom: 6rem;
+  }
   .sleep .letter {
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(-5rem, -8rem, 0);
+    transform: translate3d(-9rem, -8rem, 0);
     background-color: white;
   }
   .sleep .letter img {
@@ -8202,7 +8252,7 @@ section {
   }
   .listen .text {
     text-align: center;
-    margin-left: -15rem;
+    margin-left: -5rem;
     width: 80%;
   }
   .listen .text h1 {
@@ -8214,9 +8264,9 @@ section {
   .listen .block {
     background-color: white;
     width: 80%;
-    margin-left: -2rem;
+    margin-left: 3rem;
     padding: 8rem 2rem 3rem 4rem;
-    transform: translate3d(-12rem, -8rem, 0);
+    transform: translate3d(0rem, -8rem, 0);
   }
   .listen .block .name .H {
     margin-top: 2rem;
@@ -8231,10 +8281,10 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(63.5rem, 2.5rem, 0);
-  }
-  .listen .bg img {
-    width: 87%;
+    background: url(../img/page3/bg.png);
+    width: 80%;
+    min-height: 60vh;
+    bottom: 5rem;
   }
   .meditape {
     margin-bottom: 0rem;
@@ -8297,13 +8347,6 @@ section {
   .rules .bg .ellipse img {
     width: 130%;
   }
-  .rules .bg .square {
-    right: 0;
-    transform: translate3d(-43.5rem, 0rem, 0);
-  }
-  .rules .bg .square img {
-    width: 60%;
-  }
   .rules .logo {
     padding-top: 2rem;
     margin-left: 2rem;
@@ -8328,11 +8371,19 @@ section {
   .rules .first .wachin img {
     margin-top: 1rem;
   }
+  .rules .square {
+    position: absolute;
+    background: url(../img/page5/bg.png);
+    min-height: 38vh;
+    width: 100%;
+    left: 0;
+    bottom: 6rem;
+  }
   .rules .letter {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(3.5rem, -8rem, 0);
+    transform: translate3d(2rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
@@ -8351,12 +8402,6 @@ section {
   .sleep {
     padding-bottom: 4rem;
   }
-  .sleep .bg {
-    transform: translate3d(63rem, 0.5rem, 0);
-  }
-  .sleep .bg img {
-    width: 65%;
-  }
   .sleep .logo {
     padding-top: 2rem;
     margin-left: 2rem;
@@ -8371,10 +8416,18 @@ section {
   .sleep .early p {
     color: #FFFFFF;
   }
+  .sleep .bg {
+    position: absolute;
+    background: url(../img/page6/square.png);
+    width: 100%;
+    min-height: 28vh;
+    left: -11rem;
+    bottom: 6rem;
+  }
   .sleep .letter {
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(-5rem, -8rem, 0);
+    transform: translate3d(-9rem, -8rem, 0);
     background-color: white;
   }
   .sleep .letter img {
@@ -8679,7 +8732,7 @@ section {
   }
   .listen .text {
     text-align: center;
-    margin-left: -15rem;
+    margin-left: -5rem;
     width: 70%;
   }
   .listen .text h1 {
@@ -8691,9 +8744,9 @@ section {
   .listen .block {
     background-color: white;
     width: 75%;
-    margin-left: -2rem;
+    margin-left: 3rem;
     padding: 8rem 2rem 3rem 4rem;
-    transform: translate3d(-20rem, -8rem, 0);
+    transform: translate3d(0rem, -8rem, 0);
   }
   .listen .block .name .H {
     margin-top: 2rem;
@@ -8708,10 +8761,10 @@ section {
   }
   .listen .bg {
     position: absolute;
-    transform: translate3d(66.5rem, 6rem, 0);
-  }
-  .listen .bg img {
-    width: 77%;
+    background: url(../img/page3/bg.png);
+    width: 75%;
+    min-height: 60vh;
+    bottom: 5rem;
   }
   .meditape {
     margin-bottom: 0rem;
@@ -8774,13 +8827,6 @@ section {
   .rules .bg .ellipse img {
     width: 130%;
   }
-  .rules .bg .square {
-    right: 0;
-    transform: translate3d(-56rem, 0rem, 0);
-  }
-  .rules .bg .square img {
-    width: 60%;
-  }
   .rules .logo {
     padding-top: 2rem;
     margin-left: 2rem;
@@ -8805,11 +8851,19 @@ section {
   .rules .first .wachin img {
     margin-top: 1rem;
   }
+  .rules .square {
+    position: absolute;
+    background: url(../img/page5/bg.png);
+    min-height: 38vh;
+    width: 100%;
+    left: 0;
+    bottom: 6rem;
+  }
   .rules .letter {
     background-color: white;
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(3.5rem, -8rem, 0);
+    transform: translate3d(2rem, -8rem, 0);
   }
   .rules .letter img {
     position: absolute;
@@ -8828,12 +8882,6 @@ section {
   .sleep {
     padding-bottom: 4rem;
   }
-  .sleep .bg {
-    transform: translate3d(72rem, 0.5rem, 0);
-  }
-  .sleep .bg img {
-    width: 60%;
-  }
   .sleep .logo {
     padding-top: 2rem;
     margin-left: 2rem;
@@ -8848,10 +8896,18 @@ section {
   .sleep .early p {
     color: #FFFFFF;
   }
+  .sleep .bg {
+    position: absolute;
+    background: url(../img/page6/square.png);
+    width: 100%;
+    min-height: 28vh;
+    left: -13rem;
+    bottom: 6rem;
+  }
   .sleep .letter {
     padding: 8rem 4rem 3rem 5rem;
     position: relative;
-    transform: translate3d(-5rem, -8rem, 0);
+    transform: translate3d(-11rem, -8rem, 0);
     background-color: white;
   }
   .sleep .letter img {
