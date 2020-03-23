@@ -731,54 +731,6 @@ section {
 .last .second .link a {
   color: #E4B3BA;
 }
-.scene {
-  position: absolute;
-  margin-top: -8rem;
-}
-.scene .bouble1 {
-  -webkit-transform: translate3d(10rem, 0rem, 0);
-          transform: translate3d(10rem, 0rem, 0);
-}
-.scene .bouble11 {
-  -webkit-transform: translate3d(15rem, 0rem, 0);
-          transform: translate3d(15rem, 0rem, 0);
-}
-.scene .bouble2 {
-  -webkit-transform: translate3d(17rem, -2rem, 0);
-          transform: translate3d(17rem, -2rem, 0);
-}
-.scene .bouble21 {
-  -webkit-transform: translate3d(15rem, -4rem, 0);
-          transform: translate3d(15rem, -4rem, 0);
-}
-.scene .bouble3 {
-  -webkit-transform: translate3d(8rem, 0rem, 0);
-          transform: translate3d(8rem, 0rem, 0);
-}
-.scene .bouble31 {
-  -webkit-transform: translate3d(12rem, -3rem, 0);
-          transform: translate3d(12rem, -3rem, 0);
-}
-.scene .bouble4 {
-  -webkit-transform: translate3d(20rem, -5rem, 0);
-          transform: translate3d(20rem, -5rem, 0);
-}
-.scene .bouble41 {
-  -webkit-transform: translate3d(7rem, 0rem, 0);
-          transform: translate3d(7rem, 0rem, 0);
-}
-.scene .bouble5 {
-  -webkit-transform: translate3d(10rem, 0rem, 0);
-          transform: translate3d(10rem, 0rem, 0);
-}
-.scene .bouble51 {
-  -webkit-transform: translate3d(15rem, 0rem, 0);
-          transform: translate3d(15rem, 0rem, 0);
-}
-.scene .bouble7 {
-  -webkit-transform: translate3d(0rem, 2rem, 0);
-          transform: translate3d(0rem, 2rem, 0);
-}
 /* <=576 - Extra Small .col- */
 @media (min-width: 320px) and (max-width: 359.98px) {
   section {
