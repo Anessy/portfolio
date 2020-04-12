@@ -237,6 +237,7 @@ a:hover {
   font-size: 20px;
   line-height: 28px;
   color: #FFFFFF;
+  width: 105%;
 }
 .advices .block__BG {
   position: relative;
