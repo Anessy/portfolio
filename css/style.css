@@ -10,12 +10,15 @@ body {
 a:hover {
   text-decoration: none;
 }
+
 button:focus,
 input:focus,
 a:focus,
 textarea:focus {
   outline: none;
 }
+
+
 .link {
   text-align: center;
 }
@@ -229,3 +232,4 @@ body .am-expanded.am-modal.modal3 .am-expanded.am-back {
             transform: translateY(0%);
   }
 }
+
