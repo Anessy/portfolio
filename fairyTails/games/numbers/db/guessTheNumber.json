@@ -1,0 +1,31 @@
+[
+  
+  {
+    "page": "1",
+    "number": "./img/m1.png",
+    "answer1": "./img/2.png",
+    "answer2": "./img/5.png",
+    "answer3": "./img/3.png",
+    "answer4": "./img/1.png",
+    "whatNumber": "15"
+  },
+  {
+    "page": "2",
+    "number": "./img/f2.png",
+    "answer1": "./img/4.png",
+    "answer2": "./img/6.png",
+    "answer3": "./img/2.png",
+    "answer4": "./img/3.png",
+    "whatNumber": "15"
+  }, 
+  {
+    "page": "19",
+    "number": "./img/win.png",
+    "answer1": "./img/theEnd.png",
+    "answer2": "./img/theEnd.png",
+    "answer3": "./img/theEnd.png",
+    "answer4": "./img/theEnd.png",
+    "whatNumber": "15"
+  }
+  
+]

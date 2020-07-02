@@ -1,0 +1,89 @@
+a:hover {
+  outline: none;
+  text-decoration: none;
+}
+.big-container {
+  min-height: 100vh;
+  background: url(../../img/numbersBG.jpg) center no-repeat;
+  background-size: cover;
+}
+.big-container h1 {
+  font-size: 3rem;
+}
+.prew,
+.next {
+  position: absolute;
+  top: 40vh;
+  z-index: 999;
+}
+.prew img,
+.next img {
+  width: 8vw;
+  opacity: 0.9;
+}
+.prew img:hover,
+.next img:hover {
+  opacity: 1;
+}
+.next {
+  left: 90vw;
+}
+.numder {
+  border: 1px solid black;
+  margin: 0;
+  background-color: #ffffff;
+}
+.numder img {
+  width: 100%;
+}
+.question-img {
+  border: 1px solid black;
+  margin: 0;
+  background-color: #ffffff;
+}
+.answer-img {
+  border: 1px solid black;
+  margin: 0;
+  background-color: #ffffff;
+}
+.question-img:hover {
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  background-color: #ddfaa8;
+}
+.all {
+  border: 1px solid black;
+  padding: 2rem;
+  background-color: #ffffff;
+}
+.all img {
+  width: 100%;
+}
+.answer1,
+.answer2,
+.answer3,
+.answer4 {
+  -webkit-box-shadow: 2px 2px 5px black;
+          box-shadow: 2px 2px 5px black;
+}
+.answer1:hover {
+  border: 1px solid black;
+}
+.answer2:hover {
+  border: 1px solid black;
+}
+.answer3:hover {
+  border: 1px solid black;
+}
+.answer4:hover {
+  border: 1px solid black;
+}
+.linkOfPage {
+  padding-top: 1rem;
+}
+.green {
+  background-color: #abfdab;
+}
+.red {
+  background-color: #f76464;
+}

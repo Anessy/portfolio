@@ -1,0 +1,118 @@
+[
+  
+  {
+    "page": "1",
+    "number": "./img/p15.jpg",
+    "answer": "./img/15.png",
+    "whatNumber": "15"
+  },
+  {
+    "page": "2",
+    "number": "./img/el16.jpg",
+    "answer": "./img/16.png",
+    "whatNumber": "16"
+  },
+  {
+    "page": "3",
+    "number": "./img/sq15.jpg",
+    "answer": "./img/15.png",
+    "whatNumber": "15"
+  },
+  {
+    "page": "4",
+    "number": "./img/p16.jpg",
+    "answer": "./img/16.png",
+    "whatNumber": "16"
+  },
+  {
+    "page": "5",
+    "number": "./img/el17.jpg",
+    "answer": "./img/17.png",
+    "whatNumber": "17"
+  },
+  {
+    "page": "6",
+    "number": "./img/sq18.jpg",
+    "answer": "./img/18.png",
+    "whatNumber": "18"
+  },
+  {
+    "page": "7",
+    "number": "./img/p17.jpg",
+    "answer": "./img/17.png",
+    "whatNumber": "17"
+  },
+  {
+    "page": "8",
+    "number": "./img/sq19.jpg",
+    "answer": "./img/19.png",
+    "whatNumber": "19"
+  },
+  {
+    "page": "9",
+    "number": "./img/el15.jpg",
+    "answer": "./img/15.png",
+    "whatNumber": "15"
+  },
+  {
+    "page": "10",
+    "number": "./img/p18.jpg",
+    "answer": "./img/18.png",
+    "whatNumber": "18"
+  }, 
+  {
+    "page": "11",
+    "number": "./img/sq20.jpg",
+    "answer": "./img/20.png",
+    "whatNumber": "20"
+  },
+  {
+    "page": "12",
+    "number": "./img/el18.jpg",
+    "answer": "./img/18.png",
+    "whatNumber": "18"
+  }, 
+  {
+    "page": "13",
+    "number": "./img/p19.jpg",
+    "answer": "./img/19.png",
+    "whatNumber": "19"
+  }, 
+  {
+    "page": "14",
+    "number": "./img/el20.jpg",
+    "answer": "./img/20.png",
+    "whatNumber": "20"
+  }, 
+  {
+    "page": "15",
+    "number": "./img/sq16.jpg",
+    "answer": "./img/16.png",
+    "whatNumber": "16"
+  },
+  {
+    "page": "16",
+    "number": "./img/p20.jpg",
+    "answer": "./img/20.png",
+    "whatNumber": "20"
+  },
+  {
+    "page": "17",
+    "number": "./img/el19.jpg",
+    "answer": "./img/19.png",
+    "whatNumber": "19"
+  }, 
+  {
+    "page": "18",
+    "number": "./img/sq17.jpg",
+    "answer": "./img/17.png",
+    "whatNumber": "17"
+  }, 
+  {
+    "page": "19",
+    "number": "./img/win.png",
+    "answer": "./img/theEnd.png",
+    "whatNumber": "15"
+  }
+  
+]
