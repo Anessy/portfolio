@@ -115,20 +115,23 @@ header {
   .swiper-slide-active {
     color: #580300;
     opacity: 0.8;
-    margin-left: 14vw;
+    //margin-left: 14vw;
+    //transform: translate3d(14vw, 0, 0);
   }
   .swiper-slide-next {
-    margin-left: 12vw;
+    //margin-left: 12vw;
+    transform: translate3d(14vw, 0, 0);
   }
   .swiper-slide-prev {
-    margin-left: -14vw;
+    transform: translate3d(-14vw, 0, 0);
+    //margin-left: -14vw;
   }
 }
 
 .bg-for-swipper {
   position: absolute;
   .js-girl1{
-    transform: translate3d(28vw, 25vh, 0rem);
+    transform: translate3d(28vw, 28vh, 0rem);
   }
   .js-girl2{
     transform: translate3d(40vw, 13vh, 0rem);
@@ -150,9 +153,9 @@ header {
 }
 
 footer {
-  margin-left: 4rem;
-  margin-top: 23vh;
-  
+  position: absolute;
+  bottom: 3rem;
+  left: 3rem;
 }
 
 .line {
@@ -209,13 +212,11 @@ footer {
       margin: 0.5rem;
     }
   }
-
   .logo {
     img {
       width: 100%;
     }
   }
-  
   .swiper {
     .swiper-slide {
       font-size: 48px;
@@ -228,17 +229,14 @@ footer {
     .swiper-slide-active {
       color: #580300;
       opacity: 0.8;
-      margin-left: 34vw;
     }
     .swiper-slide-next {
-      margin-left: 33vw;
+      transform: translate3d(33vw, 0, 0);
     }
     .swiper-slide-prev {
-      margin-left: -30vw;
+      transform: translate3d(-33vw, 0, 0);
     }
-    
   }
-  
   .bg-for-swipper {
     position: absolute;
       img {
@@ -263,7 +261,8 @@ footer {
     img {
       width: 100%;
     }
-    margin-top: 9vh;
+    bottom: 2rem;
+    left: 2rem;
   }
  }
 @media (min-width: 374px) and (max-width: 413.98px) {
@@ -282,36 +281,31 @@ footer {
       margin: 0.5rem;
     }
   }
-
   .logo {
     img {
       width: 100%;
     }
   }
-  
   .swiper {
     .swiper-slide {
       font-size: 48px;
       letter-spacing: 4px;
       .text {
         min-width: 72vw;
-        margin: 30vh 0;
+        margin: 28vh 0;
       }
     }
     .swiper-slide-active {
       color: #580300;
       opacity: 0.8;
-      margin-left: 26vw;
     }
     .swiper-slide-next {
-      margin-left: 26vw;
+      transform: translate3d(26vw, 0, 0);
     }
     .swiper-slide-prev {
-      margin-left: -28vw;
+      transform: translate3d(-26vw, 0, 0);
     }
-    
   }
-  
   .bg-for-swipper {
     position: absolute;
       img {
@@ -336,7 +330,8 @@ footer {
     img {
       width: 100%;
     }
-    margin-top: 9vh;
+    right: 2rem;
+    bottom: 2rem;;
   }
  }
 @media (min-width: 413px) and (max-width: 573.98px) {
@@ -355,13 +350,11 @@ footer {
       margin: 0.5rem;
     }
   }
-
   .logo {
     img {
       width: 100%;
     }
   }
-  
   .swiper {
     .swiper-slide {
       font-size: 4rem;
@@ -374,17 +367,15 @@ footer {
     .swiper-slide-active {
       color: #580300;
       opacity: 0.8;
-      margin-left: 16vw;
+      transform: translate3d(-8vw, 0, 0);
     }
     .swiper-slide-next {
-      margin-left: 12vw;
+      transform: translate3d(12vw, 0, 0);
     }
     .swiper-slide-prev {
-      margin-left: -24vw;
+      transform: translate3d(-24vw, 0, 0);
     }
-    
   }
-  
   .bg-for-swipper {
     position: absolute;
       img {
@@ -409,29 +400,27 @@ footer {
     img {
       width: 100%;
     }
-    margin-top: 9vh;
+    bottom: 2rem;
   }
  }
 @media (min-width: 574px) and (max-width: 766.98px){
   header {
-    padding: 2rem 2rem;
+    padding: 3rem 3rem;
   }
   .menu {
     position: absolute;
-      top: 3rem; 
-      right: 2rem;
+      top: 4rem; 
+      right: 3rem;
     a {
       font-size: 1rem;
       margin: 0.5rem;
     }
   }
-
   .logo {
     img {
       width: 100%;
     }
   }
-  
   .swiper {
     .swiper-slide {
       font-size: 4rem;
@@ -441,7 +430,6 @@ footer {
         margin: 32vh 0;
       }
     }
-    
   }
   
   .bg-for-swipper {
@@ -468,7 +456,7 @@ footer {
     img {
       width: 100%;
     }
-    margin-top: 9vh;
+    bottom: 2rem;
   }
  }
 @media (min-width: 767px) and (max-width: 991.98px){
@@ -583,7 +571,7 @@ footer {
     margin-top: 20vh;
   }
  }
-@media (min-width: 1023px) and (max-width: 1438.98px) {
+@media (min-width: 1023px) and (max-width: 1276.98px) {
   header {
     padding: 2rem 2rem;
   }
@@ -636,62 +624,124 @@ footer {
     img {
       width: 100%;
     }
-    margin-top: 15vh;
+    bottom: 2rem;
+    left: 2rem;
   }
  }
-// @media (min-width: 1439px) and (max-width: 1598.98px) {
-//   .menu {
-//     a {
-//       font-size: 1rem;
-//       margin: 0.5rem;
-//     }
-//   }
+ @media (min-width: 1277px) and (max-width: 1399.98px) {
+  header {
+    padding: 2rem 2rem;
+  }
+  .menu {
+    a {
+      font-size: 1rem;
+      margin: 0.5rem;
+    }
+  }
 
-//   .logo {
-//     img {
-//       width: 100%;
-//     }
-//   }
+  .logo {
+    img {
+      width: 100%;
+    }
+  }
   
-//   .swiper {
-//     .swiper-slide {
-//       font-size: 9rem;
-//       letter-spacing: 14px;
-//       .text {
-//         min-width: 46vw;
-//         margin: 20vh 0;
-//       }
-//     }
-//   }
+  .swiper {
+    .swiper-slide {
+      font-size: 6rem;
+      letter-spacing: 14px;
+      .text {
+        min-width: 48vw;
+        margin: 24vh 0;
+      }
+    }
+    
+  }
   
-//   .bg-for-swipper {
-//     position: absolute;
-//       img {
-//         width: 160%;
-//       }
-//       .girl2 {
-//         img {
-//           width: 35vw;
-//         }
-//       }
-//     .js-girl1{
-//       transform: translate3d(14vw, 25vh, 0rem);
-//     }
-//     .js-girl2{
-//       transform: translate3d(33vw, 11vh, 0rem);
-//     }
-//     .js-girl3{
-//       transform: translate3d(64vw, 63vh, 0rem);
-//     }
-//   }
-//   footer {
-//     img {
-//       width: 200%;
-//     }
-//     margin-top: 15vh;
-//   }
-//  }
+  .bg-for-swipper {
+    position: absolute;
+      img {
+        width: 120%;
+      }
+      .girl2 {
+        img {
+          width: 33vw;
+        }
+      }
+    .js-girl1{
+      transform: translate3d(17vw, 28vh, 0rem);
+    }
+    .js-girl2{
+      transform: translate3d(34vw, 12vh, 0rem);
+    }
+    .js-girl3{
+      transform: translate3d(64vw, 64vh, 0rem);
+    }
+  }
+  footer {
+    img {
+      width: 100%;
+    }
+    bottom: 2rem;
+    left: 2rem;
+  }
+ }
+
+
+@media (min-width: 1439px) and (max-width: 1598.98px) {
+  .menu {
+    a {
+      font-size: 1rem;
+      margin: 0.5rem;
+    }
+  }
+
+  .logo {
+    img {
+      width: 100%;
+    }
+  }
+  
+  .swiper {
+    .swiper-slide {
+      font-size: 9rem;
+      letter-spacing: 14px;
+      .text {
+        min-width: 46vw;
+        margin: 20vh 0;
+      }
+    }
+  }
+  
+  .bg-for-swipper {
+    position: absolute;
+      img {
+        width: 160%;
+      }
+      .girl2 {
+        img {
+          width: 35vw;
+        }
+      }
+    .js-girl1{
+      transform: translate3d(14vw, 25vh, 0rem);
+    }
+    .js-girl2{
+      transform: translate3d(33vw, 11vh, 0rem);
+    }
+    .js-girl3{
+      transform: translate3d(64vw, 63vh, 0rem);
+    }
+  }
+  footer {
+    img {
+      width: 100%;
+    }
+  }
+ }
 @media (min-width: 1599px) and (max-width: 1678.98px) {
+  section {
+    background-size: 45%;
+  }
   .menu {
     a {
       font-size: 1.5rem;
@@ -738,12 +788,14 @@ footer {
   }
   footer {
     img {
-      width: 200%;
+      width: 100%;
     }
-    margin-top: 15vh;
   }
  }
 @media (min-width: 1679px) and (max-width: 1918.98px) {
+  section {
+    background-size: 45%;
+  }
   .menu {
     a {
       font-size: 2rem;
@@ -791,12 +843,14 @@ footer {
   }
   footer {
     img {
-      width: 200%;
+      width: 100%;
     }
-    margin-top: 17vh;
   }
  }
 @media (min-width: 1919px) and (max-width: 2046.98px) {
+  section {
+    background-size: 45%;
+  }
   .menu {
     a {
       font-size: 2rem;
@@ -844,22 +898,24 @@ footer {
   }
   footer {
     img {
-      width: 200%;
+      width: 100%;
     }
-    margin-top: 22vh;
   }
  }
 @media (min-width: 2047px) and (max-width: 2198.98px){
+  section {
+    background-size: 45%;
+  }
   .menu {
     a {
-      font-size: 3rem;
-      margin: 2.5rem;
+      font-size: 2rem;
+      margin: 2rem;
     }
   }
 
   .logo {
     img {
-      width: 200%;
+      width: 150%;
     }
   }
   
@@ -897,16 +953,18 @@ footer {
   }
   footer {
     img {
-      width: 200%;
+      width: 100%;
     }
-    margin-top: 18vh;
   }
  }
 @media (min-width: 2199px) and (max-width: 2498.98px) { 
+  section {
+    background-size: 40%;
+  }
   .menu {
     a {
-      font-size: 3rem;
-      margin: 2.5rem;
+      font-size: 2rem;
+      margin: 2rem;
     }
   }
 
@@ -931,7 +989,7 @@ footer {
   .bg-for-swipper {
     position: absolute;
       img {
-        width: 230%;
+        width: 200%;
       }
       .girl2 {
         img {
@@ -939,7 +997,7 @@ footer {
         }
       }
     .js-girl1{
-      transform: translate3d(18vw, 25vh, 0rem);
+      transform: translate3d(20vw, 23vh, 0rem);
     }
     .js-girl2{
       transform: translate3d(36vw, 13vh, 0rem);
@@ -950,15 +1008,17 @@ footer {
   }
   footer {
     img {
-      width: 200%;
+      width: 100%;
     }
-    margin-top: 18vh;
   }
 }
 @media (min-width: 2499px) { 
+  section {
+    background-size: 45%;
+  }
   .menu {
     a {
-      font-size: 3rem;
+      font-size: 2.5rem;
       margin: 2.5rem;
     }
   }
@@ -1003,8 +1063,8 @@ footer {
   }
   footer {
     img {
-      width: 200%;
+      width: 100%;
     }
-    margin-top: 26vh;
+    
   }
 }
