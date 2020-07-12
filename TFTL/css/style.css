@@ -114,6 +114,9 @@ section {
 header {
   padding: 4rem 5rem;
 }
+.menu {
+  z-index: 999;
+}
 .menu a {
   display: block;
   font-family: 'TT Travels';
@@ -693,47 +696,6 @@ footer {
   footer {
     bottom: 2rem;
     left: 2rem;
-  }
-  footer img {
-    width: 100%;
-  }
-}
-@media (min-width: 1439px) and (max-width: 1598.98px) {
-  .menu a {
-    font-size: 1rem;
-    margin: 0.5rem;
-  }
-  .logo img {
-    width: 100%;
-  }
-  .swiper .swiper-slide {
-    font-size: 9rem;
-    letter-spacing: 14px;
-  }
-  .swiper .swiper-slide .text {
-    min-width: 46vw;
-    margin: 20vh 0;
-  }
-  .bg-for-swipper {
-    position: absolute;
-  }
-  .bg-for-swipper img {
-    width: 160%;
-  }
-  .bg-for-swipper .girl2 img {
-    width: 35vw;
-  }
-  .bg-for-swipper .js-girl1 {
-    -webkit-transform: translate3d(14vw, 25vh, 0rem);
-            transform: translate3d(14vw, 25vh, 0rem);
-  }
-  .bg-for-swipper .js-girl2 {
-    -webkit-transform: translate3d(33vw, 11vh, 0rem);
-            transform: translate3d(33vw, 11vh, 0rem);
-  }
-  .bg-for-swipper .js-girl3 {
-    -webkit-transform: translate3d(64vw, 63vh, 0rem);
-            transform: translate3d(64vw, 63vh, 0rem);
   }
   footer img {
     width: 100%;
