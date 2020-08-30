@@ -5,6 +5,9 @@ body {
   max-width: 64rem;
   margin: 0 auto;
 }
+.invisible {
+  display: none;
+}
 .results {
   display: grid;
   color: white;
@@ -21,12 +24,12 @@ body {
   font-weight: 800;
 }
 .results .results_issued {
-  background: url(../img/result/bg1.png) center no-repeat;
+  background: url(../img/result/resultBG1.jpg) center no-repeat;
   background-size: cover;
   padding: 2rem 5.4rem 3rem 5.4rem;
 }
 .results .results_got {
-  background: url(../img/result/bg2.png) center no-repeat;
+  background: url(../img/result/resultBG2.jpg) center no-repeat;
   background-size: cover;
   margin-top: 3.7rem;
   padding: 2rem 5.4rem 3rem 5.4rem;
