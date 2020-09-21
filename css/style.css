@@ -3,10 +3,17 @@
 html {
   font-size: 10px;
 }
-body {
+body h1, h2, h3{
   font-family: 'Philosopher', sans-serif;
   color: black;
 }
+
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #1f1f1f;
+  letter-spacing: 0.7px;
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -18,6 +25,9 @@ textarea:focus {
   outline: none;
 }
 
+.bold {
+  text-decoration: underline;
+}
 
 .link {
   text-align: center;
@@ -63,7 +73,7 @@ textarea:focus {
   margin-bottom: 3rem;
 }
 .about-text-img p {
-  font-family: 'Neucha', cursive;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.8rem;
 }
 .about-foto {
@@ -83,10 +93,13 @@ textarea:focus {
 }
 .about-foto-img img {
   width: 100%;
-  padding: 12rem 3rem 12rem 3rem;
+  padding: 8rem 3rem 8rem 3rem;
+}
+.experience {
+  margin-top: 6rem;
 }
 .tehnology h1 {
-  margin: 14rem 0 7rem 0;
+  margin: 7rem 0 4rem 0;
 }
 
 .myMODAL{
@@ -212,14 +225,36 @@ body .am-expanded.am-modal.modal3 .am-expanded.am-back {
   color: white;
   margin: 5rem 0rem;
 }
+.portfolio-card{
+  margin-top: 2rem;
+}
 .portfolio-img img {
   width: 100%;
-  margin-top: 3rem;
 }
 .portfolio-img img:hover {
   -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
           box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
   /* Параметры тени */
+}
+
+.portfolio-text {
+  background-color: rgba(0,0,0,0.4);
+}
+.portfolio-text p{
+  text-align: left;
+  color: white;
+  font-size: 18px;
+  padding: 5px 10px;
+  letter-spacing: 0.9px;
+}
+
+.portfolio-text a {
+  color: white;
+}
+
+.portfolio-text a:hover {
+  color: #000000;
+  text-shadow: 1px 1px 1px white;
 }
 /* на всех экранах меньше 1200px */
 @media (max-width: 767px) {
