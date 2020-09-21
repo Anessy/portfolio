@@ -37,6 +37,7 @@
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-45%,0);
 	font-size: 50px;
+	z-index: 999;
 }
 
 .main-title-h3{
@@ -49,6 +50,7 @@
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-55%,0);
 	transform: translate3d(-50%,-55%,0);
+	z-index: 999;
 }
 
 
