@@ -72,10 +72,7 @@ textarea:focus {
 .about-text-img h2 {
   margin-bottom: 3rem;
 }
-.about-text-img p {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1.8rem;
-}
+
 .about-foto {
   -webkit-transform: translate3D(-4rem,2rem,0rem);
           transform: translate3D(-4rem,2rem,0rem);
